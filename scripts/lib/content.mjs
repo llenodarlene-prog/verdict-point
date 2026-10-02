@@ -25,7 +25,7 @@ export async function readContent(file) {
 function inline(value) {
   let text = escapeHtml(value);
   text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)/g, '<img src="$2" alt="$1" title="$3" loading="lazy">');
-  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]*)\)/g, '<a href="$2">$1</a>');
+  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]*|mailto:[^)\s]+)\)/g, '<a href="$2">$1</a>');
   text = text.replace(/`([^`]+)`/g, '<code>$1</code>');
   text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/\*([^*]+)\*/g, '<em>$1</em>');
   return text;

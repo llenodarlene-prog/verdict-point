@@ -133,13 +133,20 @@ test('keyword research requires Ubersuggest and keeps historical Ahrefs data opt
   assert.ok(toolFailures(research).some(message => message.includes('Ubersuggest keyword research entry is missing')));
 });
 
-test('release manifest covers the complete launch set', async () => {
-  const [release, launch] = await Promise.all([
+test('release manifest defines a launch policy and keeps the 20-item plan as backlog', async () => {
+  const [release, launch, nav] = await Promise.all([
     readFile('data/release.json', 'utf8').then(JSON.parse),
-    readFile('data/launch-content-plan.json', 'utf8').then(JSON.parse)
+    readFile('data/launch-content-plan.json', 'utf8').then(JSON.parse),
+    readFile('data/navigation.json', 'utf8').then(JSON.parse)
   ]);
-  assert.deepEqual([...release.required_content_ids].sort(), launch.map(item => `${item.type}:${item.content_number}`).sort());
-  assert.equal(release.required_content_ids.length, 20);
+  assert.equal(release.schema_version, 2);
+  assert.equal(launch.length, 20, 'the original 20-item editorial plan is preserved');
+  assert.equal('required_content_ids' in release, false, 'no fixed launch-set requirement');
+  const policy = release.launch_policy;
+  assert.equal(policy.minimum_published_blogs, 1);
+  for (const item of [...nav.primary, ...nav.footer].filter(entry => entry.url.endsWith('/'))) assert.ok(policy.required_pages.includes(item.url), item.url);
+  assert.ok(policy.required_pages.includes('/privacy/') && policy.legal_pages.includes('/privacy/'));
+  assert.ok(policy.publication_cadence.trim());
 });
 
 test('build copies public assets and emits root server configuration', async () => {

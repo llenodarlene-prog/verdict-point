@@ -59,5 +59,24 @@ if (!/<updated>[^<]+<\/updated>/.test(feed)) failures.push('feed.xml missing upd
 const robotsText = await readFile(path.join(dist, 'robots.txt'), 'utf8').catch(() => '');
 if (shouldIndex && !robotsText.includes(`Sitemap: ${site.url}/sitemap.xml`)) failures.push('production robots.txt lacks canonical sitemap');
 if (!shouldIndex && !/Allow:\s*\//.test(robotsText)) failures.push('non-indexable robots.txt must remain crawlable for noindex discovery');
+// Production must not expose drafts anywhere: no page, link, listing, sitemap or feed entry, or structured-data URL.
+if (buildEnv === 'production') {
+  const draftRoutes = [];
+  for (const file of (await walk('content').catch(() => [])).filter(item => item.endsWith('.md'))) {
+    const head = (await readFile(file, 'utf8')).split(/\n---\n/)[0];
+    if (/^draft:\s*true\s*$/m.test(head)) { const slug = head.match(/^slug:\s*(\S+)\s*$/m)?.[1]; if (slug) draftRoutes.push(slug); }
+  }
+  const htmlByFile = await Promise.all(htmlFiles.map(async file => [path.relative(dist, file), await readFile(file, 'utf8')]));
+  for (const route of draftRoutes) {
+    const absolute = `${site.url.replace(/\/$/, '')}${route}`;
+    if (await exists(path.join(dist, route.replace(/^\//, ''), 'index.html'))) failures.push(`draft route ${route} was emitted into the production build`);
+    if (sitemap.includes(`<loc>${absolute}</loc>`)) failures.push(`draft route ${route} appears in sitemap.xml`);
+    if (feed.includes(absolute)) failures.push(`draft route ${route} appears in feed.xml`);
+    for (const [rel, html] of htmlByFile) {
+      if (html.includes(`href="${route}"`) || html.includes(`href="${absolute}"`)) failures.push(`${rel}: links to draft route ${route}`);
+      if ((html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)?.[1] || '').includes(absolute)) failures.push(`${rel}: structured data references draft route ${route}`);
+    }
+  }
+}
 if (failures.length) { console.error([...new Set(failures)].map(message => `ERROR: ${message}`).join('\n')); process.exit(1); }
 console.log(`Validated ${htmlFiles.length} generated HTML files with no errors.`);

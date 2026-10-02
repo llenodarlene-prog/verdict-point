@@ -16,7 +16,7 @@ if (site.tracker_sha256 !== provenance.sha256 || manifest.tracker_sha256 !== pro
 if (content.length !== 100) fail(`content plan must contain 100 records; found ${content.length}`);
 if (content.filter(item => item.type === 'Article').length !== 50) fail('content plan must contain 50 articles');
 if (content.filter(item => item.type === 'Blog').length !== 50) fail('content plan must contain 50 blogs');
-if (launch.length !== 20) fail(`launch plan must contain 20 records; found ${launch.length}`);
+if (launch.length !== 20) fail(`editorial backlog (launch plan) must contain its 20 planned records; found ${launch.length}`);
 if (links.length !== 20) fail(`interlinking plan must contain 20 records; found ${links.length}`);
 const architecturePrimary = architecture.filter(item => item.nav_type === 'Primary').map(item => `${item.main_navigation}|${item.url}`);
 const navigationPrimary = nav.primary.map(item => `${item.label}|${item.url}`);

@@ -9,6 +9,16 @@ test('Drive import recovers every launch draft deterministically and protects pu
   const root = await mkdtemp(path.join(tmpdir(), 'verdict-drive-'));
   try {
     for (const dir of ['data', 'content', 'sources', 'scripts']) await cp(dir, path.join(root, dir), { recursive: true });
+    // Start from the pre-publication state so the import can run; the test re-publishes one post below.
+    for (const item of JSON.parse(await readFile(path.join(root, 'data/launch-content-plan.json'), 'utf8'))) {
+      const posts = path.join(root, 'content/posts');
+      for (const name of (await import('node:fs')).readdirSync(posts)) {
+        const file = path.join(posts, name);
+        const text = await readFile(file, 'utf8');
+        if (text.includes(`tracker_id: ${item.type}:${item.content_number}
+`)) await writeFile(file, text.replace('draft: false', 'draft: true'));
+      }
+    }
     const run = () => spawnSync(process.execPath, ['scripts/import-drive-drafts.mjs'], { cwd: root, encoding: 'utf8' });
     const first = run(); assert.equal(first.status, 0, first.stderr);
     const reportPath = path.join(root, 'data/drive-import-report.json');

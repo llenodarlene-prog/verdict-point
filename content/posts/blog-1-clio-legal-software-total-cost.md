@@ -5,7 +5,7 @@ description: Compare Clio legal software pricing, payment fees, integrations, mi
 slug: /legal-tech/clio-legal-software-total-cost/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:1
 primary_keyword: clio legal software
 secondary_keywords: Clio pricing; legal software integrations
@@ -17,9 +17,9 @@ research_record: content/research/blog-1.json
 source_document: https://docs.google.com/document/d/1jx7o-_Qi6mYRahCYSmTVyO87OLkCpQK4okrDexIOjsE/edit?usp=drivesdk
 image: /assets/images/posts/clio-legal-software-total-cost/featured-budget-desk-1600.jpg
 image_alt: Law office desk with navy binders, a calculator, a desk clock, and a tablet showing cost charts
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-02
+modified: 2026-10-02
 ---
 
 # Clio Legal Software Costs: What Law Firms Should Budget for in 2026–2027
@@ -188,7 +188,7 @@ Yes, as a dated starting point. Recheck the plan price, payment fees, and connec
 
 ## Resources
 
-These official pages were checked on October 2, 2026. Recheck them before publication and before any purchase decision.
+These official pages were checked on October 2, 2026. Rates and plans change, so recheck them before any purchase decision.
 
 - **Clio Pricing:** [Clio Legal AI Software Pricing and Plans](https://www.clio.com/pricing/)
 - **Clio Payments Rates:** [Get Paid Faster With Legal Payment Processing Software](https://www.clio.com/compare/clio-vs-payment-solutions/)

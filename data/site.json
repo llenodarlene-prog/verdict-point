@@ -18,8 +18,8 @@
     "paper": "#F7F4ED",
     "charcoal": "#2B2F36"
   },
-  "launch_status": "pre-publication",
-  "verified_contact_details": false,
+  "launch_status": "ready",
+  "verified_contact_details": true,
   "tracker_sha256": "3ba9d361b58edf27e92463febe968f71740860342674557209f521b62a034fc7",
   "source_modified": "2026-09-22T17:43:01.793694"
 }
