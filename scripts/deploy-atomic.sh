@@ -6,6 +6,11 @@ set -euo pipefail
 : "${DEPLOY_ROOT:?DEPLOY_ROOT is required}"
 : "${SSH_KNOWN_HOSTS:?SSH_KNOWN_HOSTS is required}"
 
+deploy_port="${DEPLOY_PORT:-65002}"
+if [[ ! "$deploy_port" =~ ^[0-9]{1,5}$ ]] || (( 10#$deploy_port < 1 || 10#$deploy_port > 65535 )); then
+  echo "DEPLOY_PORT must be an integer from 1 to 65535" >&2; exit 2
+fi
+
 case "$DEPLOY_ROOT" in
   /|""|"$HOME"|"$HOME"/*) echo "Refusing unsafe DEPLOY_ROOT" >&2; exit 2 ;;
 esac
@@ -19,7 +24,7 @@ trap cleanup EXIT
 printf '%s\n' "$SSH_KNOWN_HOSTS" > "$known_hosts"
 printf '%s\n' "${DEPLOY_SSH_KEY:?DEPLOY_SSH_KEY is required}" > "$key_file"
 chmod 600 "$key_file"
-ssh_opts=(-i "$key_file" -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$known_hosts")
+ssh_opts=(-p "$deploy_port" -i "$key_file" -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$known_hosts")
 
 ssh "${ssh_opts[@]}" "$DEPLOY_USER@$DEPLOY_HOST" "mkdir -p '$DEPLOY_ROOT/releases/$release'"
 rsync -az --delete -e "ssh ${ssh_opts[*]}" dist/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_ROOT/releases/$release/"
