@@ -1,210 +1,481 @@
 {
   "tracker_id": "Blog:1",
-  "status": "scaffolded",
+  "status": "planned",
   "research_question": "Owned-page scope: Evaluating the Total Cost of Clio Legal Software. Planned sources and method: Clio official pricing and help documentation; cost a defined firm scenario. Build a source-labelled comparison covering Clio pricing and legal software integrations; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Give law firm buyers a dated, source-labelled method to estimate the full annual cost of Clio legal software beyond the listed Starter price.",
+    "audience": "Managing partners, COOs, and operations or billing leads at small and mid-sized U.S. law firms evaluating Clio for 2026-2027.",
+    "publication_year": "2026",
+    "data_period": "Vendor pricing, fee, and help-center pages as displayed on October 2, 2026",
+    "scope_limitations": "Desk research from public Clio pages only; no quote was requested and no hands-on product test was performed. Core, Signature, and Elite prices are quote-only and are not estimated. Calculations are illustrative arithmetic on published rates."
   },
   "keyword_research": {
     "approved_primary_keyword": "clio legal software",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-02",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-02"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained: volume 1500, KD 4, CPC $11, traffic potential 95000, AI Overview present. Not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "clio pricing",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 880,
+        "difficulty": 24,
+        "cpc": 29.23,
+        "intent": "Commercial",
+        "ranking_url": "https://www.clio.com/pricing/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "clio pricing plans",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 70,
+        "difficulty": 27,
+        "cpc": 31.64,
+        "intent": "Commercial",
+        "ranking_url": "https://www.clio.com/pricing/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "clio legal software",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1900,
+        "difficulty": 37,
+        "cpc": 49.74,
+        "intent": "Commercial",
+        "ranking_url": "https://www.clio.com/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "clio legal software cost",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 23,
+        "cpc": 17.95,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://tumetodosaas.com/en/clio-pricing-2026-worth-it/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much does clio legal software cost",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.selecthub.com/p/legal-practice-management-software/clio-manage/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.clio.com/pricing/",
+      "title": "Clio Legal AI Software Pricing & Plans",
+      "publisher": "Clio (Themis Solutions Inc.)",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "U.S. Clio Manage plans and add-ons",
+      "method": "Read live page text in browser on access date",
+      "limitations": "Only Starter shows a price; other tiers are quote-only. Vendor page; terms can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/compare/clio-vs-payment-solutions/",
+      "title": "Get Paid Faster With Legal Payment Processing Software",
+      "publisher": "Clio (Themis Solutions Inc.)",
+      "source_type": "Vendor product comparison page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "Clio Payments card and American Express rates",
+      "method": "Read live page text in browser on access date",
+      "limitations": "Vendor marketing page; no eCheck percentage stated; no effective date shown.",
+      "verified": true
+    },
+    {
+      "url": "https://help.clio.com/hc/en-us/articles/41863402264091-Clio-Payments-Accepted-Payment-Methods",
+      "title": "Review Accepted Payment Methods (Clio Help Center)",
+      "publisher": "Clio (Themis Solutions Inc.)",
+      "source_type": "Vendor help documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "Pay Later with Affirm fee, transaction limits, and eCheck limit",
+      "method": "Read live article in browser; page showed \"Updated 22 days ago\" on access date",
+      "limitations": "Help article can change; Pay Later fee applies to firm, not client.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/app-directory/",
+      "title": "Clio App Directory",
+      "publisher": "Clio (Themis Solutions Inc.)",
+      "source_type": "Vendor integration directory",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "Third-party integrations and their listed starting prices",
+      "method": "Checked five listing pages on access date",
+      "limitations": "Third-party prices set by each vendor and subject to change; listed as \"starting at\".",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/data-migration/",
+      "title": "Clio's Complimentary Data Migration",
+      "publisher": "Clio (Themis Solutions Inc.)",
+      "source_type": "Vendor service page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "Migration service scope, cost, and duration statements",
+      "method": "Read live page text in browser on access date",
+      "limitations": "Says complimentary for many common systems; complex or unsupported migrations may cost extra. No firm-specific scope.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/features/payments/freshstart/",
+      "title": "Streamline your billing and collections process",
+      "publisher": "Clio (Themis Solutions Inc.)",
+      "source_type": "Vendor campaign page (older)",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "Earlier Clio Payments rates (card, American Express, eCheck)",
+      "method": "Read live page text in browser on access date",
+      "limitations": "Page references a January 2022 webinar; rates (3.5% American Express, 1% eCheck) conflict with current pages and are cited only as an inconsistency.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Clio Starter is listed from $49 per user per month in the U.S.",
+      "source_url": "https://www.clio.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Clio Manage customers",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD per user per month",
+      "method": "Vendor list price",
+      "limitations": "Starting price; annual-billing discounts and taxes not stated.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Ten Starter seats cost $5,880 per year ($49 x 10 x 12).",
+      "source_url": "https://www.clio.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Clio Manage customers",
+      "sample": "Not applicable",
+      "denominator": "10 seats x 12 months",
+      "unit": "USD per year",
+      "method": "Verdict Point arithmetic on the listed rate",
+      "limitations": "Illustrative; excludes add-ons, fees, taxes, and discounts.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "Clio Payments charges 2.95% for standard cards and 3.75% for American Express.",
+      "source_url": "https://www.clio.com/compare/clio-vs-payment-solutions/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Clio Manage customers",
+      "sample": "Not applicable",
+      "denominator": "Each card transaction amount",
+      "unit": "Percent of each payment",
+      "method": "Vendor published rate",
+      "limitations": "Older Clio page shows 3.5% for American Express; confirm before signing.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Pay Later with Affirm carries a 4.95% per-transaction fee paid by the firm, for payments of $50 to $30,000.",
+      "source_url": "https://help.clio.com/hc/en-us/articles/41863402264091-Clio-Payments-Accepted-Payment-Methods",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Clio Manage customers",
+      "sample": "Not applicable",
+      "denominator": "Each Pay Later transaction amount",
+      "unit": "Percent of each payment",
+      "method": "Vendor help documentation",
+      "limitations": "Applies to U.S. dollar range stated; CAD range differs.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "At $25,000 per month in card payments, card fees total about $8,850 per year at 2.95%.",
+      "source_url": "https://www.clio.com/compare/clio-vs-payment-solutions/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Clio Manage customers",
+      "sample": "Not applicable",
+      "denominator": "$300,000 annual card collections",
+      "unit": "USD per year",
+      "method": "Verdict Point arithmetic: $25,000 x 12 x 2.95%",
+      "limitations": "Illustrative; assumes all payments are standard cards.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Clio Software: Reviews, Pricing & Free Demo",
+      "url": "https://softwarefinder.com/legal/clio-legal",
+      "publisher": "Software Finder",
+      "format": "Software directory review",
+      "updated_at": "2026-08-27",
+      "headings": [
+        "Key Takeaways",
+        "Our Verdict",
+        "Clio Software Pricing",
+        "Clio Software Reviews",
+        "How Much Does Clio Software Cost?",
+        "Clio Software Integrations"
+      ],
+      "coverage": [
+        "Plan names and starting price",
+        "Features",
+        "User review ratings"
+      ],
+      "sources": [
+        "557 user reviews",
+        "Unattributed analyst implementation benchmark"
+      ],
+      "data_assets": [
+        "Rating distribution chart",
+        "Plan comparison table"
+      ],
+      "link_patterns": [
+        "Demo and lead-form CTAs"
+      ],
+      "trust_signals": [
+        "Review counts",
+        "Overall rating",
+        "Named reviewers"
+      ],
+      "covered_well": "Plan overview and user sentiment in one place.",
+      "gaps": "Uses retired plan names; no payment-fee model, no integration subscriptions, no migration or staff-time costs; implementation range is unsourced."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Clio Reviews, Pros and Cons - 2026 Software Advice",
+      "url": "https://www.softwareadvice.com/legal/clio-legal-profile/reviews/",
+      "publisher": "Software Advice",
+      "format": "User review aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Clio User Reviews",
+        "Reviews summary",
+        "Rating distribution",
+        "Most mentioned pros",
+        "Most mentioned cons"
+      ],
+      "coverage": [
+        "User ratings",
+        "Pros and cons"
+      ],
+      "sources": [
+        "1,748 verified user reviews"
+      ],
+      "data_assets": [
+        "Rating breakdown by star"
+      ],
+      "link_patterns": [
+        "Vendor profile links"
+      ],
+      "trust_signals": [
+        "Verified reviewer labels",
+        "Review volume"
+      ],
+      "covered_well": "Large sample of user opinion on value and support.",
+      "gaps": "No prices at all; nothing on fees, integrations, migration, or annual cost modelling."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Clio Review for Attorneys: A Comprehensive Analysis of Clio CRM",
+      "url": "https://growlaw.co/blog/clio-review",
+      "publisher": "Grow Law",
+      "format": "Agency blog review",
+      "updated_at": "2024-08-28",
+      "headings": [
+        "What Is Clio?",
+        "Explore Clio's Pricing Plans",
+        "Clio Review: Pros and Cons",
+        "How to Set Up Clio for a Law Firm",
+        "FAQs"
+      ],
+      "coverage": [
+        "Features",
+        "Older plan prices",
+        "Setup steps"
+      ],
+      "sources": [
+        "Clio website"
+      ],
+      "data_assets": [
+        "Plan price table",
+        "Competitor feature table"
+      ],
+      "link_patterns": [
+        "Heavy internal links to agency services"
+      ],
+      "trust_signals": [
+        "Named author",
+        "Clio usage claims"
+      ],
+      "covered_well": "Clear feature walkthrough and setup steps.",
+      "gaps": "Prices are out of date (EasyStart/Essentials/Advanced/Complete); no payment fees, integration costs, migration scope, or annual totals."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Clio Review: Pros, Cons, Features & Pricing",
+      "url": "https://thelegalpractice.com/tools/clio-review/",
+      "publisher": "The Legal Practice",
+      "format": "Scored tool review",
+      "updated_at": "2026-09-24",
+      "headings": [
+        "Why Trust Our Software Recommendations",
+        "How We Test & Score Tools",
+        "Clio Specs",
+        "Alternatives to Clio"
+      ],
+      "coverage": [
+        "Scoring method",
+        "Alternatives"
+      ],
+      "sources": [
+        "Internal scoring rubric"
+      ],
+      "data_assets": [
+        "Weighted scoring criteria"
+      ],
+      "link_patterns": [
+        "Links to alternative vendors"
+      ],
+      "trust_signals": [
+        "Published scoring methodology"
+      ],
+      "covered_well": "Transparent scoring weights.",
+      "gaps": "No dollar figures on the page; total cost of ownership not addressed."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "The Pros and Cons of Clio Legal Practice Management Software",
+      "url": "https://www.leanlaw.co/blog/clio-legal-practice-management-software/",
+      "publisher": "LeanLaw",
+      "format": "Competitor vendor blog",
+      "updated_at": "2024-04-09",
+      "headings": [
+        "What is Clio Practice Management Software?",
+        "The Pros of Clio",
+        "The Cons of Clio",
+        "How is LeanLaw an Alternative to Clio?"
+      ],
+      "coverage": [
+        "Pros and cons",
+        "Alternative product pitch"
+      ],
+      "sources": [
+        "LeanLaw customer-reported results"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Demo and trial CTAs"
+      ],
+      "trust_signals": [
+        "Partner certifications"
+      ],
+      "covered_well": "Explains all-in-one versus best-of-breed trade-offs.",
+      "gaps": "Vendor-led; no Clio prices, fees, integration costs, or migration costs."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page models Clio payment fees against the subscription.",
+    "No ranking page treats connected-app subscriptions as part of the Clio budget.",
+    "Several pages show retired plan names and old prices.",
+    "Migration scope and internal staff time are missing from every competitor reviewed."
+  ],
+  "value_add": "A dated, layer-by-layer cost model built only from Clio's current public pages, with seat-count and payment-fee calculations, a connected-app worksheet, and a signing checklist, plus a note where Clio's own pages disagree.",
   "plan": {
     "reader_title": "Clio Legal Software Costs: What Law Firms Should Budget for in 2026–2027",
     "seo_title": "Clio Legal Software Cost Guide for 2026–2027",
     "meta_description": "Compare Clio legal software pricing, payment fees, integrations, migration costs, and budget questions for law firms planning for 2027.",
     "slug": "/legal-tech/clio-legal-software-total-cost/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "Clio pricing",
+      "legal software integrations",
+      "clio pricing plans"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "What Clio Pricing Is Public for 2026-2027 Planning?",
+      "Build the Budget in Five Cost Layers",
+      "How Much Do Clio Payment Fees Add?",
+      "What Do Integrations and Migration Add?",
+      "What Should a Law Firm Ask Before Signing?",
+      "Is Clio Legal Software Expensive?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "What Clio Pricing Is Public",
+        "sources": [
+          "https://www.clio.com/pricing/"
+        ]
+      },
+      {
+        "section": "How Much Do Clio Payment Fees Add?",
+        "sources": [
+          "https://www.clio.com/compare/clio-vs-payment-solutions/",
+          "https://help.clio.com/hc/en-us/articles/41863402264091-Clio-Payments-Accepted-Payment-Methods",
+          "https://www.clio.com/features/payments/freshstart/"
+        ]
+      },
+      {
+        "section": "What Do Integrations and Migration Add?",
+        "sources": [
+          "https://www.clio.com/app-directory/",
+          "https://www.clio.com/data-migration/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Bar chart: Starter annual subscription by seat count",
+      "Horizontal bar: payment fee rates by method",
+      "Grouped bar: 10 Starter seats vs card fees at three collection levels",
+      "Featured image: budget desk",
+      "Body image: contract signature line"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/law-firms/law-firm-billing-statistics/",
@@ -212,15 +483,38 @@
       "/legal-tech/smokeball-legal-software-time-capture/",
       "/legal-tech/litify-legal-software-implementation/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.clio.com/pricing/",
+      "https://www.clio.com/compare/clio-vs-payment-solutions/",
+      "https://help.clio.com/hc/en-us/articles/41863402264091-Clio-Payments-Accepted-Payment-Methods"
+    ],
+    "excluded_claims": [
+      "Third-party app prices (kept to Resources; vendor-set and volatile)",
+      "Core, Signature, and Elite per-user prices (quote-only)",
+      "Unsourced implementation cost ranges seen on competitor pages"
+    ],
+    "drafting_cautions": [
+      "Recheck every rate on the publication date",
+      "Label all calculations as illustrative",
+      "Do not present the 2022 rates as current",
+      "No first-hand product claims"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Clio Starter is listed from $49 per user per month in the U.S.; Core, Signature, and Elite require a quote.",
+      "source_url": "https://www.clio.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Clio Payments lists 2.95% for standard cards and 3.75% for American Express.",
+      "source_url": "https://www.clio.com/compare/clio-vs-payment-solutions/",
+      "verified": true
+    },
+    {
+      "statement": "Pay Later with Affirm carries a 4.95% per-transaction fee paid by the firm.",
+      "source_url": "https://help.clio.com/hc/en-us/articles/41863402264091-Clio-Payments-Accepted-Payment-Methods",
+      "verified": true
     }
   ],
   "fact_check": {

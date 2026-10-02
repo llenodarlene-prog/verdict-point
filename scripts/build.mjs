@@ -5,13 +5,15 @@ import { renderAbout } from './lib/about.mjs';
 import { contactEmail, renderContact } from './lib/contact.mjs';
 import { renderHome } from './lib/home.mjs';
 import { renderHub } from './lib/hub.mjs';
+import { renderChart, resetCharts } from './lib/charts.mjs';
+import { articleSchema, headMeta } from './lib/seo.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
 
 const cwd = process.cwd();
 const dist = path.join(cwd, 'dist');
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
-const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy] = await Promise.all([
-  readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readJson('data/home-page.json'), readJson('data/about-page.json'), readJson('data/hub-pages.json'), readJson('data/contact-page.json'), readJson('data/footer.json')
+const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy, assetList, chartData] = await Promise.all([
+  readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readJson('data/home-page.json'), readJson('data/about-page.json'), readJson('data/hub-pages.json'), readJson('data/contact-page.json'), readJson('data/footer.json'), readJson('data/assets.json'), readJson('data/charts.json')
 ]);
 const buildEnv = process.env.BUILD_ENV || 'local';
 const siteUrl = String(site.url).replace(/\/$/, '');
@@ -54,6 +56,27 @@ const shared = {
   FOOTER_DESCRIPTION: escapeHtml(footerCopy.description), FOOTER_DISCLAIMER: escapeHtml(footerCopy.disclaimer)
 };
 const header = replace(headerTemplate, shared);
+// Images resolve through data/assets.json so every rendered image carries registered dimensions and alt guidance.
+const assetFor = src => {
+  const asset = assetList.find(item => item.path === src);
+  return asset ? { path: asset.path, width: asset.width, height: asset.height, alt: asset.alt_guidance } : null;
+};
+const smallVariant = src => assetFor(src.replace(/-(1600|1200)\.jpg$/, '-800.jpg'));
+function figure({ alt, src, caption }, { eager = false, className = 'post-figure' } = {}) {
+  const asset = assetFor(src);
+  if (!asset) throw new Error(`image ${src} is not registered in data/assets.json`);
+  const small = smallVariant(src);
+  const srcset = small && small.path !== src ? ` srcset="${escapeHtml(small.path)} 800w, ${escapeHtml(src)} ${asset.width}w" sizes="(max-width: 820px) 100vw, 820px"` : '';
+  return `<figure class="${className}"><img src="${escapeHtml(src)}"${srcset} width="${asset.width}" height="${asset.height}" alt="${escapeHtml(alt || asset.alt)}" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">${caption ? `<figcaption>${escapeHtml(caption)}</figcaption>` : ''}</figure>`;
+}
+// A chart block holds a chart id from data/charts.json, so chart data never counts toward article word totals.
+const chartBlock = block => {
+  const id = block.trim();
+  if (!chartData[id]) throw new Error(`chart "${id}" is not defined in data/charts.json`);
+  return renderChart(JSON.stringify(chartData[id]));
+};
+const defaultShareImage = assetFor('/assets/brand/verdict-point-social.png');
+const logoImage = assetFor('/assets/brand/verdict-point-icon.png');
 const footer = replace(footerTemplate, shared);
 const sourceFiles = (await walk('content')).filter(file => file.endsWith('.md')).sort();
 const parsed = [];
@@ -72,11 +95,11 @@ for (const page of parsed) {
   const { body, source, article, ...metadata } = page;
   const url = canonical(metadata.slug);
   if (article && metadata.draft !== true) for (const field of ['published', 'modified', 'author']) if (!metadata[field]) throw new Error(`${source}: published content missing ${field}`);
-  const schema = article ? {
-    '@context': 'https://schema.org', '@type': 'Article', headline: metadata.title, description: metadata.description,
-    url, mainEntityOfPage: url, datePublished: metadata.published, dateModified: metadata.modified,
-    author: { '@type': 'Person', name: metadata.author }, publisher: { '@type': 'Organization', name: site.name, url: siteUrl }
-  } : {
+  const featured = metadata.image ? assetFor(metadata.image) : null;
+  if (metadata.image && !featured) throw new Error(`${source}: featured image ${metadata.image} is not registered in data/assets.json`);
+  const hub = nav.primary.find(item => item.url !== '/' && metadata.slug.startsWith(item.url));
+  const crumbs = [{ name: 'Home', url: `${siteUrl}/` }, ...(hub && hub.url !== metadata.slug ? [{ name: hub.label, url: canonical(hub.url) }] : []), { name: metadata.title, url }];
+  const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage }) : {
     '@context': 'https://schema.org', '@type': metadata.schema || 'WebPage', name: metadata.title, description: metadata.description,
     url, isPartOf: { '@type': 'WebSite', name: site.name, url: siteUrl }
   };
@@ -88,7 +111,14 @@ for (const page of parsed) {
       if (!hub) throw new Error(`${source}: no approved hub copy for ${metadata.slug} in data/hub-pages.json`);
       return renderHub(hub, hubCopy.shared, publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), nav);
     } }[metadata.template];
-  let renderedBody = designed ? designed() : markdownToHtml(body);
+  resetCharts();
+  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure });
+  if (article) {
+    // Posts open with a breadcrumb trail, then the H1, then the featured image.
+    const trail = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>`;
+    renderedBody = trail + renderedBody;
+    if (featured) renderedBody = renderedBody.replace(/(<\/h1>)/, `$1${figure({ alt: metadata.image_alt || featured.alt, src: featured.path, caption: '' }, { eager: true, className: 'post-featured' })}`);
+  }
   if (!designed && !article && metadata.slug === '/') renderedBody += contentCards(publishedPosts.slice(0, 12), 'Latest Research');
   else if (!designed && !article && metadata.schema === 'CollectionPage') renderedBody += contentCards(publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), 'Published Coverage');
   const title = metadata.seo_title || metadata.title;
@@ -97,7 +127,7 @@ for (const page of parsed) {
   const html = replace(base, {
     LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
     CANONICAL: url, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks,
-    ARTICLE_META: article && metadata.draft !== true ? `<meta property="article:published_time" content="${escapeHtml(metadata.published || '')}"><meta property="article:modified_time" content="${escapeHtml(metadata.modified || '')}">` : '',
+    ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
     HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="home" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });
   const target = metadata.slug === '/' ? path.join(dist, 'index.html') : path.join(dist, cleanSlug(metadata.slug), 'index.html');
