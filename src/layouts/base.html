@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="{{LANG}}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="robots" content="{{ROBOTS}}">
+  <link rel="canonical" href="{{CANONICAL}}">
+  <meta property="og:type" content="{{OG_TYPE}}">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="{{CANONICAL}}">
+  <meta name="twitter:card" content="summary_large_image">
+  {{ARTICLE_META}}
+  {{FONT_LINKS}}
+  <link rel="stylesheet" href="/styles/main.css">
+  <script type="application/ld+json">{{SCHEMA}}</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{HEADER}}
+  <main id="main">{{CONTENT}}</main>
+  {{FOOTER}}
+  <script src="/scripts/main.js" defer></script>
+</body>
+</html>

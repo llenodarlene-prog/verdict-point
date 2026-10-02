@@ -1,0 +1,182 @@
+[
+  {
+    "tracker_id": "Article:1",
+    "path": "content/posts/article-1-law-firm-marketing-statistics.md",
+    "source_id": "12Oj_ZLuEeLe4j3_MmJD9PmRFY3iWndWUecvVaPEHPrk",
+    "sha256": "808b531df11d53fc90ead94f5fb277e5bae41bee11b016c5bd6ede96e1d2ce3e",
+    "approximate_words": 2763,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:2",
+    "path": "content/posts/article-2-legal-industry-statistics-firm-size.md",
+    "source_id": "1hdZjh4nxwnP3L-HK8BGhrdwOaPZCxjmH2BB6vJTAhfs",
+    "sha256": "6e92ff0a32d27a6032a1d8914ddd61e0c32814f40cca3d8a8c616b157df50322",
+    "approximate_words": 2123,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:3",
+    "path": "content/posts/article-3-legal-technology-statistics.md",
+    "source_id": "1otQmDyIbfbtN0HPsy1AMYJ-sZcNl2aUfLyyMdzWE-d8",
+    "sha256": "420fda97b66c29ec0c7125396919a9d3b36eecee240d3c9b904f0127ef647c21",
+    "approximate_words": 2138,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:4",
+    "path": "content/posts/article-4-ai-in-law-firms-statistics.md",
+    "source_id": "14BQeNbLIpR097bjM8pvCajn9gYQZTsX8cpIV3nide_k",
+    "sha256": "b46d3c6464db709bdef15b368c18192d43fdd3b9c4d90070db62cf38b7bf6f3e",
+    "approximate_words": 2132,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:5",
+    "path": "content/posts/article-5-law-firm-website-statistics.md",
+    "source_id": "1qRXGX8wRWIR7yq5loSZRU4J7XXNQOoY1CBxHDYkPkok",
+    "sha256": "14d8e1b703c41540fe211795f4e43eb0d02cf54b79e6faa81a76b764c6208b8f",
+    "approximate_words": 2157,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:6",
+    "path": "content/posts/article-6-law-firm-seo-statistics.md",
+    "source_id": "18vzGHj050RCIQx0_lpacBb6mMZ3hmnegz6BuClICouU",
+    "sha256": "f87bfcb201644d007d5fd5f07ee0228b01ffc8cb984c6df716b09b0c7fe60012",
+    "approximate_words": 2133,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:7",
+    "path": "content/posts/article-7-law-firm-social-media-statistics.md",
+    "source_id": "1uMcjfXbvn5SfYITn16p0IiREUTgH_OcEErVHc4CaXdI",
+    "sha256": "978254b3d494a0da70ab4123bddc1e7b5c644cd073d1300a922d61b752191505",
+    "approximate_words": 2240,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:8",
+    "path": "content/posts/article-8-law-firm-client-acquisition-statistics.md",
+    "source_id": "1kS8W-JhPrwFjv6jqqmd-n-VgtIurh4PGX0ds4n3i-Hg",
+    "sha256": "29865218fe068862243b300f9af9a69ca51d8c9acc2b1e4584b2e5c000188153",
+    "approximate_words": 2263,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:9",
+    "path": "content/posts/article-9-law-firm-billing-statistics.md",
+    "source_id": "1hfyjw7lw78_uGpmrVJgTSiPchYuUSSmzv7ED1YnnCGs",
+    "sha256": "dd2b08b03313128b9c5bfa2ad3d5b70d78a943a5f1533cf3a40ca4e4fcdc5bf0",
+    "approximate_words": 2245,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Article:10",
+    "path": "content/posts/article-10-law-firm-profitability-statistics.md",
+    "source_id": "18r6jRfZn1tEbDf53Rwrl5cOW4tYv1HqjIpBDMOKAkEA",
+    "sha256": "5806fd74ba7a9fc8fb48235b71912445312cfc9f9cb5f5205ee3c4fc13f7ff9f",
+    "approximate_words": 2120,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:1",
+    "path": "content/posts/blog-1-clio-legal-software-total-cost.md",
+    "source_id": "1jx7o-_Qi6mYRahCYSmTVyO87OLkCpQK4okrDexIOjsE",
+    "sha256": "5939084e568a6b042007e4ada013073a9e06b36d3a83ea512f02e5e47b6ed564",
+    "approximate_words": 2276,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:2",
+    "path": "content/posts/blog-2-mycase-legal-software.md",
+    "source_id": "1FWacFcCqVAy_vQti4bOloW2nPUit5xAKlJfHkMInEW0",
+    "sha256": "8a9a38d81a61518216e19ada4448db2a6c9961fe9cd9503204f0b7bb2c681024",
+    "approximate_words": 2456,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:3",
+    "path": "content/posts/blog-3-filevine-legal-software-case-types.md",
+    "source_id": "1Z7Ell8DAGCywhHVFy9vxA8CuV9MaERPznpKXSF6jfMM",
+    "sha256": "673ffcdc196aeb0a1fe0f1f282d9fb1f94d816e0d5c85473d5d44b5ef3cdf006",
+    "approximate_words": 2523,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:4",
+    "path": "content/posts/blog-4-smokeball-legal-software-time-capture.md",
+    "source_id": "1UwetlznTs9joZMvBZT0xDHUtS--8xAnKKTP81wtcRJ4",
+    "sha256": "8fc79ca1e13d6f0ee90e34984180a57142a3575ac59ebded02cbaf3ac5d1617a",
+    "approximate_words": 2161,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:5",
+    "path": "content/posts/blog-5-lawpay-legal-payments-fees.md",
+    "source_id": "1K08sQoII6BEkiBMgp6Cfl2TRc-nDMPUhdeJtHpdbf1E",
+    "sha256": "0be906a3ea09ef4b3d3c4928fd47d66726506b445a1c2deb36283371a5544f29",
+    "approximate_words": 2119,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:6",
+    "path": "content/posts/blog-6-litify-legal-software-implementation.md",
+    "source_id": "1YFJOscAsSUvRk4oKOdaGmdY26_FhYGmHTAasZTWS2Co",
+    "sha256": "70cb4a2a78b7fbaf6beaf28db8646f65ea728347540f4fbb7ea517299d0fd4c6",
+    "approximate_words": 2308,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:7",
+    "path": "content/posts/blog-7-everlaw-ediscovery-document-review.md",
+    "source_id": "1gmLwSKmHuDDyEzm-aKxaY_VYPBKK6KKWUSxXbtHGyQI",
+    "sha256": "26eaa30a9db007b1246f082cb328c326cbc9fe6a9b3b4f5b8c65559a8e6d619b",
+    "approximate_words": 2222,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:8",
+    "path": "content/posts/blog-8-relativity-ediscovery-hosting.md",
+    "source_id": "1uz12TsLsELTuLQ-gF2djultn6m03kMFNHyXnrPUlQFE",
+    "sha256": "2a05f2bd9f90fae1e678a50a937fcb7e9361889bc9d3dd2149388881ed810cdb",
+    "approximate_words": 2176,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:9",
+    "path": "content/posts/blog-9-harvey-legal-ai-pilot.md",
+    "source_id": "1U3d8b3dK0kwf0BAIubbOa1l9bsKAJXyMwoprNdCw9SM",
+    "sha256": "33fecd916b1d7d4d7e5711c98f91e8ceafabc4b400b7ed89bb294c4948c43251",
+    "approximate_words": 2212,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  },
+  {
+    "tracker_id": "Blog:10",
+    "path": "content/posts/blog-10-lexisnexis-legal-ai-source-checking.md",
+    "source_id": "184grE2_HNYKs2COI8DgX9AK8yMFPK05TdBeyyK6XCGs",
+    "sha256": "fb66e66c71dfe25bb12ebfc3edccd0307b53acd7f17d754feabd17acb92d5ab7",
+    "approximate_words": 2207,
+    "editorial_status": "draft",
+    "structured_research_status": "scaffolded"
+  }
+]

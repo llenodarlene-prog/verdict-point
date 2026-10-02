@@ -1,0 +1,241 @@
+{
+  "tracker_id": "Blog:2",
+  "status": "scaffolded",
+  "research_question": "Owned-page scope: MyCase Legal Software and Client Communication. Planned sources and method: MyCase official feature and pricing pages; map a sample client exchange. Build a source-labelled comparison covering MyCase client portal and MyCase pricing; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "",
+    "audience": "",
+    "publication_year": "",
+    "data_period": "",
+    "scope_limitations": ""
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "mycase legal software",
+    "intent": "Commercial Investigation",
+    "serp_checked_at": "",
+    "tools": [
+      {
+        "name": "Ahrefs",
+        "status": "pending",
+        "retrieved_at": ""
+      },
+      {
+        "name": "Ubersuggest",
+        "status": "pending",
+        "retrieved_at": ""
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "",
+        "type": "short-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "long-tail",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "commercial",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "problem",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      },
+      {
+        "keyword": "",
+        "type": "question",
+        "volume": null,
+        "difficulty": null,
+        "cpc": null,
+        "intent": "",
+        "ranking_url": "",
+        "retrieved_at": "",
+        "tool": ""
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "",
+      "title": "",
+      "publisher": "",
+      "source_type": "",
+      "year": "",
+      "published_at": "",
+      "accessed_at": "",
+      "scope": "",
+      "method": "",
+      "limitations": "",
+      "verified": false
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "",
+      "source_url": "",
+      "data_year": "",
+      "geography": "",
+      "population": "",
+      "sample": "",
+      "denominator": "",
+      "unit": "",
+      "method": "",
+      "limitations": "",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": false
+    }
+  ],
+  "competitors": [
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    },
+    {
+      "title": "",
+      "url": "",
+      "publisher": "",
+      "format": "",
+      "updated_at": "",
+      "headings": [],
+      "coverage": [],
+      "sources": [],
+      "data_assets": [],
+      "link_patterns": [],
+      "trust_signals": [],
+      "covered_well": "",
+      "gaps": ""
+    }
+  ],
+  "content_gaps": [],
+  "value_add": "",
+  "plan": {
+    "reader_title": "MyCase Legal Software and Client Communication",
+    "seo_title": "MyCase Legal Software and Client Communication",
+    "meta_description": "",
+    "slug": "/legal-tech/mycase-legal-software/",
+    "search_intent": "Commercial Investigation",
+    "secondary_keywords": [],
+    "outline": [],
+    "evidence_map": [],
+    "visuals": [],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-tech/clio-legal-software-total-cost/"
+    ],
+    "external_link_opportunities": [],
+    "excluded_claims": [],
+    "drafting_cautions": []
+  },
+  "claims": [
+    {
+      "statement": "",
+      "source_url": "",
+      "verified": false
+    }
+  ],
+  "fact_check": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "qa": {
+    "completed": false,
+    "reviewer": "",
+    "reviewed_at": ""
+  },
+  "recovery": {
+    "research_brief": "https://docs.google.com/document/d/14EhulXKYED5ti2wj9x0KXMcWz20y0oCT3otaQAPSlv4/edit?usp=drivesdk",
+    "research_snapshot": "sources/google-drive/14EhulXKYED5ti2wj9x0KXMcWz20y0oCT3otaQAPSlv4.md",
+    "draft_snapshot": "sources/google-drive/1FWacFcCqVAy_vQti4bOloW2nPUit5xAKlJfHkMInEW0.md",
+    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+  }
+}

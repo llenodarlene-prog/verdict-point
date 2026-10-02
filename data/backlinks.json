@@ -1,0 +1,35 @@
+{
+  "headers": [
+    "Site",
+    "Target URL",
+    "Referring Domain",
+    "Source URL",
+    "DR",
+    "Traffic",
+    "Placement Type",
+    "Anchor",
+    "Dofollow?",
+    "Date Live",
+    "Relevant?",
+    "Status",
+    "Notes"
+  ],
+  "records": [
+    {
+      "_source_row": 2,
+      "site": "",
+      "target_url": "",
+      "referring_domain": "",
+      "source_url": "",
+      "dr": "",
+      "traffic": "",
+      "placement_type": "Guest / Editorial",
+      "anchor": "",
+      "dofollow": "",
+      "date_live": "",
+      "relevant": "",
+      "status": "Prospecting",
+      "notes": ""
+    }
+  ]
+}

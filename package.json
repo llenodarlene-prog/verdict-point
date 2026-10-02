@@ -1,0 +1,24 @@
+{
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "clean": "node scripts/clean.mjs",
+    "build": "node scripts/build.mjs",
+    "check": "node scripts/check.mjs",
+    "check:tracker": "node scripts/validate-tracker.mjs",
+    "check:research": "node scripts/check-research.mjs",
+    "check:content": "node scripts/check-content.mjs",
+    "release:check": "node scripts/check-release.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "verify": "npm run clean && npm run build && npm run check && npm run check:tracker && npm run check:research && npm run check:content && npm test",
+    "dev": "node scripts/serve.mjs",
+    "new:content": "node scripts/new-content.mjs",
+    "new:article": "node scripts/new-content.mjs article",
+    "new:blog": "node scripts/new-content.mjs blog",
+    "import:drive": "node scripts/import-drive-drafts.mjs",
+    "sync:drive": "node scripts/sync-google-drive.mjs"
+  }
+}

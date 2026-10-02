@@ -1,0 +1,18 @@
+{
+  "brand": "Verdict Point",
+  "tracker_brand": "VerdictPoint",
+  "repository": "verdictpoint-static",
+  "tracker_sha256": "3ba9d361b58edf27e92463febe968f71740860342674557209f521b62a034fc7",
+  "content_records": 100,
+  "launch_records": 20,
+  "interlinking_records": 20,
+  "architecture_records": 9,
+  "generated_from": "scripts/revise_repositories.py",
+  "git_history_preserved": false,
+  "source_workbook": "data/source/5-Site-SEO-GEO-AEO-Content-Keyword-Tracker.xlsx",
+  "recovery_date": "2026-10-02",
+  "source_documents": 45,
+  "editorial_drafts": 20,
+  "research_status": "scaffolded",
+  "recovery_notes": "Previous local commits were unavailable after workspace maintenance; sources recovered from saved package and exact Drive folder."
+}

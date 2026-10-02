@@ -1,0 +1,8 @@
+* @repository-owner
+/CLAUDE.md @repository-owner
+/AGENTS.md @repository-owner
+/data/ @repository-owner @editorial-owner
+/content/ @editorial-owner
+/.github/ @repository-owner
+/scripts/deploy-atomic.sh @repository-owner
+/.claude/ @repository-owner
