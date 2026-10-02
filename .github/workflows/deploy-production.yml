@@ -21,6 +21,7 @@ jobs:
           DEPLOY_PORT: "${{ vars.DEPLOY_PORT }}"
           DEPLOY_USER: "${{ secrets.DEPLOY_USER }}"
           DEPLOY_ROOT: "${{ secrets.DEPLOY_ROOT }}"
+          DEPLOY_PRESERVE_DIR: "staging"
           DEPLOY_SSH_KEY: "${{ secrets.DEPLOY_SSH_KEY }}"
           SSH_KNOWN_HOSTS: "${{ secrets.SSH_KNOWN_HOSTS }}"
       - run: node scripts/smoke-test.mjs
