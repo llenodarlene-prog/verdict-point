@@ -4,13 +4,10 @@ description: Editorial, corrections, contributor and business enquiries by email
 slug: /contact/
 type: page
 schema: ContactPage
+template: contact
 draft: false
 ---
 
-# Contact Verdict Point
+Email: [verdictpoint@gmail.com](mailto:verdictpoint@gmail.com)
 
-Editorial, corrections, contributor and business enquiries by email only
-
-## Enquiries
-
-The tracker does not yet verify a public email address. Add the approved editorial address before launch; do not invent or publish a placeholder contact.
+The Contact page is rendered by `scripts/lib/contact.mjs` from the approved copy in `data/contact-page.json` (Website Copy + Section Layout v1.1, CONTACT PAGE). The email address above is the single source for the page and the release check.

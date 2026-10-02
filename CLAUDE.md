@@ -18,7 +18,7 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 1. Inspect the tracker record and status. Do not draft `Hold / SERP Review` or `Backlog` items without approval.
 2. Confirm the exact URL, keyword, content type, evidence plan, silo role, and approved link targets.
 3. Create a `feature/*` branch. Never push directly to `staging` or `main`.
-4. Research before drafting. Complete every field in `docs/RESEARCH-RECORD.md`, including Ahrefs/Ubersuggest retrievals, five competitor maps, statistics methodology, content gaps, value-add, and section-level evidence planning.
+4. Research before drafting. Complete every field in `docs/RESEARCH-RECORD.md`, including Ubersuggest retrievals (the required SEO platform; preserve historical Ahrefs data with its original attribution, but do not require new Ahrefs access), five competitor maps, statistics methodology, content gaps, value-add, and section-level evidence planning.
 5. Use `npm run new:content -- <article|blog> <1-10>` for launch content. Do not hand-invent paths.
 6. Keep `draft: true` until evidence, links, metadata, dates, images, disclosures, and all checks are complete.
 7. Run `npm run verify`; do not weaken a failing check.

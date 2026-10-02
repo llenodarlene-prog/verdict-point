@@ -1,7 +1,15 @@
 <footer class="site-footer">
   <div class="shell footer-grid">
-    <div><strong>{{NAME}}</strong><p>{{TAGLINE}}</p></div>
-    <nav aria-label="Footer navigation"><ul>{{FOOTER_NAV}}</ul></nav>
+    <div class="footer-brand">
+      <a class="footer-wordmark" href="/">{{NAME}}</a>
+      <p class="footer-tagline">{{TAGLINE}}</p>
+      <p>{{FOOTER_DESCRIPTION}}</p>
+    </div>
+    {{FOOTER_COLUMNS}}
   </div>
-  <div class="shell legal-line">© {{YEAR}} {{NAME}}. Editorial information only.</div>
+  <div class="shell footer-disclaimer"><p>{{FOOTER_DISCLAIMER}}</p></div>
+  <div class="shell legal-line">
+    <span>© {{YEAR}} {{NAME}}. Editorial information only.</span>
+    <ul>{{FOOTER_NAV}}</ul>
+  </div>
 </footer>

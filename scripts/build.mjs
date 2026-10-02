@@ -1,13 +1,17 @@
 import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { escapeHtml, markdownToHtml, readContent } from './lib/content.mjs';
+import { renderAbout } from './lib/about.mjs';
+import { contactEmail, renderContact } from './lib/contact.mjs';
+import { renderHome } from './lib/home.mjs';
+import { renderHub } from './lib/hub.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
 
 const cwd = process.cwd();
 const dist = path.join(cwd, 'dist');
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
-const [site, nav, redirects] = await Promise.all([
-  readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json')
+const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy] = await Promise.all([
+  readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readJson('data/home-page.json'), readJson('data/about-page.json'), readJson('data/hub-pages.json'), readJson('data/contact-page.json'), readJson('data/footer.json')
 ]);
 const buildEnv = process.env.BUILD_ENV || 'local';
 const siteUrl = String(site.url).replace(/\/$/, '');
@@ -35,11 +39,20 @@ function contentCards(items, heading) {
 
 await mkdir(dist, { recursive: true });
 for (const folder of ['styles', 'scripts']) await cp(path.join('src', folder), path.join(dist, folder), { recursive: true });
-await cp('assets', path.join(dist, 'assets'), { recursive: true });
+// Source documentation (README files, notes, briefs) stays in the repository and is never deployed.
+const sourceDocumentation = /\.(?:md|markdown|txt|docx?)$/i;
+await cp('assets', path.join(dist, 'assets'), { recursive: true, filter: source => !sourceDocumentation.test(source) });
 const [base, headerTemplate, footerTemplate] = await Promise.all([
   readFile('src/layouts/base.html', 'utf8'), readFile('src/partials/header.html', 'utf8'), readFile('src/partials/footer.html', 'utf8')
 ]);
-const shared = { NAME: site.name, TAGLINE: site.tagline, YEAR: new Date().getUTCFullYear(), PRIMARY_NAV: list(nav.primary), FOOTER_NAV: list(nav.footer) };
+// Footer columns come from the approved copy; any footer navigation link not already in a column (such as the sitemap) sits on the bottom line.
+const footerColumnUrls = new Set(footerCopy.columns.flatMap(column => column.links.map(link => link.url)));
+const footerColumns = footerCopy.columns.map(column => `<nav class="footer-column" aria-label="${escapeHtml(column.heading)}"><h2>${escapeHtml(column.heading)}</h2><ul>${list(column.links)}</ul></nav>`).join('');
+const shared = {
+  NAME: site.name, TAGLINE: site.tagline, YEAR: new Date().getUTCFullYear(), PRIMARY_NAV: list(nav.primary),
+  FOOTER_NAV: list(nav.footer.filter(item => !footerColumnUrls.has(item.url))), FOOTER_COLUMNS: footerColumns,
+  FOOTER_DESCRIPTION: escapeHtml(footerCopy.description), FOOTER_DISCLAIMER: escapeHtml(footerCopy.disclaimer)
+};
 const header = replace(headerTemplate, shared);
 const footer = replace(footerTemplate, shared);
 const sourceFiles = (await walk('content')).filter(file => file.endsWith('.md')).sort();
@@ -67,15 +80,25 @@ for (const page of parsed) {
     '@context': 'https://schema.org', '@type': metadata.schema || 'WebPage', name: metadata.title, description: metadata.description,
     url, isPartOf: { '@type': 'WebSite', name: site.name, url: siteUrl }
   };
-  let renderedBody = markdownToHtml(body);
-  if (!article && metadata.slug === '/') renderedBody += contentCards(publishedPosts.slice(0, 12), 'Latest Research');
-  else if (!article && metadata.schema === 'CollectionPage') renderedBody += contentCards(publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), 'Published Coverage');
+  // Designed pages render from approved copy files; everything else renders from Markdown.
+  const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav), about: () => renderAbout(aboutCopy),
+    contact: () => renderContact(contactCopy, contactEmail(body, source)),
+    hub: () => {
+      const hub = hubCopy.hubs[metadata.slug];
+      if (!hub) throw new Error(`${source}: no approved hub copy for ${metadata.slug} in data/hub-pages.json`);
+      return renderHub(hub, hubCopy.shared, publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), nav);
+    } }[metadata.template];
+  let renderedBody = designed ? designed() : markdownToHtml(body);
+  if (!designed && !article && metadata.slug === '/') renderedBody += contentCards(publishedPosts.slice(0, 12), 'Latest Research');
+  else if (!designed && !article && metadata.schema === 'CollectionPage') renderedBody += contentCards(publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), 'Published Coverage');
   const title = metadata.seo_title || metadata.title;
+  // An approved SEO title that already names the brand is used as written, without a repeated suffix.
+  const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
   const html = replace(base, {
-    LANG: site.locale || 'en-US', TITLE: escapeHtml(`${title} | ${site.name}`), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
+    LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
     CANONICAL: url, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks,
     ARTICLE_META: article && metadata.draft !== true ? `<meta property="article:published_time" content="${escapeHtml(metadata.published || '')}"><meta property="article:modified_time" content="${escapeHtml(metadata.modified || '')}">` : '',
-    HEADER: header, FOOTER: footer, CONTENT: `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
+    HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="home" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });
   const target = metadata.slug === '/' ? path.join(dist, 'index.html') : path.join(dist, cleanSlug(metadata.slug), 'index.html');
   await mkdir(path.dirname(target), { recursive: true });

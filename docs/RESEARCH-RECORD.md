@@ -12,7 +12,7 @@ Use the stages in order:
 ## Required evidence
 
 - `research_brief`: purpose, audience, publication year, evidence period, and scope limits.
-- `keyword_research`: the exact tracker keyword, live SERP intent check, verified Ahrefs and Ubersuggest retrieval dates, and short-tail, long-tail, commercial, problem, and question queries with volume, difficulty, CPC, intent, ranking URL, tool, and retrieval date.
+- `keyword_research`: the exact tracker keyword, live SERP intent check, a verified Ubersuggest retrieval date (Ubersuggest is the required SEO platform; keep any historical Ahrefs entries and metrics with their original `tool` attribution and retrieval date, but new Ahrefs access is not required), and short-tail, long-tail, commercial, problem, and question queries with volume, difficulty, CPC, intent, ranking URL, tool, and retrieval date.
 - `sources`: at least three verified sources with title, publisher, type, dates, scope, method, and limitations.
 - `statistics`: each measured claim with its source, true data year, geography, population, sample, denominator, unit, method, limitations, sponsorship, partial-year status, estimate status, and verification state. Use explicit truthful text such as `Not applicable` only when the field genuinely does not apply.
 - `competitors`: five intent-matched organic pages with title, URL, publisher, format, date, headings, coverage, sources, data assets, link patterns, trust signals, strengths, and gaps.

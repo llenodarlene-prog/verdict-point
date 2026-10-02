@@ -1,0 +1,157 @@
+{
+  "source": "sources/google-drive/1fsvwC4qAyFdOcwNxsHGx0O8I5i0a5sqTJj-8syArYA0.md (Website Copy + Section Layout v1.1, HOME PAGE)",
+  "hero": {
+    "eyebrow": "Independent Legal-Industry Intelligence",
+    "heading": "The Business of Law, Measured.",
+    "copy": [
+      "Law is more than a profession; it is also a market, an operating model, and a technology story.",
+      "Verdict Point tracks the numbers, systems, and decisions shaping modern legal services, from law firm economics and legal technology to legal marketing, client behavior, and the wider business of legal services."
+    ],
+    "primary_cta": {
+      "label": "Explore the Latest Analysis",
+      "url": "#latest-analysis",
+      "fallback_url": "#what-we-cover"
+    },
+    "secondary_cta": {
+      "label": "Browse Legal Tech",
+      "url": "/legal-tech/"
+    },
+    "image": {
+      "src": "/assets/images/home/courthouse-entrance-1600.jpg",
+      "small": "/assets/images/home/courthouse-entrance-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Ivory stone columns and navy entrance doors of a courthouse in morning light"
+    }
+  },
+  "trust": [
+    {
+      "icon": "source",
+      "title": "Source-First",
+      "text": "We look for the original data before repeating the claim."
+    },
+    {
+      "icon": "definition",
+      "title": "Definitions Matter",
+      "text": "We show what a metric includes, what it excludes, and what it measures."
+    },
+    {
+      "icon": "compare",
+      "title": "Independent Context",
+      "text": "We compare vendor, industry, public, and first-party sources without treating them as interchangeable."
+    },
+    {
+      "icon": "revisit",
+      "title": "Built to Be Revisited",
+      "text": "Major research pages include dates, methodology, source notes, and updates where they matter."
+    }
+  ],
+  "positioning": {
+    "heading": "The legal industry has no shortage of opinions. It has a shortage of context.",
+    "copy": [
+      "A percentage without a denominator can mislead, just as a market estimate without a clear definition can look more certain than it is. A technology claim can sound transformative until you ask who is using the tool, how often they use it, and what work it has changed in practice.",
+      "Those are the kinds of questions Verdict Point is built around. By comparing sources, defining the measures behind the numbers, and separating adoption from usage, we aim to make legal-industry information more useful to the people who have to make decisions with it."
+    ],
+    "questions": [
+      "What is this number measuring?",
+      "Who is included in the sample, and who is not?",
+      "Does the headline change once the methodology is visible?"
+    ]
+  },
+  "coverage": {
+    "heading": "Five ways to read the business of law.",
+    "intro": "Each section looks at a different part of the legal market, while still connecting back to the same question: what is changing, how can we measure it, and what does that change mean in practice?",
+    "cards": [
+      {
+        "label": "Legal",
+        "text": "Industry-wide changes in regulation, workforce, courts, careers, professional trends, and legal-sector data.",
+        "link": "Explore Legal Analysis",
+        "url": "/legal/"
+      },
+      {
+        "label": "Law Firms",
+        "text": "Firm economics, billing, profitability, hiring, intake, client experience, operations, and management.",
+        "link": "Explore Law Firms",
+        "url": "/law-firms/"
+      },
+      {
+        "label": "Legal Tech",
+        "text": "AI, legal software, eDiscovery, automation, cybersecurity, data, and the systems changing legal work.",
+        "link": "Explore Legal Tech",
+        "url": "/legal-tech/"
+      },
+      {
+        "label": "Legal Marketing",
+        "text": "Search, websites, paid media, referrals, reviews, intake, conversion, and the economics of acquiring clients.",
+        "link": "Explore Legal Marketing",
+        "url": "/legal-marketing/"
+      },
+      {
+        "label": "Legal Business",
+        "text": "Legal-services market structure, alternative providers, corporate legal departments, ownership models, and new ways legal work is delivered.",
+        "link": "Explore Legal Business",
+        "url": "/legal-business/"
+      }
+    ]
+  },
+  "methodology": {
+    "heading": "A number without a definition is not a benchmark.",
+    "copy": [
+      "Our research is designed to show the work behind the conclusion, because the same figure can tell a very different story depending on how it was collected and what it includes.",
+      "When a statistic matters, we look for the original source. When two sources disagree, we look at definitions, dates, samples, and methodology before treating either figure as definitive. When a market claim is based on a narrow survey, a vendor dataset, or a modeled forecast, we make that context visible.",
+      "That does not make every answer simple, and sometimes the evidence will remain incomplete. What it does is make the conclusion easier to understand, challenge, and use."
+    ],
+    "steps": [
+      "Find the original source",
+      "Check the definition and reporting period",
+      "Compare conflicting evidence",
+      "State the limitation before the conclusion"
+    ],
+    "link": {
+      "label": "How We Research",
+      "url": "/about/#how-we-research"
+    }
+  },
+  "featured": {
+    "heading": "Research worth coming back to.",
+    "intro": "Our strongest work is built to be referenced, revisited, and tested against new information as the market changes.",
+    "label": "Featured Research",
+    "link": "Read the Research"
+  },
+  "audience": {
+    "heading": "Built for decisions, not clicks.",
+    "copy": [
+      "Verdict Point is written for people who make, advise, report on, or study decisions inside legal services. That includes managing partners, firm leaders, legal marketers, legal-operations professionals, technology teams, founders, consultants, journalists, and researchers.",
+      "Their roles may be different, but the need is often the same: better information before a decision is made.",
+      "A Verdict Point page should leave you with something practical, whether that is a benchmark worth comparing, a source worth checking, a definition that removes ambiguity, or a better question to ask before choosing a direction."
+    ],
+    "chips": [
+      "Managing Partners",
+      "Legal Ops",
+      "Legal Marketing",
+      "Legal Tech",
+      "Consultants",
+      "Journalists & Researchers"
+    ],
+    "image": {
+      "src": "/assets/images/home/leaders-review-analytics-1600.jpg",
+      "small": "/assets/images/home/leaders-review-analytics-800.jpg",
+      "width": 1600,
+      "height": 1600,
+      "alt": "Three legal professionals reviewing printed analytics charts and a tablet at a marble table"
+    }
+  },
+  "latest": {
+    "heading": "Latest Analysis",
+    "limit": 6,
+    "view_all": "View All Analysis"
+  },
+  "closing": {
+    "heading": "The legal market keeps changing. The measurement should keep up.",
+    "copy": "Follow the latest Verdict Point research, benchmarks, and analysis across law firms, legal technology, marketing, and the wider legal-services market.",
+    "cta": {
+      "label": "Explore Verdict Point",
+      "url": "/about/"
+    }
+  }
+}

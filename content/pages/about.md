@@ -1,20 +1,12 @@
 ---
 title: About Verdict Point
-description: Mission, positioning, audience, editorial standards, methodology and contributor approach
+seo_title: About Verdict Point | Independent Business-of-Law Intelligence
+description: Learn how Verdict Point researches law firm economics, legal technology, legal marketing, and legal-services trends with transparent sourcing and methodology.
 slug: /about/
 type: page
 schema: AboutPage
+template: about
 draft: false
 ---
 
-# About Verdict Point
-
-Independent, evidence-led intelligence on law firms, legal markets, legal technology, and growth.
-
-## Editorial Purpose
-
-Mission, positioning, audience, editorial standards, methodology and contributor approach
-
-## How We Work
-
-We use primary sources where practical, label estimates, distinguish evidence from interpretation, and keep meaningful corrections visible.
+The About page is rendered by `scripts/lib/about.mjs` from the approved copy in `data/about-page.json` (Website Copy + Section Layout v1.1, ABOUT US PAGE). Edit the copy there, not here.

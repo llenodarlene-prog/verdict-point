@@ -89,7 +89,7 @@ export function createResearchScaffold(record, silo, frontMatter) {
     research_brief: { purpose: '', audience: '', publication_year: '', data_period: '', scope_limitations: '' },
     keyword_research: {
       approved_primary_keyword: record.primary_keyword, intent: record.intent || '', serp_checked_at: '',
-      tools: [{ name: 'Ahrefs', status: 'pending', retrieved_at: '' }, { name: 'Ubersuggest', status: 'pending', retrieved_at: '' }],
+      tools: [{ name: 'Ubersuggest', status: 'pending', retrieved_at: '' }],
       queries: ['short-tail', 'long-tail', 'commercial', 'problem', 'question'].map(type => ({ keyword: '', type, volume: null, difficulty: null, cpc: null, intent: '', ranking_url: '', retrieved_at: '', tool: '' }))
     },
     sources: [{ url: '', title: '', publisher: '', source_type: '', year: '', published_at: '', accessed_at: '', scope: '', method: '', limitations: '', verified: false }],
@@ -183,11 +183,13 @@ export function validateResearchRecord(research, { record, silo, metadata = null
   for (const field of ['intent', 'serp_checked_at']) if (fullResearch && !clean(research.keyword_research?.[field])) fail(`keyword research missing ${field}`);
   if (clean(research.keyword_research?.serp_checked_at) && !isValidReviewDate(research.keyword_research.serp_checked_at, now)) fail('keyword research serp_checked_at is invalid or future-dated');
   const tools = research.keyword_research?.tools || [];
-  for (const toolName of ['Ahrefs', 'Ubersuggest']) {
-    const tool = tools.find(item => item.name === toolName);
-    if (!tool) fail(`${toolName} keyword research entry is missing`);
-    else if (fullResearch && (tool.status !== 'verified' || !isValidReviewDate(tool.retrieved_at, now))) fail(`${toolName} keyword research is not verified with a valid retrieval date`);
-    else if (clean(tool.retrieved_at) && !isValidReviewDate(tool.retrieved_at, now)) fail(`${toolName} retrieval date is invalid or future-dated`);
+  // Ubersuggest is the required platform. Historical Ahrefs entries are optional, kept with their attribution, and still date-checked.
+  const ubersuggest = tools.find(item => item.name === 'Ubersuggest');
+  if (!ubersuggest) fail('Ubersuggest keyword research entry is missing');
+  else if (fullResearch && (ubersuggest.status !== 'verified' || !isValidReviewDate(ubersuggest.retrieved_at, now))) fail('Ubersuggest keyword research is not verified with a valid retrieval date');
+  for (const tool of tools) {
+    if (clean(tool.retrieved_at) && !isValidReviewDate(tool.retrieved_at, now)) fail(`${tool.name} retrieval date is invalid or future-dated`);
+    else if (tool.name !== 'Ubersuggest' && tool.status === 'verified' && !clean(tool.retrieved_at)) fail(`${tool.name} is marked verified without a retrieval date`);
   }
   const queries = research.keyword_research?.queries || [];
   for (const type of ['short-tail', 'long-tail', 'commercial', 'problem', 'question']) if (!queries.some(item => item.type === type)) fail(`keyword research missing a ${type} query`);
@@ -272,13 +274,22 @@ export function validateResearchRecord(research, { record, silo, metadata = null
   return [...new Set(failures)];
 }
 
+// Commands that only print or search their arguments and never execute them.
+const nonExecutingCommands = new Set(['echo', 'printf', 'grep', 'egrep', 'fgrep', 'rg', 'cat', 'head', 'tail', 'wc', 'ls']);
+
 export function isProtectedPush(command, currentBranch = '') {
   const normalized = clean(command).replace(/\\\r?\n/g, ' ');
   const segments = normalized.split(/(?:&&|\|\||[;\n])/);
+  // A pipe into a shell or eval can run text that looks harmless on its own.
+  const pipesIntoShell = /\|\s*(?:\S*\/)?(?:ba|z|da|k)?sh\b|\|\s*(?:eval|xargs|source)\b/i.test(normalized);
+  // `push` must be its own shell word, so `.push(` and `block-protected-push.sh` do not count.
+  const pushWord = /(?:^|\s)['"]?push['"]?(?=\s|$)/i;
   for (const segment of segments) {
-    const match = segment.match(/(?:^|\s|\/)git(?:\s|$)([\s\S]*?)\bpush\b([\s\S]*)$/i);
+    const leading = segment.trim().split(/\s+/)[0]?.replace(/^.*\//, '').toLowerCase() || '';
+    if (!pipesIntoShell && nonExecutingCommands.has(leading) && !/[`]|\$\(|[<>]\(/.test(segment)) continue;
+    const match = segment.match(/(?:^|[\s\/'"])git['"]?(?=\s|$)([\s\S]*?)(?:^|\s)['"]?push['"]?(?=\s|$)([\s\S]*)$/i);
     if (!match) {
-      if (/\bpush\b/i.test(segment) && /[\\`$(){}*?\[\]]/.test(segment)) return true;
+      if (pushWord.test(segment) && /[\\`$(){}*?\[\]]/.test(segment)) return true;
       continue;
     }
     const after = match[2];
