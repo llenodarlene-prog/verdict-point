@@ -15,7 +15,7 @@ jobs:
         with: {node-version-file: .nvmrc, cache: npm}
       - run: npm ci && BUILD_ENV=staging npm run verify
         env: {STAGING_URL: "${{ vars.STAGING_URL }}"}
-      - run: bash scripts/deploy-atomic.sh
+      - run: bash scripts/deploy-document-root.sh
         env:
           DEPLOY_HOST: "${{ secrets.DEPLOY_HOST }}"
           DEPLOY_PORT: "${{ vars.DEPLOY_PORT }}"

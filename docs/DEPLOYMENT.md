@@ -18,7 +18,9 @@ Environment secrets:
 - `DEPLOY_SSH_KEY`
 - `SSH_KNOWN_HOSTS`, pinned from an independently verified host key
 
-The current script expects the web server to serve `DEPLOY_ROOT/current`. Deployment uploads a new release directory, validates `index.html`, and atomically changes the symlink. It never runs `ssh-keyscan` in CI. This layout must be verified before using it: Hostinger Web/Cloud hosting normally serves `public_html`, and hPanel does not allow changing that document root. The SSH screenshot alone does not establish a supported symlink layout. Do not treat an arbitrary release path as deployable. Confirm the real website root and server support, or adapt the deploy and rollback scripts to that root before activation.
+Production uses the atomic release script and therefore expects the web server to serve `DEPLOY_ROOT/current`. Do not configure production until that layout or an equivalent production-safe document-root strategy is verified.
+
+Hostinger staging uses `scripts/deploy-document-root.sh` because hPanel serves the fixed document root directly. The verified staging root is `/home/u285869133/domains/verdictpoint.org/public_html/staging`, exposed as `https://staging.verdictpoint.org`. This script uploads only the built `dist/` output and verifies the deployed `index.html`; it does not upload the repository source. The verified production document root is `/home/u285869133/domains/verdictpoint.org/public_html`, which currently contains a raw Git checkout from hPanel's Git deployment. Preserve production until staging review and a production backup/rollback strategy are complete.
 
 ## Hostinger Screenshot Findings
 
