@@ -4,17 +4,8 @@ description: Macro legal-industry coverage: regulation, courts, workforce, caree
 slug: /legal/
 type: page
 schema: CollectionPage
+template: hub
 draft: false
 ---
 
-# Legal
-
-Macro legal-industry coverage: regulation, courts, workforce, careers, industry-wide data and professional trends
-
-## Editorial Scope
-
-Boundary: industry-level coverage only. Firm operations belong in Law Firms; market structure and ALSP/corporate legal coverage belong in Legal Business.
-
-## Planned Coverage
-
-This hub will list approved articles and blogs assigned to the Legal cluster after their sources and publication fields pass repository validation.
+This category hub is rendered by `scripts/lib/hub.mjs` from the approved copy in `data/hub-pages.json` (Website Copy + Section Layout v1.1, CATEGORY HUB TEMPLATE). Edit the copy there, not here.

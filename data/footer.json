@@ -1,0 +1,30 @@
+{
+  "source": "sources/google-drive/1fsvwC4qAyFdOcwNxsHGx0O8I5i0a5sqTJj-8syArYA0.md (Website Copy + Section Layout v1.1, FOOTER)",
+  "description": "Verdict Point is an independent publication covering the business of law, including law firm operations, legal technology, legal marketing, and the legal-services market.",
+  "columns": [
+    {
+      "heading": "Explore",
+      "links": [
+        { "label": "Legal", "url": "/legal/" },
+        { "label": "Law Firms", "url": "/law-firms/" },
+        { "label": "Legal Tech", "url": "/legal-tech/" },
+        { "label": "Legal Marketing", "url": "/legal-marketing/" },
+        { "label": "Legal Business", "url": "/legal-business/" }
+      ]
+    },
+    {
+      "heading": "About",
+      "links": [
+        { "label": "About Us", "url": "/about/" },
+        { "label": "Contact Us", "url": "/contact/" }
+      ]
+    },
+    {
+      "heading": "Legal",
+      "links": [
+        { "label": "Privacy Policy", "url": "/privacy/" }
+      ]
+    }
+  ],
+  "disclaimer": "Verdict Point provides information and analysis for general informational purposes only. Nothing published on this site is legal advice, and use of this site does not create an attorney-client relationship."
+}

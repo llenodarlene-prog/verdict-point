@@ -1,0 +1,47 @@
+{
+  "source": "sources/google-drive/1fsvwC4qAyFdOcwNxsHGx0O8I5i0a5sqTJj-8syArYA0.md (Website Copy + Section Layout v1.1, CATEGORY HUB TEMPLATE)",
+  "shared": {
+    "featured_label": "Featured Story",
+    "featured_link": "Read the Research",
+    "topics_heading": "Topics",
+    "latest_heading": "Latest Analysis",
+    "empty_state": "No published items are available yet."
+  },
+  "hubs": {
+    "/legal/": {
+      "eyebrow": "Industry & Profession",
+      "heading": "Legal Industry Analysis",
+      "copy": "The rules, workforce, institutions, and economics around legal practice are constantly influencing one another. Verdict Point follows those changes at industry scale, with coverage of regulation, courts, careers, professional trends, and legal-sector data.",
+      "topics": ["Regulation", "Workforce", "Careers", "Courts", "Industry Data"],
+      "image": { "src": "/assets/images/hubs/legal-courthouse-1600.jpg", "small": "/assets/images/hubs/legal-courthouse-800.jpg", "width": 1600, "height": 900, "alt": "Ivory stone courthouse with a columned portico and wide front steps in morning light" }
+    },
+    "/law-firms/": {
+      "eyebrow": "Firm Economics & Operations",
+      "heading": "Law Firm Business & Operations",
+      "copy": "A law firm can grow on paper while pressure builds underneath the headline numbers. Verdict Point looks at billing, collections, profitability, staffing, intake, client experience, productivity, and management to understand what is really behind firm performance.",
+      "topics": ["Billing", "Profitability", "Hiring", "Intake", "Client Experience", "Operations"],
+      "image": { "src": "/assets/images/hubs/law-firms-office-1200.jpg", "small": "/assets/images/hubs/law-firms-office-800.jpg", "width": 1200, "height": 1200, "alt": "Marble office desk with navy binders, a calculator, a leather notebook, and a tablet showing a bar chart" }
+    },
+    "/legal-tech/": {
+      "eyebrow": "Technology & AI",
+      "heading": "Legal Technology & AI",
+      "copy": "Buying technology is easy to measure; changing how legal work gets done is harder. Verdict Point follows legal AI, practice-management platforms, eDiscovery, automation, cybersecurity, and data with a focus on how tools are used day to day and what changes once they become part of the workflow.",
+      "topics": ["Legal AI", "Practice Management", "eDiscovery", "Automation", "Cybersecurity", "Data"],
+      "image": { "src": "/assets/images/hubs/legal-tech-workspace-1200.jpg", "small": "/assets/images/hubs/legal-tech-workspace-800.jpg", "width": 1200, "height": 1200, "alt": "Legal professional working on a laptop and tablet at a desk with an open report in a bright modern office" }
+    },
+    "/legal-marketing/": {
+      "eyebrow": "Growth & Client Acquisition",
+      "heading": "Legal Marketing & Client Acquisition",
+      "copy": "Marketing performance can look strong at the top of the funnel while the business result tells a different story. Verdict Point connects SEO, paid media, websites, referrals, reviews, intake, and conversion to the economics of winning and retaining legal clients.",
+      "topics": ["SEO", "Paid Media", "Websites", "Reviews", "Intake", "Conversion"],
+      "image": { "src": "/assets/images/hubs/legal-marketing-interface-1600.jpg", "small": "/assets/images/hubs/legal-marketing-interface-800.jpg", "width": 1600, "height": 900, "alt": "Professional reviewing a website on a laptop, with the same page shown on a tablet and a phone" }
+    },
+    "/legal-business/": {
+      "eyebrow": "Markets & Business Models",
+      "heading": "The Business of Legal Services",
+      "copy": "Legal work is being delivered through a wider mix of firms, in-house teams, alternative providers, technology companies, and new operating models. Verdict Point follows how those structures differ, where money is moving, and what those shifts mean for traditional firms and clients.",
+      "topics": ["ALSPs", "Corporate Legal", "Ownership", "Market Structure", "Growth Models", "Industry Economics"],
+      "image": { "src": "/assets/images/hubs/legal-business-scale-1600.jpg", "small": "/assets/images/hubs/legal-business-scale-800.jpg", "width": 1600, "height": 900, "alt": "Three architectural models of office buildings in increasing size beside printed charts on a marble table" }
+    }
+  }
+}

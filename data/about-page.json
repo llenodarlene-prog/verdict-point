@@ -1,0 +1,122 @@
+{
+  "source": "sources/google-drive/1fsvwC4qAyFdOcwNxsHGx0O8I5i0a5sqTJj-8syArYA0.md (Website Copy + Section Layout v1.1, ABOUT US PAGE)",
+  "hero": {
+    "eyebrow": "About Verdict Point",
+    "heading": "We cover how the legal industry works.",
+    "copy": [
+      "Verdict Point is an independent publication about the business of law.",
+      "We study the economics, technology, marketing, operations, and market structures behind legal services. Rather than explaining what the law means, our focus is on the business around legal work and the decisions that shape how legal services are delivered, marketed, managed, and measured."
+    ],
+    "image": {
+      "src": "/assets/images/about/research-desk-1600.jpg",
+      "small": "/assets/images/about/research-desk-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Sunlit research desk with an open law volume, a legal pad, reading glasses, and a tabbed stack of documents"
+    }
+  },
+  "why": {
+    "heading": "Why Verdict Point Exists",
+    "copy": [
+      "Legal-industry information often arrives with a point of view attached to it, and that is not necessarily a problem. Software companies publish technology research because they understand their users. Marketing agencies publish search advice because they see campaign performance. Industry organizations publish member research because they have access to long-running communities and datasets. Newsrooms report the stories moving fastest because that is where their reporting strength lies.",
+      "Each perspective can be useful. At the same time, each sees the market from a different position.",
+      "Verdict Point exists to connect those views without pretending they are interchangeable. We look across datasets, company disclosures, surveys, public records, industry reports, and original research so that we can understand what a number measures, where its limitations sit, and how much weight it deserves."
+    ],
+    "sources": [
+      "Software",
+      "Agencies",
+      "Industry Groups",
+      "Newsrooms"
+    ]
+  },
+  "measurement": {
+    "heading": "What makes our coverage different",
+    "intro": "We start with the measurement problem because that is often where the meaning changes.",
+    "cards": [
+      {
+        "label": "AI Adoption",
+        "question": "Does “adoption” mean purchased, approved, tested, or used in production?"
+      },
+      {
+        "label": "Marketing Conversion",
+        "question": "Does “conversion” mean a visitor, inquiry, consultation, or signed matter?"
+      },
+      {
+        "label": "Market Size",
+        "question": "Does the estimate describe observed revenue, modeled revenue, or a forecast?"
+      }
+    ],
+    "closing": "Those distinctions can seem technical, but they are often the difference between a useful benchmark and a misleading one. The point is not to add more commentary; it is to provide the context that makes the information easier to interpret."
+  },
+  "research": {
+    "id": "how-we-research",
+    "heading": "How We Research",
+    "intro": "Our editorial process is built around source quality, definition clarity, and reproducibility.",
+    "steps": [
+      "Start with primary sources",
+      "Check definitions and methodology",
+      "Compare conflicting evidence",
+      "Show the limitation with the conclusion"
+    ],
+    "copy": [
+      "Whenever possible, we prefer government datasets, regulatory publications, court and agency materials, company filings, original survey methodology, and data published by the organization responsible for collecting it.",
+      "Industry research and vendor data can also add valuable context, especially when they provide access to information that is not available elsewhere. When we use those sources, we identify who produced the research and note any limitations that may affect interpretation rather than presenting every estimate as if it were directly comparable."
+    ]
+  },
+  "originality": {
+    "heading": "Originality is a requirement.",
+    "copy": [
+      "Verdict Point does not publish to fill a schedule or to repeat what is already widely reported.",
+      "Every major piece should leave readers with something they could not easily find elsewhere: sources reconciled side by side, a clearer definition, a fair comparison, or new data. If we cannot add that, the piece is not ready to publish."
+    ],
+    "tiles": [
+      "Source Reconciliation",
+      "Comparison Table",
+      "Calculation",
+      "Verified Sample",
+      "Original Survey",
+      "Market Map"
+    ]
+  },
+  "ai": {
+    "heading": "How We Use AI and Automation",
+    "copy": [
+      "Technology may assist with research organization, drafting, data cleanup, or editing, but it does not replace source verification.",
+      "Factual claims, statistics, and attributed findings should be checked against the underlying source before publication. When automation materially affects how a research asset was produced, we can explain the process if that context helps readers evaluate the work.",
+      "The goal is to use technology to improve the research process without asking readers to trust a claim simply because it was presented confidently."
+    ],
+    "image": {
+      "src": "/assets/images/about/digital-document-review-1600.jpg",
+      "small": "/assets/images/about/digital-document-review-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Tablet on a desk showing a document under review with numbered annotations in the margin"
+    }
+  },
+  "corrections": [
+    {
+      "heading": "Accuracy matters more than defending an old sentence.",
+      "copy": "If a factual error is identified, we correct it. If a dataset is revised and the change materially affects a conclusion, we update the relevant page. If a methodology changes, we aim to make that clear rather than quietly replacing the old basis for an analysis."
+    },
+    {
+      "heading": "Commercial relationships should not determine editorial conclusions.",
+      "copy": "In the same way, a source being useful does not mean it is beyond scrutiny. We expect our work to be questioned, checked, and revisited. That is part of what makes research useful."
+    }
+  ],
+  "audience": {
+    "heading": "Who We Write For",
+    "copy": "Verdict Point is built for people who make, advise, report on, or study decisions inside legal services.",
+    "chips": [
+      "Law Firm Leaders",
+      "Legal Marketers",
+      "Innovation Teams",
+      "Legal Operations",
+      "Founders",
+      "Consultants",
+      "Analysts",
+      "Journalists",
+      "Researchers"
+    ],
+    "closing": "Their roles may be different, but they often face the same challenge: a large amount of information and limited time to determine what deserves attention. The common denominator is not a job title; it is the need for information that can stand up to a closer look."
+  }
+}

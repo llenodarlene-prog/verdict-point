@@ -44,22 +44,46 @@ test('protected push analysis covers git global options and protected refs', () 
   assert.equal(isProtectedPush('git push origin HEAD:refs/heads/$(printf main)', 'feature/test'), true);
   assert.equal(isProtectedPush('git push origin ma\\in', 'feature/test'), true);
   assert.equal(isProtectedPush('$(command -v git) push origin main', 'feature/test'), true);
+  assert.equal(isProtectedPush('bash -c "git push origin main"', 'feature/test'), true);
+  assert.equal(isProtectedPush('echo "git push origin main" | bash', 'feature/test'), true);
+  assert.equal(isProtectedPush('$G "push" origin main', 'feature/test'), true);
 });
 
+const pushHook = '.claude/hooks/block-protected-push.sh';
+// Windows cannot execute a shell script directly, so run it through bash there; elsewhere execute it as-is.
+const runPushHook = input => process.platform === 'win32'
+  ? spawnSync('bash', [pushHook], { input, encoding: 'utf8' })
+  : spawnSync(pushHook, { input, encoding: 'utf8' });
+
 test('protected push hook fails closed and blocks executable-path and shell-construction bypasses', () => {
-  const hook = '.claude/hooks/block-protected-push.sh';
-  for (const command of ['git -C . push origin main', '/usr/bin/git push origin main', "git push origin HEAD:refs/heads/ma''in", 'git push origin HEAD:refs/heads/ma${SAFE}in', 'git push origin HEAD:refs/heads/$(printf main)', 'git push origin ma\\in', '$(command -v git) push origin main']) {
-    const bypass = spawnSync(hook, { input: JSON.stringify({ tool_input: { command } }), encoding: 'utf8' });
+  for (const command of ['git -C . push origin main', '/usr/bin/git push origin main', "git push origin HEAD:refs/heads/ma''in", 'git push origin HEAD:refs/heads/ma${SAFE}in', 'git push origin HEAD:refs/heads/$(printf main)', 'git push origin ma\\in', '$(command -v git) push origin main', 'bash -c "git push origin staging"']) {
+    const bypass = runPushHook(JSON.stringify({ tool_input: { command } }));
     assert.equal(bypass.status, 2, command);
   }
-  const invalid = spawnSync(hook, { input: '{broken', encoding: 'utf8' });
+  const invalid = runPushHook('{broken');
   assert.equal(invalid.status, 2);
+});
+
+test('protected push guard allows application code, its own filename, documentation strings, and local scripts', () => {
+  const allowed = [
+    'node -e "const hunks = []; hunks.push({ at: 1 }); console.log(hunks.length)"',
+    `node -e "require('child_process').spawnSync('${pushHook}', { input: '{}' })"`,
+    `cat ${pushHook}`,
+    'echo "Never run git push origin main"',
+    'grep -n "git push origin staging" docs/CONTENT-WORKFLOW.md',
+    'bash scratchpad/headtest.sh',
+    'git log --grep push-guard'
+  ];
+  for (const command of allowed) {
+    assert.equal(isProtectedPush(command, 'feature/test'), false, command);
+    assert.equal(runPushHook(JSON.stringify({ tool_input: { command } })).status, 0, command);
+  }
 });
 
 test('research scaffold includes the complete research-first evidence model', () => {
   const record = { type: 'Article', content_number: '1', primary_keyword: 'test statistics', working_title: 'Test Statistics', url_slug: '/test/', intent: 'Informational' };
   const research = createResearchScaffold(record, { approved_outbound_targets: ['/target/'] }, { description: 'test statistics description' });
-  assert.deepEqual(research.keyword_research.tools.map(item => item.name), ['Ahrefs', 'Ubersuggest']);
+  assert.deepEqual(research.keyword_research.tools.map(item => item.name), ['Ubersuggest']);
   assert.deepEqual(research.keyword_research.queries.map(item => item.type), ['short-tail', 'long-tail', 'commercial', 'problem', 'question']);
   assert.equal(research.competitors.length, 5);
   assert.equal(research.status, 'scaffolded');
@@ -92,6 +116,23 @@ test('research validation rejects malformed evidence relationships and duplicate
   assert.ok(validateResearchRecord(research, { record, silo }).some(message => message.includes('invalid URL')));
 });
 
+test('keyword research requires Ubersuggest and keeps historical Ahrefs data optional', () => {
+  const record = { type: 'Article', content_number: '1', primary_keyword: 'test statistics', working_title: 'Test Statistics', url_slug: '/test/', intent: 'Informational' };
+  const silo = { approved_outbound_targets: ['/target/'] };
+  const now = new Date('2026-09-23T23:59:59Z');
+  const toolFailures = research => validateResearchRecord(research, { record, silo, now }).filter(message => /Ubersuggest|Ahrefs/.test(message));
+  const research = createResearchScaffold(record, silo, { description: 'test statistics description' });
+  research.status = 'researched';
+  research.keyword_research.tools = [{ name: 'Ubersuggest', status: 'verified', retrieved_at: '2026-09-20' }];
+  assert.deepEqual(toolFailures(research), []);
+  research.keyword_research.tools.push({ name: 'Ahrefs', status: 'verified', retrieved_at: '2026-09-18' });
+  assert.deepEqual(toolFailures(research), []);
+  research.keyword_research.tools[1].retrieved_at = '2027-01-01';
+  assert.ok(toolFailures(research).some(message => message.includes('Ahrefs retrieval date')));
+  research.keyword_research.tools = [{ name: 'Ahrefs', status: 'verified', retrieved_at: '2026-09-18' }];
+  assert.ok(toolFailures(research).some(message => message.includes('Ubersuggest keyword research entry is missing')));
+});
+
 test('release manifest covers the complete launch set', async () => {
   const [release, launch] = await Promise.all([
     readFile('data/release.json', 'utf8').then(JSON.parse),
@@ -102,7 +143,10 @@ test('release manifest covers the complete launch set', async () => {
 });
 
 test('build copies public assets and emits root server configuration', async () => {
-  assert.ok(await stat('dist/assets/images/README.md'));
+  for (const name of ['horizontal', 'vertical', 'icon', 'social']) assert.ok(await stat(`dist/assets/brand/verdict-point-${name}.png`));
+  await assert.rejects(stat('dist/assets/brand/verdict-point-brand-guidelines.png'));
+  await assert.rejects(stat('dist/assets/brand/README.md'));
+  await assert.rejects(stat('dist/assets/images/README.md'));
   assert.ok(await stat('dist/.htaccess'));
   await assert.rejects(stat('dist/static/.htaccess'));
 });
