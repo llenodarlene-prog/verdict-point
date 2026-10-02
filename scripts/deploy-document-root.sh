@@ -17,6 +17,15 @@ esac
 if [[ ! "$DEPLOY_ROOT" =~ ^/[A-Za-z0-9._/-]+$ ]]; then echo "DEPLOY_ROOT contains unsafe characters" >&2; exit 2; fi
 if [[ ! -f dist/index.html ]]; then echo "dist/index.html is required" >&2; exit 2; fi
 
+preserve_dir="${DEPLOY_PRESERVE_DIR:-}"
+rsync_opts=(-az --delete)
+if [[ -n "$preserve_dir" ]]; then
+  if [[ ! "$preserve_dir" =~ ^[A-Za-z0-9._-]+$ ]] || [[ "$preserve_dir" == "." || "$preserve_dir" == ".." ]]; then
+    echo "DEPLOY_PRESERVE_DIR must be one safe top-level directory name" >&2; exit 2
+  fi
+  rsync_opts+=(--exclude "/$preserve_dir/")
+fi
+
 known_hosts="$(mktemp)"
 key_file="$(mktemp)"
 cleanup(){ rm -f "$known_hosts" "$key_file"; }
@@ -27,6 +36,6 @@ chmod 600 "$key_file"
 ssh_opts=(-p "$deploy_port" -i "$key_file" -o BatchMode=yes -o StrictHostKeyChecking=yes -o UserKnownHostsFile="$known_hosts")
 
 ssh "${ssh_opts[@]}" "$DEPLOY_USER@$DEPLOY_HOST" "mkdir -p '$DEPLOY_ROOT'"
-rsync -az --delete -e "ssh ${ssh_opts[*]}" dist/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_ROOT/"
+rsync "${rsync_opts[@]}" -e "ssh ${ssh_opts[*]}" dist/ "$DEPLOY_USER@$DEPLOY_HOST:$DEPLOY_ROOT/"
 ssh "${ssh_opts[@]}" "$DEPLOY_USER@$DEPLOY_HOST" "test -f '$DEPLOY_ROOT/index.html'"
 echo "Published dist/ to $DEPLOY_ROOT"
