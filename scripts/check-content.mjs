@@ -81,7 +81,8 @@ for (const file of files) {
   }
   for (const term of ['click here', 'learn more', 'our guide', 'our page', 'deep dive']) if (new RegExp(`\\b${term.replace(' ', '\\s+')}\\b`, 'i').test(body)) fail(`${file}: mechanical anchor phrase "${term}"`);
   const approved = [...silo.approved_outbound_targets].sort();
-  const actual = [...new Set([...body.matchAll(/\[[^\]]+\]\((\/[^)#?]+\/?)(?:#[^)]+)?\)/g)].map(match => match[1]).filter(value => value !== '/'))].sort();
+  // Page links only: Markdown images (![alt](/assets/...)) are validated separately against data/assets.json.
+  const actual = [...new Set([...body.matchAll(/(?<!!)\[[^\]]+\]\((\/[^)#?\s]+\/?)(?:#[^)]+)?\)/g)].map(match => match[1]).filter(value => value !== '/'))].sort();
   if (JSON.stringify(actual) !== JSON.stringify(approved)) fail(`${file}: internal link set differs from the exact tracker-approved set`);
   const resourcesOffset = body.search(/^##\s+Resources\s*$/m);
   const contextualBody = resourcesOffset < 0 ? body : body.slice(0, resourcesOffset);
