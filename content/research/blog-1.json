@@ -1,12 +1,12 @@
 {
   "tracker_id": "Blog:1",
-  "status": "planned",
+  "status": "verified",
   "research_question": "Owned-page scope: Evaluating the Total Cost of Clio Legal Software. Planned sources and method: Clio official pricing and help documentation; cost a defined firm scenario. Build a source-labelled comparison covering Clio pricing and legal software integrations; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
     "purpose": "Give law firm buyers a dated, source-labelled method to estimate the full annual cost of Clio legal software beyond the listed Starter price.",
     "audience": "Managing partners, COOs, and operations or billing leads at small and mid-sized U.S. law firms evaluating Clio for 2026-2027.",
     "publication_year": "2026",
-    "data_period": "Vendor pricing, fee, and help-center pages as displayed on October 2, 2026",
+    "data_period": "Vendor pricing, fee, and help-center pages as displayed on October 2, 2026 and rechecked the same day before publication sign-off",
     "scope_limitations": "Desk research from public Clio pages only; no quote was requested and no hands-on product test was performed. Core, Signature, and Elite prices are quote-only and are not estimated. Calculations are illustrative arithmetic on published rates."
   },
   "keyword_research": {
@@ -518,14 +518,14 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-02"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-02"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/15ZD5PTUBV5xc3sKe4Jaylsh8QhxfvE-yy7w73gmD4Ps/edit?usp=drivesdk",

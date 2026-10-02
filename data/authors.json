@@ -4,5 +4,13 @@
     "verified": false,
     "publishable": false,
     "note": "Replace only after identity and qualifications are verified."
+  },
+  "darlene_aberin": {
+    "name": "Darlene Aberin",
+    "role": "Author and Researcher",
+    "verified": true,
+    "publishable": true,
+    "verified_by": "Site owner instruction",
+    "verified_at": "2026-10-02"
   }
 }

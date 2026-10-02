@@ -81,9 +81,11 @@ const footer = replace(footerTemplate, shared);
 const sourceFiles = (await walk('content')).filter(file => file.endsWith('.md')).sort();
 const parsed = [];
 const sourceRoutes = new Map();
+// Production omits drafts entirely; their routes are remembered so links to them can be unlinked below.
+const excludedDraftRoutes = new Set();
 for (const file of sourceFiles) {
   const { metadata, body } = await readContent(file);
-  if (metadata.draft === true && buildEnv === 'production') continue;
+  if (metadata.draft === true && buildEnv === 'production') { if (metadata.slug) excludedDraftRoutes.add(metadata.slug); continue; }
   for (const field of ['title', 'description', 'slug', 'type']) if (!metadata[field]) throw new Error(`${file}: missing ${field}`);
   if (!/^\/(?:$|.*\/)$/.test(metadata.slug)) throw new Error(`${file}: slug must start and end with /`);
   assertUniqueRoute(metadata.slug, file, sourceRoutes);
@@ -121,6 +123,8 @@ for (const page of parsed) {
   }
   if (!designed && !article && metadata.slug === '/') renderedBody += contentCards(publishedPosts.slice(0, 12), 'Latest Research');
   else if (!designed && !article && metadata.schema === 'CollectionPage') renderedBody += contentCards(publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), 'Published Coverage');
+  // A link to an unpublished draft becomes plain text in production; it turns back into a link once that item publishes.
+  if (excludedDraftRoutes.size) renderedBody = renderedBody.replace(/<a href="(\/[^"#?]*)(?:[#?][^"]*)?"[^>]*>([\s\S]*?)<\/a>/g, (link, href, text) => excludedDraftRoutes.has(href) ? `<span class="pending-link">${text}</span>` : link);
   const title = metadata.seo_title || metadata.title;
   // An approved SEO title that already names the brand is used as written, without a repeated suffix.
   const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;

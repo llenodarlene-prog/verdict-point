@@ -12,4 +12,4 @@
 
 Drafts with `draft: true` are excluded from production. “Ready for Source Verification” means the brief is ready, not that its evidence has already been verified.
 
-The production gate requires all 20 launch IDs and the structured approvals in `data/release.json`. Removing warning copy cannot satisfy that gate.
+The production gate requires the structured approvals and `launch_policy` in `data/release.json`: complete core and legal pages plus at least one published blog. The 20 launch IDs are the editorial backlog and publish one per day after launch; each must pass every check before it goes live. Removing warning copy cannot satisfy that gate. See `docs/DEPLOYMENT.md` for the full launch policy.
