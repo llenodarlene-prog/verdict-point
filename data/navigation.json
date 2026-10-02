@@ -1,0 +1,46 @@
+{
+  "primary": [
+    {
+      "label": "Home",
+      "url": "/"
+    },
+    {
+      "label": "About Us",
+      "url": "/about/"
+    },
+    {
+      "label": "Legal",
+      "url": "/legal/"
+    },
+    {
+      "label": "Law Firms",
+      "url": "/law-firms/"
+    },
+    {
+      "label": "Legal Tech",
+      "url": "/legal-tech/"
+    },
+    {
+      "label": "Legal Marketing",
+      "url": "/legal-marketing/"
+    },
+    {
+      "label": "Legal Business",
+      "url": "/legal-business/"
+    },
+    {
+      "label": "Contact Us",
+      "url": "/contact/"
+    }
+  ],
+  "footer": [
+    {
+      "label": "Privacy Policy",
+      "url": "/privacy/"
+    },
+    {
+      "label": "Sitemap",
+      "url": "/sitemap.xml"
+    }
+  ]
+}

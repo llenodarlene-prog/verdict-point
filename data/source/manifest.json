@@ -1,0 +1,131 @@
+{
+  "source_file": "01-5-Site-SEO-GEO-AEO-Content-Keyword-Tracker.xlsx",
+  "sha256": "3ba9d361b58edf27e92463febe968f71740860342674557209f521b62a034fc7",
+  "file_size_bytes": 272592,
+  "workbook_modified": "2026-09-22T17:43:01.793694",
+  "sheet_order": [
+    "Dashboard",
+    "Site Architecture",
+    "VerdictPoint",
+    "FinLoom",
+    "StackRow",
+    "WellSignal",
+    "Arizona Direct",
+    "Backlinks",
+    "Research Summary",
+    "AI Kill List",
+    "Brand Strategy",
+    "Interlinking Plan"
+  ],
+  "sheet_count": 12,
+  "sheets": [
+    {
+      "sheet": "Dashboard",
+      "rows": 987,
+      "columns": 26,
+      "populated_cells": 307,
+      "hyperlinks": 5,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "Site Architecture",
+      "rows": 100,
+      "columns": 10,
+      "populated_cells": 1000,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "VerdictPoint",
+      "rows": 101,
+      "columns": 36,
+      "populated_cells": 2464,
+      "hyperlinks": 20,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "FinLoom",
+      "rows": 101,
+      "columns": 30,
+      "populated_cells": 2548,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "StackRow",
+      "rows": 101,
+      "columns": 30,
+      "populated_cells": 2561,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "WellSignal",
+      "rows": 101,
+      "columns": 30,
+      "populated_cells": 2494,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "Arizona Direct",
+      "rows": 101,
+      "columns": 30,
+      "populated_cells": 2513,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "Backlinks",
+      "rows": 2,
+      "columns": 26,
+      "populated_cells": 26,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "Research Summary",
+      "rows": 60,
+      "columns": 26,
+      "populated_cells": 667,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "AI Kill List",
+      "rows": 53,
+      "columns": 6,
+      "populated_cells": 317,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "Brand Strategy",
+      "rows": 200,
+      "columns": 8,
+      "populated_cells": 464,
+      "hyperlinks": 26,
+      "comments": 0,
+      "formulas": 0
+    },
+    {
+      "sheet": "Interlinking Plan",
+      "rows": 101,
+      "columns": 16,
+      "populated_cells": 1616,
+      "hyperlinks": 0,
+      "comments": 0,
+      "formulas": 0
+    }
+  ]
+}

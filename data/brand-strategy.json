@@ -1,0 +1,92 @@
+{
+  "Positioning": {
+    "strategy": "Independent legal-industry intelligence for people who care about how law firms grow, operate, market and adopt technology.",
+    "implementation": "Own the space between legal news, legal marketing advice and vendor-led legal tech content. Cover the business of law, not legal advice.",
+    "source_row": 2
+  },
+  "One-line promise": {
+    "strategy": "The business of law, measured.",
+    "implementation": "Every major piece should answer: what changed, how big is it, who is affected, and what the evidence says.",
+    "source_row": 3
+  },
+  "Tone": {
+    "strategy": "Measured, forensic, executive, skeptical of hype.",
+    "implementation": "Prefer precise language, caveats and source comparison. Avoid breathless AI/legal-tech hype and agency-style marketing copy.",
+    "source_row": 4
+  },
+  "Voice traits": {
+    "strategy": "Analytical; evidence-first; commercially literate; concise; neutral but not bland.",
+    "implementation": "Write like a research editor briefing a managing partner, legal marketer or legal-tech operator.",
+    "source_row": 5
+  },
+  "Primary audience avatar": {
+    "strategy": "Managing partner / COO / CMO at a 10–200 lawyer firm, age 35–60, responsible for growth, operations, marketing spend, hiring or technology decisions.",
+    "implementation": "Needs benchmarks, competitive context, practical economics and concise data.",
+    "source_row": 6
+  },
+  "Secondary audience": {
+    "strategy": "Legal-tech founders, in-house legal ops leaders, consultants, journalists and legal marketers.",
+    "implementation": "Build citation-ready pages for reports, decks and editorial use.",
+    "source_row": 7
+  },
+  "Messaging pillars": {
+    "strategy": "Legal markets are measurable; growth has an operating system; technology claims need evidence; client behavior is changing; benchmarks beat anecdotes.",
+    "implementation": "Repeat across About, category pages and flagship research.",
+    "source_row": 8
+  },
+  "Originality moat": {
+    "strategy": "Proprietary legal-market datasets, quarterly mini-surveys, law-firm benchmark tables, vendor/category maps, source-conflict notes and transparent methodology.",
+    "implementation": "Recurring products: Verdict Index, Law Firm Benchmark Brief, Legal Tech Market Map.",
+    "source_row": 9
+  },
+  "Competitor gap": {
+    "strategy": "Clio is vendor-led, ABA Journal is news-led, LawRank is agency-led. VerdictPoint can be independent, benchmark-led and commercially analytical.",
+    "implementation": "Compete on methodology and synthesis, not volume.",
+    "source_row": 10
+  },
+  "Current search share": {
+    "strategy": "0% of the selected Ahrefs US organic-traffic benchmark set as of 20 Sep 2026; VerdictPoint currently has 0 estimated US organic traffic.",
+    "implementation": "Use this as pre-launch share only. Track cluster-level share of voice after launch.",
+    "source_row": 11
+  },
+  "Google + LLM strategy": {
+    "strategy": "Win narrow research/commercial queries first. Use original tables, named authors, methodology, update dates, clear entities and strong hubs.",
+    "implementation": "Make pages easy to cite with definitions, dated statistics, source tables and 'what changed' sections.",
+    "source_row": 12
+  },
+  "ORANGE": {
+    "strategy": "Existing VerdictPoint Litigation Services operates in the U.S. legal sector and serves attorneys/legal teams. Audience adjacency creates meaningful confusion risk even though your publication is editorial/research rather than trial support.",
+    "implementation": "Keep domain. Use the publication as VerdictPoint Research or VerdictPoint Journal in public-facing identity only after attorney review. Avoid courtroom/trial-support visual cues. Run formal USPTO/common-law clearance before launch.",
+    "source_row": 84
+  },
+  "Public display name": {
+    "strategy": "Verdict Point",
+    "implementation": "Use this spacing in site copy, navigation labels, metadata display names and logo lockups. Internal sheet/tab name can remain VerdictPoint.",
+    "source_row": 98
+  },
+  "Public tagline": {
+    "strategy": "The Business of Law, Measured.",
+    "implementation": "Primary public-facing tagline.",
+    "source_row": 99
+  },
+  "Website palette": {
+    "strategy": "Deep Navy #0F2A44; Rust Red #8B2E2E; Warm Gold #C9A96A; Ivory #F7F4ED; Charcoal #2B2F36",
+    "implementation": "Primary web fonts: Playfair Display 500 for display/headings; Inter 400 body; Inter 500 UI/labels. Logo wordmark remains a fixed brand asset.",
+    "source_row": 109
+  },
+  "Website Copy + Section Layout": {
+    "strategy": "https://docs.google.com/document/d/1fsvwC4qAyFdOcwNxsHGx0O8I5i0a5sqTJj-8syArYA0/edit?usp=drivesdk",
+    "implementation": "Current preferred website copy + section-level layout brief.",
+    "source_row": 115
+  },
+  "SEO GEO AEO Editorial Brief": {
+    "strategy": "https://docs.google.com/document/d/1XqjdWSPr6dZ0r3VkaEwAUecJq2T07ptf6iU5gXfrMWI/edit?usp=drivesdk",
+    "implementation": "Internal SEO/GEO/AEO, writing, humanization, content-gap, and editorial rules.",
+    "source_row": 116
+  },
+  "First 10 Articles + 10 Blogs URL & Internal Linking Plan": {
+    "strategy": "https://docs.google.com/document/d/1c9N3u_xCHHEIelbCwJ1q5XlSvzR8DIfcrkrnq-fU-04/edit?usp=drivesdk",
+    "implementation": "Approved launch slugs and contextual internal-link targets for the first 20 Verdict Point pages.",
+    "source_row": 123
+  }
+}

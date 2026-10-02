@@ -1,0 +1,25 @@
+{
+  "tracker_brand": "VerdictPoint",
+  "name": "Verdict Point",
+  "repository": "verdictpoint-static",
+  "url": "https://verdictpoint.org",
+  "tagline": "The Business of Law, Measured.",
+  "description": "Independent, evidence-led intelligence on law firms, legal markets, legal technology, and growth.",
+  "locale": "en-US",
+  "fonts": {
+    "display": "Playfair Display",
+    "body": "Inter",
+    "ui": "Inter"
+  },
+  "theme": {
+    "ink": "#0F2A44",
+    "accent": "#8B2E2E",
+    "secondary": "#C9A96A",
+    "paper": "#F7F4ED",
+    "charcoal": "#2B2F36"
+  },
+  "launch_status": "pre-publication",
+  "verified_contact_details": false,
+  "tracker_sha256": "3ba9d361b58edf27e92463febe968f71740860342674557209f521b62a034fc7",
+  "source_modified": "2026-09-22T17:43:01.793694"
+}

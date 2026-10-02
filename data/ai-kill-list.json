@@ -1,0 +1,470 @@
+[
+  {
+    "_source_row": 2,
+    "avoid_flag": "actually",
+    "reason": "Common AI filler / unnecessary correction cue",
+    "preferred_approach": "Delete or state the point directly",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": "Unless genuinely contrasting a misconception"
+  },
+  {
+    "_source_row": 3,
+    "avoid_flag": "delve",
+    "reason": "Overused AI verb",
+    "preferred_approach": "examine; analyze; look at; investigate",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 4,
+    "avoid_flag": "dive into",
+    "reason": "Generic AI transition",
+    "preferred_approach": "Name the specific analysis",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 5,
+    "avoid_flag": "in today's fast-paced world",
+    "reason": "Generic filler",
+    "preferred_approach": "Delete",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 6,
+    "avoid_flag": "in today's digital landscape",
+    "reason": "Generic filler",
+    "preferred_approach": "State the specific market/search change",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 7,
+    "avoid_flag": "ever-evolving",
+    "reason": "AI cliché",
+    "preferred_approach": "changing; expanding; specific trend",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 8,
+    "avoid_flag": "game-changer",
+    "reason": "Hype",
+    "preferred_approach": "Describe the measurable effect",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 9,
+    "avoid_flag": "revolutionize / revolutionary",
+    "reason": "Unsupported hype",
+    "preferred_approach": "Specify what changed and by how much",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 10,
+    "avoid_flag": "unlock",
+    "reason": "Marketing/AI cliché",
+    "preferred_approach": "enable; provide; increase; specific verb",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 11,
+    "avoid_flag": "leverage",
+    "reason": "Corporate filler when used as verb",
+    "preferred_approach": "use; apply; combine",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 12,
+    "avoid_flag": "navigate the complexities",
+    "reason": "AI cliché",
+    "preferred_approach": "Name the exact challenge",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 13,
+    "avoid_flag": "realm",
+    "reason": "AI-ish abstraction",
+    "preferred_approach": "market; sector; category; field",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 14,
+    "avoid_flag": "landscape",
+    "reason": "Overused abstraction",
+    "preferred_approach": "market; category; competitive set",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": "Use only when literally useful"
+  },
+  {
+    "_source_row": 15,
+    "avoid_flag": "tapestry",
+    "reason": "AI cliché",
+    "preferred_approach": "Delete / use concrete description",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 16,
+    "avoid_flag": "robust",
+    "reason": "Often vague",
+    "preferred_approach": "Give the measurable attribute",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 17,
+    "avoid_flag": "seamless / seamlessly",
+    "reason": "Marketing cliché",
+    "preferred_approach": "Explain what is easier/faster",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 18,
+    "avoid_flag": "cutting-edge",
+    "reason": "Hype",
+    "preferred_approach": "Name the technology/capability",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 19,
+    "avoid_flag": "transformative",
+    "reason": "Vague hype",
+    "preferred_approach": "Describe the outcome",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 20,
+    "avoid_flag": "pivotal",
+    "reason": "Overused emphasis",
+    "preferred_approach": "important only if evidence supports it",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 21,
+    "avoid_flag": "crucial",
+    "reason": "Overused emphasis",
+    "preferred_approach": "important / specific consequence",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 22,
+    "avoid_flag": "underscores",
+    "reason": "AI reporting cliché",
+    "preferred_approach": "shows; indicates; suggests",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 23,
+    "avoid_flag": "testament to",
+    "reason": "AI cliché",
+    "preferred_approach": "State the evidence directly",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 24,
+    "avoid_flag": "stands as",
+    "reason": "AI cliché",
+    "preferred_approach": "is / has become",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 25,
+    "avoid_flag": "serves as",
+    "reason": "Often filler",
+    "preferred_approach": "is / provides",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 26,
+    "avoid_flag": "it's important to note",
+    "reason": "Meta filler",
+    "preferred_approach": "State the fact",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 27,
+    "avoid_flag": "it is worth noting",
+    "reason": "Meta filler",
+    "preferred_approach": "State the fact",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 28,
+    "avoid_flag": "when it comes to",
+    "reason": "Filler",
+    "preferred_approach": "Start with the subject",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 29,
+    "avoid_flag": "at the end of the day",
+    "reason": "Filler/cliché",
+    "preferred_approach": "Delete",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 30,
+    "avoid_flag": "not just X, but Y",
+    "reason": "Common AI rhetorical template",
+    "preferred_approach": "Use direct sentence structure",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 31,
+    "avoid_flag": "more than just",
+    "reason": "Common AI rhetorical template",
+    "preferred_approach": "State the expanded role directly",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 32,
+    "avoid_flag": "whether you're",
+    "reason": "Generic intro template",
+    "preferred_approach": "Address the specific reader/problem",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 33,
+    "avoid_flag": "from X to Y",
+    "reason": "Often templated list framing",
+    "preferred_approach": "Use only when range is meaningful",
+    "applies_to": "All content",
+    "severity": "Low",
+    "notes": ""
+  },
+  {
+    "_source_row": 34,
+    "avoid_flag": "key takeaways",
+    "reason": "Generic heading if repeated everywhere",
+    "preferred_approach": "Use topic-specific summary heading",
+    "applies_to": "Owned blogs",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 35,
+    "avoid_flag": "everything you need to know",
+    "reason": "Clickbait/template",
+    "preferred_approach": "Use exact query + scope",
+    "applies_to": "Titles",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 36,
+    "avoid_flag": "ultimate guide",
+    "reason": "Generic SEO cliché",
+    "preferred_approach": "Use exact query + year/location/data angle",
+    "applies_to": "Titles",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 37,
+    "avoid_flag": "complete guide",
+    "reason": "Generic SEO cliché",
+    "preferred_approach": "Use precise scope",
+    "applies_to": "Titles",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 38,
+    "avoid_flag": "what you need to know",
+    "reason": "Overused title suffix",
+    "preferred_approach": "Use data, cost, trend, comparison or local angle",
+    "applies_to": "Titles",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 39,
+    "avoid_flag": "why X matters",
+    "reason": "Template pattern",
+    "preferred_approach": "Use the specific consequence or trend",
+    "applies_to": "Titles",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 40,
+    "avoid_flag": "what to know about X",
+    "reason": "Template pattern",
+    "preferred_approach": "Use exact search query + differentiated angle",
+    "applies_to": "Titles",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 41,
+    "avoid_flag": "Company Deep Dive: X",
+    "reason": "Template pattern",
+    "preferred_approach": "Use company + specific business/market thesis",
+    "applies_to": "Titles",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 42,
+    "avoid_flag": "In conclusion",
+    "reason": "AI/essay closing cue",
+    "preferred_approach": "End with a specific implication or next step",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 43,
+    "avoid_flag": "Overall,",
+    "reason": "Generic summary transition",
+    "preferred_approach": "Use a concrete conclusion",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 44,
+    "avoid_flag": "Moreover",
+    "reason": "Formal AI transition",
+    "preferred_approach": "Also / specific connective / delete",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 45,
+    "avoid_flag": "Furthermore",
+    "reason": "Formal AI transition",
+    "preferred_approach": "Add a natural transition or delete",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 46,
+    "avoid_flag": "Additionally",
+    "reason": "Repeated AI transition",
+    "preferred_approach": "Also / specific transition / delete",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 47,
+    "avoid_flag": "This article explores",
+    "reason": "Meta intro",
+    "preferred_approach": "Start with the finding/problem",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 48,
+    "avoid_flag": "This blog will",
+    "reason": "Meta intro",
+    "preferred_approach": "Start with the subject",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 49,
+    "avoid_flag": "In this article",
+    "reason": "Meta intro",
+    "preferred_approach": "Start with the answer/data",
+    "applies_to": "All content",
+    "severity": "High",
+    "notes": ""
+  },
+  {
+    "_source_row": 50,
+    "avoid_flag": "fascinating",
+    "reason": "Subjective filler",
+    "preferred_approach": "Show what is notable with evidence",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 51,
+    "avoid_flag": "remarkable",
+    "reason": "Subjective filler",
+    "preferred_approach": "Quantify what is unusual",
+    "applies_to": "All content",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 52,
+    "avoid_flag": "significant",
+    "reason": "Vague without measure",
+    "preferred_approach": "Quantify the size/change",
+    "applies_to": "Stats/data",
+    "severity": "Medium",
+    "notes": ""
+  },
+  {
+    "_source_row": 53,
+    "avoid_flag": "dramatic",
+    "reason": "Vague/sensational",
+    "preferred_approach": "Give percentage/absolute change",
+    "applies_to": "Stats/data",
+    "severity": "High",
+    "notes": null
+  }
+]
