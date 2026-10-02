@@ -38,9 +38,9 @@
     "reviewed_at": "2026-10-02"
   },
   "production_approval": {
-    "approved": false,
-    "reviewer": "",
-    "reviewed_at": "",
-    "change_reference": ""
+    "approved": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-02",
+    "change_reference": "https://github.com/llenodarlene-prog/verdict-point/pull/8"
   }
 }
