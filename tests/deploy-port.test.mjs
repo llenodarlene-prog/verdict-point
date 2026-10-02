@@ -5,7 +5,7 @@ import { spawnSync } from 'node:child_process';
 import path from 'node:path';
 import { tmpdir } from 'node:os';
 
-test('deploy propagates Hostinger/custom SSH ports through SSH and rsync and rejects unsafe ports before network calls', async () => {
+test('deploy propagates ports, preserves approved document-root directories, and rejects unsafe input', async () => {
   const root = await mkdtemp(path.join(tmpdir(), 'verdict-port-'));
   try {
     const bin = path.join(root, 'bin'); await mkdir(bin);
@@ -18,7 +18,8 @@ test('deploy propagates Hostinger/custom SSH ports through SSH and rsync and rej
       const script = path.resolve('scripts', scriptName);
       for (const port of ['', '65002', '22']) {
         await writeFile(log, '');
-        const result = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_PORT: port }, encoding: 'utf8' });
+        const env = { ...base, DEPLOY_PORT: port, DEPLOY_PRESERVE_DIR: scriptName === 'deploy-document-root.sh' ? 'staging' : '' };
+        const result = spawnSync('bash', [script], { cwd: root, env, encoding: 'utf8' });
         assert.equal(result.status, 0, result.stderr);
         const calls = (await readFile(log, 'utf8')).trim().split('\n').map(JSON.parse);
         assert.equal(calls.length, 3);
@@ -26,13 +27,24 @@ test('deploy propagates Hostinger/custom SSH ports through SSH and rsync and rej
         for (const call of calls.filter(c => c.tool === 'ssh')) assert.equal(call.args[call.args.indexOf('-p') + 1], expected);
         const rsync = calls.find(c => c.tool === 'rsync');
         assert.match(rsync.args[rsync.args.indexOf('-e') + 1], new RegExp(`ssh -p ${expected} `));
-        if (scriptName === 'deploy-document-root.sh') assert.equal(rsync.args.at(-1), 'testuser@test.invalid:/srv/verdict-test/');
+        if (scriptName === 'deploy-document-root.sh') {
+          assert.equal(rsync.args.at(-1), 'testuser@test.invalid:/srv/verdict-test/');
+          assert.equal(rsync.args[rsync.args.indexOf('--exclude') + 1], '/staging/');
+        }
       }
       for (const port of ['0', '65536', '-1', '22; touch /tmp/unsafe', 'abc']) {
         await writeFile(log, '');
         const result = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_PORT: port }, encoding: 'utf8' });
         assert.equal(result.status, 2);
         assert.equal(await readFile(log, 'utf8'), '');
+      }
+      if (scriptName === 'deploy-document-root.sh') {
+        for (const preserveDir of ['.', '..', '../staging', 'staging/child', 'staging; touch unsafe']) {
+          await writeFile(log, '');
+          const result = spawnSync('bash', [script], { cwd: root, env: { ...base, DEPLOY_PRESERVE_DIR: preserveDir }, encoding: 'utf8' });
+          assert.equal(result.status, 2);
+          assert.equal(await readFile(log, 'utf8'), '');
+        }
       }
     }
   } finally { await rm(root, { recursive: true, force: true }); }
