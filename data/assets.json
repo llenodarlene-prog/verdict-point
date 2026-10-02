@@ -1,1 +1,262 @@
-[]
+[
+  {
+    "path": "/assets/brand/verdict-point-horizontal.png",
+    "title": "Verdict Point horizontal logo",
+    "use": "Website header logo",
+    "width": 1672,
+    "height": 941,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point",
+    "alt_guidance": "Verdict Point"
+  },
+  {
+    "path": "/assets/brand/verdict-point-vertical.png",
+    "title": "Verdict Point vertical logo",
+    "use": "Centered layouts",
+    "width": 1122,
+    "height": 1402,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point",
+    "alt_guidance": "Verdict Point"
+  },
+  {
+    "path": "/assets/brand/verdict-point-icon.png",
+    "title": "Verdict Point icon",
+    "use": "Favicon and app icon",
+    "width": 1254,
+    "height": 1254,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point",
+    "alt_guidance": "Use empty alt text (alt=\"\") when the icon is decorative."
+  },
+  {
+    "path": "/assets/brand/verdict-point-social.png",
+    "title": "Verdict Point social logo",
+    "use": "Social media profile image",
+    "width": 1254,
+    "height": 1254,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point",
+    "alt_guidance": "Verdict Point"
+  },
+  {
+    "path": "/assets/images/home/courthouse-entrance-1600.jpg",
+    "title": "Ivory stone columns and navy entrance doors of a courthouse in morning light",
+    "use": "Home page hero",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Ivory Courthouse Entrance in Morning Light-3.png)",
+    "alt_guidance": "Ivory stone columns and navy entrance doors of a courthouse in morning light"
+  },
+  {
+    "path": "/assets/images/home/leaders-review-analytics-1600.jpg",
+    "title": "Three legal professionals reviewing printed analytics charts and a tablet at a marble table",
+    "use": "Home page Who It Is For section",
+    "width": 1600,
+    "height": 1600,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Law firm leaders review strategic analytics-6.png)",
+    "alt_guidance": "Three legal professionals reviewing printed analytics charts and a tablet at a marble table"
+  },
+  {
+    "path": "/assets/images/home/courthouse-entrance-800.jpg",
+    "title": "Ivory stone columns and navy entrance doors of a courthouse in morning light",
+    "use": "Home page hero",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Ivory Courthouse Entrance in Morning Light-3.png)",
+    "alt_guidance": "Ivory stone columns and navy entrance doors of a courthouse in morning light"
+  },
+  {
+    "path": "/assets/images/home/leaders-review-analytics-800.jpg",
+    "title": "Three legal professionals reviewing printed analytics charts and a tablet at a marble table",
+    "use": "Home page Who It Is For section",
+    "width": 800,
+    "height": 800,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Law firm leaders review strategic analytics-6.png)",
+    "alt_guidance": "Three legal professionals reviewing printed analytics charts and a tablet at a marble table"
+  },
+  {
+    "path": "/assets/images/about/research-desk-1600.jpg",
+    "title": "Sunlit research desk with an open law volume, a legal pad, reading glasses, and a tabbed stack of documents",
+    "use": "About page hero",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Sunlit legal case preparation desk-3.png)",
+    "alt_guidance": "Sunlit research desk with an open law volume, a legal pad, reading glasses, and a tabbed stack of documents"
+  },
+  {
+    "path": "/assets/images/about/digital-document-review-1600.jpg",
+    "title": "Tablet on a desk showing a document under review with numbered annotations in the margin",
+    "use": "About page AI and automation section",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Digital Legal Document Review-7.png)",
+    "alt_guidance": "Tablet on a desk showing a document under review with numbered annotations in the margin"
+  },
+  {
+    "path": "/assets/images/about/research-desk-800.jpg",
+    "title": "Sunlit research desk with an open law volume, a legal pad, reading glasses, and a tabbed stack of documents",
+    "use": "About page hero",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Sunlit legal case preparation desk-3.png)",
+    "alt_guidance": "Sunlit research desk with an open law volume, a legal pad, reading glasses, and a tabbed stack of documents"
+  },
+  {
+    "path": "/assets/images/about/digital-document-review-800.jpg",
+    "title": "Tablet on a desk showing a document under review with numbered annotations in the margin",
+    "use": "About page AI and automation section",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Digital Legal Document Review-7.png)",
+    "alt_guidance": "Tablet on a desk showing a document under review with numbered annotations in the margin"
+  },
+  {
+    "path": "/assets/images/hubs/legal-courthouse-1600.jpg",
+    "title": "Ivory stone courthouse with a columned portico and wide front steps in morning light",
+    "use": "Legal Industry Analysis hub hero",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Luminous Courthouse in Morning Light-3.png)",
+    "alt_guidance": "Ivory stone courthouse with a columned portico and wide front steps in morning light"
+  },
+  {
+    "path": "/assets/images/hubs/legal-courthouse-800.jpg",
+    "title": "Ivory stone courthouse with a columned portico and wide front steps in morning light",
+    "use": "Legal Industry Analysis hub hero",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Luminous Courthouse in Morning Light-3.png)",
+    "alt_guidance": "Ivory stone courthouse with a columned portico and wide front steps in morning light"
+  },
+  {
+    "path": "/assets/images/hubs/law-firms-office-1200.jpg",
+    "title": "Marble office desk with navy binders, a calculator, a leather notebook, and a tablet showing a bar chart",
+    "use": "Law Firm Business & Operations hub hero",
+    "width": 1200,
+    "height": 1200,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Luxury law office economics-10.png)",
+    "alt_guidance": "Marble office desk with navy binders, a calculator, a leather notebook, and a tablet showing a bar chart"
+  },
+  {
+    "path": "/assets/images/hubs/law-firms-office-800.jpg",
+    "title": "Marble office desk with navy binders, a calculator, a leather notebook, and a tablet showing a bar chart",
+    "use": "Law Firm Business & Operations hub hero",
+    "width": 800,
+    "height": 800,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Luxury law office economics-10.png)",
+    "alt_guidance": "Marble office desk with navy binders, a calculator, a leather notebook, and a tablet showing a bar chart"
+  },
+  {
+    "path": "/assets/images/hubs/legal-tech-workspace-1200.jpg",
+    "title": "Legal professional working on a laptop and tablet at a desk with an open report in a bright modern office",
+    "use": "Legal Technology & AI hub hero",
+    "width": 1200,
+    "height": 1200,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Responsible AI in Legal Operations-8.png)",
+    "alt_guidance": "Legal professional working on a laptop and tablet at a desk with an open report in a bright modern office"
+  },
+  {
+    "path": "/assets/images/hubs/legal-tech-workspace-800.jpg",
+    "title": "Legal professional working on a laptop and tablet at a desk with an open report in a bright modern office",
+    "use": "Legal Technology & AI hub hero",
+    "width": 800,
+    "height": 800,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Responsible AI in Legal Operations-8.png)",
+    "alt_guidance": "Legal professional working on a laptop and tablet at a desk with an open report in a bright modern office"
+  },
+  {
+    "path": "/assets/images/hubs/legal-marketing-interface-1600.jpg",
+    "title": "Professional reviewing a website on a laptop, with the same page shown on a tablet and a phone",
+    "use": "Legal Marketing & Client Acquisition hub hero",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (From digital discovery to qualified inquiry-4.png)",
+    "alt_guidance": "Professional reviewing a website on a laptop, with the same page shown on a tablet and a phone"
+  },
+  {
+    "path": "/assets/images/hubs/legal-marketing-interface-800.jpg",
+    "title": "Professional reviewing a website on a laptop, with the same page shown on a tablet and a phone",
+    "use": "Legal Marketing & Client Acquisition hub hero",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (From digital discovery to qualified inquiry-4.png)",
+    "alt_guidance": "Professional reviewing a website on a laptop, with the same page shown on a tablet and a phone"
+  },
+  {
+    "path": "/assets/images/hubs/legal-business-scale-1600.jpg",
+    "title": "Three architectural models of office buildings in increasing size beside printed charts on a marble table",
+    "use": "The Business of Legal Services hub hero",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Measuring Law Firm Scale-2.png)",
+    "alt_guidance": "Three architectural models of office buildings in increasing size beside printed charts on a marble table"
+  },
+  {
+    "path": "/assets/images/hubs/legal-business-scale-800.jpg",
+    "title": "Three architectural models of office buildings in increasing size beside printed charts on a marble table",
+    "use": "The Business of Legal Services hub hero",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Measuring Law Firm Scale-2.png)",
+    "alt_guidance": "Three architectural models of office buildings in increasing size beside printed charts on a marble table"
+  },
+  {
+    "path": "/assets/images/posts/clio-legal-software-total-cost/featured-budget-desk-1600.jpg",
+    "title": "Law office desk with navy binders, a calculator, a desk clock, and a tablet showing cost charts",
+    "use": "Blog 1 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (The workflow behind billable value-3.png)",
+    "alt_guidance": "Law office desk with navy binders, a calculator, a desk clock, and a tablet showing cost charts"
+  },
+  {
+    "path": "/assets/images/posts/clio-legal-software-total-cost/contract-signature-line-1600.jpg",
+    "title": "Fountain pen resting beside the signature line of a contract on a marble desk",
+    "use": "Blog 1 body image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Refined fountain pen at the signature line-4.png)",
+    "alt_guidance": "Fountain pen resting beside the signature line of a contract on a marble desk"
+  },
+  {
+    "path": "/assets/images/posts/clio-legal-software-total-cost/featured-budget-desk-800.jpg",
+    "title": "Law office desk with navy binders, a calculator, a desk clock, and a tablet showing cost charts",
+    "use": "Blog 1 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (The workflow behind billable value-3.png)",
+    "alt_guidance": "Law office desk with navy binders, a calculator, a desk clock, and a tablet showing cost charts"
+  },
+  {
+    "path": "/assets/images/posts/clio-legal-software-total-cost/contract-signature-line-800.jpg",
+    "title": "Fountain pen resting beside the signature line of a contract on a marble desk",
+    "use": "Blog 1 body image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Refined fountain pen at the signature line-4.png)",
+    "alt_guidance": "Fountain pen resting beside the signature line of a contract on a marble desk"
+  }
+]

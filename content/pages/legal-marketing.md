@@ -4,17 +4,8 @@ description: SEO, PPC, websites, content, social, referrals, conversion
 slug: /legal-marketing/
 type: page
 schema: CollectionPage
+template: hub
 draft: false
 ---
 
-# Legal Marketing
-
-SEO, PPC, websites, content, social, referrals, conversion
-
-## Editorial Scope
-
-All articles and blogs assigned to this cluster live here; no separate Articles or News submenu.
-
-## Planned Coverage
-
-This hub will list approved articles and blogs assigned to the Legal Marketing cluster after their sources and publication fields pass repository validation.
+This category hub is rendered by `scripts/lib/hub.mjs` from the approved copy in `data/hub-pages.json` (Website Copy + Section Layout v1.1, CATEGORY HUB TEMPLATE). Edit the copy there, not here.

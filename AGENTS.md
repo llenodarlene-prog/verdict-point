@@ -18,7 +18,7 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 1. Inspect the tracker record and status. Do not draft `Hold / SERP Review` or `Backlog` items without approval.
 2. Confirm the exact URL, keyword, content type, evidence plan, silo role, and approved link targets.
 3. Create a `feature/*` branch. Never push directly to `staging` or `main`.
-4. Research before drafting. Complete every field in `docs/RESEARCH-RECORD.md`, including Ahrefs/Ubersuggest retrievals, five competitor maps, statistics methodology, content gaps, value-add, and section-level evidence planning.
+4. Research before drafting. Complete every field in `docs/RESEARCH-RECORD.md`, including Ubersuggest retrievals (the required SEO platform; preserve historical Ahrefs data with its original attribution, but do not require new Ahrefs access), five competitor maps, statistics methodology, content gaps, value-add, and section-level evidence planning.
 5. Use `npm run new:content -- <article|blog> <1-10>` for launch content. Do not hand-invent paths.
 6. Keep `draft: true` until evidence, links, metadata, dates, images, disclosures, and all checks are complete.
 7. Run `npm run verify`; do not weaken a failing check.
@@ -44,7 +44,7 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 - Every informative image requires a tracked asset, local file, dimensions, rights status, and useful alt text.
 - Never commit secrets or generate SSH host keys dynamically. Use the pinned `SSH_KNOWN_HOSTS` environment secret.
 - Do not edit `dist/`; it is deterministic output. Do not deploy around staging, checks, or production approval.
-- Production requires the complete 20-item launch set plus every structured approval in `data/release.json`. Never replace approvals with prose edits or booleans alone.
+- Production requires every structured approval in `data/release.json` and its `launch_policy`: every required core, navigation, category, and legal page complete; valid production links and metadata; and at least `minimum_published_blogs` (currently 1) fully researched, fact-checked, published blog. The 20-item tracker plan is the editorial backlog, not a launch requirement; drafts stay out of production HTML, listings, sitemap, RSS, structured data, and internal links. After launch, publish one completed article or blog per day; every published item must pass all research, citation, content, SEO, and AI-language checks or the production deploy fails. Never replace approvals with prose edits or booleans alone.
 
 ## Completion report
 

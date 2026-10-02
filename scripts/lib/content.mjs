@@ -25,43 +25,67 @@ export async function readContent(file) {
 function inline(value) {
   let text = escapeHtml(value);
   text = text.replace(/!\[([^\]]*)\]\(([^)\s]+)(?:\s+"([^"]*)")?\)/g, '<img src="$2" alt="$1" title="$3" loading="lazy">');
-  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]*)\)/g, '<a href="$2">$1</a>');
+  text = text.replace(/\[([^\]]+)\]\((https?:\/\/[^)]+|\/[^)]*|mailto:[^)\s]+)\)/g, '<a href="$2">$1</a>');
   text = text.replace(/`([^`]+)`/g, '<code>$1</code>');
   text = text.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/\*([^*]+)\*/g, '<em>$1</em>');
   return text;
 }
 
-export function markdownToHtml(markdown) {
+// Options: { chart(json) => html, image({ alt, src, caption }) => html } let the build add rich blocks.
+export function markdownToHtml(markdown, options = {}) {
   const lines = markdown.split(/\r?\n/);
   const out = [];
   let paragraph = [];
   let list = null;
+  let tableMeta = null;
   const flushParagraph = () => { if (paragraph.length) { out.push(`<p>${inline(paragraph.join(' '))}</p>`); paragraph = []; } };
   const flushList = () => { if (list) { out.push(`<${list.type}>${list.items.map(item => `<li>${inline(item)}</li>`).join('')}</${list.type}>`); list = null; } };
+  const cells = row => row.trim().replace(/^\|/, '').replace(/\|\s*$/, '').split('|').map(cell => cell.trim());
   for (let index = 0; index < lines.length; index += 1) {
-    const line = lines[index];
+    const line = lines[index].replace(/\s+$/, '');
     const heading = line.match(/^(#{1,4})\s+(.+)$/);
     const bullet = line.match(/^[-*]\s+(.+)$/);
     const number = line.match(/^\d+\.\s+(.+)$/);
-    const quote = line.match(/^>\s?(.+)$/);
+    const quote = line.match(/^>\s?(.*)$/);
+    const fence = line.match(/^```(\w+)\s*$/);
+    // "Table: Caption {.variant}" directly above a table adds a caption and a style variant.
+    const caption = line.match(/^Table:\s+(.+?)(?:\s+\{\.([\w-]+)\})?$/);
+    const image = line.match(/^!\[([^\]]*)\]\((\/[^)\s]+)(?:\s+"([^"]*)")?\)$/);
     const table = line.trim().startsWith('|') && lines[index + 1]?.match(/^\s*\|?(?:\s*:?-+:?\s*\|)+/);
-    if (table) {
+    if (fence) {
       flushParagraph(); flushList();
-      const header = line.split('|').slice(1, -1).map(cell => cell.trim());
+      const block = [];
+      for (index += 1; index < lines.length && !/^```\s*$/.test(lines[index]); index += 1) block.push(lines[index]);
+      if (fence[1] === 'chart' && options.chart) out.push(options.chart(block.join('\n')));
+      else out.push(`<pre><code>${escapeHtml(block.join('\n'))}</code></pre>`);
+    } else if (caption && lines[index + 1]?.trim().startsWith('|')) {
+      flushParagraph(); flushList(); tableMeta = { caption: caption[1], variant: caption[2] };
+    } else if (image && options.image) {
+      flushParagraph(); flushList(); out.push(options.image({ alt: image[1], src: image[2], caption: image[3] || '' }));
+    } else if (table) {
+      flushParagraph(); flushList();
+      const header = cells(line);
+      const align = cells(lines[index + 1]).map(cell => /^:?-+:$/.test(cell) ? 'right' : '');
       index += 2;
       const rows = [];
-      while (index < lines.length && lines[index].trim().startsWith('|')) {
-        rows.push(lines[index].split('|').slice(1, -1).map(cell => cell.trim()));
-        index += 1;
-      }
+      while (index < lines.length && lines[index].trim().startsWith('|')) { rows.push(cells(lines[index])); index += 1; }
       index -= 1;
-      out.push(`<div class="table-wrap"><table><thead><tr>${header.map(cell => `<th>${inline(cell)}</th>`).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map(cell => `<td>${inline(cell)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`);
+      const td = (cell, i, tag) => `<${tag}${align[i] ? ' class="num"' : ''}>${inline(cell)}</${tag}>`;
+      const html = `<div class="table-wrap"><table${tableMeta?.variant ? ` class="table--${tableMeta.variant}"` : ''}>${tableMeta ? `<caption>${inline(tableMeta.caption)}</caption>` : ''}<thead><tr>${header.map((cell, i) => td(cell, i, 'th')).join('')}</tr></thead><tbody>${rows.map(row => `<tr>${row.map((cell, i) => td(cell, i, i === 0 && tableMeta?.variant === 'compare' ? 'th' : 'td')).join('')}</tr>`).join('')}</tbody></table></div>`;
+      out.push(html);
+      tableMeta = null;
+    } else if (quote) {
+      // Consecutive "> " lines form one callout; a bold first line becomes its title.
+      flushParagraph(); flushList();
+      const block = [quote[1]];
+      while (lines[index + 1]?.match(/^>\s?/)) { index += 1; block.push(lines[index].replace(/^>\s?/, '')); }
+      const title = block[0].match(/^\*\*(.+)\*\*$/);
+      const body = (title ? block.slice(1) : block).join(' ').trim();
+      out.push(title ? `<aside class="callout"><p class="callout-title">${inline(title[1])}</p><p>${inline(body)}</p></aside>` : `<blockquote>${inline(body)}</blockquote>`);
     } else if (heading) {
       flushParagraph(); flushList(); const level = heading[1].length; out.push(`<h${level}>${inline(heading[2])}</h${level}>`);
     } else if (bullet || number) {
       flushParagraph(); const type = bullet ? 'ul' : 'ol'; if (list && list.type !== type) flushList(); if (!list) list = { type, items: [] }; list.items.push((bullet || number)[1]);
-    } else if (quote) {
-      flushParagraph(); flushList(); out.push(`<blockquote>${inline(quote[1])}</blockquote>`);
     } else if (!line.trim()) {
       flushParagraph(); flushList();
     } else {

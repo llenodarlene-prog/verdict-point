@@ -1,4 +1,4 @@
-import { cp, mkdir, mkdtemp, readFile, writeFile } from 'node:fs/promises';
+import { cp, mkdir, mkdtemp, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import os from 'node:os';
 import path from 'node:path';
 
@@ -111,25 +111,54 @@ export async function createContentFixture() {
   return { root, record, silo, metadata, researchPath, contentPath };
 }
 
-export async function createReleaseFixture() {
-  const root = await mkdtemp(path.join(os.tmpdir(), 'backlink-release-fixture-'));
-  await Promise.all([cp('data', path.join(root, 'data'), { recursive: true }), mkdir(path.join(root, 'content/pages'), { recursive: true }), mkdir(path.join(root, 'content/posts'), { recursive: true })]);
-  const launch = await readJson('data/launch-content-plan.json');
+// A launch-ready copy of the real site: real pages, all 20 tracker posts, and their research records.
+// The real repository publishes Blog 1 and keeps the other 19 items as drafts; the fixture adds a
+// production approval so tests exercise the launch policy rather than the missing sign-off.
+export async function createLaunchFixture() {
+  const root = await mkdtemp(path.join(os.tmpdir(), 'verdict-launch-fixture-'));
+  await Promise.all(['data', 'content', 'src', 'assets'].map(dir => cp(dir, path.join(root, dir), { recursive: true })));
   const site = await readJson(path.join(root, 'data/site.json'));
   site.launch_status = 'ready'; site.verified_contact_details = true;
   await writeJson(path.join(root, 'data/site.json'), site);
-  await writeJson(path.join(root, 'data/authors.json'), { fixture: { name: 'Fixture Author', verified: true, publishable: true } });
   const release = await readJson(path.join(root, 'data/release.json'));
-  release.contact = { approved: true, email: 'editor@example.org', reviewer: 'Contact Reviewer', reviewed_at: '2026-09-20' };
-  release.privacy = { approved: true, policy_effective_date: '2026-09-20', reviewer: 'Privacy Reviewer', reviewed_at: '2026-09-20' };
-  release.staging_review = { approved: true, reviewer: 'Staging Reviewer', reviewed_at: '2026-09-21' };
+  for (const key of ['contact', 'privacy', 'staging_review']) Object.assign(release[key], { approved: true, reviewer: release[key].reviewer || 'Fixture Reviewer', reviewed_at: release[key].reviewed_at || '2026-09-20' });
   release.production_approval = { approved: true, reviewer: 'Release Reviewer', reviewed_at: '2026-09-22', change_reference: 'CHANGE-2026-001' };
   await writeJson(path.join(root, 'data/release.json'), release);
-  await writeFile(path.join(root, 'content/pages/contact.md'), `${frontMatter({ title: 'Contact', description: 'Approved contact page for integration testing.', slug: '/contact/', type: 'page', draft: false })}\n\n# Contact\n\nEmail [the editorial team](mailto:editor@example.org).\n`);
-  await writeFile(path.join(root, 'content/pages/privacy.md'), `${frontMatter({ title: 'Privacy', description: 'Approved privacy page for integration testing.', slug: '/privacy/', type: 'page', draft: false })}\n\n# Privacy\n\nEffective date: 2026-09-20.\n`);
-  for (const [index, item] of launch.entries()) {
-    const metadata = { title: item.working_title, description: 'Published integration fixture content.', slug: item.url_slug, type: item.type.toLowerCase(), draft: false, tracker_id: `${item.type}:${item.content_number}` };
-    await writeFile(path.join(root, `content/posts/item-${index + 1}.md`), `${frontMatter(metadata)}\n\n# ${item.working_title}\n\nRelease fixture.\n`);
+  return { root, posts: path.join(root, 'content/posts') };
+}
+
+// Finds the post file for a tracker id inside a fixture.
+export async function postFile(root, trackerId) {
+  const dir = path.join(root, 'content/posts');
+  for (const name of await readdir(dir)) {
+    const file = path.join(dir, name);
+    if ((await readFile(file, 'utf8')).includes(`\ntracker_id: ${trackerId}\n`)) return file;
   }
-  return { root };
+  throw new Error(`no post for ${trackerId}`);
+}
+
+export async function setDraft(file, draft) {
+  const text = await readFile(file, 'utf8');
+  await writeFile(file, text.replace(/^draft: (?:true|false)$/m, `draft: ${draft}`));
+}
+
+// Publishes one more fully researched tracker item into a launch fixture, as a post-launch daily release would.
+export async function publishFixtureArticle(root) {
+  const [launch, links] = await Promise.all([readJson('data/launch-content-plan.json'), readJson('data/interlinking-plan.json')]);
+  const record = launch.find(item => item.type === 'Article' && String(item.working_title).toLowerCase().includes(String(item.primary_keyword).toLowerCase()));
+  const silo = links.find(item => item.type === record.type && item.content_number === record.content_number);
+  const trackerId = `${record.type}:${record.content_number}`;
+  const metadata = {
+    title: record.working_title, seo_title: record.seo_title || `${record.primary_keyword} Evidence Review`,
+    description: record.meta_description || `${record.primary_keyword} evidence, methods, limits, and interpretation for readers comparing current published measures.`,
+    slug: record.url_slug, type: 'article', schema: 'Article', draft: false, tracker_id: trackerId, primary_keyword: record.primary_keyword,
+    cluster: record.cluster, research_record: `content/research/article-${record.content_number}.json`, author: 'Fixture Author', published: '2026-09-22', modified: '2026-09-22'
+  };
+  await rm(await postFile(root, trackerId));
+  const authors = await readJson(path.join(root, 'data/authors.json'));
+  authors.fixture = { name: 'Fixture Author', verified: true, publishable: true };
+  await writeJson(path.join(root, 'data/authors.json'), authors);
+  await writeFile(path.join(root, 'content/posts/published-fixture.md'), `${frontMatter(metadata)}\n\n${publishableBody(record, silo)}\n`);
+  await writeJson(path.join(root, metadata.research_record), completeResearch(record, silo, metadata));
+  return { record, trackerId, slug: record.url_slug };
 }

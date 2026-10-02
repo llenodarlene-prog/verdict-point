@@ -1,0 +1,36 @@
+{
+  "clio-starter-annual-subscription": {
+    "type": "bar",
+    "title": "Clio Starter subscription cost per year, by seat count",
+    "label_heading": "Paid seats",
+    "labels": ["1 seat", "5 seats", "10 seats", "25 seats"],
+    "series": [{ "name": "Annual cost", "values": [588, 2940, 5880, 14700] }],
+    "prefix": "$",
+    "caption": "Calculation: Starter's listed starting rate of $49 per user per month × seats × 12 months. Excludes taxes, add-ons, payment fees, and any annual-billing discount.",
+    "source": "Clio pricing page, checked October 2, 2026"
+  },
+  "clio-payment-fee-rates": {
+    "type": "hbar",
+    "title": "Clio Payments fee rates by payment method (U.S.)",
+    "label_heading": "Payment method",
+    "labels": ["Standard credit or debit card", "American Express", "Pay Later with Affirm"],
+    "series": [{ "name": "Fee per transaction", "values": [2.95, 3.75, 4.95] }],
+    "suffix": "%",
+    "decimals": 2,
+    "caption": "Percentage of each payment collected. Clio does not publish a current eCheck rate on these pages; confirm it in the quote.",
+    "source": "Clio payments comparison page and Clio Help Center (Accepted Payment Methods), checked October 2, 2026"
+  },
+  "clio-subscription-vs-card-fees": {
+    "type": "grouped",
+    "title": "Illustration: 10 Starter seats vs. card fees at three collection levels",
+    "label_heading": "Card payments collected per month",
+    "labels": ["$10,000 per month", "$25,000 per month", "$50,000 per month"],
+    "series": [
+      { "name": "10 Starter seats, per year", "values": [5880, 5880, 5880] },
+      { "name": "Card fees at 2.95%, per year", "values": [3540, 8850, 17700] }
+    ],
+    "prefix": "$",
+    "caption": "Illustrative calculation, not a quote. Subscription: 10 × $49 × 12. Card fees: monthly card collections × 12 × 2.95%. Assumes every payment uses a standard card.",
+    "source": "Verdict Point calculation from Clio's published rates, checked October 2, 2026"
+  }
+}

@@ -4,227 +4,195 @@ seo_title: Clio Legal Software Cost Guide for 2026–2027
 description: Compare Clio legal software pricing, payment fees, integrations, migration costs, and budget questions for law firms planning for 2027.
 slug: /legal-tech/clio-legal-software-total-cost/
 type: blog
-schema: Article
-draft: true
+schema: BlogPosting
+draft: false
 tracker_id: Blog:1
 primary_keyword: clio legal software
+secondary_keywords: Clio pricing; legal software integrations
 cluster: Legal Tech
 launch_silo: Practice Management Software
 silo_role: Commercial Support
 approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/litify-legal-software-implementation/
 research_record: content/research/blog-1.json
 source_document: https://docs.google.com/document/d/1jx7o-_Qi6mYRahCYSmTVyO87OLkCpQK4okrDexIOjsE/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+image: /assets/images/posts/clio-legal-software-total-cost/featured-budget-desk-1600.jpg
+image_alt: Law office desk with navy binders, a calculator, a desk clock, and a tablet showing cost charts
+author: Darlene Aberin
+published: 2026-10-02
+modified: 2026-10-02
 ---
 
 # Clio Legal Software Costs: What Law Firms Should Budget for in 2026–2027
 
-For law firms planning technology budgets for late 2026 and 2027, the starting price of Clio legal software is only the first number to find. The harder part is working out what the system will cost once users, payment fees, integrations, migration, training, and staff time are included.
+The listed price of Clio legal software is the easiest number to find and the least complete one. A firm planning for late 2026 and 2027 needs the full annual cost: seats, plan tier, payment fees, connected apps, data migration, and the staff hours a switch takes.
 
-Clio currently lists Starter from $49 per user per month in the United States, while Core, Signature, and Elite require a live quote. The current U.S. pricing page is the best place to verify that live structure: https://www.clio.com/pricing/ That gives firms a clear starting point, but not a full annual cost. The better way to plan is to build the budget in layers and mark which items are fixed, variable, or still unknown.
+As of October 2, 2026, the [Clio pricing page](https://www.clio.com/pricing/) lists Starter from $49 per user per month in the United States. Core, Signature, and Elite are quote-only. That gives a firm a clear starting point and very little else, so the useful approach is to build the budget in layers and label each layer as fixed, variable, or still unknown.
 
 ## Key Takeaways
 
-The points below are the main cost checks to carry into a 2026–2027 Clio budget.
+These are the cost checks to carry into any Clio legal software budget for the coming year.
 
-- Starter Has a Public Starting Price: Clio lists Starter from $49 per user per month, while higher Clio Manage tiers require a quote.  
-- **The Subscription Is Only One Cost Layer:** Payment processing, paid integrations, optional products, migration work, and internal staff time can all change the final budget.  
-- **A 10-Seat Example Annualizes to $5,880:** At the current Starter starting rate, 10 seats equal $490 per month and $5,880 over 12 months before other costs.  
-- **Integration Costs Need Their Own Review:** Some connected apps are free, while others charge monthly, yearly, per transaction, or by quote.  
-- **2027 Budgets Need a Final Recheck:** Pricing, plan features, and payment fees can change, so firms should verify live terms before approval or purchase.
+- **Only Starter Has a Public Price:** Starter starts at $49 per user per month. Core, Signature, and Elite require a quote, so most firms cannot finish a budget from the website alone.
+- **Ten Starter Seats Cost $5,880 a Year:** That is $49 × 10 seats × 12 months, before add-ons, payment fees, or any discount for annual billing.
+- **Payment Fees Can Outgrow the Subscription:** At 2.95% per card payment, a firm collecting $25,000 a month by card pays about $8,850 a year in fees, more than ten Starter seats cost.
+- **Connected Apps Are Billed Separately:** Many integrations carry their own monthly subscriptions, so the app list belongs in the budget, not only the Clio invoice.
+- **Every Rate Needs a Final Recheck:** Plans, features, and fees change. Date each figure in the budget and confirm it again before signing.
 
 ## What Clio Pricing Is Public for 2026–2027 Planning?
 
-The public pricing page gives enough information to build a starting budget, but not enough to calculate the total cost for every firm. As of September 22, 2026, Clio lists four Clio Manage tiers: Starter, Core, Signature, and Elite. Starter has a public starting price, while the other three use quote-based pricing.
+Clio's U.S. pricing page names four Clio Manage plans. Only one shows a price. The table below summarizes what the page states for each plan as of October 2, 2026.
 
-| Clio Manage Plan | Public Pricing Status | What a Firm Can Confirm Now |  
-| --- | --- | --- |  
-| Starter | Starts at $49/user/month | Public starting price and core matter-management features |  
-| Core | Quote required | Broader workflow, automation, and integration features |  
-| Signature | Quote required | More advanced workflow, reporting, and permissions |  
-| Elite | Quote required | Includes Signature-level features plus Clio Grow |
+Table: Clio Manage plans as listed on Clio's U.S. pricing page (checked October 2, 2026) {.compare}
+| Plan | Public Price | AI Included | Accounting Included | Clio Grow |
+| --- | --- | --- | --- | --- |
+| Starter | From $49 per user per month | No | Yes | Not listed as an option |
+| Core | Quote required | Yes | Yes | Available as an add-on |
+| Signature | Quote required | Yes | Yes | Available as an add-on |
+| Elite | Quote required | Yes | Yes | Included |
 
-For a simple planning example, 10 Starter seats at the published monthly rate equal $490 per month. Over 12 months, that annualizes to $5,880. This is an arithmetic example based on the current public rate, not a quoted annual contract price.
+Two details on that page matter for budgeting. First, Clio says AI is included on Core and above rather than sold separately, which changes how a firm compares plans with other AI tools it already pays for. Second, Clio says plans can be canceled at any time, with cancellation taking effect at the end of the current monthly or annual term. A firm on annual terms is committed for that year.
 
-That distinction matters because the cost profile can change once a firm moves beyond Starter or adds products that are not included in the base plan.
+### What Starter Costs at Different Team Sizes
+
+Starter is the one tier a firm can price without a sales call. The chart below shows the annual subscription at four team sizes using the listed starting rate.
+
+```chart
+clio-starter-annual-subscription
+```
+
+The math is simple, but it shows why seat count drives the budget. Moving from 5 to 25 users raises the Starter subscription from $2,940 to $14,700 a year. A per-user system that looks inexpensive for one lawyer grows quickly once paralegals, intake staff, and billing staff need their own logins.
+
+### What the Quote-Only Tiers Mean for a Budget
+
+For Core, Signature, and Elite, the budget line stays blank until Clio sends a written quote. That quote should state the per-user rate, the billing term, which add-ons are included, and what renewal pricing looks like. Without those four items, a firm cannot compare Clio legal software fairly with another platform's offer.
 
 ## Build the Budget in Five Cost Layers
 
-A practical budget works better when the firm separates costs instead of treating every charge as part of one software fee. In practice, five layers cover most of the items a buyer needs to check.
+A single "software cost" line hides most of the spending. Splitting the budget into five layers makes each cost visible and shows which numbers are still missing.
 
-### 1. User Licenses
+Table: Five cost layers for a Clio budget {.cost}
+| Cost Layer | Examples | Fixed or Variable | How to Price It |
+| --- | --- | --- | --- |
+| User licenses | Attorneys, paralegals, intake and billing staff | Fixed per seat | Published rate or written quote |
+| Higher tiers and add-ons | Core, Signature, Elite, Clio Grow, Clio for Personal Injury | Fixed per term | Written quote |
+| Payment processing | Card, American Express, Pay Later, eCheck | Variable | Rate × expected payment volume |
+| Connected apps | Accounting, document, research, reporting tools | Fixed or usage-based | Each vendor's own price |
+| Migration and internal time | Data cleanup, testing, training, go-live | Mostly one-time | Written scope plus staff hours |
 
-Start with the people who need access under the planned workflow. That may include attorneys, paralegals, intake staff, billing staff, administrators, and operations employees.
+The first two layers come from Clio. The last three depend on how the firm works, which is why two firms with the same quote can end up with very different annual totals.
 
-Before using a headcount number in the budget, confirm with Clio which roles need paid seats under the selected plan. A per-user system can look inexpensive when priced for one attorney, then change quickly when the workflow depends on a larger team.
+### Layer One and Two: Seats, Tiers, and Add-Ons
 
-### 2. Higher Tiers and Optional Products
+Start with the people who need access under the planned workflow, then confirm with Clio which roles need paid seats on the chosen plan. Next, list the add-ons. Clio's pricing page names Clio Grow, its intake and CRM product, which is included in Elite, and Clio for Personal Injury as add-ons. Ask for each one to appear as its own line in the quote.
 
-Core, Signature, and Elite do not have public per-user prices on the current U.S. page. Clio Grow is included with Elite and is available as an add-on for some lower tiers. Other products, including more advanced document automation and practice-specific tools, may also require a quote.
+### Layer Three to Five: Fees, Apps, and the Switch
 
-Because of that, a serious budget should ask for a written quote that shows what is included. The quote should also state monthly versus annual terms, renewal pricing where available, add-on charges, and any implementation fees.
+The remaining layers are where budgets usually miss. Payment fees scale with revenue, connected apps renew on their own schedules, and the switch itself takes staff time that never appears on an invoice. The next sections take each in turn.
 
-### 3. Payment Processing
+## How Much Do Clio Payment Fees Add?
 
-Clio Payments is built into the platform, but transaction fees still affect the economics of using it. The current U.S. pricing page lists the following rates:
+Clio Payments is built into Clio Manage, so many firms use it by default. The fees are a percentage of every payment collected, which makes them a variable cost that grows with the firm. Clio's [payments comparison page](https://www.clio.com/compare/clio-vs-payment-solutions/) lists 2.95% for standard cards and 3.75% for American Express, and the [Clio Help Center](https://help.clio.com/hc/en-us/articles/41863402264091-Clio-Payments-Accepted-Payment-Methods) lists 4.95% per transaction for Pay Later with Affirm.
 
-| Payment Method | Current Listed Fee |  
-| --- | ---: |  
-| eCheck / ACH | 1% |  
-| Standard credit/debit card | 2.95% |  
-| American Express | 3.75% |  
-| Pay Later with Affirm | 4.95% |
+```chart
+clio-payment-fee-rates
+```
 
-These fees matter most when a firm collects a large share of revenue through online payments. Therefore, the right way to estimate them is to apply the live rate to the firm’s expected payment mix, rather than adding a generic monthly amount.
+The table below turns those rates into a cost per $1,000 collected, which is easier to apply to a firm's own revenue.
 
-There is also a source-checking issue worth noting. Another Clio payments page has shown a different American Express rate. When official pages disagree, the safest step is to use the main current pricing page for planning and confirm the live rate before signing.
+Table: Fee cost per $1,000 collected through Clio Payments {.data}
+| Payment Method | Listed Rate | Fee per $1,000 Collected | Who Pays |
+| --- | ---: | ---: | --- |
+| Standard credit or debit card | 2.95% | $29.50 | Firm |
+| American Express | 3.75% | $37.50 | Firm |
+| Pay Later with Affirm | 4.95% | $49.50 | Firm, never the client |
+| eCheck | Not published on these pages | Confirm in quote | Confirm in quote |
 
-### 4. Third-Party Integrations
+The Help Center adds three useful limits. Pay Later applies to payments from $50 to $30,000, each eCheck has a $25,000 limit, and for trust requests the Pay Later fee comes out of the operating account, never the trust account.
 
-A large integration library is useful, but “works with Clio” does not mean the other product is included in the subscription. The current Clio App Directory includes free tools, monthly subscriptions, yearly plans, per-transaction pricing, and quote-based products. Firms can check the live directory before budgeting: https://www.clio.com/app-directory/
+### When Payment Fees Exceed the Subscription
 
-Examples displayed in the directory have included NetDocuments by Spring at $9.99 per month, Xero at $25 per month, QuickBooks Online at $38 per month, Casefleet at $30 per month, and Premium QBO Sync by Spring at $250 per month. These are third-party prices shown in the directory, not required Clio charges, and they can change.
+Because the fee is a percentage, it can pass the subscription cost at modest volumes. The comparison below holds ten Starter seats constant and changes only the amount a firm collects by card each month.
 
-This is where a stack review adds value. A firm should list every accounting, document, e-filing, intake, CRM, research, reporting, and communication tool it plans to keep. Then it should mark each one as already paid for, replaced by Clio, still required, optional, or unknown.
+```chart
+clio-subscription-vs-card-fees
+```
 
-That same distinction matters when reading legal technology statistics (https://verdictpoint.org/legal-tech/legal-technology-statistics/), because a tool being available or licensed does not prove that it is used often enough to justify the cost.
+At $10,000 a month in card payments, fees run about $3,540 a year, well under the $5,880 subscription. At $25,000 a month they reach $8,850, and at $50,000 they reach $17,700, three times the subscription. Firms that collect a large share of revenue online should model fees from their actual payment mix, using the same collection data they track in [law firm billing statistics](/law-firms/law-firm-billing-statistics/).
 
-### 5. Migration, Training, and Internal Time
+### Why the Fee Rates Need Rechecking
 
-Clio promotes migration support for many common systems and says support is available 24 hours a day, five days a week. Its current migration guidance explains the scope and systems it supports: https://www.clio.com/data-migration/ Still, the vendor cannot do every part of the change for the firm.
+Clio's own pages have not always agreed. An older Clio payments page still shows 3.5% for American Express and 1% for eCheck, while the current comparison page lists 3.75% for American Express and gives no eCheck percentage. Use the current pages for planning, then ask Clio to confirm every rate in writing before signing.
 
-Someone inside the business has to decide what data should move, clean old records, review permissions, test billing and trust workflows, check migrated matters, train staff, and manage the go-live.
+## What Do Integrations and Migration Add?
 
-Those hours may never appear on the invoice, but they are part of the implementation cost. They can also affect productivity for a short period, which is why software-switching costs belong in the same conversation as law firm profitability statistics (https://verdictpoint.org/law-firms/law-firm-profitability-statistics/).
+"Works with Clio" means the tools connect. It does not mean the other product is included. The Clio App Directory lists free integrations alongside paid ones billed monthly, yearly, per transaction, or by quote. A firm keeping its accounting, document management, e-filing, or reporting tools should count each subscription.
 
-## A Simple Cost Framework for Comparing Clio Plans
+Table: Connected-app worksheet for a Clio budget {.checklist}
+| Tool the Firm Uses Today | Keep, Replace, or Drop | Billed By | Annual Cost to Budget |
+| --- | --- | --- | --- |
+| Accounting software | Decide before quote | Accounting vendor | Vendor's current price |
+| Document management | Decide before quote | Document vendor | Vendor's current price |
+| Intake or CRM tool | Compare with Clio Grow | Intake vendor or Clio | Vendor price or Clio quote |
+| Reporting or analytics | Decide before quote | Reporting vendor | Vendor's current price |
+| Sync or connector apps | Needed only if tools stay | Connector vendor | Vendor's current price |
 
-Once the five layers are clear, the firm can turn them into a working budget. The goal is not to guess one “typical” total. Instead, it is to make every unknown visible before the purchase.
+Tool availability is not the same as tool use. As the gap between adoption and daily use in [legal technology statistics](/legal-tech/legal-technology-statistics/) shows, a licensed app that staff rarely open still costs money every month.
 
-| Cost Type | Examples | How to Handle It |  
-| --- | --- | --- |  
-| Fixed recurring | User licenses, paid add-ons | Use the written quote or published rate |  
-| Variable | Card fees, ACH fees, per-filing tools | Model against expected volume |  
-| Third-party recurring | Accounting, document, intake, reporting apps | Check each vendor separately |  
-| One-time | Migration help, outside implementation | Ask for scope and price in writing |  
-| Internal | Staff training, data cleanup, workflow setup | Estimate hours and owner time |
-
-For firms comparing Clio with another platform, this table is more useful than comparing starting prices alone. Two products can have similar subscription rates and very different total costs once the full workflow is included.
+Migration is the other layer that hides in plain sight. Clio offers migration help, but someone inside the firm still has to decide what data moves, clean old records, test billing and trust workflows, and train staff. Those hours belong in the budget. Time tracking is another place where platforms differ once they are live, as the look at [Smokeball automatic time capture](/legal-tech/smokeball-legal-software-time-capture/) shows. Firms with complex systems face a longer rollout, as the [Litify implementation](/legal-tech/litify-legal-software-implementation/) analysis describes.
 
 ## What Should a Law Firm Ask Before Signing?
 
-A pricing call is most useful when the firm already knows what it needs to confirm. Rather than asking only for the monthly rate, use the call to close the gaps in the budget.
+A pricing call works best when the firm already knows which gaps it needs to close. These eight questions turn a sales conversation into a complete budget.
 
-1. **Confirm the Paid Seat Count:** Ask which employees need paid seats under the exact workflow the firm plans to use.  
-2. **Match Features to the Right Plan:** Identify which needed features require Core, Signature, or Elite instead of Starter.  
-3. **List Every Add-On:** Ask which products are included in the quote and which are billed separately.  
-4. **Check Billing Terms:** Confirm monthly versus annual pricing, renewal terms, and any contract commitments.  
-5. **Map Integration Costs:** Identify which connected tools need their own paid subscriptions.  
-6. **Define Migration Scope:** Ask what data Clio will migrate from the firm’s current system and what the firm must handle itself.  
-7. **Confirm Payment Fees:** Match the current processing rates to the firm’s expected card and ACH mix.  
-8. **Plan the Go-Live:** Clarify training, setup, testing, and internal ownership before choosing a launch date.
+![Fountain pen resting beside the signature line of a contract on a marble desk](/assets/images/posts/clio-legal-software-total-cost/contract-signature-line-1600.jpg "Get every rate, term, and included service in writing before signing.")
 
-These questions also help the firm compare Clio with other products on the same basis. Without them, one quote may include services that another quote leaves out.
+Table: Eight questions to close before signing a Clio contract {.checklist}
+| Question | Why It Changes the Budget |
+| --- | --- |
+| Which roles need paid seats on this plan? | Seat count is the largest fixed cost |
+| Which needed features require Core, Signature, or Elite? | Moves the firm from a public price to a quote |
+| Which add-ons are in the quote, line by line? | Prevents surprise charges after signing |
+| Is pricing monthly or annual, and what is the renewal rate? | Sets the real commitment and next year's cost |
+| What are the current card, American Express, Pay Later, and eCheck rates? | Drives the variable cost |
+| Which data will Clio migrate, and what must the firm handle? | Defines the one-time cost and staff time |
+| What training and setup are included? | Affects how fast staff become productive |
+| Who owns go-live inside the firm? | Keeps the switch from stalling |
 
-## Where the Cost Can Be Easy to Miss
+Ask for the answers in writing. A quote that lists every rate, term, and included service is the only fair basis for comparing Clio with another platform.
 
-Some cost items are visible because they arrive as invoices. Others are harder to see because they appear as staff time, slower work during a switch, or duplicated software that was never canceled.
+## Is Clio Legal Software Expensive?
 
-\> **Budget Check**  
-\> If the firm keeps an accounting tool, document system, intake product, and reporting add-on after moving to Clio, those subscriptions still belong in the total-cost calculation even if the Clio invoice itself looks unchanged.
+There is no single answer, because the total depends on team size, plan tier, payment volume, and the tools a firm keeps. For a small firm that needs only Starter, Clio legal software can be priced from the website in minutes. For a larger firm on a quote-only plan with heavy card collections and several paid apps, the subscription may be the smaller part of the annual total.
 
-Another common gap is payment processing. A firm can focus heavily on the software subscription while ignoring the variable cost of collecting money through the platform. That is why law firm billing statistics (https://verdictpoint.org/law-firms/law-firm-billing-statistics/) and collection rates matter when evaluating legal software. The software affects not only how matters are managed, but also how bills are sent and payments are received.
-
-## Is Clio Expensive?
-
-There is no useful universal answer because the total depends on the size of the team, the plan, the tools the firm keeps, the way clients pay, and the amount of work needed to implement the system.
-
-For a small firm that needs the Starter feature set and only a few seats, the public starting price may make the budget easy to model. For a larger firm that needs quote-based plans, paid integrations, migration support, and more complex workflows, the annual commitment can be much larger.
-
-The fair comparison is therefore not one vendor’s starting price against another vendor’s starting price. It is the annual cost of the complete workflow the firm actually needs.
-
-## What This Means for a 2027 Technology Budget
-
-For a 2027 plan, current 2026 pricing should be treated as a verified starting point, not a promise that the same rate will still apply months later. That is especially important for quote-based plans, third-party integrations, and payment fees.
-
-A good process is simple: build the budget now, mark every live rate with the date checked, and then recheck the changing items before approval or purchase. That keeps the plan useful without pretending that future pricing is already known.
-
-Clio legal software can still be compared in a clear and fair way. The key is to separate the public price from the full operating cost, then update the moving parts before the decision is final.
+The fair comparison is the full annual cost of the workflow a firm needs, not one vendor's starting price against another's. Switching costs and staff time also show up in margins, which is why this decision connects to [law firm profitability statistics](/law-firms/law-firm-profitability-statistics/).
 
 ## Frequently Asked Questions
 
-The questions below cover the pricing points that are easiest to misunderstand when a firm is building a late-2026 or 2027 budget.
+The questions below cover the Clio legal software pricing points firms most often get wrong.
 
 ### What Does Clio Legal Software Cost in 2026?
 
-Clio legal software currently lists Starter from $49 per user per month in the U.S. Core, Signature, and Elite require a live quote, so there is no reliable public all-in price for every firm.
+Starter is listed from $49 per user per month in the United States as of October 2, 2026. Core, Signature, and Elite require a quote, so there is no public all-in price.
 
 ### Is Clio Priced Per User?
 
-Starter is shown on a per-user basis. A firm should map who needs access under the planned workflow and confirm with Clio which users require paid seats for the selected plan.
+Yes. Starter is listed per user per month. Confirm with Clio which roles need paid seats on the plan the firm chooses.
 
-### What Costs Should Be Added to the Subscription?
+### What Are Clio's Payment Processing Fees?
 
-A complete budget may need to include payment-processing fees, third-party integrations, add-ons, migration or implementation support, data cleanup, training, and internal staff time.
+Clio lists 2.95% for standard cards, 3.75% for American Express, and 4.95% for Pay Later with Affirm. The eCheck rate is not published on these pages, so confirm it in the quote.
 
 ### Can a Firm Use 2026 Pricing for a 2027 Budget?
 
-Yes, as a current planning input. However, live pricing, fees, plan features, and third-party integration costs should be checked again before a 2027 purchase is approved.
+Yes, as a dated starting point. Recheck the plan price, payment fees, and connected-app costs before approving a 2027 purchase.
 
 ## Resources
 
-The sources below are the main references for pricing, payments, integrations, and migration. They should be rechecked before publication and before a purchase decision.
+These official pages were checked on October 2, 2026. Rates and plans change, so recheck them before any purchase decision.
 
-- **Clio Pricing:** https://www.clio.com/pricing/  
-- **Clio App Directory:** https://www.clio.com/app-directory/  
-- **Clio Data Migration:** https://www.clio.com/data-migration/  
-- **Clio Integrations:** https://www.clio.com/features/integrations/  
-- **Clio Support:** https://www.clio.com/support/  
-- **Clio Payments:** https://www.clio.com/features/payments/freshstart/
-
-FACT CHECK / PUBLISHING NOTES  
-==================================================
-
-DO NOT PUBLISH UNTIL:  
-- Clio pricing page is rechecked on publication date.  
-- Clio payment rates are rechecked on publication date.  
-- Integration examples are rechecked in the current App Directory.  
-- Any quoted plan name or feature is compared with current Clio page.  
-- The “10-user Starter” calculation is retained only if Starter remains $49/user/month.  
-- No historical third-party pricing is inserted as current Clio pricing.
-
-RESOURCES  
-These sources are useful for rechecking live pricing, migration terms, integrations, and related product details before publication or purchase.
-
-Clio pricing:  
-https://www.clio.com/pricing/
-
-Clio App Directory:  
-https://www.clio.com/app-directory/
-
-Clio integrations:  
-https://www.clio.com/features/integrations/
-
-Clio support:  
-https://www.clio.com/support/
-
-Clio migration:  
-https://www.clio.com/data-migration/
-
-Clio switching software:  
-https://www.clio.com/playbooks/switching-software/
-
-Clio payments:  
-https://www.clio.com/features/payments/freshstart/
-
-Clio Manage:  
-https://www.clio.com/manage/
-
-Current SERP / market-context references used only for content mapping:  
-https://www.uptimelegal.com/clio-review/  
-https://www.softwareadvice.com/legal/clio-legal-profile/  
-https://www.capterra.com/p/105428/Clio/pricing/  
-https://lawfirmsoftwareguide.com/reviews/clio  
-https://www.truereview.co/post/clio-review
+- **Clio Pricing:** [Clio Legal AI Software Pricing and Plans](https://www.clio.com/pricing/)
+- **Clio Payments Rates:** [Get Paid Faster With Legal Payment Processing Software](https://www.clio.com/compare/clio-vs-payment-solutions/)
+- **Pay Later and eCheck Limits:** [Clio Help Center, Accepted Payment Methods](https://help.clio.com/hc/en-us/articles/41863402264091-Clio-Payments-Accepted-Payment-Methods)
+- **Connected Apps:** [Clio App Directory](https://www.clio.com/app-directory/)
+- **Migration Scope:** [Clio Data Migration](https://www.clio.com/data-migration/)
+- **Older Payments Page:** [Clio Billing and Collections (earlier rates)](https://www.clio.com/features/payments/freshstart/)
