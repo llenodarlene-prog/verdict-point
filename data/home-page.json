@@ -47,7 +47,7 @@
     }
   ],
   "positioning": {
-    "heading": "The legal industry has no shortage of opinions. It has a shortage of context.",
+    "heading": "The Legal Industry Has No Shortage of Opinions. It Has a Shortage of Context.",
     "copy": [
       "A percentage without a denominator can mislead, just as a market estimate without a clear definition can look more certain than it is. A technology claim can sound transformative until you ask who is using the tool, how often they use it, and what work it has changed in practice.",
       "Those are the kinds of questions Verdict Point is built around. By comparing sources, defining the measures behind the numbers, and separating adoption from usage, we aim to make legal-industry information more useful to the people who have to make decisions with it."
@@ -59,7 +59,7 @@
     ]
   },
   "coverage": {
-    "heading": "Five ways to read the business of law.",
+    "heading": "Five Ways to Read the Business of Law.",
     "intro": "Each section looks at a different part of the legal market, while still connecting back to the same question: what is changing, how can we measure it, and what does that change mean in practice?",
     "cards": [
       {
@@ -95,7 +95,7 @@
     ]
   },
   "methodology": {
-    "heading": "A number without a definition is not a benchmark.",
+    "heading": "A Number Without a Definition Is Not a Benchmark.",
     "copy": [
       "Our research is designed to show the work behind the conclusion, because the same figure can tell a very different story depending on how it was collected and what it includes.",
       "When a statistic matters, we look for the original source. When two sources disagree, we look at definitions, dates, samples, and methodology before treating either figure as definitive. When a market claim is based on a narrow survey, a vendor dataset, or a modeled forecast, we make that context visible.",
@@ -113,13 +113,13 @@
     }
   },
   "featured": {
-    "heading": "Research worth coming back to.",
+    "heading": "Research Worth Coming Back To.",
     "intro": "Our strongest work is built to be referenced, revisited, and tested against new information as the market changes.",
     "label": "Featured Research",
     "link": "Read the Research"
   },
   "audience": {
-    "heading": "Built for decisions, not clicks.",
+    "heading": "Built for Decisions, Not Clicks.",
     "copy": [
       "Verdict Point is written for people who make, advise, report on, or study decisions inside legal services. That includes managing partners, firm leaders, legal marketers, legal-operations professionals, technology teams, founders, consultants, journalists, and researchers.",
       "Their roles may be different, but the need is often the same: better information before a decision is made.",
@@ -147,7 +147,7 @@
     "view_all": "View All Analysis"
   },
   "closing": {
-    "heading": "The legal market keeps changing. The measurement should keep up.",
+    "heading": "The Legal Market Keeps Changing. The Measurement Should Keep Up.",
     "copy": "Follow the latest Verdict Point research, benchmarks, and analysis across law firms, legal technology, marketing, and the wider legal-services market.",
     "cta": {
       "label": "Explore Verdict Point",

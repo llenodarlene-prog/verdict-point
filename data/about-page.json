@@ -2,7 +2,7 @@
   "source": "sources/google-drive/1fsvwC4qAyFdOcwNxsHGx0O8I5i0a5sqTJj-8syArYA0.md (Website Copy + Section Layout v1.1, ABOUT US PAGE)",
   "hero": {
     "eyebrow": "About Verdict Point",
-    "heading": "We cover how the legal industry works.",
+    "heading": "We Cover How the Legal Industry Works.",
     "copy": [
       "Verdict Point is an independent publication about the business of law.",
       "We study the economics, technology, marketing, operations, and market structures behind legal services. Rather than explaining what the law means, our focus is on the business around legal work and the decisions that shape how legal services are delivered, marketed, managed, and measured."
@@ -30,20 +30,20 @@
     ]
   },
   "measurement": {
-    "heading": "What makes our coverage different",
+    "heading": "What Makes Our Coverage Different",
     "intro": "We start with the measurement problem because that is often where the meaning changes.",
     "cards": [
       {
         "label": "AI Adoption",
-        "question": "Does “adoption” mean purchased, approved, tested, or used in production?"
+        "question": "Does “Adoption” Mean Purchased, Approved, Tested, or Used in Production?"
       },
       {
         "label": "Marketing Conversion",
-        "question": "Does “conversion” mean a visitor, inquiry, consultation, or signed matter?"
+        "question": "Does “Conversion” Mean a Visitor, Inquiry, Consultation, or Signed Matter?"
       },
       {
         "label": "Market Size",
-        "question": "Does the estimate describe observed revenue, modeled revenue, or a forecast?"
+        "question": "Does the Estimate Describe Observed Revenue, Modeled Revenue, or a Forecast?"
       }
     ],
     "closing": "Those distinctions can seem technical, but they are often the difference between a useful benchmark and a misleading one. The point is not to add more commentary; it is to provide the context that makes the information easier to interpret."
@@ -64,7 +64,7 @@
     ]
   },
   "originality": {
-    "heading": "Originality is a requirement.",
+    "heading": "Originality Is a Requirement.",
     "copy": [
       "Verdict Point does not publish to fill a schedule or to repeat what is already widely reported.",
       "Every major piece should leave readers with something they could not easily find elsewhere: sources reconciled side by side, a clearer definition, a fair comparison, or new data. If we cannot add that, the piece is not ready to publish."
@@ -95,11 +95,11 @@
   },
   "corrections": [
     {
-      "heading": "Accuracy matters more than defending an old sentence.",
+      "heading": "Accuracy Matters More Than Defending an Old Sentence.",
       "copy": "If a factual error is identified, we correct it. If a dataset is revised and the change materially affects a conclusion, we update the relevant page. If a methodology changes, we aim to make that clear rather than quietly replacing the old basis for an analysis."
     },
     {
-      "heading": "Commercial relationships should not determine editorial conclusions.",
+      "heading": "Commercial Relationships Should Not Determine Editorial Conclusions.",
       "copy": "In the same way, a source being useful does not mean it is beyond scrutiny. We expect our work to be questioned, checked, and revisited. That is part of what makes research useful."
     }
   ],
