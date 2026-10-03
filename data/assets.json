@@ -258,5 +258,45 @@
     "rights_status": "approved",
     "rights_source": "Owned brand asset supplied by Verdict Point (Refined fountain pen at the signature line-4.png)",
     "alt_guidance": "Fountain pen resting beside the signature line of a contract on a marble desk"
+  },
+  {
+    "path": "/assets/images/posts/mycase-legal-software/attorney-client-document-review-1600.jpg",
+    "title": "Attorney walking a client through a document at a marble conference table",
+    "use": "Blog 2 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Confidential attorney-client document review-1.png)",
+    "alt_guidance": "Attorney walking a client through a document at a marble conference table"
+  },
+  {
+    "path": "/assets/images/posts/mycase-legal-software/team-workflow-review-1600.jpg",
+    "title": "Legal team reviewing binders and printed documents at a conference table with a matter timeline on an easel",
+    "use": "Blog 2 body image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Counsel Review Settlement Strategy-2.png)",
+    "alt_guidance": "Legal team reviewing binders and printed documents at a conference table with a matter timeline on an easel"
+  },
+  {
+    "path": "/assets/images/posts/mycase-legal-software/attorney-client-document-review-800.jpg",
+    "title": "Attorney walking a client through a document at a marble conference table",
+    "use": "Blog 2 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Confidential attorney-client document review-1.png)",
+    "alt_guidance": "Attorney walking a client through a document at a marble conference table"
+  },
+  {
+    "path": "/assets/images/posts/mycase-legal-software/team-workflow-review-800.jpg",
+    "title": "Legal team reviewing binders and printed documents at a conference table with a matter timeline on an easel",
+    "use": "Blog 2 body image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Counsel Review Settlement Strategy-2.png)",
+    "alt_guidance": "Legal team reviewing binders and printed documents at a conference table with a matter timeline on an easel"
   }
 ]

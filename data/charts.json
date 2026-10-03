@@ -3,8 +3,23 @@
     "type": "bar",
     "title": "Clio Starter subscription cost per year, by seat count",
     "label_heading": "Paid seats",
-    "labels": ["1 seat", "5 seats", "10 seats", "25 seats"],
-    "series": [{ "name": "Annual cost", "values": [588, 2940, 5880, 14700] }],
+    "labels": [
+      "1 seat",
+      "5 seats",
+      "10 seats",
+      "25 seats"
+    ],
+    "series": [
+      {
+        "name": "Annual cost",
+        "values": [
+          588,
+          2940,
+          5880,
+          14700
+        ]
+      }
+    ],
     "prefix": "$",
     "caption": "Calculation: Starter's listed starting rate of $49 per user per month × seats × 12 months. Excludes taxes, add-ons, payment fees, and any annual-billing discount.",
     "source": "Clio pricing page, checked October 2, 2026"
@@ -13,8 +28,21 @@
     "type": "hbar",
     "title": "Clio Payments fee rates by payment method (U.S.)",
     "label_heading": "Payment method",
-    "labels": ["Standard credit or debit card", "American Express", "Pay Later with Affirm"],
-    "series": [{ "name": "Fee per transaction", "values": [2.95, 3.75, 4.95] }],
+    "labels": [
+      "Standard credit or debit card",
+      "American Express",
+      "Pay Later with Affirm"
+    ],
+    "series": [
+      {
+        "name": "Fee per transaction",
+        "values": [
+          2.95,
+          3.75,
+          4.95
+        ]
+      }
+    ],
     "suffix": "%",
     "decimals": 2,
     "caption": "Percentage of each payment collected. Clio does not publish a current eCheck rate on these pages; confirm it in the quote.",
@@ -24,13 +52,116 @@
     "type": "grouped",
     "title": "Illustration: 10 Starter seats vs. card fees at three collection levels",
     "label_heading": "Card payments collected per month",
-    "labels": ["$10,000 per month", "$25,000 per month", "$50,000 per month"],
+    "labels": [
+      "$10,000 per month",
+      "$25,000 per month",
+      "$50,000 per month"
+    ],
     "series": [
-      { "name": "10 Starter seats, per year", "values": [5880, 5880, 5880] },
-      { "name": "Card fees at 2.95%, per year", "values": [3540, 8850, 17700] }
+      {
+        "name": "10 Starter seats, per year",
+        "values": [
+          5880,
+          5880,
+          5880
+        ]
+      },
+      {
+        "name": "Card fees at 2.95%, per year",
+        "values": [
+          3540,
+          8850,
+          17700
+        ]
+      }
     ],
     "prefix": "$",
     "caption": "Illustrative calculation, not a quote. Subscription: 10 × $49 × 12. Card fees: monthly card collections × 12 × 2.95%. Assumes every payment uses a standard card.",
     "source": "Verdict Point calculation from Clio's published rates, checked October 2, 2026"
+  },
+  "mycase-plan-prices": {
+    "type": "grouped",
+    "title": "MyCase price per user per month, by billing term",
+    "label_heading": "Plan",
+    "labels": [
+      "Basic",
+      "Pro",
+      "Advanced"
+    ],
+    "series": [
+      {
+        "name": "Billed annually",
+        "values": [
+          50,
+          100,
+          130
+        ]
+      },
+      {
+        "name": "Billed monthly",
+        "values": [
+          60,
+          120,
+          150
+        ]
+      }
+    ],
+    "prefix": "$",
+    "caption": "Listed U.S. rates per user per month. Annual billing is the lower rate on every plan. Sales tax may apply.",
+    "source": "MyCase pricing page and Help Center cost article, checked October 2, 2026"
+  },
+  "mycase-annual-billing-savings": {
+    "type": "hbar",
+    "title": "Yearly savings per user from annual billing",
+    "label_heading": "Plan",
+    "labels": [
+      "Basic",
+      "Pro",
+      "Advanced"
+    ],
+    "series": [
+      {
+        "name": "Savings per user per year",
+        "values": [
+          120,
+          240,
+          240
+        ]
+      }
+    ],
+    "prefix": "$",
+    "caption": "Calculation: (monthly-billing rate minus annual-billing rate) × 12. Matches the per-plan savings MyCase shows on its pricing page.",
+    "source": "MyCase pricing page and Help Center cost article, checked October 2, 2026"
+  },
+  "mycase-ten-user-annual-cost": {
+    "type": "grouped",
+    "title": "Illustration: yearly cost for 10 users on annual billing",
+    "label_heading": "Plan",
+    "labels": [
+      "Basic",
+      "Pro",
+      "Advanced"
+    ],
+    "series": [
+      {
+        "name": "Subscription, 10 users",
+        "values": [
+          6000,
+          12000,
+          15600
+        ]
+      },
+      {
+        "name": "Accounting add-on, 10 users",
+        "values": [
+          4680,
+          4680,
+          4680
+        ]
+      }
+    ],
+    "prefix": "$",
+    "caption": "Illustrative calculation, not a quote. Subscription: annual-billing rate × 10 users × 12. Accounting: $39 × 10 users × 12, only if every user needs it. Excludes tax and payment processing.",
+    "source": "Verdict Point calculation from MyCase published rates, checked October 2, 2026"
   }
 }

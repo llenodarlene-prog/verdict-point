@@ -1,236 +1,464 @@
 {
   "tracker_id": "Blog:2",
-  "status": "scaffolded",
+  "status": "verified",
   "research_question": "Owned-page scope: MyCase Legal Software and Client Communication. Planned sources and method: MyCase official feature and pricing pages; map a sample client exchange. Build a source-labelled comparison covering MyCase client portal and MyCase pricing; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Help law firms choose a MyCase plan by mapping the client communication journey to plan features and the full published cost.",
+    "audience": "Managing partners, operations leads, and intake or client-service managers at small and mid-sized U.S. law firms evaluating MyCase.",
+    "publication_year": "2026",
+    "data_period": "MyCase pricing, feature, and help-center pages as displayed on October 2, 2026 (help article dated June 1, 2026)",
+    "scope_limitations": "Desk research from public MyCase pages; no quote requested and no hands-on trial performed. LawPay processing rates are not published on the pricing page and are not estimated. Calculations are illustrative arithmetic on published rates."
   },
   "keyword_research": {
     "approved_primary_keyword": "mycase legal software",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-02",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-02"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "mycase pricing",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 480,
+        "difficulty": 36,
+        "cpc": 50.14,
+        "intent": "Commercial",
+        "ranking_url": "https://softwr.com/pricing/mycase",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "mycase client portal",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1000,
+        "difficulty": 26,
+        "cpc": 7.84,
+        "intent": "Navigational",
+        "ranking_url": "https://www.mycase.com/features/client-portal/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "mycase legal software",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 210,
+        "difficulty": 21,
+        "cpc": 80.97,
+        "intent": "Commercial",
+        "ranking_url": "https://www.mycase.com/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "mycase legal software reviews",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 21,
+        "cpc": 47.37,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.softwareadvice.com/legal/mycase-profile/reviews/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is mycase legal software",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.hona.com/post/what-does-mycase-do-a-beginners-guide-to-mycase",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase Plans and Pricing",
+      "publisher": "8am MyCase (AffiniPay)",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "U.S. plan prices, plan features, accounting add-on, LawPay subscription, trial, cancellation FAQ",
+      "method": "Read live page text in browser on access date",
+      "limitations": "Vendor page; LawPay processing rates described only as competitive; terms can change.",
+      "verified": true
+    },
+    {
+      "url": "https://supportcenter.mycase.com/en/articles/9369812-how-much-does-mycase-cost",
+      "title": "How much does MyCase cost? (Help Center)",
+      "publisher": "8am MyCase (AffiniPay)",
+      "source_type": "Vendor help documentation",
+      "year": "2026",
+      "published_at": "2026-06-01",
+      "accessed_at": "2026-10-02",
+      "scope": "Billing terms, setup fee, cancellation and refunds, sales tax, client portal licensing",
+      "method": "Read live article in browser; article dated June 1, 2026",
+      "limitations": "Help article can change; does not state processing rates.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/features/client-portal/",
+      "title": "Secure Client Portal Software for Law Firms",
+      "publisher": "8am MyCase (AffiniPay)",
+      "source_type": "Vendor feature page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "Client portal capabilities overview",
+      "method": "Confirmed live page and headings in browser on access date",
+      "limitations": "Marketing page; does not distinguish portal features by plan.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "MyCase lists Basic at $50, Pro at $100, and Advanced at $130 per user per month billed annually; $60, $120, and $150 billed monthly.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "MyCase subscribers",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD per user per month",
+      "method": "Vendor list price",
+      "limitations": "Excludes tax, add-ons, and processing.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "MyCase Accounting is a $39 per user per month add-on.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "MyCase subscribers",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD per user per month",
+      "method": "Vendor list price",
+      "limitations": "Applies per user who needs access.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Ten Pro users cost $12,000 per year on annual billing and $14,400 on monthly billing.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "MyCase subscribers",
+      "sample": "Not applicable",
+      "denominator": "10 users x 12 months",
+      "unit": "USD per year",
+      "method": "Verdict Point arithmetic on list prices",
+      "limitations": "Illustrative; not a quote.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "Firms are never charged for clients and contacts given client portal access.",
+      "source_url": "https://supportcenter.mycase.com/en/articles/9369812-how-much-does-mycase-cost",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "MyCase subscribers",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor help documentation",
+      "limitations": "Licensing statement; confirm in the quote.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "What Does MyCase Do? A Beginner's Guide to MyCase",
+      "url": "https://www.hona.com/post/what-does-mycase-do-a-beginners-guide-to-mycase",
+      "publisher": "Hona",
+      "format": "Vendor blog explainer",
+      "updated_at": "2026-07-07",
+      "headings": [
+        "What Is MyCase?",
+        "How Does MyCase Work?",
+        "Why Choose MyCase?",
+        "Is MyCase Right for Your Firm?"
+      ],
+      "coverage": [
+        "Product overview"
+      ],
+      "sources": [
+        "None cited"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Demo and product CTAs"
+      ],
+      "trust_signals": [
+        "Customer logos",
+        "Testimonials"
+      ],
+      "covered_well": "Plain-language overview for beginners.",
+      "gaps": "No prices, no plan differences, no portal limits, no cancellation or add-on costs."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "8am MyCase",
+      "url": "https://www.alanet.org/legal-management-software-products-services/mycase",
+      "publisher": "Association of Legal Administrators",
+      "format": "Association vendor listing",
+      "updated_at": "Not stated",
+      "headings": [
+        "8am MyCase",
+        "8am MyCase Legal Resources Center",
+        "8am MyCase Overview: Demo Video"
+      ],
+      "coverage": [
+        "Vendor listing",
+        "Member discount"
+      ],
+      "sources": [
+        "Vendor-supplied content"
+      ],
+      "data_assets": [
+        "Demo videos"
+      ],
+      "link_patterns": [
+        "Vendor website and contact links"
+      ],
+      "trust_signals": [
+        "Professional association context"
+      ],
+      "covered_well": "Notes a member discount and demo resources.",
+      "gaps": "No plan prices, feature comparison, or cost model."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "MyCase | Reviews, Pricing, Pros & Cons, Overview",
+      "url": "https://softwareconnect.com/reviews/mycase/",
+      "publisher": "Software Connect",
+      "format": "Software review directory",
+      "updated_at": "2024-11-15",
+      "headings": [
+        "Product Overview",
+        "Pros",
+        "Cons",
+        "Key Features",
+        "Pricing",
+        "User Reviews of MyCase"
+      ],
+      "coverage": [
+        "Features",
+        "Pricing",
+        "User reviews"
+      ],
+      "sources": [
+        "Three user reviews"
+      ],
+      "data_assets": [
+        "Price list"
+      ],
+      "link_patterns": [
+        "Links to competitor reviews"
+      ],
+      "trust_signals": [
+        "Named reviewers",
+        "Star rating"
+      ],
+      "covered_well": "Simple pros and cons summary.",
+      "gaps": "Prices are outdated versus the current pricing page; no portal limits by plan, add-ons, or cancellation terms."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "MyCase: Pricing, Free Demo & Features",
+      "url": "https://softwarefinder.com/legal/mycase",
+      "publisher": "Software Finder",
+      "format": "Software directory review",
+      "updated_at": "2026-09-29",
+      "headings": [
+        "How Much Does MyCase Cost?",
+        "MyCase Integrations",
+        "MyCase Pricing",
+        "MyCase Reviews",
+        "Frequently Asked Questions"
+      ],
+      "coverage": [
+        "Monthly prices",
+        "Accounting add-on",
+        "Reviews"
+      ],
+      "sources": [
+        "100 user reviews",
+        "Unattributed migration and processing figures"
+      ],
+      "data_assets": [
+        "Ratings breakdown"
+      ],
+      "link_patterns": [
+        "Demo CTAs"
+      ],
+      "trust_signals": [
+        "Review counts",
+        "Security statements"
+      ],
+      "covered_well": "Lists the accounting add-on and current monthly prices.",
+      "gaps": "Omits annual-billing rates; gives unsourced processing and migration figures; no portal differences or cancellation terms."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "MyCase Review: Pros, Cons, Features & Pricing",
+      "url": "https://thelegalpractice.com/tools/mycase-review/",
+      "publisher": "The Legal Practice",
+      "format": "Scored tool review",
+      "updated_at": "2026-09-24",
+      "headings": [
+        "MyCase Evaluation Summary",
+        "How We Test & Score Tools",
+        "Core Features",
+        "Integrations",
+        "Alternatives to MyCase",
+        "MyCase FAQs"
+      ],
+      "coverage": [
+        "Scoring method",
+        "Features",
+        "Alternatives"
+      ],
+      "sources": [
+        "Internal scoring rubric"
+      ],
+      "data_assets": [
+        "Weighted scoring criteria"
+      ],
+      "link_patterns": [
+        "Links to alternative vendors"
+      ],
+      "trust_signals": [
+        "Published scoring methodology"
+      ],
+      "covered_well": "Transparent scoring weights and alternatives.",
+      "gaps": "Only a starting price; no plan-by-plan portal or communication comparison, add-ons, or cost model."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page compares client communication features plan by plan.",
+    "Several pages show outdated prices or only monthly rates.",
+    "No page models the accounting add-on or billing-term cost difference for a real team size.",
+    "Cancellation and refund terms are missing from every competitor reviewed."
+  ],
+  "value_add": "A client-journey map tied to plan features, current annual and monthly prices with a 10-user cost model, the accounting add-on, licensing and cancellation terms from MyCase's own documentation, and a trial acceptance checklist.",
   "plan": {
     "reader_title": "MyCase Legal Software and Client Communication",
-    "seo_title": "MyCase Legal Software and Client Communication",
-    "meta_description": "",
+    "seo_title": "MyCase Legal Software: Client Communication by Plan",
+    "meta_description": "Compare MyCase legal software plans, client communication features, accounting costs, payment terms, and questions to test before buying.",
     "slug": "/legal-tech/mycase-legal-software/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "MyCase client portal",
+      "MyCase pricing"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Map the Client Journey Before Comparing Plans",
+      "Compare MyCase Prices on the Same Billing Basis",
+      "Match the Plan to the Communication Workflow",
+      "Decide What Belongs in the Portal",
+      "Add Accounting and Payments to the Cost Model",
+      "Confirm Seats, Terms, and Cancellation Before Signing",
+      "Use the Trial as a Workflow Acceptance Test",
+      "Which MyCase Legal Software Plan Fits?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Compare MyCase Prices",
+        "sources": [
+          "https://www.mycase.com/pricing/",
+          "https://supportcenter.mycase.com/en/articles/9369812-how-much-does-mycase-cost"
+        ]
+      },
+      {
+        "section": "Match the Plan to the Communication Workflow",
+        "sources": [
+          "https://www.mycase.com/pricing/"
+        ]
+      },
+      {
+        "section": "Confirm Seats, Terms, and Cancellation",
+        "sources": [
+          "https://supportcenter.mycase.com/en/articles/9369812-how-much-does-mycase-cost"
+        ]
+      }
+    ],
+    "visuals": [
+      "Grouped bar: price per user by billing term",
+      "Horizontal bar: yearly savings per user from annual billing",
+      "Grouped bar: 10-user yearly subscription vs accounting add-on",
+      "Featured image: attorney-client document review",
+      "Body image: team workflow review"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-tech/clio-legal-software-total-cost/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.mycase.com/pricing/",
+      "https://supportcenter.mycase.com/en/articles/9369812-how-much-does-mycase-cost"
+    ],
+    "excluded_claims": [
+      "LawPay processing percentages (not published on the pricing page)",
+      "Unsourced migration cost ranges seen on competitor pages",
+      "Hands-on product performance claims"
+    ],
+    "drafting_cautions": [
+      "Recheck prices and plan features on the publication date",
+      "Label calculations as illustrative",
+      "Keep the desk-research disclosure"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "MyCase lists Basic, Pro, and Advanced at $50, $100, and $130 per user per month billed annually.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Firms are never charged for clients and contacts given client portal access; there is no setup fee and no refunds for unused terms.",
+      "source_url": "https://supportcenter.mycase.com/en/articles/9369812-how-much-does-mycase-cost",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-02"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-02"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/14EhulXKYED5ti2wj9x0KXMcWz20y0oCT3otaQAPSlv4/edit?usp=drivesdk",

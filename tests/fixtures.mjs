@@ -124,7 +124,14 @@ export async function createLaunchFixture() {
   for (const key of ['contact', 'privacy', 'staging_review']) Object.assign(release[key], { approved: true, reviewer: release[key].reviewer || 'Fixture Reviewer', reviewed_at: release[key].reviewed_at || '2026-09-20' });
   release.production_approval = { approved: true, reviewer: 'Release Reviewer', reviewed_at: '2026-09-22', change_reference: 'CHANGE-2026-001' };
   await writeJson(path.join(root, 'data/release.json'), release);
-  return { root, posts: path.join(root, 'content/posts') };
+  // Fixed launch-day state, independent of how many posts the real repository has published since:
+  // Blog 1 is the single published blog and the other 19 tracker items are drafts.
+  const posts = path.join(root, 'content/posts');
+  for (const name of await readdir(posts)) {
+    const file = path.join(posts, name);
+    await setDraft(file, !(await readFile(file, 'utf8')).includes('\ntracker_id: Blog:1\n'));
+  }
+  return { root, posts };
 }
 
 // Finds the post file for a tracker id inside a fixture.
