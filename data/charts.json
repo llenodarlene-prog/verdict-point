@@ -406,5 +406,88 @@
     "prefix": "$",
     "caption": "Clio Starter is a starting rate; MyCase rates are annual-billing prices. Filevine does not appear because its pricing page lists no per-user price and directs buyers to a custom quote.",
     "source": "Clio, MyCase, and Filevine pricing pages, checked October 2 and 3, 2026"
+  },
+  "aba-legal-technology-use-2024": {
+    "type": "hbar",
+    "title": "Technology use reported in the ABA 2024 Legal Technology Survey",
+    "label_heading": "Finding and group counted",
+    "labels": [
+      "E-filing of court documents (litigators)",
+      "Cloud-based legal tools (firms)",
+      "Fee-based online research (attorneys)",
+      "Formal cybersecurity policy (firms)",
+      "Free online research (attorneys)"
+    ],
+    "series": [
+      {
+        "name": "Share reporting use",
+        "values": [
+          85,
+          73,
+          67,
+          60,
+          55
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "Each bar describes a different group, named in its label. The figures are separate findings and should not be averaged or added.",
+    "source": "American Bar Association, release on the 2024 Legal Technology Survey Report (March 3, 2025)"
+  },
+  "law-firm-technology-budgeting-2024": {
+    "type": "hbar",
+    "title": "Technology budgeting at law firms, 2024",
+    "label_heading": "Finding",
+    "labels": [
+      "Firms of 50 to 99 lawyers with a technology budget",
+      "All respondents whose firm budgets for technology",
+      "Solo practitioners with no technology budget",
+      "Budgeting firms whose budget increased",
+      "Budgeting firms whose budget stayed the same"
+    ],
+    "series": [
+      {
+        "name": "Share of respondents",
+        "values": [
+          94.1,
+          65.2,
+          55.4,
+          53.7,
+          23.2
+        ]
+      }
+    ],
+    "suffix": "%",
+    "decimals": 1,
+    "caption": "The first three bars use different respondent groups. The last two apply only to firms that budget for technology. Percentages only; no dollar amounts.",
+    "source": "American Bar Association, 2024 Budgeting and Planning TechReport"
+  },
+  "generative-ai-use-law-firms-legal-departments-2025-2026": {
+    "type": "grouped",
+    "title": "Organizations using generative AI, 2025 vs. 2026",
+    "label_heading": "Organization type",
+    "labels": [
+      "Law firms",
+      "Corporate legal departments"
+    ],
+    "series": [
+      {
+        "name": "2025",
+        "values": [
+          28,
+          23
+        ]
+      },
+      {
+        "name": "2026",
+        "values": [
+          41,
+          47
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "Organization-level use as summarized by the publisher. Not a measure of personal use by individual lawyers.",
+    "source": "Thomson Reuters, How AI Is Transforming the Legal Profession (July 2, 2026)"
   }
 }

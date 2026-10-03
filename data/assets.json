@@ -418,5 +418,45 @@
     "rights_status": "approved",
     "rights_source": "Owned brand asset supplied by Verdict Point (Attorneys reviewing digital evidence-1.png)",
     "alt_guidance": "Two legal professionals checking documents on a large screen against a printed binder"
+  },
+  {
+    "path": "/assets/images/posts/legal-technology-statistics/lawyer-reviewing-legal-technology-data-1600.jpg",
+    "title": "Lawyer in a navy blazer working on a laptop beside a tablet showing documents in a glass-walled office",
+    "use": "Article 3 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Responsible AI evaluation in legal operations-5.png)",
+    "alt_guidance": "Lawyer in a navy blazer working on a laptop beside a tablet showing documents in a glass-walled office"
+  },
+  {
+    "path": "/assets/images/posts/legal-technology-statistics/attorneys-legal-research-law-library-1600.jpg",
+    "title": "Two attorneys reviewing open law books and printed notes at a library table",
+    "use": "Article 3 body image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Focused Legal Research in a Law Library-2.png)",
+    "alt_guidance": "Two attorneys reviewing open law books and printed notes at a library table"
+  },
+  {
+    "path": "/assets/images/posts/legal-technology-statistics/lawyer-reviewing-legal-technology-data-800.jpg",
+    "title": "Lawyer in a navy blazer working on a laptop beside a tablet showing documents in a glass-walled office",
+    "use": "Article 3 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Responsible AI evaluation in legal operations-5.png)",
+    "alt_guidance": "Lawyer in a navy blazer working on a laptop beside a tablet showing documents in a glass-walled office"
+  },
+  {
+    "path": "/assets/images/posts/legal-technology-statistics/attorneys-legal-research-law-library-800.jpg",
+    "title": "Two attorneys reviewing open law books and printed notes at a library table",
+    "use": "Article 3 body image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (Focused Legal Research in a Law Library-2.png)",
+    "alt_guidance": "Two attorneys reviewing open law books and printed notes at a library table"
   }
 ]
