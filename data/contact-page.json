@@ -4,6 +4,17 @@
   "heading": "A Useful Tip Is Worth More Than a Generic Pitch.",
   "intro": "If you have a dataset we should examine, a number that needs correcting, a market shift worth tracking, or a source we should know about, we would like to hear from you.",
   "email_label": "Email",
-  "enquiries": ["Editorial Tips", "Research Corrections", "Contributor & Business Inquiries"],
-  "note": "Verdict Point does not provide legal advice, lawyer referrals, or case-specific guidance. We do not offer phone support."
+  "enquiries": [
+    "Editorial Tips",
+    "Research Corrections",
+    "Contributor & Business Inquiries"
+  ],
+  "note": "Verdict Point does not provide legal advice, lawyer referrals, or case-specific guidance. We do not offer phone support.",
+  "image": {
+    "src": "/assets/images/site/courthouse-door-brass-handle-1600.jpg",
+    "small": "/assets/images/site/courthouse-door-brass-handle-800.jpg",
+    "width": 1600,
+    "height": 900,
+    "alt": "Navy courthouse door with a brushed brass handle between ivory stone columns"
+  }
 }
