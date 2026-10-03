@@ -1,236 +1,465 @@
 {
   "tracker_id": "Blog:3",
-  "status": "scaffolded",
+  "status": "verified",
   "research_question": "Owned-page scope: Configuring Filevine Legal Software Around Case Types. Planned sources and method: Filevine official documentation and disclosed implementation interviews. Build a source-labelled comparison covering Filevine workflows and Filevine implementation; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Help law firms evaluate and scope a Filevine implementation by defining one case type, the configuration levels involved, migration checks, quote contents, and acceptance tests.",
+    "audience": "Managing partners, operations leads, and legal technology or project owners at firms evaluating Filevine.",
+    "publication_year": "2026",
+    "data_period": "Filevine pricing page and Help Center Billing Setup article as displayed on October 3, 2026; comparison prices from Clio and MyCase pricing pages checked October 2 and 3, 2026",
+    "scope_limitations": "Desk research from public Filevine pages; no quote requested, no hands-on build, and no implementation interviews. Filevine publishes no prices, so none are stated or estimated. The configuration tables are an editorial planning framework, not a Filevine template."
   },
   "keyword_research": {
     "approved_primary_keyword": "filevine legal software",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-03",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-03"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "filevine pricing",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 140,
+        "difficulty": 19,
+        "cpc": 45.02,
+        "intent": "Commercial",
+        "ranking_url": "https://www.reddit.com/r/LawFirm/comments/j8d6i4/case_management_software_prices_eg_filevine/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "filevine case management",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 12,
+        "cpc": 31.21,
+        "intent": "Commercial",
+        "ranking_url": "https://www.filevine.com/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "filevine legal software",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 26,
+        "cpc": 42.73,
+        "intent": "Commercial",
+        "ranking_url": "https://www.filevine.com/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "filevine vs clio",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 14,
+        "cpc": 63.6,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.reddit.com/r/LawFirm/comments/xtn9ep/thoughts_on_clio_vs_filevine_for_pi/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much does filevine cost",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 40,
+        "difficulty": 16,
+        "cpc": 92.2,
+        "intent": "Informational",
+        "ranking_url": "https://www.reddit.com/r/LawFirm/comments/j8d6i4/case_management_software_prices_eg_filevine/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.filevine.com/pricing/",
+      "title": "Filevine Pricing",
+      "publisher": "Filevine",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "Pricing model, onboarding and support, LOIS free trial",
+      "method": "Read live page, including collapsed FAQ answers, in browser on access date",
+      "limitations": "No prices published; marketing page; terms can change.",
+      "verified": true
+    },
+    {
+      "url": "https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup",
+      "title": "Billing Setup (Filevine Help Center)",
+      "publisher": "Filevine",
+      "source_type": "Vendor help documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "Organization-level billing setup, default settings, applying defaults to existing projects, adding the Billing section in the Customs Editor",
+      "method": "Read live article in browser; page showed \"Updated 2 months ago\" on access date",
+      "limitations": "Describes product behavior at time of access; no exact publication date shown.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/pricing/",
+      "title": "Clio Legal AI Software Pricing & Plans",
+      "publisher": "Clio (Themis Solutions Inc.)",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "Clio Starter starting price, used for comparison only",
+      "method": "Read live page in browser on October 2 and 3, 2026",
+      "limitations": "Starting rate only; higher tiers are quote-only.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase Plans and Pricing",
+      "publisher": "8am MyCase (AffiniPay)",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "MyCase Basic, Pro, and Advanced annual-billing prices, used for comparison only",
+      "method": "Read live page in browser on October 2, 2026",
+      "limitations": "Annual-billing rates; monthly billing is higher.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Filevine publishes no per-user price; all packages are custom built and require a quote.",
+      "source_url": "https://www.filevine.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor pricing page statement",
+      "limitations": "Absence of a published price as of the access date.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Applying new billing default settings to existing projects cannot be undone and overrides all project-specific default settings.",
+      "source_url": "https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor help documentation",
+      "limitations": "Product behavior may change with releases.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Published comparison prices per user per month: Clio Starter from $49; MyCase Basic $50, Pro $100, Advanced $130 (annual billing).",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD per user per month",
+      "method": "Vendor list prices",
+      "limitations": "Different plans and scopes; comparison shows price transparency, not value.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Filevine: Reviews, Pricing & Free Demo",
+      "url": "https://softwarefinder.com/legal/filevine-software",
+      "publisher": "Software Finder",
+      "format": "Software directory review",
+      "updated_at": "2026-02-11",
+      "headings": [
+        "Filevine Features",
+        "Pros And Cons of Filevine",
+        "Filevine Pricing",
+        "Filevine Integrations",
+        "Who Is Filevine For?"
+      ],
+      "coverage": [
+        "Features",
+        "User reviews",
+        "Custom pricing note"
+      ],
+      "sources": [
+        "50 user reviews"
+      ],
+      "data_assets": [
+        "Rating distribution chart"
+      ],
+      "link_patterns": [
+        "Demo and pricing CTAs"
+      ],
+      "trust_signals": [
+        "Review counts",
+        "Named clients"
+      ],
+      "covered_well": "Summarizes features and user sentiment.",
+      "gaps": "No configuration, migration, implementation partner, acceptance testing, or quote guidance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Filevine Software Review 2026: Features, Integrations, Pros & Cons",
+      "url": "https://www.capterra.com/p/140815/Filevine/",
+      "publisher": "Capterra",
+      "format": "User review aggregator",
+      "updated_at": "2026-09-30",
+      "headings": [
+        "What is Filevine?",
+        "Filevine alternatives",
+        "Features",
+        "Pricing",
+        "Support, customer service and training options",
+        "User reviews"
+      ],
+      "coverage": [
+        "Ratings",
+        "Alternatives with prices",
+        "Features"
+      ],
+      "sources": [
+        "289 user reviews"
+      ],
+      "data_assets": [
+        "Comparison matrix",
+        "Feature priority data"
+      ],
+      "link_patterns": [
+        "Vendor and alternative links"
+      ],
+      "trust_signals": [
+        "Review volume",
+        "Verified reviews"
+      ],
+      "covered_well": "Large review base and alternative prices.",
+      "gaps": "Filevine price not disclosed; implementation only mentioned in reviews; no structured setup guidance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Filevine Review 2026: The Project Management Approach to Legal Software",
+      "url": "https://legalaireviews.net/filevine-review-2026/",
+      "publisher": "Legal AI Reviews",
+      "format": "Affiliate review",
+      "updated_at": "2026-04-30",
+      "headings": [
+        "Core Features",
+        "Filevine Pricing",
+        "Pros of Filevine",
+        "Cons of Filevine",
+        "Filevine vs. Competitors"
+      ],
+      "coverage": [
+        "Features",
+        "Unsourced price ranges",
+        "Competitor matrix"
+      ],
+      "sources": [
+        "Unnamed industry sources"
+      ],
+      "data_assets": [
+        "Feature comparison matrix"
+      ],
+      "link_patterns": [
+        "Affiliate links"
+      ],
+      "trust_signals": [
+        "Affiliate disclosure"
+      ],
+      "covered_well": "Clear competitor matrix.",
+      "gaps": "Price and implementation-fee ranges are unsourced; no configuration, migration validation, or acceptance testing."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Filevine Review: Pros, Cons, Features & Pricing",
+      "url": "https://thelegalpractice.com/tools/filevine-review/",
+      "publisher": "The Legal Practice",
+      "format": "Scored tool review",
+      "updated_at": "2026-09-24",
+      "headings": [
+        "Filevine Evaluation Summary",
+        "How We Test & Score Tools",
+        "Core Features",
+        "Ease of Use",
+        "Alternatives to Filevine",
+        "Filevine FAQs"
+      ],
+      "coverage": [
+        "Scoring method",
+        "Features",
+        "Alternatives"
+      ],
+      "sources": [
+        "Internal scoring rubric"
+      ],
+      "data_assets": [
+        "Weighted scoring criteria"
+      ],
+      "link_patterns": [
+        "Links to alternative vendors"
+      ],
+      "trust_signals": [
+        "Published scoring methodology"
+      ],
+      "covered_well": "Transparent scoring weights.",
+      "gaps": "No prices on the page; no case-type configuration, migration, or quote guidance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Clio vs Filevine vs MyCase: Which Case Management Platform Fits Your Firm?",
+      "url": "https://www.hona.com/post/clio-vs-filevine-vs-mycase-which-case-management-platform-fits-your-firm",
+      "publisher": "Hona",
+      "format": "Vendor blog comparison",
+      "updated_at": "2026-07-07",
+      "headings": [
+        "Clio: Scalable and Feature-Packed",
+        "Filevine: Collaborative and Customizable",
+        "MyCase: Simple and Affordable",
+        "Enhancing Your Choice with Hona"
+      ],
+      "coverage": [
+        "Feature-level comparison of three platforms"
+      ],
+      "sources": [
+        "Links to Clio, Filevine, and MyCase websites"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Product and demo CTAs",
+        "Links to vendor sites"
+      ],
+      "trust_signals": [
+        "Customer counts and logos"
+      ],
+      "covered_well": "Short positioning summary of each platform.",
+      "gaps": "No Filevine pricing, no implementation scoping, organization versus project settings, migration validation, acceptance testing, or quote guidance."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page explains how to scope a Filevine implementation around a case type.",
+    "No page distinguishes organization-level settings from project templates or notes the irreversible billing-defaults action.",
+    "Migration validation and acceptance testing are absent from every competitor reviewed.",
+    "One competitor publishes unsourced price ranges; none explains what a written quote should contain."
+  ],
+  "value_add": "A case-type-first scoping method tied to Filevine's own documentation: what the pricing page states versus what the quote must cover, organization versus template settings with the irreversible billing-defaults warning, a migration reconciliation checklist, quote contents, and an eight-step acceptance test.",
   "plan": {
     "reader_title": "Configuring Filevine Legal Software Around Case Types",
     "seo_title": "Configuring Filevine Legal Software Around Case Types",
-    "meta_description": "",
+    "meta_description": "Evaluate Filevine legal software by mapping case types, fields, stages, billing settings, migration work, acceptance tests, and quote requirements.",
     "slug": "/legal-tech/filevine-legal-software-case-types/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "Filevine workflows",
+      "Filevine implementation"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Why Filevine Pricing Starts With a Quote",
+      "Begin With One Case Type, Not the Whole Firm",
+      "Map Fields, Stages, Owners, and Exceptions",
+      "Separate Organization Settings From Project Templates",
+      "Treat Migration as a Data-Reconciliation Project",
+      "Build the Quote Around the Implementation Scope",
+      "Run Acceptance Tests Before Wider Rollout",
+      "What Makes a Filevine Implementation Ready?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Why Filevine Pricing Starts With a Quote",
+        "sources": [
+          "https://www.filevine.com/pricing/",
+          "https://www.clio.com/pricing/",
+          "https://www.mycase.com/pricing/"
+        ]
+      },
+      {
+        "section": "Separate Organization Settings From Project Templates",
+        "sources": [
+          "https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup"
+        ]
+      },
+      {
+        "section": "Build the Quote Around the Implementation Scope",
+        "sources": [
+          "https://www.filevine.com/pricing/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Bar: published per-user prices for Clio and MyCase, with Filevine noted as unpublished",
+      "Featured image: case file with index tabs",
+      "Body image: workflow acceptance review"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/law-firms/law-firm-billing-statistics/",
       "/legal-tech/smokeball-legal-software-time-capture/",
       "/legal-tech/litify-legal-software-implementation/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.filevine.com/pricing/",
+      "https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup"
+    ],
+    "excluded_claims": [
+      "Any Filevine per-user price or implementation fee range (not published; competitor figures unsourced)",
+      "Implementation duration estimates",
+      "Hands-on product performance claims",
+      "Historical Filevine package names"
+    ],
+    "drafting_cautions": [
+      "Keep the desk-research disclosure",
+      "Label configuration tables as an editorial framework",
+      "Quote the irreversible-change warning exactly",
+      "Recheck the pricing page and Billing Setup article on the publication date"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Filevine publishes no per-user price; packages are custom built, with onboarding through Certified Implementation Partners.",
+      "source_url": "https://www.filevine.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Applying new billing defaults to existing projects cannot be undone and overrides all project-specific default settings.",
+      "source_url": "https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-03"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-03"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1QW-KlrmxoGG5eK4eyALPFZ_MhBoA82Kfbz5loxVGaPY/edit?usp=drivesdk",

@@ -4,223 +4,196 @@ seo_title: Configuring Filevine Legal Software Around Case Types
 description: Evaluate Filevine legal software by mapping case types, fields, stages, billing settings, migration work, acceptance tests, and quote requirements.
 slug: /legal-tech/filevine-legal-software-case-types/
 type: blog
-schema: Article
-draft: true
+schema: BlogPosting
+draft: false
 tracker_id: Blog:3
 primary_keyword: filevine legal software
+secondary_keywords: Filevine workflows; Filevine implementation
 cluster: Legal Tech
 launch_silo: Practice Management Software
 silo_role: Commercial Support
 approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/law-firm-billing-statistics/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/litify-legal-software-implementation/
 research_record: content/research/blog-3.json
 source_document: https://docs.google.com/document/d/1Z7Ell8DAGCywhHVFy9vxA8CuV9MaERPznpKXSF6jfMM/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+image: /assets/images/posts/filevine-legal-software-case-types/case-file-index-tabs-1600.jpg
+image_alt: Rust-red case file with navy, red, and gold index tabs on a marble desk
+author: Darlene Aberin
+published: 2026-10-03
+modified: 2026-10-03
 ---
 
-# Filevine Legal Software: Configure the Case Type Before the Platform
+# Configuring Filevine Legal Software Around Case Types
 
-A case-management system cannot decide how a firm handles a matter. It can only reflect the fields, stages, deadlines, permissions, billing rules, and exceptions that the implementation team defines.
+A case-management system cannot decide how a firm handles a matter. It can only reflect the fields, stages, deadlines, permissions, and billing rules the firm defines. That makes Filevine legal software hard to judge from a feature list.
 
-That makes Filevine legal software difficult to evaluate from a feature list alone. Filevine provides organization-tailored quotes, and implementation can involve Filevine, a Certified Implementation Partner, and the firm’s own project owners. The buying decision therefore needs two documents: a commercial quote and a case-type configuration plan.
-
-This guide uses public product and support documentation. It does not claim hands-on testing or a completed Filevine implementation. The goal is to help a firm define what must be demonstrated, configured, migrated, and accepted before rollout.
+Filevine does not publish a price. Its pricing page says every package is custom built, and implementation runs through Certified Implementation Partners. A buyer therefore needs two documents before signing: a written quote and a case-type configuration plan. This guide draws on Filevine's public pricing page and help center as of October 3, 2026. It is desk research, not a hands-on review or a record of a completed implementation.
 
 ## Key Takeaways
 
-The most important decisions happen before the team starts building templates or moving live matters.
+The decisions that matter most come before anyone builds a template or moves a live matter.
 
-- \*\*Pricing Requires a Quote:\*\* Filevine does not publish one universal per-user rate, so the firm needs a written scope covering products, users, implementation work, training, support, and recurring terms.  
-- \*\*Case Types Should Drive Configuration:\*\* A personal-injury matter, litigation file, or other workflow may require different fields, stages, owners, deadlines, documents, and reports.  
-- \*\*Organization Settings and Project Templates Are Different:\*\* Billing is enabled and configured at the organization level, while the Billing built-in section is added to a project template through the Customs Editor.  
-- \*\*Default Changes Need Care:\*\* Filevine’s billing documentation warns that applying new defaults to existing projects overrides project-specific defaults and cannot be undone.  
-- \*\*Migration Needs Reconciliation:\*\* Moving data is not finished when records import. The firm still needs to check field mapping, duplicates, relationships, balances, permissions, documents, and totals.  
-- \*\*Acceptance Tests Should Use Realistic Scenarios:\*\* A configured workflow should be tested from intake through matter opening, task creation, billing, reporting, and export before wider rollout.
+- **Pricing Requires a Quote:** Filevine lists no per-user rate, so the firm needs a written scope covering products, users, implementation, training, and renewal terms.
+- **Case Types Should Drive Configuration:** Different matters need different fields, stages, owners, deadlines, documents, and reports.
+- **Organization Settings and Project Templates Differ:** Billing is configured for the whole organization, then added to each project template as a section.
+- **One Billing Change Cannot Be Undone:** Filevine warns that applying new billing defaults to existing projects overrides project-specific settings permanently.
+- **Migration Needs Reconciliation:** An import is not finished until counts, links, balances, and permissions have been checked against the source.
+- **Acceptance Tests Need Real Scenarios:** Test one workflow from intake to export, including an exception, before wider rollout.
 
-## Begin With One Case Type, Not the Entire Firm
+## Why Filevine Pricing Starts With a Quote
 
-The \[Filevine platform overview\](https://www.filevine.com/) presents a broad legal-work platform. A firm may eventually want several practice areas, departments, or matter types inside it. Trying to design all of them at once can hide important differences and make review harder.
+The [Filevine pricing page](https://www.filevine.com/pricing/) states that all packages are custom built for each team. Its pricing answer says the company will tailor a plan for each organization. No per-user price appears on the page.
 
-Start with one case type that is important enough to represent real work but controlled enough to test. The team should be able to explain how that matter begins, which facts are required, who owns each stage, what creates a deadline, how billing works, and what information management needs at the end.
+That sets Filevine apart from two platforms that publish at least some rates.
 
-| Configuration Area | Question to Resolve | Evidence Needed for Acceptance |  
-| --- | --- | --- |  
-| Intake | Which facts determine whether the matter proceeds? | Required fields and routing test |  
-| Matter opening | What must exist before work begins? | Complete sample matter record |  
-| Stages | Which event moves the matter forward? | Stage-change rules and owner alerts |  
-| Tasks and deadlines | What creates each action and due date? | Sample task chain with responsible users |  
-| Documents | Which templates and approvals are required? | Generated, reviewed, and stored sample |  
-| Billing | Which rates, codes, invoice rules, and payments apply? | Sample invoice and reconciliation check |  
-| Reporting | Which fields support management decisions? | Report matched to source records |  
-| Closing | What must be complete, retained, or exported? | Closed-matter checklist and export test |
+```chart
+practice-management-published-prices
+```
 
-Once the first case type works, the firm can decide which parts are reusable. Shared fields and controls may belong at a wider level, while practice-specific stages and documents may remain separate.
+The comparison is about transparency, not value. A published price is easier to budget, while a quote can fit an unusual firm more closely. Either way, a quote-only vendor shifts work to the buyer, who must define the scope before a number means anything.
 
-This sequence also prevents adoption from becoming a vague goal. Broader \[legal technology adoption\](https://verdictpoint.org/legal-tech/legal-technology-statistics/) can show that firms use modern systems, but implementation succeeds or fails at the level of a defined workflow.
+Table: What Filevine's pricing page states, and what it leaves to the quote {.compare}
+| Topic | Stated on the Pricing Page | Left to the Quote |
+| --- | --- | --- |
+| Price | Packages are custom built | Per-user rate, modules, and total |
+| Onboarding | Certified Implementation Partners help set up and customize | Partner fees, scope, and timeline |
+| Support | Customer Success and Support teams give ongoing help | Service levels and exclusions |
+| Free trial | A free tier exists for the LOIS AI product | Trial terms for case management |
+
+## Begin With One Case Type, Not the Whole Firm
+
+A firm may eventually run several practice areas in Filevine legal software. Designing all of them at once hides important differences and makes review harder. Start with one case type that represents real work but is small enough to test.
+
+The team should be able to explain how that matter begins, which facts are required, who owns each stage, what triggers a deadline, how billing works, and what management needs to see at the end.
+
+Table: Configuration areas to settle for the first case type {.cost}
+| Configuration Area | Question to Resolve | Evidence Needed for Acceptance |
+| --- | --- | --- |
+| Intake | Which facts decide whether the matter proceeds? | Required fields and routing test |
+| Matter opening | What must exist before work begins? | Complete sample matter record |
+| Stages | Which event moves the matter forward? | Stage rules and owner alerts |
+| Tasks and deadlines | What creates each action and due date? | Sample task chain with owners |
+| Documents | Which templates and approvals are required? | Generated and stored sample |
+| Billing | Which rates, codes, and invoice rules apply? | Sample invoice and reconciliation |
+| Reporting | Which fields support management decisions? | Report matched to source records |
+| Closing | What must be complete, kept, or exported? | Closed-matter checklist and export |
+
+Once the first case type works, the firm can decide which parts are reusable. Shared fields and controls may belong at a wider level, while practice-specific stages and documents can stay separate. This keeps adoption concrete. Broad [legal technology statistics](/legal-tech/legal-technology-statistics/) show how many firms license modern systems, but an implementation succeeds or fails at the level of one defined workflow.
 
 ## Map Fields, Stages, Owners, and Exceptions
 
-A project template should capture the information the firm needs to perform work, supervise risk, communicate with the client, bill correctly, and report accurately. More fields are not automatically better. Every required field creates work and should support a clear decision or downstream action.
+A project template should hold the information the firm needs to do the work, supervise risk, bill correctly, and report accurately. More fields are not better. Every required field creates work and should support a decision or a later step.
 
 ### Define the Minimum Required Record
 
-Begin with the information needed to identify the client, describe the matter, check eligibility or conflicts, assign responsibility, and trigger the first action. Separate information that must be available at intake from details that can be completed later.
-
-For each field, record the data type, whether it is required, who enters it, who reviews it, and where it will be used. A field that never appears in a workflow, document, report, search, or decision may not need to be mandatory.
+Start with what is needed to identify the client, describe the matter, check conflicts, assign responsibility, and trigger the first action. Separate what must be captured at intake from what can wait. For each field, record its type, who enters it, who reviews it, and where it is used. A field that never feeds a workflow, document, or report may not need to be mandatory.
 
 ### Make Stage Changes Meaningful
 
-A stage should represent a real change in the matter. Moving from intake to accepted, for example, may require approval, an engagement document, assigned personnel, and a completed opening checklist.
-
-The implementation team should define what permits the change, what becomes due afterward, which users are notified, and what happens when the normal path does not apply. That produces a workflow rather than a set of labels.
+A stage should mark a real change in the matter. Moving from intake to accepted, for example, may require approval, a signed engagement, an assigned team, and a completed opening checklist. Define what permits the change, what becomes due next, who is notified, and what happens when the normal path does not apply.
 
 ### Assign Owners and Backups
 
-Every time-sensitive action needs an owner. The design should also state what happens when that person is absent, leaves the firm, or changes roles.
-
-Ownership is especially important for exceptions. Missing documents, disputed data, rejected invoices, failed integrations, or migrated records that do not reconcile should have a clear review queue rather than disappearing into informal messages.
-
-## Use a Hypothetical Configuration to Test the Design
-
-The following example is an editorial design exercise, not a tested Filevine build. Its purpose is to show the level of detail a firm should bring to a demonstration or implementation workshop.
-
-| Workflow Step | Proposed Record or Action | Owner | Acceptance Question |  
-| --- | --- | --- | --- |  
-| New inquiry | Intake record with source, contact, matter type, and conflict status | Intake team | Are required fields and routing correct? |  
-| Matter accepted | Project created after approval and engagement requirements | Attorney or administrator | Can incomplete matters be prevented from advancing? |  
-| Work begins | Stage change creates named tasks and deadlines | Matter team | Are owners, due dates, and backups correct? |  
-| Billing prepared | Applicable billing settings and codes become available | Billing team | Does the sample invoice match the approved terms? |  
-| Management review | Reporting fields feed a case-type dashboard | Operations | Do report totals match the source matters? |  
-| Matter closed | Final checklist, permissions review, and export | Matter owner | Can the complete record be retrieved and reconciled? |
-
-The sample should include at least one normal matter and one exception. An exception might contain a missing field, alternate fee arrangement, reassignment, or imported record. Testing only the ideal path can leave the most expensive problems undiscovered.
-
-\> Editorial Design Note  
-\> This workflow is a planning example. It does not represent a standard Filevine template, a vendor recommendation, or proof that every step is available under every commercial package.
+Every time-sensitive action needs an owner and a backup. That matters most for exceptions. Missing documents, rejected invoices, and migrated records that do not reconcile need a clear review queue, not an informal message thread.
 
 ## Separate Organization Settings From Project Templates
 
-Configuration levels matter because a change at the organization level can affect many users or matters. The firm should document which decisions apply everywhere and which belong to one case type.
+Configuration levels matter because a change at the organization level can affect many matters at once. Document which decisions apply everywhere and which belong to one case type.
 
-Filevine’s \[Billing Setup documentation\](https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup) provides a useful example. Billing must first be enabled for the organization. The setup area covers rates, invoices, payments, email, codes, and related settings. The Billing built-in section is then added to a project template through the Customs Editor.
+Filevine's [Billing Setup help article](https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup) shows how this works. Billing is configured at the organization level in the Billing Setup tool. To use timekeeping and billing in a matter, the built-in Billing section must then be added to a project template in the Customs Editor.
 
-That structure creates several review questions. The firm needs to know which rates or codes are common, which differ by client or matter, who can change the settings, and how a template inherits or overrides a default.
+That split raises practical questions for anyone setting up Filevine legal software: which rates and codes are shared, which differ by client or matter, and who is allowed to change them. The same article explains how defaults behave. By default, changes apply to newly created projects only, and project admins can override them for a single project. To push new defaults to existing projects, an admin must choose to apply them.
 
-The same documentation states that new default settings apply to newly created projects unless they are explicitly applied to existing projects. Applying them to existing projects overrides project-specific defaults, and the help page warns that the action cannot be undone.
+> **Irreversible Change Warning**
+> Filevine's help article says applying billing defaults to existing projects "cannot be undone" and "overrides all project-specific default settings." Record current settings, test on sample data, and get approval first.
 
-\> Irreversible-Change Warning  
-\> Before applying new billing defaults to existing projects, document the affected matters, export or record current settings, test the change outside live work where possible, obtain approval, and prepare a correction plan. Filevine’s help page states that the override itself cannot be undone.
-
-This does not mean the change should never be used. It means a bulk setting deserves change control rather than an informal click during configuration.
+This does not mean the option should never be used. It means a bulk setting deserves change control, not a quick click during setup. Billing rules also shape revenue, so the firm's own rates and collection patterns, of the kind tracked in [law firm billing statistics](/law-firms/law-firm-billing-statistics/), should inform how defaults are set.
 
 ## Treat Migration as a Data-Reconciliation Project
 
-Migration has at least three parts: extracting information from the current system, transforming it into the new structure, and proving that the result is complete and usable. A successful upload does not complete the third part.
+Migration has three parts: extracting data from the current system, reshaping it for the new structure, and proving the result is complete. A successful upload finishes only the second part.
 
-Before migration, the firm should inventory data sources and define the destination for each record type. The map should cover contacts, matters, custom fields, stages, tasks, deadlines, notes, documents, billing records, payments, users, permissions, and relationships between records.
+Before migrating, list every data source and decide where each record type will live. Then plan how the team will find and fix problems.
 
-The validation plan should explain how the team will detect and resolve problems:
+Table: Migration checks to run before going live {.checklist}
+| Check | What to Compare |
+| --- | --- |
+| Missing records | Source and destination counts by record type |
+| Duplicate contacts or matters | Matching rules and a process for uncertain cases |
+| Field conversion | Dates, currency, selections, and empty values |
+| Broken relationships | Links between clients, matters, documents, and invoices |
+| Financial reconciliation | Sample balances, invoices, and payments against the source |
+| Permission review | Access for each role, including restricted matters |
+| Document retrieval | Names, dates, versions, and matter placement |
 
-- \*\*Missing Records:\*\* Compare source and destination counts by record type and case group.  
-- \*\*Duplicate Contacts or Matters:\*\* Define matching rules and a process for uncertain results.  
-- \*\*Field Conversion:\*\* Check dates, currency, selections, free text, identifiers, and empty values.  
-- \*\*Broken Relationships:\*\* Confirm that clients, matters, documents, invoices, and payments remain linked correctly.  
-- \*\*Financial Reconciliation:\*\* Match sample balances, invoices, payments, rates, and totals to the source.  
-- \*\*Permission Review:\*\* Test access for representative roles, including restricted matters.  
-- \*\*Document Retrieval:\*\* Open a sample of migrated files and confirm names, dates, versions, and matter placement.
-
-The sample should include active, closed, simple, complex, and exception records. A random sample alone can miss rare but important structures.
+Include active, closed, simple, and complex records in the sample. A random sample alone can miss rare structures that matter. Scope is the usual surprise on enterprise platforms, as the review of a [Litify implementation](/legal-tech/litify-legal-software-implementation/) also found.
 
 ## Build the Quote Around the Implementation Scope
 
-The \[Filevine pricing page\](https://www.filevine.com/pricing/) uses organization-tailored quotes and describes Certified Implementation Partners together with ongoing Customer Success and Support. A Filevine legal software quote therefore needs more than a recurring subscription total.
+Because Filevine legal software is sold by quote, the proposal is where cost becomes visible. Ask the vendor to separate each element so nothing hides inside one total.
 
-Ask the vendor to separate products or modules, paid users, implementation services, partner work, migration, integrations, training, support, contract term, renewal treatment, and any usage-based charges. Older package lists should not be treated as current commitments unless they appear in the written proposal.
+Table: What to request in writing in a Filevine quote {.data}
+| Cost Area | Details to Request |
+| --- | --- |
+| Subscription | Products, modules, users, term, and renewal basis |
+| Configuration | Included templates, fields, workflows, and revision rounds |
+| Migration | Source systems, record types, documents, and validation |
+| Integrations | Connector, data direction, owner, and recurring charge |
+| Training | Audiences, sessions, materials, and follow-up |
+| Partner services | Named partner, deliverables, rates, and change process |
+| Support | Coverage, channels, escalation, and exclusions |
 
-| Cost Area | What to Request in Writing |  
-| --- | --- |  
-| Subscription | Products, modules, users, term, billing frequency, and renewal basis |  
-| Configuration | Included templates, fields, workflows, reports, and revision rounds |  
-| Migration | Source systems, record types, document scope, transformations, and validation |  
-| Integrations | Connector, direction of data flow, implementation owner, and recurring charge |  
-| Training | Audiences, sessions, materials, recordings, and follow-up support |  
-| Partner Services | Named provider, responsibilities, deliverables, rates, and change process |  
-| Support | Coverage, channels, escalation path, and services excluded from support |
-
-The full comparison should also include the internal time of subject-matter experts, operations, billing, IT, and project leadership. These costs may not appear on the vendor invoice, but they are part of the decision.
-
-Using the same \[software total-cost components\](https://verdictpoint.org/legal-tech/clio-legal-software-total-cost/) across vendors helps prevent one proposal from looking cheaper simply because implementation or third-party work sits outside its headline price.
+The comparison should also count the internal time of lawyers, operations, billing, and IT staff. That time never appears on the vendor invoice, but it is part of the decision. Feature claims deserve the same scrutiny. If automatic time tracking is on the wish list, compare how each platform handles it, as covered in the look at [Smokeball automatic time capture](/legal-tech/smokeball-legal-software-time-capture/).
 
 ## Run Acceptance Tests Before Wider Rollout
 
-Acceptance testing should determine whether the configured system performs the approved workflow with the right data, permissions, notices, and results. It is not the same as asking users whether they like the interface.
+Acceptance testing checks whether the configured system performs the approved workflow with the right data, permissions, and results. It is not the same as asking users whether they like the interface.
 
-Prepare test cases before configuration finishes. Each case should state the starting record, action, expected result, actual result, evidence, owner, and resolution. Include tests for the normal path, exceptions, permissions, migration, reports, and integrations.
+![Two legal professionals checking documents on a large screen against a printed binder](/assets/images/posts/filevine-legal-software-case-types/workflow-acceptance-review-1600.jpg "Check each configured step against the firm's approved workflow before go-live.")
 
-1. \*\*Create a Sample Intake:\*\* Confirm required fields, duplicates, assignment, and notifications.  
-2. \*\*Open the Matter:\*\* Test approvals, project creation, permissions, and initial tasks.  
-3. \*\*Advance Each Stage:\*\* Confirm that the expected owners, deadlines, and documents appear.  
-4. \*\*Apply Billing Rules:\*\* Produce a sample invoice and reconcile it to the approved arrangement.  
-5. \*\*Test an Existing-Project Change:\*\* Use controlled data and verify the effect before touching live matters.  
-6. \*\*Review Role Access:\*\* Confirm what attorneys, staff, administrators, and restricted users can see and change.  
-7. \*\*Run Management Reports:\*\* Trace totals and statuses back to individual source records.  
-8. \*\*Export a Matter:\*\* Confirm that the firm can retrieve the expected data and documents in a usable form.
+Write the test cases before configuration finishes. Each one should state the starting record, the action, the expected result, the actual result, and who owns the fix.
 
-Every failed or partial result needs an owner and decision. The team may correct the configuration, change the workflow, obtain clarification, accept a documented limitation, or delay rollout.
+1. **Create a Sample Intake:** Confirm required fields, duplicate handling, assignment, and alerts.
+2. **Open the Matter:** Test approvals, project creation, permissions, and first tasks.
+3. **Advance Each Stage:** Confirm that owners, deadlines, and documents appear as designed.
+4. **Apply Billing Rules:** Produce a sample invoice and reconcile it to the fee agreement.
+5. **Test a Change to Existing Projects:** Use controlled data before touching live matters.
+6. **Review Role Access:** Confirm what attorneys, staff, and restricted users can see and change.
+7. **Run Management Reports:** Trace totals back to individual matters.
+8. **Export a Matter:** Confirm the firm can retrieve its data and documents in a usable form.
+
+Every failed result needs an owner and a decision: fix the configuration, change the workflow, accept a documented limit, or delay rollout.
 
 ## What Makes a Filevine Implementation Ready?
 
-Filevine legal software is ready for broader use when the firm can demonstrate an approved case type from beginning to end, not merely when accounts exist and data has been imported.
+Filevine legal software is ready for wider use when the firm can run one approved case type from start to finish, not when accounts exist and data has been imported.
 
-The required evidence includes a signed configuration, reconciled migration results, tested permissions, accepted reports, trained users, documented exceptions, and a support path. The commercial agreement should match that operating scope and identify which work belongs to Filevine, an implementation partner, or the firm.
-
-Starting with one case type creates a controlled way to learn. The firm can correct the design before repeating it, then extend only the parts that genuinely belong across other workflows.
+The evidence includes a signed configuration, reconciled migration results, tested permissions, accepted reports, trained users, and a support path. The contract should match that scope and state which work belongs to Filevine, an implementation partner, or the firm. Starting with one case type lets the firm correct the design before repeating it across the rest of Filevine legal software.
 
 ## Frequently Asked Questions
 
-These questions cover the pricing and configuration issues that buyers commonly need to settle before implementation.
+These answers cover the Filevine legal software pricing and setup questions buyers ask most often.
 
-### Does Filevine Publish a Standard Per-User Price?
+### Does Filevine Publish a Per-User Price?
 
-No universal public rate was verified. Filevine provides organization-tailored quotes, so firms should request complete written pricing for their proposed scope.
+No. Filevine's pricing page says all packages are custom built and directs buyers to request a quote. Any figure seen elsewhere should be confirmed in a written proposal.
 
-### Does Filevine Configure Every Case Type the Same Way?
+### Who Handles Filevine Implementation?
 
-No. Firms should define fields, stages, tasks, documents, billing rules, permissions, reports, and exceptions for each case type they plan to deploy.
+Filevine's pricing page says its Certified Implementation Partners help firms set up and customize the platform, with ongoing help from its Customer Success and Support teams.
 
 ### Can New Billing Defaults Be Applied to Existing Projects?
 
-Filevine’s billing documentation says they can be applied explicitly, but doing so overrides project-specific defaults and the action cannot be undone.
+Yes, but Filevine's help center warns that the action cannot be undone and overrides all project-specific default settings.
 
-### Is Data Migration Complete Once Records Are Imported?
+### Is Migration Complete Once Records Are Imported?
 
-No. The firm still needs to reconcile record counts, field mappings, relationships, documents, financial data, permissions, and representative exception cases.
-
-### What Should a Filevine Quote Include?
-
-It should identify subscriptions, users, products, implementation services, migration, integrations, training, support, partner responsibilities, contract terms, and renewal treatment.
-
-### Is This a Hands-On Filevine Review?
-
-No. This guide is based on public documentation and an editorial implementation framework. Product behavior and commercial terms must be confirmed directly.
+No. The firm still needs to reconcile record counts, field mapping, relationships, documents, financial data, and permissions.
 
 ## Resources
 
-The following official pages support the pricing, implementation, and billing-configuration information used in this guide.
+These official pages were checked on October 3, 2026. Recheck them before any purchase decision.
 
-- \*\*Filevine Pricing:\*\* https://www.filevine.com/pricing/  
-- \*\*Filevine Platform Overview:\*\* https://www.filevine.com/  
-- \*\*Filevine Billing Setup:\*\* https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup
-
-FACT CHECK / PUBLISHING NOTES
-
-RECHECK BEFORE PUBLICATION:  
-- Confirm that pricing remains organization-tailored and no universal rate has been published.  
-- Confirm current products, modules, implementation-partner language, and support structure.  
-- Recheck the Billing Setup page, including organization enablement and template configuration.  
-- Confirm the warning about applying new defaults to existing projects.  
-- Do not reuse historical package labels unless they appear in the current written quote.  
-- Do not state a universal implementation duration.  
-- Confirm that each planned internal-link destination exists at the approved slug.  
-- Retain the disclosure that the workflow is an editorial example, not a tested Filevine build.
+- **Filevine Pricing:** [Filevine Pricing](https://www.filevine.com/pricing/)
+- **Filevine Billing Setup:** [Billing Setup, Filevine Help Center](https://support.filevine.com/hc/en-us/articles/360032734652-Billing-Setup)
+- **Comparison Price, Clio:** [Clio Pricing and Plans](https://www.clio.com/pricing/)
+- **Comparison Price, MyCase:** [MyCase Plans and Pricing](https://www.mycase.com/pricing/)
