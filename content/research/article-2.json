@@ -1,236 +1,505 @@
 {
   "tracker_id": "Article:2",
-  "status": "scaffolded",
+  "status": "verified",
   "research_question": "Owned-page scope: Legal Industry Statistics by Firm Size. Planned sources and method: BLS legal-services employment and Census industry receipts; align years. Build a source-labelled comparison covering legal sector employment and law firm revenue; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Show how the U.S. legal industry is structured by firm size, using official counts of firms, employment, and receipts, and separate those from pay and large-firm performance data.",
+    "audience": "Law firm leaders, legal operations and marketing professionals, consultants, journalists, and researchers comparing legal-market figures.",
+    "publication_year": "2026",
+    "data_period": "2022 (Census SUSB, released April 10, 2025); May 2025 (BLS wages); 2025 (Thomson Reuters Institute tracked firms)",
+    "scope_limitations": "Census SUSB covers employer firms in NAICS 541110 and excludes practitioners with no employees. Size is enterprise employment, not lawyer count. Receipts are revenue, not profit. Band totals above nine employees are sums of non-overlapping Census rows; the 500-or-more group is the total minus the under-500 subtotal."
   },
   "keyword_research": {
     "approved_primary_keyword": "legal industry statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-03",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-03"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "law firm revenue",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 260,
+        "difficulty": 30,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://en.wikipedia.org/wiki/List_of_largest_law_firms_by_revenue",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "legal industry statistics",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.americanbar.org/news/profile-legal-profession/demographics/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm revenue rankings",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 33,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.law.com/americanlawyer/am-law-100/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "average small law firm revenue",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 15,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.clio.com/blog/average-law-firm-revenue/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how many law firms in the us",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 170,
+        "difficulty": 56,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ibisworld.com/united-states/industry/law-firms/1389/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx",
+      "title": "2022 SUSB Annual Data Tables: U.S. and states, NAICS, detailed enterprise employment sizes",
+      "publisher": "U.S. Census Bureau",
+      "source_type": "Official government dataset",
+      "year": "2022",
+      "published_at": "2025-04-10",
+      "accessed_at": "2026-10-03",
+      "scope": "Employer firms in NAICS 541110, Offices of Lawyers, United States",
+      "method": "Workbook downloaded and the 26 United States rows for NAICS 541110 read directly; derived from County Business Patterns and the Economic Census",
+      "limitations": "Employer firms only; noise flags G or H on most cells; 5,000+ receipts cell flagged J.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "title": "Occupational Outlook Handbook: Lawyers",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Official government statistics",
+      "year": "2025",
+      "published_at": "2026-08-27",
+      "accessed_at": "2026-10-03",
+      "scope": "Lawyer occupation: jobs, median wage, outlook",
+      "method": "Occupational Employment and Wage Statistics and Employment Projections",
+      "limitations": "Wage and salary workers only; excludes self-employed lawyers and partner profit.",
+      "verified": true
+    },
+    {
+      "url": "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "title": "2026 Report on the State of the US Legal Market",
+      "publisher": "Thomson Reuters Institute",
+      "source_type": "Industry research report",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "Large and midsize U.S. law firms tracked by the Institute, 2025 results",
+      "method": "Financial data from participating firms",
+      "limitations": "Not representative of all U.S. firms; summary page figures only.",
+      "verified": true
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/susb.html",
+      "title": "Statistics of U.S. Businesses (SUSB)",
+      "publisher": "U.S. Census Bureau",
+      "source_type": "Official program documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "SUSB definitions, coverage, and methodology",
+      "method": "Program page consulted for definitions of firm, establishment, and enterprise size",
+      "limitations": "Documentation, not data.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "156,583 firms and 166,972 establishments in Offices of Lawyers in 2022.",
+      "source_url": "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Employer firms, NAICS 541110",
+      "sample": "Not applicable",
+      "denominator": "All employer firms in the industry",
+      "unit": "Count of firms and establishments",
+      "method": "Census administrative and survey data",
+      "limitations": "Excludes nonemployer practitioners.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "116,668 firms (74.5%) had fewer than five employees and 149,187 (95.3%) had fewer than 20.",
+      "source_url": "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Employer firms, NAICS 541110",
+      "sample": "Not applicable",
+      "denominator": "156,583 firms",
+      "unit": "Count and percent of firms",
+      "method": "Census counts; percentages calculated by Verdict Point",
+      "limitations": "Size is enterprise employment.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Offices of Lawyers employed 1,078,148 people and reported $356.2 billion in receipts in 2022.",
+      "source_url": "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Employer firms, NAICS 541110",
+      "sample": "Not applicable",
+      "denominator": "All employer firms in the industry",
+      "unit": "Employees; USD",
+      "method": "Census counts",
+      "limitations": "Receipts are revenue, not profit; noise flag G.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "The 203 firms with 500 or more employees accounted for $124.4 billion, 34.9% of receipts, and 18.2% of employment.",
+      "source_url": "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Employer firms, NAICS 541110",
+      "sample": "Not applicable",
+      "denominator": "Industry total minus under-500 subtotal",
+      "unit": "USD and percent",
+      "method": "Verdict Point calculation from Census rows",
+      "limitations": "Derived by subtraction; individual 500+ rows carry higher noise flags.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "The median annual wage for lawyers was $159,670 in May 2025; 863,700 lawyer jobs in 2025.",
+      "source_url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Wage and salary lawyers",
+      "sample": "Not applicable",
+      "denominator": "Employed lawyers",
+      "unit": "USD per year; jobs",
+      "method": "BLS occupational statistics",
+      "limitations": "Excludes self-employed lawyers.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "The average tracked firm achieved 13% profit growth and 7.3% worked-rate growth in 2025.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Large and midsize firms tracked by Thomson Reuters Institute",
+      "sample": "Not applicable",
+      "denominator": "Participating firms",
+      "unit": "Percent growth",
+      "method": "Industry financial benchmarking",
+      "limitations": "Not generalizable to all firms.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Demographics (ABA Profile of the Legal Profession)",
+      "url": "https://www.americanbar.org/news/profile-legal-profession/demographics/",
+      "publisher": "American Bar Association",
+      "format": "Association data page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Growth of the legal profession",
+        "Lawyers by state",
+        "Lawyers by gender",
+        "Lawyers by race and ethnicity",
+        "Age"
+      ],
+      "coverage": [
+        "Lawyer population and demographics"
+      ],
+      "sources": [
+        "ABA National Lawyer Population Survey"
+      ],
+      "data_assets": [
+        "Charts by state and demographic"
+      ],
+      "link_patterns": [
+        "Internal ABA links"
+      ],
+      "trust_signals": [
+        "Primary source authority"
+      ],
+      "covered_well": "Authoritative lawyer population and demographic data.",
+      "gaps": "Counts lawyers, not firms; no firm-size distribution, employment, or receipts."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "The Legal Industry Report 2025",
+      "url": "https://www.fedbar.org/blog/the-legal-industry-report-2025/",
+      "publisher": "Federal Bar Association",
+      "format": "Sponsored report summary",
+      "updated_at": "2025-04-22",
+      "headings": [
+        "Generative AI in Law",
+        "Personal Use vs. Law Firm Use of Generative AI",
+        "Generative AI Adoption Varies Widely by Practice Area"
+      ],
+      "coverage": [
+        "AI adoption by firm size"
+      ],
+      "sources": [
+        "Survey of over 2,800 legal professionals"
+      ],
+      "data_assets": [
+        "One comparison table"
+      ],
+      "link_patterns": [
+        "Vendor report links"
+      ],
+      "trust_signals": [
+        "Named author"
+      ],
+      "covered_well": "Firm-size split for AI adoption.",
+      "gaps": "Technology only; no market structure, firm counts, or revenue."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "87 Lawyer Statistics to Guide Your Firm in 2026",
+      "url": "https://www.mycase.com/blog/general/lawyer-statistics/",
+      "publisher": "MyCase",
+      "format": "Vendor statistics roundup",
+      "updated_at": "2026-09-04",
+      "headings": [
+        "Lawyer labor statistics",
+        "Lawyer demographics statistics",
+        "Law firm finances, billing, and payments statistics"
+      ],
+      "coverage": [
+        "87 statistics across topics"
+      ],
+      "sources": [
+        "ABA, BLS, NALP, IBISWorld, vendor report"
+      ],
+      "data_assets": [
+        "Three charts"
+      ],
+      "link_patterns": [
+        "Product CTAs",
+        "Source links"
+      ],
+      "trust_signals": [
+        "Named author",
+        "Recent update"
+      ],
+      "covered_well": "Broad and recently updated.",
+      "gaps": "No firm-size distribution, no Census SUSB data, no firm versus establishment distinction, no receipts by size."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "How Many Law Firms In The U.S.? (2026)",
+      "url": "https://www.consumershield.com/articles/how-many-law-firms-in-us",
+      "publisher": "ConsumerShield",
+      "format": "Consumer explainer",
+      "updated_at": "2025-09-23",
+      "headings": [
+        "Growth of Law Firms in the U.S. Over Time",
+        "Law Firm Sizes and What They Mean for Clients"
+      ],
+      "coverage": [
+        "Firm count over time"
+      ],
+      "sources": [
+        "IBISWorld",
+        "Association of Legal Administrators"
+      ],
+      "data_assets": [
+        "One trend chart with CSV"
+      ],
+      "link_patterns": [
+        "Consumer service CTAs"
+      ],
+      "trust_signals": [
+        "Downloadable data"
+      ],
+      "covered_well": "Simple trend chart of firm counts.",
+      "gaps": "Uses a commercial count near 418,000 without defining it; no employer versus nonemployer distinction; no size distribution or receipts."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firms in the US Industry Analysis, 2026",
+      "url": "https://www.ibisworld.com/united-states/industry/law-firms/1389/",
+      "publisher": "IBISWorld",
+      "format": "Commercial industry report",
+      "updated_at": "2026-07-01",
+      "headings": [
+        "Performance",
+        "Products & Markets",
+        "Geographic Breakdown",
+        "Financial Benchmarks"
+      ],
+      "coverage": [
+        "Market size and business count"
+      ],
+      "sources": [
+        "Proprietary analysis"
+      ],
+      "data_assets": [
+        "Paywalled data tables"
+      ],
+      "link_patterns": [
+        "Report purchase CTAs"
+      ],
+      "trust_signals": [
+        "Established research brand"
+      ],
+      "covered_well": "Current headline market size and business count.",
+      "gaps": "Detail is paywalled; business count definition not public; no public firm-size distribution."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page shows the Census firm-size distribution for law firms.",
+    "No page shows how employment and receipts are split across firm sizes.",
+    "Competing pages cite firm counts above 400,000 without explaining that official counts cover employer firms only.",
+    "Firm, establishment, and enterprise size are rarely defined."
+  ],
+  "value_add": "Official 2022 Census counts of law firms by size with shares of firms, employment, and receipts calculated from the source rows; clear definitions of firm, establishment, and enterprise size; an explanation of why commercial firm counts are far higher; and separation of structure data from pay and large-firm performance.",
   "plan": {
     "reader_title": "Legal Industry Statistics by Firm Size",
-    "seo_title": "Legal Industry Statistics by Firm Size",
-    "meta_description": "",
+    "seo_title": "Legal Industry Statistics by Firm Size: 2026 Data",
+    "meta_description": "Legal industry statistics by firm size, from Census counts of law firms, employment, and receipts to lawyer pay and large-firm profit growth.",
     "slug": "/legal/legal-industry-statistics-firm-size/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "legal sector employment",
+      "law firm revenue"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "Start With What the Data Counts",
+      "Most U.S. Law Firms Are Small Enterprises",
+      "A Few Large Firms Take a Large Share of Revenue",
+      "Employment Is Not the Lawyer Population",
+      "Large-Firm Results Are a Market Pulse, Not a Census",
+      "How to Compare Legal-Market Numbers Without Mixing Them",
+      "What the Firm-Size Data Means for Planning",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Most U.S. Law Firms Are Small Enterprises",
+        "sources": [
+          "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx"
+        ]
+      },
+      {
+        "section": "A Few Large Firms Take a Large Share of Revenue",
+        "sources": [
+          "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx"
+        ]
+      },
+      {
+        "section": "Employment Is Not the Lawyer Population",
+        "sources": [
+          "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx",
+          "https://www.bls.gov/ooh/legal/lawyers.htm"
+        ]
+      },
+      {
+        "section": "Large-Firm Results Are a Market Pulse",
+        "sources": [
+          "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026"
+        ]
+      }
+    ],
+    "visuals": [
+      "Horizontal bar: firms by enterprise size",
+      "Grouped bar: share of firms, employment, receipts by size",
+      "Bar: average receipts per firm by size",
+      "Featured image: law firm size models",
+      "Body image: official record seal"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/ai-in-law-firms-statistics/",
       "/law-firms/law-firm-billing-statistics/",
       "/law-firms/law-firm-profitability-statistics/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx",
+      "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026"
+    ],
+    "excluded_claims": [
+      "Commercial firm counts above 400,000 as a headline figure (definition not public)",
+      "Profit or owner income by firm size (not in the Census data)",
+      "Applying large-firm growth rates to all firms"
+    ],
+    "drafting_cautions": [
+      "Keep the 2022 label on all Census figures",
+      "Never call an establishment a firm",
+      "Never call enterprise employment a lawyer count",
+      "Label calculated shares and averages"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "In 2022 there were 156,583 employer law firms; 74.5% had fewer than five employees and 95.3% fewer than 20.",
+      "source_url": "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx",
+      "verified": true
+    },
+    {
+      "statement": "The median annual wage for lawyers was $159,670 in May 2025.",
+      "source_url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "verified": true
+    },
+    {
+      "statement": "The average tracked firm achieved 13% profit growth and 7.3% worked-rate growth in 2025.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-03"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-03"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1RATzjrv5tmchVSn6ABHguVt4kNBr0SbZnM8XkgLgSz4/edit?usp=drivesdk",

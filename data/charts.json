@@ -283,5 +283,128 @@
     "suffix": "%",
     "caption": "Mystery-shopper study: a third-party research firm contacted 500 U.S. law firms by phone and email with a client inquiry in 2024. Next-step and cost-estimate shares are from phone conversations.",
     "source": "Clio, client intake research (accessed October 2, 2026)"
+  },
+  "law-firms-by-enterprise-size-2022": {
+    "type": "hbar",
+    "title": "U.S. law firms by enterprise employment size, 2022",
+    "label_heading": "Enterprise employment size",
+    "labels": [
+      "Under 5 employees",
+      "5 to 9",
+      "10 to 19",
+      "20 to 49",
+      "50 to 99",
+      "100 to 499",
+      "500 or more"
+    ],
+    "series": [
+      {
+        "name": "Firms",
+        "values": [
+          116668,
+          22518,
+          10001,
+          4912,
+          1333,
+          948,
+          203
+        ]
+      }
+    ],
+    "caption": "Number of firms in Offices of Lawyers (NAICS 541110). Size is total employees across the enterprise, not lawyers or one office. Bands above 9 employees combine non-overlapping Census rows.",
+    "source": "U.S. Census Bureau, 2022 Statistics of U.S. Businesses, NAICS 541110 (released April 10, 2025)"
+  },
+  "law-firm-share-firms-employment-receipts-2022": {
+    "type": "grouped",
+    "title": "Share of firms, employment, and receipts by enterprise size, 2022",
+    "label_heading": "Enterprise employment size",
+    "labels": [
+      "Under 20 employees",
+      "20 to 499 employees",
+      "500 or more employees"
+    ],
+    "series": [
+      {
+        "name": "Share of firms",
+        "values": [
+          95.3,
+          4.6,
+          0.1
+        ]
+      },
+      {
+        "name": "Share of employment",
+        "values": [
+          43.7,
+          38.1,
+          18.2
+        ]
+      },
+      {
+        "name": "Share of receipts",
+        "values": [
+          31.7,
+          33.4,
+          34.9
+        ]
+      }
+    ],
+    "suffix": "%",
+    "decimals": 1,
+    "caption": "Calculation from Census counts: 156,583 firms, 1,078,148 employees, and $356.2 billion in receipts. The 500-or-more group is the industry total minus the under-500 subtotal.",
+    "source": "U.S. Census Bureau, 2022 Statistics of U.S. Businesses, NAICS 541110 (released April 10, 2025)"
+  },
+  "law-firm-receipts-per-firm-2022": {
+    "type": "bar",
+    "title": "Average receipts per firm by enterprise size, 2022",
+    "label_heading": "Enterprise employment size",
+    "labels": [
+      "Under 5",
+      "5 to 9",
+      "10 to 19",
+      "Under 20 (all)",
+      "All firms"
+    ],
+    "series": [
+      {
+        "name": "Average receipts per firm",
+        "values": [
+          420,
+          1416,
+          3188,
+          756,
+          2275
+        ]
+      }
+    ],
+    "prefix": "$",
+    "suffix": "K",
+    "caption": "Calculation: receipts divided by firms in each band, in thousands of dollars. An average, not a median; receipts are revenue, not profit or owner income.",
+    "source": "U.S. Census Bureau, 2022 Statistics of U.S. Businesses, NAICS 541110 (released April 10, 2025)"
+  },
+  "practice-management-published-prices": {
+    "type": "bar",
+    "title": "Published per-user monthly prices: Clio and MyCase (Filevine publishes none)",
+    "label_heading": "Plan",
+    "labels": [
+      "Clio Starter",
+      "MyCase Basic",
+      "MyCase Pro",
+      "MyCase Advanced"
+    ],
+    "series": [
+      {
+        "name": "Listed price per user per month",
+        "values": [
+          49,
+          50,
+          100,
+          130
+        ]
+      }
+    ],
+    "prefix": "$",
+    "caption": "Clio Starter is a starting rate; MyCase rates are annual-billing prices. Filevine does not appear because its pricing page lists no per-user price and directs buyers to a custom quote.",
+    "source": "Clio, MyCase, and Filevine pricing pages, checked October 2 and 3, 2026"
   }
 }
