@@ -16,7 +16,8 @@
       "heading": "About",
       "links": [
         { "label": "About Us", "url": "/about/" },
-        { "label": "Contact Us", "url": "/contact/" }
+        { "label": "Contact Us", "url": "/contact/" },
+        { "label": "Partner With Us", "url": "/partner-with-us/" }
       ]
     },
     {
