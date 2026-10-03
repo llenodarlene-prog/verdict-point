@@ -1,236 +1,506 @@
 {
   "tracker_id": "Article:1",
-  "status": "scaffolded",
+  "status": "verified",
   "research_question": "Owned-page scope: Law Firm Marketing Statistics for Budget Planning. Planned sources and method: Clio Legal Trends Report and ABA marketing survey; compare firm-size cohorts. Build a source-labelled comparison covering law firm marketing budget and legal lead generation cost; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Give law firm leaders a source-traced set of marketing statistics for 2027 budget planning, separating channel adoption, paid-search cost, and intake responsiveness.",
+    "audience": "Managing partners, COOs, and marketing leads at U.S. law firms setting 2027 marketing budgets.",
+    "publication_year": "2026",
+    "data_period": "2024-2026 (Clio surveys 2024-2025; Clio intake study 2024; WordStream campaigns April 2025 to March 2026; ABA survey 2024); figures rechecked 2026-10-03 before sign-off",
+    "scope_limitations": "Secondary sources only. Clio channel shares are approximate because chart 4.14 has no data labels. Vendor-sponsored research (Clio, WordStream/LocaliQ) is labelled. No universal lead-to-client rate or revenue percentage is supplied."
   },
   "keyword_research": {
     "approved_primary_keyword": "law firm marketing statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-02",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-02"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "law firm marketing",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1900,
+        "difficulty": 36,
+        "cpc": 131.63,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-marketing/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm marketing statistics",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 36,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.clio.com/blog/legal-marketing-statistics/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "legal marketing statistics",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 53,
+        "cpc": 7.84,
+        "intent": "Commercial",
+        "ranking_url": "https://www.clio.com/blog/legal-marketing-statistics/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm marketing budget",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 31,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://www.reddit.com/r/LawFirmMarketing/comments/194w6sr/how_much_should_i_spend_on_marketing_my_law_firm/",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much should a law firm spend on marketing",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 40,
+        "difficulty": 39,
+        "cpc": 17.98,
+        "intent": "Informational",
+        "ranking_url": "https://attorneyatlawmagazine.com/legal-marketing/why-law-firm-marketing-costs-are-skyrocketing-in-2025",
+        "retrieved_at": "2026-10-02",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.clio.com/resources/legal-trends/read-online/",
+      "title": "2025 Legal Trends Report (read online)",
+      "publisher": "Clio",
+      "source_type": "Vendor-sponsored industry survey report",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "U.S. legal professionals and consumers; marketing channel investment chart 4.14",
+      "method": "Survey of 1,702 U.S. legal professionals (500 market panel, 1,202 Clio customers) plus 1,000 consumers",
+      "limitations": "Vendor-sponsored; channel shares shown only as unlabeled bars, so values are approximate.",
+      "verified": true
+    },
+    {
+      "url": "https://www.wordstream.com/blog/2026-google-ads-benchmarks",
+      "title": "Google Ads Benchmarks 2026",
+      "publisher": "WordStream and LocaliQ",
+      "source_type": "Vendor benchmark study",
+      "year": "2026",
+      "published_at": "2026-09-16",
+      "accessed_at": "2026-10-02",
+      "scope": "U.S. search campaigns in 23 industries, April 2025 to March 2026",
+      "method": "Analysis of more than 13,000 search advertising campaigns in Google Ads and Microsoft Ads",
+      "limitations": "Vendor client campaigns, not a random sample; averages hide practice-area and market variation.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/guides/client-intake-legal-trends/",
+      "title": "Are Law Firms Failing at Marketing and Client Engagement?",
+      "publisher": "Clio",
+      "source_type": "Vendor-sponsored mystery-shopper study",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "500 U.S. law firms contacted by phone and email",
+      "method": "Third-party research company posed as prospective clients in 2024",
+      "limitations": "Vendor-sponsored; single wave; practice-area mix not stated.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/blog/solo-small-law-firms-highlights-2025-legal-trends/",
+      "title": "Fresh Insights for Solo and Small Law Firms",
+      "publisher": "Clio",
+      "source_type": "Vendor analysis of survey data",
+      "year": "2025",
+      "published_at": "2026-04-08",
+      "accessed_at": "2026-10-02",
+      "scope": "Solo and small firms versus larger firms, lead sources",
+      "method": "Analysis of 2025 Legal Trends survey responses",
+      "limitations": "Vendor-sponsored; firm-size cut-offs not restated on the page.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-websites-and-marketing-techreport/",
+      "title": "2024 Websites and Marketing TechReport",
+      "publisher": "American Bar Association",
+      "source_type": "Professional association survey report",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-02",
+      "scope": "Website and social media use by U.S. lawyers, by firm size",
+      "method": "ABA Legal Technology Survey 2024",
+      "limitations": "Self-reported; respondent mix varies by firm size.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "About 85% of firms invested in a website and about 82% in referrals in 2025.",
+      "source_url": "https://www.clio.com/resources/legal-trends/read-online/",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "U.S. legal professionals",
+      "sample": "1,702 respondents",
+      "denominator": "All surveyed firms",
+      "unit": "Percent of firms",
+      "method": "Survey; values measured from unlabeled chart bars",
+      "limitations": "Approximate; vendor-sponsored.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "Attorneys and legal services averaged $9.87 per click and $131.63 per lead, the highest of 23 industries.",
+      "source_url": "https://www.wordstream.com/blog/2026-google-ads-benchmarks",
+      "data_year": "2025-2026",
+      "geography": "United States",
+      "population": "U.S. search advertisers",
+      "sample": "More than 13,000 campaigns",
+      "denominator": "Clicks and leads in legal campaigns",
+      "unit": "USD",
+      "method": "Campaign benchmark analysis, April 2025 to March 2026",
+      "limitations": "Vendor client data; averages only.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "40% of firms picked up the call, 48% were unreachable by phone, and 33% replied to email.",
+      "source_url": "https://www.clio.com/guides/client-intake-legal-trends/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "U.S. law firms",
+      "sample": "500 firms",
+      "denominator": "Firms contacted",
+      "unit": "Percent of firms",
+      "method": "Mystery-shopper study by a third-party research company",
+      "limitations": "Vendor-sponsored; single 2024 wave.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "59% of solo and small firms name referrals as their top lead source, versus 27% of larger firms.",
+      "source_url": "https://www.clio.com/blog/solo-small-law-firms-highlights-2025-legal-trends/",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "U.S. law firms by size",
+      "sample": "2025 Legal Trends survey respondents",
+      "denominator": "Firms in each size group",
+      "unit": "Percent of firms",
+      "method": "Survey analysis",
+      "limitations": "Vendor-sponsored.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "90% of firms reported having a website in 2024, down from 94% in 2022; solos rose to 70% from 61%.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-websites-and-marketing-techreport/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "U.S. lawyers",
+      "sample": "ABA Legal Technology Survey respondents",
+      "denominator": "Respondents",
+      "unit": "Percent of respondents",
+      "method": "Professional association survey",
+      "limitations": "Self-reported.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Key Legal Marketing Statistics to Help You Grow Your Law Firm",
+      "url": "https://www.clio.com/blog/legal-marketing-statistics/",
+      "publisher": "Clio",
+      "format": "Vendor statistics roundup",
+      "updated_at": "2025-03-20",
+      "headings": [
+        "Over 1/3 of potential clients start their attorney search online",
+        "65% of law firms spend most of their marketing budget online",
+        "35% of the time, phone calls are not answered"
+      ],
+      "coverage": [
+        "Six headline statistics",
+        "Intake gaps"
+      ],
+      "sources": [
+        "Clio research"
+      ],
+      "data_assets": [
+        "Images"
+      ],
+      "link_patterns": [
+        "Product CTAs"
+      ],
+      "trust_signals": [
+        "Named author"
+      ],
+      "covered_well": "Ties marketing to intake failures.",
+      "gaps": "Only six statistics, some older; no paid-search cost data, no channel change over time, no firm-size view."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Top 40+ Law Firm Marketing Statistics for 2026",
+      "url": "https://www.mycase.com/blog/law-firm-marketing/law-firm-marketing-statistics/",
+      "publisher": "MyCase",
+      "format": "Vendor statistics roundup",
+      "updated_at": "2025-10-21",
+      "headings": [
+        "Traditional marketing channel performance",
+        "Digital marketing channel performance",
+        "Lead conversion and client acquisition",
+        "Marketing spend and ROI"
+      ],
+      "coverage": [
+        "40+ statistics across channels"
+      ],
+      "sources": [
+        "ABA, FindLaw, Ruler Analytics, others"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Product CTAs",
+        "External source links"
+      ],
+      "trust_signals": [
+        "Brand"
+      ],
+      "covered_well": "Broad coverage with source links.",
+      "gaps": "Mixes years and methods without labels; no cost-per-lead to signed-client framing; no channel trend chart."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "92 Legal Marketing Statistics for 2026",
+      "url": "https://seoprofy.com/blog/legal-marketing-statistics/",
+      "publisher": "SeoProfy",
+      "format": "Agency statistics roundup",
+      "updated_at": "2026-01-02",
+      "headings": [
+        "General Law Firm Marketing Statistics",
+        "Law Firm SEO Statistics",
+        "Legal Advertising Statistics",
+        "Law Firm Marketing Budget Statistics"
+      ],
+      "coverage": [
+        "92 statistics"
+      ],
+      "sources": [
+        "CallRail, ABA, Justia, others"
+      ],
+      "data_assets": [
+        "Infographic images"
+      ],
+      "link_patterns": [
+        "Agency service CTAs"
+      ],
+      "trust_signals": [
+        "Named author and reviewer"
+      ],
+      "covered_well": "Large volume with source links.",
+      "gaps": "Inconsistent years, some pre-2023 figures unflagged; no intake data, firm-size cuts, or budget method."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firm Marketing Statistics",
+      "url": "https://dagmarmarketing.com/blog/law-firm-marketing-statistics/",
+      "publisher": "DAGMAR Marketing",
+      "format": "Agency blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "How much should law firms spend on marketing?",
+        "Website and SEO for Law Firms",
+        "Paid Advertising for Attorneys"
+      ],
+      "coverage": [
+        "13 statistics"
+      ],
+      "sources": [
+        "Undated third-party sources"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Agency service CTAs"
+      ],
+      "trust_signals": [
+        "Author credentials",
+        "Google Partner badge"
+      ],
+      "covered_well": "Plain answers to common questions.",
+      "gaps": "No dated statistics; spend benchmark unsupported; no intake or conversion data."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firm Marketing Benchmarks for 2026",
+      "url": "https://practiceproof.com/law-firm-marketing-benchmarks-for-2026",
+      "publisher": "Practice Proof",
+      "format": "Agency benchmark article",
+      "updated_at": "2026-01-01",
+      "headings": [
+        "Digital Marketing Performance",
+        "Lead Conversion and Client Acquisition",
+        "Marketing Budget Allocation",
+        "Website Performance"
+      ],
+      "coverage": [
+        "Benchmarks and conversion rates"
+      ],
+      "sources": [
+        "ABA, CallRail, FindLaw, unnamed industry data"
+      ],
+      "data_assets": [
+        "Benchmark tables"
+      ],
+      "link_patterns": [
+        "Agency CTAs"
+      ],
+      "trust_signals": [
+        "Lawyer-author credentials"
+      ],
+      "covered_well": "Covers conversion and response time.",
+      "gaps": "Several benchmarks unattributed; no cost per lead versus signed client; no year-over-year channel comparison."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page separates channel adoption, paid-search cost, and intake responsiveness as distinct measures.",
+    "No page compares 2024 and 2025 channel investment from the same survey.",
+    "No page converts legal cost per lead into a budget test without inventing a conversion rate.",
+    "Firm-size differences in lead sources are rarely shown with their source."
+  ],
+  "value_add": "Source-traced statistics with year, sample, and method; a 2024-2025 channel comparison; current legal Google Ads costs against other industries; Clio intake responsiveness data; and a funnel-backward budget test that uses firm data instead of a generic conversion rate.",
   "plan": {
     "reader_title": "Law Firm Marketing Statistics: What the Numbers Mean for 2027 Budgets",
     "seo_title": "Law Firm Marketing Statistics for 2026–2027",
     "meta_description": "Use current law firm marketing statistics to plan 2027 budgets, compare paid search costs, review intake gaps, and track signed work.",
     "slug": "/legal-marketing/law-firm-marketing-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "law firm marketing budget",
+      "legal lead generation cost"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "What Each Statistic Measures",
+      "Where Law Firms Invest Their Marketing",
+      "What Paid Search Costs Law Firms",
+      "Intake Can Waste a Good Marketing Budget",
+      "Firm Size Changes the Marketing Model",
+      "Build the Budget From the Funnel Backward",
+      "What the 2026 Data Means for 2027 Budgets",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Where Law Firms Invest Their Marketing",
+        "sources": [
+          "https://www.clio.com/resources/legal-trends/read-online/",
+          "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-websites-and-marketing-techreport/"
+        ]
+      },
+      {
+        "section": "What Paid Search Costs Law Firms",
+        "sources": [
+          "https://www.wordstream.com/blog/2026-google-ads-benchmarks"
+        ]
+      },
+      {
+        "section": "Intake Can Waste a Good Marketing Budget",
+        "sources": [
+          "https://www.clio.com/guides/client-intake-legal-trends/"
+        ]
+      },
+      {
+        "section": "Firm Size Changes the Marketing Model",
+        "sources": [
+          "https://www.clio.com/blog/solo-small-law-firms-highlights-2025-legal-trends/",
+          "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-websites-and-marketing-techreport/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Grouped bar: channel investment 2024 vs 2025 (approximate)",
+      "Horizontal bar: Google Ads CPC by industry",
+      "Horizontal bar: Google Ads CPL by industry",
+      "Bar: intake responsiveness of 500 firms",
+      "Featured image: marketing measurement session",
+      "Body image: inquiry-to-matter funnel"
+    ],
     "internal_links": [
       "/legal-marketing/law-firm-website-statistics/",
       "/legal-marketing/law-firm-seo-statistics/",
       "/legal-marketing/law-firm-social-media-statistics/",
       "/law-firms/law-firm-client-acquisition-statistics/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.clio.com/resources/legal-trends/read-online/",
+      "https://www.wordstream.com/blog/2026-google-ads-benchmarks",
+      "https://www.clio.com/guides/client-intake-legal-trends/"
+    ],
+    "excluded_claims": [
+      "LMA and Above the Law 2025 budget survey figures (not verifiable on a public page)",
+      "Clio 2024 claim that high-utilization firms spent 41% more on marketing (not located on a public page)",
+      "ABA solo website-content percentages from the draft (not on the public page)",
+      "Any universal marketing-percentage-of-revenue benchmark"
+    ],
+    "drafting_cautions": [
+      "Label Clio channel shares as approximate",
+      "Name vendor sponsorship",
+      "Keep each statistic tied to its year and sample",
+      "Do not imply a lead equals a client"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "About 85% of firms invested in a website and about 82% in referrals in 2025 (approximate, from chart 4.14).",
+      "source_url": "https://www.clio.com/resources/legal-trends/read-online/",
+      "verified": true
+    },
+    {
+      "statement": "Attorneys and legal services averaged $9.87 per click and $131.63 per lead, the highest of 23 industries.",
+      "source_url": "https://www.wordstream.com/blog/2026-google-ads-benchmarks",
+      "verified": true
+    },
+    {
+      "statement": "In a 2024 study of 500 firms, 40% picked up the call, 48% were unreachable by phone, and 33% replied to email.",
+      "source_url": "https://www.clio.com/guides/client-intake-legal-trends/",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-03"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-03"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1WJvponl3dFf7phNaInRPrQzHPw0uxk93COsvWecCBWg/edit?usp=drivesdk",
