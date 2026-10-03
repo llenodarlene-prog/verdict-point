@@ -381,5 +381,30 @@
     "suffix": "K",
     "caption": "Calculation: receipts divided by firms in each band, in thousands of dollars. An average, not a median; receipts are revenue, not profit or owner income.",
     "source": "U.S. Census Bureau, 2022 Statistics of U.S. Businesses, NAICS 541110 (released April 10, 2025)"
+  },
+  "practice-management-published-prices": {
+    "type": "bar",
+    "title": "Published per-user monthly prices: Clio and MyCase (Filevine publishes none)",
+    "label_heading": "Plan",
+    "labels": [
+      "Clio Starter",
+      "MyCase Basic",
+      "MyCase Pro",
+      "MyCase Advanced"
+    ],
+    "series": [
+      {
+        "name": "Listed price per user per month",
+        "values": [
+          49,
+          50,
+          100,
+          130
+        ]
+      }
+    ],
+    "prefix": "$",
+    "caption": "Clio Starter is a starting rate; MyCase rates are annual-billing prices. Filevine does not appear because its pricing page lists no per-user price and directs buyers to a custom quote.",
+    "source": "Clio, MyCase, and Filevine pricing pages, checked October 2 and 3, 2026"
   }
 }
