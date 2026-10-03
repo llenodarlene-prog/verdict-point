@@ -1,182 +1,203 @@
 ---
 title: Legal Technology Statistics
-seo_title: Legal Technology Statistics
-description: Review legal technology statistics for cloud tools, cybersecurity, research, electronic filing, and AI with clear sample and usage limits.
+seo_title: Legal Technology Statistics: Adoption, Budgets, and AI
+description: Legal technology statistics on cloud tools, budgets, cybersecurity, research, e-filing, and generative AI, with the population behind each number.
 slug: /legal-tech/legal-technology-statistics/
 type: article
 schema: Article
-draft: true
+draft: false
 tracker_id: Article:3
 primary_keyword: legal technology statistics
+secondary_keywords: legal software adoption; law firm technology spending
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Hub
 approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/
 research_record: content/research/article-3.json
 source_document: https://docs.google.com/document/d/1otQmDyIbfbtN0HPsy1AMYJ-sZcNl2aUfLyyMdzWE-d8/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+image: /assets/images/posts/legal-technology-statistics/lawyer-reviewing-legal-technology-data-1600.jpg
+image_alt: Lawyer in a navy blazer working on a laptop beside a tablet showing documents in a glass-walled office
+author: Darlene Aberin
+published: 2026-10-03
+modified: 2026-10-03
 ---
 
-# Legal Technology Statistics: What Adoption Numbers Really Show
+# Legal Technology Statistics
 
-Law firms now rely on cloud systems, online research, electronic filing, cybersecurity policies, practice-management platforms, and artificial intelligence. However, the percentages attached to those tools do not all measure the same thing.
+Law firms now run on cloud systems, online research, electronic filing, written security policies, and a growing set of AI tools. The percentages attached to those tools do not all measure the same thing. One describes firms. Another describes litigators. A third describes organizations that have started using a tool, not the people inside them.
 
-Some legal technology statistics describe whether a firm reports using a category of software. Others apply only to litigators, surveyed legal professionals, corporate legal teams, or customers of a particular vendor. A market-size forecast answers another question entirely: how much a commercial market may be worth, not how many firms actively use a tool.
-
-This article separates adoption, access, active use, spending, and measured outcomes. The distinction helps firms compare the available evidence without turning a valid statistic into a broader claim than its source supports.
+That is why legal technology statistics are easy to misread. This page gathers the most useful public figures on legal software adoption and law firm technology spending, then states who was counted for each one. The sources are the American Bar Association's 2024 Legal Technology Survey and a 2026 Thomson Reuters summary of generative AI use. Each figure keeps its own year, population, and limit.
 
 ## Key Statistics and Data
 
-These figures cover several technologies and respondent groups. They should be read as separate findings, not combined into one law-firm adoption score.
+The legal technology statistics below cover different technologies and different groups of respondents. Read them as separate findings, not as one adoption score.
 
-- \*\*Cloud-Based Legal Tools:\*\* The American Bar Association’s release on its 2024 technology survey reports that 73% of firms used cloud-based legal tools.  
-- \*\*Formal Cybersecurity Policies:\*\* The same ABA release reports that 60% of firms had formal cybersecurity policies.  
-- \*\*Electronic Filing:\*\* Among litigators covered by the ABA finding, 85% reported electronically filing court documents.  
-- \*\*Fee-Based Research:\*\* The ABA reports that 67% used fee-based online legal research tools.  
-- \*\*Free Online Research:\*\* Free online legal research platforms were used by 55% under the ABA survey framing.  
-- \*\*Clio Survey Population:\*\* Clio’s readable general report describes 1,702 U.S. legal-professional respondents: 500 market-panel participants and 1,202 Clio customers. It also used a separate panel of 1,000 U.S. adults.  
-- \*\*Organizational GenAI Use:\*\* A Thomson Reuters publisher summary reports 2026 generative-AI use at 41% of law firms and 47% of corporate legal teams.
+- **Cloud-Based Legal Tools:** 73% of firms use cloud-based legal tools, according to the ABA's release on its 2024 survey.
+- **Formal Cybersecurity Policies:** 60% of firms have a formal cybersecurity policy in the same ABA release.
+- **Electronic Filing:** 85% of litigators file court documents electronically.
+- **Online Legal Research:** 67% of attorneys use fee-based research tools, and 55% use free ones.
+- **Technology Budgets:** 65.2% of respondents to the ABA's 2024 survey said their firm budgets for technology.
+- **Solo Practitioners:** 55.4% of solo respondents reported no technology budget.
+- **Budget Direction:** Among firms that budget, 53.7% reported an increase and 23.2% reported no change.
+- **Generative AI in Law Firms:** 41% of law firms were using generative AI in 2026, up from 28% in 2025, in a Thomson Reuters summary.
+- **Generative AI in Legal Departments:** 47% of corporate legal departments were using it in 2026, up from 23% in 2025.
 
 ## Adoption, Access, Use, and Outcomes Are Different Measures
 
-A firm can purchase a platform without deploying every module. It can make a tool available without training all eligible users. Employees can log in without completing the intended workflow. Even frequent use does not automatically prove that the system improves speed, quality, risk, or profitability.
+A firm can buy a platform without turning on every module. It can give staff access without training them. People can log in without finishing the workflow the tool was bought for. Even frequent use does not prove that the system improved speed, quality, risk, or profit.
 
-| Measurement | Question It Answers | What It Does Not Prove |  
-| --- | --- | --- |  
-| Adoption | Does the firm report using or deploying the technology? | Regular use across every team |  
-| Access | Can a person or group use the tool? | That they actually use it |  
-| Active Use | Did eligible users complete defined actions during a period? | Better business or client outcomes |  
-| Spending | How much did the organization pay? | Adoption quality or return on investment |  
-| Outcome | Did a named measure change after implementation? | That the technology alone caused the change |
+Those are four separate questions, and a fifth sits beside them: how much the firm paid. Most public surveys answer only the first.
 
-The same caution applies to product features. Vendor documentation can verify that a feature is offered under stated terms. It cannot establish how well the feature performs in every firm or whether the workflow is suitable for a specific practice.
+Table: Five measures that technology surveys often blur together {.compare}
+| Measure | Question It Answers | What It Does Not Prove |
+| --- | --- | --- |
+| Adoption | Does the firm report using the technology? | Regular use across every team |
+| Access | Can a person or group use the tool? | That they use it |
+| Active use | Did eligible users complete defined actions in a period? | Better business or client results |
+| Spending | How much did the organization pay? | Adoption quality or return |
+| Outcome | Did a named measure change after rollout? | That the technology alone caused it |
 
-Market forecasts belong in a separate category. They may help investors or vendors discuss commercial growth, but they do not measure the percentage of law firms using cloud software, AI, or practice-management tools.
+Vendor documentation works the same way. It can confirm that a feature exists under stated terms. It cannot show how well the feature performs in a given firm.
 
-\> Interpretation Box  
-\> “Available,” “licensed,” “adopted,” “used,” and “effective” are not synonyms. Every technology benchmark should retain the source’s original verb.
+> **Keep the Source's Verb**
+> "Available," "licensed," "adopted," "used," and "effective" are not synonyms. When quoting a technology benchmark, keep the exact verb and the exact population the source used.
 
 ## Cloud Tools Are Common, but the Category Is Broad
 
-The \[ABA’s release on its 2024 legal technology survey\](https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/) reports that 73% of firms used cloud-based legal tools. That is a useful signal that remote, hosted, or internet-delivered systems are established within legal work.
+The [ABA's release on its 2024 Legal Technology Survey](https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/), published in March 2025, reports that 73% of firms use cloud-based legal tools. The same release gives four more headline figures. They are shown together below, with the group each one describes.
 
-Still, “cloud-based legal tools” is a category rather than one workflow. It can include document storage, practice management, billing, research, communication, collaboration, or other functions. The percentage does not show that every responding firm uses the same type of cloud platform.
+```chart
+aba-legal-technology-use-2024
+```
 
-It also does not establish the depth of use. One firm may rely on a cloud system across intake, matters, documents, billing, and reporting. Another may use a narrow cloud application for one task. Both can be counted as adopters under a broad question.
+The 73% figure is a strong signal that hosted software is now ordinary in legal work. It is also a broad category. Cloud-based legal tools can include document storage, practice management, billing, research, and client communication. The percentage does not show that every firm uses the same kind of platform.
 
-That is why implementation decisions require more detail than a national adoption percentage. When a firm evaluates \[case-management configuration\](https://verdictpoint.org/legal-tech/filevine-legal-software-case-types/), it still needs to define fields, permissions, stages, owners, integrations, and exceptions. Category adoption cannot answer those design questions.
+It does not show depth of use either. One firm may run intake, matters, documents, billing, and reporting in one cloud system. Another may use a single hosted application for one task. Both count as cloud users under a broad survey question.
+
+That gap matters when a firm moves from a national number to a purchase. Legal software adoption at the category level says nothing about what a specific product costs to run. Subscription tiers, payment fees, and add-ons decide that, as the breakdown of [Clio's total cost](/legal-tech/clio-legal-software-total-cost/) shows. Plan limits matter as well. The review of [MyCase legal software](/legal-tech/mycase-legal-software/) found that the features a firm needs often sit above the entry tier.
+
+## Technology Budgets Rise With Firm Size
+
+Spending is the least reported part of legal technology statistics. Vendors publish prices, and analysts publish market forecasts, but few sources say how firms plan the money. The ABA survey is one of the few that asks.
+
+The [ABA's 2024 Budgeting and Planning TechReport](https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport) found that 65.2% of respondents said their firm budgets for technology. The answer changes sharply with size. Among firms of 50 to 99 lawyers, 94.1% reported a technology budget. Among solo practitioners, 55.4% reported having none.
+
+```chart
+law-firm-technology-budgeting-2024
+```
+
+The direction of spending is clearer than the amount. Among firms that budget for technology, 53.7% said the budget had increased and 23.2% said it stayed the same. The TechReport figures used here are percentages, not dollar amounts. They describe planning habits, not law firm technology spending per lawyer.
+
+Table: What the ABA budgeting figures do and do not support {.data}
+| Finding | Reported Figure | Safe Reading | Unsupported Reading |
+| --- | --- | --- | --- |
+| Firms that budget for technology | 65.2% | About two in three respondents work at a firm with a technology budget | Two in three firms spend enough |
+| Firms of 50 to 99 lawyers that budget | 94.1% | Formal budgeting is near universal at this size | Larger firms get better results |
+| Solo practitioners with no budget | 55.4% | Most solos pay for technology without a set plan | Most solos spend nothing |
+| Budgets that increased | 53.7% | More than half of budgeting firms raised the figure | Spending rose by a known amount |
+| Budgets that stayed the same | 23.2% | Roughly one in four held steady | Costs were flat |
+
+A missing budget is not the same as missing spending. A solo lawyer still pays for research, a practice-management subscription, email, and devices. The difference is that the costs are approved one at a time, which makes total cost harder to see and renewals harder to challenge.
 
 ## Cybersecurity Policies Show Governance, Not Control Effectiveness
 
-The ABA release reports formal cybersecurity policies at 60% of firms. Written policy adoption is meaningful because it suggests that security expectations have been documented rather than left entirely informal.
+The ABA release reports that 60% of firms have a formal cybersecurity policy. The TechReport adds two narrower figures: 56.8% of respondents said their firm has an email use policy, and 33.9% reported a policy for personal devices used for work.
 
-However, a policy is not proof that the controls work. Effectiveness depends on implementation, training, identity management, device security, vendor oversight, incident response, testing, and whether employees follow the documented process.
+A written policy is meaningful. It shows that security expectations have been documented, not left to habit. It is not evidence that the controls work. That depends on training, identity management, device security, vendor oversight, incident response, and whether people follow the process.
 
-A firm can therefore use the 60% benchmark as a governance comparison, but not as a security score. The more useful internal questions are concrete:
+A firm can use the 60% figure as a governance comparison, not as a security score. The more useful questions are internal and concrete.
 
-- \*\*Policy Ownership:\*\* Who approves and updates the policy?  
-- \*\*Covered Systems:\*\* Which devices, applications, accounts, and vendors fall within its scope?  
-- \*\*Access Review:\*\* How often are permissions and inactive accounts reviewed?  
-- \*\*Training:\*\* Which roles receive training, and how is completion recorded?  
-- \*\*Incident Process:\*\* Who receives an alert, preserves evidence, and coordinates the response?  
-- \*\*Testing:\*\* What evidence shows that backups, recovery, authentication, and response procedures work?
+Table: Questions that turn a security policy into an operating process {.checklist}
+| Check | Question to Answer |
+| --- | --- |
+| Policy ownership | Who approves and updates the policy, and how often? |
+| Covered systems | Which devices, applications, accounts, and vendors fall in scope? |
+| Access review | How often are permissions and inactive accounts reviewed? |
+| Training | Which roles are trained, and how is completion recorded? |
+| Incident process | Who receives an alert, preserves evidence, and leads the response? |
+| Testing | What shows that backups, recovery, and sign-in controls work? |
 
-These checks turn a document into an operating process. They also make a firm’s own progress measurable without assuming that policy adoption alone reduces every risk.
+The gap between the two policy figures is a reminder to read the question. A firm may have a general security policy and still have no written rule for personal phones and laptops.
 
-## Online Research Figures Need Their Own Definitions
+## Research and E-Filing Figures Describe Specific Groups
 
-The ABA reports 67% use for fee-based online legal research and 55% use for free online research. Those percentages should not be added together because a respondent may use both categories.
+Two of the ABA's best-known numbers apply to narrower groups than "law firms." Quoting them without the group changes their meaning.
 
-Paid and free research tools can also serve different purposes. A lawyer may use a subscription platform for authority checking and broader research while using government, court, university, or other free resources for direct access to materials.
+![Two attorneys reviewing open law books and printed notes at a library table](/assets/images/posts/legal-technology-statistics/attorneys-legal-research-law-library-1600.jpg "Research figures describe which tools attorneys use, not how well a question was answered.")
 
-The survey figures describe reported use, not research quality. They do not show which source was used for a particular proposition, whether authority was current, or whether the lawyer completed the review required for the matter.
+### Online Research Use Overlaps
 
-A practical internal measure would track the research task rather than the product label. The firm could identify the question, approved source types, verification step, responsible reviewer, and final authority used. That creates a quality trail that a general adoption percentage cannot provide.
+The ABA reports that 67% of attorneys use fee-based online legal research tools and 55% use free ones. The two figures should not be added together, because one attorney can use both.
 
-## Electronic Filing Applies to Litigators
+Paid and free tools also serve different purposes. A lawyer may use a subscription service to check authority and a court or government site to pull the document itself. The figures describe reported use. They do not show which source supported a given proposition or whether the authority was current.
 
-The ABA finding that 85% electronically file court documents applies to litigators under the survey framing. It should not be rewritten as “85% of all lawyers” or “85% of law firms.”
+### Electronic Filing Applies to Litigators
 
-This population limit is not a minor technicality. Transactional lawyers, advisory practices, in-house teams, and other legal professionals may not file court documents as part of their work. Including them in the denominator would change the question.
+The 85% e-filing figure describes litigators. It should not be rewritten as 85% of all lawyers or 85% of law firms. Transactional lawyers and many in-house teams do not file court documents, so adding them to the base would change the question.
 
-Electronic filing also covers a process rather than a single product. Courts can have different systems, file rules, document requirements, credentials, service procedures, and outage processes. A high use percentage does not remove the need for jurisdiction-specific controls.
+E-filing is also a process, not a product. Courts differ in their systems, file rules, credentials, and outage procedures. A high use rate does not remove the need for jurisdiction-specific checks. The same is true of litigation tools further along the matter. A platform decision, such as choosing [Everlaw for document review](/legal-tech/everlaw-ediscovery-document-review/), should start with the workflow and not with an adoption rate.
 
-## Sample Design Determines How Far a Statistic Can Travel
+## Generative AI Is the Fastest-Moving Category
 
-The reader should know whether a number comes from a professional association survey, a vendor’s customer base, anonymized product activity, a consumer panel, or a commercially monitored market. Those populations can produce different results without either source being wrong.
+AI deserves its own heading because its numbers change faster than any other figure on this page. A [2026 Thomson Reuters summary](https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/) of its generative AI research reports that 41% of law firms were using generative AI in 2026, up from 28% in 2025. Corporate legal departments moved further, from 23% to 47%.
 
-The \[Clio Legal Trends methodology\](https://www.clio.com/resources/legal-trends/read-online/) provides a useful example. Its readable general report describes 1,702 U.S. legal-professional survey respondents, including 500 people from a market panel and 1,202 Clio customers. It also describes a separate survey of 1,000 U.S. adults.
+```chart
+generative-ai-use-law-firms-legal-departments-2025-2026
+```
 
-| Source Population | Appropriate Use | Important Limit |  
-| --- | --- | --- |  
-| Practicing-lawyer survey | Reported professional or firm behavior | Depends on question wording and eligible respondents |  
-| Vendor customers | Experience or behavior within that customer population | May not represent noncustomers |  
-| Anonymized product activity | Measured actions inside the product | Does not describe firms outside the product |  
-| Consumer panel | Public preferences or experiences | Does not report law-firm operations |  
-| Corporate legal teams | In-house organizational behavior | Should not be merged with law-firm results |
+These are organization-level figures for two distinct groups. They are not personal use rates among all lawyers, and they do not mean every person in an adopting organization uses AI. A firm that permits one approved tool for one task counts the same as a firm with wide deployment.
 
-The Clio sample description should not be attached automatically to every chart or product KPI in a report. Survey findings and anonymized usage data may use different datasets. Each claim needs its own stated source population.
+The same summary reports that 53% of organizations using generative AI said they were seeing a return on the investment. That is a self-reported view from adopters, not a measured result across the profession.
 
-Firm size presents a similar problem. A percentage from a broad survey should not be broken into solo, small, and large-firm estimates unless the source publishes those cross-tabs. The \[firm-size definitions\](https://verdictpoint.org/legal/legal-industry-statistics-firm-size/) also show why employee count, lawyer headcount, establishment size, and enterprise size must remain separate.
+Table: How to read the generative AI figures {.cost}
+| Group | 2025 | 2026 | What the Figure Counts |
+| --- | --- | --- | --- |
+| Law firms | 28% | 41% | Organizations reporting generative AI use |
+| Corporate legal departments | 23% | 47% | Organizations reporting generative AI use |
+| Adopters reporting a return | Not reported | 53% | Self-reported view among organizations using AI |
 
-## AI Adoption Belongs in a Separate Technology Category
+Because this category needs its own definitions, the detailed breakdown belongs in the dedicated [AI in law firms statistics](/legal-tech/ai-in-law-firms-statistics/). That is the place to separate approved use, personal use, training, and governance. Firms that are past the reading stage need a different kind of evidence: a scoped test with defined tasks and reviewers, such as a [Harvey legal AI pilot](/legal-tech/harvey-legal-ai-pilot/).
 
-Generative AI now affects research, drafting, review, knowledge work, and operations, but it should not take over every legal-technology discussion. AI adoption has its own definitions, tools, risk questions, and pace of change.
+## Market-Size Forecasts Are Not Adoption Rates
 
-A \[2026 Thomson Reuters publisher summary\](https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/) reports generative-AI use at 41% of law firms and 47% of corporate legal teams. These are organizational adoption figures for two distinct groups. They should not be treated as personal use among all lawyers or as proof that every employee in an adopting organization uses AI.
+Search results for legal technology statistics are led by market research pages. They report how many billions of dollars the legal technology market is worth and how fast it may grow. Those are commercial estimates for investors and vendors.
 
-They also do not show how AI is governed. A firm may permit a narrow approved use, operate a structured pilot, deploy tools in several practices, or allow broader access. Each approach can fall under the general idea of organizational use.
+A forecast does not say what share of firms use a tool. Two publishers can also reach different totals for the same year, because each defines the market differently and the full method often sits inside a paid report. For that reason this page does not quote a market-size figure.
 
-The more focused \[AI adoption statistics\](https://verdictpoint.org/legal-tech/ai-in-law-firms-statistics/) should therefore examine approved use, individual use, pilot scope, verification, training, and measured outcomes separately.
+The useful rule is simple. A survey percentage needs a named population and a question. A market forecast needs a definition and a method. If either is missing, the number should not move into a budget memo.
 
-## Build an Internal Adoption Audit Around Workflows
+## How to Audit Technology Adoption Inside a Firm
 
-National legal technology statistics are most useful as prompts for better internal questions. A firm’s own audit should begin with a named workflow and follow it from access through outcome.
+National legal technology statistics are most useful as prompts for better internal questions. A firm's own audit should start with one named workflow and follow it from access to outcome.
 
-Use the following fields for each important system:
+1. **Technology and Purpose:** Name the platform and the task it is meant to support.
+2. **Eligible Population:** List the roles, teams, or offices expected to use it.
+3. **Approved Workflow:** Document the steps, permissions, reviews, and exceptions.
+4. **System Owner:** Assign responsibility for configuration, access, and support.
+5. **Training Evidence:** Record who completed the required training and when.
+6. **Usage Period:** Define the period and the activity that count as real use.
+7. **Outcome Measure:** Choose a result such as cycle time, error rate, or collection speed.
+8. **Review Decision:** Keep, change, expand, restrict, or retire the workflow.
 
-1. \*\*Technology and Purpose:\*\* Name the platform and the business or legal task it is expected to support.  
-2. \*\*Eligible Population:\*\* Identify the roles, teams, matters, or offices expected to use it.  
-3. \*\*Approved Workflow:\*\* Document the steps, permissions, inputs, reviews, and exceptions.  
-4. \*\*System Owner:\*\* Assign responsibility for configuration, access, support, and review.  
-5. \*\*Training Evidence:\*\* Record who completed the required training and when.  
-6. \*\*Usage Period:\*\* Define the period and activity that count as meaningful use.  
-7. \*\*Outcome Measure:\*\* Choose a result such as cycle time, error rate, response time, collection speed, or rework.  
-8. \*\*Review Decision:\*\* Keep, change, expand, restrict, or retire the workflow based on the evidence.
+> **License, Use, Result**
+> A license count shows access. A completed-workflow count shows use. A defined before-and-after measure begins to show whether the process improved.
 
-\> Adoption Audit Box  
-\> A license count shows access. A completed-workflow count shows use. A defined before-and-after measure begins to show whether the process improved.
+The audit should also record manual workarounds. If staff keep re-entering data or running parallel spreadsheets, the license is active while the intended workflow is not.
 
-The audit should also record manual workarounds. If employees repeatedly leave the platform, re-enter data, or maintain parallel spreadsheets, the license may be active while the intended workflow remains incomplete.
+Run the audit on a fixed schedule, not only when a contract renews. Regular review gives the firm time to correct access, training, or configuration problems before deciding that the technology itself has failed. It also produces the firm's own trend line, which is more useful than any single national percentage.
 
-## What the Evidence Supports for 2026–2027 Planning
+## What the Evidence Supports for 2026 and 2027 Planning
 
-The available evidence shows that cloud tools, online research, electronic filing, formal security governance, and generative AI are established parts of legal work. It does not show that every firm has adopted them equally or that adoption automatically creates value.
+The evidence shows that cloud tools, online research, electronic filing, written security policies, and generative AI are established parts of legal work. It does not show that every firm has adopted them equally, or that adoption creates value by itself.
 
-For 2026–2027 planning, the better sequence is to identify the workflow, define the eligible population, confirm the source’s adoption measure, and then collect the firm’s own usage and outcome data. That approach turns legal technology statistics into a benchmark rather than a substitute for operational evidence.
+Three points stand out in these legal technology statistics. Budgeting is tied to size, and most solo respondents still plan technology one purchase at a time. Policy adoption trails tool adoption, especially for personal devices. Generative AI use among organizations grew quickly between 2025 and 2026, while measured outcomes remain thin.
 
-The result is a more honest technology plan. Industry figures can show what is common or changing. The firm’s own audit must show whether a specific tool is configured, used, governed, and producing the result it was purchased to support.
-
-That evidence should be reviewed on a fixed schedule rather than only when a contract renews. Regular review gives the firm time to correct access, training, configuration, or workflow problems before deciding that the technology itself has failed.
+For planning, the better sequence is to name the workflow, define who should use it, confirm what the outside source measured, and then collect the firm's own usage and outcome data. Used that way, legal technology statistics become a benchmark, not a substitute for operating evidence. They show what is common. Only the firm's own records show whether a tool is configured, used, governed, and worth renewing.
 
 ## Resources
 
-These sources support the adoption figures, sample descriptions, and interpretation above.
+These sources were checked on October 3, 2026. Cite each with its own survey year and population.
 
-- \*\*American Bar Association, 2024 Legal Technology Survey Release:\*\* https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/  
-- \*\*American Bar Association, Legal Technology Survey:\*\* https://www.americanbar.org/groups/law\_practice/resources/legal-technology-resource-center/tech-survey/  
-- \*\*Clio Legal Trends Report and Methodology:\*\* https://www.clio.com/resources/legal-trends/read-online/  
-- \*\*Thomson Reuters, AI and the Legal Profession:\*\* https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/
-
-FACT CHECK / PUBLISHING NOTES
-
-RECHECK BEFORE PUBLICATION:  
-- Check whether the ABA has released a newer technology survey or updated public summary.  
-- Keep each ABA percentage attached to its stated population and question.  
-- Confirm the Clio survey sample and do not apply it to separate product-usage datasets.  
-- Recheck the Thomson Reuters organizational GenAI figures and wording.  
-- Do not add blocked or unverified firm-size cross-tabs.  
-- Do not use commercial market-size forecasts as law-firm adoption rates.  
-- Confirm that each planned internal-link destination exists at the approved slug.
+- **American Bar Association:** [ABA Survey on Legal Tech Trends, March 2025 Release](https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/)
+- **American Bar Association:** [2024 Budgeting and Planning TechReport](https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport)
+- **Thomson Reuters:** [How AI Is Transforming the Legal Profession](https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/)

@@ -1,210 +1,519 @@
 {
   "tracker_id": "Article:3",
-  "status": "scaffolded",
+  "status": "verified",
   "research_question": "Owned-page scope: Legal Technology Statistics. Planned sources and method: ABA Legal Technology Survey; separate licensed tools from active users. Build a source-labelled comparison covering legal software adoption and law firm technology spending; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Give law firm leaders a sourced set of legal technology adoption, budgeting, security-policy, and generative AI figures, each tied to the population it describes, and show how to read them without overstating what they prove.",
+    "audience": "Managing partners, operations and IT leads, legal technology buyers, consultants, and researchers who cite legal technology figures.",
+    "publication_year": "2026",
+    "data_period": "ABA 2024 Legal Technology Survey Report (release dated March 3, 2025, and the 2024 Budgeting and Planning TechReport); Thomson Reuters publisher summary dated July 2, 2026, covering 2025 and 2026 generative AI use",
+    "scope_limitations": "Desk research from public summaries. The full ABA survey volumes are paid and were not read, so no cross-tabs beyond those in the release and TechReport are used. ABA figures describe different respondent groups (firms, attorneys, litigators). Thomson Reuters figures are organization-level and come from a publisher blog summary. No market-size forecast is quoted because methods are not public."
   },
   "keyword_research": {
     "approved_primary_keyword": "legal technology statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-03",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-03"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "legal technology",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 2400,
+        "difficulty": 62,
+        "cpc": 17.7,
+        "intent": "Informational",
+        "ranking_url": "https://www.legaltechnology.com/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "legal technology statistics",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "legal tech trends",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 40,
+        "difficulty": 37,
+        "cpc": 0,
+        "intent": "Commercial investigation",
+        "ranking_url": "https://softwarefinder.com/resources/legal-trends",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "legal technology adoption",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.lexisnexis.com/community/insights/legal/b/voice-of-the-customer/posts/ai-use-for-law-firms",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how many law firms use ai",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 10,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.americanbar.org/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "title": "ABA survey on legal tech trends (news release)",
+      "publisher": "American Bar Association",
+      "source_type": "Association news release",
+      "year": "2024",
+      "published_at": "2025-03-03",
+      "accessed_at": "2026-10-03",
+      "scope": "Headline findings of the 2024 Legal Technology Survey Report: cloud tools, cybersecurity policies, e-filing, online research, social media",
+      "method": "Read live release in browser on access date",
+      "limitations": "Release summary only; sample size and question wording are in the paid survey volumes.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport",
+      "title": "2024 Budgeting and Planning TechReport",
+      "publisher": "American Bar Association, Law Practice Division",
+      "source_type": "Association research summary",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "Technology budgeting by firm size, budget change, and technology policies from the 2024 Legal Technology Survey Report",
+      "method": "Read live TechReport in browser on access date",
+      "limitations": "Author summary of survey volume; percentages only, no dollar amounts used.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/",
+      "title": "How AI is transforming the legal profession",
+      "publisher": "Thomson Reuters",
+      "source_type": "Publisher blog summary of its own research",
+      "year": "2026",
+      "published_at": "2026-07-02",
+      "accessed_at": "2026-10-03",
+      "scope": "Generative AI use at law firms and corporate legal departments, 2025 and 2026; return on investment among adopters",
+      "method": "Read live page on access date",
+      "limitations": "Vendor-published summary; organization-level use; sample and method are in the underlying report, not the blog.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "73% of firms use cloud-based legal tools.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Law firms represented in the ABA 2024 Legal Technology Survey",
+      "sample": "Not stated in the public summary",
+      "denominator": "Responding firms",
+      "unit": "Percent of firms",
+      "method": "Survey of legal professionals",
+      "limitations": "Broad category; depth of use not measured.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "60% of firms have formal cybersecurity policies.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Law firms represented in the ABA 2024 Legal Technology Survey",
+      "sample": "Not stated in the public summary",
+      "denominator": "Responding firms",
+      "unit": "Percent of firms",
+      "method": "Survey of legal professionals",
+      "limitations": "Policy existence, not control effectiveness.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "85% of litigators file court documents electronically.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Litigators in the ABA 2024 Legal Technology Survey",
+      "sample": "Not stated in the public summary",
+      "denominator": "Responding litigators",
+      "unit": "Percent of litigators",
+      "method": "Survey of legal professionals",
+      "limitations": "Does not apply to all lawyers or firms.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "67% of attorneys use fee-based online legal research tools and 55% use free ones.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Attorneys in the ABA 2024 Legal Technology Survey",
+      "sample": "Not stated in the public summary",
+      "denominator": "Responding attorneys",
+      "unit": "Percent of attorneys",
+      "method": "Survey of legal professionals",
+      "limitations": "Categories overlap and must not be added.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "65.2% of respondents said their firm budgets for technology; 94.1% at firms of 50 to 99 lawyers; 55.4% of solo respondents reported no technology budget.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Respondents to the ABA 2024 Legal Technology Survey",
+      "sample": "Not stated in the public summary",
+      "denominator": "Respondents overall and within each firm-size group",
+      "unit": "Percent of respondents",
+      "method": "Survey of legal professionals",
+      "limitations": "Different denominators for each figure.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Among firms that budget for technology, 53.7% reported an increased budget and 23.2% reported no change.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Respondents whose firms budget for technology",
+      "sample": "Not stated in the public summary",
+      "denominator": "Respondents at budgeting firms",
+      "unit": "Percent of respondents",
+      "method": "Survey of legal professionals",
+      "limitations": "Direction only; no dollar amounts.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "56.8% of respondents reported an email use policy and 33.9% a policy for personal devices used for work.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Respondents to the ABA 2024 Legal Technology Survey",
+      "sample": "Not stated in the public summary",
+      "denominator": "Respondents",
+      "unit": "Percent of respondents",
+      "method": "Survey of legal professionals",
+      "limitations": "Policy existence only.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "41% of law firms and 47% of corporate legal departments were using generative AI in 2026, up from 28% and 23% in 2025; 53% of organizations using it reported seeing a return on investment.",
+      "source_url": "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/",
+      "data_year": "2026",
+      "geography": "Not stated in the public summary",
+      "population": "Law firms and corporate legal departments in Thomson Reuters research",
+      "sample": "Not stated in the public summary",
+      "denominator": "Responding organizations; adopters for the return figure",
+      "unit": "Percent of organizations",
+      "method": "Survey of legal professionals",
+      "limitations": "Publisher summary; organization-level, self-reported.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "ABA survey on legal tech trends",
+      "url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "publisher": "American Bar Association",
+      "format": "News release",
+      "updated_at": "2025-03-03",
+      "headings": [
+        "Cloud adoption",
+        "Cybersecurity",
+        "Litigation technology",
+        "Online research",
+        "Marketing and social media"
+      ],
+      "coverage": [
+        "Headline survey percentages"
+      ],
+      "sources": [
+        "ABA 2024 Legal Technology Survey Report"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Link to purchase the full survey"
+      ],
+      "trust_signals": [
+        "Primary source",
+        "Association authority"
+      ],
+      "covered_well": "First-hand headline figures with the group each describes.",
+      "gaps": "No budgets, no sample details, no interpretation, no AI trend, no charts."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Legal Technology Market Size, Share & Growth Report, 2034",
+      "url": "https://www.fortunebusinessinsights.com/legal-technology-market-109527",
+      "publisher": "Fortune Business Insights",
+      "format": "Market research report page",
+      "updated_at": "2026-09-14",
+      "headings": [
+        "Key Market Insights",
+        "Impact of Generative AI",
+        "Market Trends",
+        "Growth Factors",
+        "Restraining Factors",
+        "Segmentation Analysis",
+        "Regional Insights",
+        "Key Industry Players"
+      ],
+      "coverage": [
+        "Market size and forecast",
+        "Segments",
+        "Vendors"
+      ],
+      "sources": [
+        "Proprietary research; method on a separate page"
+      ],
+      "data_assets": [
+        "Infographics",
+        "Segment charts"
+      ],
+      "link_patterns": [
+        "Sample and purchase CTAs"
+      ],
+      "trust_signals": [
+        "Report catalogue",
+        "Update date"
+      ],
+      "covered_well": "Market size, forecast, and segment structure.",
+      "gaps": "No law firm adoption rates, no firm-size data, method not visible, full report paywalled."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Legal technology's authoritative guide on use cases and benefits",
+      "url": "https://legal.thomsonreuters.com/blog/technology-in-law-is-the-new-norm/",
+      "publisher": "Thomson Reuters",
+      "format": "Vendor blog guide",
+      "updated_at": "2026-08-05",
+      "headings": [
+        "Why it matters",
+        "Key types of legal tech",
+        "How to implement in your organization",
+        "Build your complete legal tech stack"
+      ],
+      "coverage": [
+        "AI expectations",
+        "Tool categories",
+        "Implementation steps"
+      ],
+      "sources": [
+        "2026 Future of Professionals Report",
+        "2026 AI in Professional Services Report"
+      ],
+      "data_assets": [
+        "AI integration timeline table"
+      ],
+      "link_patterns": [
+        "Product links to CoCounsel, Westlaw, Practical Law, HighQ"
+      ],
+      "trust_signals": [
+        "Named author",
+        "Own research institute"
+      ],
+      "covered_well": "Current AI attitudes and obstacles from its own surveys.",
+      "gaps": "No budgets by firm size, no cybersecurity policy rates, no e-filing, no sample limits; product-led."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Legal Technology Market Companies, Size & Trends 2026-2035",
+      "url": "https://www.precedenceresearch.com/legal-technology-market",
+      "publisher": "Precedence Research",
+      "format": "Market research report page",
+      "updated_at": "2026-09-10",
+      "headings": [
+        "Market Overview",
+        "Growth Factors",
+        "Major Market Trends",
+        "How is AI Impacting the Legal Technology Market?",
+        "Market Scope",
+        "Segment Insights",
+        "Regional Insights",
+        "Competitive Landscape"
+      ],
+      "coverage": [
+        "Market size and forecast",
+        "Segments",
+        "Regions"
+      ],
+      "sources": [
+        "Proprietary research; no method disclosed"
+      ],
+      "data_assets": [
+        "Market share charts"
+      ],
+      "link_patterns": [
+        "Purchase CTAs"
+      ],
+      "trust_signals": [
+        "Update date"
+      ],
+      "covered_well": "Segment and regional revenue shares.",
+      "gaps": "No adoption percentages for firms; different market total from the other forecast for the same year; paywalled."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Legal Trends: How Technology Is Reshaping Law Practice",
+      "url": "https://softwarefinder.com/resources/legal-trends",
+      "publisher": "Software Finder",
+      "format": "Software directory article",
+      "updated_at": "2026-05-19",
+      "headings": [
+        "Key Takeaways",
+        "AI Integration",
+        "Cloud-Based Practice Management Becomes Standard",
+        "Cybersecurity As Competitive Advantage",
+        "Your Next Steps"
+      ],
+      "coverage": [
+        "AI use",
+        "Cloud and remote tools",
+        "Breach and security figures"
+      ],
+      "sources": [
+        "Clio Legal Trends Report 2025",
+        "Arctic Wolf and Above the Law",
+        "Integris",
+        "ABA Cybersecurity TechReport",
+        "U.S. Legal Support"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Internal links to software category and comparison pages"
+      ],
+      "trust_signals": [
+        "Named author",
+        "Expert quotes"
+      ],
+      "covered_well": "Wide range of recent third-party figures.",
+      "gaps": "Several figures cited to an unnamed \"referenced report\"; no sample sizes; no budgets; no charts or tables; populations mixed."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages are either market forecasts with no adoption data or vendor guides that mix populations without saying who was counted.",
+    "No reviewed page reports how technology budgeting varies by firm size.",
+    "No reviewed page separates adoption, access, active use, spending, and outcomes.",
+    "No reviewed page explains why market-size forecasts cannot stand in for adoption rates, or gives an internal audit method."
+  ],
+  "value_add": "Every figure is tied to its population and year, with ABA budgeting data by firm size, security-policy rates, and the 2025 to 2026 change in organizational generative AI use shown in three charts and four tables, plus a five-measure framework and an eight-step internal adoption audit.",
   "plan": {
     "reader_title": "Legal Technology Statistics",
-    "seo_title": "Legal Technology Statistics",
-    "meta_description": "",
+    "seo_title": "Legal Technology Statistics: Adoption, Budgets, and AI",
+    "meta_description": "Legal technology statistics on cloud tools, budgets, cybersecurity, research, e-filing, and generative AI, with the population behind each number.",
     "slug": "/legal-tech/legal-technology-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "legal software adoption",
+      "law firm technology spending"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "Adoption, Access, Use, and Outcomes Are Different Measures",
+      "Cloud Tools Are Common, but the Category Is Broad",
+      "Technology Budgets Rise With Firm Size",
+      "Cybersecurity Policies Show Governance, Not Control Effectiveness",
+      "Research and E-Filing Figures Describe Specific Groups",
+      "Generative AI Is the Fastest-Moving Category",
+      "Market-Size Forecasts Are Not Adoption Rates",
+      "How to Audit Technology Adoption Inside a Firm",
+      "What the Evidence Supports for 2026 and 2027 Planning",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Key Statistics and Data",
+        "sources": [
+          "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+          "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport",
+          "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/"
+        ]
+      },
+      {
+        "section": "Cloud Tools Are Common, but the Category Is Broad",
+        "sources": [
+          "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/"
+        ]
+      },
+      {
+        "section": "Technology Budgets Rise With Firm Size",
+        "sources": [
+          "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport"
+        ]
+      },
+      {
+        "section": "Cybersecurity Policies Show Governance, Not Control Effectiveness",
+        "sources": [
+          "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+          "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport"
+        ]
+      },
+      {
+        "section": "Research and E-Filing Figures Describe Specific Groups",
+        "sources": [
+          "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/"
+        ]
+      },
+      {
+        "section": "Generative AI Is the Fastest-Moving Category",
+        "sources": [
+          "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Horizontal bar: five ABA 2024 technology-use findings with the group counted",
+      "Horizontal bar: ABA 2024 technology budgeting findings",
+      "Grouped bar: generative AI use at law firms and corporate legal departments, 2025 vs. 2026",
+      "Featured image: lawyer working on laptop and tablet",
+      "Body image: attorneys researching in a law library"
+    ],
     "internal_links": [
       "/legal-tech/ai-in-law-firms-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
@@ -212,26 +521,53 @@
       "/legal-tech/everlaw-ediscovery-document-review/",
       "/legal-tech/harvey-legal-ai-pilot/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport",
+      "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/"
+    ],
+    "excluded_claims": [
+      "Market-size and forecast figures (two publishers give different 2025 totals; methods not public)",
+      "Clio Legal Trends sample description from the source draft (not needed and would exceed three contextual sources)",
+      "Firm-size cross-tabs not published in the ABA release or TechReport",
+      "Thomson Reuters \"transformational impact\" expectation figure (attitude, not adoption)",
+      "Third-party breach and AI figures seen on competitor pages without traceable samples",
+      "Any dollar figure for technology spending per lawyer"
+    ],
+    "drafting_cautions": [
+      "Keep each ABA percentage attached to firms, attorneys, or litigators as stated",
+      "Do not add the two research percentages",
+      "Label Thomson Reuters figures as a publisher summary and organization-level",
+      "Describe budget findings as percentages of respondents, not dollars",
+      "Check before publication whether the ABA has released a newer survey summary"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "73% of firms use cloud-based legal tools, 60% have formal cybersecurity policies, 85% of litigators e-file, and 67% and 55% of attorneys use fee-based and free online research.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "verified": true
+    },
+    {
+      "statement": "65.2% of respondents said their firm budgets for technology, 94.1% at firms of 50 to 99 lawyers, 55.4% of solos reported no budget; 53.7% of budgeting firms increased and 23.2% held the budget; 56.8% have an email use policy and 33.9% a personal-device policy.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport",
+      "verified": true
+    },
+    {
+      "statement": "41% of law firms and 47% of corporate legal departments were using generative AI in 2026, up from 28% and 23% in 2025; 53% of adopters reported seeing a return.",
+      "source_url": "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-03"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-03"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/11GGtU3RDZwcBU2bBmHKPIZeFVyiXHzs41A6qCdBQoxA/edit?usp=drivesdk",
