@@ -17,7 +17,7 @@
     "legal_pages": [
       "/privacy/"
     ],
-    "publication_cadence": "After launch, publish at most one completed article or blog per day. Each must pass the research, citation, content, SEO, and AI-language checks; the production deploy fails if it does not.",
+    "publication_cadence": "After launch, publish up to three completed articles or blogs per day, alternating articles and blogs. Each must pass the research, citation, content, SEO, and AI-language checks; the production deploy fails if it does not.",
     "editorial_backlog": "data/launch-content-plan.json keeps the original 10 articles and 10 blogs as the editorial plan. It is not a launch requirement and drafts never block a release."
   },
   "contact": {
