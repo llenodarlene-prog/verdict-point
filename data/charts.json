@@ -163,5 +163,125 @@
     "prefix": "$",
     "caption": "Illustrative calculation, not a quote. Subscription: annual-billing rate × 10 users × 12. Accounting: $39 × 10 users × 12, only if every user needs it. Excludes tax and payment processing.",
     "source": "Verdict Point calculation from MyCase published rates, checked October 2, 2026"
+  },
+  "marketing-channel-investment-2024-2025": {
+    "type": "grouped",
+    "title": "Share of law firms investing in each marketing channel, 2024 vs. 2025 (approximate)",
+    "label_heading": "Channel",
+    "labels": [
+      "Website",
+      "Referrals",
+      "Online reviews",
+      "Social media",
+      "Search/SEO"
+    ],
+    "series": [
+      {
+        "name": "2024",
+        "values": [
+          74,
+          75,
+          57,
+          50,
+          45
+        ]
+      },
+      {
+        "name": "2025",
+        "values": [
+          85,
+          82,
+          62,
+          54,
+          45
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "Approximate values measured from Clio chart 4.14, which shows bars without data labels; read to the nearest point. Survey of U.S. legal professionals (1,702 respondents in 2025).",
+    "source": "Clio, 2025 Legal Trends Report, chart 4.14 (accessed October 2, 2026)"
+  },
+  "google-ads-cpc-by-industry-2026": {
+    "type": "hbar",
+    "title": "Average Google Ads cost per click by industry, 2026",
+    "label_heading": "Industry",
+    "labels": [
+      "Attorneys & Legal Services",
+      "Home & Home Improvement",
+      "Dentists & Dental Services",
+      "Business Services",
+      "Real Estate"
+    ],
+    "series": [
+      {
+        "name": "Average CPC",
+        "values": [
+          9.87,
+          8.33,
+          8,
+          5.87,
+          3.22
+        ]
+      }
+    ],
+    "prefix": "$",
+    "decimals": 2,
+    "caption": "Average cost per click across U.S. search campaigns in 23 industries, April 2025 to March 2026. Legal had the highest CPC of all industries measured.",
+    "source": "WordStream and LocaliQ, Google Ads Benchmarks 2026 (updated September 16, 2026)"
+  },
+  "google-ads-cpl-by-industry-2026": {
+    "type": "hbar",
+    "title": "Average Google Ads cost per lead by industry, 2026",
+    "label_heading": "Industry",
+    "labels": [
+      "Attorneys & Legal Services",
+      "Furniture",
+      "Real Estate",
+      "Business Services",
+      "Dentists & Dental Services"
+    ],
+    "series": [
+      {
+        "name": "Average CPL",
+        "values": [
+          131.63,
+          106.7,
+          102.51,
+          93.69,
+          72.97
+        ]
+      }
+    ],
+    "prefix": "$",
+    "decimals": 2,
+    "caption": "Average cost per lead across the same campaigns. A lead is an inquiry, not a signed client. Legal had the highest CPL of all industries measured.",
+    "source": "WordStream and LocaliQ, Google Ads Benchmarks 2026 (updated September 16, 2026)"
+  },
+  "law-firm-intake-responsiveness-2024": {
+    "type": "bar",
+    "title": "How 500 law firms handled a prospective client inquiry, 2024",
+    "label_heading": "Measure",
+    "labels": [
+      "Reachable by phone",
+      "Picked up the call",
+      "Explained next steps",
+      "Replied to email",
+      "Gave cost estimate"
+    ],
+    "series": [
+      {
+        "name": "Share of firms",
+        "values": [
+          52,
+          40,
+          36,
+          33,
+          12
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "Mystery-shopper study: a third-party research firm contacted 500 U.S. law firms by phone and email with a client inquiry in 2024. Next-step and cost-estimate shares are from phone conversations.",
+    "source": "Clio, client intake research (accessed October 2, 2026)"
   }
 }
