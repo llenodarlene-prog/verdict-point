@@ -53,15 +53,22 @@
     "heading": "How We Research",
     "intro": "Our editorial process is built around source quality, definition clarity, and reproducibility.",
     "steps": [
-      "Start with primary sources",
-      "Check definitions and methodology",
-      "Compare conflicting evidence",
-      "Show the limitation with the conclusion"
+      "Start with Primary Sources",
+      "Check Definitions and Methodology",
+      "Compare Conflicting Evidence",
+      "Show the Limitation with the Conclusion"
     ],
     "copy": [
       "Whenever possible, we prefer government datasets, regulatory publications, court and agency materials, company filings, original survey methodology, and data published by the organization responsible for collecting it.",
       "Industry research and vendor data can also add valuable context, especially when they provide access to information that is not available elsewhere. When we use those sources, we identify who produced the research and note any limitations that may affect interpretation rather than presenting every estimate as if it were directly comparable."
-    ]
+    ],
+    "image": {
+      "src": "/assets/images/site/courtroom-natural-light-1600.jpg",
+      "small": "/assets/images/site/courtroom-natural-light-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Empty modern courtroom with oak benches and navy chairs in natural light"
+    }
   },
   "originality": {
     "heading": "Originality Is a Requirement.",
@@ -117,6 +124,13 @@
       "Journalists",
       "Researchers"
     ],
-    "closing": "Their roles may be different, but they often face the same challenge: a large amount of information and limited time to determine what deserves attention. The common denominator is not a job title; it is the need for information that can stand up to a closer look."
+    "closing": "Their roles may be different, but they often face the same challenge: a large amount of information and limited time to determine what deserves attention. The common denominator is not a job title; it is the need for information that can stand up to a closer look.",
+    "image": {
+      "src": "/assets/images/home/courthouse-entrance-1600.jpg",
+      "small": "/assets/images/home/courthouse-entrance-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Ivory stone columns and navy entrance doors of a courthouse in morning light"
+    }
   }
 }
