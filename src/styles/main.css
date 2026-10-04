@@ -423,3 +423,10 @@ body{background:radial-gradient(60rem 40rem at 105% -5%,rgba(201,169,106,.22),tr
   .about-hero-copy.glass{text-align:left}
 }
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important}[data-reveal].reveal-pending{opacity:1;transform:none}}
+
+/* Keep the primary navigation on one line between the mobile menu breakpoint and wide screens. */
+.site-header nav ul{flex-wrap:nowrap}
+.site-header nav a{white-space:nowrap}
+@media(max-width:1240px){.site-header nav a{padding:.35rem .42rem;font-size:.84rem}.header-inner{gap:.75rem}.wordmark{width:200px;height:38px}.wordmark img{width:229px;margin:-44px 0 0 -14px}}
+@media(max-width:1040px){.site-header nav a{padding:.3rem .3rem;font-size:.8rem}.wordmark{width:176px;height:34px}.wordmark img{width:201px;margin:-38px 0 0 -12px}}
+@media(max-width:900px){.site-header nav ul{flex-wrap:wrap}.site-header nav a{padding:.55rem .7rem;font-size:.95rem}}
