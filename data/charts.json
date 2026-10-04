@@ -489,5 +489,58 @@
     "suffix": "%",
     "caption": "Organization-level use as summarized by the publisher. Not a measure of personal use by individual lawyers.",
     "source": "Thomson Reuters, How AI Is Transforming the Legal Profession (July 2, 2026)"
+  },
+  "smokeball-new-outlook-logged-minutes": {
+    "type": "grouped",
+    "title": "One email in New Outlook: minimum viewing time vs. time logged",
+    "label_heading": "Times the email is opened",
+    "labels": [
+      "1 view",
+      "3 views",
+      "5 views"
+    ],
+    "series": [
+      {
+        "name": "Minimum viewing time that triggers logging",
+        "values": [
+          0.17,
+          0.5,
+          0.83
+        ]
+      },
+      {
+        "name": "Time logged",
+        "values": [
+          1,
+          3,
+          5
+        ]
+      }
+    ],
+    "suffix": " min",
+    "decimals": 2,
+    "caption": "Calculation from Smokeball's documented rule: each view of 10 seconds or more logs a 1-minute entry. Viewing time shown is the 10-second minimum per view; real reading time may be longer.",
+    "source": "Verdict Point calculation from Smokeball Support Hub, AutoTime Basics (checked October 3, 2026)"
+  },
+  "smokeball-autotime-vendor-claim-range": {
+    "type": "bar",
+    "title": "Smokeball's stated range for additional billing with AutoTime (vendor claim)",
+    "label_heading": "Range",
+    "labels": [
+      "Low end of claim",
+      "High end of claim"
+    ],
+    "series": [
+      {
+        "name": "Additional billing claimed",
+        "values": [
+          10,
+          30
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "Vendor claim. Smokeball publishes no sample, period, comparison group, or definition of \"bill\" for this range.",
+    "source": "Smokeball Support Hub, AutoTime Basics and How Should I Bill With Smokeball? (checked October 3, 2026)"
   }
 }

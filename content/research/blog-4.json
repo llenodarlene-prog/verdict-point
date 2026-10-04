@@ -1,236 +1,506 @@
 {
   "tracker_id": "Blog:4",
-  "status": "scaffolded",
+  "status": "verified",
   "research_question": "Owned-page scope: Smokeball Legal Software and Automatic Time Capture. Planned sources and method: Smokeball official documentation; test a disclosed billing workflow. Build a source-labelled comparison covering Smokeball time tracking and Smokeball billing; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Explain how Smokeball AutoTime turns tracked activity into time entries, which plans include it, when it creates no entry, and how a firm can test whether captured time becomes approved, invoiced, and collected fees.",
+    "audience": "Managing partners, billing managers, and operations leads at small and midsize firms evaluating Smokeball or its AutoTime feature.",
+    "publication_year": "2026",
+    "data_period": "Smokeball pricing page and Support Hub articles as displayed on October 3, 2026",
+    "scope_limitations": "Desk research from public Smokeball pages; no quote requested, no hands-on test, and no pilot run. Smokeball publishes no prices, so none are stated or estimated. The 10% to 30% figure is a vendor claim with no published method. The pilot measures and review steps are an editorial framework, not Smokeball guidance."
   },
   "keyword_research": {
     "approved_primary_keyword": "smokeball legal software",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-03",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-03"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "smokeball",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 5400,
+        "difficulty": 32,
+        "cpc": 25.61,
+        "intent": "Transactional",
+        "ranking_url": "https://www.smokeball.com/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "smokeball legal software",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 590,
+        "difficulty": 34,
+        "cpc": 68.7,
+        "intent": "Commercial",
+        "ranking_url": "https://www.smokeball.com/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "smokeball pricing",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 140,
+        "difficulty": 29,
+        "cpc": 43.66,
+        "intent": "Commercial",
+        "ranking_url": "https://www.smokeball.com/pricing",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "smokeball vs clio",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 21,
+        "cpc": 83.69,
+        "intent": "Informational",
+        "ranking_url": "https://sourceforge.net/software/compare/Clio-Draft-vs-Smokeball/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is smokeball",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 90,
+        "difficulty": 45,
+        "cpc": 5.56,
+        "intent": "Informational",
+        "ranking_url": "https://www.smokeball.com/",
+        "retrieved_at": "2026-10-03",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.smokeball.com/pricing",
+      "title": "Smokeball Pricing Plans",
+      "publisher": "Smokeball",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "Four plans, plan comparison table, AutoTime availability, pricing factors, fees-apply notes, training and migration",
+      "method": "Read live page, including the comparison table and FAQ answers, in browser on access date",
+      "limitations": "No prices published; marketing page; terms can change.",
+      "verified": true
+    },
+    {
+      "url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "title": "AutoTime Basics (Smokeball Support Hub)",
+      "publisher": "Smokeball",
+      "source_type": "Vendor help documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "Activity types tracked, nightly entry creation, per-user settings, editing, nine no-entry situations, Outlook email tracking",
+      "method": "Read live article in browser; page showed \"Updated 9 days ago\" on access date",
+      "limitations": "Describes product behavior at time of access; includes an unsupported vendor performance claim.",
+      "verified": true
+    },
+    {
+      "url": "https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball",
+      "title": "How Should I Bill With Smokeball? (Smokeball Support Hub)",
+      "publisher": "Smokeball",
+      "source_type": "Vendor help documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-03",
+      "scope": "Manual tracking, timer, activity codes, Time Finder, QuickBooks Online integration, CSV export, vendor performance claim",
+      "method": "Read live article in browser; page showed \"Updated 2 years ago\" on access date",
+      "limitations": "Older article; may not reflect current product names or plans.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Smokeball lists four plans (Bill, Boost, Grow, Prosper+) with no published price; AutoTime is included with Prosper+ and available as an add-on for Grow.",
+      "source_url": "https://www.smokeball.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms and documentation",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor pricing page statement",
+      "limitations": "Absence of a published price as of the access date.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "AutoTime lists nine situations in which tracked activity does not become a time entry.",
+      "source_url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms and documentation",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Count of documented situations",
+      "method": "Vendor help documentation",
+      "limitations": "Product behavior may change with releases.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "In New Outlook, each view of an email lasting 10 seconds or more logs a 1-minute entry; five such views log five minutes.",
+      "source_url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms and documentation",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Minutes",
+      "method": "Verdict Point calculation from the documented rule",
+      "limitations": "Illustrates the rule at the 10-second minimum; real reading time varies.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "Smokeball states that AutoTime users bill 10% to 30% more.",
+      "source_url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms and documentation",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent",
+      "method": "Vendor claim; no method published",
+      "limitations": "No sample, period, comparison group, or metric definition.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Smokeball Review: Cost, Features, Pros & Cons (2026)",
+      "url": "https://lawyerist.com/reviews/law-practice-management-software/smokeball/",
+      "publisher": "Lawyerist",
+      "format": "Editorial product review",
+      "updated_at": "Not stated",
+      "headings": [
+        "Overview",
+        "Features",
+        "Pricing",
+        "Community Reviews",
+        "Alternatives"
+      ],
+      "coverage": [
+        "Activity tracking",
+        "Feature checklist",
+        "Custom pricing note"
+      ],
+      "sources": [
+        "Editorial rating",
+        "Six community reviews"
+      ],
+      "data_assets": [
+        "Ratings",
+        "Feature checklist"
+      ],
+      "link_patterns": [
+        "Links to competing product reviews"
+      ],
+      "trust_signals": [
+        "Editorial and community ratings"
+      ],
+      "covered_well": "Balanced feature checklist with user comments on time tracking.",
+      "gaps": "Does not say which plan includes AutoTime; no no-entry situations, review workflow, or pilot measurement."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Smokeball Legal Software Review: Is It Worth It?",
+      "url": "https://tulex.ai/blog/smokeball-legal-software-review",
+      "publisher": "Tulex",
+      "format": "Vendor blog review",
+      "updated_at": "2026-04-09",
+      "headings": [
+        "What You're Actually Paying For",
+        "The Real Cost",
+        "Where Smokeball Wins",
+        "Where Smokeball Falls Short",
+        "Smokeball vs the Alternatives",
+        "Should You Buy It?"
+      ],
+      "coverage": [
+        "Features",
+        "Price table",
+        "Alternatives"
+      ],
+      "sources": [
+        "No source links for prices"
+      ],
+      "data_assets": [
+        "Pricing table",
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Links to own product and blog"
+      ],
+      "trust_signals": [
+        "Review count cited"
+      ],
+      "covered_well": "Direct buy or skip framing.",
+      "gaps": "Publishes per-user prices with no source while Smokeball lists none; no AutoTime plan detail, exceptions, or measurement."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Smokeball Software Overview 2026 - Features & Pricing",
+      "url": "https://www.softwareadvice.com/legal/smokeball-profile/",
+      "publisher": "Software Advice",
+      "format": "Software directory profile",
+      "updated_at": "2026-09-03",
+      "headings": [
+        "Our Summary",
+        "Popular Smokeball Alternatives",
+        "Smokeball Pricing and Plans",
+        "Smokeball Features",
+        "Smokeball Key Sentiments",
+        "Smokeball User Reviews",
+        "Smokeball FAQs"
+      ],
+      "coverage": [
+        "Plans",
+        "Features",
+        "User reviews"
+      ],
+      "sources": [
+        "360 verified reviews"
+      ],
+      "data_assets": [
+        "Ratings",
+        "Sentiment summaries"
+      ],
+      "link_patterns": [
+        "Alternative and comparison links"
+      ],
+      "trust_signals": [
+        "Verified reviews",
+        "Vendor responses"
+      ],
+      "covered_well": "Notes that automatic time tracking is included in Prosper+.",
+      "gaps": "Lists prices for two plans that Smokeball does not publish; no exceptions, review-before-invoice, or pilot guidance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Smokeball Pricing 2026",
+      "url": "https://www.capterra.com/p/133656/Smokeball/pricing/",
+      "publisher": "Capterra",
+      "format": "Software directory pricing page",
+      "updated_at": "Not stated",
+      "headings": [
+        "How much does Smokeball cost?",
+        "How does Smokeball compare to other alternatives?",
+        "Price & value in reviewers' words"
+      ],
+      "coverage": [
+        "Plan prices",
+        "Alternatives",
+        "Reviewer quotes"
+      ],
+      "sources": [
+        "360 reviews"
+      ],
+      "data_assets": [
+        "Comparison table"
+      ],
+      "link_patterns": [
+        "Links to alternatives"
+      ],
+      "trust_signals": [
+        "Review volume"
+      ],
+      "covered_well": "Reviewer comments on value.",
+      "gaps": "AutoTime not mentioned; listed prices not on the vendor page; no contract, add-on, or measurement detail."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Compare Clio vs. Smokeball in 2026",
+      "url": "https://slashdot.org/software/comparison/Clio-vs-Smokeball/",
+      "publisher": "Slashdot",
+      "format": "Software comparison page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Average Ratings",
+        "Description",
+        "Integrations",
+        "Pricing Details",
+        "Product Features",
+        "Alternatives"
+      ],
+      "coverage": [
+        "Side-by-side features and prices"
+      ],
+      "sources": [
+        "Vendor-supplied details"
+      ],
+      "data_assets": [
+        "Feature matrix",
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Links to product pages and alternatives"
+      ],
+      "trust_signals": [
+        "Ratings"
+      ],
+      "covered_well": "Quick feature matrix.",
+      "gaps": "Lists a different Smokeball price and plan name from other directories; only three ratings; nothing on AutoTime."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No reviewed page explains the nine situations in which AutoTime creates no entry.",
+    "No reviewed page covers the New Outlook rule that logs one minute per view.",
+    "Directories publish Smokeball prices that conflict with each other and with the vendor page, which lists none.",
+    "No reviewed page gives a way to measure AutoTime from tracked activity through to collected fees."
+  ],
+  "value_add": "A documentation-based account of AutoTime: plan availability from the vendor pricing table, the nightly process and per-user settings, all nine no-entry situations with a pilot test for each, the New Outlook over-logging rule shown as a calculation, the vendor claim labeled as such, a seven-measure pilot log, and a written-quote checklist.",
   "plan": {
     "reader_title": "Smokeball Legal Software and Automatic Time Capture",
     "seo_title": "Smokeball Legal Software and Automatic Time Capture",
-    "meta_description": "",
+    "meta_description": "How Smokeball legal software turns tracked activity into time entries with AutoTime, which plan includes it, when it creates no entry, and how to test it.",
     "slug": "/legal-tech/smokeball-legal-software-time-capture/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "Smokeball time tracking",
+      "Smokeball billing"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "What AutoTime Does and Which Plans Include It",
+      "How Activity Becomes a Time Entry",
+      "When AutoTime Creates No Entry",
+      "Email Time Depends on the Outlook Version",
+      "Review Every Entry Before It Reaches an Invoice",
+      "Treat the 10% to 30% Figure as a Vendor Claim",
+      "Measure a Pilot From Activity to Collected Fees",
+      "Include AutoTime in the Full Software Cost",
+      "Is Smokeball AutoTime Worth Testing?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "What AutoTime Does and Which Plans Include It",
+        "sources": [
+          "https://www.smokeball.com/pricing"
+        ]
+      },
+      {
+        "section": "How Activity Becomes a Time Entry",
+        "sources": [
+          "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics"
+        ]
+      },
+      {
+        "section": "When AutoTime Creates No Entry",
+        "sources": [
+          "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics"
+        ]
+      },
+      {
+        "section": "Email Time Depends on the Outlook Version",
+        "sources": [
+          "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics"
+        ]
+      },
+      {
+        "section": "Review Every Entry Before It Reaches an Invoice",
+        "sources": [
+          "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+          "https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball"
+        ]
+      },
+      {
+        "section": "Treat the 10% to 30% Figure as a Vendor Claim",
+        "sources": [
+          "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+          "https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball"
+        ]
+      },
+      {
+        "section": "Include AutoTime in the Full Software Cost",
+        "sources": [
+          "https://www.smokeball.com/pricing",
+          "https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball"
+        ]
+      }
+    ],
+    "visuals": [
+      "Grouped bar: minimum viewing time vs. time logged for one email in New Outlook (calculation)",
+      "Bar: vendor-claimed 10% to 30% range, labeled as a claim",
+      "Featured image: closed case file on a marble desk",
+      "Body image: open law book with ribbon marker"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/law-firms/law-firm-billing-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/lawpay-legal-payments-fees/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.smokeball.com/pricing",
+      "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball"
+    ],
+    "excluded_claims": [
+      "Any Smokeball per-user price (not published; directory figures conflict)",
+      "The 34% more time claim on the Family Law Billing page (not rechecked; would exceed three contextual sources)",
+      "Extra hours per day claims repeated on competitor pages",
+      "Hands-on performance or accuracy claims",
+      "The profitability-statistics link in the source draft (not an approved target)"
+    ],
+    "drafting_cautions": [
+      "Keep the desk-research disclosure",
+      "Attribute the 10% to 30% range as a vendor claim every time",
+      "Label the Outlook chart as a calculation at the 10-second minimum",
+      "Do not equate captured time with invoiced or collected value",
+      "Recheck the pricing page and AutoTime Basics on the publication date"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Smokeball publishes no plan prices; AutoTime is included with Prosper+ and is an add-on for Grow, while Bill, Boost, and Grow list manual time tracking.",
+      "source_url": "https://www.smokeball.com/pricing",
+      "verified": true
+    },
+    {
+      "statement": "AutoTime creates time entries nightly from tracked activity, is configured per user, lists nine no-entry situations, logs one minute per 10-second-plus view in New Outlook, and does not bill entries automatically.",
+      "source_url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "verified": true
+    },
+    {
+      "statement": "Smokeball supports manual time tracking, a timer, activity codes, and Time Finder; integrates with QuickBooks Online; does not handle payroll or general ledger; and exports activity and time data to CSV.",
+      "source_url": "https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1eqBOLRj-dX5UP2oOZ7IK5l-pV23JSkKv7uCPtio9E0U/edit?usp=drivesdk",
