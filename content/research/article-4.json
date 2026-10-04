@@ -1,236 +1,548 @@
 {
   "tracker_id": "Article:4",
-  "status": "scaffolded",
+  "status": "verified",
   "research_question": "Owned-page scope: AI in Law Firms Statistics. Planned sources and method: ABA AI-use survey and firm policy sample; distinguish individual and approved use. Build a source-labelled comparison covering lawyer AI adoption and law firm AI policy; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Give law firm leaders the clearest 2026 figures on AI use in law firms, separated into personal use, organizational use, training and governance, unauthorized use, and client pricing pressure, with the population and limits of each source.",
+    "audience": "Managing partners, innovation and knowledge leads, general counsel, legal operations professionals, and researchers who cite AI adoption figures.",
+    "publication_year": "2026",
+    "data_period": "8am 2026 Legal Industry Report as summarized April 1, 2026 (with its 2025 comparison); Thomson Reuters publisher summary dated July 2, 2026 (2025 and 2026); Thomson Reuters Future of Professionals 2026 legal report (fieldwork March and April 2026)",
+    "scope_limitations": "Desk research from public summaries. The 8am figures come from sponsored content written by LawPay on the ABA site; the full report was not read and its sample is not stated on the page. Thomson Reuters figures are organization-level in the blog and respondent-level in the legal report, which covers 46 countries (421 of 736 law firm responses from the United States). No figure is presented as a U.S.-only census."
   },
   "keyword_research": {
     "approved_primary_keyword": "ai in law firms statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-04",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-04"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "ai in law firms",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1000,
+        "difficulty": 74,
+        "cpc": 26.19,
+        "intent": "Navigational",
+        "ranking_url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "ai in law firms statistics",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.fedbar.org/blog/the-legal-industry-report-2025/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "ai for law firms",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1600,
+        "difficulty": 55,
+        "cpc": 46.73,
+        "intent": "Commercial",
+        "ranking_url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm ai policy",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 26,
+        "cpc": 15.13,
+        "intent": "Commercial",
+        "ranking_url": "https://www.ncbar.org/2026/01/13/beyond-the-ban-why-your-law-firm-needs-a-realistic-ai-policy-in-2026/",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how many lawyers use ai",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 9,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.linkedin.com/posts/cdewaas_ai-will-kill-all-the-lawyers-activity-7406873238598983680-9rCK",
+        "retrieved_at": "2026-10-04",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+      "title": "AI for Law Firms: What the 8am Legal Industry Report Tells Us About AI Use",
+      "publisher": "ABA Law Practice Magazine (sponsored content by LawPay)",
+      "source_type": "Sponsored summary of a vendor survey report",
+      "year": "2026",
+      "published_at": "2026-04-01",
+      "accessed_at": "2026-10-04",
+      "scope": "Personal generative AI use, uses, time saved, barriers, training, optimism",
+      "method": "Read live page in browser on access date",
+      "limitations": "Sponsored content from the report publisher; sample size and geography not stated on the page.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/",
+      "title": "How AI is transforming the legal profession",
+      "publisher": "Thomson Reuters",
+      "source_type": "Publisher blog summary of its own research",
+      "year": "2026",
+      "published_at": "2026-07-02",
+      "accessed_at": "2026-10-03",
+      "scope": "Generative AI use at law firms and corporate legal departments in 2025 and 2026; return among adopters",
+      "method": "Read live page on access date",
+      "limitations": "Vendor-published summary; organization-level; sample in the underlying report.",
+      "verified": true
+    },
+    {
+      "url": "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal",
+      "title": "Future of Professionals Report 2026: legal report",
+      "publisher": "Thomson Reuters",
+      "source_type": "Vendor research report (web edition)",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-04",
+      "scope": "Client expectations, pricing response, unauthorized AI use, talent and financial pressure, AI strategy",
+      "method": "Read live report page in browser; methodology statement located in page text",
+      "limitations": "736 law firm responses across 46 countries (421 United States) and 203 corporate legal responses; vendor-produced.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
-      "sponsored": false,
+      "claim": "69% of legal professionals personally use generative AI tools for work, up from 31% in the 2025 report.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+      "data_year": "2026",
+      "geography": "Not stated in the public summary",
+      "population": "Legal professionals surveyed for the 8am Legal Industry Report",
+      "sample": "Not stated in the public summary",
+      "denominator": "Respondents",
+      "unit": "Percent of respondents",
+      "method": "Survey",
+      "limitations": "Sponsored content; personal use, not firm approval.",
+      "sponsored": true,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Reported uses: drafting correspondence 58%, general research 58%, brainstorming 54%, summarizing documents 47%; 38% report saving 1 to 5 hours a week and 14% report 6 to 10.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+      "data_year": "2026",
+      "geography": "Not stated in the public summary",
+      "population": "Legal professionals surveyed for the 8am Legal Industry Report",
+      "sample": "Not stated in the public summary",
+      "denominator": "Respondents",
+      "unit": "Percent of respondents",
+      "method": "Survey",
+      "limitations": "Self-reported; sponsored content.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Barriers: data security 46%, ethical issues 42%, privilege concerns 39%, lack of trust in results 39%; 54% say their firm has provided no responsible-use training and has no plans to.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+      "data_year": "2026",
+      "geography": "Not stated in the public summary",
+      "population": "Legal professionals surveyed for the 8am Legal Industry Report",
+      "sample": "Not stated in the public summary",
+      "denominator": "Respondents",
+      "unit": "Percent of respondents",
+      "method": "Survey",
+      "limitations": "Concern rates, not incident rates; sponsored content.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "41% of law firms and 47% of corporate legal departments were using generative AI in 2026, up from 28% and 23% in 2025.",
+      "source_url": "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/",
+      "data_year": "2026",
+      "geography": "Not stated in the public summary",
+      "population": "Law firms and corporate legal departments in Thomson Reuters research",
+      "sample": "Not stated in the public summary",
+      "denominator": "Responding organizations",
+      "unit": "Percent of organizations",
+      "method": "Survey",
+      "limitations": "Organization-level; publisher summary.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "34% of law firm professionals use AI tools their firm has not authorized; 20% say their firm lacks any AI strategy in practice.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal",
+      "data_year": "2026",
+      "geography": "46 countries; 421 of 736 law firm responses from the United States",
+      "population": "Law firm professionals",
+      "sample": "736 law firm responses in 46 countries (421 United States); 203 corporate legal responses",
+      "denominator": "Law firm respondents",
+      "unit": "Percent of respondents",
+      "method": "Survey",
+      "limitations": "Not a breach rate; multi-country sample.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "71% of in-house legal professionals expect firms to change their commercial model; 28% of law firms have changed pricing in response to AI; 77% of clients rate AI-enabled quality as very important or essential and 5% receive it from most or all providers.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal",
+      "data_year": "2026",
+      "geography": "46 countries; 421 of 736 law firm responses from the United States",
+      "population": "In-house legal professionals and law firm professionals",
+      "sample": "736 law firm responses in 46 countries (421 United States); 203 corporate legal responses",
+      "denominator": "Each respondent group separately",
+      "unit": "Percent of respondents",
+      "method": "Survey",
+      "limitations": "Different groups and questions; not one firm's client view.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "24% of law firm professionals would decline a job without professional-grade AI tools; 36% among those already using such tools; 11% of in-house professionals are already reconsidering firms; 11% of law firm professionals believe they could lose clients within 12 months and 50% do not believe they would.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal",
+      "data_year": "2026",
+      "geography": "46 countries; 421 of 736 law firm responses from the United States",
+      "population": "Law firm professionals and in-house legal professionals",
+      "sample": "736 law firm responses in 46 countries (421 United States); 203 corporate legal responses",
+      "denominator": "Each respondent group separately",
+      "unit": "Percent of respondents",
+      "method": "Survey",
+      "limitations": "Stated intentions and beliefs.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "The Legal Industry Report 2025",
+      "url": "https://www.fedbar.org/blog/the-legal-industry-report-2025/",
+      "publisher": "Federal Bar Association (author from LawPay)",
+      "format": "Sponsored association blog post",
+      "updated_at": "2025-04-22",
+      "headings": [
+        "Generative AI in Law: Individual Use Rises While Firms Take a Cautious Approach to Adoption",
+        "Personal Use vs. Law Firm Use of Generative AI",
+        "From Scheduling to Billing: AI's Impact on Law Firm Operations",
+        "Generative AI Adoption Varies Widely by Practice Area",
+        "The Impact of Generative AI",
+        "Looking Ahead: Strategic Technology Adoption"
+      ],
+      "coverage": [
+        "Personal and firm use",
+        "Firm size",
+        "Practice area",
+        "Time saved"
+      ],
+      "sources": [
+        "Prior-year Legal Industry Report, over 2,800 legal professionals"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Product demo CTA"
+      ],
+      "trust_signals": [
+        "Large stated sample",
+        "Year-over-year data"
+      ],
+      "covered_well": "Separates personal from firm use and breaks adoption out by practice area.",
+      "gaps": "One year old; no training, unauthorized use, client pricing, or reporting framework."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "AI for Law Firms: What the 8am Legal Industry Report Tells Us About AI Use",
+      "url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+      "publisher": "ABA Law Practice Magazine (sponsored content by LawPay)",
+      "format": "Sponsored article",
+      "updated_at": "2026-04-01",
+      "headings": [
+        "How law firms are using AI in daily workflows",
+        "The governance gap in legal AI adoption",
+        "Risk, ethics, and AI in legal practice",
+        "AI for law firms is a structural shift, not a replacement",
+        "Moving from legal AI adoption to integration"
+      ],
+      "coverage": [
+        "Personal use",
+        "Uses",
+        "Barriers",
+        "Training"
+      ],
+      "sources": [
+        "8am 2026 Legal Industry Report"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Report download and product links"
+      ],
+      "trust_signals": [
+        "ABA host",
+        "Named report"
+      ],
+      "covered_well": "Current personal-use, barrier, and training figures.",
+      "gaps": "No sample size, no firm-level rate, no unauthorized use or client data, product-led conclusion, no charts."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "The Impact of Artificial Intelligence on Law Firms' Business Models",
+      "url": "https://clp.law.harvard.edu/knowledge-hub/insights/the-impact-of-artificial-intelligence-on-law-law-firms-business-models/",
+      "publisher": "Harvard Law School Center on the Legal Profession",
+      "format": "Research essay",
+      "updated_at": "2025-02-24",
+      "headings": [
+        "Productivity",
+        "Pricing and AI investments",
+        "Staffing impacts",
+        "Clients participate in the AI revolution",
+        "Expanded service capabilities",
+        "Law firm business management"
+      ],
+      "coverage": [
+        "Productivity",
+        "Pricing",
+        "Staffing",
+        "Client expectations"
+      ],
+      "sources": [
+        "Interviews at 10 AmLaw 100 firms"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Links to related Center publications"
+      ],
+      "trust_signals": [
+        "Academic host",
+        "Named author with firm management background"
+      ],
+      "covered_well": "Depth on pricing and business-model effects at large firms.",
+      "gaps": "Ten large firms only; no adoption rates, training, or unauthorized use figures."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "How Is AI Impacting the Legal Profession?",
+      "url": "https://law.vanderbilt.edu/master-legal-studies/articles/how-is-ai-impacting-the-legal-profession/",
+      "publisher": "Vanderbilt Law School",
+      "format": "Program marketing article",
+      "updated_at": "2026-01-20",
+      "headings": [
+        "Enhancing Efficiency: How AI in the Law Streamlines Legal Practices",
+        "Challenges of Artificial Intelligence in Law",
+        "The Future of AI and Law",
+        "Conclusion"
+      ],
+      "coverage": [
+        "Overview of AI uses and challenges"
+      ],
+      "sources": [
+        "Thomson Reuters Future of Professionals Report 2025"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Program enquiry CTAs"
+      ],
+      "trust_signals": [
+        "University host",
+        "Named faculty"
+      ],
+      "covered_well": "Plain-language overview for newcomers.",
+      "gaps": "One statistic; no adoption, training, governance, or pricing data."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "By The Numbers: What Surveys Show About Law Firm AI Adoption",
+      "url": "https://ncbar.org/nc-lawyer/2026-05/by-the-numbers-what-surveys-show-about-law-firm-ai-adoption/",
+      "publisher": "North Carolina Bar Association",
+      "format": "Bar magazine article",
+      "updated_at": "2026-05-20",
+      "headings": [
+        "What the Solo and Small Firm Survey Shows",
+        "Adoption Outpaces Readiness",
+        "Are Clients Pressuring Firms to Use AI?",
+        "Tech Stacks and Vendor Contracts",
+        "What Does Success Look Like?",
+        "Conclusion"
+      ],
+      "coverage": [
+        "Solo and small firm adoption",
+        "Policy and training",
+        "Client pressure",
+        "Return measurement"
+      ],
+      "sources": [
+        "Clio reports",
+        "8am report",
+        "Thomson Reuters reports"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Links to vendor reports"
+      ],
+      "trust_signals": [
+        "Named practice-management director",
+        "Sources section"
+      ],
+      "covered_well": "Brings several 2026 vendor surveys together with firm-size detail.",
+      "gaps": "Does not separate personal from firm use, omits unauthorized use, and has no charts or reporting framework."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Reviewed pages rarely state who was counted, and none sets personal use, firm use, and corporate legal use side by side with their limits.",
+    "Unauthorized AI use and missing AI strategy are absent from four of five reviewed pages.",
+    "Client pricing expectations are not shown against what firms have changed.",
+    "No reviewed page labels sponsored survey summaries as such or gives a firm-level reporting model."
+  ],
+  "value_add": "Each 2026 figure is tied to its respondent group and source type, including a clear sponsored-content label, with four charts and four tables, the client-expectation gap from the Thomson Reuters legal report with its 736-response sample, a five-state policy inventory, a pilot test checklist, and a five-panel reporting model.",
   "plan": {
     "reader_title": "AI in Law Firms Statistics",
-    "seo_title": "AI in Law Firms Statistics",
-    "meta_description": "",
+    "seo_title": "AI in Law Firms Statistics: Use, Training, and Pricing",
+    "meta_description": "AI in law firms statistics for 2026, covering personal use, firm adoption, training gaps, unauthorized tools, and client pricing pressure, with each source's limits.",
     "slug": "/legal-tech/ai-in-law-firms-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "lawyer AI adoption",
+      "law firm AI policy"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "Why AI Adoption Rates Look So Different",
+      "Personal Use Has More Than Doubled",
+      "Firm-Level Use Is Growing From a Lower Base",
+      "The Training and Governance Gap",
+      "What Firms Should Test Before Wider Deployment",
+      "Client Pressure Is Arriving Before Firms Change Pricing",
+      "What These Statistics Cannot Tell a Firm",
+      "A Reporting Model for Law Firm AI",
+      "What the Evidence Supports for 2027 Planning",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Key Statistics and Data",
+        "sources": [
+          "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+          "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/",
+          "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal"
+        ]
+      },
+      {
+        "section": "Personal Use Has More Than Doubled",
+        "sources": [
+          "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/"
+        ]
+      },
+      {
+        "section": "Firm-Level Use Is Growing From a Lower Base",
+        "sources": [
+          "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/"
+        ]
+      },
+      {
+        "section": "The Training and Governance Gap",
+        "sources": [
+          "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+          "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal"
+        ]
+      },
+      {
+        "section": "Client Pressure Is Arriving Before Firms Change Pricing",
+        "sources": [
+          "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal"
+        ]
+      }
+    ],
+    "visuals": [
+      "Bar: personal generative AI use, 2025 vs. 2026 reports",
+      "Grouped bar: organizational use at law firms and corporate legal departments, 2025 vs. 2026",
+      "Horizontal bar: barriers to adoption",
+      "Horizontal bar: client expectations vs. law firm response",
+      "Featured image: empty chair at a courtroom bench",
+      "Body image: balance scales"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/harvey-legal-ai-pilot/",
       "/legal-tech/lexisnexis-legal-ai-source-checking/",
       "/legal-tech/everlaw-ediscovery-document-review/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+      "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/",
+      "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal"
+    ],
+    "excluded_claims": [
+      "The 1,816-professional, 60-country sample attributed to the Thomson Reuters blog in the source draft (not found on the page when checked)",
+      "The \"more than 1,300 legal professionals\" sample for the 8am report (seen only on a third-party page)",
+      "Clio solo and small firm AI figures cited by a competitor (source not read)",
+      "Any subtraction of one survey from another",
+      "Productivity multiples from interview-based essays"
+    ],
+    "drafting_cautions": [
+      "Label the 8am article as sponsored content written by LawPay",
+      "Keep personal, firm, and corporate figures separate",
+      "State that barrier figures are concerns, not incidents",
+      "Give both the 24% and 36% job figures with their groups",
+      "Do not describe any figure as U.S.-only"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "69% of legal professionals personally use generative AI for work (31% in the 2025 report); uses, time saved, barriers (46%, 42%, 39%, 39%), and 54% with no training and no plans.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-magazine/2026/march-april-2026/8am-legal-industry-report/",
+      "verified": true
+    },
+    {
+      "statement": "41% of law firms and 47% of corporate legal departments were using generative AI in 2026, up from 28% and 23%; 53% of adopters report seeing a return.",
+      "source_url": "https://legal.thomsonreuters.com/blog/how-ai-is-transforming-the-legal-profession/",
+      "verified": true
+    },
+    {
+      "statement": "34% unauthorized use; 20% no AI strategy in practice; 71% of in-house professionals expect commercial model change and 28% of firms changed pricing; 77% and 5% on AI-enabled quality; 24% and 36% on declining jobs; 736 law firm responses in 46 countries with 421 from the United States, gathered March and April 2026.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/future-of-professionals-2026/report-legal",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-04"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1etvstLJ7sVe-ucjLPCMPQER_qglbxcmDdaaG_zbDd_s/edit?usp=drivesdk",
