@@ -542,5 +542,76 @@
     "suffix": "%",
     "caption": "Vendor claim. Smokeball publishes no sample, period, comparison group, or definition of \"bill\" for this range.",
     "source": "Smokeball Support Hub, AutoTime Basics and How Should I Bill With Smokeball? (checked October 3, 2026)"
+  },
+  "personal-generative-ai-use-legal-professionals-2025-2026": {
+    "type": "bar",
+    "title": "Legal professionals personally using generative AI for work",
+    "label_heading": "Report year",
+    "labels": [
+      "2025 report",
+      "2026 report"
+    ],
+    "series": [
+      {
+        "name": "Share reporting personal use",
+        "values": [
+          31,
+          69
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "Personal use of tools such as ChatGPT, Gemini, or Claude for work. Sample size and countries are not stated in the summary. Sponsored content.",
+    "source": "8am 2026 Legal Industry Report, as summarized in ABA Law Practice Magazine sponsored content by LawPay (April 1, 2026)"
+  },
+  "law-firm-ai-adoption-barriers-2026": {
+    "type": "hbar",
+    "title": "Concerns named as barriers to wider AI adoption, 2026",
+    "label_heading": "Concern",
+    "labels": [
+      "Data security",
+      "Ethical issues",
+      "Privilege concerns",
+      "Lack of trust in results"
+    ],
+    "series": [
+      {
+        "name": "Share naming the concern",
+        "values": [
+          46,
+          42,
+          39,
+          39
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "Concern rates, not incident rates. Respondents could name more than one, so the figures should not be added. Sponsored content.",
+    "source": "8am 2026 Legal Industry Report, as summarized in ABA Law Practice Magazine sponsored content by LawPay (April 1, 2026)"
+  },
+  "client-ai-expectations-vs-law-firm-response-2026": {
+    "type": "hbar",
+    "title": "Client expectations and law firm response on AI, 2026",
+    "label_heading": "Finding and group asked",
+    "labels": [
+      "Clients who rate AI-enabled quality as very important or essential",
+      "In-house professionals who expect firms to change how they charge",
+      "Law firms that have changed pricing in response to AI",
+      "Clients who get AI-enabled quality from most or all providers"
+    ],
+    "series": [
+      {
+        "name": "Share of respondents",
+        "values": [
+          77,
+          71,
+          28,
+          5
+        ]
+      }
+    ],
+    "suffix": "%",
+    "caption": "Each bar describes a different question, and client and law firm figures come from different respondent groups.",
+    "source": "Thomson Reuters, Future of Professionals Report 2026, legal report (736 law firm and 203 corporate legal responses, March and April 2026)"
   }
 }

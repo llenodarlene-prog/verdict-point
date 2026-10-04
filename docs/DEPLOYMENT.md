@@ -43,4 +43,4 @@ Production additionally runs `npm run release:check`. Complete `data/release.jso
 
 The original 10 articles and 10 blogs in `data/launch-content-plan.json` remain the editorial backlog. They are not a launch requirement, and drafts never block a release.
 
-After launch, publish up to three completed articles or blogs per day, alternating articles and blogs: set `draft: false` with a verified author and dates, move its research record to `verified` with fact-check and research-QA sign-offs, then release through staging and production. Staging and local builds keep drafts and stay `noindex`; only a production build with `launch_status: ready` is indexable.
+After launch, publish up to two completed articles or blogs per day, alternating articles and blogs: set `draft: false` with a verified author and dates, move its research record to `verified` with fact-check and research-QA sign-offs, then release through staging and production. Staging and local builds keep drafts and stay `noindex`; only a production build with `launch_status: ready` is indexable.
