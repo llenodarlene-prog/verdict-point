@@ -1,216 +1,228 @@
 ---
 title: Smokeball Legal Software and Automatic Time Capture
 seo_title: Smokeball Legal Software and Automatic Time Capture
-description: Evaluate Smokeball legal software AutoTime by tracking activities, generated entries, billing review, exceptions, invoices, and collected fees.
+description: How Smokeball legal software turns tracked activity into time entries with AutoTime, which plan includes it, when it creates no entry, and how to test it.
 slug: /legal-tech/smokeball-legal-software-time-capture/
 type: blog
-schema: Article
-draft: true
+schema: BlogPosting
+draft: false
 tracker_id: Blog:4
 primary_keyword: smokeball legal software
+secondary_keywords: Smokeball time tracking; Smokeball billing
 cluster: Legal Tech
 launch_silo: Practice Management & Billing
 silo_role: Commercial Support
 approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/law-firm-billing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/lawpay-legal-payments-fees/
 research_record: content/research/blog-4.json
 source_document: https://docs.google.com/document/d/1UwetlznTs9joZMvBZT0xDHUtS--8xAnKKTP81wtcRJ4/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+image: /assets/images/posts/smokeball-legal-software-time-capture/rust-red-case-file-marble-desk-1600.jpg
+image_alt: Closed rust-red case file with tabbed pages on a marble desk in a high-rise office
+author: Darlene Aberin
+published: 2026-10-04
+modified: 2026-10-04
 ---
 
-# Smokeball Legal Software: Does AutoTime Capture Billable Work?
+# Smokeball Legal Software and Automatic Time Capture
 
-Time-entry software can record more activity without improving a firm’s revenue. The difference depends on what the system detects, which records become time entries, what reviewers approve, what reaches an invoice, and what clients ultimately pay.
+Time-entry software can record more activity without improving a firm's revenue. What matters is what the system detects, which records become time entries, what a reviewer approves, what reaches an invoice, and what the client pays.
 
-Smokeball legal software approaches this problem through Activity records and AutoTime. According to Smokeball’s support documentation, AutoTime uses supported Activity records to create time entries during nightly processing. The feature must be enabled for each user, and generated entries can be reviewed and edited. They are not automatically billed.
+Smokeball legal software handles this through a feature called AutoTime. It reads the work a user has done and writes time entries overnight. That makes the feature easy to describe and harder to judge, because a longer list of entries is not the same as more collected fees.
 
-That workflow makes AutoTime measurable. Instead of accepting a broad time-saving claim, a firm can run a controlled pilot that follows work from recorded activity through approved time, invoices, and collected fees.
+This guide draws on Smokeball's pricing page and Support Hub as of October 3, 2026. It is desk research, not a hands-on review or a record of a completed pilot. Smokeball publishes no prices, so none are stated here.
 
 ## Key Takeaways
 
-These points define what AutoTime does and where human review remains necessary.
+These points cover what AutoTime does and where a person still has to decide.
 
-- \*\*Activity Comes First:\*\* AutoTime relies on supported Activity records; it does not turn every action performed by every user into billable time.  
-- \*\*Processing Happens Nightly:\*\* Eligible activity is converted into time entries during nightly processing rather than appearing as a final invoice immediately.  
-- \*\*Enablement Is Per User:\*\* The feature must be enabled for each intended user, so a firm should confirm its pilot population.  
-- \*\*Generated Entries Remain Editable:\*\* Users can review and edit time entries before billing, but editing an entry does not change the underlying Activity record.  
-- \*\*Several Exceptions Can Block Creation:\*\* Missing matters, zero duration, ignored activity types, leads, some closed matters, and excluded pending fees may prevent an entry.  
-- \*\*Captured Time Is Not Collected Revenue:\*\* Created, approved, invoiced, and collected amounts are separate measures.
+- **AutoTime Is Not in Every Plan:** Smokeball's pricing page says it is included with Prosper+ and sold as an add-on for Grow. The Bill and Boost plans list manual time tracking.
+- **Entries Are Created Overnight:** AutoTime turns the previous day's tracked activity into time entries each night.
+- **Settings Are Per User:** Each user's AutoTime options are set under Staff and Users, so a pilot needs a named group.
+- **Nine Situations Create No Entry:** A missing matter, zero duration, leads, closed matters, and several settings can stop an entry from appearing.
+- **Entries Are Not Billed Automatically:** They can be edited or deleted before an invoice is created.
+- **The 10% to 30% Figure Is a Vendor Claim:** Smokeball states it without a published method, so a firm should measure its own result.
 
-## Follow the Workflow From Activity to Cash
+## What AutoTime Does and Which Plans Include It
 
-The most useful way to evaluate AutoTime is to separate each stage. A higher number at the beginning can shrink as duplicates, nonbillable work, narrative problems, client rules, write-downs, and collection delays are addressed.
+Smokeball legal software is sold in four plans: Bill, Boost, Grow, and Prosper+. The [Smokeball pricing page](https://www.smokeball.com/pricing) shows a "Get Pricing" button for each one and no dollar figure. Its own answer on cost says pricing depends on the number of users, the plan, the contract term, and any optional products or services.
 
-| Stage | What It Represents | Main Review Question |  
-| --- | --- | --- |  
-| Activity | Supported work recorded by the system | Was the work tied to the right user and matter? |  
-| Generated Time Entry | Entry created by nightly AutoTime processing | Was the duration and activity type handled correctly? |  
-| Approved Billable Time | Entry accepted after human review | Is it billable, clear, accurate, and permitted? |  
-| Invoiced Time | Approved value placed on a client bill | Did billing rules or write-downs change it? |  
-| Collected Fees | Cash received from the client | Was the invoiced amount paid and retained? |
+The same page is clear about where automatic capture sits. Its comparison table lists time tracking as manual for Bill, Boost, and Grow, and automatic for Prosper+. Its FAQ adds that AutoTime is included with Prosper+ and that Grow users can buy it as an add-on.
 
-This chain prevents a common measurement error. If generated entries rise by 20%, the firm cannot conclude that revenue rose by 20%. The additional entries may include work that is nonbillable, duplicated, adjusted, excluded from an invoice, or never collected.
+Table: Where AutoTime sits in Smokeball's four plans {.compare}
+| Plan | Time Tracking Listed | AutoTime | Published Price |
+| --- | --- | --- | --- |
+| Bill | Manual | Not listed | None, quote required |
+| Boost | Manual | Not listed | None, quote required |
+| Grow | Manual | Paid add-on | None, quote required |
+| Prosper+ | Automatic | Included | None, quote required |
 
-The same principle applies when comparing \[billing realization and collection\](https://verdictpoint.org/law-firms/law-firm-billing-statistics/). Time capture is an input. Realization, invoicing, payment timing, and collection are later financial stages.
+This matters before any demo. A firm that wants automatic capture is comparing Prosper+ against Grow plus an add-on, not against the entry plan. Third-party directories list per-user prices for Smokeball, and they do not agree with one another. The only figure that counts is the one in a written quote.
 
-## How AutoTime Creates Time Entries
+Adoption figures do not help much here either. Broad [legal technology statistics](/legal-tech/legal-technology-statistics/) show that most firms use cloud tools, but they say nothing about which plan tier a firm bought or which features it switched on.
 
-Smokeball’s \[AutoTime Basics documentation\](https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics) states that the feature uses tracked Activity and creates time entries nightly. It also makes clear that AutoTime must be enabled for each user.
+## How Activity Becomes a Time Entry
 
-That creates four setup questions before a pilot begins:
+Smokeball's [AutoTime Basics article](https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics) explains the sequence. As a user works, a feature called Activity tracks time spent on eight kinds of work: matter administration, events, documents, emails, Communicate messages, memos, RingCentral calls, and tasks.
 
-1. \*\*Who Is Included?\*\* Name the users, roles, and practice group covered by the pilot.  
-2. \*\*Which Activity Types Count?\*\* Confirm the activities that can create entries and any activity types the firm ignores.  
-3. \*\*Which Matters Qualify?\*\* Define how leads, active matters, closed matters, and administrative work should be handled.  
-4. \*\*Who Reviews Entries?\*\* Assign responsibility for checking matter, duration, narrative, rate, duplicates, and billability.
+Every night, AutoTime takes the recorded activity and creates time entries for it. The article says the run covers activities performed the previous day. A user can also run it manually from the Smokeball home screen for activity that was not recorded earlier. When the run finishes, the user gets an email sorted by matter, with each entry's duration and amount.
 
-Nightly creation is only one step. Reviewers still need enough context to decide whether an entry belongs on a client bill. A technically valid entry may be inaccurate under the engagement, billing guidelines, or the firm’s professional judgment.
+The behavior is controlled by settings on each user's profile. The article lists eleven, and several change what the firm will see on an invoice.
 
-\> Workflow Box  
-\> Supported Activity → Nightly AutoTime Entry → Human Review → Billing Approval → Invoice → Collection
+- **Automatic Creation:** Whether entries are created at all for that user.
+- **Grouping:** Whether activities are grouped into one time entry, and whether email entries are grouped by subject line.
+- **Billable by Default:** Whether new entries are marked billable.
+- **Included Activity Types:** Whether matter administration, memos, and internal Communicate messages count.
+- **Closed Matters:** Whether entries are created on closed matters.
+- **First Email Read:** Whether a billable entry is created only the first time an email is read.
+- **Units:** Whether time is entered as units.
 
-Smokeball’s separate \[billing guidance\](https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball) also recognizes manual time tracking alongside AutoTime. A firm may therefore need rules for when automated capture is preferred, when manual entry is appropriate, and how duplicates between the two are found.
+These are firm policy decisions. Two users with different settings will produce different entries from the same work, so record the settings chosen for each person.
 
-## Identify the Work AutoTime May Miss
+> **The Workflow in One Line**
+> Tracked activity, then a nightly AutoTime entry, then human review, then billing approval, then the invoice, then collection. Each step can reduce the number that came before it.
 
-An automatic system can be useful precisely because it applies rules consistently. Those rules also create exclusions. The AutoTime support page identifies conditions that can prevent time-entry creation.
+## When AutoTime Creates No Entry
 
-### Missing or Ineligible Matter Selection
+An automatic system applies its rules the same way every time. Those rules include exclusions. The AutoTime Basics article lists nine situations in which tracked activity does not become a time entry.
 
-If supported work is not connected to an eligible matter, the system may not have the information needed to create the intended entry. The pilot should therefore test how users select matters and what happens when that step is omitted.
+Table: Nine situations where AutoTime creates no entry, and how to test each {.checklist}
+| Situation Listed by Smokeball | What to Test in a Pilot |
+| --- | --- |
+| AutoTime is not turned on for the user | Confirm every pilot user is enabled |
+| No matter is selected | Create a calendar event with no matter |
+| The activity has zero duration | Record a zero-duration activity |
+| The activity type is set to be ignored | Check matter administration and internal message settings |
+| The activity was marked non-billable while editing a document or email | Mark one item non-billable and check the result |
+| The matter uses UTBMS codes and AutoTime is not enabled for them | Run one activity on a coded matter |
+| The matter is a lead | Record work against a lead |
+| The matter is closed and closed-matter entries are off | Record work on a closed matter |
+| The pending fee was marked as excluded | Exclude a pending fee and rerun |
 
-### Zero Duration or Ignored Activity Types
+Each line is a place where real work can drop out without an error message. A calendar event with no matter attached produces nothing, however long the meeting ran.
 
-An Activity record with zero duration cannot support a meaningful time entry. The firm should also verify its ignored activity types so that excluded work is intentional rather than an unnoticed setup choice.
+## Email Time Depends on the Outlook Version
 
-### Leads and Closed Matters
+Email is one of the largest sources of small time entries, so the way reading time is measured matters. Smokeball's article says the method differs between two versions of Microsoft Outlook.
 
-Leads do not necessarily follow the same billing workflow as open matters. Closed-matter behavior can depend on settings. The firm should use sample records to confirm what happens instead of assuming all historical or intake activity is captured.
+### Classic Outlook Records Time After the User Moves On
 
-### Excluded Pending Fees
+In Classic Outlook, reading time reflects overall engagement with an email across the day. The article says it checks periodically and records time once the user has moved on, with a 10-second minimum before anything is logged. Smokeball describes this as better suited to an end-of-day summary than a live tracker.
 
-The support guidance notes that excluded pending fees can affect entry creation. Billing administrators should document how this setting interacts with review, invoicing, and any existing matter-specific rules.
+### New Outlook Logs One Minute per View
 
-| Exception | Pilot Test | Required Decision |  
-| --- | --- | --- |  
-| No matter selected | Create supported activity without a matter | Correct, reject, or route for review |  
-| Zero duration | Create a zero-duration activity | Confirm exclusion and user guidance |  
-| Ignored activity type | Use an excluded activity | Confirm the exclusion is intentional |  
-| Lead record | Record work against a lead | Decide whether and how intake work is tracked |  
-| Closed matter | Record a permitted test activity | Confirm setting-dependent behavior |  
-| Manual and automatic overlap | Enter time manually for captured work | Define duplicate-detection process |
+New Outlook works differently. The article says that every time a user opens an email and views it for 10 seconds or more, a 1-minute entry is logged. Returning to the same email later counts as a new view and adds another minute.
+
+```chart
+smokeball-new-outlook-logged-minutes
+```
+
+The chart applies that rule to one email opened one, three, and five times. Five short views can log five minutes when the reading time was under one. Smokeball says so directly: logged time in New Outlook may run higher than in Classic Outlook, and it is exploring improvements. Drafting time is tracked the same way in both versions.
+
+For a firm that runs Smokeball legal software and bills in small increments, this is a review issue, not a reason to reject the feature. The "first email read" setting and grouping by subject line both exist to control it. A pilot should record which Outlook version each user runs.
 
 ## Review Every Entry Before It Reaches an Invoice
 
-Smokeball legal software allows generated time entries to be reviewed and edited. The support documentation also states that editing the time entry does not change the underlying Activity record.
+Smokeball states that AutoTime entries are not automatically billed. They appear as pending entries and can be edited on the Time and Expenses page before an invoice is created. A reviewer can change the date, description, duration, rate, and amount. Entries can also be deleted.
 
-That distinction matters for audit and troubleshooting. If the Activity shows one duration and the approved entry shows another, the firm should be able to explain why. The difference may be appropriate, but it should not be invisible.
+One detail matters for audits. Edits to a time entry are not reflected in Activity. If the tracked activity shows one duration and the approved entry shows another, the firm should be able to explain the difference. It may be entirely proper, but it should not be invisible.
 
-Reviewers should check several fields in a consistent order:
+![Open law book with a red ribbon marker on a marble desk in front of dark bookshelves](/assets/images/posts/smokeball-legal-software-time-capture/open-law-book-red-ribbon-1600.jpg "Captured time still needs a reviewer before it reaches an invoice.")
 
-- \*\*Matter:\*\* Confirm that the entry belongs to the correct client and matter.  
-- \*\*User:\*\* Verify the person credited with performing the work.  
-- \*\*Duration:\*\* Compare the generated duration with the work and billing rules.  
-- \*\*Narrative:\*\* Rewrite system wording when necessary so the client can understand the service.  
-- \*\*Activity Type:\*\* Confirm that the category supports the correct rate and reporting.  
-- \*\*Billability:\*\* Exclude administrative, duplicated, nonbillable, or otherwise ineligible work.  
-- \*\*Rate and Value:\*\* Check the applicable fee arrangement and matter-specific terms.
+Reviewers should check the same fields in the same order each time.
 
-Review time is part of the operating cost. A pilot that captures more entries but creates an unmanageable review queue may need different settings, narrower scope, or clearer approval rules.
+1. **Matter:** Confirm the entry belongs to the right client and matter.
+2. **User:** Confirm who performed the work.
+3. **Duration:** Compare the generated time with the work and the billing increment.
+4. **Narrative:** Rewrite system wording so the client can understand the service.
+5. **Billability:** Remove administrative, duplicated, or excluded work.
+6. **Rate and Amount:** Check the fee arrangement and any matter-specific terms.
 
-## Measure a Pilot With a Reconciliation Log
+Review time is part of the cost. A pilot that floods the review queue may need grouping turned on or fewer activity types.
 
-A controlled pilot should use anonymized or approved sample matters and compare a baseline period with an AutoTime period. The firm should keep the same users, practice area, and measurement definitions where practical.
+AutoTime is also not the only route. Smokeball's guide on [how to bill with Smokeball](https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball) says users can keep tracking time manually, use a timer and activity codes, or use a tool called Time Finder to look for missed billable time. A firm that mixes methods needs a rule for spotting the same work entered twice.
 
-| Pilot Measure | Definition | Why It Matters |  
-| --- | --- | --- |  
-| Activity Minutes | Duration recorded in eligible Activity records | Starting volume available to the process |  
-| Generated Entry Minutes | Time created by AutoTime | Shows rule-based capture |  
-| Rejected or Duplicate Minutes | Generated time removed during review | Identifies noise or overlap |  
-| Approved Billable Minutes | Time accepted for billing | Measures usable capture |  
-| Invoiced Value | Approved value placed on bills | Reflects billing rules and write-downs |  
-| Collected Value | Cash received for invoiced work | Connects capture with financial results |  
-| Review Time | Staff time spent checking entries | Shows operating cost of the process |
+## Treat the 10% to 30% Figure as a Vendor Claim
 
-The pilot should also record exception reasons. A simple “rejected” total will not show whether the problem came from duplicates, wrong matters, narratives, nonbillable work, or settings.
+Both support articles repeat one number. AutoTime Basics says AutoTime users bill 10% to 30% more. The billing guide says firms using Activity Intelligence or AutoTime bill 10% to 30% more and increase profitability.
 
-When evaluating \[profitability measures\](https://verdictpoint.org/law-firms/law-firm-profitability-statistics/), the firm should subtract relevant subscription, implementation, training, and review costs rather than treating additional captured value as pure profit.
+```chart
+smokeball-autotime-vendor-claim-range
+```
 
-## Treat Performance Percentages as Vendor Claims
+Neither article gives a sample, a period, a comparison group, or a definition of "bill." The billing guide was last updated two years ago. That does not make the claim false. It means the figure cannot be used as a forecast for a specific firm.
 
-The AutoTime page states that users bill 10% to 30% more. Smokeball’s \[Family Law Billing page\](https://support.smokeball.com/hc/en-us/articles/5962336205591-Family-Law-Billing) separately says AutoTime clients capture an average of 34% more time than manual users.
+To bill more is also not the same as to collect more. A firm can turn the claim into four questions for the vendor.
 
-These claims refer to different measures. “Bill more” is not identical to “capture more time,” and neither phrase establishes collected revenue, contribution margin, or profit. The public materials reviewed here do not provide an independent study that allows either figure to become a universal forecast.
+- **Population:** Which customers, practice areas, and periods were measured?
+- **Comparison:** Were the same users measured before and after, or was a different group used?
+- **Metric:** Was it captured minutes, approved time, invoiced value, or cash received?
+- **Exclusions:** How were duplicates, write-downs, and non-billable work handled?
 
-A firm may retain the claims as questions for the vendor:
+Benchmarks help set expectations. Published [law firm billing statistics](/law-firms/law-firm-billing-statistics/) on utilization, realization, and collection show how much value is usually lost between hours worked and cash received. Capture is only the first of those stages.
 
-- \*\*Population:\*\* Which customers, users, practice areas, and periods were included?  
-- \*\*Comparison:\*\* Was the change measured against the same users before adoption or against a different group?  
-- \*\*Metric:\*\* Did the analysis use captured minutes, approved time, invoiced value, or collected cash?  
-- \*\*Exclusions:\*\* How were duplicates, write-downs, nonbillable work, and incomplete matters handled?
+## Measure a Pilot From Activity to Collected Fees
 
-The firm’s own pilot should remain the decision source. If results differ from the marketing claim, the internal evidence is more relevant to that firm’s purchase.
+A controlled pilot of Smokeball legal software compares a baseline period with an AutoTime period for the same users and the same kind of work. Use approved sample matters, and keep the definitions fixed.
+
+Table: Measures to record in an AutoTime pilot {.data}
+| Measure | Definition | Why It Matters |
+| --- | --- | --- |
+| Activity minutes | Duration recorded in tracked activity | The volume available to the process |
+| Generated entry minutes | Time created by the nightly run | Shows rule-based capture |
+| Removed minutes | Generated time deleted or reduced in review | Shows noise, overlap, or over-logging |
+| Approved billable minutes | Time accepted for billing | Measures usable capture |
+| Invoiced value | Approved value placed on bills | Reflects billing rules and write-downs |
+| Collected value | Cash received for that work | Connects capture to financial results |
+| Review time | Staff time spent checking entries | The operating cost of the feature |
+
+Record the reason for every removal. A single "rejected" total will not show whether the problem was duplicates, wrong matters, repeated email views, or non-billable work. If generated entries rise by a fifth, the firm cannot conclude that revenue rose by a fifth.
+
+Set an end date and a decision owner before the pilot starts.
 
 ## Include AutoTime in the Full Software Cost
 
-No universal price was confirmed by the approved support sources. The firm should request current pricing and identify which plan, users, configuration services, training, support, and integrations are included.
+Because the product is sold by quote, the proposal is where cost becomes visible. The pricing page says training is tailored to the plan and that migration services and related costs are confirmed in the quote. It also marks online payments, trust management, and e-filing with the note "Fees apply."
 
-The evaluation should follow the same categories used in \[practice-management cost planning\](https://verdictpoint.org/legal-tech/clio-legal-software-total-cost/): recurring subscriptions, optional products, implementation, migration, integrations, training, and internal staff time.
+Ask for each element in writing.
 
-For AutoTime specifically, include the cost of setup, exception review, billing approval, user training, and ongoing audits. An automated capture feature can still require meaningful operational work.
+- **Plan and Add-Ons:** The plan, the AutoTime add-on if the plan is Grow, and any other add-ons such as Intake or Workflows.
+- **Users and Term:** The number of users, the contract term, and what happens at renewal.
+- **Onboarding:** Training sessions, migration scope, and who does which part.
+- **Fees That Apply:** Payment processing, trust management, and e-filing charges.
+- **Accounting:** The billing guide says Smokeball integrates with QuickBooks Online and does not handle payroll or the general ledger.
+- **Exit:** How time and billing records can be exported. The billing guide says activity and time data can be exported to a CSV file.
 
-A Smokeball legal software proposal should also identify the users covered by AutoTime, any plan or configuration dependency, onboarding responsibilities, support boundaries, contract term, renewal treatment, and the process for exporting time and billing records. Those details allow the firm to compare the price with the work the system is expected to replace or improve.
-
-Before approving the purchase, assign an owner for quarterly sampling. That person can compare Activity records with generated entries, check rejected and edited items, and review whether exception rates are improving. A control that works during a short pilot can weaken later if users change, matter-selection habits drift, or billing rules are revised.
+The same categories apply to any practice-management purchase. The breakdown of [Clio's total cost](/legal-tech/clio-legal-software-total-cost/) shows how subscription, payment fees, and add-ons combine, and it makes a useful template for reading a quote for Smokeball legal software. Payment charges deserve their own line. The review of [LawPay fees](/legal-tech/lawpay-legal-payments-fees/) explains what to check in a processor's rates before assuming they are small.
 
 ## Is Smokeball AutoTime Worth Testing?
 
-AutoTime is worth testing when a firm suspects that supported work is being missed and can define how captured activity should move through review, billing, and collection. The test should begin with a limited group rather than a firm-wide promise.
+AutoTime is worth testing when a firm suspects that tracked work is going unbilled and can define how captured activity should move through review, billing, and collection. Start with a small group, not a firm-wide promise.
 
-The pilot should also have a documented end date and decision owner.
-
-The strongest outcome is not simply “more time entries.” It is more accurate approved time, acceptable review effort, clearer invoices, and better collection without weakening matter controls or client trust.
+The strongest result is not more time entries. It is more accurate approved time, a review workload the team can sustain, clearer invoices, and better collection. Smokeball legal software gives a firm the settings to shape that outcome. The firm still has to choose them, test them, and check the entries.
 
 ## Frequently Asked Questions
 
-These answers summarize the main setup and measurement points for a controlled evaluation.
+These answers cover the questions buyers ask most often about Smokeball legal software and AutoTime.
+
+### Which Smokeball Plan Includes AutoTime?
+
+Smokeball's pricing page says AutoTime is included with the Prosper+ plan and that Grow users can buy it as an add-on. Bill and Boost list manual time tracking.
 
 ### Does AutoTime Automatically Bill Clients?
 
-No. Smokeball says AutoTime creates time entries from supported Activity records, but the entries are not automatically placed on a client bill.
+No. Smokeball says AutoTime entries are not automatically billed. They are pending entries that can be edited or deleted before an invoice is created.
 
-### Does AutoTime Need to Be Enabled for Every User?
+### Does Smokeball Publish Its Prices?
 
-Yes. The support documentation says AutoTime is enabled per user, so firms should confirm exactly who belongs in the pilot.
+No. Each plan on the pricing page shows a "Get Pricing" button. Smokeball says cost depends on users, plan, contract term, and optional products.
 
-### Can Users Edit AutoTime Entries?
+### Can AutoTime Log More Time Than Was Spent?
 
-Yes. Generated entries can be reviewed and edited. Editing an entry does not change the underlying Activity record used to create it.
-
-### Can AutoTime Miss Recorded Work?
-
-Yes. Missing matter selection, zero duration, ignored activities, leads, closed-matter settings, and excluded pending fees can prevent entry creation.
-
-### Does Capturing More Time Guarantee More Revenue?
-
-No. Captured time must still be approved, invoiced, and collected. Review costs, write-downs, and nonbillable work can change the result.
-
-### Is This a Hands-On Smokeball Review?
-
-No. This guide is based on public support documentation and an editorial pilot framework. Firms should test the product under their own workflow.
+It can for email reading in New Outlook. Smokeball says each view of 10 seconds or more logs one minute, so repeated views of one email add up.
 
 ## Resources
 
-- \*\*Smokeball AutoTime Basics:\*\* https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics  
-- \*\*How Should I Bill With Smokeball:\*\* https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball  
-- \*\*Smokeball Family Law Billing:\*\* https://support.smokeball.com/hc/en-us/articles/5962336205591-Family-Law-Billing
+These official pages were checked on October 3, 2026. Recheck them before any purchase decision.
 
-FACT CHECK / PUBLISHING NOTES
-
-RECHECK BEFORE PUBLICATION:  
-- Confirm current AutoTime setup, nightly processing, supported activities, and exception behavior.  
-- Keep the 10–30% and 34% figures clearly attributed as separate vendor claims.  
-- Do not equate captured time with invoiced or collected value.  
-- Confirm current pricing directly; do not add a universal price without verified terms.  
-- Confirm all internal-link destinations.
+- **Smokeball Pricing:** [Smokeball Pricing Plans](https://www.smokeball.com/pricing)
+- **AutoTime Documentation:** [AutoTime Basics, Smokeball Support Hub](https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics)
+- **Billing Methods:** [How Should I Bill With Smokeball?, Smokeball Support Hub](https://support.smokeball.com/hc/en-us/articles/5986448662167-How-Should-I-Bill-With-Smokeball)
