@@ -7,3 +7,9 @@ ErrorDocument 404 /404/
   Header always set Referrer-Policy "strict-origin-when-cross-origin"
   Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
 </IfModule>
+# Pages revalidate on every visit so a deploy is seen at once. Versioned CSS and JS stay cached.
+<IfModule mod_headers.c>
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache"
+  </FilesMatch>
+</IfModule>
