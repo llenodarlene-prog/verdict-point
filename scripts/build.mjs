@@ -92,6 +92,11 @@ for (const file of sourceFiles) {
   parsed.push({ ...metadata, body, source: file, article: ['article', 'blog'].includes(String(metadata.type).toLowerCase()) });
 }
 const publishedPosts = parsed.filter(page => page.article && page.draft !== true).sort((a, b) => String(b.modified || b.published).localeCompare(String(a.modified || a.published)));
+// Listing cards show each post's registered featured image at its small size.
+for (const post of publishedPosts) {
+  const thumb = post.image ? (smallVariant(post.image) || assetFor(post.image)) : null;
+  post.card_image = thumb ? { src: thumb.path, width: thumb.width, height: thumb.height, alt: post.image_alt || thumb.alt } : null;
+}
 const pages = [];
 for (const page of parsed) {
   const { body, source, article, ...metadata } = page;
@@ -106,12 +111,13 @@ for (const page of parsed) {
     url, isPartOf: { '@type': 'WebSite', name: site.name, url: siteUrl }
   };
   // Designed pages render from approved copy files; everything else renders from Markdown.
-  const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav), about: () => renderAbout(aboutCopy),
+  const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav, { chart: chartBlock }), about: () => renderAbout(aboutCopy),
     contact: () => renderContact(contactCopy, contactEmail(body, source)),
     hub: () => {
       const hub = hubCopy.hubs[metadata.slug];
       if (!hub) throw new Error(`${source}: no approved hub copy for ${metadata.slug} in data/hub-pages.json`);
-      return renderHub(hub, hubCopy.shared, publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), nav);
+      return renderHub(hub, hubCopy.shared, publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), nav,
+        { slug: metadata.slug, chart: chartBlock, allPosts: publishedPosts, sections: homeCopy.coverage.cards, closing: homeCopy.closing });
     } }[metadata.template];
   resetCharts();
   let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure });

@@ -56,7 +56,15 @@
       "What is this number measuring?",
       "Who is included in the sample, and who is not?",
       "Does the headline change once the methodology is visible?"
-    ]
+    ],
+    "image": {
+      "src": "/assets/images/home/open-law-volume-red-ribbon-1600.jpg",
+      "small": "/assets/images/home/open-law-volume-red-ribbon-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Open law volume with a rust-red ribbon marker on a marble desk"
+    },
+    "questions_label": "Questions We Ask"
   },
   "coverage": {
     "heading": "Five Ways to Read the Business of Law.",
@@ -66,31 +74,66 @@
         "label": "Legal",
         "text": "Industry-wide changes in regulation, workforce, courts, careers, professional trends, and legal-sector data.",
         "link": "Explore Legal Analysis",
-        "url": "/legal/"
+        "url": "/legal/",
+        "image": {
+          "src": "/assets/images/hubs/legal-courthouse-1600.jpg",
+          "small": "/assets/images/hubs/legal-courthouse-800.jpg",
+          "width": 1600,
+          "height": 900,
+          "alt": "Ivory stone courthouse with a columned portico and wide front steps in morning light"
+        }
       },
       {
         "label": "Law Firms",
         "text": "Firm economics, billing, profitability, hiring, intake, client experience, operations, and management.",
         "link": "Explore Law Firms",
-        "url": "/law-firms/"
+        "url": "/law-firms/",
+        "image": {
+          "src": "/assets/images/hubs/law-firms-office-1200.jpg",
+          "small": "/assets/images/hubs/law-firms-office-800.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Marble office desk with navy binders, a calculator, a leather notebook, and a tablet showing a bar chart"
+        }
       },
       {
         "label": "Legal Tech",
         "text": "AI, legal software, eDiscovery, automation, cybersecurity, data, and the systems changing legal work.",
         "link": "Explore Legal Tech",
-        "url": "/legal-tech/"
+        "url": "/legal-tech/",
+        "image": {
+          "src": "/assets/images/hubs/legal-tech-workspace-1200.jpg",
+          "small": "/assets/images/hubs/legal-tech-workspace-800.jpg",
+          "width": 1200,
+          "height": 1200,
+          "alt": "Legal professional working on a laptop and tablet at a desk with an open report in a bright modern office"
+        }
       },
       {
         "label": "Legal Marketing",
         "text": "Search, websites, paid media, referrals, reviews, intake, conversion, and the economics of acquiring clients.",
         "link": "Explore Legal Marketing",
-        "url": "/legal-marketing/"
+        "url": "/legal-marketing/",
+        "image": {
+          "src": "/assets/images/hubs/legal-marketing-interface-1600.jpg",
+          "small": "/assets/images/hubs/legal-marketing-interface-800.jpg",
+          "width": 1600,
+          "height": 900,
+          "alt": "Professional reviewing a website on a laptop, with the same page shown on a tablet and a phone"
+        }
       },
       {
         "label": "Legal Business",
         "text": "Legal-services market structure, alternative providers, corporate legal departments, ownership models, and new ways legal work is delivered.",
         "link": "Explore Legal Business",
-        "url": "/legal-business/"
+        "url": "/legal-business/",
+        "image": {
+          "src": "/assets/images/hubs/legal-business-scale-1600.jpg",
+          "small": "/assets/images/hubs/legal-business-scale-800.jpg",
+          "width": 1600,
+          "height": 900,
+          "alt": "Three architectural models of office buildings in increasing size beside printed charts on a marble table"
+        }
       }
     ]
   },
@@ -102,14 +145,21 @@
       "That does not make every answer simple, and sometimes the evidence will remain incomplete. What it does is make the conclusion easier to understand, challenge, and use."
     ],
     "steps": [
-      "Find the original source",
-      "Check the definition and reporting period",
-      "Compare conflicting evidence",
-      "State the limitation before the conclusion"
+      "Find the Original Source",
+      "Check the Definition and Reporting Period",
+      "Compare Conflicting Evidence",
+      "State the Limitation Before the Conclusion"
     ],
     "link": {
       "label": "How We Research",
       "url": "/about/#how-we-research"
+    },
+    "image": {
+      "src": "/assets/images/site/courtroom-natural-light-1600.jpg",
+      "small": "/assets/images/site/courtroom-natural-light-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Empty modern courtroom with oak benches and navy chairs in natural light"
     }
   },
   "featured": {
@@ -152,6 +202,19 @@
     "cta": {
       "label": "Explore Verdict Point",
       "url": "/about/"
+    },
+    "image": {
+      "src": "/assets/images/site/courtroom-natural-light-1600.jpg",
+      "small": "/assets/images/site/courtroom-natural-light-800.jpg",
+      "width": 1600,
+      "height": 900,
+      "alt": "Empty modern courtroom with oak benches and navy chairs in natural light"
     }
+  },
+  "data_highlight": {
+    "label": "From Our Research",
+    "link": "Read the Research",
+    "chart": "generative-ai-use-law-firms-legal-departments-2025-2026",
+    "post": "/legal-tech/legal-technology-statistics/"
   }
 }
