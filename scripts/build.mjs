@@ -1,5 +1,6 @@
 import { cp, mkdir, readFile, readdir, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { escapeHtml, markdownToHtml, readContent } from './lib/content.mjs';
 import { renderAbout } from './lib/about.mjs';
 import { contactEmail, renderContact } from './lib/contact.mjs';
@@ -55,6 +56,9 @@ const shared = {
   FOOTER_NAV: list(nav.footer.filter(item => !footerColumnUrls.has(item.url))), FOOTER_COLUMNS: footerColumns,
   FOOTER_DESCRIPTION: escapeHtml(footerCopy.description), FOOTER_DISCLAIMER: escapeHtml(footerCopy.disclaimer)
 };
+// Stylesheet and script URLs carry a content hash, so a deploy never pairs new HTML with a cached old file.
+const contentHash = async file => createHash('sha256').update(await readFile(file)).digest('hex').slice(0, 10);
+const assetVersion = { css: await contentHash('src/styles/main.css'), js: await contentHash('src/scripts/main.js') };
 const header = replace(headerTemplate, shared);
 // Images resolve through data/assets.json so every rendered image carries registered dimensions and alt guidance.
 const assetFor = src => {
@@ -136,7 +140,7 @@ for (const page of parsed) {
   const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
   const html = replace(base, {
     LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
-    CANONICAL: url, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks,
+    CANONICAL: url, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks, CSS_VERSION: assetVersion.css, JS_VERSION: assetVersion.js,
     ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
     HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="home" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });
