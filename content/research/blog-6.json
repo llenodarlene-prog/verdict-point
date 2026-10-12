@@ -1,225 +1,399 @@
 {
   "tracker_id": "Blog:6",
-  "status": "scaffolded",
+  "status": "planned",
   "research_question": "Owned-page scope: Implementing Litify Legal Software in a Growing Firm. Planned sources and method: Litify and Salesforce official documentation; map data migration requirements. Build a source-labelled comparison covering Litify implementation and Litify integrations; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Give growing firms an implementation plan for Litify: operating model, ownership, Salesforce scope, integrations, migration, acceptance, quote, and phased rollout.",
+    "audience": "Managing partners, operations leads, and IT owners at growing U.S. firms evaluating Litify.",
+    "publication_year": "2026",
+    "data_period": "Litify homepage, March 9, 2026 announcement, and evaluation-checklist page as displayed on October 12, 2026",
+    "scope_limitations": "Public Litify pages only; no quote, demo, or hands-on deployment. No price or duration is stated because none is published. The gated checklist was not downloaded."
   },
   "keyword_research": {
     "approved_primary_keyword": "litify legal software",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-12",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-12"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "litify",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 5400,
+        "difficulty": 30,
+        "cpc": 7.26,
+        "intent": "Navigational",
+        "ranking_url": "https://www.litify.com/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "litify implementation",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 18,
+        "cpc": 0,
+        "intent": "Commercial Investigation",
+        "ranking_url": "https://www.litify.com/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "litify software",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 70,
+        "difficulty": 43,
+        "cpc": 37.22,
+        "intent": "Commercial Investigation",
+        "ranking_url": "https://www.litify.com/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "litify integrations",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 30,
+        "cpc": 61.2,
+        "intent": "Commercial Investigation",
+        "ranking_url": "https://www.litify.com/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is litify",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 110,
+        "difficulty": 25,
+        "cpc": 17.84,
+        "intent": "Informational",
+        "ranking_url": "https://www.litify.com/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       }
-    ]
+    ],
+    "serp_note": "Ubersuggest SERP for \"litify legal software\" (US, data dated 2026-09-22): litify.com, AI Overview, LinkedIn, Salesforce AppExchange, Legal.io, Attorney at Work review, Reddit, LawPay integration news, The Legal Practice review, ABC Legal, Software Finder. Volume 40, difficulty 22."
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.litify.com/",
+      "title": "Legal Software: The Leading Platform of Action | Litify",
+      "publisher": "Litify",
+      "source_type": "Vendor homepage",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Built on Salesforce, AWS, and Anthropic; intake, matter, document, time and billing, spend, reporting; implementation and customer success",
+      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "limitations": "Marketing page; no pricing.",
+      "verified": true
+    },
+    {
+      "url": "https://www.litify.com/news/litify-evolves-into-the-platform-of-action-to-power-the-next-era-of-legal-execution",
+      "title": "Litify Evolves into the Platform of Action to Power the Next Era of Legal Execution",
+      "publisher": "Litify",
+      "source_type": "Vendor press release",
+      "year": "2026",
+      "published_at": "2026-03-09",
+      "accessed_at": "2026-10-12",
+      "scope": "Platform of Action launch; built on Salesforce; AI-driven actions in workflows; open, configurable ecosystem",
+      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "limitations": "Positioning statement; no implementation detail.",
+      "verified": true
+    },
+    {
+      "url": "https://www.litify.com/resources/the-ultimate-evaluation-checklist-for-practice-management-software",
+      "title": "The Ultimate Evaluation Checklist for Practice Management Software",
+      "publisher": "Litify",
+      "source_type": "Gated resource landing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Landing page for a gated checklist covering core features, security, integrations, implementation, and user experience",
+      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "limitations": "Checklist itself is behind a form and was not reviewed.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Litify says it is built on Salesforce, AWS, and Anthropic, and lists intake, matter, document, time and billing, spend, and reporting capabilities.",
+      "source_url": "https://www.litify.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published statements",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor page statement",
+      "limitations": "Vendor statement; terms can change.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Litify launched its AI-native Platform of Action on March 9, 2026, describing an open platform built on Salesforce.",
+      "source_url": "https://www.litify.com/news/litify-evolves-into-the-platform-of-action-to-power-the-next-era-of-legal-execution",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published statements",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor page statement",
+      "limitations": "Vendor statement; terms can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Litify | The Legal Operating Platform",
+      "url": "https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000DvNozUAF",
+      "publisher": "Salesforce AppExchange",
+      "format": "Marketplace listing",
+      "updated_at": "Not stated",
+      "headings": [
+        "Overview",
+        "Reviews"
+      ],
+      "coverage": [
+        "Product summary"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "Ratings"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Confirms Salesforce relationship.",
+      "gaps": "No implementation guidance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Litify | Legal.io Legal Software",
+      "url": "https://www.legal.io/legal-software/5391185/Litify",
+      "publisher": "Legal.io",
+      "format": "Directory listing",
+      "updated_at": "Not stated",
+      "headings": [
+        "Overview"
+      ],
+      "coverage": [
+        "Features"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "Feature list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Quick summary.",
+      "gaps": "No ownership or migration detail."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Litify Review: Legal Software For the Entire Client Lifecycle",
+      "url": "https://www.attorneyatwork.com/litify-review-legal-practice-management-software/",
+      "publisher": "Attorney at Work",
+      "format": "Editorial review",
+      "updated_at": "Not stated",
+      "headings": [
+        "Features",
+        "Verdict"
+      ],
+      "coverage": [
+        "Lifecycle features"
+      ],
+      "sources": [
+        "Vendor briefing"
+      ],
+      "data_assets": [
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Feature walkthrough.",
+      "gaps": "Little on implementation roles or acceptance."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Litify Review 2026: Pros, Cons, Features and Pricing",
+      "url": "https://thelegalpractice.com/tools/litify-review/",
+      "publisher": "The Legal Practice",
+      "format": "Product review",
+      "updated_at": "Not stated",
+      "headings": [
+        "Pros",
+        "Cons",
+        "Pricing"
+      ],
+      "coverage": [
+        "Features",
+        "Pricing notes"
+      ],
+      "sources": [
+        "Vendor",
+        "Reviews"
+      ],
+      "data_assets": [
+        "Pros and cons"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Buyer framing.",
+      "gaps": "Pricing claims not tied to vendor quote."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Litify: Reviews, Pricing & Free Demo",
+      "url": "https://softwarefinder.com/legal/litify",
+      "publisher": "Software Finder",
+      "format": "Directory listing",
+      "updated_at": "Not stated",
+      "headings": [
+        "Reviews",
+        "Pricing"
+      ],
+      "coverage": [
+        "Reviews"
+      ],
+      "sources": [
+        "User reviews"
+      ],
+      "data_assets": [
+        "Ratings"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "User sentiment.",
+      "gaps": "No implementation method."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No reviewed page assigns implementation ownership across business owner, administrator, partner, and data owner.",
+    "No reviewed page lists the Salesforce scope questions a quote should answer.",
+    "No reviewed page gives migration and acceptance evidence a firm can sign off against."
+  ],
+  "value_add": "A vendor-neutral implementation plan for Litify with an ownership matrix, Salesforce scope questions, integration and migration checklists, acceptance tests, a full-cost quote table, and phase gates.",
   "plan": {
     "reader_title": "Implementing Litify Legal Software in a Growing Firm",
     "seo_title": "Implementing Litify Legal Software in a Growing Firm",
-    "meta_description": "",
+    "meta_description": "Plan a Litify legal software implementation across ownership, workflows, migration, integrations, reporting, testing, training, and quote scope.",
     "slug": "/legal-tech/litify-legal-software-implementation/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "Litify implementation",
+      "Litify integrations"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Define the Operating Model Before Selecting Modules",
+      "Assign Responsibility Across the Implementation Team",
+      "Scope the Salesforce Layer Explicitly",
+      "Design Integrations Around Systems of Record",
+      "Treat Migration as a Controlled Business Project",
+      "Define Acceptance Before Configuration Is Finished",
+      "Request a Quote That Exposes the Full Cost",
+      "Roll Out in Phases Without Inventing a Universal Timeline",
+      "What Should a Firm Conclude About Litify?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Define the Operating Model Before Selecting Modules",
+        "sources": [
+          "https://www.litify.com/",
+          "https://www.litify.com/resources/the-ultimate-evaluation-checklist-for-practice-management-software"
+        ]
+      },
+      {
+        "section": "Scope the Salesforce Layer Explicitly",
+        "sources": [
+          "https://www.litify.com/news/litify-evolves-into-the-platform-of-action-to-power-the-next-era-of-legal-execution"
+        ]
+      }
+    ],
+    "visuals": [
+      "Operating decisions table",
+      "Ownership matrix",
+      "Migration validation table",
+      "Quote components table",
+      "Featured image"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/law-firms/law-firm-profitability-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/filevine-legal-software-case-types/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.litify.com/",
+      "https://www.litify.com/news/litify-evolves-into-the-platform-of-action-to-power-the-next-era-of-legal-execution",
+      "https://www.litify.com/resources/the-ultimate-evaluation-checklist-for-practice-management-software"
+    ],
+    "excluded_claims": [
+      "Any Litify price or implementation duration",
+      "Salesforce license inclusions",
+      "Contents of the gated checklist"
+    ],
+    "drafting_cautions": [
+      "Label the ownership matrix as editorial",
+      "Do not infer Salesforce entitlements",
+      "State that the guide is not hands-on"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Litify says it is built on Salesforce, AWS, and Anthropic and offers implementation and customer success resources.",
+      "source_url": "https://www.litify.com/",
+      "verified": true
+    },
+    {
+      "statement": "Litify announced its AI-native Platform of Action on March 9, 2026, describing an open platform built on Salesforce.",
+      "source_url": "https://www.litify.com/news/litify-evolves-into-the-platform-of-action-to-power-the-next-era-of-legal-execution",
+      "verified": true
+    },
+    {
+      "statement": "Litify offers a gated evaluation checklist covering features, security, integrations, implementation, and user experience.",
+      "source_url": "https://www.litify.com/resources/the-ultimate-evaluation-checklist-for-practice-management-software",
+      "verified": true
     }
   ],
   "fact_check": {

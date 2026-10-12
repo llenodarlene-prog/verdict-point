@@ -34,7 +34,7 @@ The public data covers tracked conversions, website information, and intake resp
 
 - **Overall Conversion:** Ruler Analytics reports a 7.9% conversion rate for legal businesses in its 2026 vendor dataset.
 - **Organic Conversion:** The same Ruler dataset reports 7.3% for legal organic search traffic.
-- **Phone Share:** Ruler reports that 56.3% of tracked legal conversions came by phone and 43.7% by form.
+- **Phone Share:** Ruler reports that 56.3% of tracked legal conversions came by phone.
 - **Hiring Clarity:** Clio's 2024 secret-shopper study found that 30% of firm websites gave clear guidance on how to hire the firm.
 - **Pricing Visibility:** The same study found that 14% of firm websites showed pricing information.
 - **Phone Pickup:** Clio reports that 40% of firms answered the shopper's call in 2024.
@@ -90,7 +90,7 @@ Call tracking also brings privacy and consent duties. Firms should review record
 
 ## Where Websites Lose Prospective Clients
 
-Clio tested how firms respond to people looking for a lawyer. Its [2024 Legal Trends Report findings](https://www.clio.com/blog/highlights-from-2024-legal-trends-report/) describe a secret-shopper study of 500 firms, run with research agency Lux between June 20 and July 5, 2024.
+Clio tested how firms respond to people looking for a lawyer. Its [2024 Legal Trends Report release](https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html) describes a secret-shopper study that contacted 500 firms as prospective clients.
 
 Only 30% of firm websites gave clear guidance on the hiring process. Just 14% showed pricing information. These are measures of what visitors could find, not conversion rates.
 
@@ -213,5 +213,5 @@ For 2027, define each stage, combine calls with forms, and measure intake respon
 These sources support the benchmarks and measurement guidance above.
 
 - **Ruler Analytics:** [Legal Marketing Statistics Backed by Real Data 2026](https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/)
-- **Clio:** [Highlights From the 2024 Legal Trends Report](https://www.clio.com/blog/highlights-from-2024-legal-trends-report/)
+- **Clio:** [Clio Legal Trends Report 2024 Press Release, PR Newswire](https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html)
 - **Google:** [Search Console Performance Report Help](https://support.google.com/webmasters/answer/7576553)

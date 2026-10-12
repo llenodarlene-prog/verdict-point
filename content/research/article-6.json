@@ -1,225 +1,417 @@
 {
   "tracker_id": "Article:6",
-  "status": "scaffolded",
+  "status": "planned",
   "research_question": "Owned-page scope: Law Firm SEO Statistics for Organic Lead Reporting. Planned sources and method: Consented Search Console and intake records; join at aggregate channel level. Build a source-labelled comparison covering legal organic search traffic and attorney SEO leads; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Show which SEO measures belong at each funnel stage, how to read public organic benchmarks, and how to join Search Console with intake data safely.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms reviewing organic search performance.",
+    "publication_year": "2026",
+    "data_period": "Ruler Analytics 2026 benchmark (with 2025 table values); Clio 2024 secret-shopper study; Google Search Console documentation current October 2026",
+    "scope_limitations": "Public sources only. No consented Search Console or intake sample was available, so the tracker plan for a first-party join is not met and the article says so."
   },
   "keyword_research": {
     "approved_primary_keyword": "law firm seo statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-12",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-12"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "law firm seo",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 4400,
+        "difficulty": 40,
+        "cpc": 103.24,
+        "intent": "Commercial",
+        "ranking_url": "https://www.semrush.com/blog/law-firm-seo/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm seo statistics",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.eversparkinteractive.com/blog/seo-stats-for-attorneys-2025/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm seo services",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 720,
+        "difficulty": 36,
+        "cpc": 70.26,
+        "intent": "Commercial",
+        "ranking_url": "https://hennessey.com/law-firm-seo/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm seo audit",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 110,
+        "difficulty": 13,
+        "cpc": 57.24,
+        "intent": "Commercial",
+        "ranking_url": "https://www.semrush.com/blog/law-firm-seo/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is law firm seo",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.semrush.com/blog/law-firm-seo/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       }
-    ]
+    ],
+    "serp_note": "Ubersuggest SERP (US, data dated 2026-09-22): AI Overview; Everspark, MyCase, SEOProfy, Semrush, Hennessey, The Media Captain, Rize Up Media, LinkedIn, First Page Sage."
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "title": "23+ Legal Marketing Statistics Backed by Real Data 2026",
+      "publisher": "Ruler Analytics",
+      "source_type": "Vendor benchmark",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Legal organic conversion 7.3% (2026) and 3.0% (2025 table), overall 7.9%, 56.3% of conversions by phone, dataset size",
+      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "limitations": "Vendor customer data across 13 industries; legal-only sample not disclosed; year-to-year cohort not controlled.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/7576553",
+      "title": "Performance report (Search results) - Search Console Help",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Definitions of impressions, clicks, CTR, and average position",
+      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "limitations": "Documentation, not a benchmark.",
+      "verified": true
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "title": "AI-powered legal practices surge: Clio's latest Legal Trends Report reveals major shift",
+      "publisher": "Clio via PR Newswire",
+      "source_type": "Vendor press release",
+      "year": "2024",
+      "published_at": "2024-10-07",
+      "accessed_at": "2026-10-12",
+      "scope": "2024 secret-shopper study of 500 firms: phone answer, unreachable, email response, website hiring guidance and pricing visibility",
+      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "limitations": "Vendor-commissioned; full method and fieldwork agency not stated in the release.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
-      "sponsored": false,
+      "claim": "Legal organic search converts at 7.3% (2026); the page table lists 3.0% for 2025.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Ruler Analytics legal customers",
+      "sample": "Not published for legal; 110M+ sessions across 13 industries",
+      "denominator": "Organic sessions",
+      "unit": "Percent",
+      "method": "Vendor analytics data",
+      "limitations": "Cohort not shown to be constant between years.",
+      "sponsored": true,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Legal overall conversion rate is 7.9%; 56.3% of legal conversions happen by phone.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Ruler Analytics legal customers",
+      "sample": "Not published for legal",
+      "denominator": "Sessions; tracked conversions",
+      "unit": "Percent",
+      "method": "Vendor analytics data",
+      "limitations": "Vendor dataset.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "40% of firms answered calls; 48% were essentially unreachable by phone; 33% of 500 firms emailed replied.",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "U.S. law firms in secret-shopper sample",
+      "sample": "500 firms",
+      "denominator": "Firms contacted",
+      "unit": "Percent",
+      "method": "Secret-shopper study",
+      "limitations": "Vendor-commissioned; selection method not published in the release.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "SEO Stats for Lawyers: Key Insights to Drive Growth in 2025",
+      "url": "https://www.eversparkinteractive.com/blog/seo-stats-for-attorneys-2025/",
+      "publisher": "Everspark Interactive",
+      "format": "Agency statistics roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "SEO statistics"
+      ],
+      "coverage": [
+        "Search behavior stats"
+      ],
+      "sources": [
+        "Third-party studies"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks first for the exact phrase.",
+      "gaps": "Dated 2025; agency sales angle; no intake join."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Top 40+ Law Firm Marketing Statistics for 2026",
+      "url": "https://www.mycase.com/blog/law-firm-marketing/law-firm-marketing-statistics/",
+      "publisher": "MyCase",
+      "format": "Statistics roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Marketing statistics"
+      ],
+      "coverage": [
+        "Broad marketing stats"
+      ],
+      "sources": [
+        "Third-party studies"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Broad and current.",
+      "gaps": "Not SEO-specific; no stage definitions."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "92 Legal Marketing Statistics for 2026",
+      "url": "https://seoprofy.com/blog/legal-marketing-statistics/",
+      "publisher": "SEOProfy",
+      "format": "Statistics roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "SEO",
+        "PPC",
+        "Website"
+      ],
+      "coverage": [
+        "Marketing stats"
+      ],
+      "sources": [
+        "Third-party studies"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Volume of figures.",
+      "gaps": "Secondary citations; no measurement method."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firm SEO: Top Tactics, Average Costs, & What to Avoid",
+      "url": "https://www.semrush.com/blog/law-firm-seo/",
+      "publisher": "Semrush",
+      "format": "Tool-vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Tactics",
+        "Costs",
+        "Mistakes"
+      ],
+      "coverage": [
+        "SEO tactics"
+      ],
+      "sources": [
+        "Semrush data"
+      ],
+      "data_assets": [
+        "Screenshots"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Strong tactical guidance.",
+      "gaps": "Tactics, not reporting; no intake outcomes."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "SEO Stats for Attorneys: Real Client Data & Insights",
+      "url": "https://themediacaptain.com/seo-stats-for-law-firms/",
+      "publisher": "The Media Captain",
+      "format": "Agency client data",
+      "updated_at": "Not stated",
+      "headings": [
+        "Client data"
+      ],
+      "coverage": [
+        "Agency client results"
+      ],
+      "sources": [
+        "Agency clients"
+      ],
+      "data_assets": [
+        "Charts"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Title and SERP position from Ubersuggest"
+      ],
+      "covered_well": "Uses first-party agency data.",
+      "gaps": "Small agency sample; not representative."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Few pages assign each SEO metric to a funnel stage with its limits.",
+    "No reviewed page warns against reading Ruler 2025 and 2026 values as a controlled trend.",
+    "No reviewed page shows a privacy-safe join of Search Console and intake data.",
+    "No reviewed page pairs SEO reporting with intake response evidence."
+  ],
+  "value_add": "A stage-by-stage SEO measurement funnel, source-labeled benchmarks with year and cohort caveats, a branded and nonbranded reporting rule, a monthly scorecard, three attribution views, and a 2027 checklist.",
   "plan": {
-    "reader_title": "Law Firm SEO Statistics for Organic Lead Reporting",
+    "reader_title": "Law Firm SEO Statistics: What Organic Reports Should Measure",
     "seo_title": "Law Firm SEO Statistics for Organic Lead Reporting",
-    "meta_description": "",
+    "meta_description": "Use law firm SEO statistics for 2026–2027 with clear benchmarks, funnel definitions, and a scorecard tied to intake.",
     "slug": "/legal-marketing/law-firm-seo-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "legal organic search traffic",
+      "attorney SEO leads"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "Which SEO Metrics Belong at Each Stage?",
+      "What the Public Organic Benchmark Shows",
+      "Why Rankings Do Not Equal New Clients",
+      "How Search Console and Intake Data Should Join",
+      "How to Measure Branded and Nonbranded Search",
+      "What a Monthly SEO Scorecard Should Include",
+      "How Attribution Can Mislead SEO Reporting",
+      "Connecting SEO With Client Acquisition",
+      "What Public Evidence Cannot Establish",
+      "A 2027 Organic Reporting Checklist",
+      "The Bottom Line for 2026–2027",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Which SEO Metrics Belong at Each Stage?",
+        "sources": [
+          "https://support.google.com/webmasters/answer/7576553"
+        ]
+      },
+      {
+        "section": "What the Public Organic Benchmark Shows",
+        "sources": [
+          "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/"
+        ]
+      },
+      {
+        "section": "Why Rankings Do Not Equal New Clients",
+        "sources": [
+          "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html"
+        ]
+      }
+    ],
+    "visuals": [
+      "SEO funnel stage table",
+      "Monthly dataset field table",
+      "Featured image"
+    ],
     "internal_links": [
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
       "/legal-marketing/law-firm-social-media-statistics/",
       "/law-firms/law-firm-client-acquisition-statistics/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://support.google.com/webmasters/answer/7576553",
+      "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html"
+    ],
+    "excluded_claims": [
+      "Clio guide URL from the source draft (blocked; replaced by PR Newswire release)",
+      "52% reachable by phone (restated as 48% unreachable from the release)",
+      "Any Verdict Point first-party SEO performance"
+    ],
+    "drafting_cautions": [
+      "Do not present 3.0% to 7.3% as growth",
+      "Use Search Console definitions exactly",
+      "Label vendor data and years"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Ruler Analytics reports 7.3% legal organic conversion (2026), lists 3.0% for 2025, 7.9% overall, and 56.3% of conversions by phone.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "verified": true
+    },
+    {
+      "statement": "Search Console defines impressions, clicks, CTR, and average position.",
+      "source_url": "https://support.google.com/webmasters/answer/7576553",
+      "verified": true
+    },
+    {
+      "statement": "Clio's 2024 secret-shopper study found 40% of firms answered calls, 48% were unreachable by phone, and 33% of 500 firms emailed replied.",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "verified": true
     }
   ],
   "fact_check": {
