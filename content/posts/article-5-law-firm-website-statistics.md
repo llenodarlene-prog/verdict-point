@@ -15,6 +15,8 @@ silo_role: Supporting
 approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/mycase-legal-software/
 research_record: content/research/article-5.json
 source_document: https://docs.google.com/document/d/1qRXGX8wRWIR7yq5loSZRU4J7XXNQOoY1CBxHDYkPkok/edit?usp=drivesdk
+image: /assets/images/posts/lawpay-legal-payments-fees/payment-terminal-laptop-marble-desk-1600.jpg
+image_alt: Laptop showing a website analytics dashboard beside a leather folder and card terminal on a marble desk in a sunlit office
 author: Darlene Aberin
 published: 2026-10-12
 modified: 2026-10-12
