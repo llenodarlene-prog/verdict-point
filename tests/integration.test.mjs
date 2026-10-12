@@ -172,3 +172,35 @@ test('staging builds keep drafts available but noindex', () => withLaunch(async 
   assert.match(home, /<meta name="robots" content="noindex,nofollow,noarchive">/);
   assert.doesNotMatch(await readFile(path.join(root, 'dist/sitemap.xml'), 'utf8'), new RegExp(draft));
 }));
+
+const runDated = (script, cwd, PUBLISH_DATE, BUILD_ENV = 'production') => spawnSync(process.execPath, [path.resolve(script)], { cwd, encoding: 'utf8', env: { ...process.env, BUILD_ENV, PUBLISH_DATE } });
+const schedule = async (file, date) => writeFile(file, (await readFile(file, 'utf8')).replace(/^published: .+$/m, `published: ${date}`).replace(/^modified: .+$/m, `modified: ${date}`));
+
+test('a post scheduled for a future date stays out of production until that date', () => withLaunch(async ({ root }) => {
+  const { slug } = await publishFixtureArticle(root);
+  await schedule(path.join(root, 'content/posts/published-fixture.md'), '2030-01-15');
+  for (const script of ['scripts/build.mjs', 'scripts/check.mjs']) { const result = runDated(script, root, '2030-01-14'); assert.equal(result.status, 0, result.stderr); }
+  await assert.rejects(stat(path.join(root, 'dist', slug, 'index.html')));
+  assert.equal((await readFile(path.join(root, 'dist/sitemap.xml'), 'utf8')).includes(slug), false);
+  assert.match(runDated('scripts/check-release.mjs', root, '2030-01-14').stdout, /1 published item\(s\)/);
+  assert.equal(runDated('scripts/build.mjs', root, '2030-01-15').status, 0);
+  await stat(path.join(root, 'dist', slug, 'index.html'));
+  assert.match(await readFile(path.join(root, 'dist/sitemap.xml'), 'utf8'), new RegExp(slug));
+}));
+
+test('staging previews a scheduled post before its date', () => withLaunch(async ({ root }) => {
+  const { slug } = await publishFixtureArticle(root);
+  await schedule(path.join(root, 'content/posts/published-fixture.md'), '2030-01-15');
+  assert.equal(runDated('scripts/build.mjs', root, '2030-01-14', 'staging').status, 0);
+  await stat(path.join(root, 'dist', slug, 'index.html'));
+}));
+
+test('two articles on the same publication date fail the cadence check', () => withLaunch(async ({ root }) => {
+  await publishFixtureArticle(root);
+  const fixture = path.join(root, 'content/posts/published-fixture.md');
+  const copy = path.join(root, 'content/posts/published-fixture-copy.md');
+  await schedule(fixture, '2030-01-15');
+  await writeFile(copy, (await readFile(fixture, 'utf8')).replace(/^slug: (.+)$/m, 'slug: $1copy/'));
+  const result = run('scripts/check-content.mjs', root);
+  assert.match(result.stderr, /publication cadence: 2030-01-15: article scheduled more than once per day/);
+}));

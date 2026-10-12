@@ -2,6 +2,7 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { readContent } from './lib/content.mjs';
 import { auditCitations, compileKillPattern, validateResearchRecord } from './lib/workflow.mjs';
+import { cadenceViolations } from './lib/schedule.mjs';
 
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 async function walk(dir) {
@@ -22,6 +23,7 @@ const authorList = Object.values(authors || {});
 const assetList = Array.isArray(assets) ? assets : Object.values(assets || {});
 const files = (await walk('content')).filter(file => file.endsWith('.md'));
 let publishedChecked = 0;
+const cadencePosts = [];
 const titleStopWords = new Set(['a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into', 'nor', 'of', 'on', 'or', 'per', 'the', 'to', 'via', 'vs', 'with', 'without']);
 const isTitleCase = heading => heading.split(/\s+/).every((token, index, words) => {
   const word = token.replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g, '');
@@ -32,6 +34,7 @@ const isTitleCase = heading => heading.split(/\s+/).every((token, index, words) 
 
 for (const file of files) {
   const { metadata, body } = await readContent(file);
+  cadencePosts.push({ file, metadata });
   if (metadata.draft === true || !['article', 'blog'].includes(lower(metadata.type))) continue;
   publishedChecked += 1;
   const trackerId = norm(metadata.tracker_id);
@@ -142,5 +145,6 @@ for (const file of files) {
     }
   }
 }
+for (const message of cadenceViolations(cadencePosts)) fail(`publication cadence: ${message}`);
 if (failures.length) { console.error([...new Set(failures)].map(message => `ERROR: ${message}`).join('\n')); process.exit(1); }
 console.log(`Validated ${publishedChecked} published content items; skipped ${files.length - publishedChecked} pages or drafts.`);
