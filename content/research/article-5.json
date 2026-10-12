@@ -5,7 +5,7 @@
     "purpose": "Help firms read published website and intake benchmarks without mixing visits, conversions, qualified inquiries, consultations, and signed matters, and show how to build a first-party benchmark.",
     "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms planning 2027 reporting.",
     "publication_year": "2026",
-    "data_period": "Ruler Analytics 2026 benchmark; Clio secret-shopper study June 20 to July 5, 2024; Google Search Console documentation current October 2026",
+    "data_period": "Ruler Analytics 2026 benchmark; Clio 2024 secret-shopper study (press release October 7, 2024); Google Search Console documentation current October 2026",
     "scope_limitations": "Desk research from public pages, corroborated through web search because the pages could not be opened directly. No proprietary Verdict Point data; no consented analytics sample was available, so the tracker plan for one is not met and is disclosed in the article."
   },
   "keyword_research": {
@@ -94,21 +94,21 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Legal conversion rate, organic conversion, call versus form share; dataset size",
-      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "method": "Opened and read the live page on 2026-10-12 (AI QA); fact-check by Darlene Aberin on 2026-10-12.",
       "limitations": "Vendor customer data across 13 industries; legal firm count and geography not published.",
       "verified": true
     },
     {
-      "url": "https://www.clio.com/blog/highlights-from-2024-legal-trends-report/",
-      "title": "It's Here: The Newest Legal Trends Report (2024 highlights)",
-      "publisher": "Clio",
-      "source_type": "Vendor research summary",
+      "url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "title": "AI-powered legal practices surge: Clio's latest Legal Trends Report reveals major shift",
+      "publisher": "Clio via PR Newswire",
+      "source_type": "Vendor press release",
       "year": "2024",
-      "published_at": "Not stated",
+      "published_at": "2024-10-07",
       "accessed_at": "2026-10-12",
-      "scope": "Secret-shopper study of 500 firms by Lux, June 20 to July 5, 2024: hiring clarity, pricing visibility, phone and email response",
-      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
-      "limitations": "Vendor-commissioned; Clio press material also mentions 1,000 firms contacted, so sample sizes need checking against the full report.",
+      "scope": "2024 secret-shopper study of 500 firms: phone answer, unreachable, email response, website hiring guidance and pricing visibility",
+      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "limitations": "Vendor-commissioned; full method and fieldwork agency not stated in the release.",
       "verified": true
     },
     {
@@ -120,7 +120,7 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "What the Search Console performance report measures",
-      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "method": "Opened and read the live page on 2026-10-12 (AI QA); fact-check by Darlene Aberin on 2026-10-12.",
       "limitations": "Documentation, not a benchmark.",
       "verified": true
     }
@@ -159,7 +159,7 @@
       "verified": true
     },
     {
-      "claim": "56.3% of tracked legal conversions are calls; 43.7% forms.",
+      "claim": "56.3% of tracked legal conversions are calls.",
       "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
       "data_year": "2026",
       "geography": "Not stated",
@@ -176,14 +176,14 @@
     },
     {
       "claim": "30% of firm websites gave clear hiring guidance; 14% showed pricing.",
-      "source_url": "https://www.clio.com/blog/highlights-from-2024-legal-trends-report/",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
       "data_year": "2024",
       "geography": "United States",
       "population": "U.S. law firms in secret-shopper sample",
       "sample": "500 firms",
       "denominator": "Firms shopped",
       "unit": "Percent",
-      "method": "Secret-shopper study by Lux",
+      "method": "Secret-shopper study",
       "limitations": "Vendor-commissioned; selection method not reviewed.",
       "sponsored": true,
       "partial_year": false,
@@ -192,14 +192,14 @@
     },
     {
       "claim": "40% of firms answered the phone; 33% replied to email.",
-      "source_url": "https://www.clio.com/blog/highlights-from-2024-legal-trends-report/",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
       "data_year": "2024",
       "geography": "United States",
       "population": "U.S. law firms in secret-shopper sample",
-      "sample": "500 firms (check: press material mentions 1,000)",
+      "sample": "500 firms",
       "denominator": "Firms contacted",
       "unit": "Percent",
-      "method": "Secret-shopper study by Lux",
+      "method": "Secret-shopper study",
       "limitations": "Sample size wording differs between Clio pages.",
       "sponsored": true,
       "partial_year": false,
@@ -400,7 +400,7 @@
       {
         "section": "Where Websites Lose Prospective Clients",
         "sources": [
-          "https://www.clio.com/blog/highlights-from-2024-legal-trends-report/"
+          "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html"
         ]
       },
       {
@@ -422,7 +422,7 @@
     ],
     "external_link_opportunities": [
       "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
-      "https://www.clio.com/blog/highlights-from-2024-legal-trends-report/",
+      "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
       "https://support.google.com/webmasters/answer/7576553"
     ],
     "excluded_claims": [
@@ -445,7 +445,7 @@
     },
     {
       "statement": "Clio's 2024 secret-shopper study of 500 firms found 30% hiring clarity, 14% pricing visibility, 40% phone pickup, and 33% email response.",
-      "source_url": "https://www.clio.com/blog/highlights-from-2024-legal-trends-report/",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
       "verified": true
     },
     {

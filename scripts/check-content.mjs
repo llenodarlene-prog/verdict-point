@@ -2,6 +2,7 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { readContent } from './lib/content.mjs';
 import { auditCitations, compileKillPattern, validateResearchRecord } from './lib/workflow.mjs';
+import { cadenceViolations } from './lib/schedule.mjs';
 
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 async function walk(dir) {
@@ -22,6 +23,7 @@ const authorList = Object.values(authors || {});
 const assetList = Array.isArray(assets) ? assets : Object.values(assets || {});
 const files = (await walk('content')).filter(file => file.endsWith('.md'));
 let publishedChecked = 0;
+const cadencePosts = [];
 const titleStopWords = new Set(['a', 'an', 'and', 'as', 'at', 'but', 'by', 'for', 'from', 'in', 'into', 'nor', 'of', 'on', 'or', 'per', 'the', 'to', 'via', 'vs', 'with', 'without']);
 const isTitleCase = heading => heading.split(/\s+/).every((token, index, words) => {
   const word = token.replace(/^[^A-Za-z0-9]+|[^A-Za-z0-9]+$/g, '');
@@ -32,6 +34,7 @@ const isTitleCase = heading => heading.split(/\s+/).every((token, index, words) 
 
 for (const file of files) {
   const { metadata, body } = await readContent(file);
+  cadencePosts.push({ file, metadata });
   if (metadata.draft === true || !['article', 'blog'].includes(lower(metadata.type))) continue;
   publishedChecked += 1;
   const trackerId = norm(metadata.tracker_id);
@@ -90,9 +93,11 @@ for (const file of files) {
   for (let index = 0; index < lines.length; index += 1) {
     const line = lines[index].trim();
     const previous = lines.slice(0, index).reverse().find(value => value.trim())?.trim() || '';
-    if (/^#{2,3}\s+/.test(line) && /^#{1,3}\s+/.test(previous)) fail(`${file}: adjacent headings need contextual copy (${line})`);
+    // Key Takeaways, Key Statistics and Data, and the FAQ open directly with their bullets or questions, with no intro line.
+    const summaryStart = /^##\s+(?:Key Takeaways|Key Statistics and Data|Frequently Asked Questions)\s*$/.test(previous);
+    if (/^#{2,3}\s+/.test(line) && /^#{1,3}\s+/.test(previous) && !(summaryStart && /^###\s+/.test(line))) fail(`${file}: adjacent headings need contextual copy (${line})`);
     const startsBlock = /^###\s+/.test(line) || (/^[-*]\s+/.test(line) && !/^[-*]\s+/.test(previous)) || (line.startsWith('|') && /^\s*\|?(?:\s*:?-+:?\s*\|)+/.test(lines[index + 1] || ''));
-    if (startsBlock && (!previous || /^#{1,3}\s+|^[-*]\s+|^\|/.test(previous))) fail(`${file}: add contextual prose before ${line.slice(0, 60)}`);
+    if (startsBlock && !summaryStart && (!previous || /^#{1,3}\s+|^[-*]\s+|^\|/.test(previous))) fail(`${file}: add contextual prose before ${line.slice(0, 60)}`);
     if (/^[-*]\s+/.test(line) && !/^[-*]\s+\*\*[^*]+\*\*[:.]?\s+\S+/.test(line)) fail(`${file}: body bullet needs a bold lead and complete explanation (${line.slice(0, 60)})`);
     if (line.startsWith('|')) {
       const cells = line.split('|').slice(1, -1).map(cell => cell.trim());
@@ -142,5 +147,6 @@ for (const file of files) {
     }
   }
 }
+for (const message of cadenceViolations(cadencePosts)) fail(`publication cadence: ${message}`);
 if (failures.length) { console.error([...new Set(failures)].map(message => `ERROR: ${message}`).join('\n')); process.exit(1); }
 console.log(`Validated ${publishedChecked} published content items; skipped ${files.length - publishedChecked} pages or drafts.`);

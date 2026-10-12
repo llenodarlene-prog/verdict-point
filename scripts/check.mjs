@@ -1,5 +1,7 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
+import { readContent } from './lib/content.mjs';
+import { isScheduled, publishDate } from './lib/schedule.mjs';
 
 const dist = path.resolve('dist');
 const site = JSON.parse(await readFile('data/site.json', 'utf8'));
@@ -59,12 +61,13 @@ if (!/<updated>[^<]+<\/updated>/.test(feed)) failures.push('feed.xml missing upd
 const robotsText = await readFile(path.join(dist, 'robots.txt'), 'utf8').catch(() => '');
 if (shouldIndex && !robotsText.includes(`Sitemap: ${site.url}/sitemap.xml`)) failures.push('production robots.txt lacks canonical sitemap');
 if (!shouldIndex && !/Allow:\s*\//.test(robotsText)) failures.push('non-indexable robots.txt must remain crawlable for noindex discovery');
-// Production must not expose drafts anywhere: no page, link, listing, sitemap or feed entry, or structured-data URL.
+// Production must not expose drafts or not-yet-due scheduled posts anywhere: no page, link, listing, sitemap or feed entry, or structured-data URL.
 if (buildEnv === 'production') {
   const draftRoutes = [];
+  const today = publishDate();
   for (const file of (await walk('content').catch(() => [])).filter(item => item.endsWith('.md'))) {
-    const head = (await readFile(file, 'utf8')).split(/\n---\n/)[0];
-    if (/^draft:\s*true\s*$/m.test(head)) { const slug = head.match(/^slug:\s*(\S+)\s*$/m)?.[1]; if (slug) draftRoutes.push(slug); }
+    const { metadata } = await readContent(file);
+    if ((metadata.draft === true || isScheduled(metadata, today)) && metadata.slug) draftRoutes.push(metadata.slug);
   }
   const htmlByFile = await Promise.all(htmlFiles.map(async file => [path.relative(dist, file), await readFile(file, 'utf8')]));
   for (const route of draftRoutes) {
