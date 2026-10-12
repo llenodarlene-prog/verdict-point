@@ -15,6 +15,8 @@ silo_role: Commercial Support
 approved_internal_links: /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/
 research_record: content/research/blog-5.json
 source_document: https://docs.google.com/document/d/1K08sQoII6BEkiBMgp6Cfl2TRc-nDMPUhdeJtHpdbf1E/edit?usp=drivesdk
+image: /assets/images/posts/lawpay-legal-payments-fees/payment-terminal-laptop-marble-desk-1600.jpg
+image_alt: Leather invoice folder with a pen, a card payment terminal, and a laptop showing a payments dashboard on a marble desk in a sunlit office
 author: Darlene Aberin
 published: 2026-10-12
 modified: 2026-10-12
