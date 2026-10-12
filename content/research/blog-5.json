@@ -94,7 +94,7 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Monthly subscription, card and eCheck rates, pass-through allocation, foreign-card adjustment, Pay Later rate",
-      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "method": "Opened and read the live page on 2026-10-12 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
       "limitations": "Marketing page; terms can change; allocation stated as changeable at LawPay discretion. Third-party pages list an older $4.99 allocation.",
       "verified": true
     },
@@ -107,7 +107,7 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Pay Later processing fee, no-surcharge rule, Affirm financing, ACH funding timing",
-      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "method": "Opened and read the live page on 2026-10-12 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
       "limitations": "Some older LawPay pages show 4.95%; the help article is treated as current. Older URL slug (client-financing-pay-later-basics) also exists.",
       "verified": true
     },
@@ -120,8 +120,21 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "How Scheduled Payments work and how they differ from Pay Later",
-      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "method": "Opened and read the live page on 2026-10-12 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
       "limitations": "Product documentation; does not state fees.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawpay.com/features/credit-card-processing/",
+      "title": "Law Firm Credit Card Processing",
+      "publisher": "LawPay (8am)",
+      "source_type": "Vendor feature page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Still lists the legal fee lending solution (Pay Later) at 4.95%",
+      "method": "Opened and read the live page on 2026-10-12 (Claude fact-check).",
+      "limitations": "Conflicts with the pricing page and Pay Later help article (5.95%); not linked in the body.",
       "verified": true
     }
   ],
