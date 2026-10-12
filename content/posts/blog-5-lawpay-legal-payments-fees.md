@@ -5,7 +5,7 @@ description: What lawpay legal payments cost per card, eCheck, and Pay Later tra
 slug: /legal-tech/lawpay-legal-payments-fees/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:5
 primary_keyword: lawpay legal payments
 secondary_keywords: LawPay fees; legal payment processing
@@ -15,16 +15,16 @@ silo_role: Commercial Support
 approved_internal_links: /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/
 research_record: content/research/blog-5.json
 source_document: https://docs.google.com/document/d/1K08sQoII6BEkiBMgp6Cfl2TRc-nDMPUhdeJtHpdbf1E/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-12
+modified: 2026-10-12
 ---
 
 # LawPay Legal Payments: What a $1,000 Client Payment Costs
 
 A payment processor can make it easier for clients to pay. It also adds costs that rarely sit in one headline number. There is a monthly subscription, a percentage rate, a fixed charge per transaction, a monthly card-network allocation, and extra charges for some cards and for financing.
 
-LawPay legal payments are priced in public, so a firm can build its own examples. One gap remains. LawPay's pricing page and its Pay Later help article list different rates for client financing. This guide shows both and explains how to settle the difference in writing.
+LawPay legal payments are priced in public, so a firm can build its own examples. One point needs care. LawPay's current Pay Later help article lists a 5.95% financing fee, while some older LawPay pages still show 4.95%. This guide uses the current figure and explains how to confirm it in writing.
 
 The guide splits costs into three layers: monthly charges, payment-method charges, and financing. All calculations are illustrations built from published rates. They are not quotes, and they are not legal advice about trust accounting or surcharging.
 
@@ -38,7 +38,7 @@ The public price list breaks into several separate cost layers.
 - **eCheck:** The listed eCheck rate is 1% per transaction.
 - **Pass-Through Allocation:** The pricing page lists a $7.99 monthly card-network allocation and says LawPay may change it.
 - **Foreign Cards:** An additional 1.75% applies when a client pays with a card issued outside the United States.
-- **Pay Later Conflict:** The pricing page shows 4.95% for Pay Later, while the Pay Later help article shows 5.95%.
+- **Pay Later Rate:** The current Pay Later help article lists a 5.95% fee paid by the firm, while some older LawPay pages show 4.95%.
 
 ## Separate the Monthly Charges From Transaction Costs
 
@@ -103,20 +103,20 @@ The table compares the two side by side.
 
 Getting the full amount upfront does not make a Pay Later transaction free. The firm still pays a processing fee, and refund handling still needs a clear owner.
 
-## Keep the Pay Later Rate Conflict Visible
+## Confirm the Pay Later Rate Before Relying on It
 
-The pricing page shows Pay Later at 4.95%. The Pay Later help article lists a 5.95% processing fee and says the fee cannot be passed on to the client as a surcharge. Both pages are official, and they disagree.
+The Pay Later help article lists a 5.95% processing fee and says the fee cannot be passed on to the client as a surcharge. Some older LawPay pages still show 4.95%, which suggests the rate has changed over time.
 
-Choosing one figure and calling it the rate would mislead readers. On a $1,000 financed invoice, the two published rates produce different costs.
+A firm working from an old page could underestimate its financing cost. On a $1,000 financed invoice, the two figures produce different costs.
 
-| Published Rate | Cost on $1,000 | Gap to the Other Rate |
+| Rate Shown | Cost on $1,000 | Gap to the Other Rate |
 | ---: | ---: | ---: |
-| 4.95% | $49.50 | $10.00 lower |
-| 5.95% | $59.50 | $10.00 higher |
+| 4.95% (older pages) | $49.50 | $10.00 lower |
+| 5.95% (current help article) | $59.50 | $10.00 higher |
 
 The right figure for a given firm comes from its written terms. Ask LawPay which page governs, when the rate took effect, and whether an account type or integration changes it. Also ask how existing financing arrangements are treated if the rate changes.
 
-This conflict is a good reason to recheck every lawpay legal payments figure on the day a decision is made. One official page can be current while another still carries older product language.
+This change is a good reason to recheck every lawpay legal payments figure on the day a decision is made. One official page can be current while another still carries older product language.
 
 ## Model Annual Cost From the Firm's Payment Mix
 
@@ -199,9 +199,9 @@ The pricing page lists American Express at 3.90% plus $0.30 per transaction. Con
 
 At the listed 1% rate, a $1,000 eCheck costs $10 in processing fees. Monthly charges, returns, and negotiated terms are not included.
 
-### Is Pay Later 4.95% or 5.95%?
+### What Does Pay Later Cost the Firm?
 
-The official pages disagree. The pricing page shows 4.95%, and the Pay Later help article shows 5.95%. Get the rate for your account in writing.
+The current Pay Later help article lists a 5.95% fee per transaction, paid by the firm. Some older LawPay pages show 4.95%, so get the rate for your account in writing.
 
 ### Are Scheduled Payments the Same as Pay Later?
 

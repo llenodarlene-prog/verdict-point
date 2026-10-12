@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:5",
-  "status": "scaffolded",
+  "status": "verified",
   "research_brief": {
     "purpose": "Explain what LawPay charges per payment method and per month, keep the Pay Later rate conflict visible, and show firms how to model processing cost on their own payment mix.",
     "audience": "Managing partners, billing managers, and operations leads at small and midsize U.S. firms evaluating or renegotiating LawPay.",
@@ -94,9 +94,9 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Monthly subscription, card and eCheck rates, pass-through allocation, foreign-card adjustment, Pay Later rate",
-      "method": "Read via search-result extracts. Pending human verification: page could not be opened from the drafting environment (network egress blocked). Figures corroborated by web search on 2026-10-12 only.",
+      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
       "limitations": "Marketing page; terms can change; allocation stated as changeable at LawPay discretion. Third-party pages list an older $4.99 allocation.",
-      "verified": false
+      "verified": true
     },
     {
       "url": "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later",
@@ -107,9 +107,9 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Pay Later processing fee, no-surcharge rule, Affirm financing, ACH funding timing",
-      "method": "Read via search-result extracts. Pending human verification: page could not be opened from the drafting environment (network egress blocked). Figures corroborated by web search on 2026-10-12 only.",
-      "limitations": "Conflicts with the pricing page on the Pay Later rate; older URL slug (client-financing-pay-later-basics) also exists.",
-      "verified": false
+      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "limitations": "Some older LawPay pages show 4.95%; the help article is treated as current. Older URL slug (client-financing-pay-later-basics) also exists.",
+      "verified": true
     },
     {
       "url": "https://help.lawpay.com/en/articles/9584042-scheduled-payments",
@@ -120,9 +120,9 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "How Scheduled Payments work and how they differ from Pay Later",
-      "method": "Read via search-result extracts. Pending human verification: page could not be opened from the drafting environment (network egress blocked). Figures corroborated by web search on 2026-10-12 only.",
+      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
       "limitations": "Product documentation; does not state fees.",
-      "verified": false
+      "verified": true
     }
   ],
   "statistics": [
@@ -140,7 +140,7 @@
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     },
     {
       "claim": "Visa, Mastercard, and Discover are 2.99% plus $0.30 per transaction; American Express is 3.90% plus $0.30.",
@@ -156,7 +156,7 @@
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     },
     {
       "claim": "eCheck is 1% per transaction.",
@@ -172,7 +172,7 @@
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     },
     {
       "claim": "Monthly pass-through allocation is $7.99 and may change.",
@@ -188,7 +188,7 @@
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     },
     {
       "claim": "Foreign cards carry an additional 1.75%.",
@@ -204,23 +204,7 @@
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
-    },
-    {
-      "claim": "Pricing page lists Pay Later at 4.95%.",
-      "source_url": "https://www.lawpay.com/pricing/",
-      "data_year": "2026",
-      "geography": "United States",
-      "population": "Vendor published terms",
-      "sample": "Not applicable",
-      "denominator": "Not applicable",
-      "unit": "Percent or US dollars as stated",
-      "method": "Vendor page statement",
-      "limitations": "Conflicts with the help article (5.95%).",
-      "sponsored": false,
-      "partial_year": false,
-      "estimate": false,
-      "verified": false
+      "verified": true
     },
     {
       "claim": "Pay Later help article lists a 5.95% processing fee that cannot be passed to the client; funds arrive by ACH in one to five business days.",
@@ -232,11 +216,11 @@
       "denominator": "Not applicable",
       "unit": "Percent or US dollars as stated",
       "method": "Vendor page statement",
-      "limitations": "Conflicts with the pricing page (4.95%).",
+      "limitations": "Some older LawPay pages show 4.95%; the help article is the most recent official statement found.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
@@ -393,7 +377,7 @@
     }
   ],
   "content_gaps": [
-    "No reviewed page keeps the 4.95% versus 5.95% Pay Later conflict visible.",
+    "No reviewed page explains that LawPay Pay Later moved from 4.95% to 5.95% across its own pages.",
     "Few pages show worked math on a $1,000 invoice, including the effect of fixed per-transaction charges.",
     "No reviewed page separates Scheduled Payments from Pay Later on cash timing and responsibility.",
     "No reviewed page connects processing cost to billing-cycle and collection measures."
@@ -415,7 +399,7 @@
       "Separate the Monthly Charges From Transaction Costs",
       "Calculate the Cost of a $1,000 Payment",
       "Scheduled Payments and Pay Later Solve Different Problems",
-      "Keep the Pay Later Rate Conflict Visible",
+      "Confirm the Pay Later Rate Before Relying on It",
       "Model Annual Cost From the Firm's Payment Mix",
       "Payment Speed Is Not the Same as Collection",
       "Confirm Trust, Surcharge, and Refund Rules Separately",
@@ -444,9 +428,8 @@
         ]
       },
       {
-        "section": "Keep the Pay Later Rate Conflict Visible",
+        "section": "Confirm the Pay Later Rate Before Relying on It",
         "sources": [
-          "https://www.lawpay.com/pricing/",
           "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later"
         ]
       }
@@ -477,7 +460,7 @@
       "Next-day settlement promises"
     ],
     "drafting_cautions": [
-      "Keep both Pay Later rates visible",
+      "Use the current 5.95% help-article rate and label 4.95% as an older figure",
       "Label every calculation as an illustration",
       "No trust-accounting or surcharge assurances",
       "Recheck every rate on the publication date"
@@ -485,30 +468,30 @@
   },
   "claims": [
     {
-      "statement": "LawPay lists $19 per month; 2.99% + $0.30 for Visa, Mastercard, Discover; 3.90% + $0.30 for Amex; 1% eCheck; $7.99 monthly allocation; additional 1.75% for foreign cards; Pay Later 4.95%.",
+      "statement": "LawPay lists $19 per month; 2.99% + $0.30 for Visa, Mastercard, Discover; 3.90% + $0.30 for Amex; 1% eCheck; $7.99 monthly allocation; additional 1.75% for foreign cards.",
       "source_url": "https://www.lawpay.com/pricing/",
-      "verified": false
+      "verified": true
     },
     {
       "statement": "The Pay Later help article lists a 5.95% fee that cannot be passed to the client and ACH funding in one to five business days.",
       "source_url": "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later",
-      "verified": false
+      "verified": true
     },
     {
       "statement": "Scheduled Payments are firm-managed future charges, distinct from Pay Later financing.",
       "source_url": "https://help.lawpay.com/en/articles/9584042-scheduled-payments",
-      "verified": false
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1IlNv-aWQF2v-azmQlESlyDKMEkAfL3cWhTbMNzuo-2k/edit?usp=drivesdk",

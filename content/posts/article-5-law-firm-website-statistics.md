@@ -5,7 +5,7 @@ description: Use law firm website statistics for 2026–2027 without confusing v
 slug: /legal-marketing/law-firm-website-statistics/
 type: article
 schema: Article
-draft: true
+draft: false
 tracker_id: Article:5
 primary_keyword: law firm website statistics
 secondary_keywords: law firm website conversion; attorney website user experience
@@ -15,9 +15,9 @@ silo_role: Supporting
 approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/mycase-legal-software/
 research_record: content/research/article-5.json
 source_document: https://docs.google.com/document/d/1qRXGX8wRWIR7yq5loSZRU4J7XXNQOoY1CBxHDYkPkok/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-12
+modified: 2026-10-12
 ---
 
 # Law Firm Website Statistics: From Visits to Qualified Inquiries
