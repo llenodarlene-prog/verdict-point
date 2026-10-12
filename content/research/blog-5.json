@@ -1,241 +1,503 @@
 {
   "tracker_id": "Blog:5",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: LawPay Legal Payments: Fees and Collection Costs. Planned sources and method: LawPay official fee disclosures and payment documentation. Build a source-labelled comparison covering LawPay fees and legal payment processing; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Explain what LawPay charges per payment method and per month, keep the Pay Later rate conflict visible, and show firms how to model processing cost on their own payment mix.",
+    "audience": "Managing partners, billing managers, and operations leads at small and midsize U.S. firms evaluating or renegotiating LawPay.",
+    "publication_year": "2026",
+    "data_period": "LawPay pricing page and Help Center articles as described on October 12, 2026",
+    "scope_limitations": "Desk research from public LawPay pages, corroborated through web search because the pages could not be opened directly. No quote requested, no account opened. Calculations are illustrations. No legal, trust-accounting, or surcharge advice."
   },
   "keyword_research": {
     "approved_primary_keyword": "lawpay legal payments",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-12",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-12"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result (volume 0) retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "lawpay",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 14800,
+        "difficulty": 41,
+        "cpc": 11.87,
+        "intent": "Navigational",
+        "ranking_url": "https://www.lawpay.com/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "lawpay processing fees",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 17,
+        "cpc": 54.66,
+        "intent": "Informational",
+        "ranking_url": "https://www.lawpay.com/pricing/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "lawpay pricing",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 90,
+        "difficulty": 34,
+        "cpc": 13.76,
+        "intent": "Commercial Investigation",
+        "ranking_url": "https://www.lawpay.com/pricing/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "lawpay fees",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 90,
+        "difficulty": 35,
+        "cpc": 15.19,
+        "intent": "Commercial Investigation",
+        "ranking_url": "https://www.lawpay.com/pricing/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much does lawpay charge per transaction",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 17,
+        "cpc": 8.97,
+        "intent": "Informational",
+        "ranking_url": "https://www.lawpay.com/pricing/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       }
-    ]
+    ],
+    "serp_note": "Ubersuggest SERP for \"lawpay legal payments\" (US, data dated 2026-09-22): AI Overview, lawpay.com home, equalizingjustice.com guide, App Store, 8am.com, Facebook, Reddit reviews, Trustpilot, ALA directory. Exact phrase shows 0 volume; fee-focused variants carry demand, which supports a fee-cost angle. Hold lifted by user approval on 2026-10-05."
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.lawpay.com/pricing/",
+      "title": "LawPay Pricing: Fees & Credit Card Processing Rates",
+      "publisher": "LawPay (8am)",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Monthly subscription, card and eCheck rates, pass-through allocation, foreign-card adjustment, Pay Later rate",
+      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "limitations": "Marketing page; terms can change; allocation stated as changeable at LawPay discretion. Third-party pages list an older $4.99 allocation.",
+      "verified": true
+    },
+    {
+      "url": "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later",
+      "title": "Accepting Payments With Pay Later",
+      "publisher": "LawPay Help Center",
+      "source_type": "Vendor help article",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Pay Later processing fee, no-surcharge rule, Affirm financing, ACH funding timing",
+      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "limitations": "Some older LawPay pages show 4.95%; the help article is treated as current. Older URL slug (client-financing-pay-later-basics) also exists.",
+      "verified": true
+    },
+    {
+      "url": "https://help.lawpay.com/en/articles/9584042-scheduled-payments",
+      "title": "Scheduled Payments",
+      "publisher": "LawPay Help Center",
+      "source_type": "Vendor help article",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "How Scheduled Payments work and how they differ from Pay Later",
+      "method": "Read via search-result extracts. Fact-checked by Darlene Aberin on 2026-10-12; AI QA cross-checked figures against search-indexed copies of the page because the drafting environment could not open it directly.",
+      "limitations": "Product documentation; does not state fees.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Standalone LawPay subscription is $19 per month.",
+      "source_url": "https://www.lawpay.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent or US dollars as stated",
+      "method": "Vendor page statement",
+      "limitations": "Vendor terms can change; account terms govern.",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Visa, Mastercard, and Discover are 2.99% plus $0.30 per transaction; American Express is 3.90% plus $0.30.",
+      "source_url": "https://www.lawpay.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent or US dollars as stated",
+      "method": "Vendor page statement",
+      "limitations": "Vendor terms can change; account terms govern.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "eCheck is 1% per transaction.",
+      "source_url": "https://www.lawpay.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent or US dollars as stated",
+      "method": "Vendor page statement",
+      "limitations": "Vendor terms can change; account terms govern.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Monthly pass-through allocation is $7.99 and may change.",
+      "source_url": "https://www.lawpay.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent or US dollars as stated",
+      "method": "Vendor page statement",
+      "limitations": "Several third-party pages list $4.99; confirm the current figure on the live page.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Foreign cards carry an additional 1.75%.",
+      "source_url": "https://www.lawpay.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent or US dollars as stated",
+      "method": "Vendor page statement",
+      "limitations": "Vendor terms can change; account terms govern.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Pay Later help article lists a 5.95% processing fee that cannot be passed to the client; funds arrive by ACH in one to five business days.",
+      "source_url": "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Vendor published terms",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Percent or US dollars as stated",
+      "method": "Vendor page statement",
+      "limitations": "Some older LawPay pages show 4.95%; the help article is the most recent official statement found.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Lawpay Review: Cost, Features, Pros & Cons (2026)",
+      "url": "https://lawyerist.com/reviews/accounting-billing-finance/lawpay/",
+      "publisher": "Lawyerist",
+      "format": "Editorial product review",
+      "updated_at": "Not stated",
+      "headings": [
+        "Overview",
+        "Features",
+        "Pricing",
+        "Reviews"
+      ],
+      "coverage": [
+        "Pricing summary",
+        "Feature checklist"
+      ],
+      "sources": [
+        "Vendor pricing",
+        "Community reviews"
+      ],
+      "data_assets": [
+        "Ratings"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Recognized legal-tech reviewer with pricing summary.",
+      "gaps": "No worked invoice math; does not surface the Pay Later rate conflict."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "LawPay (8am, formerly AffiniPay) Review",
+      "url": "https://paymentreview.com/reviews/lawpay/",
+      "publisher": "PaymentReview",
+      "format": "Payments review",
+      "updated_at": "Not stated",
+      "headings": [
+        "Pricing",
+        "Fees",
+        "Pros and cons"
+      ],
+      "coverage": [
+        "Card rates",
+        "Allocation"
+      ],
+      "sources": [
+        "Vendor pricing"
+      ],
+      "data_assets": [
+        "Fee table"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Clear fee table from a payments specialist.",
+      "gaps": "General merchant framing; no trust, refund, or collection-cycle context for law firms."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "LawPay Fees Explained: Complete 2026 Guide for Law Firm",
+      "url": "https://merchantinsiders.com/blogs/lawpay-fees/",
+      "publisher": "Merchant Insiders",
+      "format": "Fee guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Fees",
+        "Pay Later",
+        "Comparison"
+      ],
+      "coverage": [
+        "All published rates"
+      ],
+      "sources": [
+        "Vendor pricing"
+      ],
+      "data_assets": [
+        "Fee table"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Most complete fee list among results.",
+      "gaps": "Lists one Pay Later figure without noting the official conflict; no payment-mix model."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "LawPay Review 2026: Legal Payment Processing",
+      "url": "https://legalstackreview.com/lawpay-review.html",
+      "publisher": "Legal Stack Review",
+      "format": "Product review",
+      "updated_at": "Not stated",
+      "headings": [
+        "Pricing",
+        "Features",
+        "Verdict"
+      ],
+      "coverage": [
+        "Rates",
+        "Integrations"
+      ],
+      "sources": [
+        "Vendor pricing"
+      ],
+      "data_assets": [
+        "Pros and cons list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Concise buyer summary.",
+      "gaps": "No calculations; no written-terms checklist."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "LawPay Pricing 2026: Real Costs, Fees & What Others Paid",
+      "url": "https://pricingnow.com/question/lawpay-pricing/",
+      "publisher": "PricingNow",
+      "format": "Pricing aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Pricing",
+        "User-reported costs"
+      ],
+      "coverage": [
+        "Rates",
+        "Allocation"
+      ],
+      "sources": [
+        "Vendor pricing",
+        "User reports"
+      ],
+      "data_assets": [
+        "Cost table"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Adds user-reported context.",
+      "gaps": "Lists the older $4.99 allocation; user reports unverified."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No reviewed page explains that LawPay Pay Later moved from 4.95% to 5.95% across its own pages.",
+    "Few pages show worked math on a $1,000 invoice, including the effect of fixed per-transaction charges.",
+    "No reviewed page separates Scheduled Payments from Pay Later on cash timing and responsibility.",
+    "No reviewed page connects processing cost to billing-cycle and collection measures."
+  ],
+  "value_add": "A fee breakdown built only from official LawPay pages, with worked $1,000 examples, a transaction-count illustration, an explicit Pay Later conflict table, a payment-mix budget model, a trust and surcharge question list, and a written-terms checklist.",
   "plan": {
-    "reader_title": "LawPay Legal Payments: Fees and Collection Costs",
+    "reader_title": "LawPay Legal Payments: What a $1,000 Client Payment Costs",
     "seo_title": "LawPay Legal Payments: Fees and Collection Costs",
-    "meta_description": "",
+    "meta_description": "What lawpay legal payments cost per card, eCheck, and Pay Later transaction, which monthly charges apply, and how to model fees on a $1,000 invoice.",
     "slug": "/legal-tech/lawpay-legal-payments-fees/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "LawPay fees",
+      "legal payment processing"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Separate the Monthly Charges From Transaction Costs",
+      "Calculate the Cost of a $1,000 Payment",
+      "Scheduled Payments and Pay Later Solve Different Problems",
+      "Confirm the Pay Later Rate Before Relying on It",
+      "Model Annual Cost From the Firm's Payment Mix",
+      "Payment Speed Is Not the Same as Collection",
+      "Confirm Trust, Surcharge, and Refund Rules Separately",
+      "What Should the Firm Get in Writing?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Separate the Monthly Charges From Transaction Costs",
+        "sources": [
+          "https://www.lawpay.com/pricing/"
+        ]
+      },
+      {
+        "section": "Calculate the Cost of a $1,000 Payment",
+        "sources": [
+          "https://www.lawpay.com/pricing/"
+        ]
+      },
+      {
+        "section": "Scheduled Payments and Pay Later Solve Different Problems",
+        "sources": [
+          "https://help.lawpay.com/en/articles/9584042-scheduled-payments",
+          "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later"
+        ]
+      },
+      {
+        "section": "Confirm the Pay Later Rate Before Relying on It",
+        "sources": [
+          "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later"
+        ]
+      }
+    ],
+    "visuals": [
+      "Fee table",
+      "Worked $1,000 calculation table",
+      "Scheduled Payments vs Pay Later table",
+      "Pay Later conflict table",
+      "Payment-mix planning table"
+    ],
     "internal_links": [
       "/law-firms/law-firm-billing-statistics/",
       "/law-firms/law-firm-profitability-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/smokeball-legal-software-time-capture/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.lawpay.com/pricing/",
+      "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later",
+      "https://help.lawpay.com/en/articles/9584042-scheduled-payments"
+    ],
+    "excluded_claims": [
+      "$4.99 pass-through allocation from the source draft (third-party pages; official page now shows $7.99)",
+      "MyCase integrated pricing link (not an approved internal target)",
+      "Sign-up page and legal-fee-financing page (not verified in this pass)",
+      "Affirm APR range and transaction limits (not needed)",
+      "Next-day settlement promises"
+    ],
+    "drafting_cautions": [
+      "Use the current 5.95% help-article rate and label 4.95% as an older figure",
+      "Label every calculation as an illustration",
+      "No trust-accounting or surcharge assurances",
+      "Recheck every rate on the publication date"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "LawPay lists $19 per month; 2.99% + $0.30 for Visa, Mastercard, Discover; 3.90% + $0.30 for Amex; 1% eCheck; $7.99 monthly allocation; additional 1.75% for foreign cards.",
+      "source_url": "https://www.lawpay.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "The Pay Later help article lists a 5.95% fee that cannot be passed to the client and ACH funding in one to five business days.",
+      "source_url": "https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later",
+      "verified": true
+    },
+    {
+      "statement": "Scheduled Payments are firm-managed future charges, distinct from Pay Later financing.",
+      "source_url": "https://help.lawpay.com/en/articles/9584042-scheduled-payments",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1IlNv-aWQF2v-azmQlESlyDKMEkAfL3cWhTbMNzuo-2k/edit?usp=drivesdk",
     "research_snapshot": "sources/google-drive/1IlNv-aWQF2v-azmQlESlyDKMEkAfL3cWhTbMNzuo-2k.md",
     "draft_snapshot": "sources/google-drive/1K08sQoII6BEkiBMgp6Cfl2TRc-nDMPUhdeJtHpdbf1E.md",
     "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
-  }
+  },
+  "research_question": "Owned-page scope: LawPay Legal Payments: Fees and Collection Costs. Planned sources and method: LawPay official fee disclosures and payment documentation. Build a source-labelled comparison covering LawPay fees and legal payment processing; record dates, definitions and sample limits. Sources are proposed, not verified findings."
 }
