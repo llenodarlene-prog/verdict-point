@@ -1,224 +1,218 @@
 ---
 title: LawPay Legal Payments: Fees and Collection Costs
 seo_title: LawPay Legal Payments: Fees and Collection Costs
-description: Compare LawPay fees for cards, eCheck, foreign cards, Pay Later, scheduled payments, and monthly charges with worked invoice examples.
+description: What lawpay legal payments cost per card, eCheck, and Pay Later transaction, which monthly charges apply, and how to model fees on a $1,000 invoice.
 slug: /legal-tech/lawpay-legal-payments-fees/
 type: blog
-schema: Article
-draft: true
+schema: BlogPosting
+draft: false
 tracker_id: Blog:5
 primary_keyword: lawpay legal payments
+secondary_keywords: LawPay fees; legal payment processing
 cluster: Legal Tech
 launch_silo: Payments & Billing
 silo_role: Commercial Support
 approved_internal_links: /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/
 research_record: content/research/blog-5.json
 source_document: https://docs.google.com/document/d/1K08sQoII6BEkiBMgp6Cfl2TRc-nDMPUhdeJtHpdbf1E/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+image: /assets/images/posts/lawpay-legal-payments-fees/payment-terminal-laptop-marble-desk-1600.jpg
+image_alt: Leather invoice folder with a pen, a card payment terminal, and a laptop showing a payments dashboard on a marble desk in a sunlit office
+author: Darlene Aberin
+published: 2026-10-12
+modified: 2026-10-12
 ---
 
-# LawPay Fees: What a $1,000 Client Payment Can Cost
+# LawPay Legal Payments: What a $1,000 Client Payment Costs
 
-A payment processor can improve convenience while creating several kinds of cost. The subscription, transaction rate, fixed transaction charge, account allocation, foreign-card adjustment, financing rate, refunds, and other account terms may not all appear in one headline figure.
+A payment processor can make it easier for clients to pay. It also adds costs that rarely sit in one headline number. There is a monthly subscription, a percentage rate, a fixed charge per transaction, a monthly card-network allocation, and extra charges for some cards and for financing.
 
-Current LawPay fees are public enough to build basic examples, but one important conflict remains. LawPay’s pricing and sign-up pages show Pay Later at 4.95%, while a current help article lists 5.95%. The responsible approach is to show both rates and require written confirmation before a firm relies on either one.
+LawPay legal payments are priced in public, so a firm can build its own examples. One point needs care. LawPay's pricing page and Pay Later help article list a 5.95% financing fee, while its credit card processing page still shows 4.95%. This guide uses the current figure and explains how to confirm it in writing.
 
-This guide separates recurring charges, payment-method costs, and financing. Calculations are illustrations based on the published rates, not quotes or legal advice about trust accounting, surcharging, or professional obligations.
+The guide splits costs into three layers: monthly charges, payment-method charges, and financing. All calculations are illustrations built from published rates. They are not quotes, and they are not legal advice about trust accounting or surcharging.
 
 ## Key Takeaways
 
-The current public pricing creates several distinct cost layers.
+- **Monthly Subscription:** The U.S. pricing page lists $19 per month for the standalone service.
+- **Standard Cards:** Visa, Mastercard, and Discover are listed at 2.99% plus $0.30 per transaction.
+- **American Express:** Amex is listed at 3.90% plus $0.30 per transaction.
+- **eCheck:** The listed eCheck rate is 1% per transaction.
+- **Pass-Through Allocation:** The pricing page lists a $7.99 monthly card-network allocation and says LawPay may change it.
+- **Foreign Cards:** An additional 1.75% applies when a client pays with a card issued outside the United States.
+- **Pay Later Rate:** The pricing page and Pay Later help article list a 5.95% fee paid by the firm, while LawPay's credit card processing page still shows 4.95%.
 
-- \*\*Monthly Subscription:\*\* The U.S. pricing page lists a $19 monthly charge.  
-- \*\*Standard Cards:\*\* Visa, Mastercard, and Discover are listed at 2.99% plus $0.30 per transaction.  
-- \*\*American Express:\*\* Amex is listed at 3.90% plus $0.30 per transaction.  
-- \*\*eCheck:\*\* The listed eCheck rate is 1%.  
-- \*\*Pass-Through Allocation:\*\* The pricing page lists a $4.99 monthly pass-through allocation.  
-- \*\*Foreign Cards:\*\* An additional 1.75% is listed for foreign cards.  
-- \*\*Pay Later Conflict:\*\* Pricing and sign-up show 4.95%, while the Pay Later help article shows 5.95%.
+## Separate the Monthly Charges From Transaction Costs
 
-## Separate the Base Charge From Transaction Costs
+The [LawPay pricing page](https://www.lawpay.com/pricing/) lists the subscription and the processing rates as separate items. That split matters for budgeting. Transaction costs rise and fall with payment volume. Monthly charges apply even in a quiet month.
 
-The \[current LawPay pricing page\](https://www.lawpay.com/pricing/) lists the subscription and processing rates separately. That distinction matters because transaction costs change with payment volume and payment method, while monthly charges can apply even in a low-volume month.
+The table below groups each published figure with the question a firm should answer before relying on it.
 
-| Cost Type | Current Public Figure | Main Budget Question |  
-| --- | ---: | --- |  
-| Monthly subscription | $19 | Does this apply to the exact account or integration? |  
-| Visa/Mastercard/Discover | 2.99% \+ $0.30 | What share of payments uses these cards? |  
-| American Express | 3.90% \+ $0.30 | How much volume arrives through Amex? |  
-| eCheck | 1% | Are there limits or account-specific terms? |  
-| Monthly pass-through allocation | $4.99 | Is it included in the proposed account? |  
-| Foreign-card adjustment | Additional 1.75% | How is a foreign card identified and priced? |
+| Cost Type | Published Figure | Question to Answer |
+| --- | ---: | --- |
+| Monthly subscription | $19 | Does this apply to our exact account or integration? |
+| Visa, Mastercard, Discover | 2.99% + $0.30 | What share of our payments uses these cards? |
+| American Express | 3.90% + $0.30 | How much of our volume arrives through Amex? |
+| eCheck | 1% | Are there limits or account-specific terms? |
+| Pass-through allocation | $7.99 per month | Is it included in our proposed terms? |
+| Foreign-card adjustment | Additional 1.75% | How does the account identify a foreign card? |
 
-Not every payment incurs every charge. A domestic eCheck should not be modeled as if it also carried a card rate and foreign-card adjustment. The estimate needs the expected mix of payment methods and the terms of the proposed account.
+Not every payment carries every charge. A domestic eCheck should not be modeled with a card rate and a foreign-card adjustment on top. A useful estimate starts with the firm's expected mix of payment methods.
 
-A firm using \[MyCase’s integrated payment pricing\](https://verdictpoint.org/legal-tech/mycase-legal-software/) should also avoid inserting the standalone $19 monthly charge automatically. Integrated arrangements can have different subscription treatment. The relevant source is the written offer for the exact setup.
+Firms that buy lawpay legal payments as part of a practice-management bundle face a different picture. The breakdown of [Clio's total cost of ownership](/legal-tech/clio-legal-software-total-cost/) shows how payment fees, subscriptions, and add-ons combine in an integrated setup. A standalone $19 charge should not be added to a bundled quote without checking the written offer.
 
 ## Calculate the Cost of a $1,000 Payment
 
-Worked examples make percentage pricing easier to compare. The following calculations use a single $1,000 client payment and the current published rates.
+Worked examples make percentage pricing easier to compare. The calculations below apply the published rates to a single $1,000 client payment.
 
-| Payment Method | Calculation | Illustrative Processing Cost | Amount Before Other Charges |  
-| --- | --- | ---: | ---: |  
-| Visa/Mastercard/Discover | $1,000 × 2.99% \+ $0.30 | $30.20 | $969.80 |  
-| American Express | $1,000 × 3.90% \+ $0.30 | $39.30 | $960.70 |  
+| Payment Method | Calculation | Processing Cost | Amount Before Other Charges |
+| --- | --- | ---: | ---: |
+| Visa, Mastercard, Discover | $1,000 × 2.99% + $0.30 | $30.20 | $969.80 |
+| American Express | $1,000 × 3.90% + $0.30 | $39.30 | $960.70 |
 | eCheck | $1,000 × 1% | $10.00 | $990.00 |
+| Foreign standard card | $1,000 × 4.74% + $0.30 | $47.70 | $952.30 |
 
-These examples exclude the monthly subscription, monthly allocation, foreign-card adjustment, refunds, chargebacks, negotiated terms, taxes, and any other account-specific charges. “Amount before other charges” is arithmetic, not a statement about settlement, trust treatment, or final revenue.
+These figures leave out the monthly subscription, the monthly allocation, refunds, chargebacks, negotiated terms, and any other account-specific charges. The foreign-card row assumes the 1.75% adjustment is added to the standard-card rate. The last column is arithmetic only. It is not a statement about settlement timing, trust treatment, or final revenue.
 
-For a $1,000 standard-card payment, the difference between 2.99% plus $0.30 and a 1% eCheck is $20.20. Whether that difference justifies guiding a client toward one method depends on convenience, client choice, timing, applicable rules, and the firm’s operating process.
+On a $1,000 standard-card payment, the gap between the card rate and the eCheck rate is $20.20. Whether that gap justifies steering a client toward eCheck depends on client choice, convenience, timing, and the rules that apply to the firm.
 
-\> Illustration Box  
-\> Ten separate $100 standard-card transactions cost $32.90 under the published formula: $29.90 in percentage charges plus $3.00 in fixed charges.  
-\> One $1,000 standard-card transaction costs $30.20.  
-\> The $2.70 difference comes from applying the $0.30 fixed charge ten times rather than once.
+> **Why Transaction Count Matters**
+> Ten separate $100 standard-card payments cost $32.90 under the published formula: $29.90 in percentage charges plus $3.00 in fixed charges. One $1,000 payment costs $30.20. The $2.70 gap comes from paying the $0.30 fixed charge ten times instead of once.
 
-The example does not mean a firm should combine unrelated obligations or change its billing schedule solely to reduce fees. It shows why the number and size of transactions affect cost.
+The example is not a reason to merge unrelated bills or change a billing schedule only to save fees. It simply shows that the number and size of payments both affect what lawpay legal payments cost over a month.
 
 ## Scheduled Payments and Pay Later Solve Different Problems
 
-LawPay provides two concepts that can sound similar but change cash timing and responsibility in different ways.
+LawPay offers two options that sound alike but change cash timing and responsibility in different ways. Firms often confuse them during setup.
 
-\[Scheduled Payments\](https://help.lawpay.com/en/articles/9584042-scheduled-payments) describes a firm-managed schedule of future payments. The client pays over the schedule, and the firm receives money as those scheduled charges occur.
+### Scheduled Payments Spread Charges Over Time
 
-Pay Later is third-party client financing powered by Affirm. LawPay’s help material says the firm generally receives the invoiced amount upfront by ACH within one to five business days, depending on the account, while the client repays under the financing arrangement.
+LawPay's [Scheduled Payments help article](https://help.lawpay.com/en/articles/9584042-scheduled-payments) describes a firm-managed series of future charges. Firm staff set up the schedule, and the firm receives money as each charge runs. Someone at the firm still needs to watch for failed charges and decide how to retry them.
 
-| Feature | Scheduled Payments | Pay Later |  
-| --- | --- | --- |  
-| Basic structure | Future charges set on a schedule | Third-party financing decision |  
-| Firm cash timing | Received as scheduled payments occur | Invoiced amount generally sent upfront under stated terms |  
-| Client responsibility | Pays the firm’s scheduled charges | Repays the financing provider |  
-| Main cost question | Card/eCheck and account charges | Applicable financing rate and refund terms |  
-| Main operational question | Failed or changed scheduled payments | Eligibility, approval, refunds, and financing disclosures |
+### Pay Later Is Third-Party Financing
 
-Receiving the invoiced amount upfront does not mean the transaction is fee-free or free from later obligations. The approved evidence notes that refund responsibilities still matter.
+Pay Later is client financing provided through Affirm. The [Pay Later help article](https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later) says the firm receives the invoiced amount by ACH within one to five business days, depending on the account. The client then repays Affirm under its own financing terms.
 
-## The Pay Later Rate Conflict Must Remain Visible
+The table compares the two side by side.
 
-The \[LawPay sign-up page\](https://www.lawpay.com/sign-up/) and current pricing page show Pay Later at 4.95%. However, the \[Pay Later help article\](https://help.lawpay.com/en/articles/9343164-client-financing-pay-later-basics) lists a 5.95% processing fee and says the fee cannot be passed to the client.
+| Feature | Scheduled Payments | Pay Later |
+| --- | --- | --- |
+| Basic structure | Future charges on a set schedule | Third-party financing decision |
+| Firm cash timing | Received as each charge runs | Invoiced amount sent upfront under stated terms |
+| Client repays | The firm, through scheduled charges | Affirm, under the financing agreement |
+| Main cost question | Card or eCheck rates plus monthly charges | Which financing rate applies |
+| Main operating question | Who handles failed charges | Eligibility, refunds, and disclosures |
 
-The official pages therefore disagree. It would be misleading to choose one figure and describe it as a settled universal rate.
+Getting the full amount upfront does not make a Pay Later transaction free. The firm still pays a processing fee, and refund handling still needs a clear owner.
 
-For a $1,000 financed invoice, the two published percentages produce different costs:
+## Confirm the Pay Later Rate Before Relying on It
 
-| Published Rate | Illustrative Cost on $1,000 | Difference From Other Published Rate |  
-| ---: | ---: | ---: |  
-| 4.95% | $49.50 | $10.00 lower |  
-| 5.95% | $59.50 | $10.00 higher |
+The Pay Later help article lists a 5.95% processing fee and says the fee cannot be passed on to the client as a surcharge. LawPay's credit card processing page still shows 4.95%, which suggests the rate has changed over time.
 
-The correct figure for a particular firm should come from current written terms. The firm should ask which page governs, when the rate became effective, whether the account or integration changes it, and how existing financing arrangements are treated.
+A firm working from an old page could underestimate its financing cost. On a $1,000 financed invoice, the two figures produce different costs.
 
-This conflict also shows why lawpay fees require a final publication-date check. A page can be current while another official page still carries different product language.
+| Rate Shown | Cost on $1,000 | Gap to the Other Rate |
+| ---: | ---: | ---: |
+| 4.95% (card processing page) | $49.50 | $10.00 lower |
+| 5.95% (pricing and help pages) | $59.50 | $10.00 higher |
 
-## Model Annual Cost Using the Firm’s Payment Mix
+The right figure for a given firm comes from its written terms. Ask LawPay which page governs, when the rate took effect, and whether an account type or integration changes it. Also ask how existing financing arrangements are treated if the rate changes.
 
-A useful budget starts with expected volume by payment method rather than one blended guess. The firm can create a monthly model with separate rows for standard cards, American Express, eCheck, foreign cards, and Pay Later.
+This change is a good reason to recheck every lawpay legal payments figure on the day a decision is made. One official page can be current while another still carries older product language.
 
-For each method, record the number of transactions, total dollar volume, percentage rate, fixed charge, and additional adjustment. Then add monthly charges and any account-specific items.
+## Model Annual Cost From the Firm's Payment Mix
 
-| Input | Example Planning Question |  
-| --- | --- |  
-| Standard-card volume | How much monthly revenue is expected through Visa, Mastercard, or Discover? |  
-| Amex volume | Does the client base use Amex often enough to affect the blended rate? |  
-| eCheck volume | Which clients or invoice types are likely to use eCheck? |  
-| Transaction count | How often will the fixed $0.30 charge apply? |  
-| Foreign-card volume | Is cross-border card use material to the practice? |  
-| Financing volume | How many invoices may use Pay Later, and which rate is confirmed? |  
+A useful budget starts with expected volume by payment method, not one blended guess. For lawpay legal payments, build a monthly model with a separate row for standard cards, Amex, eCheck, foreign cards, and Pay Later.
+
+For each row, record the number of payments, total dollar volume, percentage rate, fixed charge, and any extra adjustment. Then add the monthly subscription and allocation.
+
+| Input | Planning Question |
+| --- | --- |
+| Standard-card volume | How much monthly revenue arrives by Visa, Mastercard, or Discover? |
+| Amex volume | Do enough clients use Amex to move the blended rate? |
+| eCheck volume | Which clients or invoice types are likely to pay by eCheck? |
+| Payment count | How often will the $0.30 fixed charge apply? |
+| Foreign-card volume | Is cross-border card use material for this practice? |
+| Financing volume | How many invoices may use Pay Later, at which confirmed rate? |
 | Monthly charges | Which subscription and allocation charges apply to the account? |
 
-The model should keep processing expense separate from write-offs, refunds, chargebacks, and unpaid invoices. Each affects cash differently.
+Keep processing expense apart from write-offs, refunds, chargebacks, and unpaid invoices. Each one affects cash in a different way.
 
-When analyzing \[processing cost and profitability\](https://verdictpoint.org/law-firms/law-firm-profitability-statistics/), the firm should also distinguish gross fees billed from net cash retained after payment costs and other direct expenses.
+Processing fees also belong in any margin analysis. Published [law firm profitability statistics](/law-firms/law-firm-profitability-statistics/) separate fees billed from cash retained, and payment costs sit between the two.
 
-## Payment Speed Does Not Equal Collection Performance
+## Payment Speed Is Not the Same as Collection
 
-Convenient payment methods can reduce friction, but the processor cannot solve every cause of slow collection. Delayed billing, unclear invoices, client disputes, missed follow-up, and weak engagement terms can still extend the time between work and cash.
+Easy payment options can remove friction. They cannot fix every cause of slow collection. Late billing, unclear invoices, client disputes, and missed follow-up can still stretch the time between work and cash.
 
-The firm should measure the payment step inside a wider billing cycle:
+The firm should measure the payment step inside its wider billing cycle.
 
-1. \*\*Work Completed:\*\* When was the billable work performed?  
-2. \*\*Invoice Issued:\*\* How long did billing preparation and approval take?  
-3. \*\*Client Receipt:\*\* Was the invoice delivered successfully?  
-4. \*\*Payment Selection:\*\* Which method did the client choose?  
-5. \*\*Processor Settlement:\*\* When did funds arrive under the applicable terms?  
-6. \*\*Final Reconciliation:\*\* Were the payment, processing cost, refund, and account records matched?
+1. **Work Completed:** When was the billable work done?
+2. **Invoice Issued:** How long did billing preparation and approval take?
+3. **Client Receipt:** Did the invoice reach the client?
+4. **Payment Selection:** Which method did the client choose?
+5. **Processor Settlement:** When did funds arrive under the account terms?
+6. **Final Reconciliation:** Were the payment, fee, refund, and ledger entries matched?
 
-These stages complement \[collection and lockup benchmarks\](https://verdictpoint.org/law-firms/law-firm-billing-statistics/). Processor settlement may be quick while the invoice still spends weeks waiting to be prepared or approved.
+Benchmarks for these stages appear in published [law firm billing statistics](/law-firms/law-firm-billing-statistics/) on realization and collection. Settlement may take days while the invoice itself waited weeks for approval.
+
+Capture problems start even earlier. A review of [Smokeball's automatic time capture](/legal-tech/smokeball-legal-software-time-capture/) shows how much can change between recorded activity and an approved invoice. A fast processor cannot collect a fee that was never billed.
 
 ## Confirm Trust, Surcharge, and Refund Rules Separately
 
-Payment technology used by law firms intersects with professional rules, account structures, client agreements, and jurisdiction-specific requirements. A vendor page is not a substitute for the firm’s legal, ethical, accounting, or qualified professional review.
+Legal payment processing touches professional rules, account structures, client agreements, and state requirements. A vendor page does not replace review by the firm's ethics counsel, accountant, or other qualified adviser.
 
-Before activation, the firm should confirm:
+Before going live, the firm should settle the following points.
 
-- \*\*Account Mapping:\*\* Which payments belong in operating, trust, or another approved account?  
-- \*\*Fee Treatment:\*\* From which account are processing and other charges debited under the proposed setup?  
-- \*\*Surcharging:\*\* Are surcharges allowed, restricted, or prohibited for the payment, card, client, and jurisdiction?  
-- \*\*Refunds:\*\* Who authorizes refunds, how are financing transactions handled, and where are adjustments recorded?  
-- \*\*Chargebacks:\*\* What notices, evidence, deadlines, and account effects apply?  
-- \*\*Reconciliation:\*\* Who matches deposits, fees, refunds, invoices, and client ledgers?
+- **Account Mapping:** Decide which payments go to operating, trust, or another approved account.
+- **Fee Treatment:** Confirm which account the processor debits for fees under the proposed setup.
+- **Surcharging:** Check whether surcharges are allowed, limited, or banned for each payment type and state.
+- **Refunds:** Name who approves refunds, how financed payments are handled, and where adjustments are recorded.
+- **Chargebacks:** Record the notices, evidence, deadlines, and account effects that apply.
+- **Reconciliation:** Assign someone to match deposits, fees, refunds, invoices, and client ledgers.
 
-This checklist does not provide a jurisdiction-wide answer. It identifies the matters the firm should resolve before processing live payments.
+This list does not answer any of these questions for a particular state. It names the issues a firm should resolve before it processes live payments.
 
 ## What Should the Firm Get in Writing?
 
-The firm should request a written schedule that identifies the monthly subscription, allocation, payment-method rates, fixed charges, foreign-card treatment, financing rate, settlement expectations, refund handling, chargebacks, equipment or add-ons, taxes, renewal, and termination terms.
+Ask for a written fee schedule. It should cover the monthly subscription, the allocation, every payment-method rate, fixed charges, foreign-card treatment, the financing rate, settlement timing, refunds, chargebacks, add-ons, renewal, and termination. Keep the schedule with the approval record.
 
-Keep that schedule with the approval record.
+Where public pages conflict, the agreement should settle the point in plain words. A screenshot can support due diligence, but signed terms govern the relationship.
 
-Where the public pages conflict, the agreement should resolve the difference expressly. A screenshot or webpage may support due diligence, but the signed terms govern the actual commercial relationship.
+The review should also name an owner for each follow-up. Finance can confirm deposits and reconciliation. The billing team can review invoice and refund steps. Operations can test integrations. Ethics counsel can answer professional-rule questions.
 
-The review should also state who owns each follow-up. Finance may confirm reconciliation and deposits, the billing team may review invoice and refund workflows, operations may check integrations, and qualified counsel or ethics resources may address professional-rule questions. Assigning those responsibilities keeps an unresolved item from being mistaken for an approved term.
+After launch, compare estimated and actual fees for the first three monthly statements. Match transaction counts, volume, payment mix, fixed charges, monthly charges, foreign-card adjustments, financing costs, refunds, and chargebacks. If the real cost of lawpay legal payments differs from the model, find out whether a pricing term, a shift in client behavior, or a flawed assumption caused it.
 
-After activation, compare estimated and actual LawPay fees for the first three monthly statements. Reconcile transaction counts, dollar volume, payment mix, fixed charges, monthly charges, foreign-card adjustments, financing costs, refunds, and chargebacks. If the effective cost differs from the approved model, determine whether the cause is a pricing term, a change in client payment behavior, or an error in the original assumptions.
-
-\> First-Statement Check  
-\> Match every processor deposit and fee to the related transaction and invoice. Record unexplained differences and resolve them before the same treatment becomes part of the regular monthly close.
+> **First-Statement Check**
+> Match every deposit and fee to its transaction and invoice. Record any unexplained difference and resolve it before the same treatment becomes part of the regular monthly close.
 
 ## Frequently Asked Questions
 
-These answers summarize the main public rates and the limits of the available information.
+### What Do LawPay Legal Payments Cost for Standard Cards?
 
-### What Are the Current Standard LawPay Card Fees?
+The U.S. pricing page lists Visa, Mastercard, and Discover at 2.99% plus $0.30 per transaction. The account terms a firm signs take priority over the public page.
 
-The U.S. pricing page lists Visa, Mastercard, and Discover at 2.99% plus $0.30 per transaction, subject to the applicable account terms.
+### What Is the LawPay American Express Rate?
 
-### What Is the Current LawPay American Express Rate?
-
-The pricing page lists American Express at 3.90% plus $0.30 per transaction. Firms should confirm the live rate in writing.
+The pricing page lists American Express at 3.90% plus $0.30 per transaction. Confirm the rate in writing before relying on it.
 
 ### How Much Does a $1,000 eCheck Cost?
 
-At the listed 1% rate, the illustration is $10. Other account, monthly, return, or negotiated charges are not included.
+At the listed 1% rate, a $1,000 eCheck costs $10 in processing fees. Monthly charges, returns, and negotiated terms are not included.
 
-### Is Pay Later 4.95% or 5.95%?
+### What Does Pay Later Cost the Firm?
 
-Official pages conflict. Pricing and sign-up show 4.95%, while the help article shows 5.95%. Confirm the applicable rate in writing.
+The current Pay Later help article lists a 5.95% fee per transaction, paid by the firm. LawPay's credit card processing page still shows 4.95%, so get the rate for your account in writing.
 
 ### Are Scheduled Payments the Same as Pay Later?
 
-No. Scheduled Payments collect charges over time, while Pay Later uses Affirm financing and generally pays the invoiced amount upfront under stated terms.
+No. Scheduled Payments run a series of charges the firm sets up, while Pay Later uses Affirm financing and sends the firm the invoiced amount upfront.
 
-### Do These Rates Resolve Trust-Accounting or Surcharge Rules?
+### Do These Rates Settle Trust-Accounting or Surcharge Questions?
 
-No. Firms must review the exact account setup, applicable professional rules, client terms, and qualified guidance for their jurisdiction and circumstances.
+No. Each firm needs to review its account setup, client terms, and the professional rules in its state with a qualified adviser before using lawpay legal payments.
 
 ## Resources
 
-- \*\*LawPay Pricing:\*\* https://www.lawpay.com/pricing/  
-- \*\*LawPay Sign-Up:\*\* https://www.lawpay.com/sign-up/  
-- \*\*Scheduled Payments:\*\* https://help.lawpay.com/en/articles/9584042-scheduled-payments  
-- \*\*Pay Later Basics:\*\* https://help.lawpay.com/en/articles/9343164-client-financing-pay-later-basics  
-- \*\*Legal Fee Financing:\*\* https://www.lawpay.com/features/legal-fee-financing/
+These official LawPay pages support the rates and product details above. Recheck each one on the day you decide.
 
-FACT CHECK / PUBLISHING NOTES
-
-RECHECK BEFORE PUBLICATION:  
-- Recheck every published rate and monthly charge.  
-- Reconcile the Pay Later conflict or preserve it transparently.  
-- Do not promise next-day settlement for every payment.  
-- Do not give universal surcharge, trust-account, or ethics assurances.  
-- Confirm integrated-product pricing separately from standalone pricing.  
-- Confirm all internal-link destinations.
+- **LawPay Pricing:** [LawPay Pricing: Fees and Credit Card Processing Rates](https://www.lawpay.com/pricing/)
+- **Pay Later:** [Accepting Payments With Pay Later, LawPay Help Center](https://help.lawpay.com/en/articles/9343164-accepting-payments-with-pay-later)
+- **Scheduled Payments:** [Scheduled Payments, LawPay Help Center](https://help.lawpay.com/en/articles/9584042-scheduled-payments)

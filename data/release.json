@@ -19,6 +19,9 @@
       "/privacy/"
     ],
     "publication_cadence": "After launch, publish up to two completed articles or blogs per day, alternating articles and blogs. Each must pass the research, citation, content, SEO, and AI-language checks; the production deploy fails if it does not.",
+    "publish_timezone": "Asia/Manila",
+    "cadence_start_date": "2026-10-12",
+    "scheduling": "Set draft: false and a future published date to schedule a post. Production hides it until that date in publish_timezone; the daily production deploy publishes it. check-content allows at most one article and one blog per date from cadence_start_date.",
     "editorial_backlog": "data/launch-content-plan.json keeps the original 10 articles and 10 blogs as the editorial plan. It is not a launch requirement and drafts never block a release."
   },
   "contact": {

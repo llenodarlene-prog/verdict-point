@@ -30,9 +30,11 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 - Publishable pieces are 2,000–2,500 words; never exceed 2,600 without approval.
 - Use the exact primary keyword in SEO title, meta description, H1, slug, introduction, and body. Use eight exact occurrences when the project rule applies.
 - Articles place `Key Statistics and Data` immediately after the introduction. Blogs place `Key Takeaways` there and use `Frequently Asked Questions` before Resources.
+- `Key Takeaways`, `Key Statistics and Data`, and `Frequently Asked Questions` never have an intro sentence. Start directly with the first bullet or the first question.
 - Use every approved launch target naturally and no unrelated launch-set links. Avoid mechanical anchors such as “click here,” “learn more,” “our guide,” “our page,” or “deep dive.”
 - Use two or three reputable external links contextually before Resources. Put additional approved sources in Resources. Every cited URL must match a verified research source; Resources never substitutes for body citations.
 - Preserve the real evidence year. Label estimates, forecasts, calculations, partial-year data, and sponsored studies.
+- Claude fact-checks every post itself before sign-off: open each cited source live, confirm every number, date, and wording claim against the page text, fix or cut anything the page does not state, and report the result claim by claim. Search snippets and third-party summaries never count as verification; if a source cannot be opened, say so and find a primary source that can.
 - Never fabricate anecdotes, experience, testimonials, results, authors, credentials, contacts, prices, or claims.
 - No em dashes. Target clear Grade 8–9 prose, short paragraphs, active voice, and varied sentence rhythm.
 - High- and medium-severity repository AI kill-list entries are enforced. If a flagged term is technically necessary, add the exact term to the semicolon-separated `ai_exceptions` field and explain it in `ai_exception_reason`.

@@ -1,241 +1,474 @@
 {
   "tracker_id": "Article:5",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Law Firm Website Statistics on Visits and Inquiries. Planned sources and method: Document a consented website analytics sample; define visits and qualified inquiries. Build a source-labelled comparison covering law firm website conversion and attorney website user experience; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Help firms read published website and intake benchmarks without mixing visits, conversions, qualified inquiries, consultations, and signed matters, and show how to build a first-party benchmark.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms planning 2027 reporting.",
+    "publication_year": "2026",
+    "data_period": "Ruler Analytics 2026 benchmark; Clio 2024 secret-shopper study (press release October 7, 2024); Google Search Console documentation current October 2026",
+    "scope_limitations": "Desk research from public pages, corroborated through web search because the pages could not be opened directly. No proprietary Verdict Point data; no consented analytics sample was available, so the tracker plan for one is not met and is disclosed in the article."
   },
   "keyword_research": {
     "approved_primary_keyword": "law firm website statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-10-12",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-12"
       },
       {
-        "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "name": "Ahrefs",
+        "status": "historical",
+        "retrieved_at": "",
+        "note": "Tracker-recorded prior result (volume 0) retained; not refreshed."
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "law firm website",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 390,
+        "difficulty": 66,
+        "cpc": 44.02,
+        "intent": "Commercial",
+        "ranking_url": "https://www.clio.com/blog/best-law-firm-websites/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm website conversion rate",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm website design",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 2400,
+        "difficulty": 41,
+        "cpc": 95.33,
+        "intent": "Commercial",
+        "ranking_url": "https://www.clio.com/blog/best-law-firm-websites/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm website mistakes",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://fosterwebmarketing.com/library/the-5-most-important-law-firm-website-metrics.cfm",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is law firm website",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.findlaw.com/lawyer-marketing/blog/guide-to-web-analytics-for-law-firms/",
+        "retrieved_at": "2026-10-12",
+        "tool": "Ubersuggest"
       }
-    ]
+    ],
+    "serp_note": "Ubersuggest SERP for \"law firm website statistics\" (US, data dated 2026-09-22): AI Overview, then MyCase, Chambers, SEOProfy, WebFX, Clio, Foster Web Marketing, FindLaw, Ivan Vislavskiy, Pareto Legal. Exact phrase shows 0 volume and difficulty 4."
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "title": "23+ Legal Marketing Statistics Backed by Real Data 2026",
+      "publisher": "Ruler Analytics",
+      "source_type": "Vendor benchmark",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "Legal conversion rate, organic conversion, call versus form share; dataset size",
+      "method": "Opened and read the live page on 2026-10-12 (AI QA); fact-check by Darlene Aberin on 2026-10-12.",
+      "limitations": "Vendor customer data across 13 industries; legal firm count and geography not published.",
+      "verified": true
+    },
+    {
+      "url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "title": "AI-powered legal practices surge: Clio's latest Legal Trends Report reveals major shift",
+      "publisher": "Clio via PR Newswire",
+      "source_type": "Vendor press release",
+      "year": "2024",
+      "published_at": "2024-10-07",
+      "accessed_at": "2026-10-12",
+      "scope": "2024 secret-shopper study of 500 firms: phone answer, unreachable, email response, website hiring guidance and pricing visibility",
+      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "limitations": "Vendor-commissioned; full method and fieldwork agency not stated in the release.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/7576553",
+      "title": "Performance report (Search results) - Search Console Help",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-12",
+      "scope": "What the Search Console performance report measures",
+      "method": "Opened and read the live page on 2026-10-12 (AI QA); fact-check by Darlene Aberin on 2026-10-12.",
+      "limitations": "Documentation, not a benchmark.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
-      "sponsored": false,
+      "claim": "Legal businesses convert at 7.9% overall in Ruler Analytics 2026 data.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "data_year": "2026",
+      "geography": "Not stated (Ruler customers, mainly UK and US)",
+      "population": "Ruler Analytics legal customers",
+      "sample": "Not published for legal; 110M+ sessions and 5M+ conversions across 13 industries",
+      "denominator": "Sessions",
+      "unit": "Percent",
+      "method": "Vendor analytics data",
+      "limitations": "Vendor dataset; legal-only sample size and geography not disclosed.",
+      "sponsored": true,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Legal organic search converts at 7.3%.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Ruler Analytics legal customers",
+      "sample": "Not published for legal",
+      "denominator": "Organic sessions",
+      "unit": "Percent",
+      "method": "Vendor analytics data",
+      "limitations": "Same as above.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "56.3% of tracked legal conversions are calls.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Ruler Analytics legal customers",
+      "sample": "Not published for legal",
+      "denominator": "Tracked legal conversions",
+      "unit": "Percent",
+      "method": "Vendor call and form tracking",
+      "limitations": "Excludes untracked channels.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "30% of firm websites gave clear hiring guidance; 14% showed pricing.",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "U.S. law firms in secret-shopper sample",
+      "sample": "500 firms",
+      "denominator": "Firms shopped",
+      "unit": "Percent",
+      "method": "Secret-shopper study",
+      "limitations": "Vendor-commissioned; selection method not reviewed.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "40% of firms answered the phone; 33% replied to email.",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "U.S. law firms in secret-shopper sample",
+      "sample": "500 firms",
+      "denominator": "Firms contacted",
+      "unit": "Percent",
+      "method": "Secret-shopper study",
+      "limitations": "Sample size wording differs between Clio pages.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Top 40+ Law Firm Marketing Statistics for 2026",
+      "url": "https://www.mycase.com/blog/law-firm-marketing/law-firm-marketing-statistics/",
+      "publisher": "MyCase",
+      "format": "Statistics roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Website statistics",
+        "SEO",
+        "Social"
+      ],
+      "coverage": [
+        "Broad marketing statistics"
+      ],
+      "sources": [
+        "Third-party studies"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Large stat list from a recognized vendor.",
+      "gaps": "Mixes stages and years; little on denominators or intake."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "92 Legal Marketing Statistics for 2026",
+      "url": "https://seoprofy.com/blog/legal-marketing-statistics/",
+      "publisher": "SEOProfy",
+      "format": "Statistics roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Website",
+        "SEO",
+        "PPC"
+      ],
+      "coverage": [
+        "Marketing statistics"
+      ],
+      "sources": [
+        "Third-party studies"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Breadth.",
+      "gaps": "Secondary citations; no funnel definitions."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "50+ Legal Industry Statistics To Grow Your Law Firm in 2026",
+      "url": "https://www.webfx.com/industries/legal/law-firms/statistics/",
+      "publisher": "WebFX",
+      "format": "Statistics roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Industry",
+        "Marketing",
+        "Website"
+      ],
+      "coverage": [
+        "Industry and marketing stats"
+      ],
+      "sources": [
+        "Third-party studies"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "High-authority domain; readable.",
+      "gaps": "Agency sales angle; no measurement method."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Check Your Growth With These 5 Law Firm Website Metrics",
+      "url": "https://fosterwebmarketing.com/library/the-5-most-important-law-firm-website-metrics.cfm",
+      "publisher": "Foster Web Marketing",
+      "format": "Agency guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Five metrics"
+      ],
+      "coverage": [
+        "Website metrics"
+      ],
+      "sources": [
+        "Agency experience"
+      ],
+      "data_assets": [
+        "Metric list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Practical metric focus.",
+      "gaps": "No public benchmarks; no deduplication or qualification rules."
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Guide to web analytics for law firms",
+      "url": "https://www.findlaw.com/lawyer-marketing/blog/guide-to-web-analytics-for-law-firms/",
+      "publisher": "FindLaw",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Analytics basics",
+        "Metrics"
+      ],
+      "coverage": [
+        "Analytics setup"
+      ],
+      "sources": [
+        "Vendor guidance"
+      ],
+      "data_assets": [
+        "How-to steps"
+      ],
+      "link_patterns": [
+        "Not reviewed in full; page not reachable from drafting environment"
+      ],
+      "trust_signals": [
+        "Title and search-result summary only"
+      ],
+      "covered_well": "Clear analytics basics.",
+      "gaps": "Does not connect website data to intake outcomes or public benchmarks."
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Roundups list conversion rates without stating the event, denominator, or sample.",
+    "No reviewed page separates call share from form share and explains deduplication.",
+    "No reviewed page pairs website information gaps (hiring clarity, pricing) with intake response data.",
+    "No reviewed page gives a privacy-safe reporting table from visit to signed matter."
+  ],
+  "value_add": "A stage-by-stage definition table, source-labeled benchmarks with stated limits, a deduplication and qualification rule set, a privacy-safe monthly reporting structure, and a 2027 reporting checklist.",
   "plan": {
-    "reader_title": "Law Firm Website Statistics on Visits and Inquiries",
+    "reader_title": "Law Firm Website Statistics: From Visits to Qualified Inquiries",
     "seo_title": "Law Firm Website Statistics on Visits and Inquiries",
-    "meta_description": "",
+    "meta_description": "Use law firm website statistics for 2026–2027 without confusing visits, calls, inquiries, consultations, and signed matters.",
     "slug": "/legal-marketing/law-firm-website-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "law firm website conversion",
+      "attorney website user experience"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "What Counts as a Website Conversion?",
+      "What Public Website Benchmarks Show",
+      "Why Phone Calls Change the Picture",
+      "Where Websites Lose Prospective Clients",
+      "How Visits Become Qualified Inquiries",
+      "Why Deduplication Changes the Rate",
+      "How to Build a Defensible Firm Benchmark",
+      "Where Software Fits Into Measurement",
+      "What Public Data Cannot Establish",
+      "A 2027 Website Reporting Checklist",
+      "The Bottom Line for 2026–2027",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "What Public Website Benchmarks Show",
+        "sources": [
+          "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/"
+        ]
+      },
+      {
+        "section": "Why Phone Calls Change the Picture",
+        "sources": [
+          "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/"
+        ]
+      },
+      {
+        "section": "Where Websites Lose Prospective Clients",
+        "sources": [
+          "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html"
+        ]
+      },
+      {
+        "section": "How Visits Become Qualified Inquiries",
+        "sources": [
+          "https://support.google.com/webmasters/answer/7576553"
+        ]
+      }
+    ],
+    "visuals": [
+      "Conversion event definition table",
+      "Monthly reporting field table"
+    ],
     "internal_links": [
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-marketing/law-firm-seo-statistics/",
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-tech/mycase-legal-software/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "https://support.google.com/webmasters/answer/7576553"
+    ],
+    "excluded_claims": [
+      "Ruler 2023 legal rate of 2.6% (different dataset; not in verified sources)",
+      "Clio 1,000-firm figure from press release (not in verified sources)",
+      "Any Verdict Point first-party conversion rate (no dataset)",
+      "Clio claims of 50% more leads from intake tools (vendor correlation)"
+    ],
+    "drafting_cautions": [
+      "Label Ruler and Clio figures as vendor data with years",
+      "Do not imply a universal good conversion rate",
+      "Disclose that no consented analytics sample was used"
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Ruler Analytics reports a 7.9% legal conversion rate, 7.3% for organic search, and 56.3% of legal conversions by phone in 2026 data.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "verified": true
+    },
+    {
+      "statement": "Clio's 2024 secret-shopper study of 500 firms found 30% hiring clarity, 14% pricing visibility, 40% phone pickup, and 33% email response.",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "verified": true
+    },
+    {
+      "statement": "Search Console performance reports show impressions, clicks, queries, and pages.",
+      "source_url": "https://support.google.com/webmasters/answer/7576553",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1nyjaJDrF2qVfCDsSIk7gWMNYyhnSn4AS-y7Bh3TWvgY/edit?usp=drivesdk",
     "research_snapshot": "sources/google-drive/1nyjaJDrF2qVfCDsSIk7gWMNYyhnSn4AS-y7Bh3TWvgY.md",
     "draft_snapshot": "sources/google-drive/1qRXGX8wRWIR7yq5loSZRU4J7XXNQOoY1CBxHDYkPkok.md",
     "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
-  }
+  },
+  "research_question": "Owned-page scope: Law Firm Website Statistics on Visits and Inquiries. Planned sources and method: Document a consented website analytics sample; define visits and qualified inquiries. Build a source-labelled comparison covering law firm website conversion and attorney website user experience; record dates, definitions and sample limits. Sources are proposed, not verified findings."
 }
