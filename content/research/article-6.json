@@ -1,6 +1,6 @@
 {
   "tracker_id": "Article:6",
-  "status": "planned",
+  "status": "verified",
   "research_question": "Owned-page scope: Law Firm SEO Statistics for Organic Lead Reporting. Planned sources and method: Consented Search Console and intake records; join at aggregate channel level. Build a source-labelled comparison covering legal organic search traffic and attorney SEO leads; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
     "purpose": "Show which SEO measures belong at each funnel stage, how to read public organic benchmarks, and how to join Search Console with intake data safely.",
@@ -95,7 +95,7 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Legal organic conversion 7.3% (2026) and 3.0% (2025 table), overall 7.9%, 56.3% of conversions by phone, dataset size",
-      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "method": "Opened and read the live page on 2026-10-12; claim-by-claim fact-check and QA run by Claude at the direction of Darlene Aberin, who is the named reviewer.",
       "limitations": "Vendor customer data across 13 industries; legal-only sample not disclosed; year-to-year cohort not controlled.",
       "verified": true
     },
@@ -108,7 +108,7 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Definitions of impressions, clicks, CTR, and average position",
-      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "method": "Opened and read the live page on 2026-10-12; claim-by-claim fact-check and QA run by Claude at the direction of Darlene Aberin, who is the named reviewer.",
       "limitations": "Documentation, not a benchmark.",
       "verified": true
     },
@@ -121,7 +121,7 @@
       "published_at": "2024-10-07",
       "accessed_at": "2026-10-12",
       "scope": "2024 secret-shopper study of 500 firms: phone answer, unreachable, email response, website hiring guidance and pricing visibility",
-      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "method": "Opened and read the live page on 2026-10-12; claim-by-claim fact-check and QA run by Claude at the direction of Darlene Aberin, who is the named reviewer.",
       "limitations": "Vendor-commissioned; full method and fieldwork agency not stated in the release.",
       "verified": true
     }
@@ -415,14 +415,14 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1OHCn4Hf9jD8BAfJeV8fUp21nsXQIDXwpnZKFQirNk9M/edit?usp=drivesdk",

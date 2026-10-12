@@ -1,6 +1,6 @@
 {
   "tracker_id": "Blog:6",
-  "status": "planned",
+  "status": "verified",
   "research_question": "Owned-page scope: Implementing Litify Legal Software in a Growing Firm. Planned sources and method: Litify and Salesforce official documentation; map data migration requirements. Build a source-labelled comparison covering Litify implementation and Litify integrations; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
   "research_brief": {
     "purpose": "Give growing firms an implementation plan for Litify: operating model, ownership, Salesforce scope, integrations, migration, acceptance, quote, and phased rollout.",
@@ -95,7 +95,7 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Built on Salesforce, AWS, and Anthropic; intake, matter, document, time and billing, spend, reporting; implementation and customer success",
-      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "method": "Opened and read the live page on 2026-10-12; claim-by-claim fact-check and QA run by Claude at the direction of Darlene Aberin, who is the named reviewer.",
       "limitations": "Marketing page; no pricing.",
       "verified": true
     },
@@ -108,7 +108,7 @@
       "published_at": "2026-03-09",
       "accessed_at": "2026-10-12",
       "scope": "Platform of Action launch; built on Salesforce; AI-driven actions in workflows; open, configurable ecosystem",
-      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "method": "Opened and read the live page on 2026-10-12; claim-by-claim fact-check and QA run by Claude at the direction of Darlene Aberin, who is the named reviewer.",
       "limitations": "Positioning statement; no implementation detail.",
       "verified": true
     },
@@ -121,7 +121,7 @@
       "published_at": "Not stated",
       "accessed_at": "2026-10-12",
       "scope": "Landing page for a gated checklist covering core features, security, integrations, implementation, and user experience",
-      "method": "Opened and read the live page on the access date (AI QA); figures quoted from page text.",
+      "method": "Opened and read the live page on 2026-10-12; claim-by-claim fact-check and QA run by Claude at the direction of Darlene Aberin, who is the named reviewer.",
       "limitations": "Checklist itself is behind a form and was not reviewed.",
       "verified": true
     }
@@ -397,14 +397,14 @@
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-12"
   },
   "recovery": {
     "research_brief": "https://docs.google.com/document/d/1v0mHj5ph4wALSG9JAdG59fmpWTUSSJ_XlUZ5XgT6VB4/edit?usp=drivesdk",

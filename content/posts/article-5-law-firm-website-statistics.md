@@ -61,7 +61,7 @@ Firms comparing broader [law firm marketing statistics](/legal-marketing/law-fir
 
 ## What Public Website Benchmarks Show
 
-Ruler Analytics publishes an annual benchmark built from tracked customer data. Its [2026 legal marketing statistics](https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/) report a 7.9% overall conversion rate for legal businesses. Organic search converts at 7.3%, and 56.3% of tracked legal conversions are phone calls.
+Ruler Analytics publishes benchmarks built from its own tracked first-party data. Its [2026 legal marketing statistics](https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/) report a 7.9% overall conversion rate for legal businesses. Organic search converts at 7.3%, and 56.3% of tracked legal conversions are phone calls.
 
 Ruler says the wider dataset covers more than 110 million sessions and more than five million conversions across 13 industries. Those totals describe the whole dataset, not a legal-only sample. The page does not publish a count of legal firms or limit the legal data to the United States.
 

@@ -5,7 +5,7 @@ description: Use law firm SEO statistics for 2026–2027 with clear benchmarks, 
 slug: /legal-marketing/law-firm-seo-statistics/
 type: article
 schema: Article
-draft: true
+draft: false
 tracker_id: Article:6
 primary_keyword: law firm seo statistics
 cluster: Legal Marketing
@@ -16,9 +16,9 @@ research_record: content/research/article-6.json
 source_document: https://docs.google.com/document/d/18vzGHj050RCIQx0_lpacBb6mMZ3hmnegz6BuClICouU/edit?usp=drivesdk
 image: /assets/images/posts/law-firm-seo-statistics/laptop-search-results-marble-desk-1600.jpg
 image_alt: Laptop on a marble desk showing search results and a rising line chart, beside a notebook with a hand-drawn funnel sketch and a gold pen
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-10-13
+modified: 2026-10-13
 ---
 
 # Law Firm SEO Statistics: What Organic Reports Should Measure
@@ -78,7 +78,7 @@ If those answers remain unclear, the benchmark should stay directional. It shoul
 
 ## Why Rankings Do Not Equal New Clients
 
-A ranking is an estimate of search placement. Search Console's average position is an impression-based metric. Neither measure records client fit or intake response.
+A ranking is an estimate of search placement. Search Console's average position reports where the site's topmost result appeared, averaged across searches. Neither measure records client fit or intake response.
 
 A page can rank and earn impressions without attracting clicks. A click can also reach a page that answers the wrong need. Later, a valid inquiry can go unanswered.
 
