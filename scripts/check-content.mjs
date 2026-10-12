@@ -93,9 +93,11 @@ for (const file of files) {
   for (let index = 0; index < lines.length; index += 1) {
     const line = lines[index].trim();
     const previous = lines.slice(0, index).reverse().find(value => value.trim())?.trim() || '';
-    if (/^#{2,3}\s+/.test(line) && /^#{1,3}\s+/.test(previous)) fail(`${file}: adjacent headings need contextual copy (${line})`);
+    // Key Takeaways, Key Statistics and Data, and the FAQ open directly with their bullets or questions, with no intro line.
+    const summaryStart = /^##\s+(?:Key Takeaways|Key Statistics and Data|Frequently Asked Questions)\s*$/.test(previous);
+    if (/^#{2,3}\s+/.test(line) && /^#{1,3}\s+/.test(previous) && !(summaryStart && /^###\s+/.test(line))) fail(`${file}: adjacent headings need contextual copy (${line})`);
     const startsBlock = /^###\s+/.test(line) || (/^[-*]\s+/.test(line) && !/^[-*]\s+/.test(previous)) || (line.startsWith('|') && /^\s*\|?(?:\s*:?-+:?\s*\|)+/.test(lines[index + 1] || ''));
-    if (startsBlock && (!previous || /^#{1,3}\s+|^[-*]\s+|^\|/.test(previous))) fail(`${file}: add contextual prose before ${line.slice(0, 60)}`);
+    if (startsBlock && !summaryStart && (!previous || /^#{1,3}\s+|^[-*]\s+|^\|/.test(previous))) fail(`${file}: add contextual prose before ${line.slice(0, 60)}`);
     if (/^[-*]\s+/.test(line) && !/^[-*]\s+\*\*[^*]+\*\*[:.]?\s+\S+/.test(line)) fail(`${file}: body bullet needs a bold lead and complete explanation (${line.slice(0, 60)})`);
     if (line.startsWith('|')) {
       const cells = line.split('|').slice(1, -1).map(cell => cell.trim());

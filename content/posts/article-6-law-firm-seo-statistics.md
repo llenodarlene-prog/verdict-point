@@ -14,6 +14,8 @@ silo_role: Supporting
 approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-social-media-statistics/; /law-firms/law-firm-client-acquisition-statistics/
 research_record: content/research/article-6.json
 source_document: https://docs.google.com/document/d/18vzGHj050RCIQx0_lpacBb6mMZ3hmnegz6BuClICouU/edit?usp=drivesdk
+image: /assets/images/posts/law-firm-seo-statistics/laptop-search-results-marble-desk-1600.jpg
+image_alt: Laptop on a marble desk showing search results and a rising line chart, beside a notebook with a hand-drawn funnel sketch and a gold pen
 author: 
 published: 
 modified: 
@@ -26,8 +28,6 @@ Law firm SEO statistics can describe visibility, traffic, response, or signed wo
 Public benchmarks can help firms review 2026 performance and plan 2027 reporting. However, they cannot replace first-party Search Console, analytics, intake, and matter records. This article keeps those sources and outcomes separate.
 
 ## Key Statistics and Data
-
-The strongest available figures provide context for organic conversion and intake. They do not establish a universal law firm target.
 
 - **Organic conversion:** Ruler Analytics reports 7.3% for legal businesses in its 2026 vendor dataset.
 - **Historical label:** The same page lists 3.0% as its 2025 value.

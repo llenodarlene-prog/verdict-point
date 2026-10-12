@@ -32,8 +32,6 @@ The guide splits costs into three layers: monthly charges, payment-method charge
 
 ## Key Takeaways
 
-The public price list breaks into several separate cost layers.
-
 - **Monthly Subscription:** The U.S. pricing page lists $19 per month for the standalone service.
 - **Standard Cards:** Visa, Mastercard, and Discover are listed at 2.99% plus $0.30 per transaction.
 - **American Express:** Amex is listed at 3.90% plus $0.30 per transaction.
@@ -186,8 +184,6 @@ After launch, compare estimated and actual fees for the first three monthly stat
 > Match every deposit and fee to its transaction and invoice. Record any unexplained difference and resolve it before the same treatment becomes part of the regular monthly close.
 
 ## Frequently Asked Questions
-
-These answers summarize the published rates and the limits of the public information.
 
 ### What Do LawPay Legal Payments Cost for Standard Cards?
 

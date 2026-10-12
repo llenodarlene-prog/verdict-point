@@ -14,6 +14,8 @@ silo_role: Commercial Support
 approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/filevine-legal-software-case-types/
 research_record: content/research/blog-6.json
 source_document: https://docs.google.com/document/d/1YFJOscAsSUvRk4oKOdaGmdY26_FhYGmHTAasZTWS2Co/edit?usp=drivesdk
+image: /assets/images/posts/litify-legal-software-implementation/implementation-binder-whiteboard-marble-desk-1600.jpg
+image_alt: Navy leather binder and gold pen on a marble table, with a laptop showing a workflow diagram and a whiteboard of sticky notes grouped in project-phase columns
 author: 
 published: 
 modified: 
@@ -28,8 +30,6 @@ Litify legal software is built on Salesforce, and its homepage also names AWS an
 This guide to implementing Litify legal software is based on public Litify material and an editorial implementation framework. It does not claim a completed deployment, universal price, standard duration, or guaranteed Salesforce entitlement.
 
 ## Key Takeaways
-
-A successful implementation needs named responsibilities before configuration begins.
 
 - **Define the Operating Model First:** The firm should agree how intake, matters, documents, billing, reporting, and approvals work before selecting or configuring modules.
 - **Assign Four Core Owners:** At minimum, identify a business owner, system administrator, implementation lead or partner, and data owner.
@@ -209,8 +209,6 @@ The buying decision should therefore compare operating fit and implementation re
 For that reason, the Litify legal software decision should remain conditional until the proposal and acceptance plan agree on scope, ownership, cost, and sign-off.
 
 ## Frequently Asked Questions
-
-These answers cover the boundaries that should remain clear during evaluation.
 
 ### Is Litify Built on Salesforce?
 

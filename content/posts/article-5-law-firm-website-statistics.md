@@ -30,8 +30,6 @@ Public benchmarks can still help a firm plan for 2027. Each figure needs a clear
 
 ## Key Statistics and Data
 
-The public data covers tracked conversions, website information, and intake response. Each figure describes a different stage of the funnel.
-
 - **Overall Conversion:** Ruler Analytics reports a 7.9% conversion rate for legal businesses in its 2026 vendor dataset.
 - **Organic Conversion:** The same Ruler dataset reports 7.3% for legal organic search traffic.
 - **Phone Share:** Ruler reports that 56.3% of tracked legal conversions came by phone.
