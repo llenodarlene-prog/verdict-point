@@ -1,0 +1,368 @@
+{
+  "tracker_id": "Blog:15",
+  "status": "verified",
+  "research_question": "Owned-page scope: Mapping the Law Firm Intake Process. Planned sources and method: Map inquiry-to-engagement steps from a consenting practice. Build a source-labelled comparison covering legal intake workflow and client onboarding law firm; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm intake, fact-checked and fitted to house rules.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-15",
+    "scope_limitations": "Editorial framework; worked numbers are labeled hypothetical. ABA Model Rule citations in the draft were removed because the ABA site could not be opened for verification."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm intake",
+    "intent": "Commercial Investigation",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm intake",
+        "type": "short-tail",
+        "volume": 70,
+        "difficulty": 26,
+        "cpc": 58.74,
+        "intent": "Commercial",
+        "ranking_url": "https://www.mycase.com/blog/client-management/online-client-intake-the-ultimate-guide-for-attorneys/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "client intake process",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 49,
+        "cpc": 13.23,
+        "intent": "Commercial",
+        "ranking_url": "https://www.consultwebs.com/blog/client-intake-process-for-law-firms/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "seo for lawyers",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 39,
+        "cpc": 101.94,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm marketing metrics",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 30,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.performlaw.com/law-firm-best-practices-blog/marketing-metrics",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "title": "AI-powered legal practices surge: Clio's latest Legal Trends Report reveals major shift",
+      "publisher": "Clio via PR Newswire",
+      "source_type": "Vendor press release",
+      "year": "2024",
+      "published_at": "2024-10-07",
+      "accessed_at": "2026-10-15",
+      "scope": "2024 secret-shopper study: 33% of 500 firms emailed responded; 40% answered calls",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor-commissioned; method details not in the release.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/6366371",
+      "title": "Best practices to avoid sending personally identifiable information",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "No PII may be sent to Google Analytics; URL paths and parameters must be free of PII",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/13128484",
+      "title": "Mark events as key events",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "How to mark an event that measures an important user interaction as a key event",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Clio's 2024 secret-shopper study: 33% of 500 firms emailed responded; 40% answered calls.",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "U.S. law firms in secret-shopper sample",
+      "sample": "500 firms",
+      "denominator": "Firms contacted",
+      "unit": "Percent",
+      "method": "Secret-shopper study",
+      "limitations": "Vendor-commissioned.",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What Does an Intake Specialist Do at a Law Firm?",
+      "url": "https://www.alertcommunications.com/blog/what-does-an-intake-specialist-do-at-a-law-firm/",
+      "publisher": "Alert Communications",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Role clarity.",
+      "gaps": "No stage definitions or exit rules."
+    },
+    {
+      "title": "Legal Client Intake Process: The Ultimate Guide for Law Firms",
+      "url": "https://www.mycase.com/blog/client-management/online-client-intake-the-ultimate-guide-for-attorneys/",
+      "publisher": "MyCase",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Thorough software-led guide.",
+      "gaps": "Tool-first; little on handoffs."
+    },
+    {
+      "title": "Client Intake Best Practices for Law Firms in 2026",
+      "url": "https://www.clio.com/blog/client-intake-law-firms/",
+      "publisher": "Clio",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Current best practices.",
+      "gaps": "Light on minimum-necessary information."
+    },
+    {
+      "title": "Law Firm Intake Team",
+      "url": "https://lucrativelegal.com/intake-team-for-attorneys/",
+      "publisher": "Lucrative Legal",
+      "format": "Service page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Service page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Staffing angle.",
+      "gaps": "Sales page."
+    },
+    {
+      "title": "Client Intake Process for Law Firms",
+      "url": "https://www.consultwebs.com/blog/client-intake-process-for-law-firms/",
+      "publisher": "Consultwebs",
+      "format": "Agency blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Process overview.",
+      "gaps": "No duplicate or reopening rules."
+    }
+  ],
+  "content_gaps": [
+    "No reviewed page defines intake stages with entry and exit rules.",
+    "No reviewed page plans duplicates and reopening."
+  ],
+  "value_add": "A proposed intake workflow with single ownership, staged information collection, explicit handoffs, and process measures that do not reward premature closure.",
+  "plan": {
+    "reader_title": "Law Firm Intake: Close the Gaps Between First Contact and Attorney Review",
+    "seo_title": "Law Firm Intake: Map Every Inquiry-to-Engagement Step",
+    "meta_description": "Map law firm intake from first contact to engagement with clear ownership, minimum necessary information, conflict-review checkpoints, and useful reporting.",
+    "slug": "/law-firms/law-firm-intake-process/",
+    "search_intent": "Commercial Investigation",
+    "secondary_keywords": [
+      "legal intake workflow",
+      "client onboarding law firm"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Draw the Workflow Before Choosing Software",
+      "Define Stages With Observable Entry and Exit Rules",
+      "Collect Less at the First Contact",
+      "Make the Reception-to-Attorney Handoff Explicit",
+      "Write Responses That Explain the Next Step",
+      "Create a Follow-Up Policy With an End Point",
+      "Evaluate Software Against the Handoffs",
+      "Measure the Process Without Rewarding the Wrong Behavior",
+      "Separate Marketing Reporting From Restricted Intake Records",
+      "Pilot the Workflow Before Rolling It Across the Practice",
+      "Handle Duplicate Inquiries Without Losing Their History",
+      "Plan Reopening as Well as Closure",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/analytics/answer/6366371"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/mycase-legal-software/"
+    ],
+    "external_link_opportunities": [
+      "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "https://support.google.com/analytics/answer/6366371",
+      "https://support.google.com/analytics/answer/13128484"
+    ],
+    "excluded_claims": [
+      "ABA Model Rule citations (source could not be opened for verification)"
+    ],
+    "drafting_cautions": [
+      "Label hypothetical calculations",
+      "No ranking or citation guarantees"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "33% of 500 firms emailed responded and 40% answered calls in Clio’s 2024 study.",
+      "source_url": "https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html",
+      "verified": true
+    },
+    {
+      "statement": "Google Analytics prohibits sending PII.",
+      "source_url": "https://support.google.com/analytics/answer/6366371",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  }
+}

@@ -140,7 +140,8 @@ test('release manifest defines a launch policy and keeps the 20-item plan as bac
     readFile('data/navigation.json', 'utf8').then(JSON.parse)
   ]);
   assert.equal(release.schema_version, 2);
-  assert.equal(launch.length, 20, 'the original 20-item editorial plan is preserved');
+  const keys = new Set(launch.map(item => `${item.type}:${item.content_number}`));
+  for (const type of ['Article', 'Blog']) for (let n = 1; n <= 10; n += 1) assert.ok(keys.has(`${type}:${n}`), `the original 20-item editorial plan is preserved (${type}:${n})`);
   assert.equal('required_content_ids' in release, false, 'no fixed launch-set requirement');
   const policy = release.launch_policy;
   assert.equal(policy.minimum_published_blogs, 1);

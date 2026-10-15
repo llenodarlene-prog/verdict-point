@@ -1,0 +1,395 @@
+{
+  "tracker_id": "Blog:14",
+  "status": "verified",
+  "research_question": "Owned-page scope: Law Firm SEO Metrics That Connect to Signed Work. Planned sources and method: Consented Search Console and aggregated intake reports; document attribution limits. Build a source-labelled comparison covering legal SEO reporting and organic signed-client attribution; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm seo metrics, fact-checked and fitted to house rules.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-15",
+    "scope_limitations": "Editorial framework; worked numbers are labeled hypothetical. ABA Model Rule citations in the draft were removed because the ABA site could not be opened for verification."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm seo metrics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm seo",
+        "type": "short-tail",
+        "volume": 4400,
+        "difficulty": 40,
+        "cpc": 103.24,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm seo metrics",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://lawcus.com/seo-for-law-firms-importance-impact-rankings/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm seo services",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 36,
+        "cpc": 70.26,
+        "intent": "Commercial",
+        "ranking_url": "https://hennessey.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm marketing metrics",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 30,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.performlaw.com/law-firm-best-practices-blog/marketing-metrics",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://support.google.com/webmasters/answer/7576553",
+      "title": "Performance report (Search results)",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Definitions of clicks, impressions, CTR, and average position",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/96568",
+      "title": "About Search Console performance data",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Privacy filtering omits some queries; chart totals can exceed table rows",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/analytics/answer/6366371",
+      "title": "Best practices to avoid sending personally identifiable information",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "No PII may be sent to Google Analytics; URL paths and parameters must be free of PII",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Search Console defines clicks, impressions, CTR, and average position.",
+      "source_url": "https://support.google.com/webmasters/answer/7576553",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Google Search properties",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor documentation statement",
+      "limitations": "Documentation can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Google Analytics prohibits sending personally identifiable information, including in URL paths and parameters.",
+      "source_url": "https://support.google.com/analytics/answer/6366371",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Google Search properties",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor documentation statement",
+      "limitations": "Documentation can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "SEO for Law Firms: It's Importance and Impact on Your Rankings",
+      "url": "https://lawcus.com/seo-for-law-firms-importance-impact-rankings/",
+      "publisher": "Lawcus",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Ranks first for the phrase.",
+      "gaps": "Rankings focus; no intake join."
+    },
+    {
+      "title": "Law Firm Marketing Metrics That Actually Matter",
+      "url": "https://www.performlaw.com/law-firm-best-practices-blog/marketing-metrics",
+      "publisher": "PerformLaw",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Business-outcome framing.",
+      "gaps": "No cohort or attribution rules."
+    },
+    {
+      "title": "Law Firm SEO Strategy 2025",
+      "url": "https://www.attorneyatwork.com/law-firm-seo-strategy-cheat-sheet-to-improve-rankings/",
+      "publisher": "Attorney at Work",
+      "format": "Editorial",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Editorial"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Practical strategy.",
+      "gaps": "Not about reporting."
+    },
+    {
+      "title": "Law Firm SEO - The Ultimate Guide",
+      "url": "https://www.majux.com/law-firm-seo/",
+      "publisher": "Majux",
+      "format": "Agency guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Broad coverage.",
+      "gaps": "No metric dictionary."
+    },
+    {
+      "title": "Law Firm SEO ROI: What to Expect & How to Measure It",
+      "url": "https://onthemap.com/blog/law-firm-seo-roi/",
+      "publisher": "On The Map",
+      "format": "Agency blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "ROI angle.",
+      "gaps": "Profit and cost blurred; no data-quality checks."
+    }
+  ],
+  "content_gaps": [
+    "No reviewed page uses inquiry cohorts to connect search to signed work.",
+    "No reviewed page keeps a metric dictionary or flags reporting breaks before budget changes."
+  ],
+  "value_add": "A stage-by-stage SEO reporting chain with cohorts, attribution rules, data-protection limits, and a metric dictionary.",
+  "plan": {
+    "reader_title": "Law Firm SEO Metrics: Follow the Inquiry Beyond the Ranking Report",
+    "seo_title": "Law Firm SEO Metrics: Connect Search to Signed Work",
+    "meta_description": "Use law firm seo metrics to separate visibility, website activity, qualified inquiries, signed engagements, and collected revenue without false attribution.",
+    "slug": "/legal-marketing/law-firm-seo-metrics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "legal SEO reporting",
+      "organic signed-client attribution"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Give Each Metric a Defined Business Question",
+      "Read Search Console as Search Data",
+      "Count Meaningful Website Actions",
+      "Build the Intake Join With Minimum Necessary Information",
+      "Use Cohorts Instead of Mixing Calendar Totals",
+      "Keep Cost Per Signed Engagement Separate From Profit",
+      "Show Attribution Rules Beside the Result",
+      "Segment Only When the Sample Supports a Decision",
+      "Build a Monthly Review That Assigns Owners",
+      "Investigate a Reporting Break Before Reallocating Budget",
+      "Keep a Metric Dictionary Alongside the Dashboard",
+      "Treat Capacity as Part of the Interpretation",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/webmasters/answer/7576553"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/webmasters/answer/96568"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/analytics/answer/6366371"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/mycase-legal-software/"
+    ],
+    "external_link_opportunities": [
+      "https://support.google.com/webmasters/answer/7576553",
+      "https://support.google.com/webmasters/answer/96568",
+      "https://support.google.com/analytics/answer/6366371"
+    ],
+    "excluded_claims": [
+      "ABA Model Rule citations (source could not be opened for verification)"
+    ],
+    "drafting_cautions": [
+      "Label hypothetical calculations",
+      "No ranking or citation guarantees"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Search Console defines clicks, impressions, CTR, and average position.",
+      "source_url": "https://support.google.com/webmasters/answer/7576553",
+      "verified": true
+    },
+    {
+      "statement": "Query-table totals may not match chart totals.",
+      "source_url": "https://support.google.com/webmasters/answer/96568",
+      "verified": true
+    },
+    {
+      "statement": "Google Analytics prohibits sending PII.",
+      "source_url": "https://support.google.com/analytics/answer/6366371",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  }
+}

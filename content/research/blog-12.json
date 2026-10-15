@@ -1,0 +1,378 @@
+{
+  "tracker_id": "Blog:12",
+  "status": "verified",
+  "research_question": "Owned-page scope: AI Search Visibility Law Firms: A Measurement Plan. Planned sources and method: Repeat a fixed prompt panel; record engine, date and response variation. Build a source-labelled comparison covering law firm AI citation tracking and AI brand visibility; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for ai search visibility law firms, fact-checked and fitted to house rules.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-15",
+    "scope_limitations": "Editorial framework; worked numbers are labeled hypothetical. ABA Model Rule citations in the draft were removed because the ABA site could not be opened for verification."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "ai search visibility law firms",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "ai search optimization",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 19,
+        "cpc": 60.62,
+        "intent": "Commercial",
+        "ranking_url": "https://attorneyvisibilityai.com/how-it-works/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai search visibility law firms",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://justlegalmarketing.com/ai-visibility-audit-law-firms-chatgpt-gemini.html",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "seo for lawyers",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 39,
+        "cpc": 101.94,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm ai visibility",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://attorneyvisibilityai.com/how-it-works/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://support.google.com/webmasters/answer/16984139",
+      "title": "Generative AI performance report (Search)",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Impressions for links shown in AI Overviews and AI Mode; rolled out to all websites worldwide as of August 31, 2026",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/7576553",
+      "title": "Performance report (Search results)",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Definitions of clicks, impressions, CTR, and average position",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/16908024",
+      "title": "Search generative AI control",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Property-level include, exclude, or inherit setting for Search generative AI features",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Google reports generative AI feature impressions for AI Overviews and AI Mode; rolled out to all websites worldwide as of August 31, 2026.",
+      "source_url": "https://support.google.com/webmasters/answer/16984139",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Google Search properties",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor documentation statement",
+      "limitations": "Documentation can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "How it Works",
+      "url": "https://attorneyvisibilityai.com/how-it-works/",
+      "publisher": "Attorney Visibility AI",
+      "format": "Vendor page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Explains a monitoring product.",
+      "gaps": "No denominator or failed-run rules."
+    },
+    {
+      "title": "5 Signs Your B2B Law Firm Content Is Invisible to AI Search",
+      "url": "https://attorneyjournals.com/5-signs-your-b2b-law-firm-content-is-invisible-to-ai-search-and-what-to-do-about-it",
+      "publisher": "Attorney Journals",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Readable diagnosis.",
+      "gaps": "No measurement method."
+    },
+    {
+      "title": "The 15-Minute AI Visibility Audit for Law Firms",
+      "url": "https://justlegalmarketing.com/ai-visibility-audit-law-firms-chatgpt-gemini.html",
+      "publisher": "Just Legal Marketing",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Quick test steps.",
+      "gaps": "Single run; no repeatability."
+    },
+    {
+      "title": "AI Search Visibility Services for Law Firms",
+      "url": "https://verdictiq.org/ai-visibility",
+      "publisher": "VerdictIQ",
+      "format": "Service page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Service page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Service overview.",
+      "gaps": "Sales page."
+    },
+    {
+      "title": "How to Improve AI Visibility for Personal Injury Law Firms",
+      "url": "https://marketingforjustice.com/resources/ai-visibility-personal-injury-law-firms",
+      "publisher": "Marketing for Justice",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Practice-specific.",
+      "gaps": "No scoring dictionary or reviewer agreement."
+    }
+  ],
+  "content_gaps": [
+    "No reviewed page fixes a prompt panel or counts unavailable runs.",
+    "No reviewed page separates Google-reported AI impressions from manual tests."
+  ],
+  "value_add": "A repeatable AI visibility measurement plan with fixed panels, explicit denominators, source audits, and reviewer agreement checks.",
+  "plan": {
+    "reader_title": "AI Search Visibility Law Firms: Build a Report That Survives a Second Test",
+    "seo_title": "AI Search Visibility Law Firms: A Measurement Plan",
+    "meta_description": "Build an ai search visibility law firms measurement plan with fixed prompts, clear denominators, cited-source checks, and separate intake outcomes.",
+    "slug": "/legal-marketing/ai-search-visibility-law-firms/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "law firm AI citation tracking",
+      "AI brand visibility"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Define the Unit Before Calculating a Rate",
+      "Build a Prompt Panel Around Business Decisions",
+      "Preserve Conditions That Could Change the Answer",
+      "Keep Google's Reports Distinct From Manual AI Tests",
+      "Calculate Rates Without Hiding Unavailable Runs",
+      "Audit the Source Behind Each Mention",
+      "Compare Like With Like Across Reporting Periods",
+      "Connect Visibility to Intake Without Inventing Attribution",
+      "Check the Reviewer's Agreement Before Scaling",
+      "Turn the Report Into One Specific Action",
+      "Archive the Evidence Behind the Monthly Slide",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/webmasters/answer/16984139"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/webmasters/answer/7576553"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/webmasters/answer/16908024"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-tech/ai-in-law-firms-statistics/",
+      "/legal-tech/legal-technology-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://support.google.com/webmasters/answer/16984139",
+      "https://support.google.com/webmasters/answer/7576553",
+      "https://support.google.com/webmasters/answer/16908024"
+    ],
+    "excluded_claims": [
+      "ABA Model Rule citations (source could not be opened for verification)"
+    ],
+    "drafting_cautions": [
+      "Label hypothetical calculations",
+      "No ranking or citation guarantees"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Google documents a Generative AI performance report covering impressions in AI Overviews and AI Mode, rolled out worldwide as of August 31, 2026.",
+      "source_url": "https://support.google.com/webmasters/answer/16984139",
+      "verified": true
+    },
+    {
+      "statement": "The Search performance report is a separate reporting surface.",
+      "source_url": "https://support.google.com/webmasters/answer/7576553",
+      "verified": true
+    },
+    {
+      "statement": "The Search generative AI control is a property-level setting.",
+      "source_url": "https://support.google.com/webmasters/answer/16908024",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  }
+}
