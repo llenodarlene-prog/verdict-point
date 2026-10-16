@@ -6,7 +6,9 @@ async function walk(dir) {
   return (await Promise.all(entries.map(e=>e.isDirectory()?walk(path.join(dir,e.name)):[path.join(dir,e.name)]))).flat();
 }
 const files=(await walk('dist')).filter(f=>f.endsWith('.html'));
-const manifest=JSON.parse(await readFile('dist/build-manifest.json','utf8').catch(()=>'{"pages":[]}'));\nconst state=new Map((manifest.pages||[]).map(p=>[p.slug||p.route||p.url,p]));\nconst pages=[];
+const manifest=JSON.parse(await readFile('dist/build-manifest.json','utf8').catch(()=>'{"pages":[]}'));
+const state=new Map((manifest.pages||[]).map(p=>[p.slug||p.route||p.url,p]));
+const pages=[];
 for(const file of files){
   const html=await readFile(file,'utf8');
   const rel=path.relative('dist',file).replaceAll(path.sep,'/');
