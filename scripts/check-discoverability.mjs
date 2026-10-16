@@ -8,7 +8,14 @@ async function walk(dir) {
 }
 const files=(await walk('dist')).filter(f=>f.endsWith('.html'));
 const manifest=JSON.parse(await readFile('dist/build-manifest.json','utf8').catch(()=>'{"pages":[]}'));
-const state=new Map((manifest.pages||[]).map(p=>[p.slug||p.route||p.url,p]));
+const state=new Map((manifest.pages||[]).map(p=>[p.slug||p.route||p.url,{...p}]));
+for (const record of state.values()) {
+  if (!record.source) continue;
+  const raw=await readFile(record.source,'utf8').catch(()=>'');
+  if (/^draft:\s*true\s*$/mi.test(raw)) record.draft=true;
+  const published=raw.match(/^published:\s*([^\n]*)$/mi)?.[1]?.trim();
+  if (published) record.published=published;
+}
 const pages=[];
 for(const file of files){
   const html=await readFile(file,'utf8');
