@@ -93,7 +93,8 @@ test('completed pages plus one valid published blog pass the launch gate while 1
   assert.ok(drafts.length >= 19, `expected at least 19 drafts, found ${drafts.length}`);
   const result = run('scripts/check-release.mjs', root);
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /including 1 blog\(s\); 19 backlog item\(s\) remain drafts/);
+  const backlog = JSON.parse(await readFile(path.join(root, 'data/launch-content-plan.json'), 'utf8')).length;
+  assert.match(result.stdout, new RegExp(`including 1 blog\\(s\\); ${backlog - 1} backlog item\\(s\\) remain drafts`));
 }));
 
 test('completed pages with zero published blogs fail the launch gate', () => withLaunch(async ({ root }) => {
@@ -155,7 +156,8 @@ test('a second valid published item after launch passes without requiring all 20
   const { slug } = await publishFixtureArticle(root);
   const result = run('scripts/check-release.mjs', root);
   assert.equal(result.status, 0, result.stderr);
-  assert.match(result.stdout, /2 published item\(s\) including 1 blog\(s\); 18 backlog item\(s\) remain drafts/);
+  const backlog = JSON.parse(await readFile(path.join(root, 'data/launch-content-plan.json'), 'utf8')).length;
+  assert.match(result.stdout, new RegExp(`2 published item\\(s\\) including 1 blog\\(s\\); ${backlog - 2} backlog item\\(s\\) remain drafts`));
   assert.equal(env(root, 'production').status, 0);
   assert.equal(check(root, 'production').status, 0);
   await stat(path.join(root, 'dist', slug, 'index.html'));
@@ -195,12 +197,11 @@ test('staging previews a scheduled post before its date', () => withLaunch(async
   await stat(path.join(root, 'dist', slug, 'index.html'));
 }));
 
-test('two articles on the same publication date fail the cadence check', () => withLaunch(async ({ root }) => {
+test('three posts on the same publication date fail the cadence check', () => withLaunch(async ({ root }) => {
   await publishFixtureArticle(root);
   const fixture = path.join(root, 'content/posts/published-fixture.md');
-  const copy = path.join(root, 'content/posts/published-fixture-copy.md');
   await schedule(fixture, '2030-01-15');
-  await writeFile(copy, (await readFile(fixture, 'utf8')).replace(/^slug: (.+)$/m, 'slug: $1copy/'));
+  for (const suffix of ['copy', 'copy-two']) await writeFile(path.join(root, `content/posts/published-fixture-${suffix}.md`), (await readFile(fixture, 'utf8')).replace(/^slug: (.+)$/m, `slug: $1${suffix}/`));
   const result = run('scripts/check-content.mjs', root);
-  assert.match(result.stderr, /publication cadence: 2030-01-15: article scheduled more than once per day/);
+  assert.match(result.stderr, /publication cadence: 2030-01-15: 3 posts scheduled; maximum is 2 per day/);
 }));

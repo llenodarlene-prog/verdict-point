@@ -1,0 +1,383 @@
+{
+  "tracker_id": "Blog:13",
+  "status": "verified",
+  "research_question": "Owned-page scope: Law Firm SEO for Practice-Area Pages. Planned sources and method: Current search-result review and existing page inventory. Build a source-labelled comparison covering law firm practice pages and legal SEO content mapping; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm seo, fact-checked and fitted to house rules.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-15",
+    "scope_limitations": "Editorial framework; worked numbers are labeled hypothetical. ABA Model Rule citations in the draft were removed because the ABA site could not be opened for verification."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm seo",
+    "intent": "Commercial Investigation",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm seo",
+        "type": "short-tail",
+        "volume": 4400,
+        "difficulty": 40,
+        "cpc": 103.24,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm seo services",
+        "type": "long-tail",
+        "volume": 720,
+        "difficulty": 36,
+        "cpc": 70.26,
+        "intent": "Commercial",
+        "ranking_url": "https://hennessey.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "seo for lawyers",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 39,
+        "cpc": 101.94,
+        "intent": "Commercial",
+        "ranking_url": "https://lawrank.com/seo-for-lawyers/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm seo audit",
+        "type": "problem",
+        "volume": 110,
+        "difficulty": 13,
+        "cpc": 57.24,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "title": "Spam policies for Google web search",
+      "publisher": "Google Search Central",
+      "source_type": "Policy documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Lists doorway abuse and scaled content abuse",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "title": "AI features and your website",
+      "publisher": "Google Search Central",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "SEO best practices remain relevant for AI Overviews and AI Mode; no special markup, AI text files, or schema needed",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/7576553",
+      "title": "Performance report (Search results)",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Definitions of clicks, impressions, CTR, and average position",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Google lists doorway abuse and scaled content abuse as spam policies.",
+      "source_url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Google Search properties",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor documentation statement",
+      "limitations": "Documentation can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Google says SEO foundations remain relevant for AI features.",
+      "source_url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Google Search properties",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor documentation statement",
+      "limitations": "Documentation can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Law firm SEO: what it is, how it works, and how to choose a provider",
+      "url": "https://www.exults.com/law-firm-seo/",
+      "publisher": "Exults",
+      "format": "Agency guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Top-ranking overview.",
+      "gaps": "Little on practice-page purpose or service verification."
+    },
+    {
+      "title": "A Guide to SEO Services for Attorneys and Law Firms",
+      "url": "https://www.clio.com/blog/seo-services-law-firms/",
+      "publisher": "Clio",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Clear overview from a known vendor.",
+      "gaps": "No page brief or reader test."
+    },
+    {
+      "title": "Law Firm SEO Agency",
+      "url": "https://jurisdigital.com/services/law-firm-seo/",
+      "publisher": "Juris Digital",
+      "format": "Service page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Service page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Agency process.",
+      "gaps": "Sales page."
+    },
+    {
+      "title": "SEO For Lawyers: Beginner's Guide to Law Firm SEO",
+      "url": "https://lawrank.com/seo-for-lawyers/",
+      "publisher": "LawRank",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Beginner coverage.",
+      "gaps": "Keyword-first framing."
+    },
+    {
+      "title": "SEO for Lawyers: A Guide to Law Firm SEO",
+      "url": "https://neilpatel.com/blog/law-firm-seo/",
+      "publisher": "Neil Patel",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "High-authority overview.",
+      "gaps": "Generic; no legal-advertising caution."
+    }
+  ],
+  "content_gaps": [
+    "No reviewed page gives each practice page a single decision to support.",
+    "No reviewed page requires verified service scope before drafting."
+  ],
+  "value_add": "A practice-page method built on reader decisions, verified service information, page briefs, and reader tests.",
+  "plan": {
+    "reader_title": "Law Firm SEO: Give Every Practice Page a Clear Job",
+    "seo_title": "Law Firm SEO: Build Better Practice-Area Pages",
+    "meta_description": "Improve law firm seo with practice-area pages that explain service fit, use verified legal sources, and give prospective clients a clear next step.",
+    "slug": "/legal-marketing/law-firm-seo-practice-area-pages/",
+    "search_intent": "Commercial Investigation",
+    "secondary_keywords": [
+      "law firm practice pages",
+      "legal SEO content mapping"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Choose the Primary Decision Before the Keyword Variations",
+      "Distinguish a Service Page From an Educational Resource",
+      "Audit Existing Coverage Before Adding URLs",
+      "Build the Page Around Verified Service Information",
+      "Give Process Questions Enough Space",
+      "Use a Page Brief That Can Be Approved",
+      "Match Supporting Content to a Real Gap",
+      "Check Accessibility and Technical Delivery With the Website Team",
+      "Review Results at the Page and Intake Stages",
+      "Run a Reader Test Before Commissioning More Pages",
+      "Resolve Conflicting Service Claims Before Editing",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://developers.google.com/search/docs/essentials/spam-policies"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://developers.google.com/search/docs/appearance/ai-features"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://developers.google.com/search/docs/essentials/spam-policies",
+      "https://developers.google.com/search/docs/appearance/ai-features",
+      "https://support.google.com/webmasters/answer/7576553"
+    ],
+    "excluded_claims": [
+      "ABA Model Rule citations (source could not be opened for verification)"
+    ],
+    "drafting_cautions": [
+      "Label hypothetical calculations",
+      "No ranking or citation guarantees"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Google spam policies identify doorway abuse and scaled content abuse.",
+      "source_url": "https://developers.google.com/search/docs/essentials/spam-policies",
+      "verified": true
+    },
+    {
+      "statement": "SEO foundations still apply to AI features; no special markup is required.",
+      "source_url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  }
+}

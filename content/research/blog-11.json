@@ -1,0 +1,381 @@
+{
+  "tracker_id": "Blog:11",
+  "status": "verified",
+  "research_question": "Owned-page scope: AI Search Law Firms: Questions Clients Ask. Planned sources and method: Dated set of consumer prompts and recorded AI responses; preserve query wording. Build a source-labelled comparison covering AI legal search queries and law firm AI discovery; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for ai search law firms, fact-checked and fitted to house rules.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-15",
+    "scope_limitations": "Editorial framework; worked numbers are labeled hypothetical. ABA Model Rule citations in the draft were removed because the ABA site could not be opened for verification."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "ai search law firms",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-15"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "ai search optimization",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 19,
+        "cpc": 60.62,
+        "intent": "Commercial",
+        "ranking_url": "https://legaloneglobal.com/ai_search",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai search law firms",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://legaloneglobal.com/ai_search",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "seo for lawyers",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 39,
+        "cpc": 101.94,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm ai visibility",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://attorneyvisibilityai.com/how-it-works/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-15",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "title": "AI features and your website",
+      "publisher": "Google Search Central",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "SEO best practices remain relevant for AI Overviews and AI Mode; no special markup, AI text files, or schema needed",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/96568",
+      "title": "About Search Console performance data",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Privacy filtering omits some queries; chart totals can exceed table rows",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/7576553",
+      "title": "Performance report (Search results)",
+      "publisher": "Google",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-15",
+      "scope": "Definitions of clicks, impressions, CTR, and average position",
+      "method": "Opened and read the live page on 2026-10-15 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Documentation; can change without notice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Google says SEO best practices remain relevant for AI features and no special markup or AI text files are required.",
+      "source_url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Google Search properties",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor documentation statement",
+      "limitations": "Documentation can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Search Console omits some queries for privacy, and chart totals can exceed table rows.",
+      "source_url": "https://support.google.com/webmasters/answer/96568",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Google Search properties",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Vendor documentation statement",
+      "limitations": "Documentation can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "AI Search",
+      "url": "https://legaloneglobal.com/ai_search",
+      "publisher": "LegalOne Global",
+      "format": "Vendor page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Ranks first for the phrase.",
+      "gaps": "Product page; no client-question method."
+    },
+    {
+      "title": "AI Is Changing How Clients Find Lawyers Online",
+      "url": "https://bardorfmarketing.com/ai-is-changing-how-clients-find-lawyers-online-is-your-law-firm-ready/",
+      "publisher": "Bardorf Marketing",
+      "format": "Agency blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Explains the shift in plain terms.",
+      "gaps": "No source labeling or confidentiality guidance."
+    },
+    {
+      "title": "Law Firms and Doctors: Ranked on Google, Invisible to AI",
+      "url": "https://yellowfindigital.com/ai-visibility-law-firms-medical-practices/",
+      "publisher": "Yellowfin Digital",
+      "format": "Agency blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Clear visibility framing.",
+      "gaps": "Mixes industries; no question inventory."
+    },
+    {
+      "title": "AI Search for Law Firms",
+      "url": "https://keyshoreconsulting.com/ai-search-for-law-firms",
+      "publisher": "Key Shore Consulting",
+      "format": "Service page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Service page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Service overview.",
+      "gaps": "Sales page; no editorial method."
+    },
+    {
+      "title": "Law Firm AI Search Optimization: A Guide for Small & Solo",
+      "url": "https://legalpeel.com/journals/how-to-rank-your-law-firm-in-chatgpt-ai-search",
+      "publisher": "LegalPeel",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest 2026-10-15"
+      ],
+      "covered_well": "Practical for small firms.",
+      "gaps": "Promises rankings; no evidence labels."
+    }
+  ],
+  "content_gaps": [
+    "No reviewed page separates observed client questions from AI-generated ideas.",
+    "No reviewed page addresses prospective-client confidentiality in question research."
+  ],
+  "value_add": "A source-labeled question-inventory method with destination rules, confidentiality limits, and an editorial sprint plan.",
+  "plan": {
+    "reader_title": "AI Search Law Firms: Turn Client Questions Into Better Practice Pages",
+    "seo_title": "AI Search Law Firms: Map Client Questions to Content",
+    "meta_description": "Explore ai search law firms can use to identify client questions, audit practice pages, and separate useful content gaps from speculative AI claims.",
+    "slug": "/legal-marketing/ai-search-law-firms/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "AI legal search queries",
+      "law firm AI discovery"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Separate Client Questions From AI Recommendations",
+      "Build a Question Inventory From Sources You Can Explain",
+      "Test AI Answers Without Calling the Test Consumer Research",
+      "Find the Missing Decision on Each Practice Page",
+      "Decide Whether to Expand, Split, or Decline a Topic",
+      "Write Answers That Preserve Necessary Qualifications",
+      "Keep the Question Audit Separate From Visibility Reporting",
+      "Run a Small Editorial Sprint With a Clear Finish",
+      "Make the Evidence Owner Part of the Content Map",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://developers.google.com/search/docs/appearance/ai-features"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/webmasters/answer/96568"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://developers.google.com/search/docs/appearance/ai-features",
+      "https://support.google.com/webmasters/answer/96568",
+      "https://support.google.com/webmasters/answer/7576553"
+    ],
+    "excluded_claims": [
+      "ABA Model Rule citations (source could not be opened for verification)"
+    ],
+    "drafting_cautions": [
+      "Label hypothetical calculations",
+      "No ranking or citation guarantees"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "SEO foundations still apply to AI features; no special AI markup is required.",
+      "source_url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "verified": true
+    },
+    {
+      "statement": "Search Console privacy filtering omits some query detail.",
+      "source_url": "https://support.google.com/webmasters/answer/96568",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-15"
+  }
+}
