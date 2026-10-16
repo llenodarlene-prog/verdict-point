@@ -1,0 +1,396 @@
+{
+  "tracker_id": "Blog:20",
+  "status": "verified",
+  "research_question": "Owned-page scope: Law Firm Local SEO and Inconsistent Office Listings. Planned sources and method: Document a fixed directory sample and verified office records. Build a source-labelled comparison covering law firm business listings and attorney NAP consistency; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm local seo, fact-checked and fitted to house rules.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-16",
+    "scope_limitations": "Editorial framework; worked numbers are labeled hypothetical. ABA Model Rule web pages could not be opened, so those citations were reworded without links."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm local seo",
+    "intent": "Commercial Investigation",
+    "serp_checked_at": "2026-10-16",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-16"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm local seo",
+        "type": "short-tail",
+        "volume": 880,
+        "difficulty": 31,
+        "cpc": 88.67,
+        "intent": "Commercial",
+        "ranking_url": "https://vipmarketing.com/blog/the-ultimate-guide-to-local-seo-for-law-firms/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "local seo for law firms",
+        "type": "long-tail",
+        "volume": 880,
+        "difficulty": 32,
+        "cpc": 83.45,
+        "intent": "Commercial",
+        "ranking_url": "https://vipmarketing.com/blog/the-ultimate-guide-to-local-seo-for-law-firms/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "seo for lawyers",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 39,
+        "cpc": 101.94,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm seo audit",
+        "type": "problem",
+        "volume": 110,
+        "difficulty": 13,
+        "cpc": 57.24,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://support.google.com/business/answer/3038177",
+      "title": "Guidelines for representing your business on Google",
+      "publisher": "Google Business Profile Help",
+      "source_type": "Policy documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Rented addresses and remote mailboxes ineligible; co-working offices need signage, staffing, and customer access; individual practitioner rules",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/business/answer/12756178",
+      "title": "Resolve duplicate profiles & ownership issues",
+      "publisher": "Google Business Profile Help",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "One profile per business; ownership requests; update the existing profile after a move",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/business/answer/7091",
+      "title": "How to improve your local ranking on Google",
+      "publisher": "Google Business Profile Help",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Local results based mainly on relevance, distance, and prominence",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/business/answer/3403100",
+      "title": "Manage owners and managers of your Business Profile",
+      "publisher": "Google Business Profile Help",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Each user needs their own Google Account so passwords are not shared",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Google says local results are based mainly on relevance, distance, and prominence.",
+      "source_url": "https://support.google.com/business/answer/7091",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Published policy or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Guidance can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Local SEO For Lawyers: The Ultimate Guide",
+      "url": "https://vipmarketing.com/blog/the-ultimate-guide-to-local-seo-for-law-firms/",
+      "publisher": "VIP Marketing",
+      "format": "Agency guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result.",
+      "gaps": "Ranking promises; little on eligibility."
+    },
+    {
+      "title": "Local SEO for Attorneys & Lawyers",
+      "url": "https://jurisdigital.com/services/local-seo-for-lawyers/",
+      "publisher": "Juris Digital",
+      "format": "Service page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Service page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Process overview.",
+      "gaps": "Sales page."
+    },
+    {
+      "title": "Guide to Local SEO for Lawyers",
+      "url": "https://hennessey.com/law-firm-seo/local-seo/",
+      "publisher": "Hennessey Digital",
+      "format": "Agency guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Map pack focus.",
+      "gaps": "No office register or move playbook."
+    },
+    {
+      "title": "Guide: Local SEO for lawyers",
+      "url": "https://www.findlaw.com/lawyer-marketing/blog/local-seo-for-law-firms/",
+      "publisher": "FindLaw",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Actionable steps.",
+      "gaps": "Little on practitioner vs firm profiles."
+    },
+    {
+      "title": "How To Conquer Local SEO For Your Law Firm",
+      "url": "https://www.paperstreet.com/blog/how-to-conquer-local-seo-for-your-law-firm/",
+      "publisher": "PaperStreet",
+      "format": "Agency blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Practical tips.",
+      "gaps": "No stable-denominator reporting."
+    }
+  ],
+  "content_gaps": [
+    "No reviewed page reports listing accuracy with a stable denominator.",
+    "No reviewed page separates discovery from verified correction."
+  ],
+  "value_add": "A listing audit with a source of truth, fixed sample, meaning-based comparison, controlled corrections, and stable reporting.",
+  "plan": {
+    "reader_title": "Law Firm Local SEO: Repair the Listing Errors That Send People Elsewhere",
+    "seo_title": "Law Firm Local SEO: Repair Inconsistent Listings",
+    "meta_description": "Audit law firm local seo listings with verified office records, a fixed directory sample, clear correction priorities, and evidence that updates went live.",
+    "slug": "/legal-marketing/law-firm-local-seo-listing-consistency/",
+    "search_intent": "Commercial Investigation",
+    "secondary_keywords": [
+      "law firm business listings",
+      "attorney NAP consistency"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Choose a Source of Truth Before Comparing Listings",
+      "Define the Directory Sample",
+      "Compare Fields by Meaning, Not Typography Alone",
+      "Distinguish Duplicate Records From Legitimate Practitioners",
+      "Plan Corrections in a Controlled Sequence",
+      "Keep Ownership With the Practice",
+      "Test Telephone Numbers and Website Destinations",
+      "Report Error Counts With a Stable Denominator",
+      "Separate Accuracy Work From Ranking Claims",
+      "Prepare a Specific Playbook for Moves and Rebrands",
+      "Make Maintenance an Assigned Task",
+      "Separate Discovery From Correction Completion",
+      "Retain Evidence When a Platform Rejects a Correction",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/business/answer/3038177"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/business/answer/12756178"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/business/answer/7091"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/legal-technology-statistics/",
+      "/legal/legal-industry-statistics-firm-size/"
+    ],
+    "external_link_opportunities": [
+      "https://support.google.com/business/answer/3038177",
+      "https://support.google.com/business/answer/12756178",
+      "https://support.google.com/business/answer/7091",
+      "https://support.google.com/business/answer/3403100"
+    ],
+    "excluded_claims": [
+      "ABA Model Rule web-page citations (could not be opened for verification)"
+    ],
+    "drafting_cautions": [
+      "Label hypothetical calculations",
+      "No ranking guarantees",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Google describes separate conditions for individual practitioners and organizations.",
+      "source_url": "https://support.google.com/business/answer/3038177",
+      "verified": true
+    },
+    {
+      "statement": "Google distinguishes ownership requests, duplicates, and moves.",
+      "source_url": "https://support.google.com/business/answer/12756178",
+      "verified": true
+    },
+    {
+      "statement": "Local ranking factors are relevance, distance, and prominence.",
+      "source_url": "https://support.google.com/business/answer/7091",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-16"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-16"
+  }
+}

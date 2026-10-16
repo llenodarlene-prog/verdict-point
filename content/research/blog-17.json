@@ -1,0 +1,385 @@
+{
+  "tracker_id": "Blog:17",
+  "status": "verified",
+  "research_question": "Owned-page scope: Building a Consistent Process for Law Firm Reviews. Planned sources and method: Disclosed feedback process and relevant platform review policies. Build a source-labelled comparison covering law firm review requests and attorney client feedback; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm reviews, fact-checked and fitted to house rules.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-16",
+    "scope_limitations": "Editorial framework; worked numbers are labeled hypothetical. ABA Model Rule web pages could not be opened, so those citations were reworded without links."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm reviews",
+    "intent": "Commercial Investigation",
+    "serp_checked_at": "2026-10-16",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-16"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm reviews",
+        "type": "short-tail",
+        "volume": 140,
+        "difficulty": 59,
+        "cpc": 14.65,
+        "intent": "Commercial",
+        "ranking_url": "https://www.bestlawyers.com/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm online reviews",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.clio.com/blog/lawyer-review-sites/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "seo for lawyers",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 39,
+        "cpc": 101.94,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm local seo",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 31,
+        "cpc": 88.67,
+        "intent": "Commercial",
+        "ranking_url": "https://vipmarketing.com/blog/the-ultimate-guide-to-local-seo-for-law-firms/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://support.google.com/contributionpolicy/answer/7400114",
+      "title": "Prohibited and restricted content",
+      "publisher": "Google Maps user-contributed content policy",
+      "source_type": "Policy documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Merchants may ask for genuine reviews but may not offer incentives, discourage negative reviews, or selectively solicit positive reviews; lists Fake Engagement and other categories",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "title": "Consumer Reviews and Testimonials Rule: Questions and Answers",
+      "publisher": "Federal Trade Commission",
+      "source_type": "Regulator staff guidance (page dated November 2024)",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Incentives may not require a particular sentiment; unfounded or groundless legal threats may not be used to suppress reviews",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/business/answer/3474122",
+      "title": "Tips to get more reviews",
+      "publisher": "Google Business Profile Help",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Asking customers to review via link or QR code; replying to reviews",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Google lets merchants ask for genuine reviews but bars incentives, discouraging negative reviews, and selective solicitation of positive reviews.",
+      "source_url": "https://support.google.com/contributionpolicy/answer/7400114",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Published policy or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Guidance can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "FTC staff guidance: incentives may not require a particular sentiment.",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Published policy or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Guidance can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Best Lawyers",
+      "url": "https://www.bestlawyers.com/",
+      "publisher": "Best Lawyers",
+      "format": "Directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Directory"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result.",
+      "gaps": "Directory, not a process guide."
+    },
+    {
+      "title": "Avvo",
+      "url": "https://www.avvo.com/",
+      "publisher": "Avvo",
+      "format": "Directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Directory"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Reviews platform.",
+      "gaps": "No policy guidance."
+    },
+    {
+      "title": "Lawyers.com",
+      "url": "https://www.lawyers.com/",
+      "publisher": "Lawyers.com",
+      "format": "Directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Directory"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ratings.",
+      "gaps": "No request or reply process."
+    },
+    {
+      "title": "Super Lawyers",
+      "url": "https://www.superlawyers.com/",
+      "publisher": "Super Lawyers",
+      "format": "Ratings directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Ratings directory"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Peer ratings.",
+      "gaps": "Not about client reviews policy."
+    },
+    {
+      "title": "The Best Lawyer Review Sites",
+      "url": "https://www.clio.com/blog/lawyer-review-sites/",
+      "publisher": "Clio",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Platform overview.",
+      "gaps": "Little on incentives, gating, or confidentiality."
+    }
+  ],
+  "content_gaps": [
+    "No reviewed page separates FTC rules from Google platform rules.",
+    "No reviewed page warns against review gating with private feedback."
+  ],
+  "value_add": "An auditable review-request process with neutral invitations, eligibility rules, gating safeguards, and process measures.",
+  "plan": {
+    "reader_title": "Law Firm Reviews: Ask for Honest Feedback Without Steering the Answer",
+    "seo_title": "Law Firm Reviews: Build a Consistent Request Process",
+    "meta_description": "Build a law firm reviews process with neutral invitations, clear eligibility rules, no Google review incentives, and privacy-aware approval.",
+    "slug": "/legal-marketing/law-firm-reviews-process/",
+    "search_intent": "Commercial Investigation",
+    "secondary_keywords": [
+      "law firm review requests",
+      "attorney client feedback"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Decide What the Program Is Trying to Learn",
+      "Check Platform Policy Before Designing the Message",
+      "Keep Federal Rules and Platform Rules Distinct",
+      "Define Eligibility Without Predicting Sentiment",
+      "Choose Timing That Does Not Pressure the Person",
+      "Write a Short, Neutral Invitation",
+      "Test the Automation With Fictional Records",
+      "Avoid Turning Private Feedback Into Review Gating",
+      "Measure Process Quality Before Review Volume",
+      "Treat Reuse as a Separate Editorial Decision",
+      "Build a Program That Can Be Audited",
+      "Review the Recipient List Without Exposing Case Details",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/contributionpolicy/answer/7400114"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/mycase-legal-software/"
+    ],
+    "external_link_opportunities": [
+      "https://support.google.com/contributionpolicy/answer/7400114",
+      "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "https://support.google.com/business/answer/3474122"
+    ],
+    "excluded_claims": [
+      "ABA Model Rule web-page citations (could not be opened for verification)"
+    ],
+    "drafting_cautions": [
+      "Label hypothetical calculations",
+      "No ranking guarantees",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Google permits genuine review requests without incentives and prohibits selectively soliciting positive reviews.",
+      "source_url": "https://support.google.com/contributionpolicy/answer/7400114",
+      "verified": true
+    },
+    {
+      "statement": "The FTC rule addresses incentives conditioned on a particular sentiment.",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-16"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-16"
+  }
+}
