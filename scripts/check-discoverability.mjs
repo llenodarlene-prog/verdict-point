@@ -1,5 +1,6 @@
 import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
+import { publishDate } from './lib/schedule.mjs';
 
 async function walk(dir) {
   const entries=await readdir(dir,{withFileTypes:true});
