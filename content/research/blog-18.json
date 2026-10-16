@@ -1,0 +1,395 @@
+{
+  "tracker_id": "Blog:18",
+  "status": "verified",
+  "research_question": "Owned-page scope: Responding to Law Firm Online Reviews. Planned sources and method: State bar guidance and platform policies; legal review before publication. Build a source-labelled comparison covering responding to attorney reviews and legal review response policy; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm online reviews, fact-checked and fitted to house rules.",
+    "audience": "Managing partners, marketing leads, and intake managers at U.S. law firms.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-16",
+    "scope_limitations": "Editorial framework; worked numbers are labeled hypothetical. ABA Model Rule web pages could not be opened, so those citations were reworded without links."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm online reviews",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-16",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-16"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm reviews",
+        "type": "short-tail",
+        "volume": 140,
+        "difficulty": 59,
+        "cpc": 14.65,
+        "intent": "Commercial",
+        "ranking_url": "https://www.bestlawyers.com/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm online reviews",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.clio.com/blog/lawyer-review-sites/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "seo for lawyers",
+        "type": "commercial",
+        "volume": 1000,
+        "difficulty": 39,
+        "cpc": 101.94,
+        "intent": "Commercial",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm local seo",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 31,
+        "cpc": 88.67,
+        "intent": "Commercial",
+        "ranking_url": "https://vipmarketing.com/blog/the-ultimate-guide-to-local-seo-for-law-firms/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.exults.com/law-firm-seo/",
+        "retrieved_at": "2026-10-16",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cobar.org/Portals/COBAR/Repository/CBA/Ethics22221/aba-formal-opinion-496.pdf",
+      "title": "Formal Opinion 496: Responding to Online Criticism",
+      "publisher": "American Bar Association Standing Committee on Ethics and Professional Responsibility (copy hosted by the Colorado Bar Association)",
+      "source_type": "Ethics opinion",
+      "year": "2021",
+      "published_at": "2021-01-13",
+      "accessed_at": "2026-10-16",
+      "scope": "A negative online review alone does not permit disclosure under the self-defense exception",
+      "method": "Opened the PDF on 2026-10-16 and read the opinion text (title, date, conclusion); the ABA site itself blocks automated access, so the Colorado Bar copy is cited. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/contributionpolicy/answer/7400114",
+      "title": "Prohibited and restricted content",
+      "publisher": "Google Maps user-contributed content policy",
+      "source_type": "Policy documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Merchants may ask for genuine reviews but may not offer incentives, discourage negative reviews, or selectively solicit positive reviews; lists Fake Engagement and other categories",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "title": "Consumer Reviews and Testimonials Rule: Questions and Answers",
+      "publisher": "Federal Trade Commission",
+      "source_type": "Regulator staff guidance (page dated November 2024)",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Incentives may not require a particular sentiment; unfounded or groundless legal threats may not be used to suppress reviews",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.floridabar.org/etopinions/opinion-21-1/",
+      "title": "Ethics Opinion 21-1",
+      "publisher": "The Florida Bar",
+      "source_type": "Advisory ethics opinion",
+      "year": "2021",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-16",
+      "scope": "Responding to negative online reviews by nonclients without revealing client information",
+      "method": "Opened and read the live page on 2026-10-16 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "ABA Formal Opinion 496 (January 13, 2021): a negative online review alone does not permit disclosure in self-defense.",
+      "source_url": "https://www.cobar.org/Portals/COBAR/Repository/CBA/Ethics22221/aba-formal-opinion-496.pdf",
+      "data_year": "2021",
+      "geography": "United States",
+      "population": "Published policy or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Guidance can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Best Lawyers",
+      "url": "https://www.bestlawyers.com/",
+      "publisher": "Best Lawyers",
+      "format": "Directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Directory"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result.",
+      "gaps": "Directory, not a process guide."
+    },
+    {
+      "title": "Avvo",
+      "url": "https://www.avvo.com/",
+      "publisher": "Avvo",
+      "format": "Directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Directory"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Reviews platform.",
+      "gaps": "No policy guidance."
+    },
+    {
+      "title": "Lawyers.com",
+      "url": "https://www.lawyers.com/",
+      "publisher": "Lawyers.com",
+      "format": "Directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Directory"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ratings.",
+      "gaps": "No request or reply process."
+    },
+    {
+      "title": "Super Lawyers",
+      "url": "https://www.superlawyers.com/",
+      "publisher": "Super Lawyers",
+      "format": "Ratings directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Ratings directory"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Peer ratings.",
+      "gaps": "Not about client reviews policy."
+    },
+    {
+      "title": "The Best Lawyer Review Sites",
+      "url": "https://www.clio.com/blog/lawyer-review-sites/",
+      "publisher": "Clio",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Platform overview.",
+      "gaps": "Little on incentives, gating, or confidentiality."
+    }
+  ],
+  "content_gaps": [
+    "No reviewed page builds a confidentiality-first reply process.",
+    "No reviewed page separates removal requests from disagreement."
+  ],
+  "value_add": "A documented response policy with classification, no-reply as an option, attorney approval, vendor limits, and a minimal register.",
+  "plan": {
+    "reader_title": "Law Firm Online Reviews: Protect Confidentiality Before Publishing a Reply",
+    "seo_title": "Law Firm Online Reviews: Set a Safe Response Policy",
+    "meta_description": "Handle law firm online reviews with a documented response process that preserves confidentiality, separates removal requests, and assigns attorney approval.",
+    "slug": "/legal-marketing/law-firm-online-reviews-response/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "responding to attorney reviews",
+      "legal review response policy"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Recognize the Difference Between Reputation and Confidentiality",
+      "Preserve the Record Without Broadening Access",
+      "Classify the Situation Before Choosing an Action",
+      "Consider No Public Reply as a Deliberate Option",
+      "Draft Only What the Firm Can Approve",
+      "Separate Platform Reporting From Disagreement",
+      "Keep Private Resolution Separate From Public Editing",
+      "Give Vendors a Clear Publishing Boundary",
+      "Handle Positive Reviews With Similar Care",
+      "Create a Response Register With Minimal Information",
+      "Train the Team Before the Next Difficult Review",
+      "Review Indirect Disclosures in the Entire Reply",
+      "Correct an Unapproved Reply Through the Escalation Process",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.cobar.org/Portals/COBAR/Repository/CBA/Ethics22221/aba-formal-opinion-496.pdf"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.google.com/contributionpolicy/answer/7400114"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/legal-technology-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://www.cobar.org/Portals/COBAR/Repository/CBA/Ethics22221/aba-formal-opinion-496.pdf",
+      "https://support.google.com/contributionpolicy/answer/7400114",
+      "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "https://www.floridabar.org/etopinions/opinion-21-1/"
+    ],
+    "excluded_claims": [
+      "ABA Model Rule web-page citations (could not be opened for verification)"
+    ],
+    "drafting_cautions": [
+      "Label hypothetical calculations",
+      "No ranking guarantees",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "ABA Formal Opinion 496, issued January 13, 2021, says a negative online review alone does not justify disclosure under the self-defense exception.",
+      "source_url": "https://www.cobar.org/Portals/COBAR/Repository/CBA/Ethics22221/aba-formal-opinion-496.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Google content policy covers fake engagement and other prohibited content.",
+      "source_url": "https://support.google.com/contributionpolicy/answer/7400114",
+      "verified": true
+    },
+    {
+      "statement": "FTC guidance addresses unfounded or groundless threats used to suppress reviews.",
+      "source_url": "https://www.ftc.gov/business-guidance/resources/consumer-reviews-testimonials-rule-questions-answers",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-16"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-16"
+  }
+}

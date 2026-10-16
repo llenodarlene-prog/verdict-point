@@ -2601,7 +2601,7 @@
     "priority": "P2",
     "geo_aeo": "Medium",
     "linkable": "Medium",
-    "status": "Hold / SERP Review",
+    "status": "Ready for Source Verification",
     "ahrefs_volume": null,
     "ahrefs_kd": null,
     "cpc": null,
@@ -2617,16 +2617,20 @@
     "intent_type": "Informational",
     "intent_rationale": "Informational is an editorial classification for \"Measuring Law Firm Speed to Lead\". Reader needs an explanation of the named business, process or behavior. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Hold for parent-topic review; do not publish separately until intent is resolved. Prior decision: Merge into stronger parent topic unless SERP shows a clear standalone opportunity.",
-    "url_slug": null,
-    "internal_link_targets_launch_set": null,
-    "seo_title": null,
-    "meta_description": null,
-    "launch_silo": null,
-    "silo_role": null,
+    "url_slug": "/law-firms/law-firm-speed-to-lead/",
+    "internal_link_targets_launch_set": "/law-firms/law-firm-client-acquisition-statistics/; /legal-tech/legal-technology-statistics/; /legal-tech/mycase-legal-software/",
+    "seo_title": "Law Firm Speed to Lead: Measure Useful Response Time",
+    "meta_description": "Measure law firm speed to lead with separate acknowledgment and useful-response clocks, visible unanswered inquiries, and realistic coverage rules.",
+    "launch_silo": "Client Acquisition & Economics",
+    "silo_role": "Supporting",
     "research_brief": null,
     "deep_research_stage": null,
     "content_number": "16",
-    "internal_link_targets": []
+    "internal_link_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/mycase-legal-software/"
+    ]
   },
   {
     "_source_row": 68,
@@ -2655,16 +2659,20 @@
     "intent_type": "Informational",
     "intent_rationale": "Informational is an editorial classification for \"Building a Consistent Process for Law Firm Reviews\". Reader needs an explanation of the named business, process or behavior. A prior or newly returned volume estimate exists; it does not establish rankability.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication. Compare with VerdictPoint row 69 (\"law firm online reviews\"). Intended distinction: Building a Consistent Process for Law Firm Reviews. Merge into that page if the SERP and evidence do not support this separate scope.",
-    "url_slug": null,
-    "internal_link_targets_launch_set": null,
-    "seo_title": null,
-    "meta_description": null,
-    "launch_silo": null,
-    "silo_role": null,
+    "url_slug": "/legal-marketing/law-firm-reviews-process/",
+    "internal_link_targets_launch_set": "/law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/mycase-legal-software/",
+    "seo_title": "Law Firm Reviews: Build a Consistent Request Process",
+    "meta_description": "Build a law firm reviews process with neutral invitations, clear eligibility rules, no Google review incentives, and privacy-aware approval.",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
     "research_brief": null,
     "deep_research_stage": null,
     "content_number": "17",
-    "internal_link_targets": []
+    "internal_link_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/mycase-legal-software/"
+    ]
   },
   {
     "_source_row": 69,
@@ -2693,16 +2701,20 @@
     "intent_type": "Informational",
     "intent_rationale": "Informational is an editorial classification for \"Responding to Law Firm Online Reviews\". Reader needs an explanation of the named business, process or behavior. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
-    "url_slug": null,
-    "internal_link_targets_launch_set": null,
-    "seo_title": null,
-    "meta_description": null,
-    "launch_silo": null,
-    "silo_role": null,
+    "url_slug": "/legal-marketing/law-firm-online-reviews-response/",
+    "internal_link_targets_launch_set": "/law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/legal-technology-statistics/",
+    "seo_title": "Law Firm Online Reviews: Set a Safe Response Policy",
+    "meta_description": "Handle law firm online reviews with a documented response process that preserves confidentiality, separates removal requests, and assigns attorney approval.",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
     "research_brief": null,
     "deep_research_stage": null,
     "content_number": "18",
-    "internal_link_targets": []
+    "internal_link_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/legal-technology-statistics/"
+    ]
   },
   {
     "_source_row": 70,
@@ -2731,16 +2743,21 @@
     "intent_type": "Informational",
     "intent_rationale": "Informational is an editorial classification for \"Local SEO for Law Firms With Multiple Offices\". Reader needs an explanation of the named business, process or behavior. A prior or newly returned volume estimate exists; it does not establish rankability.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication. Compare with VerdictPoint row 71 (\"law firm local seo\"). Intended distinction: Local SEO for Law Firms With Multiple Offices. Merge into that page if the SERP and evidence do not support this separate scope.",
-    "url_slug": null,
-    "internal_link_targets_launch_set": null,
-    "seo_title": null,
-    "meta_description": null,
-    "launch_silo": null,
-    "silo_role": null,
+    "url_slug": "/legal-marketing/local-seo-for-law-firms-multiple-offices/",
+    "internal_link_targets_launch_set": "/law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal/legal-industry-statistics-firm-size/",
+    "seo_title": "Local SEO for Law Firms With Multiple Offices",
+    "meta_description": "Plan local seo for law firms with multiple offices using verified locations, useful office pages, appropriate profiles, and location-level intake reporting.",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
     "research_brief": null,
     "deep_research_stage": null,
     "content_number": "19",
-    "internal_link_targets": []
+    "internal_link_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal/legal-industry-statistics-firm-size/"
+    ]
   },
   {
     "_source_row": 71,
@@ -2769,16 +2786,21 @@
     "intent_type": "Informational",
     "intent_rationale": "Informational is an editorial classification for \"Law Firm Local SEO and Inconsistent Office Listings\". Reader needs an explanation of the named business, process or behavior. A prior or newly returned volume estimate exists; it does not establish rankability.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
-    "url_slug": null,
-    "internal_link_targets_launch_set": null,
-    "seo_title": null,
-    "meta_description": null,
-    "launch_silo": null,
-    "silo_role": null,
+    "url_slug": "/legal-marketing/law-firm-local-seo-listing-consistency/",
+    "internal_link_targets_launch_set": "/legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/legal-technology-statistics/; /legal/legal-industry-statistics-firm-size/",
+    "seo_title": "Law Firm Local SEO: Repair Inconsistent Listings",
+    "meta_description": "Audit law firm local seo listings with verified office records, a fixed directory sample, clear correction priorities, and evidence that updates went live.",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
     "research_brief": null,
     "deep_research_stage": null,
     "content_number": "20",
-    "internal_link_targets": []
+    "internal_link_targets": [
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/legal-technology-statistics/",
+      "/legal/legal-industry-statistics-firm-size/"
+    ]
   },
   {
     "_source_row": 72,
