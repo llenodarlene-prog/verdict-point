@@ -25,7 +25,8 @@ for(const file of files){
   const entities=scripts.flatMap(x=>Array.isArray(x?.['@graph'])?x['@graph']:[x]).filter(Boolean);
   const types=new Set(entities.flatMap(e=>Array.isArray(e['@type'])?e['@type']:[e['@type']]).filter(Boolean));
   const hrefs=[...html.matchAll(/href="(\/[^"#?]*\/?)(?:[#?][^"]*)?"/g)].map(m=>m[1]||'/').map(h=>h==='/'?'/':h.replace(/\/$/,'')+'/');
-  pages.push({route,html,types,hrefs});
+  const publishedArticle=entities.some(e=>['Article','BlogPosting','NewsArticle'].includes(e['@type'])&&Boolean(e.datePublished));
+  pages.push({route,html,types,hrefs,publishedArticle});
 }
 const routes=new Set(pages.map(p=>p.route));
 const inbound=new Map(pages.map(p=>[p.route,0]));
