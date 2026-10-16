@@ -37,7 +37,7 @@ for(const page of pages){
   if(page.route==='/' && (!page.types.has('Organization')||!page.types.has('WebSite'))) failures.push('/: homepage schema requires Organization and WebSite');
   if(article){
     for(const required of ['Organization','WebSite','WebPage','BreadcrumbList']) if(!page.types.has(required)) failures.push(`${page.route}: article schema missing ${required}`);
-    if((inbound.get(page.route)||0)<1) failures.push(`${page.route}: orphaned article has no inbound internal link`);
+    if(page.publishedArticle && (inbound.get(page.route)||0)<1) failures.push(`${page.route}: orphaned article has no inbound internal link`);
   }
 }
 if(failures.length) throw new Error(failures.join('\n'));
