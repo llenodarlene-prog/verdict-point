@@ -113,8 +113,18 @@ for (const page of parsed) {
   const hub = nav.primary.find(item => item.url !== '/' && metadata.slug.startsWith(item.url));
   const crumbs = [{ name: 'Home', url: `${siteUrl}/` }, ...(hub && hub.url !== metadata.slug ? [{ name: hub.label, url: canonical(hub.url) }] : []), { name: metadata.title, url }];
   const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage }) : {
-    '@context': 'https://schema.org', '@type': metadata.schema || 'WebPage', name: metadata.title, description: metadata.description,
-    url, isPartOf: { '@type': 'WebSite', name: site.name, url: siteUrl }
+    '@context': 'https://schema.org',
+    '@graph': [
+      {
+        '@type': 'Organization', '@id': `${siteUrl}/#organization`, name: site.name, url: `${siteUrl}/`,
+        ...(logoImage ? { logo: { '@type': 'ImageObject', url: `${siteUrl}${logoImage.path}`, width: logoImage.width, height: logoImage.height } } : {})
+      },
+      { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name: site.name, url: `${siteUrl}/`, publisher: { '@id': `${siteUrl}/#organization` }, inLanguage: site.locale || 'en-US' },
+      {
+        '@type': metadata.schema || 'WebPage', '@id': `${url}#webpage`, name: metadata.title, description: metadata.description,
+        url, isPartOf: { '@id': `${siteUrl}/#website` }, inLanguage: site.locale || 'en-US'
+      }
+    ]
   };
   // Designed pages render from approved copy files; everything else renders from Markdown.
   const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav, { chart: chartBlock }), about: () => renderAbout(aboutCopy),
