@@ -8,8 +8,8 @@
     "cluster": "Legal Marketing",
     "launch_silo": "Legal Marketing Measurement",
     "silo_role": "Hub",
-    "publish_phase": 1.0,
-    "publish_order": 1.0,
+    "publish_phase": 1,
+    "publish_order": 1,
     "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
     "approved_outbound_targets": [
       "/legal-marketing/law-firm-website-statistics/",
@@ -55,8 +55,8 @@
     "cluster": "Legal",
     "launch_silo": "Legal Industry & Economics",
     "silo_role": "Bridge",
-    "publish_phase": 2.0,
-    "publish_order": 4.0,
+    "publish_phase": 2,
+    "publish_order": 4,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -96,8 +96,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Legal Technology Adoption",
     "silo_role": "Hub",
-    "publish_phase": 1.0,
-    "publish_order": 2.0,
+    "publish_phase": 1,
+    "publish_order": 2,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/ai-in-law-firms-statistics/",
@@ -154,8 +154,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Legal AI",
     "silo_role": "Supporting",
-    "publish_phase": 2.0,
-    "publish_order": 5.0,
+    "publish_phase": 2,
+    "publish_order": 5,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -201,8 +201,8 @@
     "cluster": "Legal Marketing",
     "launch_silo": "Legal Marketing Measurement",
     "silo_role": "Supporting",
-    "publish_phase": 2.0,
-    "publish_order": 6.0,
+    "publish_phase": 2,
+    "publish_order": 6,
     "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
     "approved_outbound_targets": [
       "/legal-marketing/law-firm-marketing-statistics/",
@@ -248,8 +248,8 @@
     "cluster": "Legal Marketing",
     "launch_silo": "Legal Marketing Measurement",
     "silo_role": "Supporting",
-    "publish_phase": 2.0,
-    "publish_order": 7.0,
+    "publish_phase": 2,
+    "publish_order": 7,
     "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
     "approved_outbound_targets": [
       "/legal-marketing/law-firm-marketing-statistics/",
@@ -294,8 +294,8 @@
     "cluster": "Legal Marketing",
     "launch_silo": "Legal Marketing Measurement",
     "silo_role": "Supporting",
-    "publish_phase": 2.0,
-    "publish_order": 8.0,
+    "publish_phase": 2,
+    "publish_order": 8,
     "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
     "approved_outbound_targets": [
       "/legal-marketing/law-firm-marketing-statistics/",
@@ -333,8 +333,8 @@
     "cluster": "Law Firms",
     "launch_silo": "Client Acquisition & Economics",
     "silo_role": "Bridge",
-    "publish_phase": 2.0,
-    "publish_order": 9.0,
+    "publish_phase": 2,
+    "publish_order": 9,
     "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
     "approved_outbound_targets": [
       "/legal-marketing/law-firm-marketing-statistics/",
@@ -379,8 +379,8 @@
     "cluster": "Law Firms",
     "launch_silo": "Law Firm Economics",
     "silo_role": "Supporting",
-    "publish_phase": 2.0,
-    "publish_order": 10.0,
+    "publish_phase": 2,
+    "publish_order": 10,
     "primary_silo_hub": "/law-firms/law-firm-profitability-statistics/",
     "approved_outbound_targets": [
       "/law-firms/law-firm-profitability-statistics/",
@@ -427,8 +427,8 @@
     "cluster": "Law Firms",
     "launch_silo": "Law Firm Economics",
     "silo_role": "Hub",
-    "publish_phase": 1.0,
-    "publish_order": 3.0,
+    "publish_phase": 1,
+    "publish_order": 3,
     "primary_silo_hub": "/law-firms/law-firm-profitability-statistics/",
     "approved_outbound_targets": [
       "/law-firms/law-firm-billing-statistics/",
@@ -474,8 +474,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Practice Management Software",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 11.0,
+    "publish_phase": 3,
+    "publish_order": 11,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -528,8 +528,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Practice Management Software",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 12.0,
+    "publish_phase": 3,
+    "publish_order": 12,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -573,8 +573,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Practice Management Software",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 13.0,
+    "publish_phase": 3,
+    "publish_order": 13,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -616,8 +616,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Practice Management & Billing",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 14.0,
+    "publish_phase": 3,
+    "publish_order": 14,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -662,8 +662,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Payments & Billing",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 15.0,
+    "publish_phase": 3,
+    "publish_order": 15,
     "primary_silo_hub": "/law-firms/law-firm-profitability-statistics/",
     "approved_outbound_targets": [
       "/law-firms/law-firm-billing-statistics/",
@@ -706,8 +706,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Practice Management Software",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 16.0,
+    "publish_phase": 3,
+    "publish_order": 16,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -751,8 +751,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "eDiscovery & Legal AI",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 17.0,
+    "publish_phase": 3,
+    "publish_order": 17,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -803,8 +803,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "eDiscovery & Legal AI",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 18.0,
+    "publish_phase": 3,
+    "publish_order": 18,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
@@ -841,8 +841,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Legal AI",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 19.0,
+    "publish_phase": 3,
+    "publish_order": 19,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/ai-in-law-firms-statistics/",
@@ -888,8 +888,8 @@
     "cluster": "Legal Tech",
     "launch_silo": "Legal AI",
     "silo_role": "Commercial Support",
-    "publish_phase": 3.0,
-    "publish_order": 20.0,
+    "publish_phase": 3,
+    "publish_order": 20,
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/ai-in-law-firms-statistics/",
@@ -923,5 +923,365 @@
     "placement_guidance": "Link upward in the early context section. Add lateral links only where an existing sentence naturally covers the target.",
     "qa_status": "Planned — place links after drafting; flag any target with no natural home",
     "content_number": "10"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "AI Search Law Firms: Questions Clients Ask",
+    "url_slug": "/legal-marketing/ai-search-law-firms/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 21,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-seo-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-website-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-15): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-15; links taken from the editorial draft",
+    "content_number": "11"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "AI Search Visibility Law Firms: A Measurement Plan",
+    "url_slug": "/legal-marketing/ai-search-visibility-law-firms/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal AI",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 22,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-tech/ai-in-law-firms-statistics/",
+      "/legal-tech/legal-technology-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/ai-in-law-firms-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-15): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-15; links taken from the editorial draft",
+    "content_number": "12"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Law Firm SEO for Practice-Area Pages",
+    "url_slug": "/legal-marketing/law-firm-seo-practice-area-pages/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 23,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-seo-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-website-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-15): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-15; links taken from the editorial draft",
+    "content_number": "13"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Law Firm SEO Metrics That Connect to Signed Work",
+    "url_slug": "/legal-marketing/law-firm-seo-metrics/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 24,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/mycase-legal-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-website-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/mycase-legal-software/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-15): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-15; links taken from the editorial draft",
+    "content_number": "14"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Mapping the Law Firm Intake Process",
+    "url_slug": "/law-firms/law-firm-intake-process/",
+    "cluster": "Law Firms",
+    "launch_silo": "Client Acquisition & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 25,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/mycase-legal-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/clio-legal-software-total-cost/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/mycase-legal-software/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-15): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-15; links taken from the editorial draft",
+    "content_number": "15"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Measuring Law Firm Speed to Lead",
+    "url_slug": "/law-firms/law-firm-speed-to-lead/",
+    "cluster": "Law Firms",
+    "launch_silo": "Client Acquisition & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 26,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/mycase-legal-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/mycase-legal-software/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "16"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Building a Consistent Process for Law Firm Reviews",
+    "url_slug": "/legal-marketing/law-firm-reviews-process/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 27,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/mycase-legal-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-website-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/mycase-legal-software/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16",
+    "content_number": "17"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Responding to Law Firm Online Reviews",
+    "url_slug": "/legal-marketing/law-firm-online-reviews-response/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 28,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/legal-technology-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-website-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16",
+    "content_number": "18"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Local SEO for Law Firms With Multiple Offices",
+    "url_slug": "/legal-marketing/local-seo-for-law-firms-multiple-offices/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 29,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal/legal-industry-statistics-firm-size/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/law-firms/law-firm-client-acquisition-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-seo-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-website-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16",
+    "content_number": "19"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Law Firm Local SEO and Inconsistent Office Listings",
+    "url_slug": "/legal-marketing/law-firm-local-seo-listing-consistency/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 4,
+    "publish_order": 30,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-tech/legal-technology-statistics/",
+      "/legal/legal-industry-statistics-firm-size/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-marketing/law-firm-seo-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-website-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16",
+    "content_number": "20"
   }
 ]

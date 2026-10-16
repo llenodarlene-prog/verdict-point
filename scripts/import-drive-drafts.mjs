@@ -12,6 +12,8 @@ for (const record of launch) {
   const number = Number(record.content_number);
   const source = manifest.files.find(f => new RegExp(`^${record.type} ${String(number).padStart(2, '0')} - `).test(f.title));
   const brief = manifest.files.find(f => new RegExp(`^${type === 'article' ? 'A' : 'B'}${String(number).padStart(2, '0')} - `).test(f.title));
+  // Records added from owner-supplied drafts outside Google Drive have neither file and are skipped.
+  if (!source && !brief) continue;
   if (!source || !brief) throw new Error(`Missing draft or research brief for ${record.type}:${number}`);
   const raw = await readFile(source.path, 'utf8');
   const normalized = raw.replace(/\r\n/g, '\n').replace(/\\([#.:$=\-])/g, '$1');

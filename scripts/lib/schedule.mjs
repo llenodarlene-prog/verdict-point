@@ -25,15 +25,15 @@ export function isScheduled(metadata, today) {
 
 export const isLive = (metadata, today) => metadata.draft !== true && !isScheduled(metadata, today);
 
-// Daily cadence: at most one article and one blog per publication date, from cadence_start_date onward.
+// Daily cadence: at most max_posts_per_day posts (any type, default 2) per publication date, from cadence_start_date onward.
 export function cadenceViolations(posts, policy = releasePolicy()) {
   const start = policy.cadence_start_date || '0000-00-00';
   const byDay = new Map();
   for (const { metadata, file } of posts) {
     if (metadata.draft === true || !isPost(metadata) || !DATE.test(String(metadata.published)) || metadata.published < start) continue;
-    const key = `${metadata.published} ${String(metadata.type).toLowerCase()}`;
-    byDay.set(key, [...(byDay.get(key) || []), file]);
+    byDay.set(metadata.published, [...(byDay.get(metadata.published) || []), file]);
   }
-  return [...byDay].filter(([, files]) => files.length > 1)
-    .map(([key, files]) => `${key.replace(' ', ': ')} scheduled more than once per day (${files.join(', ')})`);
+  const limit = Number(policy.max_posts_per_day) || 2;
+  return [...byDay].filter(([, files]) => files.length > limit)
+    .map(([day, files]) => `${day}: ${files.length} posts scheduled; maximum is ${limit} per day (${files.join(', ')})`);
 }

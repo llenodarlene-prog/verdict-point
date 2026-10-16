@@ -2,9 +2,7 @@ name: Deploy production
 on:
   push:
     branches: [main]
-  # Daily rebuild publishes posts whose scheduled date has arrived (06:05 Asia/Manila).
-  schedule:
-    - cron: '5 22 * * *'
+  workflow_call:
   workflow_dispatch:
 permissions:
   contents: read

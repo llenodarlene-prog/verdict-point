@@ -20,6 +20,6 @@ The production gate requires the structured approvals and `launch_policy` in `da
 2. Set `draft: false` and set `published` and `modified` to the go-live date (`YYYY-MM-DD`).
 3. Merge through `staging` into `main` with production approval. Staging previews the post right away; production hides it until its date.
 4. The production deploy runs every day at 06:05 Asia/Manila (`launch_policy.publish_timezone` in `data/release.json`) and publishes every post whose date has arrived. It can also be run by hand from the Actions tab.
-5. `check-content` fails if two articles or two blogs share a date on or after `launch_policy.cadence_start_date`, so the queue keeps to one article and one blog per day.
+5. `check-content` fails if more than `launch_policy.max_posts_per_day` (2) posts share a date on or after `launch_policy.cadence_start_date`.
 
 To preview what production will show on a given day, run `PUBLISH_DATE=2026-10-20 BUILD_ENV=production npm run build`.
