@@ -69,11 +69,13 @@ export function articleSchema({ metadata, url, site, siteUrl, image, body, crumb
   if (metadata.published) article.datePublished = metadata.published;
   if (metadata.modified) article.dateModified = metadata.modified;
   if (metadata.author) article.author = { '@type': 'Person', name: metadata.author };
-  const graph = [organization, website, webpage, article, {
+  const breadcrumb = {
     '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
     itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.name, item: crumb.url }))
-  }];
+  };
   const faq = extractFaq(body);
+  const graph = [article, breadcrumb];
   if (faq.length) graph.push({ '@type': 'FAQPage', '@id': `${url}#faq`, mainEntity: faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) });
+  graph.push(organization, website, webpage);
   return { '@context': 'https://schema.org', '@graph': graph };
 }
