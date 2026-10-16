@@ -39,19 +39,37 @@ export function headMeta({ metadata, site, siteUrl, image, article }) {
 }
 
 export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo }) {
+  const orgId = `${siteUrl}/#organization`;
+  const websiteId = `${siteUrl}/#website`;
+  const pageId = `${url}#webpage`;
+  const articleId = `${url}#article`;
+  const organization = {
+    '@type': 'Organization', '@id': orgId, name: site.name, url: siteUrl,
+    ...(logo ? { logo: { '@type': 'ImageObject', url: `${siteUrl}${logo.path}`, width: logo.width, height: logo.height } } : {})
+  };
+  const website = {
+    '@type': 'WebSite', '@id': websiteId, url: `${siteUrl}/`, name: site.name,
+    publisher: { '@id': orgId }, inLanguage: site.locale || 'en-US'
+  };
+  const webpage = {
+    '@type': 'WebPage', '@id': pageId, url, name: metadata.title,
+    description: metadata.description, isPartOf: { '@id': websiteId },
+    breadcrumb: { '@id': `${url}#breadcrumb` }, mainEntity: { '@id': articleId },
+    inLanguage: site.locale || 'en-US'
+  };
   const article = {
     '@type': metadata.schema === 'BlogPosting' ? 'BlogPosting' : 'Article',
-    '@id': `${url}#article`, headline: metadata.title, description: metadata.description, url, mainEntityOfPage: url,
-    inLanguage: site.locale || 'en-US', articleSection: metadata.cluster, wordCount: wordCount(body),
+    '@id': articleId, headline: metadata.title, description: metadata.description, url,
+    mainEntityOfPage: { '@id': pageId }, inLanguage: site.locale || 'en-US',
+    articleSection: metadata.cluster, wordCount: wordCount(body),
     keywords: [metadata.primary_keyword, ...String(metadata.secondary_keywords || '').split(';')].map(t => t?.trim()).filter(Boolean).join(', '),
-    publisher: { '@type': 'Organization', name: site.name, url: siteUrl, ...(logo ? { logo: { '@type': 'ImageObject', url: `${siteUrl}${logo.path}`, width: logo.width, height: logo.height } } : {}) }
+    publisher: { '@id': orgId }
   };
   if (image) article.image = { '@type': 'ImageObject', url: `${siteUrl}${image.path}`, width: image.width, height: image.height, caption: image.alt };
   if (metadata.published) article.datePublished = metadata.published;
   if (metadata.modified) article.dateModified = metadata.modified;
-  // Only a named, verified author is emitted; drafts without one carry no author claim.
   if (metadata.author) article.author = { '@type': 'Person', name: metadata.author };
-  const graph = [article, {
+  const graph = [organization, website, webpage, article, {
     '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
     itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.name, item: crumb.url }))
   }];
