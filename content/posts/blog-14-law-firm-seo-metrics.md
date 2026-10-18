@@ -11,13 +11,13 @@ primary_keyword: law firm seo metrics
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/mycase-legal-software/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/mycase-legal-software/; /legal-marketing/law-firm-seo-practice-area-pages/; /legal-marketing/law-firm-marketing-statistics/
 research_record: content/research/blog-14.json
 image: /assets/images/posts/law-firm-seo-metrics/analyst-reviews-seo-report-charts-desk-1600.jpg
 image_alt: Professional pointing at a printed report of charts and figures beside a monitor showing a bar chart dashboard
 author: Darlene Aberin
 published: 2026-10-16
-modified: 2026-10-16
+modified: 2026-10-18
 ---
 
 # Law Firm SEO Metrics: Follow the Inquiry Beyond the Ranking Report
@@ -37,11 +37,11 @@ The job is to build a reporting chain with clear definitions and visible gaps. T
 
 ## Give Each Metric a Defined Business Question
 
-Start with the decision the report should support. A partner deciding where to invest needs different detail from a website manager investigating an indexing problem.
+Start with the decision the report should support. A partner deciding where to invest needs different detail from a website manager investigating an indexing problem. For budget context, the [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/) compare channel investment and paid search costs.
 
 Group measures by stage. Visibility measures ask whether pages appeared. Activity measures ask what happened on the website. Intake measures ask whether relevant people reached the practice.
 
-For law firm seo metrics, this staged view prevents an attractive traffic chart from standing in for a client-acquisition report.
+For law firm seo metrics, this staged view prevents an attractive traffic chart from standing in for a client-acquisition report. The same separation applies when reviewing [law firm SEO for practice area pages](/legal-marketing/law-firm-seo-practice-area-pages/) one URL at a time.
 
 The following table defines a proposed reporting chain. Each row needs its own data owner.
 

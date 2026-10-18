@@ -11,7 +11,7 @@ primary_keyword: local seo for law firms
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal/legal-industry-statistics-firm-size/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal/legal-industry-statistics-firm-size/; /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-local-seo-listing-consistency/
 research_record: content/research/blog-19.json
 image: /assets/images/posts/local-seo-for-law-firms-multiple-offices/visitor-enters-law-office-street-entrance-1600.jpg
 image_alt: Visitor walking through the glass entrance of a law office toward a staffed reception desk
@@ -24,7 +24,7 @@ modified: 2026-10-19
 
 A firm can serve several cities without operating an office in every one. That distinction should be clear on its website and business listings.
 
-Effective local seo for law firms with several offices begins with the places the practice operates. Each office needs accurate information, an appropriate contact route, and a page that explains what a visitor can expect there.
+Effective local seo for law firms with several offices begins with the places the practice operates. Each office needs accurate information, an appropriate contact route, and a page that explains what a visitor can expect there. The channel budget behind that work is discussed in the [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/).
 
 This blog focuses on office architecture and governance. It provides a proposed audit framework, not findings from a real office sample. It does not promise map rankings or recommend creating profiles for unverified locations.
 
@@ -108,7 +108,7 @@ For local seo for law firms, manageable accuracy is a better planning objective 
 
 ## Connect Profiles to the Appropriate Office Page
 
-A person opening a listing should reach information relevant to that location. Review the destination URL as part of the profile audit.
+A person opening a listing should reach information relevant to that location. Review the destination URL as part of the profile audit. A separate audit for [law firm local SEO listing consistency](/legal-marketing/law-firm-local-seo-listing-consistency/) checks directory records against the office register.
 
 The page should confirm the same office identity and contact arrangement. A correct listing linked to an outdated page still creates confusion.
 

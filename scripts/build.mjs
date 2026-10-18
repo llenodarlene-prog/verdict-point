@@ -112,7 +112,7 @@ for (const page of parsed) {
   if (metadata.image && !featured) throw new Error(`${source}: featured image ${metadata.image} is not registered in data/assets.json`);
   const hub = nav.primary.find(item => item.url !== '/' && metadata.slug.startsWith(item.url));
   const crumbs = [{ name: 'Home', url: `${siteUrl}/` }, ...(hub && hub.url !== metadata.slug ? [{ name: hub.label, url: canonical(hub.url) }] : []), { name: metadata.title, url }];
-  const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage }) : {
+  const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage, hubUrl: hub && hub.url !== metadata.slug ? canonical(hub.url) : null }) : {
     '@context': 'https://schema.org',
     '@graph': [
       {
@@ -122,8 +122,12 @@ for (const page of parsed) {
       { '@type': 'WebSite', '@id': `${siteUrl}/#website`, name: site.name, url: `${siteUrl}/`, publisher: { '@id': `${siteUrl}/#organization` }, inLanguage: site.locale || 'en-US' },
       {
         '@type': metadata.schema || 'WebPage', '@id': `${url}#webpage`, name: metadata.title, description: metadata.description,
-        url, isPartOf: { '@id': `${siteUrl}/#website` }, inLanguage: site.locale || 'en-US'
-      }
+        url, isPartOf: { '@id': `${siteUrl}/#website` }, inLanguage: site.locale || 'en-US',
+        ...(metadata.slug !== '/' ? { breadcrumb: { '@id': `${url}#breadcrumb` } } : {}),
+        // A topic hub names every live post in its silo; drafts and scheduled posts join on their publish date.
+        ...(metadata.schema === 'CollectionPage' ? { hasPart: publishedPosts.filter(post => post.slug.startsWith(metadata.slug)).map(post => ({ '@id': `${canonical(post.slug)}#article` })) } : {})
+      },
+      ...(metadata.slug !== '/' ? [{ '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.name, item: crumb.url })) }] : [])
     ]
   };
   // Designed pages render from approved copy files; everything else renders from Markdown.
@@ -168,6 +172,15 @@ await writeFile(path.join(dist, 'sitemap.xml'), `<?xml version="1.0" encoding="U
 const posts = indexed.filter(page => page.article).sort((a, b) => String(b.modified).localeCompare(String(a.modified)));
 const updated = isoDate(posts[0]?.modified || posts[0]?.published) || site.source_modified || '2026-09-22T00:00:00Z';
 await writeFile(path.join(dist, 'feed.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<feed xmlns="http://www.w3.org/2005/Atom"><title>${escapeHtml(site.name)}</title><id>${siteUrl}/</id><link href="${siteUrl}/feed.xml" rel="self"/><updated>${updated}</updated>${posts.slice(0, 20).map(page => `<entry><title>${escapeHtml(page.title)}</title><id>${page.url}</id><link href="${page.url}"/><updated>${isoDate(page.modified || page.published)}</updated></entry>`).join('')}</feed>\n`);
+// llms.txt lists the same live posts as the sitemap, grouped by topic hub, so answer engines can find each silo.
+const hubSlugs = new Set(indexed.filter(page => page.schema === 'CollectionPage').map(page => page.slug));
+const hubNav = nav.primary.filter(item => hubSlugs.has(item.url));
+const llmsSections = hubNav.map(item => ({ item, posts: posts.filter(page => page.slug.startsWith(item.url)) })).filter(section => section.posts.length);
+const keyPages = indexed.filter(page => !page.article && page.slug !== '/' && page.schema !== 'CollectionPage');
+await writeFile(path.join(dist, 'llms.txt'), [`# ${site.name}`, '', `> ${site.tagline}`, '',
+  '## Topic Hubs', ...hubNav.map(item => `- [${item.label}](${canonical(item.url)})`), '',
+  ...llmsSections.flatMap(({ item, posts: items }) => [`## ${item.label}`, ...items.map(page => `- [${page.title}](${page.url}): ${page.description}`), '']),
+  '## About', ...keyPages.map(page => `- [${page.title}](${page.url})`), ''].join('\n'));
 const robotsText = await readFile(indexable ? 'src/static/robots-production.txt' : 'src/static/robots-staging.txt', 'utf8');
 await writeFile(path.join(dist, 'robots.txt'), robotsText.replaceAll('{{SITE_URL}}', siteUrl));
 const htaccess = await readFile('src/static/.htaccess', 'utf8');

@@ -11,13 +11,13 @@ primary_keyword: law firm seo
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/law-firm-marketing-statistics/
 research_record: content/research/blog-13.json
 image: /assets/images/posts/law-firm-seo-practice-area-pages/two-colleagues-review-practice-page-monitor-1600.jpg
 image_alt: Two colleagues reviewing a law firm practice page on a desktop monitor with printed page layouts on the desk
 author: Darlene Aberin
 published: 2026-10-16
-modified: 2026-10-16
+modified: 2026-10-18
 ---
 
 # Law Firm SEO: Give Every Practice Page a Clear Job
@@ -66,7 +66,7 @@ The pages should remain useful independently. A reader should not need to follow
 
 ## Audit Existing Coverage Before Adding URLs
 
-Good law firm seo work begins with an inventory of current service pages, articles, attorney profiles, and location pages. Include old pages that still receive visits or links.
+Good law firm seo work begins with an inventory of current service pages, articles, attorney profiles, and location pages. Include old pages that still receive visits or links. The wider channel budget is covered in the [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/).
 
 Assign one primary task to each URL. When two pages serve the same audience and decision, examine whether they should be combined or differentiated.
 
@@ -157,7 +157,7 @@ Test forms on the intended devices. Confirm that successful submissions reach th
 
 ## Review Results at the Page and Intake Stages
 
-A law firm seo improvement to a service page can affect several different stages. Search impressions, visits, inquiries, and accepted engagements should remain separate.
+A law firm seo improvement to a service page can affect several different stages. Search impressions, visits, inquiries, and accepted engagements should remain separate. The definitions for each stage are set out in [law firm SEO metrics](/legal-marketing/law-firm-seo-metrics/).
 
 Review [client-acquisition outcomes](/law-firms/law-firm-client-acquisition-statistics/) with the intake team. A page may attract relevant visitors while the contact process remains difficult.
 

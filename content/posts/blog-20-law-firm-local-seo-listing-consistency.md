@@ -11,7 +11,7 @@ primary_keyword: law firm local seo
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/legal-technology-statistics/; /legal/legal-industry-statistics-firm-size/
+approved_internal_links: /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/legal-technology-statistics/; /legal/legal-industry-statistics-firm-size/; /legal-marketing/local-seo-for-law-firms-multiple-offices/; /legal-marketing/law-firm-marketing-statistics/
 research_record: content/research/blog-20.json
 image: /assets/images/posts/law-firm-local-seo-listing-consistency/phone-map-listing-laptop-office-photo-1600.jpg
 image_alt: Person checking a map pin on a phone beside a laptop showing a business listing with office photos
@@ -24,7 +24,7 @@ modified: 2026-10-19
 
 An old telephone number can outlast the campaign that published it. A former address can remain in a directory after the office moves. A profile may look complete while its website link leads to the wrong location.
 
-A useful law firm local seo audit starts with those verifiable errors. It compares a defined set of listings with approved office records, then checks whether corrections appear.
+A useful law firm local seo audit starts with those verifiable errors. It compares a defined set of listings with approved office records, then checks whether corrections appear. Office pages themselves are planned in [local SEO for law firms with multiple offices](/legal-marketing/local-seo-for-law-firms-multiple-offices/).
 
 This blog provides a proposed reconciliation method. It does not report a directory sample already audited for a named practice. The examples are hypothetical, and no ranking gain is promised.
 
@@ -168,7 +168,7 @@ That improvement describes the audit panel. It does not establish a visibility o
 
 ## Separate Accuracy Work From Ranking Claims
 
-Google's [local-ranking guidance](https://support.google.com/business/answer/7091) identifies relevance, distance, and prominence. Listing accuracy is useful, but it does not give the practice control over every factor.
+Google's [local-ranking guidance](https://support.google.com/business/answer/7091) identifies relevance, distance, and prominence. Listing accuracy is useful, but it does not give the practice control over every factor. Search and SEO investment figures appear in the [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/).
 
 Do not claim that a citation cleanup caused a specific ranking gain without a defensible analysis. Other website changes, competitors, and search conditions may also change results.
 

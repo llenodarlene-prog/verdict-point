@@ -12,14 +12,14 @@ secondary_keywords: law firm marketing budget; legal lead generation cost
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Hub
-approved_internal_links: /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-social-media-statistics/; /law-firms/law-firm-client-acquisition-statistics/
+approved_internal_links: /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-social-media-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-practice-area-pages/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/ai-search-law-firms/; /legal-marketing/local-seo-for-law-firms-multiple-offices/; /legal-marketing/law-firm-local-seo-listing-consistency/; /law-firms/law-firm-intake-process/; /law-firms/law-firm-speed-to-lead/; /legal-marketing/law-firm-reviews-process/; /legal-marketing/law-firm-online-reviews-response/
 research_record: content/research/article-1.json
 source_document: https://docs.google.com/document/d/12Oj_ZLuEeLe4j3_MmJD9PmRFY3iWndWUecvVaPEHPrk/edit?usp=drivesdk
 image: /assets/images/posts/law-firm-marketing-statistics/marketing-measurement-session-1600.jpg
 image_alt: Law firm team reviewing marketing charts and printed reports at a conference table overlooking a city
 author: Darlene Aberin
 published: 2026-10-03
-modified: 2026-10-03
+modified: 2026-10-18
 ---
 
 # Law Firm Marketing Statistics: What the Numbers Mean for 2027 Budgets
@@ -69,6 +69,8 @@ marketing-channel-investment-2024-2025
 Three patterns stand out. Website and referral investment both rose by roughly seven to eleven points in a year. Online reviews and social media rose more modestly. Search and SEO stayed near 45%, so fewer than half of firms report investing in search at all, even as their websites carry more of the load.
 
 That gap matters for planning. A website that most firms now pay for still needs a way to be found and a clear path to an inquiry. The figures in [law firm website statistics](/legal-marketing/law-firm-website-statistics/) separate visits from inquiries, and [law firm SEO statistics](/legal-marketing/law-firm-seo-statistics/) show what search visibility can and cannot be expected to deliver.
+
+Narrower search work builds on these figures. Practical pieces cover [law firm SEO for practice area pages](/legal-marketing/law-firm-seo-practice-area-pages/), [law firm SEO metrics](/legal-marketing/law-firm-seo-metrics/), [AI search for law firms](/legal-marketing/ai-search-law-firms/), [local SEO for law firms with multiple offices](/legal-marketing/local-seo-for-law-firms-multiple-offices/), and [law firm local SEO listing consistency](/legal-marketing/law-firm-local-seo-listing-consistency/).
 
 The American Bar Association's 2024 TechReport points the same way from a different sample. It found 90% of responding firms had a website, down slightly from 94% in 2022, while solo practitioners rose to 70% from 61%. It also found social media use for marketing fell to 80% from 89%, with LinkedIn the most used platform at 76%. Those social figures are a useful baseline next to the [law firm social media statistics](/legal-marketing/law-firm-social-media-statistics/) that track which platforms produce inquiries.
 
@@ -120,6 +122,8 @@ Only 52% of firms could be reached by phone even after callbacks, and just 40% p
 ![Professional reviewing a law firm website, an intake funnel on a tablet, and a contact form on a phone beside a matter file](/assets/images/posts/law-firm-marketing-statistics/inquiry-to-matter-funnel-1200.jpg "Marketing spend only pays off if the inquiry reaches someone who can sign the matter.")
 
 The website findings point the same way. Only 30% of shoppers could easily understand how to hire the firm from its website, and 14% could find any pricing information. Not every practice should publish prices, and the study does not prove that pricing pages lift conversion. It does show that a prospect who cannot reach the firm or understand the next step is a marketing dollar lost.
+
+The steps from first contact to engagement are mapped in the [law firm intake process](/law-firms/law-firm-intake-process/), and response timing is measured in [law firm speed to lead](/law-firms/law-firm-speed-to-lead/). Reviews follow the same path: a neutral [law firm reviews process](/legal-marketing/law-firm-reviews-process/) governs requests, and [law firm online reviews](/legal-marketing/law-firm-online-reviews-response/) guidance covers when to reply.
 
 ## Firm Size Changes the Marketing Model
 

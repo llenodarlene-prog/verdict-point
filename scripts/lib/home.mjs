@@ -42,7 +42,7 @@ const formatDate = value => {
   const date = new Date(`${value}T00:00:00Z`);
   return Number.isNaN(date.getTime()) ? '' : date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
 };
-export function postCard(post, nav, { size = 'standard', linkLabel = '' } = {}) {
+export function postCard(post, nav, { size = 'standard', linkLabel = '', level = 3 } = {}) {
   const date = post.modified || post.published;
   const label = sectionLabel(post.slug, nav);
   const image = post.card_image;
@@ -51,7 +51,7 @@ export function postCard(post, nav, { size = 'standard', linkLabel = '' } = {}) 
     ${media}
     <div class="post-card-body">
       ${label ? `<p class="card-label">${escapeHtml(label)}</p>` : ''}
-      <h3><a href="${escapeHtml(post.slug)}">${escapeHtml(post.title)}</a></h3>
+      <h${level} class="post-card-title"><a href="${escapeHtml(post.slug)}">${escapeHtml(post.title)}</a></h${level}>
       ${date ? `<p class="card-date"><time datetime="${escapeHtml(date)}">${escapeHtml(formatDate(date))}</time></p>` : ''}
       <p>${escapeHtml(post.description)}</p>
       ${linkLabel ? `<a class="text-link" href="${escapeHtml(post.slug)}">${escapeHtml(linkLabel)}</a>` : ''}

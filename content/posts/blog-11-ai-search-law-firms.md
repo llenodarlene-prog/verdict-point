@@ -11,13 +11,13 @@ primary_keyword: ai search law firms
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/ai-search-visibility-law-firms/
 research_record: content/research/blog-11.json
 image: /assets/images/posts/ai-search-law-firms/woman-laptop-search-questions-dining-table-1600.jpg
 image_alt: Woman at a dining table typing questions into a search page on a laptop beside an open notebook
 author: Darlene Aberin
 published: 2026-10-15
-modified: 2026-10-15
+modified: 2026-10-18
 ---
 
 # AI Search Law Firms: Turn Client Questions Into Better Practice Pages
@@ -26,7 +26,7 @@ A potential client rarely starts with a complete legal vocabulary. They may desc
 
 The phrase ai search law firms covers several different activities. This blog focuses on researching client questions and deciding where the answers belong. It does not present a consumer survey or claim that any suggested question has a measured search volume.
 
-The aim is a content map that helps a person decide whether to contact the practice. That map should also identify questions requiring attorney review, a jurisdiction-specific source, or a private conversation.
+The aim is a content map that helps a person decide whether to contact the practice. That map should also identify questions requiring attorney review, a jurisdiction-specific source, or a private conversation. For the wider budget and intake picture, the [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/) cover paid search costs and intake gaps.
 
 ## Key Takeaways
 
@@ -144,7 +144,7 @@ An answer can also be short without being shallow. Put the conclusion first, the
 
 ## Keep the Question Audit Separate From Visibility Reporting
 
-Question research asks what the website needs to explain. Visibility reporting asks whether selected systems mention or cite the firm under defined conditions.
+Question research asks what the website needs to explain. Visibility reporting asks whether selected systems mention or cite the firm under defined conditions. The method for [measuring AI search visibility](/legal-marketing/ai-search-visibility-law-firms/) covers prompt panels, scoring rules, and reporting periods.
 
 Combining those tasks too early creates a circular process. The team writes only for prompts where the firm already appears, then treats those appearances as proof that its content plan works.
 
