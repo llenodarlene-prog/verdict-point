@@ -38,24 +38,44 @@ export function headMeta({ metadata, site, siteUrl, image, article }) {
   return tags.filter(Boolean).join('\n  ');
 }
 
-export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo }) {
+export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo, hubUrl = null }) {
+  const orgId = `${siteUrl}/#organization`;
+  const websiteId = `${siteUrl}/#website`;
+  const pageId = `${url}#webpage`;
+  const articleId = `${url}#article`;
+  const organization = {
+    '@type': 'Organization', '@id': orgId, name: site.name, url: siteUrl,
+    ...(logo ? { logo: { '@type': 'ImageObject', url: `${siteUrl}${logo.path}`, width: logo.width, height: logo.height } } : {})
+  };
+  const website = {
+    '@type': 'WebSite', '@id': websiteId, url: `${siteUrl}/`, name: site.name,
+    publisher: { '@id': orgId }, inLanguage: site.locale || 'en-US'
+  };
+  const webpage = {
+    '@type': 'WebPage', '@id': pageId, url, name: metadata.title,
+    description: metadata.description, isPartOf: hubUrl ? [{ '@id': websiteId }, { '@id': `${hubUrl}#webpage` }] : { '@id': websiteId },
+    breadcrumb: { '@id': `${url}#breadcrumb` }, mainEntity: { '@id': articleId },
+    inLanguage: site.locale || 'en-US'
+  };
   const article = {
     '@type': metadata.schema === 'BlogPosting' ? 'BlogPosting' : 'Article',
-    '@id': `${url}#article`, headline: metadata.title, description: metadata.description, url, mainEntityOfPage: url,
-    inLanguage: site.locale || 'en-US', articleSection: metadata.cluster, wordCount: wordCount(body),
+    '@id': articleId, headline: metadata.title, description: metadata.description, url,
+    mainEntityOfPage: { '@id': pageId }, inLanguage: site.locale || 'en-US',
+    articleSection: metadata.cluster, wordCount: wordCount(body),
     keywords: [metadata.primary_keyword, ...String(metadata.secondary_keywords || '').split(';')].map(t => t?.trim()).filter(Boolean).join(', '),
-    publisher: { '@type': 'Organization', name: site.name, url: siteUrl, ...(logo ? { logo: { '@type': 'ImageObject', url: `${siteUrl}${logo.path}`, width: logo.width, height: logo.height } } : {}) }
+    publisher: { '@id': orgId }
   };
   if (image) article.image = { '@type': 'ImageObject', url: `${siteUrl}${image.path}`, width: image.width, height: image.height, caption: image.alt };
   if (metadata.published) article.datePublished = metadata.published;
   if (metadata.modified) article.dateModified = metadata.modified;
-  // Only a named, verified author is emitted; drafts without one carry no author claim.
   if (metadata.author) article.author = { '@type': 'Person', name: metadata.author };
-  const graph = [article, {
+  const breadcrumb = {
     '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`,
     itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.name, item: crumb.url }))
-  }];
+  };
   const faq = extractFaq(body);
+  const graph = [article, breadcrumb];
   if (faq.length) graph.push({ '@type': 'FAQPage', '@id': `${url}#faq`, mainEntity: faq.map(item => ({ '@type': 'Question', name: item.question, acceptedAnswer: { '@type': 'Answer', text: item.answer } })) });
+  graph.push(organization, website, webpage);
   return { '@context': 'https://schema.org', '@graph': graph };
 }

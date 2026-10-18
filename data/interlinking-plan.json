@@ -15,7 +15,16 @@
       "/legal-marketing/law-firm-website-statistics/",
       "/legal-marketing/law-firm-seo-statistics/",
       "/legal-marketing/law-firm-social-media-statistics/",
-      "/law-firms/law-firm-client-acquisition-statistics/"
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-seo-practice-area-pages/",
+      "/legal-marketing/law-firm-seo-metrics/",
+      "/legal-marketing/ai-search-law-firms/",
+      "/legal-marketing/local-seo-for-law-firms-multiple-offices/",
+      "/legal-marketing/law-firm-local-seo-listing-consistency/",
+      "/law-firms/law-firm-intake-process/",
+      "/law-firms/law-firm-speed-to-lead/",
+      "/legal-marketing/law-firm-reviews-process/",
+      "/legal-marketing/law-firm-online-reviews-response/"
     ],
     "natural_anchor_concepts": [
       {
@@ -104,7 +113,12 @@
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/mycase-legal-software/",
       "/legal-tech/everlaw-ediscovery-document-review/",
-      "/legal-tech/harvey-legal-ai-pilot/"
+      "/legal-tech/harvey-legal-ai-pilot/",
+      "/legal-tech/filevine-legal-software-case-types/",
+      "/legal-tech/litify-legal-software-implementation/",
+      "/legal-tech/smokeball-legal-software-time-capture/",
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal-marketing/ai-search-visibility-law-firms/"
     ],
     "natural_anchor_concepts": [
       {
@@ -482,7 +496,8 @@
       "/law-firms/law-firm-billing-statistics/",
       "/law-firms/law-firm-profitability-statistics/",
       "/legal-tech/smokeball-legal-software-time-capture/",
-      "/legal-tech/litify-legal-software-implementation/"
+      "/legal-tech/litify-legal-software-implementation/",
+      "/legal-tech/lawpay-legal-payments-fees/"
     ],
     "natural_anchor_concepts": [
       {
@@ -938,7 +953,9 @@
     "approved_outbound_targets": [
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-marketing/law-firm-seo-statistics/",
-      "/legal-marketing/law-firm-website-statistics/"
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/ai-search-visibility-law-firms/"
     ],
     "natural_anchor_concepts": [
       {
@@ -973,7 +990,8 @@
     "approved_outbound_targets": [
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-tech/ai-in-law-firms-statistics/",
-      "/legal-tech/legal-technology-statistics/"
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-marketing/ai-search-law-firms/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1008,7 +1026,9 @@
     "approved_outbound_targets": [
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-marketing/law-firm-seo-statistics/",
-      "/legal-marketing/law-firm-website-statistics/"
+      "/legal-marketing/law-firm-website-statistics/",
+      "/legal-marketing/law-firm-seo-metrics/",
+      "/legal-marketing/law-firm-marketing-statistics/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1043,7 +1063,9 @@
     "approved_outbound_targets": [
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
-      "/legal-tech/mycase-legal-software/"
+      "/legal-tech/mycase-legal-software/",
+      "/legal-marketing/law-firm-seo-practice-area-pages/",
+      "/legal-marketing/law-firm-marketing-statistics/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1078,7 +1100,9 @@
     "approved_outbound_targets": [
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
-      "/legal-tech/mycase-legal-software/"
+      "/legal-tech/mycase-legal-software/",
+      "/law-firms/law-firm-speed-to-lead/",
+      "/legal-marketing/law-firm-marketing-statistics/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1113,7 +1137,9 @@
     "approved_outbound_targets": [
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-tech/legal-technology-statistics/",
-      "/legal-tech/mycase-legal-software/"
+      "/legal-tech/mycase-legal-software/",
+      "/law-firms/law-firm-intake-process/",
+      "/legal-marketing/law-firm-marketing-statistics/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1148,7 +1174,9 @@
     "approved_outbound_targets": [
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
-      "/legal-tech/mycase-legal-software/"
+      "/legal-tech/mycase-legal-software/",
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-online-reviews-response/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1183,7 +1211,9 @@
     "approved_outbound_targets": [
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
-      "/legal-tech/legal-technology-statistics/"
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-marketing/law-firm-reviews-process/",
+      "/legal-marketing/law-firm-marketing-statistics/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1219,7 +1249,9 @@
       "/law-firms/law-firm-client-acquisition-statistics/",
       "/legal-marketing/law-firm-seo-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
-      "/legal/legal-industry-statistics-firm-size/"
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-local-seo-listing-consistency/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1259,7 +1291,9 @@
       "/legal-marketing/law-firm-seo-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
       "/legal-tech/legal-technology-statistics/",
-      "/legal/legal-industry-statistics-firm-size/"
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal-marketing/local-seo-for-law-firms-multiple-offices/",
+      "/legal-marketing/law-firm-marketing-statistics/"
     ],
     "natural_anchor_concepts": [
       {

@@ -11,7 +11,7 @@ primary_keyword: law firm reviews
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/mycase-legal-software/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/mycase-legal-software/; /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-online-reviews-response/
 research_record: content/research/blog-17.json
 image: /assets/images/posts/law-firm-reviews-process/professional-reviews-message-laptop-desk-1600.jpg
 image_alt: Professional in a white blouse reading a message on a laptop at a wooden desk in a glass-walled office
@@ -37,7 +37,7 @@ This blog proposes an operational framework. It does not supply legal approval f
 
 ## Decide What the Program Is Trying to Learn
 
-A law firm reviews program can support public information and service improvement. Those goals should not collapse into a target for more five-star ratings.
+A law firm reviews program can support public information and service improvement. Those goals should not collapse into a target for more five-star ratings. Online reviews are one of the channels compared in the [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/).
 
 Ask what the practice can learn from feedback. Appointment confusion, unclear billing explanations, or difficulty reaching the office may suggest operational changes.
 
@@ -165,7 +165,7 @@ Do not reward staff solely for review counts. That incentive can encourage press
 
 ## Treat Reuse as a Separate Editorial Decision
 
-A public review is not automatically ready for a website testimonial, advertisement, or social post.
+A public review is not automatically ready for a website testimonial, advertisement, or social post. Replying to a review is a separate decision, covered in [responding to law firm online reviews](/legal-marketing/law-firm-online-reviews-response/).
 
 Check permission, platform terms, professional rules, and the accuracy of the new presentation. A short excerpt can change the impression if it removes qualifications.
 

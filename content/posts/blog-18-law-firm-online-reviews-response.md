@@ -11,7 +11,7 @@ primary_keyword: law firm online reviews
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/legal-technology-statistics/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-tech/legal-technology-statistics/; /legal-marketing/law-firm-reviews-process/; /legal-marketing/law-firm-marketing-statistics/
 research_record: content/research/blog-18.json
 image: /assets/images/posts/law-firm-online-reviews-response/staff-hands-folder-to-attorney-office-1600.jpg
 image_alt: Staff member handing a navy folder to an attorney in a suit at an office doorway beside the reception area
@@ -41,7 +41,7 @@ An ordinary business may want to rebut a complaint with transaction details. A l
 
 The fact that a reviewer mentioned an event does not mean the firm may publish everything it knows. A response can reveal information indirectly, including through confirmation of a relationship or details that identify another person.
 
-For law firm online reviews, the initial question is therefore not which wording sounds most persuasive. It is whether a reply can be made appropriately at all.
+For law firm online reviews, the initial question is therefore not which wording sounds most persuasive. It is whether a reply can be made appropriately at all. Asking for reviews follows separate rules in a [law firm reviews process](/legal-marketing/law-firm-reviews-process/).
 
 The [ABA's Formal Opinion 496](https://www.cobar.org/Portals/COBAR/Repository/CBA/Ethics22221/aba-formal-opinion-496.pdf), issued January 13, 2021, explains that a negative review alone does not justify disclosure under the model rule's self-defense exception. State authorities remain controlling.
 
@@ -147,7 +147,7 @@ Disable any automatic route that bypasses the approved decision process.
 
 ## Handle Positive Reviews With Similar Care
 
-A positive review can also invite disclosure. A friendly reply should not add the case type, outcome, or relationship detail.
+A positive review can also invite disclosure. A friendly reply should not add the case type, outcome, or relationship detail. Reviews also appear among the channels in the [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/).
 
 Staff may recognize the person and want to personalize the response. The practice should define what acknowledgment is appropriate before that impulse reaches the public account.
 

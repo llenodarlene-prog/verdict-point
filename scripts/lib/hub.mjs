@@ -23,7 +23,7 @@ ${featured ? `
   <section class="home-section featured" aria-label="${escapeHtml(shared.featured_label)}">
     <div class="shell">
       <p class="card-label" data-reveal>${escapeHtml(shared.featured_label)}</p>
-      ${postCard(featured, nav, { size: 'large', linkLabel: shared.featured_link })}
+      ${postCard(featured, nav, { size: 'large', linkLabel: shared.featured_link, level: 2 })}
     </div>
   </section>` : ''}
 ${dataHighlight(hub.data_highlight ? { ...hub.data_highlight, label: shared.data_label, link: shared.featured_link } : null, allPosts, nav, chart, { reverse: true })}

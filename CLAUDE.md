@@ -31,6 +31,7 @@ If sources conflict, stop and report the exact conflict. The tracker controls ti
 - Use the exact primary keyword in SEO title, meta description, H1, slug, introduction, and body. Use eight exact occurrences when the project rule applies.
 - Articles place `Key Statistics and Data` immediately after the introduction. Blogs place `Key Takeaways` there and use `Frequently Asked Questions` before Resources.
 - `Key Takeaways`, `Key Statistics and Data`, and `Frequently Asked Questions` never have an intro sentence. Start directly with the first bullet or the first question.
+- Follow hub-and-spoke silos (`docs/SEO-AEO-GEO.md`): every spoke links up to its pillar in body text, every pillar links down to each published or scheduled spoke in the same release, and every post has at least two inbound body links. `npm run check:silos` enforces it.
 - Use every approved launch target naturally and no unrelated launch-set links. Avoid mechanical anchors such as “click here,” “learn more,” “our guide,” “our page,” or “deep dive.”
 - Use two or three reputable external links contextually before Resources. Put additional approved sources in Resources. Every cited URL must match a verified research source; Resources never substitutes for body citations.
 - Preserve the real evidence year. Label estimates, forecasts, calculations, partial-year data, and sponsored studies.
