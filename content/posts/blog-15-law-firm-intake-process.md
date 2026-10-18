@@ -11,13 +11,13 @@ primary_keyword: law firm intake
 cluster: Law Firms
 launch_silo: Client Acquisition & Economics
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /law-firms/law-firm-speed-to-lead/; /legal-marketing/law-firm-marketing-statistics/
 research_record: content/research/blog-15.json
 image: /assets/images/posts/law-firm-intake-process/woman-phone-intake-form-dining-table-1600.jpg
 image_alt: Woman holding a phone with an online inquiry form open at a sunlit wooden table
 author: Darlene Aberin
 published: 2026-10-17
-modified: 2026-10-17
+modified: 2026-10-18
 ---
 
 # Law Firm Intake: Close the Gaps Between First Contact and Attorney Review
@@ -146,7 +146,7 @@ A successful test should produce an inspectable history without exposing unneces
 
 ## Measure the Process Without Rewarding the Wrong Behavior
 
-Choose measures that reveal gaps rather than encourage staff to close records prematurely.
+Choose measures that reveal gaps rather than encourage staff to close records prematurely. Response timing needs its own definitions, set out in [measuring law firm speed to lead](/law-firms/law-firm-speed-to-lead/).
 
 A response-time measure should distinguish a receipt message from a useful reply. A conversion measure should use a defined cohort and denominator.
 
@@ -166,7 +166,7 @@ For law firm intake, the purpose of measurement is to locate a repairable proces
 
 ## Separate Marketing Reporting From Restricted Intake Records
 
-Marketing needs to know whether channels produce suitable inquiries. It rarely needs the personal narrative behind each request.
+Marketing needs to know whether channels produce suitable inquiries. It rarely needs the personal narrative behind each request. The [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/) show why that channel view matters for budgets.
 
 Use aggregate counts or approved identifiers. Keep access to identifying records restricted to the appropriate team.
 

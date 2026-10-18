@@ -38,7 +38,7 @@ export function headMeta({ metadata, site, siteUrl, image, article }) {
   return tags.filter(Boolean).join('\n  ');
 }
 
-export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo }) {
+export function articleSchema({ metadata, url, site, siteUrl, image, body, crumbs, logo, hubUrl = null }) {
   const orgId = `${siteUrl}/#organization`;
   const websiteId = `${siteUrl}/#website`;
   const pageId = `${url}#webpage`;
@@ -53,7 +53,7 @@ export function articleSchema({ metadata, url, site, siteUrl, image, body, crumb
   };
   const webpage = {
     '@type': 'WebPage', '@id': pageId, url, name: metadata.title,
-    description: metadata.description, isPartOf: { '@id': websiteId },
+    description: metadata.description, isPartOf: hubUrl ? [{ '@id': websiteId }, { '@id': `${hubUrl}#webpage` }] : { '@id': websiteId },
     breadcrumb: { '@id': `${url}#breadcrumb` }, mainEntity: { '@id': articleId },
     inLanguage: site.locale || 'en-US'
   };

@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
-import { readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import { cp, mkdtemp, readdir, readFile, rm, stat, writeFile } from 'node:fs/promises';
+import os from 'node:os';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import test from 'node:test';
@@ -205,3 +206,31 @@ test('three posts on the same publication date fail the cadence check', () => wi
   const result = run('scripts/check-content.mjs', root);
   assert.match(result.stderr, /publication cadence: 2030-01-15: 3 posts scheduled; maximum is 2 per day/);
 }));
+
+test('llms.txt and hub hasPart list live posts only, adding a scheduled post on its date', () => withLaunch(async ({ root }) => {
+  const { slug } = await publishFixtureArticle(root);
+  await schedule(path.join(root, 'content/posts/published-fixture.md'), '2030-01-15');
+  const hubOf = async () => { const html = await readFile(path.join(root, 'dist', slug.split('/')[1], 'index.html'), 'utf8'); return html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]; };
+  assert.equal(runDated('scripts/build.mjs', root, '2030-01-14').status, 0);
+  assert.equal((await readFile(path.join(root, 'dist/llms.txt'), 'utf8')).includes(slug), false);
+  assert.equal((await hubOf()).includes(`${slug}#article`), false);
+  assert.equal(runDated('scripts/build.mjs', root, '2030-01-15').status, 0);
+  assert.match(await readFile(path.join(root, 'dist/llms.txt'), 'utf8'), new RegExp(slug));
+  assert.match(await hubOf(), new RegExp(`${slug}#article`));
+}));
+
+test('silo check requires spoke-to-pillar body links and ignores Resources links', async () => {
+  const root = await mkdtemp(path.join(os.tmpdir(), 'verdict-silo-fixture-'));
+  try {
+  for (const dir of ['data', 'content']) await cp(dir, path.join(root, dir), { recursive: true });
+  assert.equal(run('scripts/check-silos.mjs', root).status, 0, run('scripts/check-silos.mjs', root).stderr);
+  const file = path.join(root, 'content/posts/blog-13-law-firm-seo-practice-area-pages.md');
+  const pillar = '/legal-marketing/law-firm-marketing-statistics/';
+  const text = await readFile(file, 'utf8');
+  const unlinked = text.replace(`[law firm marketing statistics](${pillar})`, 'law firm marketing statistics');
+  await writeFile(file, unlinked.replace(/^## Resources$/m, `## Resources\n\n- [Pillar](${pillar})`));
+  const result = run('scripts/check-silos.mjs', root);
+  assert.notEqual(result.status, 0);
+  assert.match(result.stderr, /blog-13-law-firm-seo-practice-area-pages\.md: spoke has no body link up to its pillar/);
+  } finally { await rm(root, { recursive: true, force: true }); }
+});

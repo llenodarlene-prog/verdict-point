@@ -11,13 +11,13 @@ primary_keyword: law firm speed to lead
 cluster: Law Firms
 launch_silo: Client Acquisition & Economics
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/legal-technology-statistics/; /legal-tech/mycase-legal-software/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/legal-technology-statistics/; /legal-tech/mycase-legal-software/; /law-firms/law-firm-intake-process/; /legal-marketing/law-firm-marketing-statistics/
 research_record: content/research/blog-16.json
 image: /assets/images/posts/law-firm-speed-to-lead/attorney-phone-call-wall-clock-desk-1600.jpg
 image_alt: Professional on a desk phone at a laptop with a wall clock behind her in a sunlit office
 author: Darlene Aberin
 published: 2026-10-17
-modified: 2026-10-17
+modified: 2026-10-18
 ---
 
 # Law Firm Speed to Lead: Measure the Wait Until a Useful Reply
@@ -41,7 +41,7 @@ A receipt acknowledgment confirms delivery. An attempted call records an effort.
 
 Those events can occur at different times. Keep separate timestamps rather than choosing whichever makes the report look strongest.
 
-For law firm speed to lead, the response definition should be approved by intake and the responsible attorney. Staff should not feel pressure to provide legal advice merely to stop a timer.
+For law firm speed to lead, the response definition should be approved by intake and the responsible attorney. Staff should not feel pressure to provide legal advice merely to stop a timer. That definition should match the stages in the firm's [law firm intake process](/law-firms/law-firm-intake-process/).
 
 A useful first reply might explain the consultation route, request a safe callback time, or identify the next screening step. Its content depends on the practice and the inquiry.
 
@@ -51,7 +51,7 @@ The [client-acquisition framework](/law-firms/law-firm-client-acquisition-statis
 
 Published studies on law firm speed to lead can show that contact failures deserve attention. They do not supply a universal service standard.
 
-Clio's [2024 secret-shopper findings](https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html) report that only 40% of firms answered calls and 48% were essentially unreachable by phone.
+Clio's [2024 secret-shopper findings](https://www.prnewswire.com/news-releases/ai-powered-legal-practices-surge-clios-latest-legal-trends-report-reveals-major-shift-302268966.html) report that only 40% of firms answered calls and 48% were essentially unreachable by phone. Other channel and intake figures appear in the [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/).
 
 Those findings describe the study's sample and method. They do not establish the current performance of a particular firm, a specific practice area, or an after-hours service.
 

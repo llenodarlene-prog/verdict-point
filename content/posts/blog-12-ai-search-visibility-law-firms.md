@@ -11,13 +11,13 @@ primary_keyword: ai search visibility law firms
 cluster: Legal Marketing
 launch_silo: Legal AI
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-technology-statistics/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-technology-statistics/; /legal-marketing/ai-search-law-firms/
 research_record: content/research/blog-12.json
 image: /assets/images/posts/ai-search-visibility-law-firms/printed-report-review-checkmarks-desk-1600.jpg
 image_alt: Overhead view of a reviewer checking printed report pages with a pen beside a laptop showing two windows
 author: Darlene Aberin
 published: 2026-10-15
-modified: 2026-10-15
+modified: 2026-10-18
 ---
 
 # AI Search Visibility Law Firms: Build a Report That Survives a Second Test
@@ -59,7 +59,7 @@ Keep those columns separate. One combined score can hide an improvement in citat
 
 ## Build a Prompt Panel Around Business Decisions
 
-An ai search visibility law firms test panel should reflect services the practice provides. It should not expand into unrelated cities or practice areas to increase the chance of finding a mention.
+An ai search visibility law firms test panel should reflect services the practice provides. It should not expand into unrelated cities or practice areas to increase the chance of finding a mention. A [client question audit for AI search](/legal-marketing/ai-search-law-firms/) can supply those service-based questions.
 
 Use a written coverage map. Include the intended service, location, and question type. Mark whether the prompt names the firm.
 

@@ -12,14 +12,14 @@ secondary_keywords: Clio pricing; legal software integrations
 cluster: Legal Tech
 launch_silo: Practice Management Software
 silo_role: Commercial Support
-approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/litify-legal-software-implementation/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/litify-legal-software-implementation/; /legal-tech/lawpay-legal-payments-fees/
 research_record: content/research/blog-1.json
 source_document: https://docs.google.com/document/d/1jx7o-_Qi6mYRahCYSmTVyO87OLkCpQK4okrDexIOjsE/edit?usp=drivesdk
 image: /assets/images/posts/clio-legal-software-total-cost/featured-budget-desk-1600.jpg
 image_alt: Law office desk with navy binders, a calculator, a desk clock, and a tablet showing cost charts
 author: Darlene Aberin
 published: 2026-10-02
-modified: 2026-10-02
+modified: 2026-10-18
 ---
 
 # Clio Legal Software Costs: What Law Firms Should Budget for in 2026–2027
@@ -121,7 +121,7 @@ At $10,000 a month in card payments, fees run about $3,540 a year, well under th
 
 ### Why the Fee Rates Need Rechecking
 
-Clio's own pages have not always agreed. An older Clio payments page still shows 3.5% for American Express and 1% for eCheck, while the current comparison page lists 3.75% for American Express and gives no eCheck percentage. Use the current pages for planning, then ask Clio to confirm every rate in writing before signing.
+Clio's own pages have not always agreed. An older Clio payments page still shows 3.5% for American Express and 1% for eCheck, while the current comparison page lists 3.75% for American Express and gives no eCheck percentage. Use the current pages for planning, then ask Clio to confirm every rate in writing before signing. A separate breakdown of [LawPay legal payments](/legal-tech/lawpay-legal-payments-fees/) shows how another processor prices card, eCheck, and Pay Later transactions.
 
 ## What Do Integrations and Migration Add?
 

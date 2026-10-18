@@ -12,14 +12,14 @@ secondary_keywords: legal software adoption; law firm technology spending
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Hub
-approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/
+approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/filevine-legal-software-case-types/; /legal-tech/litify-legal-software-implementation/; /legal-tech/smokeball-legal-software-time-capture/; /legal/legal-industry-statistics-firm-size/; /legal-marketing/ai-search-visibility-law-firms/
 research_record: content/research/article-3.json
 source_document: https://docs.google.com/document/d/1otQmDyIbfbtN0HPsy1AMYJ-sZcNl2aUfLyyMdzWE-d8/edit?usp=drivesdk
 image: /assets/images/posts/legal-technology-statistics/lawyer-reviewing-legal-technology-data-1600.jpg
 image_alt: Lawyer in a navy blazer working on a laptop beside a tablet showing documents in a glass-walled office
 author: Darlene Aberin
 published: 2026-10-03
-modified: 2026-10-03
+modified: 2026-10-18
 ---
 
 # Legal Technology Statistics
@@ -74,11 +74,11 @@ The 73% figure is a strong signal that hosted software is now ordinary in legal 
 
 It does not show depth of use either. One firm may run intake, matters, documents, billing, and reporting in one cloud system. Another may use a single hosted application for one task. Both count as cloud users under a broad survey question.
 
-That gap matters when a firm moves from a national number to a purchase. Legal software adoption at the category level says nothing about what a specific product costs to run. Subscription tiers, payment fees, and add-ons decide that, as the breakdown of [Clio's total cost](/legal-tech/clio-legal-software-total-cost/) shows. Plan limits matter as well. The review of [MyCase legal software](/legal-tech/mycase-legal-software/) found that the features a firm needs often sit above the entry tier.
+That gap matters when a firm moves from a national number to a purchase. Legal software adoption at the category level says nothing about what a specific product costs to run. Subscription tiers, payment fees, and add-ons decide that, as the breakdown of [Clio's total cost](/legal-tech/clio-legal-software-total-cost/) shows. Plan limits matter as well. The review of [MyCase legal software](/legal-tech/mycase-legal-software/) found that the features a firm needs often sit above the entry tier. Setup, rollout, and features differ too, as the pieces on [Filevine case types](/legal-tech/filevine-legal-software-case-types/), [Litify implementation](/legal-tech/litify-legal-software-implementation/), and [Smokeball time capture](/legal-tech/smokeball-legal-software-time-capture/) cover.
 
 ## Technology Budgets Rise With Firm Size
 
-Spending is the least reported part of legal technology statistics. Vendors publish prices, and analysts publish market forecasts, but few sources say how firms plan the money. The ABA survey is one of the few that asks.
+Spending is the least reported part of legal technology statistics. Vendors publish prices, and analysts publish market forecasts, but few sources say how firms plan the money. The ABA survey is one of the few that asks. Firm counts and receipts by size are covered in [legal industry statistics by firm size](/legal/legal-industry-statistics-firm-size/).
 
 The [ABA's 2024 Budgeting and Planning TechReport](https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-budgeting-and-planning-techreport) found that 65.2% of respondents said their firm budgets for technology. The answer changes sharply with size. Among firms of 50 to 99 lawyers, 94.1% reported a technology budget. Among solo practitioners, 55.4% reported having none.
 
@@ -156,7 +156,7 @@ Table: How to read the generative AI figures {.cost}
 | Corporate legal departments | 23% | 47% | Organizations reporting generative AI use |
 | Adopters reporting a return | Not reported | 53% | Self-reported view among organizations using AI |
 
-Because this category needs its own definitions, the detailed breakdown belongs in the dedicated [AI in law firms statistics](/legal-tech/ai-in-law-firms-statistics/). That is the place to separate approved use, personal use, training, and governance. Firms that are past the reading stage need a different kind of evidence: a scoped test with defined tasks and reviewers, such as a [Harvey legal AI pilot](/legal-tech/harvey-legal-ai-pilot/).
+Because this category needs its own definitions, the detailed breakdown belongs in the dedicated [AI in law firms statistics](/legal-tech/ai-in-law-firms-statistics/). That is the place to separate approved use, personal use, training, and governance. Firms that are past the reading stage need a different kind of evidence: a scoped test with defined tasks and reviewers, such as a [Harvey legal AI pilot](/legal-tech/harvey-legal-ai-pilot/). Testing how AI tools describe a firm is a separate method, set out in [AI search visibility for law firms](/legal-marketing/ai-search-visibility-law-firms/).
 
 ## Market-Size Forecasts Are Not Adoption Rates
 

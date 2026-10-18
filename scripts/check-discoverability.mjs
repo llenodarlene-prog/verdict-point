@@ -34,6 +34,10 @@ for(const p of pages) for(const href of new Set(p.hrefs)) if(routes.has(href)&&h
 const failures=[];
 for(const page of pages){
   const article=['Article','BlogPosting','NewsArticle'].some(t=>page.types.has(t));
+  // One H1 per page, and headings never skip a level on the way down (H2 to H4).
+  const levels=[...page.html.matchAll(/<h([1-6])[\s>]/g)].map(m=>Number(m[1]));
+  if(levels.filter(level=>level===1).length!==1) failures.push(`${page.route}: expected exactly one H1, found ${levels.filter(level=>level===1).length}`);
+  levels.reduce((previous,level)=>{ if(previous&&level>previous+1) failures.push(`${page.route}: heading level skips from H${previous} to H${level}`); return level; },0);
   if(page.route==='/' && (!page.types.has('Organization')||!page.types.has('WebSite'))) failures.push('/: homepage schema requires Organization and WebSite');
   if(article){
     for(const required of ['Organization','WebSite','WebPage','BreadcrumbList']) if(!page.types.has(required)) failures.push(`${page.route}: article schema missing ${required}`);
