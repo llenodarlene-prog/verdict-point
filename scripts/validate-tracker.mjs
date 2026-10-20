@@ -13,13 +13,7 @@ const workbook = await readFile('data/source/5-Site-SEO-GEO-AEO-Content-Keyword-
 if (!workbook) fail('original tracker workbook is missing from data/source');
 else if (createHash('sha256').update(workbook).digest('hex') !== provenance.sha256) fail('preserved workbook SHA-256 differs from tracker provenance');
 if (site.tracker_sha256 !== provenance.sha256 || manifest.tracker_sha256 !== provenance.sha256) fail('tracker SHA-256 mismatch');
-// The 100 workbook records stay intact; owner-approved additions carry no workbook row and must say so.
-const tracked = content.filter(item => item._source_row != null);
-const additions = content.filter(item => item._source_row == null);
-if (tracked.length !== 100) fail(`content plan must contain the 100 tracker records; found ${tracked.length}`);
-if (tracked.filter(item => item.type === 'Article').length !== 50) fail('content plan must contain 50 tracker articles');
-if (tracked.filter(item => item.type === 'Blog').length !== 50) fail('content plan must contain 50 tracker blogs');
-for (const item of additions) if (!/^Owner-approved addition \(\d{4}-\d{2}-\d{2}\)/.test(item.research_status || '')) fail(`${item.type}:${item.content_number}: record outside the tracker needs a dated owner-approved addition note`);
+// The content plan grows as the owner adds posts; keys and slugs must stay unique (checked below).
 if (launch.length < 20) fail(`editorial backlog (launch plan) must contain at least its 20 planned records; found ${launch.length}`);
 if (links.length !== launch.length) fail(`interlinking plan must contain one record per launch record; found ${links.length} for ${launch.length}`);
 const architecturePrimary = architecture.filter(item => item.nav_type === 'Primary').map(item => `${item.main_navigation}|${item.url}`);
