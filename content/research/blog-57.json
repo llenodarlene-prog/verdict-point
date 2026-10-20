@@ -1,0 +1,435 @@
+{
+  "tracker_id": "Blog:57",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Legal Billing Chart for Minutes and Tenths. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal billing chart, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, managers, in-house legal teams and legal professionals in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal billing chart",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal billing chart",
+        "type": "short-tail",
+        "volume": 210,
+        "difficulty": 27,
+        "cpc": 10.62,
+        "intent": "Informational",
+        "ranking_url": "http://www.justiceadmin.org/court_app_counsel/ChartForBillingInTenths.pdf",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "billing increments chart",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.justiceadmin.org/court_app_counsel/ChartForBillingInTenths.pdf",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "attorney billable hours chart",
+        "type": "commercial",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.justiceadmin.org/court_app_counsel/ChartForBillingInTenths.pdf",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "minutes to tenths of an hour",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.justiceadmin.org/court_app_counsel/ChartForBillingInTenths.pdf",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how many minutes is 0.1 hour",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.justiceadmin.org/court_app_counsel/ChartForBillingInTenths.pdf",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja/billing-increment-chart-minutes-tenths-hour",
+      "title": "Billing Increment Chart: Minutes to Tenths of an Hour",
+      "publisher": "U.S. District Court, Northern District of California",
+      "source_type": "Court guidance",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Conversion chart 1-6 minutes = .1 through 55-60 = 1.0",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://idp.uscourts.gov/Content_Fetcher/index.cfml/Ninth_Circuit_CJA_Compensability_Handbook_4121.pdf?Content_ID=4121",
+      "title": "Ninth Circuit CJA Compensability Handbook",
+      "publisher": "Judicial Council of the Ninth Circuit",
+      "source_type": "Court guidance",
+      "year": "2022",
+      "published_at": "2022-04-20",
+      "accessed_at": "2026-10-20",
+      "scope": "Approved April 20, 2022; tasks under 0.1 hour aggregated; two 3-minute calls no more than 0.1 hour",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/books/ecd/chapter/219943/",
+      "title": "Formal Ethics Opinion 93-379",
+      "publisher": "American Bar Association",
+      "source_type": "Ethics opinion",
+      "year": "1993",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "A lawyer may not bill more time than spent, except rounding up to minimum time periods such as one-tenth of an hour",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.justiceadmin.org/court_app_counsel/ChartForBillingInTenths.pdf",
+      "title": "Chart for Billing in Tenths",
+      "publisher": "Justice Administrative Commission (Florida)",
+      "source_type": "Agency chart",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Same minute ranges and tenths",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nhd.uscourts.gov/content/how-do-i-calculate-court-and-out-court-service-hours",
+      "title": "How do I calculate in-court and out-of-court service hours?",
+      "publisher": "U.S. District Court, District of New Hampshire",
+      "source_type": "Court FAQ",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Always round up to the nearest tenth",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.calbar.ca.gov/legal-professionals/rules/rules-professional-conduct/current-rules-professional-conduct/chapter-1-lawyer-client-relationship",
+      "title": "Rules of Professional Conduct, Chapter 1",
+      "publisher": "State Bar of California",
+      "source_type": "State rules",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Rule 1.5: no unconscionable or illegal fee; true retainer and flat fee definitions",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "N.D. Cal. chart: 1-6 minutes equals 0.1 hour through 55-60 minutes equals 1.0.",
+      "source_url": "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja/billing-increment-chart-minutes-tenths-hour",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Ninth Circuit handbook: two 3-minute calls may not be billed at more than 0.1 hour total.",
+      "source_url": "https://idp.uscourts.gov/Content_Fetcher/index.cfml/Ninth_Circuit_CJA_Compensability_Handbook_4121.pdf?Content_ID=4121",
+      "data_year": "2022",
+      "geography": "Ninth Circuit",
+      "population": "CJA panel attorneys",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Chart for Billing in Tenths",
+      "url": "http://www.justiceadmin.org/court_app_counsel/ChartForBillingInTenths.pdf",
+      "publisher": "Justice Administrative Commission",
+      "format": "Agency chart",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency chart"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result; clean table.",
+      "gaps": "No exact-versus-rounded explanation."
+    },
+    {
+      "title": "Billing Increment Chart",
+      "url": "http://cand.uscourts.gov/attorneys/criminal-justice-act-cja/billing-increment-chart-minutes-tenths-hour",
+      "publisher": "N.D. Cal.",
+      "format": "Court chart",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Court chart"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Authoritative table.",
+      "gaps": "CJA context only."
+    },
+    {
+      "title": "How to Use a Billable Hours Chart",
+      "url": "http://www.mycase.com/blog/law-firm-financial-management/attorney-billable-hours-chart/",
+      "publisher": "MyCase",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Practical framing.",
+      "gaps": "Sells software."
+    },
+    {
+      "title": "Billing Increment Chart",
+      "url": "http://www.leanlaw.co/blog/billing-increment-chart/",
+      "publisher": "LeanLaw",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Chart and tips.",
+      "gaps": "No aggregation rules."
+    },
+    {
+      "title": "An Attorney's Guide to Billable Hours Chart",
+      "url": "http://www.clio.com/blog/billable-hours-chart/",
+      "publisher": "Clio",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Increment guide.",
+      "gaps": "No worked fee comparison."
+    }
+  ],
+  "content_gaps": [
+    "Top results give a chart without exact-versus-rounded math.",
+    "No reviewed page shows per-entry versus aggregated rounding."
+  ],
+  "value_add": "A chart with formulas, worked hypothetical fees, and court rules on aggregating short tasks.",
+  "plan": {
+    "reader_title": "Legal Billing Chart for Minutes and Tenths of an Hour",
+    "seo_title": "Legal Billing Chart: Convert Minutes to Tenths of an Hour",
+    "meta_description": "A legal billing chart converting minutes to tenths of an hour, with exact versus rounded time, worked fee examples, and court rules on aggregating short tasks.",
+    "slug": "/law-firms/legal-billing-chart/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "billing increments chart",
+      "tenths of an hour chart"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Reference for Six Minute Increments",
+      "Exact Decimal Hours and Rounded Hours Differ",
+      "Extend the Calculation Beyond One Hour",
+      "Turn Converted Time into a Hypothetical Fee",
+      "Small Tasks Need More Than a Lookup",
+      "Check the Agreement and Governing Rules",
+      "Keep a Record That Explains the Calculation",
+      "Test Timekeeping Settings Before Relying on Them",
+      "Make the Reference Useful at Invoice Review",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja/billing-increment-chart-minutes-tenths-hour"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://idp.uscourts.gov/Content_Fetcher/index.cfml/Ninth_Circuit_CJA_Compensability_Handbook_4121.pdf?Content_ID=4121"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/books/ecd/chapter/219943/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/law-firms/retainer-fee/",
+      "/legal-tech/smokeball-legal-software-time-capture/",
+      "/legal-tech/clio-legal-software-total-cost/"
+    ],
+    "external_link_opportunities": [
+      "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja/billing-increment-chart-minutes-tenths-hour",
+      "https://idp.uscourts.gov/Content_Fetcher/index.cfml/Ninth_Circuit_CJA_Compensability_Handbook_4121.pdf?Content_ID=4121",
+      "https://www.americanbar.org/books/ecd/chapter/219943/",
+      "https://www.justiceadmin.org/court_app_counsel/ChartForBillingInTenths.pdf",
+      "https://www.nhd.uscourts.gov/content/how-do-i-calculate-court-and-out-court-service-hours",
+      "https://www.calbar.ca.gov/legal-professionals/rules/rules-professional-conduct/current-rules-professional-conduct/chapter-1-lawyer-client-relationship"
+    ],
+    "excluded_claims": [
+      "Uncheckable sources cut where applicable: New York Rule 1.5(d)(4), ABA Model Rules 1.5 and 2.1, ACC survey PDF figures (84%, 64%, 62%)"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The conversion chart maps minute ranges to tenths of an hour.",
+      "source_url": "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja/billing-increment-chart-minutes-tenths-hour",
+      "verified": true
+    },
+    {
+      "statement": "Tasks under 0.1 hour each are aggregated into one block.",
+      "source_url": "https://idp.uscourts.gov/Content_Fetcher/index.cfml/Ninth_Circuit_CJA_Compensability_Handbook_4121.pdf?Content_ID=4121",
+      "verified": true
+    },
+    {
+      "statement": "A lawyer may not bill more time than spent, except rounding up to minimum time periods.",
+      "source_url": "https://www.americanbar.org/books/ecd/chapter/219943/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}

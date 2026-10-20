@@ -12,14 +12,14 @@ secondary_keywords: Smokeball time tracking; Smokeball billing
 cluster: Legal Tech
 launch_silo: Practice Management & Billing
 silo_role: Commercial Support
-approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/law-firm-billing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/lawpay-legal-payments-fees/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/law-firm-billing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/legal-billing-chart/
 research_record: content/research/blog-4.json
 source_document: https://docs.google.com/document/d/1UwetlznTs9joZMvBZT0xDHUtS--8xAnKKTP81wtcRJ4/edit?usp=drivesdk
 image: /assets/images/posts/smokeball-legal-software-time-capture/rust-red-case-file-marble-desk-1600.jpg
 image_alt: Closed rust-red case file with tabbed pages on a marble desk in a high-rise office
 author: Darlene Aberin
 published: 2026-10-04
-modified: 2026-10-04
+modified: 2026-10-20
 ---
 
 # Smokeball Legal Software and Automatic Time Capture
@@ -117,7 +117,7 @@ smokeball-new-outlook-logged-minutes
 
 The chart applies that rule to one email opened one, three, and five times. Five short views can log five minutes when the reading time was under one. Smokeball says so directly: logged time in New Outlook may run higher than in Classic Outlook, and it is exploring improvements. Drafting time is tracked the same way in both versions.
 
-For a firm that runs Smokeball legal software and bills in small increments, this is a review issue, not a reason to reject the feature. The "first email read" setting and grouping by subject line both exist to control it. A pilot should record which Outlook version each user runs.
+For a firm that runs Smokeball legal software and bills in small increments, this is a review issue, not a reason to reject the feature. A [legal billing chart](/law-firms/legal-billing-chart/) shows how minutes convert to tenths of an hour. The "first email read" setting and grouping by subject line both exist to control it. A pilot should record which Outlook version each user runs.
 
 ## Review Every Entry Before It Reaches an Invoice
 

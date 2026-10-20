@@ -1,0 +1,406 @@
+{
+  "tracker_id": "Blog:60",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Document Management Software Requirements for Law Firms. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for document management software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, managers, in-house legal teams and legal professionals in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "document management software",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "document management software",
+        "type": "short-tail",
+        "volume": 5400,
+        "difficulty": 24,
+        "cpc": 74.12,
+        "intent": "Informational",
+        "ranking_url": "http://www.folderit.com/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "document management software for law firm",
+        "type": "long-tail",
+        "volume": 880,
+        "difficulty": 41,
+        "cpc": 117.09,
+        "intent": "Informational",
+        "ranking_url": "http://www.folderit.com/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law document management software",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 56,
+        "cpc": 72.29,
+        "intent": "Informational",
+        "ranking_url": "http://www.folderit.com/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law office document management software",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.folderit.com/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is document management software",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.folderit.com/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.interscanllc.com/resources/document-management/document-management-systems",
+      "title": "Document Management Systems",
+      "publisher": "Interscan",
+      "source_type": "Vendor explainer",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Centralized repository with version control, access control, retrieval",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/",
+      "title": "Rule 1.6: Confidentiality of Information",
+      "publisher": "American Bar Association",
+      "source_type": "Model rule",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "(c) reasonable efforts to prevent inadvertent or unauthorized disclosure of, or unauthorized access to, client information",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf",
+      "title": "NIST SP 1300: Small Business Cybersecurity Guide",
+      "publisher": "National Institute of Standards and Technology",
+      "source_type": "Government guidance",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Restrict sensitive information to employees who need it; prioritize multi-factor authentication",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/comment_on_rule_1_6/",
+      "title": "Rule 1.6 Comment",
+      "publisher": "American Bar Association",
+      "source_type": "Model rule comment",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Comment 18 factors: sensitivity, likelihood of disclosure, cost, difficulty, effect on representation",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1_competence/comment_on_rule_1_1/",
+      "title": "Rule 1.1 Comment",
+      "publisher": "American Bar Association",
+      "source_type": "Model rule comment",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Comment 8: keep abreast of benefits and risks associated with relevant technology",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "NIST SP 1300: restrict sensitive information to employees who need it; prioritize multi-factor authentication.",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Small businesses",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Folderit: Document Management Software",
+      "url": "http://www.folderit.com/",
+      "publisher": "Folderit",
+      "format": "Product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result.",
+      "gaps": "Not law-firm specific."
+    },
+    {
+      "title": "Best Document Management Reviews 2026",
+      "url": "http://www.gartner.com/reviews/market/document-management",
+      "publisher": "Gartner",
+      "format": "Review site",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Review site"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Vendor list.",
+      "gaps": "No requirements method."
+    },
+    {
+      "title": "What's the best document management software?",
+      "url": "http://www.reddit.com/r/sysadmin/comments/1oo4tr9/whats_the_best_document_management_software_are/",
+      "publisher": "Reddit",
+      "format": "Forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Forum"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Practitioner views.",
+      "gaps": "Unverified."
+    },
+    {
+      "title": "Document Management: Features, Benefits, and Process",
+      "url": "http://www.microsoft.com/en-us/microsoft-365/content-management-solutions/document-management",
+      "publisher": "Microsoft",
+      "format": "Vendor explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Feature overview.",
+      "gaps": "No legal confidentiality rules."
+    },
+    {
+      "title": "Best document management software of 2025",
+      "url": "http://www.techradar.com/best/best-document-management-software",
+      "publisher": "TechRadar",
+      "format": "Review roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Review roundup"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Product comparisons.",
+      "gaps": "No law-firm tests."
+    }
+  ],
+  "content_gaps": [
+    "Top results are generic product lists.",
+    "No reviewed page ties requirements to confidentiality rules and demonstrable tests."
+  ],
+  "value_add": "A law-firm requirements checklist tied to confidentiality rules, NIST guidance, and a labeled cost worksheet.",
+  "plan": {
+    "reader_title": "Document Management Software Requirements for Law Firms",
+    "seo_title": "Document Management Software for Law Firms: Requirements",
+    "meta_description": "Requirements for document management software at law firms: confidentiality rules, access control, versioning, migration checks, and first-year costs.",
+    "slug": "/legal-tech/document-management-software-law-firms/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "law firm DMS",
+      "legal document management system"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Define the Records and Workflows in Scope",
+      "Connect the Evaluation with Professional Responsibilities",
+      "Turn Requirements into Observable Tests",
+      "Prepare a Safe and Representative Demonstration Pack",
+      "Examine Access Changes and the Review Trail",
+      "Check Versions, Search, and Everyday Retrieval",
+      "Separate Recovery from Retention Decisions",
+      "Test Export and Migration Before Committing",
+      "Compare the Full Cost of the Proposed Scope",
+      "Make the Selection and Rollout Reviewable",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.interscanllc.com/resources/document-management/document-management-systems"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-business/contract-lifecycle-management/",
+      "/legal-tech/everlaw-ediscovery-document-review/"
+    ],
+    "external_link_opportunities": [
+      "https://www.interscanllc.com/resources/document-management/document-management-systems",
+      "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/",
+      "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf",
+      "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/comment_on_rule_1_6/",
+      "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_1_competence/comment_on_rule_1_1/"
+    ],
+    "excluded_claims": [
+      "Uncheckable sources cut where applicable: New York Rule 1.5(d)(4), ABA Model Rules 1.5 and 2.1, ACC survey PDF figures (84%, 64%, 62%)"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Model Rule 1.6(c) requires reasonable efforts to prevent unauthorized access and inadvertent or unauthorized disclosure.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/",
+      "verified": true
+    },
+    {
+      "statement": "A DMS provides version control, access control, and retrieval.",
+      "source_url": "https://www.interscanllc.com/resources/document-management/document-management-systems",
+      "verified": true
+    },
+    {
+      "statement": "NIST recommends multi-factor authentication on all accounts that offer it.",
+      "source_url": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.1300.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}

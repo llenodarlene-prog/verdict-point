@@ -1,0 +1,391 @@
+{
+  "tracker_id": "Blog:59",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Contract Lifecycle Management for Legal Teams. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for contract lifecycle management, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, managers, in-house legal teams and legal professionals in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "contract lifecycle management",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "contract lifecycle management",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 38,
+        "cpc": 70.26,
+        "intent": "Informational",
+        "ranking_url": "http://www.icertis.com/learn/what-is-contract-lifecycle-management/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "contract lifecycle management software",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 46,
+        "cpc": 179.95,
+        "intent": "Informational",
+        "ranking_url": "http://www.icertis.com/learn/what-is-contract-lifecycle-management/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "contract lifecycle management tools",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 33,
+        "cpc": 162,
+        "intent": "Informational",
+        "ranking_url": "http://www.icertis.com/learn/what-is-contract-lifecycle-management/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "contract lifecycle management meaning",
+        "type": "problem",
+        "volume": 1900,
+        "difficulty": 34,
+        "cpc": 31.105,
+        "intent": "Informational",
+        "ranking_url": "http://www.icertis.com/learn/what-is-contract-lifecycle-management/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is contract lifecycle management",
+        "type": "question",
+        "volume": 1000,
+        "difficulty": 9,
+        "cpc": 14.975,
+        "intent": "Informational",
+        "ranking_url": "http://www.icertis.com/learn/what-is-contract-lifecycle-management/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.ibm.com/think/topics/contract-lifecycle-management",
+      "title": "Contract lifecycle management: Stages, benefits and best practices",
+      "publisher": "IBM",
+      "source_type": "Explainer",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "End-to-end process from drafting to renewal or termination; number of stages varies by organization",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.thomsonreuters.com/blog/what-is-contract-lifecycle-management/",
+      "title": "Contract lifecycle management: An overview",
+      "publisher": "Thomson Reuters",
+      "source_type": "Vendor explainer",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Initiation through execution, monitoring, and eventual renewal or termination",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.gov.uk/government/publications/commercial-capability-contract-management-standards/contract-management-principles",
+      "title": "Contract management principles",
+      "publisher": "UK Government Commercial Function",
+      "source_type": "Government guidance",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Clear roles and responsibilities, effective handover, documented Contract Management Plan",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.sap.com/resources/what-is-contract-lifecycle-management-clm",
+      "title": "What is contract lifecycle management (CLM)?",
+      "publisher": "SAP",
+      "source_type": "Vendor explainer",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Ongoing management and compliance and contract renewal",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "IBM: CLM runs from drafting through renewal or termination, and the number of stages varies by organization.",
+      "source_url": "https://www.ibm.com/think/topics/contract-lifecycle-management",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "CLM Software: What Is Contract Lifecycle Management?",
+      "url": "http://www.icertis.com/learn/what-is-contract-lifecycle-management/",
+      "publisher": "Icertis",
+      "format": "Vendor explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result.",
+      "gaps": "Product-led."
+    },
+    {
+      "title": "Contract lifecycle management: An overview",
+      "url": "http://legal.thomsonreuters.com/blog/what-is-contract-lifecycle-management/",
+      "publisher": "Thomson Reuters",
+      "format": "Vendor explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Lifecycle scope.",
+      "gaps": "Little on post-signature ownership."
+    },
+    {
+      "title": "Best Contract Life Cycle Management Reviews 2026",
+      "url": "http://www.gartner.com/reviews/market/contract-life-cycle-management",
+      "publisher": "Gartner",
+      "format": "Review site",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Review site"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Vendor list.",
+      "gaps": "No process guidance."
+    },
+    {
+      "title": "What is Contract Lifecycle Management (CLM)?",
+      "url": "http://www.salesforce.com/sales/revenue-lifecycle-management/what-is-contract-lifecycle-management/",
+      "publisher": "Salesforce",
+      "format": "Vendor explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Definitions.",
+      "gaps": "Sales context."
+    },
+    {
+      "title": "Contract Management Lifecycle",
+      "url": "http://procurement.brown.edu/contracts/contract-management-lifecycle",
+      "publisher": "Brown University",
+      "format": "Procurement guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Procurement guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Process steps.",
+      "gaps": "Institution-specific."
+    }
+  ],
+  "content_gaps": [
+    "Top results focus on software, not ownership after signature.",
+    "No reviewed page plans a notice deadline with a labeled example."
+  ],
+  "value_add": "A process-first CLM guide with ownership, notice planning, and software evaluation tied to real work.",
+  "plan": {
+    "reader_title": "Contract Lifecycle Management Stages and Ownership",
+    "seo_title": "Contract Lifecycle Management: Stages, Owners, and Renewals",
+    "meta_description": "Contract lifecycle management from request to renewal: stages, ownership after signature, notice deadlines, and how to judge CLM software against real work.",
+    "slug": "/legal-business/contract-lifecycle-management/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "CLM software",
+      "contract management process"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Separate the Process from the Software",
+      "A Seven Stage Ownership Map",
+      "Start with a Request Someone Can Act On",
+      "Keep Negotiation and Approval Distinct",
+      "Make Signature a Handoff to Delivery",
+      "Build an Obligation Register from the Agreement",
+      "Manage Changes and the Final Decision",
+      "Measure the Work with Defined Start and End Points",
+      "Pilot One Agreement Type Before Expanding",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.ibm.com/think/topics/contract-lifecycle-management"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://legal.thomsonreuters.com/blog/what-is-contract-lifecycle-management/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.gov.uk/government/publications/commercial-capability-contract-management-standards/contract-management-principles"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/document-management-software-law-firms/",
+      "/legal-business/general-counsel/"
+    ],
+    "external_link_opportunities": [
+      "https://www.ibm.com/think/topics/contract-lifecycle-management",
+      "https://legal.thomsonreuters.com/blog/what-is-contract-lifecycle-management/",
+      "https://www.gov.uk/government/publications/commercial-capability-contract-management-standards/contract-management-principles",
+      "https://www.sap.com/resources/what-is-contract-lifecycle-management-clm"
+    ],
+    "excluded_claims": [
+      "Uncheckable sources cut where applicable: New York Rule 1.5(d)(4), ABA Model Rules 1.5 and 2.1, ACC survey PDF figures (84%, 64%, 62%)"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The number of CLM stages varies by organization.",
+      "source_url": "https://www.ibm.com/think/topics/contract-lifecycle-management",
+      "verified": true
+    },
+    {
+      "statement": "CLM includes monitoring and eventual renewal or termination.",
+      "source_url": "https://legal.thomsonreuters.com/blog/what-is-contract-lifecycle-management/",
+      "verified": true
+    },
+    {
+      "statement": "UK principles call for clear roles, effective handover, and a documented contract management plan.",
+      "source_url": "https://www.gov.uk/government/publications/commercial-capability-contract-management-standards/contract-management-principles",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}
