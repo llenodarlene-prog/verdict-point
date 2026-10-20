@@ -1,0 +1,419 @@
+{
+  "tracker_id": "Blog:58",
+  "status": "verified",
+  "research_question": "Owner-approved addition: What a General Counsel Does in an Organization. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for general counsel, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, managers, in-house legal teams and legal professionals in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "general counsel",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "general counsel",
+        "type": "short-tail",
+        "volume": 6600,
+        "difficulty": 34,
+        "cpc": 6.79,
+        "intent": "Informational",
+        "ranking_url": "http://en.wikipedia.org/wiki/General_counsel",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "general counsel vs chief legal officer",
+        "type": "long-tail",
+        "volume": 70,
+        "difficulty": 14,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://en.wikipedia.org/wiki/General_counsel",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "general counsel pay",
+        "type": "commercial",
+        "volume": 880,
+        "difficulty": 18,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://en.wikipedia.org/wiki/General_counsel",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "role of a general counsel",
+        "type": "problem",
+        "volume": 90,
+        "difficulty": 27,
+        "cpc": 3.06,
+        "intent": "Informational",
+        "ranking_url": "http://en.wikipedia.org/wiki/General_counsel",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what does general counsel do",
+        "type": "question",
+        "volume": 210,
+        "difficulty": 31,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://en.wikipedia.org/wiki/General_counsel",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://jobline.acc.com/career/general-counsel/job-descriptions",
+      "title": "General Counsel Job Descriptions",
+      "publisher": "Association of Corporate Counsel JobLine",
+      "source_type": "Job description template",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Legal guidance and oversight, contracts and compliance, risk management, managing and leading the legal team",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_13_organization_as_client/",
+      "title": "Rule 1.13: Organization as Client",
+      "publisher": "American Bar Association",
+      "source_type": "Model rule",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "(a) organization is the client; (b) internal escalation; (f) explain client identity; (g) dual representation subject to Rule 1.7",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.taylorroot.com/career-advice/what-is-the-difference-between-a-general-counsel-and-chief-legal-officer/",
+      "title": "What is the difference between a General Counsel and Chief Legal Officer?",
+      "publisher": "Taylor Root",
+      "source_type": "Recruiter article",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Titles often used interchangeably; no universally agreed definition separating them",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "title": "Lawyers: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Corporate counsel work for a single organization and advise on patents, contracts, taxes, union agreements",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.spencerstuart.com/research-and-insight/so-you-want-to-be-a-general-counsel-how-to-maximize-your-chances",
+      "title": "So You Want to Be a General Counsel?",
+      "publisher": "Spencer Stuart",
+      "source_type": "Executive search analysis",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Strong and tested judgment is the number one attribute companies want",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://ftitechnology.com/resources/white-papers/2026-acc-chief-legal-officers-survey",
+      "title": "2026 ACC Chief Legal Officers Survey",
+      "publisher": "FTI Consulting with the Association of Corporate Counsel",
+      "source_type": "Survey summary page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Insights of 1,049 CLOs across 43 countries",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "ABA Model Rule 1.13(a): a lawyer for an organization represents the organization acting through its authorized constituents.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_13_organization_as_client/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "General counsel",
+      "url": "http://en.wikipedia.org/wiki/General_counsel",
+      "publisher": "Wikipedia",
+      "format": "Encyclopedia",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Encyclopedia"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result.",
+      "gaps": "No organizational-client rules."
+    },
+    {
+      "title": "What do general counsels actually do?",
+      "url": "http://www.reddit.com/r/Lawyertalk/comments/1ph90mn/what_do_general_counsels_actually_do/",
+      "publisher": "Reddit",
+      "format": "Forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Forum"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Practitioner views.",
+      "gaps": "Unverified."
+    },
+    {
+      "title": "So You Want to Be a General Counsel?",
+      "url": "http://www.spencerstuart.com/research-and-insight/so-you-want-to-be-a-general-counsel-how-to-maximize-your-chances",
+      "publisher": "Spencer Stuart",
+      "format": "Search firm analysis",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Search firm analysis"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Leadership attributes.",
+      "gaps": "Career focus."
+    },
+    {
+      "title": "general counsel",
+      "url": "http://www.law.cornell.edu/wex/general_counsel",
+      "publisher": "Cornell Wex",
+      "format": "Legal dictionary",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Legal dictionary"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Definition.",
+      "gaps": "Brief."
+    },
+    {
+      "title": "A guide to the types of General Counsel",
+      "url": "http://juro.com/general-counsel/in-house-job-titles",
+      "publisher": "Juro",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Title overview.",
+      "gaps": "No first-90-day plan."
+    }
+  ],
+  "content_gaps": [
+    "Top results skip the organization-as-client rule.",
+    "No reviewed page gives a practical first-90-day mandate."
+  ],
+  "value_add": "A role map grounded in Model Rule 1.13 with title comparison and an illustrative 90-day plan.",
+  "plan": {
+    "reader_title": "General Counsel Roles and Responsibilities",
+    "seo_title": "General Counsel: Role, Reporting Lines, and First 90 Days",
+    "meta_description": "What a general counsel does: the organization as client, scope beyond legal advice, how the role compares with chief legal officer, and a first-90-day plan.",
+    "slug": "/legal-business/general-counsel/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "general counsel vs chief legal officer",
+      "in-house general counsel"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "What the Legal Leader Leads",
+      "Define Responsibilities Through Decisions and Records",
+      "Identify the Client Before Addressing Conflicts",
+      "Compare Titles Without Assuming a Fixed Hierarchy",
+      "What Reporting Research Can and Cannot Tell You",
+      "Preserve Independent Advice and an Escalation Route",
+      "Manage the Team and Outside Advice Deliberately",
+      "Write a Hiring Brief Around the Actual Need",
+      "Agree on Early Work and Review Measures",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://jobline.acc.com/career/general-counsel/job-descriptions"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_13_organization_as_client/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.taylorroot.com/career-advice/what-is-the-difference-between-a-general-counsel-and-chief-legal-officer/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/corporate-lawyer-salary/",
+      "/legal-business/contract-lifecycle-management/"
+    ],
+    "external_link_opportunities": [
+      "https://jobline.acc.com/career/general-counsel/job-descriptions",
+      "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_13_organization_as_client/",
+      "https://www.taylorroot.com/career-advice/what-is-the-difference-between-a-general-counsel-and-chief-legal-officer/",
+      "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "https://www.spencerstuart.com/research-and-insight/so-you-want-to-be-a-general-counsel-how-to-maximize-your-chances",
+      "https://ftitechnology.com/resources/white-papers/2026-acc-chief-legal-officers-survey"
+    ],
+    "excluded_claims": [
+      "Uncheckable sources cut where applicable: New York Rule 1.5(d)(4), ABA Model Rules 1.5 and 2.1, ACC survey PDF figures (84%, 64%, 62%)"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The ACC template covers advice on contracts and compliance, risk management, and leading the legal team.",
+      "source_url": "https://jobline.acc.com/career/general-counsel/job-descriptions",
+      "verified": true
+    },
+    {
+      "statement": "Rule 1.13(f) requires explaining client identity when interests are adverse; (g) allows dual representation subject to Rule 1.7.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_13_organization_as_client/",
+      "verified": true
+    },
+    {
+      "statement": "GC and CLO titles are often used interchangeably with no universally agreed separation.",
+      "source_url": "https://www.taylorroot.com/career-advice/what-is-the-difference-between-a-general-counsel-and-chief-legal-officer/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}
