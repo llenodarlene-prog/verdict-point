@@ -1,0 +1,476 @@
+{
+  "tracker_id": "Blog:54",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Paralegal Salary by State and Employer. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for paralegal salary, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, hiring managers, legal professionals and candidates in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "paralegal salary",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "paralegal salary",
+        "type": "short-tail",
+        "volume": 40500,
+        "difficulty": 29,
+        "cpc": 16.11,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Salaries/Entry-Level-Paralegal-Salary-in-Los-Angeles,CA",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "paralegal salary by state",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 33,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Salaries/Entry-Level-Paralegal-Salary-in-Los-Angeles,CA",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "paralegal salary in new york",
+        "type": "commercial",
+        "volume": 1900,
+        "difficulty": 25,
+        "cpc": 8.67,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Salaries/Entry-Level-Paralegal-Salary-in-Los-Angeles,CA",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "starting paralegal salary",
+        "type": "problem",
+        "volume": 480,
+        "difficulty": 23,
+        "cpc": 11.43,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Salaries/Entry-Level-Paralegal-Salary-in-Los-Angeles,CA",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the average paralegal salary",
+        "type": "question",
+        "volume": 210,
+        "difficulty": 31,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Salaries/Entry-Level-Paralegal-Salary-in-Los-Angeles,CA",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "title": "Paralegals and Legal Assistants: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Median annual wage $62,890 in May 2025; industry medians; duties vary by practice area and firm size; SOC 23-2011",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onetonline.org/link/localwages/23-2011.00?st=CA",
+      "title": "California Wages: Paralegals and Legal Assistants",
+      "publisher": "O*NET OnLine (BLS 2025 wage data)",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "National percentiles $44,740/$50,340/$62,890/$80,080/$101,500; California median $77,390; metro medians",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://webapps.dol.gov/elaws/whd/flsA/overtime/p42a1.htm",
+      "title": "Learned Professional Exemption",
+      "publisher": "U.S. Department of Labor elaws",
+      "source_type": "Regulator guidance",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Paralegals generally do not qualify as exempt learned professionals; exception for advanced specialized degrees in other professional fields",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onetonline.org/link/localwages/23-2011.00?st=TX",
+      "title": "Texas Wages: Paralegals and Legal Assistants",
+      "publisher": "O*NET OnLine (BLS 2025 wage data)",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Texas median $62,310; Dallas metro $63,220",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onetonline.org/link/localwages/23-2011.00?st=DC",
+      "title": "District of Columbia Wages: Paralegals and Legal Assistants",
+      "publisher": "O*NET OnLine (BLS 2025 wage data)",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "DC median $89,750; Washington metro $81,590",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onetonline.org/link/localwages/23-2011.00?st=NY",
+      "title": "New York Wages: Paralegals and Legal Assistants",
+      "publisher": "O*NET OnLine (BLS 2025 wage data)",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "New York median $68,410",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/oes/oes_ques.htm",
+      "title": "OEWS Frequently Asked Questions",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Survey methodology",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Six semiannual panels over three years; ownership and industry data national only; factors behind wage differences",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/opub/hom/oews/concepts.htm",
+      "title": "OEWS Concepts",
+      "publisher": "U.S. Bureau of Labor Statistics Handbook of Methods",
+      "source_type": "Survey methodology",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Wages are straight-time gross pay; exclusions include overtime, nonproduction bonuses, and employer cost of benefits",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area",
+      "title": "Regional Price Parities by State and Metro Area",
+      "publisher": "U.S. Bureau of Economic Analysis",
+      "source_type": "Government statistics",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "RPPs measure price-level differences across states and metro areas",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "BLS: median annual wage for paralegals and legal assistants $62,890 in May 2025.",
+      "source_url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Paralegals and legal assistants (SOC 23-2011)",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD annual",
+      "method": "OEWS survey",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "O*NET (BLS 2025): California median $77,390; national 25th/75th percentiles $50,340/$80,080.",
+      "source_url": "https://www.onetonline.org/link/localwages/23-2011.00?st=CA",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Paralegals and legal assistants",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD annual",
+      "method": "OEWS survey",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Entry Level Paralegal Salary in Los Angeles, CA",
+      "url": "http://www.ziprecruiter.com/Salaries/Entry-Level-Paralegal-Salary-in-Los-Angeles,CA",
+      "publisher": "ZipRecruiter",
+      "format": "Salary aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Salary aggregator"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result.",
+      "gaps": "Job-ad estimates; no survey definitions."
+    },
+    {
+      "title": "Entry Level Paralegal Salary in Denver, CO",
+      "url": "http://www.ziprecruiter.com/Salaries/Entry-Level-Paralegal-Salary-in-Denver,CO",
+      "publisher": "ZipRecruiter",
+      "format": "Salary aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Salary aggregator"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Local figures.",
+      "gaps": "Method unclear."
+    },
+    {
+      "title": "Paralegal in California 2026 - Salaries",
+      "url": "http://www.glassdoor.com/Salaries/california-paralegal-salary-SRCH_IL.0,10_IS2280_KO11,20.htm",
+      "publisher": "Glassdoor",
+      "format": "Salary aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Salary aggregator"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "User-reported pay.",
+      "gaps": "Self-reported sample."
+    },
+    {
+      "title": "Paralegal Salary in Michigan",
+      "url": "http://www.ziprecruiter.com/Salaries/Paralegal-Salary--in-Michigan",
+      "publisher": "ZipRecruiter",
+      "format": "Salary aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Salary aggregator"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "State page.",
+      "gaps": "No BLS context."
+    },
+    {
+      "title": "Paralegal Salary in Alabama",
+      "url": "http://www.ziprecruiter.com/Salaries/Paralegal-Salary--in-Alabama",
+      "publisher": "ZipRecruiter",
+      "format": "Salary aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Salary aggregator"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "State page.",
+      "gaps": "No exclusions explained."
+    }
+  ],
+  "content_gaps": [
+    "Top results are aggregator estimates without survey definitions.",
+    "No reviewed page explains what OEWS wages exclude."
+  ],
+  "value_add": "Official May 2025 wage tables by state, metro and sector, with exclusions and overtime context.",
+  "plan": {
+    "reader_title": "Paralegal Salary by State and Employer",
+    "seo_title": "Paralegal Salary by State and Employer: May 2025 BLS Data",
+    "meta_description": "Paralegal salary data from BLS: a $62,890 national median in May 2025, state and metro medians, employer-sector pay, and what the figures exclude.",
+    "slug": "/legal/paralegal-salary/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "average paralegal salary",
+      "paralegal salary by state"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "What the National Wage Figure Measures",
+      "Selected State and District Wage Comparisons",
+      "Metropolitan Data Can Change the Comparison",
+      "National Wages by Employer Sector",
+      "Experience and Certification Need Separate Evidence",
+      "Salary and Total Compensation Use Different Definitions",
+      "Why Salary Websites Can Show Different Numbers",
+      "Use Percentiles Without Inventing a Personal Pay Band",
+      "Build a Defensible Offer Comparison",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.onetonline.org/link/localwages/23-2011.00?st=CA"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://webapps.dol.gov/elaws/whd/flsA/overtime/p42a1.htm"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/what-does-a-paralegal-do/"
+    ],
+    "external_link_opportunities": [
+      "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "https://www.onetonline.org/link/localwages/23-2011.00?st=CA",
+      "https://webapps.dol.gov/elaws/whd/flsA/overtime/p42a1.htm",
+      "https://www.onetonline.org/link/localwages/23-2011.00?st=TX",
+      "https://www.onetonline.org/link/localwages/23-2011.00?st=DC",
+      "https://www.onetonline.org/link/localwages/23-2011.00?st=NY",
+      "https://www.bls.gov/oes/oes_ques.htm",
+      "https://www.bls.gov/opub/hom/oews/concepts.htm",
+      "https://www.bea.gov/data/prices-inflation/regional-price-parities-state-and-metro-area"
+    ],
+    "excluded_claims": [
+      "Uncheckable citations removed (ABA consumer page legalhelp1, federal court admission page, Texas Bar directory) where applicable"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Industry medians: federal government $81,470; finance and insurance $80,120; local government $63,370; legal services $61,770; state government $59,320.",
+      "source_url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "verified": true
+    },
+    {
+      "statement": "State medians: DC $89,750, WA $79,400, MA $77,640, CA $77,390, NY $68,410, IL $63,670, TX $62,310, FL $61,000.",
+      "source_url": "https://www.onetonline.org/link/localwages/23-2011.00?st=CA",
+      "verified": true
+    },
+    {
+      "statement": "DOL: paralegals generally do not qualify for the learned professional exemption.",
+      "source_url": "https://webapps.dol.gov/elaws/whd/flsA/overtime/p42a1.htm",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}

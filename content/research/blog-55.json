@@ -1,0 +1,427 @@
+{
+  "tracker_id": "Blog:55",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Corporate Lawyer Salary by Role and Employer. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for corporate lawyer salary, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, hiring managers, legal professionals and candidates in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "corporate lawyer salary",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "corporate lawyer salary",
+        "type": "short-tail",
+        "volume": 9900,
+        "difficulty": 30,
+        "cpc": 7.21,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawSchool/comments/1hzykbb/how_much_do_lawyers_actually_make/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "in house corporate lawyer salary",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 20,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawSchool/comments/1hzykbb/how_much_do_lawyers_actually_make/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "corporate lawyer salary in new york",
+        "type": "commercial",
+        "volume": 590,
+        "difficulty": 25,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawSchool/comments/1hzykbb/how_much_do_lawyers_actually_make/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "corporate lawyer salary entry level",
+        "type": "problem",
+        "volume": 70,
+        "difficulty": 28,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawSchool/comments/1hzykbb/how_much_do_lawyers_actually_make/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is a corporate lawyer salary",
+        "type": "question",
+        "volume": 70,
+        "difficulty": 27,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawSchool/comments/1hzykbb/how_much_do_lawyers_actually_make/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://info.mlaglobal.com/2026-in-house-counsel-compensation-report",
+      "title": "2026 In-House Counsel Compensation Report",
+      "publisher": "Major, Lindsey & Africa",
+      "source_type": "Recruiter placement report",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "641 legal department placements in 2024 and 2025; U.S. data; median total cash (base + bonus) by role",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.amazon.jobs/en/jobs/10529288/corporate-counsel-m-a-legal",
+      "title": "Corporate Counsel, M&A Legal (job 10529288)",
+      "publisher": "Amazon",
+      "source_type": "Employer job posting",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Seattle-based; $153,900 to $208,200 annual base",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "title": "Lawyers: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Lawyers advise and represent clients on legal proceedings or transactions; corporate counsel work for a single organization; median annual wage $159,670 in May 2025",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ropesgrayrecruiting.com/en/us/experienced-lawyers-technical-advisors/associate-salary-disclosures",
+      "title": "Associate Salary Disclosures",
+      "publisher": "Ropes & Gray",
+      "source_type": "Employer disclosure",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "2026 associate base salary effective January 1, 2026: class of 2025 (1st year) $225,000 through 2017 (9th year) $445,000",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.amazon.jobs/en/jobs/10572170/corporate-counsel",
+      "title": "Corporate Counsel (job 10572170)",
+      "publisher": "Amazon",
+      "source_type": "Employer job posting",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Labor relations role; New York $169,300 to $229,000; Arlington and Seattle $153,900 to $208,200",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "MLA: median total cash for 2024 to 2025 placements, from $739,000 (public-company GC/CLO) to $270,600 (senior counsel or counsel).",
+      "source_url": "https://info.mlaglobal.com/2026-in-house-counsel-compensation-report",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "641 MLA in-house placements",
+      "sample": "641",
+      "denominator": "Not applicable",
+      "unit": "USD total cash",
+      "method": "Recruiter placement data",
+      "limitations": "Placement data, not a representative survey.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Amazon M&A counsel posting: Seattle, $153,900 to $208,200 annual base.",
+      "source_url": "https://www.amazon.jobs/en/jobs/10529288/corporate-counsel-m-a-legal",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "One job posting",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD annual base",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "BLS: lawyer median annual wage $159,670 in May 2025.",
+      "source_url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Lawyers",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD annual",
+      "method": "OEWS survey",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "How much do lawyers actually make?",
+      "url": "http://www.reddit.com/r/LawSchool/comments/1hzykbb/how_much_do_lawyers_actually_make/",
+      "publisher": "Reddit",
+      "format": "Forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Forum"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result.",
+      "gaps": "Anecdotal."
+    },
+    {
+      "title": "Corporate attorney salary in California",
+      "url": "http://www.indeed.com/career/corporate-attorney/salaries/CA",
+      "publisher": "Indeed",
+      "format": "Salary aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Salary aggregator"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Local estimate.",
+      "gaps": "Job-ad based."
+    },
+    {
+      "title": "Wages",
+      "url": "http://www.americanbar.org/news/profile-legal-profession/wages/",
+      "publisher": "American Bar Association",
+      "format": "Professional association data",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Professional association data"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "BLS-based wage profile.",
+      "gaps": "Not role-specific."
+    },
+    {
+      "title": "Corporate Lawyer Salary",
+      "url": "http://www.ziprecruiter.com/Salaries/Corporate-Lawyer-Salary",
+      "publisher": "ZipRecruiter",
+      "format": "Salary aggregator",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Salary aggregator"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "National estimate.",
+      "gaps": "Method unclear."
+    },
+    {
+      "title": "Average Salary of an Attorney in 2025",
+      "url": "http://www.synectics.com/average-salary-of-an-attorney-in-2025-a-complete-guide",
+      "publisher": "Synectics",
+      "format": "Staffing blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Staffing blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Overview.",
+      "gaps": "Mixes measures."
+    }
+  ],
+  "content_gaps": [
+    "Top results mix base, total cash and job-ad estimates.",
+    "No reviewed page separates in-house placement medians from advertised ranges."
+  ],
+  "value_add": "A role-by-role comparison that keeps base, total cash and advertised ranges in separate columns.",
+  "plan": {
+    "reader_title": "Corporate Lawyer Salary by Role and Employer",
+    "seo_title": "Corporate Lawyer Salary: In-House and Law Firm Pay by Role",
+    "meta_description": "Corporate lawyer salary by role: BLS lawyer pay, BigLaw associate base scales, in-house placement medians, and advertised corporate counsel ranges.",
+    "slug": "/legal/corporate-lawyer-salary/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "in-house counsel salary",
+      "general counsel compensation"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Define the Position Before Selecting a Benchmark",
+      "Law Firm Associate Pay Uses Its Own Evidence",
+      "In House Compensation Medians by Role",
+      "Employer Advertisements Provide More Specific Comparisons",
+      "A Posted Range Does Not Show the Distribution of Offers",
+      "Separate Salary from Other Compensation",
+      "Keep Broad Lawyer Wage Data in Context",
+      "Build a Comparison You Can Explain",
+      "Questions to Ask Before Accepting a Package",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://info.mlaglobal.com/2026-in-house-counsel-compensation-report"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.amazon.jobs/en/jobs/10529288/corporate-counsel-m-a-legal"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bls.gov/ooh/legal/lawyers.htm"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/law-firms/biglaw-salary-scale/",
+      "/legal/lawyer-vs-attorney/"
+    ],
+    "external_link_opportunities": [
+      "https://info.mlaglobal.com/2026-in-house-counsel-compensation-report",
+      "https://www.amazon.jobs/en/jobs/10529288/corporate-counsel-m-a-legal",
+      "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "https://www.ropesgrayrecruiting.com/en/us/experienced-lawyers-technical-advisors/associate-salary-disclosures",
+      "https://www.amazon.jobs/en/jobs/10572170/corporate-counsel"
+    ],
+    "excluded_claims": [
+      "Uncheckable citations removed (ABA consumer page legalhelp1, federal court admission page, Texas Bar directory) where applicable"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "MLA total cash is base salary plus bonus; equity is tracked for prevalence but not valued.",
+      "source_url": "https://info.mlaglobal.com/2026-in-house-counsel-compensation-report",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}
