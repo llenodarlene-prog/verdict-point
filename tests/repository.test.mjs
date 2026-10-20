@@ -8,7 +8,7 @@ test('tracker counts and hashes are stable', async () => {
     readJson('data/site.json'), readJson('data/content-plan.json'), readJson('data/launch-content-plan.json'),
     readJson('data/interlinking-plan.json'), readJson('data/tracker-provenance.json')
   ]);
-  assert.equal(plan.length, 100); assert.ok(launch.length >= 20); assert.equal(links.length, launch.length);
+  assert.equal(plan.filter(item => item._source_row != null).length, 100); assert.ok(launch.length >= 20); assert.equal(links.length, launch.length);
   assert.equal(site.tracker_sha256, provenance.sha256);
 });
 

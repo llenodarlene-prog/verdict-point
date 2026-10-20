@@ -1,0 +1,431 @@
+{
+  "tracker_id": "Blog:52",
+  "status": "verified",
+  "research_question": "Owner-approved addition: What Does a Paralegal Do in a Law Firm. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for what does a paralegal do, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, hiring managers, legal professionals and candidates in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "what does a paralegal do",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "what does a paralegal do",
+        "type": "short-tail",
+        "volume": 18100,
+        "difficulty": 36,
+        "cpc": 9.51,
+        "intent": "Informational",
+        "ranking_url": "http://www.quora.com/What-is-a-paralegal-role-in-the-law-firm",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what does a paralegal do on a daily basis",
+        "type": "long-tail",
+        "volume": 110,
+        "difficulty": 32,
+        "cpc": 2.92,
+        "intent": "Informational",
+        "ranking_url": "http://www.quora.com/What-is-a-paralegal-role-in-the-law-firm",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what does a paralegal do and make",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 44,
+        "cpc": 6.66,
+        "intent": "Informational",
+        "ranking_url": "http://www.quora.com/What-is-a-paralegal-role-in-the-law-firm",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what does a paralegal do in court",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 18,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.quora.com/What-is-a-paralegal-role-in-the-law-firm",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what does a paralegal do exactly",
+        "type": "question",
+        "volume": 90,
+        "difficulty": 46,
+        "cpc": 6.755,
+        "intent": "Informational",
+        "ranking_url": "http://www.quora.com/What-is-a-paralegal-role-in-the-law-firm",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/",
+      "title": "Current ABA Definition of Legal Assistant/Paralegal",
+      "publisher": "American Bar Association Standing Committee on Paralegals",
+      "source_type": "Professional association definition",
+      "year": "2020",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "2020 House of Delegates definition: qualified by education, training or work experience; performs specifically delegated substantive legal work for which a lawyer is responsible",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "title": "Paralegals and Legal Assistants: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Median annual wage $62,890 in May 2025; industry medians; duties vary by practice area and firm size; SOC 23-2011",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://nala.org/what-do-paralegals-do/",
+      "title": "What Do Paralegals Do?",
+      "publisher": "NALA, The Paralegal Association",
+      "source_type": "Professional association guidance",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Typical duties include interviews, investigations, legal research, drafting and summaries; nonlawyer status must be clear",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/paralegals/profession-information/information_for_lawyers_how_paralegals_can_improve_your_practice/",
+      "title": "Information for Lawyers: How Paralegals Can Improve Your Practice",
+      "publisher": "American Bar Association Standing Committee on Paralegals",
+      "source_type": "Professional association guidance",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Paralegals may not establish the attorney-client relationship, set fees, or give legal advice; attorneys remain responsible and must supervise",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://nala.org/nala-code-ethics-and-professional-responsibility/",
+      "title": "NALA Code of Ethics and Professional Responsibility",
+      "publisher": "NALA, The Paralegal Association",
+      "source_type": "Ethics code",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Canon 7: a paralegal must protect the confidences of a client",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/litigation/resources/newsletters/ethics-professionalism/ethics-paralegal-work-supervision-litigation/",
+      "title": "The Ethics of Paralegal Work and Supervision in Litigation",
+      "publisher": "American Bar Association Section of Litigation",
+      "source_type": "Professional association article",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Lawyer responsibility for supervising paralegal work",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "ABA 2020 definition: paralegals perform specifically delegated substantive legal work for which a lawyer is responsible.",
+      "source_url": "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/",
+      "data_year": "2020",
+      "geography": "United States",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "BLS: duties vary by practice area and firm size.",
+      "source_url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What is a paralegal role in the law firm?",
+      "url": "http://www.quora.com/What-is-a-paralegal-role-in-the-law-firm",
+      "publisher": "Quora",
+      "format": "Q&A forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Q&A forum"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top organic result.",
+      "gaps": "Anecdotal; no sources."
+    },
+    {
+      "title": "What is a Paralegal? (Definition & Examples)",
+      "url": "http://www.clio.com/resources/paralegals/what-is-a-paralegal/",
+      "publisher": "Clio",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Definitions and examples.",
+      "gaps": "Little on supervision limits."
+    },
+    {
+      "title": "14 Types of Paralegals",
+      "url": "http://www.bryantstratton.edu/blog/paralegal/types-of-paralegals/",
+      "publisher": "Bryant & Stratton College",
+      "format": "School blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "School blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Practice-area variety.",
+      "gaps": "Career marketing focus."
+    },
+    {
+      "title": "The role of a paralegal: What you need to know",
+      "url": "http://www.robertwalters.com.au/insights/career-advice/blog/the-role-of-a-paralegal.html",
+      "publisher": "Robert Walters",
+      "format": "Recruiter blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Recruiter blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Role overview.",
+      "gaps": "Australian context."
+    },
+    {
+      "title": "What does a Paralegal do? Career Overview",
+      "url": "http://jobs.cloc.org/career/paralegal",
+      "publisher": "CLOC Jobs",
+      "format": "Career page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Career page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Duties list.",
+      "gaps": "No ethics boundaries."
+    }
+  ],
+  "content_gaps": [
+    "Top results lack supervision and ethics boundaries.",
+    "No reviewed page frames assignments around the work product a lawyer reviews."
+  ],
+  "value_add": "A firm-side view of delegated work, supervision, and client-contact boundaries, using ABA, BLS and NALA sources.",
+  "plan": {
+    "reader_title": "What Does a Paralegal Do in a Law Firm",
+    "seo_title": "What Does a Paralegal Do? Duties, Limits, and Supervision",
+    "meta_description": "What does a paralegal do in a law firm? Delegated research, drafting, and case support under lawyer supervision, plus the limits on legal advice and fees.",
+    "slug": "/legal/what-does-a-paralegal-do/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "paralegal duties",
+      "paralegal vs lawyer"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "What Is a Paralegal",
+      "What Does a Paralegal Do During a Matter",
+      "Tasks and Work Products to Discuss with a Supervisor",
+      "Work That Requires a Clear Boundary",
+      "Client Contact Without Independent Legal Advice",
+      "How Duties Change Across Practice Settings",
+      "A Hypothetical Assignment from Start to Review",
+      "Skills and Education to Evaluate",
+      "Handle Matter Information Within Firm Rules",
+      "Agree on the Output Before Delegating",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://nala.org/what-do-paralegals-do/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/lawyer-vs-attorney/",
+      "/legal/paralegal-salary/"
+    ],
+    "external_link_opportunities": [
+      "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/",
+      "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "https://nala.org/what-do-paralegals-do/",
+      "https://www.americanbar.org/groups/paralegals/profession-information/information_for_lawyers_how_paralegals_can_improve_your_practice/",
+      "https://nala.org/nala-code-ethics-and-professional-responsibility/",
+      "https://www.americanbar.org/groups/litigation/resources/newsletters/ethics-professionalism/ethics-paralegal-work-supervision-litigation/"
+    ],
+    "excluded_claims": [
+      "Uncheckable citations removed (ABA consumer page legalhelp1, federal court admission page, Texas Bar directory) where applicable"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "ABA definition of paralegal adopted by the House of Delegates in February 2020.",
+      "source_url": "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/",
+      "verified": true
+    },
+    {
+      "statement": "NALA lists interviews, investigations, research, drafting and summaries as typical duties; nonlawyer status must be clear.",
+      "source_url": "https://nala.org/what-do-paralegals-do/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}
