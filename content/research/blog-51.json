@@ -1,0 +1,422 @@
+{
+  "tracker_id": "Blog:51",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Lawyer vs Attorney in the United States. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for lawyer vs attorney, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, hiring managers, legal professionals and candidates in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "lawyer vs attorney",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "lawyer vs attorney",
+        "type": "short-tail",
+        "volume": 14800,
+        "difficulty": 25,
+        "cpc": 21.12,
+        "intent": "Informational",
+        "ranking_url": "http://www.rjaffelaw.com/blog/difference-between-lawyer-and-attorney/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "lawyer vs attorney difference",
+        "type": "long-tail",
+        "volume": 1000,
+        "difficulty": 16,
+        "cpc": 1.11,
+        "intent": "Informational",
+        "ranking_url": "http://www.rjaffelaw.com/blog/difference-between-lawyer-and-attorney/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "lawyer vs attorney salary",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 34,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.rjaffelaw.com/blog/difference-between-lawyer-and-attorney/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "lawyer vs attorney vs paralegal",
+        "type": "problem",
+        "volume": 2400,
+        "difficulty": 24,
+        "cpc": 8.34,
+        "intent": "Informational",
+        "ranking_url": "http://www.rjaffelaw.com/blog/difference-between-lawyer-and-attorney/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is a lawyer vs attorney",
+        "type": "question",
+        "volume": 50,
+        "difficulty": 20,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.rjaffelaw.com/blog/difference-between-lawyer-and-attorney/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.law.cornell.edu/wex/attorney",
+      "title": "Wex: Attorney",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "source_type": "Legal dictionary",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "An attorney is someone authorized to practice law; a lawyer, also called attorney-at-law; less commonly an attorney-in-fact under a power of attorney",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "title": "Lawyers: Occupational Outlook Handbook",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Lawyers advise and represent clients on legal proceedings or transactions; corporate counsel work for a single organization; median annual wage $159,670 in May 2025",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/resources/resources_for_the_public/consumer_faqs/",
+      "title": "Consumer FAQs",
+      "publisher": "American Bar Association Center for Professional Responsibility",
+      "source_type": "Professional association guidance",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "No national license to practice law; lawyers are licensed and disciplined by their state highest court",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.law.cornell.edu/wex/lawyer",
+      "title": "Wex: Lawyer",
+      "publisher": "Legal Information Institute, Cornell Law School",
+      "source_type": "Legal dictionary",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "A lawyer is also called an attorney or attorney-at-law",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.calbar.ca.gov/public/find-legal-professionals",
+      "title": "Find Legal Professionals",
+      "publisher": "State Bar of California",
+      "source_type": "Regulator page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Attorney Search provides license status and disciplinary and administrative history",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Cornell Wex: an attorney is someone authorized to practice law; a lawyer, also called attorney-at-law.",
+      "source_url": "https://www.law.cornell.edu/wex/attorney",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ABA: there is no national license to practice law; state highest courts license and discipline lawyers.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/resources/resources_for_the_public/consumer_faqs/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Difference Between Lawyer and Attorney",
+      "url": "http://www.rjaffelaw.com/blog/difference-between-lawyer-and-attorney/",
+      "publisher": "Robert Jaffe Law",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Law firm blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top organic result.",
+      "gaps": "Relies on the advice-versus-court distinction; no licensing check."
+    },
+    {
+      "title": "Lawyer and Attorney: What the Difference Really Means",
+      "url": "http://jjmccaskill.com/difference-between-lawyer-and-attorney/",
+      "publisher": "JJ McCaskill",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Law firm blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Plain definitions.",
+      "gaps": "No official sources."
+    },
+    {
+      "title": "What Is the Difference Between a Lawyer and an Attorney?",
+      "url": "http://cokerlaw.com/blog/what-is-the-difference-between-a-lawyer-and-an-attorney/",
+      "publisher": "Coker Law",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Law firm blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Consumer framing.",
+      "gaps": "No verification steps."
+    },
+    {
+      "title": "What is the difference between an attorney and a lawyer?",
+      "url": "http://www.avvo.com/legal-answers/what-is-the-difference-between-an-attorney-and-a-l-5678995.html",
+      "publisher": "Avvo",
+      "format": "Q&A forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Q&A forum"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Lawyer answers.",
+      "gaps": "Mixed answers; no sources."
+    },
+    {
+      "title": "Attorney vs. Lawyer: Definitions, Roles, and Key Differences",
+      "url": "http://www.katsimmigrationlaw.com/blog/what-is-the-difference-between-an-attorney-and-a-lawyer/",
+      "publisher": "Kats Immigration Law",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Law firm blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Role overview.",
+      "gaps": "No licensing or court admission check."
+    }
+  ],
+  "content_gaps": [
+    "Top results repeat the advice-versus-court myth.",
+    "No reviewed page gives a credential-by-credential verification table."
+  ],
+  "value_add": "A verification-first comparison that separates education, licensing, court admission and job scope, using official sources.",
+  "plan": {
+    "reader_title": "Lawyer vs Attorney in the United States",
+    "seo_title": "Lawyer vs Attorney: Is There a Difference in the U.S.?",
+    "meta_description": "Lawyer vs attorney in the U.S.: what each title means, why licensing and court admission matter more than the label, and how to check a legal professional.",
+    "slug": "/legal/lawyer-vs-attorney/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "lawyer vs attorney difference",
+      "attorney at law"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "How US Authorities Describe the Two Titles",
+      "Common Lawyer vs Attorney Claims to Check",
+      "What Attorney in Fact Means",
+      "Separate the Credentials Before Comparing Professionals",
+      "Licensing Depends on the Relevant Jurisdiction",
+      "How to Check a Legal Professional",
+      "A Hiring Example That Makes the Distinction Useful",
+      "Questions to Ask Before Agreeing on Services",
+      "Use Clear Titles on Law Firm Websites",
+      "Make the Next Check Specific",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.law.cornell.edu/wex/attorney"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bls.gov/ooh/legal/lawyers.htm"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/professional_responsibility/resources/resources_for_the_public/consumer_faqs/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/what-does-a-paralegal-do/",
+      "/legal/corporate-lawyer-salary/"
+    ],
+    "external_link_opportunities": [
+      "https://www.law.cornell.edu/wex/attorney",
+      "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "https://www.americanbar.org/groups/professional_responsibility/resources/resources_for_the_public/consumer_faqs/",
+      "https://www.law.cornell.edu/wex/lawyer",
+      "https://www.calbar.ca.gov/public/find-legal-professionals"
+    ],
+    "excluded_claims": [
+      "Uncheckable citations removed (ABA consumer page legalhelp1, federal court admission page, Texas Bar directory) where applicable"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Cornell Wex treats attorney and lawyer as equivalent and distinguishes attorney-in-fact.",
+      "source_url": "https://www.law.cornell.edu/wex/attorney",
+      "verified": true
+    },
+    {
+      "statement": "BLS: lawyers advise and represent clients on legal proceedings or transactions.",
+      "source_url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "verified": true
+    },
+    {
+      "statement": "There is no national license to practice law.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/resources/resources_for_the_public/consumer_faqs/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}

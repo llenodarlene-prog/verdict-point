@@ -1,0 +1,407 @@
+{
+  "tracker_id": "Blog:53",
+  "status": "verified",
+  "research_question": "Owner-approved addition: BigLaw Salary Scale by Associate Year. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for biglaw salary scale, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, hiring managers, legal professionals and candidates in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "biglaw salary scale",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "biglaw salary scale",
+        "type": "short-tail",
+        "volume": 4400,
+        "difficulty": 28,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.biglawinvestor.com/biglaw-salary-scale/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "biglaw salary scale 2026",
+        "type": "long-tail",
+        "volume": 110,
+        "difficulty": 23,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.biglawinvestor.com/biglaw-salary-scale/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "big law corporate lawyer salary",
+        "type": "commercial",
+        "volume": 30,
+        "difficulty": 6,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.biglawinvestor.com/biglaw-salary-scale/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "biglaw salary scale 2025",
+        "type": "problem",
+        "volume": 140,
+        "difficulty": 26,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.biglawinvestor.com/biglaw-salary-scale/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the biglaw salary scale",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.biglawinvestor.com/biglaw-salary-scale/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://abovethelaw.com/wp-content/uploads/sites/4/2026/06/2026-Salary-Announcement.pdf",
+      "title": "Memorandum to Associates (June 2, 2026)",
+      "publisher": "Milbank (memo hosted by Above the Law)",
+      "source_type": "Employer memorandum",
+      "year": "2026",
+      "published_at": "2026-06-02",
+      "accessed_at": "2026-10-20",
+      "scope": "Associate base salary increases effective July 1, 2026: 2026/2025 $235,000 through 2018 $455,000, with prior scale",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ropesgrayrecruiting.com/en/us/experienced-lawyers-technical-advisors/associate-salary-disclosures",
+      "title": "Associate Salary Disclosures",
+      "publisher": "Ropes & Gray",
+      "source_type": "Employer disclosure",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "2026 associate base salary effective January 1, 2026: class of 2025 (1st year) $225,000 through 2017 (9th year) $445,000",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nalp.org/0625research",
+      "title": "$225,000 Entry-Level Salaries Not Yet the Standard at Large Firms",
+      "publisher": "NALP",
+      "source_type": "Survey analysis",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Median first-year associate base salary $200,000 as of January 1, 2025; about 87% of respondents from offices in firms of more than 250 lawyers",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Milbank memo dated June 2, 2026: base salaries $235,000 (2026/2025) to $455,000 (2018), effective July 1, 2026.",
+      "source_url": "https://abovethelaw.com/wp-content/uploads/sites/4/2026/06/2026-Salary-Announcement.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Milbank associates",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD annual base",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Ropes & Gray: $225,000 (class of 2025) to $435,000 (class of 2018), effective January 1, 2026.",
+      "source_url": "https://www.ropesgrayrecruiting.com/en/us/experienced-lawyers-technical-advisors/associate-salary-disclosures",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Ropes & Gray U.S. associates",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD annual base",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "NALP: median first-year base salary $200,000 as of January 1, 2025; about 87% of respondents from offices in firms of more than 250 lawyers.",
+      "source_url": "https://www.nalp.org/0625research",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "NALP survey respondents",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "USD",
+      "method": "Published statement",
+      "limitations": "Respondent group skews to large firms.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Biglaw Salary Scale + Bonuses (1968 - 2026)",
+      "url": "http://www.biglawinvestor.com/biglaw-salary-scale/",
+      "publisher": "Biglaw Investor",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top result; long history.",
+      "gaps": "Market-scale framing without employer-dated sources."
+    },
+    {
+      "title": "Big Law Salary Scale 2026: July Pay Update Explained",
+      "url": "http://www.larsonmaddox.com/en-us/industry-insights/career-advice/what-the-2026-big-law-salary-scale-misses",
+      "publisher": "Larson Maddox",
+      "format": "Recruiter article",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Recruiter article"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Covers July update.",
+      "gaps": "Limited source documents."
+    },
+    {
+      "title": "BigLaw Salary Scale & Bonuses",
+      "url": "http://www.bcgsearch.com/sp/bcg-guides/attorney-compensation/spbiglaw-salary-scale-and-bonuses.php",
+      "publisher": "BCG Attorney Search",
+      "format": "Recruiter guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Recruiter guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Bonus coverage.",
+      "gaps": "No effective-date treatment."
+    },
+    {
+      "title": "Biglaw: Salary by grad year",
+      "url": "http://www.reddit.com/r/Money/comments/1u29xq7/biglaw_salary_by_grad_year/",
+      "publisher": "Reddit",
+      "format": "Forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Forum"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "User discussion.",
+      "gaps": "Unverified."
+    },
+    {
+      "title": "4 Takeaways From The Latest Biglaw Pay Raise",
+      "url": "http://davidlat.substack.com/p/milbank-biglaw-pay-raise-235k-starting-salary-june-2026",
+      "publisher": "David Lat",
+      "format": "Newsletter",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Newsletter"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Milbank raise analysis.",
+      "gaps": "Commentary, not a comparison table."
+    }
+  ],
+  "content_gaps": [
+    "Top results present one market scale without employer-dated source documents.",
+    "No reviewed page explains midyear effective-date math."
+  ],
+  "value_add": "Employer-dated schedules side by side with effective dates, class mapping, and a labeled half-year calculation.",
+  "plan": {
+    "reader_title": "BigLaw Salary Scale by Associate Year",
+    "seo_title": "BigLaw Salary Scale 2026: Associate Base Pay by Class Year",
+    "meta_description": "The BigLaw salary scale by class year: Milbank's July 2026 schedule beside Ropes & Gray's January 2026 disclosure, with how to read effective dates.",
+    "slug": "/law-firms/biglaw-salary-scale/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "biglaw salary scale 2026",
+      "associate base salary"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Published Associate Base Pay by Class Year",
+      "How Associate Years Match the Table",
+      "Effective Dates Change Calendar Year Earnings",
+      "Base Salary Does Not Establish Bonus Income",
+      "How the Scale Differs from Survey Medians",
+      "Questions to Resolve Before Comparing Offers",
+      "Compare the Same Class Before Assessing a Difference",
+      "Keep the Comparison Useful After a Pay Change",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://abovethelaw.com/wp-content/uploads/sites/4/2026/06/2026-Salary-Announcement.pdf"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.ropesgrayrecruiting.com/en/us/experienced-lawyers-technical-advisors/associate-salary-disclosures"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.nalp.org/0625research"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/corporate-lawyer-salary/"
+    ],
+    "external_link_opportunities": [
+      "https://abovethelaw.com/wp-content/uploads/sites/4/2026/06/2026-Salary-Announcement.pdf",
+      "https://www.ropesgrayrecruiting.com/en/us/experienced-lawyers-technical-advisors/associate-salary-disclosures",
+      "https://www.nalp.org/0625research"
+    ],
+    "excluded_claims": [
+      "Uncheckable citations removed (ABA consumer page legalhelp1, federal court admission page, Texas Bar directory) where applicable"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Milbank 2025 class: $225,000 before and $235,000 after July 1, 2026; half-year calculation gives $230,000 (labeled calculation).",
+      "source_url": "https://abovethelaw.com/wp-content/uploads/sites/4/2026/06/2026-Salary-Announcement.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Ropes & Gray labels the 2025 class first year and the 2024 class second year.",
+      "source_url": "https://www.ropesgrayrecruiting.com/en/us/experienced-lawyers-technical-advisors/associate-salary-disclosures",
+      "verified": true
+    },
+    {
+      "statement": "NALP 2025 median first-year salary $200,000.",
+      "source_url": "https://www.nalp.org/0625research",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}

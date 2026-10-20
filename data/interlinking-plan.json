@@ -71,7 +71,12 @@
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/ai-in-law-firms-statistics/",
       "/law-firms/law-firm-billing-statistics/",
-      "/law-firms/law-firm-profitability-statistics/"
+      "/law-firms/law-firm-profitability-statistics/",
+      "/legal/lawyer-vs-attorney/",
+      "/legal/what-does-a-paralegal-do/",
+      "/law-firms/biglaw-salary-scale/",
+      "/legal/paralegal-salary/",
+      "/legal/corporate-lawyer-salary/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1317,5 +1322,170 @@
     "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
     "qa_status": "Added by owner approval 2026-10-16",
     "content_number": "20"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Lawyer vs Attorney in the United States",
+    "url_slug": "/legal/lawyer-vs-attorney/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 31,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/what-does-a-paralegal-do/",
+      "/legal/corporate-lawyer-salary/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/what-does-a-paralegal-do/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/corporate-lawyer-salary/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "51"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "What Does a Paralegal Do in a Law Firm",
+    "url_slug": "/legal/what-does-a-paralegal-do/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 32,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/lawyer-vs-attorney/",
+      "/legal/paralegal-salary/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/lawyer-vs-attorney/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/paralegal-salary/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "52"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "BigLaw Salary Scale by Associate Year",
+    "url_slug": "/law-firms/biglaw-salary-scale/",
+    "cluster": "Law Firms",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 33,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/corporate-lawyer-salary/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/corporate-lawyer-salary/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "53"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Paralegal Salary by State and Employer",
+    "url_slug": "/legal/paralegal-salary/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 34,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/what-does-a-paralegal-do/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/what-does-a-paralegal-do/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "54"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Corporate Lawyer Salary by Role and Employer",
+    "url_slug": "/legal/corporate-lawyer-salary/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 35,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/law-firms/biglaw-salary-scale/",
+      "/legal/lawyer-vs-attorney/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/law-firms/biglaw-salary-scale/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/lawyer-vs-attorney/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "55"
   }
 ]
