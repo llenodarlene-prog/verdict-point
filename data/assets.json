@@ -1058,5 +1058,25 @@
     "rights_status": "approved",
     "rights_source": "Owned brand asset supplied by Verdict Point (Darlene Aberin, 2026-10-20)",
     "alt_guidance": "Professional filing a folder in a cabinet drawer while holding a tablet in a records room"
+  },
+  {
+    "path": "/assets/images/authors/darlene-aberin-800.jpg",
+    "title": "Darlene Aberin, Verdict Point content writer",
+    "use": "Author profile photo",
+    "width": 800,
+    "height": 800,
+    "rights_status": "approved",
+    "rights_source": "Supplied by Darlene Aberin for her author profile (2026-10-21)",
+    "alt_guidance": "Darlene Aberin, Verdict Point content writer"
+  },
+  {
+    "path": "/assets/images/authors/darlene-aberin-400.jpg",
+    "title": "Darlene Aberin, Verdict Point content writer",
+    "use": "Author profile photo",
+    "width": 400,
+    "height": 400,
+    "rights_status": "approved",
+    "rights_source": "Supplied by Darlene Aberin for her author profile (2026-10-21)",
+    "alt_guidance": "Darlene Aberin, Verdict Point content writer"
   }
 ]

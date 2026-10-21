@@ -430,3 +430,7 @@ body{background:radial-gradient(60rem 40rem at 105% -5%,rgba(201,169,106,.22),tr
 @media(max-width:1240px){.site-header nav a{padding:.35rem .42rem;font-size:.84rem}.header-inner{gap:.75rem}.wordmark{width:200px;height:38px}.wordmark img{width:229px;margin:-44px 0 0 -14px}}
 @media(max-width:1040px){.site-header nav a{padding:.3rem .3rem;font-size:.8rem}.wordmark{width:176px;height:34px}.wordmark img{width:201px;margin:-38px 0 0 -12px}}
 @media(max-width:900px){.site-header nav ul{flex-wrap:wrap}.site-header nav a{padding:.55rem .7rem;font-size:.95rem}}
+
+.byline{color:var(--charcoal);font-size:.95rem;margin:.25rem 0 1.25rem}
+.byline a{color:inherit;font-weight:600}
+[data-page-slug^="/authors/"] .post-figure{margin:1rem 0 1.5rem}[data-page-slug^="/authors/"] .post-figure img{width:min(260px,70%);height:auto;border-radius:50%}
