@@ -11,6 +11,19 @@
     "verified": true,
     "publishable": true,
     "verified_by": "Site owner instruction",
-    "verified_at": "2026-10-02"
+    "verified_at": "2026-10-02",
+    "profile_slug": "/authors/darlene-aberin/",
+    "job_title": "Content Writer",
+    "description": "Content writer covering legal marketing, firm growth, and technology for Verdict Point.",
+    "image": "/assets/images/authors/darlene-aberin-800.jpg",
+    "email": "darleneaberin@gmail.com",
+    "home_location": "Albay, Philippines",
+    "knows_about": [
+      "Legal marketing",
+      "Law firm growth",
+      "Legal technology",
+      "SEO"
+    ],
+    "profile_supplied_at": "2026-10-21"
   }
 }

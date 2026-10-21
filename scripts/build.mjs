@@ -17,6 +17,8 @@ const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 const [site, nav, redirects, homeCopy, aboutCopy, hubCopy, contactCopy, footerCopy, assetList, chartData] = await Promise.all([
   readJson('data/site.json'), readJson('data/navigation.json'), readJson('data/redirects.json'), readJson('data/home-page.json'), readJson('data/about-page.json'), readJson('data/hub-pages.json'), readJson('data/contact-page.json'), readJson('data/footer.json'), readJson('data/assets.json'), readJson('data/charts.json')
 ]);
+// Only verified, publishable authors with a profile page get a linked byline and Person entity.
+const authorProfiles = Object.fromEntries(Object.values(await readJson('data/authors.json')).filter(author => author.verified === true && author.publishable === true && author.profile_slug).map(author => [author.name, { ...author, slug: author.profile_slug }]));
 const buildEnv = process.env.BUILD_ENV || 'local';
 const siteUrl = String(site.url).replace(/\/$/, '');
 if (!/^https:\/\//.test(siteUrl)) throw new Error('SITE_URL must be an absolute HTTPS URL');
@@ -130,6 +132,20 @@ for (const page of parsed) {
       ...(metadata.slug !== '/' ? [{ '@type': 'BreadcrumbList', '@id': `${url}#breadcrumb`, itemListElement: crumbs.map((crumb, i) => ({ '@type': 'ListItem', position: i + 1, name: crumb.name, item: crumb.url })) }] : [])
     ]
   };
+  // A named author with a profile becomes one Person entity, shared by the profile page and every post's byline schema.
+  const profile = authorProfiles[metadata.author_profile || metadata.author];
+  if (profile) {
+    const person = {
+      '@type': 'Person', '@id': `${canonical(profile.slug)}#person`, name: metadata.author_profile || metadata.author, url: canonical(profile.slug),
+      jobTitle: profile.job_title, description: profile.description, worksFor: { '@id': `${siteUrl}/#organization` },
+      ...(profile.image ? { image: `${siteUrl}${profile.image}` } : {}), ...(profile.email ? { email: `mailto:${profile.email}` } : {}),
+      ...(profile.home_location ? { homeLocation: { '@type': 'Place', name: profile.home_location } } : {}), ...(profile.knows_about ? { knowsAbout: profile.knows_about } : {})
+    };
+    const graph = schema['@graph'];
+    if (article) graph.find(entity => entity['@id'] === `${url}#article`).author = { '@id': person['@id'] };
+    else graph.find(entity => entity['@id'] === `${url}#webpage`).mainEntity = { '@id': person['@id'] };
+    graph.push(person);
+  }
   // Designed pages render from approved copy files; everything else renders from Markdown.
   const designed = article ? null : { home: () => renderHome(homeCopy, publishedPosts, nav, { chart: chartBlock }), about: () => renderAbout(aboutCopy),
     contact: () => renderContact(contactCopy, contactEmail(body, source)),
@@ -146,6 +162,10 @@ for (const page of parsed) {
     const trail = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>`;
     renderedBody = trail + renderedBody;
     if (featured) renderedBody = renderedBody.replace(/(<\/h1>)/, `$1${figure({ alt: metadata.image_alt || featured.alt, src: featured.path, caption: '' }, { eager: true, className: 'post-featured' })}`);
+    // The byline names the verified author, links to their profile, and shows the last update.
+    const updated = metadata.modified || metadata.published;
+    const byline = `<p class="byline">By ${profile ? `<a href="${escapeHtml(profile.slug)}" rel="author">${escapeHtml(metadata.author)}</a>` : escapeHtml(metadata.author || site.name)}${updated ? ` <span aria-hidden="true">·</span> Updated <time datetime="${escapeHtml(updated)}">${escapeHtml(new Date(`${updated}T00:00:00Z`).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric', timeZone: 'UTC' }))}</time>` : ''}</p>`;
+    renderedBody = renderedBody.replace(/(<\/h1>)/, `$1${byline}`);
   }
   if (!designed && !article && metadata.slug === '/') renderedBody += contentCards(publishedPosts.slice(0, 12), 'Latest Research');
   else if (!designed && !article && metadata.schema === 'CollectionPage') renderedBody += contentCards(publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), 'Published Coverage');

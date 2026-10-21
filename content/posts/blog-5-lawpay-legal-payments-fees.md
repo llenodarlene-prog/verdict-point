@@ -12,14 +12,14 @@ secondary_keywords: LawPay fees; legal payment processing
 cluster: Legal Tech
 launch_silo: Payments & Billing
 silo_role: Commercial Support
-approved_internal_links: /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/
+approved_internal_links: /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/; /law-firms/retainer-fee/
 research_record: content/research/blog-5.json
 source_document: https://docs.google.com/document/d/1K08sQoII6BEkiBMgp6Cfl2TRc-nDMPUhdeJtHpdbf1E/edit?usp=drivesdk
 image: /assets/images/posts/lawpay-legal-payments-fees/payment-terminal-laptop-marble-desk-1600.jpg
 image_alt: Leather invoice folder with a pen, a card payment terminal, and a laptop showing a payments dashboard on a marble desk in a sunlit office
 author: Darlene Aberin
 published: 2026-10-12
-modified: 2026-10-12
+modified: 2026-10-20
 ---
 
 # LawPay Legal Payments: What a $1,000 Client Payment Costs
@@ -157,7 +157,7 @@ Capture problems start even earlier. A review of [Smokeball's automatic time cap
 
 ## Confirm Trust, Surcharge, and Refund Rules Separately
 
-Legal payment processing touches professional rules, account structures, client agreements, and state requirements. A vendor page does not replace review by the firm's ethics counsel, accountant, or other qualified adviser.
+Legal payment processing touches professional rules, account structures, client agreements, and state requirements. A vendor page does not replace review by the firm's ethics counsel, accountant, or other qualified adviser. How an advance or [retainer fee](/law-firms/retainer-fee/) is held and earned is a separate question from what the processor charges.
 
 Before going live, the firm should settle the following points.
 

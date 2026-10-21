@@ -1,0 +1,463 @@
+{
+  "tracker_id": "Blog:56",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Retainer Fee Types and Billing Examples. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for retainer fee, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, managers, in-house legal teams and legal professionals in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-20",
+    "scope_limitations": "Sources that block automated clients were read through a page reader that renders the live page; claims the pages did not support were reworded or cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "retainer fee",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "retainer fee",
+        "type": "short-tail",
+        "volume": 4400,
+        "difficulty": 33,
+        "cpc": 1.03,
+        "intent": "Informational",
+        "ranking_url": "http://amicuslegalgroup.com/what-is-a-retainer-fee-and-how-does-it-work-with-a-lawyer-in-california/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "attorney retainer fee",
+        "type": "long-tail",
+        "volume": 2900,
+        "difficulty": 34,
+        "cpc": 5,
+        "intent": "Informational",
+        "ranking_url": "http://amicuslegalgroup.com/what-is-a-retainer-fee-and-how-does-it-work-with-a-lawyer-in-california/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "average retainer fee for attorney",
+        "type": "commercial",
+        "volume": 480,
+        "difficulty": 34,
+        "cpc": 5.75,
+        "intent": "Informational",
+        "ranking_url": "http://amicuslegalgroup.com/what-is-a-retainer-fee-and-how-does-it-work-with-a-lawyer-in-california/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is a lawyer retainer fee refundable",
+        "type": "problem",
+        "volume": 170,
+        "difficulty": 17,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://amicuslegalgroup.com/what-is-a-retainer-fee-and-how-does-it-work-with-a-lawyer-in-california/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is a retainer fee",
+        "type": "question",
+        "volume": 3600,
+        "difficulty": 35,
+        "cpc": 0.85,
+        "intent": "Informational",
+        "ranking_url": "http://amicuslegalgroup.com/what-is-a-retainer-fee-and-how-does-it-work-with-a-lawyer-in-california/",
+        "retrieved_at": "2026-10-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.calbar.ca.gov/legal-professionals/rules/rules-professional-conduct/current-rules-professional-conduct/chapter-1-lawyer-client-relationship",
+      "title": "Rules of Professional Conduct, Chapter 1",
+      "publisher": "State Bar of California",
+      "source_type": "State rules",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Rule 1.5: no unconscionable or illegal fee; true retainer and flat fee definitions",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/",
+      "title": "Rule 1.15: Safekeeping Property",
+      "publisher": "American Bar Association",
+      "source_type": "Model rule",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "(c) advance fees and expenses go in a client trust account, withdrawn only as earned or incurred; (e) disputed property kept separate",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.calbar.ca.gov/sites/default/files/2026-05/CAL_2026-210-Flat-Fees-and-Termination.pdf",
+      "title": "Formal Opinion No. 2026-210: Flat Fees and Termination",
+      "publisher": "State Bar of California Standing Committee on Professional Responsibility and Conduct",
+      "source_type": "Advisory ethics opinion",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Unearned advanced flat-fee funds must be refunded even if deposited in the operating account; advisory only, not binding",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/news/abanews/aba-news-archives/2023/05/ethics-opinion-prepaid-fees/",
+      "title": "ABA ethics opinion on prepaid fees (Formal Opinion 505)",
+      "publisher": "American Bar Association",
+      "source_type": "Association news release",
+      "year": "2023",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Distinguishes advance fees from a retainer paid for availability",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.calbar.ca.gov/Portals/0/documents/rules/Rule_1.15.pdf",
+      "title": "Rule 1.15",
+      "publisher": "State Bar of California",
+      "source_type": "State rule",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Flat fee over $1,000 in operating account requires client-signed writing; paragraph (b) does not apply to advance costs and expenses",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.calbar.ca.gov/Portals/0/documents/rules/Rule_1.16.pdf",
+      "title": "Rule 1.16",
+      "publisher": "State Bar of California",
+      "source_type": "State rule",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Tribunal permission; steps to avoid foreseeable prejudice; refund of unearned advances except a true retainer",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/features/trust-account-management-software/",
+      "title": "Trust Account Management Software",
+      "publisher": "Clio",
+      "source_type": "Product page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "Automated logs for trust transactions, including transfers to operating accounts",
+      "method": "Opened 2026-10-20 through a page reader that renders the live page (direct requests are blocked to automated clients) and checked the text. Claude fact-check; sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://supportcenter.mycase.com/en/articles/9370200-where-can-i-see-the-full-history-of-my-law-firm-s-trust-account",
+      "title": "Where can I see the full history of my law firm trust account?",
+      "publisher": "MyCase",
+      "source_type": "Product documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-20",
+      "scope": "View trust history by date range; print and export as CSV",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "ABA Model Rule 1.15(c): advance fees and expenses go in a client trust account, withdrawn only as earned or incurred.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "California Formal Opinion 2026-210: unearned advanced flat-fee funds must be refunded, even if deposited in the operating account.",
+      "source_url": "https://www.calbar.ca.gov/sites/default/files/2026-05/CAL_2026-210-Flat-Fees-and-Termination.pdf",
+      "data_year": "2026",
+      "geography": "California",
+      "population": "Published definition or guidance",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Advisory only; not binding.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What Is a Retainer Fee and How Does It Work with a Lawyer in California?",
+      "url": "http://amicuslegalgroup.com/what-is-a-retainer-fee-and-how-does-it-work-with-a-lawyer-in-california/",
+      "publisher": "Amicus Legal Group",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Law firm blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Top organic result.",
+      "gaps": "No ledger example; limited rule citations."
+    },
+    {
+      "title": "What Is a Retainer Fee and How Is It Determined?",
+      "url": "http://www.skynova.com/learn/business/what-is-retainer-fee",
+      "publisher": "Skynova",
+      "format": "Business explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Business explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "General definition.",
+      "gaps": "Not legal-specific."
+    },
+    {
+      "title": "Understanding Retainer Fees and Billing",
+      "url": "http://www.waltersgilbreath.com/understanding-retainer-fees/",
+      "publisher": "Walters Gilbreath",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Law firm blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Billing overview.",
+      "gaps": "No trust-account rules."
+    },
+    {
+      "title": "What Is a Retainer Fee?",
+      "url": "http://www.texasdefensefirm.com/blog/what-is-a-retainer-fee/",
+      "publisher": "Texas Defense Firm",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Law firm blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Consumer framing.",
+      "gaps": "One state only."
+    },
+    {
+      "title": "retainer agreement",
+      "url": "http://www.law.cornell.edu/wex/retainer_agreement",
+      "publisher": "Cornell Wex",
+      "format": "Legal dictionary",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Legal dictionary"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Definition.",
+      "gaps": "No billing mechanics."
+    }
+  ],
+  "content_gaps": [
+    "Top results blur advances, true retainers, and flat fees.",
+    "No reviewed page walks through a ledger with replenishment."
+  ],
+  "value_add": "A rule-based breakdown of payment types with a labeled ledger example and refund rules.",
+  "plan": {
+    "reader_title": "Retainer Fee Types and Billing Examples",
+    "seo_title": "Retainer Fee: Advances, True Retainers, and Flat Fees",
+    "meta_description": "How a retainer fee works: advances versus true retainers and flat fees, trust account rules, a worked ledger example, and when unearned money is refunded.",
+    "slug": "/law-firms/retainer-fee/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "legal retainer fee",
+      "attorney retainer"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Three Arrangements to Distinguish",
+      "What the Model Rules Say About Advances",
+      "California Uses Specific Rules",
+      "How a Retainer Fee Appears in a Ledger",
+      "Read the Scope and Billing Terms Together",
+      "What to Clarify When the Advance Runs Low",
+      "Refunds Depend on What Was Earned or Incurred",
+      "Billing Statements Should Make Questions Easier to Resolve",
+      "Software Can Support the Records",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.calbar.ca.gov/legal-professionals/rules/rules-professional-conduct/current-rules-professional-conduct/chapter-1-lawyer-client-relationship"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.calbar.ca.gov/sites/default/files/2026-05/CAL_2026-210-Flat-Fees-and-Termination.pdf"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/mycase-legal-software/",
+      "/law-firms/legal-billing-chart/"
+    ],
+    "external_link_opportunities": [
+      "https://www.calbar.ca.gov/legal-professionals/rules/rules-professional-conduct/current-rules-professional-conduct/chapter-1-lawyer-client-relationship",
+      "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/",
+      "https://www.calbar.ca.gov/sites/default/files/2026-05/CAL_2026-210-Flat-Fees-and-Termination.pdf",
+      "https://www.americanbar.org/news/abanews/aba-news-archives/2023/05/ethics-opinion-prepaid-fees/",
+      "https://www.calbar.ca.gov/Portals/0/documents/rules/Rule_1.15.pdf",
+      "https://www.calbar.ca.gov/Portals/0/documents/rules/Rule_1.16.pdf",
+      "https://www.clio.com/features/trust-account-management-software/",
+      "https://supportcenter.mycase.com/en/articles/9370200-where-can-i-see-the-full-history-of-my-law-firm-s-trust-account"
+    ],
+    "excluded_claims": [
+      "Uncheckable sources cut where applicable: New York Rule 1.5(d)(4), ABA Model Rules 1.5 and 2.1, ACC survey PDF figures (84%, 64%, 62%)"
+    ],
+    "drafting_cautions": [
+      "Label calculations",
+      "Keep each pay measure in its own column",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "California Rule 1.5 defines a true retainer as payment for availability and a flat fee as complete payment for described services.",
+      "source_url": "https://www.calbar.ca.gov/legal-professionals/rules/rules-professional-conduct/current-rules-professional-conduct/chapter-1-lawyer-client-relationship",
+      "verified": true
+    },
+    {
+      "statement": "Model Rule 1.15(e) keeps disputed property separate until resolved.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_15_safekeeping_property/",
+      "verified": true
+    },
+    {
+      "statement": "The opinion is advisory only and not binding.",
+      "source_url": "https://www.calbar.ca.gov/sites/default/files/2026-05/CAL_2026-210-Flat-Fees-and-Termination.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-20"
+  }
+}
