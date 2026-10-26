@@ -1,0 +1,528 @@
+{
+  "tracker_id": "Blog:62",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 15 Types of Lawyers and Their Practice Areas. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for types of lawyers, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal teams, and people building legal careers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-26",
+    "scope_limitations": "Claims the pages did not support were reworded or cut; blocked sources were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "types of lawyers",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "types of lawyers",
+        "type": "short-tail",
+        "volume": 18100,
+        "difficulty": 28,
+        "cpc": 4.33,
+        "intent": "Informational",
+        "ranking_url": "http://www.collegeraptor.com/explore-careers/articles/careers-internships/types-of-attorneys/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "types of lawyers and what they do",
+        "type": "long-tail",
+        "volume": 720,
+        "difficulty": 28,
+        "cpc": 4.01,
+        "intent": "Informational",
+        "ranking_url": "http://www.collegeraptor.com/explore-careers/articles/careers-internships/types-of-attorneys/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "top paying types of lawyers",
+        "type": "commercial",
+        "volume": 880,
+        "difficulty": 24,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.collegeraptor.com/explore-careers/articles/careers-internships/types-of-attorneys/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "types of lawyers that don't go to court",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 23,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.collegeraptor.com/explore-careers/articles/careers-internships/types-of-attorneys/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what types of lawyers are there",
+        "type": "question",
+        "volume": 2900,
+        "difficulty": 25,
+        "cpc": 6.02,
+        "intent": "Informational",
+        "ranking_url": "http://www.collegeraptor.com/explore-careers/articles/careers-internships/types-of-attorneys/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "title": "BLS lawyer profile",
+      "publisher": "bls.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "BLS lawyer profile",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics",
+      "title": "US Courts' Bankruptcy Basics",
+      "publisher": "uscourts.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "US Courts' Bankruptcy Basics",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.law.cornell.edu/wex/personal_injury",
+      "title": "Cornell's legal reference",
+      "publisher": "law.cornell.edu",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Cornell's legal reference",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/litigation/",
+      "title": "ABA practice sections and resources",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA practice sections and resources",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.sec.gov/about/divisions-offices/division-corporation-finance",
+      "title": "SEC Corporation Finance",
+      "publisher": "sec.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "SEC Corporation Finance",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/labor_law/",
+      "title": "ABA's subject map",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA's subject map",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/family_law/",
+      "title": "ABA Family Law Section",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA Family Law Section",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/real_property_trust_estate/",
+      "title": "ABA trust-and-estate subjects",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA trust-and-estate subjects",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/taxation/",
+      "title": "ABA Taxation Section",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA Taxation Section",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/intellectual_property_law/",
+      "title": "ABA intellectual-property subjects",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA intellectual-property subjects",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/content/aba-cms-dotorg/en/groups/public_interest/immigration/pro-bono-at-the-commission-on-immigration/pro-bono-opportunities/",
+      "title": "ABA Commission on Immigration's representation projects",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA Commission on Immigration's representation projects",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/environment_energy_resources/",
+      "title": "ABA environment section",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA environment section",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/antitrust_law/",
+      "title": "ABA Antitrust Law Section",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA Antitrust Law Section",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "BLS describes lawyers advising and representing clients across many specialties and settings.",
+      "source_url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Cornell Wex defines personal injury as a legal claim for harm to the body, mind, or emotions.",
+      "source_url": "https://www.law.cornell.edu/wex/personal_injury",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "10+ Types of Attorneys You Can Be",
+      "url": "http://www.collegeraptor.com/explore-careers/articles/careers-internships/types-of-attorneys/",
+      "publisher": "College Raptor",
+      "format": "Career explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Career explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Different Types of Lawyers and Practice Areas",
+      "url": "http://www.youtube.com/watch?v=aYMyT0OACis",
+      "publisher": "YouTube",
+      "format": "Video",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Video"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "24 Types Of Lawyers",
+      "url": "http://www.zippia.com/advice/types-of-lawyers/",
+      "publisher": "Zippia",
+      "format": "Career explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Career explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "7 Types of Lawyers",
+      "url": "http://iieworldofwork.iie.ac.za/7-types-of-lawyers-find-the-right-legal-fit-for-your-career",
+      "publisher": "IIE",
+      "format": "Education blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Education blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "17 Types of Lawyers and What They Can Do for You",
+      "url": "http://www.legalzoom.com/articles/types-of-lawyers",
+      "publisher": "LegalZoom",
+      "format": "Consumer explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Consumer explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    }
+  ],
+  "content_gaps": [
+    "Top results rarely tie claims to primary sources.",
+    "No reviewed page gives a dated, testable checklist for the reader."
+  ],
+  "value_add": "A primary-source explainer with dated figures, labeled limits, and practical checks the reader can run.",
+  "plan": {
+    "reader_title": "15 Types of Lawyers and Their Practice Areas",
+    "seo_title": "Types of Lawyers: 15 Practice Areas and What They Do",
+    "meta_description": "Fifteen types of lawyers by practice area, from corporate and litigation to immigration and tax, plus how employment settings and workforce data fit in.",
+    "slug": "/legal/types-of-lawyers/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "different types of lawyers",
+      "lawyer practice areas"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Read Practice Labels as Descriptions of Work",
+      "Fifteen Practice Areas to Compare",
+      "Separate Specialty from Employment Setting",
+      "What National Workforce Data Can Establish",
+      "Compare the Work Before Choosing a Field",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bls.gov/ooh/legal/lawyers.htm"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.law.cornell.edu/wex/personal_injury"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/lawyer-vs-attorney/",
+      "/legal-business/in-house-counsel/"
+    ],
+    "external_link_opportunities": [
+      "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics",
+      "https://www.law.cornell.edu/wex/personal_injury",
+      "https://www.americanbar.org/groups/litigation/",
+      "https://www.sec.gov/about/divisions-offices/division-corporation-finance",
+      "https://www.americanbar.org/groups/labor_law/",
+      "https://www.americanbar.org/groups/family_law/",
+      "https://www.americanbar.org/groups/real_property_trust_estate/",
+      "https://www.americanbar.org/groups/taxation/",
+      "https://www.americanbar.org/groups/intellectual_property_law/",
+      "https://www.americanbar.org/content/aba-cms-dotorg/en/groups/public_interest/immigration/pro-bono-at-the-commission-on-immigration/pro-bono-opportunities/",
+      "https://www.americanbar.org/groups/environment_energy_resources/",
+      "https://www.americanbar.org/groups/antitrust_law/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "BLS describes lawyers advising and representing clients across many specialties and settings.",
+      "source_url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "verified": true
+    },
+    {
+      "statement": "Cornell Wex defines personal injury as a legal claim for harm to the body, mind, or emotions.",
+      "source_url": "https://www.law.cornell.edu/wex/personal_injury",
+      "verified": true
+    },
+    {
+      "statement": "The U.S. Courts explain the bankruptcy chapters available to debtors.",
+      "source_url": "https://www.uscourts.gov/court-programs/bankruptcy/bankruptcy-basics",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  }
+}

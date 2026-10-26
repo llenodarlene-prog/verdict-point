@@ -12,14 +12,14 @@ secondary_keywords: legal sector employment; law firm revenue
 cluster: Legal
 launch_silo: Legal Industry & Economics
 silo_role: Bridge
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/ai-in-law-firms-statistics/; /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal/lawyer-vs-attorney/; /legal/what-does-a-paralegal-do/; /law-firms/biglaw-salary-scale/; /legal/paralegal-salary/; /legal/corporate-lawyer-salary/; /legal-business/general-counsel/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/ai-in-law-firms-statistics/; /law-firms/law-firm-billing-statistics/; /law-firms/law-firm-profitability-statistics/; /legal/lawyer-vs-attorney/; /legal/what-does-a-paralegal-do/; /law-firms/biglaw-salary-scale/; /legal/paralegal-salary/; /legal/corporate-lawyer-salary/; /legal-business/general-counsel/; /legal/what-is-a-law-clerk/; /legal/types-of-lawyers/; /legal/how-to-become-a-legal-assistant/; /legal/legal-assistant-and-paralegal/; /legal-business/in-house-counsel/; /legal-business/legal-process-outsourcing/
 research_record: content/research/article-2.json
 source_document: https://docs.google.com/document/d/1hdZjh4nxwnP3L-HK8BGhrdwOaPZCxjmH2BB6vJTAhfs/edit?usp=drivesdk
 image: /assets/images/posts/legal-industry-statistics-firm-size/law-firm-size-models-1200.jpg
 image_alt: Three architectural models of office buildings in increasing size beside printed charts, a magnifying glass, and a ruler
 author: Darlene Aberin
 published: 2026-10-03
-modified: 2026-10-20
+modified: 2026-10-26
 ---
 
 # Legal Industry Statistics by Firm Size
@@ -137,7 +137,7 @@ Occupation data answers the lawyer question. The [Bureau of Labor Statistics law
 
 That wage is not the income of a typical firm owner. It covers wage and salary workers, and partner pay often comes through draws and profit shares. The gap also matters for technology planning. Headcount includes many roles that use case management, billing, and document systems, so the adoption figures in [legal technology statistics](/legal-tech/legal-technology-statistics/) and [AI in law firms statistics](/legal-tech/ai-in-law-firms-statistics/) should be matched to roles, not just lawyer counts.
 
-Pay also splits by role and employer. Associate base schedules at large firms are compared in the [BigLaw salary scale](/law-firms/biglaw-salary-scale/), and in-house and law-firm counsel pay is separated in [corporate lawyer salary by role and employer](/legal/corporate-lawyer-salary/). Support roles follow their own wage data, set out in [paralegal salary by state and employer](/legal/paralegal-salary/) and explained in [what a paralegal does in a law firm](/legal/what-does-a-paralegal-do/). The titles themselves are compared in [lawyer vs attorney](/legal/lawyer-vs-attorney/). The role of the most senior in-house lawyer is covered in [what a general counsel does](/legal-business/general-counsel/).
+Pay also splits by role and employer. Associate base schedules at large firms are compared in the [BigLaw salary scale](/law-firms/biglaw-salary-scale/), and in-house and law-firm counsel pay is separated in [corporate lawyer salary by role and employer](/legal/corporate-lawyer-salary/). Support roles follow their own wage data, set out in [paralegal salary by state and employer](/legal/paralegal-salary/) and explained in [what a paralegal does in a law firm](/legal/what-does-a-paralegal-do/). The titles themselves are compared in [lawyer vs attorney](/legal/lawyer-vs-attorney/). The role of the most senior in-house lawyer is covered in [what a general counsel does](/legal-business/general-counsel/). Entry roles and adjacent careers are compared in [what a law clerk does](/legal/what-is-a-law-clerk/), [legal assistant and paralegal roles](/legal/legal-assistant-and-paralegal/), and [how to become a legal assistant](/legal/how-to-become-a-legal-assistant/). Practice choices are mapped in [types of lawyers by practice area](/legal/types-of-lawyers/), while company legal work is covered in [in house counsel roles](/legal-business/in-house-counsel/) and [legal process outsourcing services](/legal-business/legal-process-outsourcing/).
 
 ## Large-Firm Results Are a Market Pulse, Not a Census
 

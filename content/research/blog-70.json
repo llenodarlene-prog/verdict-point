@@ -1,0 +1,490 @@
+{
+  "tracker_id": "Blog:70",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Law Firm SEO: A Practical 90-Day Plan for Small Firms. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm seo, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal teams, and people building legal careers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-26",
+    "scope_limitations": "Claims the pages did not support were reworded or cut; blocked sources were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm seo",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm seo",
+        "type": "short-tail",
+        "volume": 4400,
+        "difficulty": 40,
+        "cpc": 103.24,
+        "intent": "Informational",
+        "ranking_url": "http://neilpatel.com/blog/law-firm-seo/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "small law firm seo",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 38,
+        "cpc": 62.75,
+        "intent": "Informational",
+        "ranking_url": "http://neilpatel.com/blog/law-firm-seo/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm seo services",
+        "type": "commercial",
+        "volume": 720,
+        "difficulty": 36,
+        "cpc": 70.26,
+        "intent": "Informational",
+        "ranking_url": "http://neilpatel.com/blog/law-firm-seo/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm seo strategy",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 37,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://neilpatel.com/blog/law-firm-seo/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law firm seo",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://neilpatel.com/blog/law-firm-seo/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.clio.com/blog/how-do-clients-find-their-lawyers/",
+      "title": "Clio article updated in November 2025",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Clio article updated in November 2025",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://developers.google.com/search/docs/essentials",
+      "title": "Search Essentials",
+      "publisher": "developers.google.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Search Essentials",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-today/2026/september-2026/what-does-your-law-firms-websites-say-to-prospective-clients/",
+      "title": "American Bar Association's September 2026 website review",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "American Bar Association's September 2026 website review",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "title": "Google SEO Starter Guide",
+      "publisher": "developers.google.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Google SEO Starter Guide",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "title": "Google guidance for AI search visibility",
+      "publisher": "developers.google.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Google guidance for AI search visibility",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/business/answer/7091?hl=en",
+      "title": "Google Business Profile local ranking guidance",
+      "publisher": "support.google.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Google Business Profile local ranking guidance",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "title": "Google Business Profile representation rules",
+      "publisher": "support.google.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Google Business Profile representation rules",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.google.com/webmasters/answer/7576553?hl=en",
+      "title": "Google Search Console performance documentation",
+      "publisher": "support.google.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Google Search Console performance documentation",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/organization",
+      "title": "Google Organization structured data",
+      "publisher": "developers.google.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Google Organization structured data",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://developers.google.com/search/docs/crawling-indexing/links-crawlable",
+      "title": "Link guidance",
+      "publisher": "developers.google.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Link guidance",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Clio reports 59% of clients sought a referral and 17% used an online search engine.",
+      "source_url": "https://www.clio.com/blog/how-do-clients-find-their-lawyers/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Google Search Essentials recommends helpful, reliable, people-first content and using the words people search with.",
+      "source_url": "https://developers.google.com/search/docs/essentials",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "SEO for Lawyers: A Guide to Law Firm SEO",
+      "url": "http://neilpatel.com/blog/law-firm-seo/",
+      "publisher": "Neil Patel",
+      "format": "Marketing guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Marketing guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Law Firm SEO Company",
+      "url": "http://thriveagency.com/law-firm-seo-company/",
+      "publisher": "Thrive Agency",
+      "format": "Agency page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "How To Rank Your Law Firm's Website",
+      "url": "http://webris.org/attorney-seo/",
+      "publisher": "Webris",
+      "format": "Agency blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Best SEO Companies for Lawyers",
+      "url": "http://www.webfx.com/industries/legal/law-firms/best-seo-companies-for-lawyers/",
+      "publisher": "WebFX",
+      "format": "Agency list",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Agency list"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Top 10 Articles On Utilizing SEO",
+      "url": "http://lawfirmsuites.com/2022/02/20/utilizing-seo-benefit-law-firm/",
+      "publisher": "Law Firm Suites",
+      "format": "Blog roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Blog roundup"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    }
+  ],
+  "content_gaps": [
+    "Top results rarely tie claims to primary sources.",
+    "No reviewed page gives a dated, testable checklist for the reader."
+  ],
+  "value_add": "A primary-source explainer with dated figures, labeled limits, and practical checks the reader can run.",
+  "plan": {
+    "reader_title": "Law Firm SEO: A Practical 90-Day Plan for Small Firms",
+    "seo_title": "Law Firm SEO: A 90-Day Plan for Small Firms",
+    "meta_description": "A law firm SEO plan for small firms: 90 days of baseline checks, page architecture, evidence-based content, local trust signals, and inquiry tracking.",
+    "slug": "/legal-marketing/law-firm-seo/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "seo for law firms",
+      "law firm seo services"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Why Small Firms Need a Narrow Plan",
+      "What Google Says About Search Visibility",
+      "Days 1–15: Build a Reliable Baseline",
+      "Days 16–30: Fix the Site Architecture",
+      "Days 31–60: Publish Evidence-Based Content",
+      "Days 61–75: Improve Local Trust Signals",
+      "Days 76–90: Measure Inquiries and Improve the Plan",
+      "A Practical Weekly Operating Rhythm",
+      "What to Avoid",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.clio.com/blog/how-do-clients-find-their-lawyers/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://developers.google.com/search/docs/essentials"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/law_practice/resources/law-practice-today/2026/september-2026/what-does-your-law-firms-websites-say-to-prospective-clients/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-seo-practice-area-pages/",
+      "/legal-marketing/law-firm-seo-metrics/"
+    ],
+    "external_link_opportunities": [
+      "https://www.clio.com/blog/how-do-clients-find-their-lawyers/",
+      "https://developers.google.com/search/docs/essentials",
+      "https://www.americanbar.org/groups/law_practice/resources/law-practice-today/2026/september-2026/what-does-your-law-firms-websites-say-to-prospective-clients/",
+      "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+      "https://developers.google.com/search/docs/fundamentals/ai-optimization-guide",
+      "https://support.google.com/business/answer/7091?hl=en",
+      "https://support.google.com/business/answer/3038177?hl=en",
+      "https://support.google.com/webmasters/answer/7576553?hl=en",
+      "https://developers.google.com/search/docs/appearance/structured-data/organization",
+      "https://developers.google.com/search/docs/crawling-indexing/links-crawlable"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Clio reports 59% of clients sought a referral and 17% used an online search engine.",
+      "source_url": "https://www.clio.com/blog/how-do-clients-find-their-lawyers/",
+      "verified": true
+    },
+    {
+      "statement": "Google Search Essentials recommends helpful, reliable, people-first content and using the words people search with.",
+      "source_url": "https://developers.google.com/search/docs/essentials",
+      "verified": true
+    },
+    {
+      "statement": "The ABA names Model Rules 7.1, 7.2, 1.18, and 1.6 as relevant to law firm websites.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/law-practice-today/2026/september-2026/what-does-your-law-firms-websites-say-to-prospective-clients/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  }
+}

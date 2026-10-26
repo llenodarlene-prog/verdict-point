@@ -1,0 +1,480 @@
+{
+  "tracker_id": "Blog:69",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 7 Legal Research Software Options Compared. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal research software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal teams, and people building legal careers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-26",
+    "scope_limitations": "Claims the pages did not support were reworded or cut; blocked sources were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal research software",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal research software",
+        "type": "short-tail",
+        "volume": 3600,
+        "difficulty": 42,
+        "cpc": 18.92,
+        "intent": "Informational",
+        "ranking_url": "http://www.legalsupportworld.com/blog/legal-research-tools-for-law-firms/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "westlaw legal research software",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 35,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.legalsupportworld.com/blog/legal-research-tools-for-law-firms/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best legal research software",
+        "type": "commercial",
+        "volume": 30,
+        "difficulty": 56,
+        "cpc": 63.99,
+        "intent": "Informational",
+        "ranking_url": "http://www.legalsupportworld.com/blog/legal-research-tools-for-law-firms/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cheapest legal research software",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.legalsupportworld.com/blog/legal-research-tools-for-law-firms/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal research software",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.legalsupportworld.com/blog/legal-research-tools-for-law-firms/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "title": "American Bar Association's 2024 Legal Technology Survey",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "American Bar Association's 2024 Legal Technology Survey",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "title": "Westlaw Advantage",
+      "publisher": "sales.legalsolutions.thomsonreuters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Westlaw Advantage",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.20362",
+      "title": "preregistered empirical study",
+      "publisher": "arxiv.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "preregistered empirical study",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lexisnexis.com/en-us/products/lexis-plus.page",
+      "title": "Lexis+ product and small-firm pricing access",
+      "publisher": "lexisnexis.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Lexis+ product and small-firm pricing access",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://pro.bloomberglaw.com/products/legal-research-and-software/legal-research/",
+      "title": "Bloomberg Law legal research platform",
+      "publisher": "pro.bloomberglaw.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Bloomberg Law legal research platform",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://vlex.com/fastcase-library",
+      "title": "VLex Fastcase Library",
+      "publisher": "vlex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "VLex Fastcase Library",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.decisis.com/purchase",
+      "title": "Decisis purchase page",
+      "publisher": "decisis.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Decisis purchase page",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://heinonline.com/subscriptions/united-states/u-s-core-for-law-firms/",
+      "title": "HeinOnline U.S. Core+ for Law Firms",
+      "publisher": "heinonline.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "HeinOnline U.S. Core+ for Law Firms",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://trellis.law/plans",
+      "title": "Trellis plans and pricing",
+      "publisher": "trellis.law",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Trellis plans and pricing",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "The ABA survey summary reported 67% of attorneys using fee-based online research services and 55% using free platforms.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Westlaw Advantage pricing starts at $256.75 per month for single-circuit coverage and $399.75 for broader coverage; 2-year terms save 12% and 3-year terms 18%.",
+      "source_url": "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Top Legal Research Tools for Law Firms",
+      "url": "http://www.legalsupportworld.com/blog/legal-research-tools-for-law-firms/",
+      "publisher": "Legal Support World",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "best legal research software",
+      "url": "http://www.reddit.com/r/AskAcademia/comments/1pj9cfh/best_legal_research_software_and_im_kinda_stuck/",
+      "publisher": "Reddit",
+      "format": "Forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Forum"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Free Legal Research Sites",
+      "url": "http://www.law.gmu.edu/library/freelegalresearch",
+      "publisher": "Antonin Scalia Law School",
+      "format": "Library guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Library guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Top 13 Legal Research Platforms in 2026",
+      "url": "http://www.lumay.ai/blogs/top-legal-research-platforms",
+      "publisher": "Lumay",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "What Research Tools Do Lawyers Use?",
+      "url": "http://www.cosmolex.com/blog/what-research-tools-do-lawyers-use/",
+      "publisher": "CosmoLex",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    }
+  ],
+  "content_gaps": [
+    "Top results rarely tie claims to primary sources.",
+    "No reviewed page gives a dated, testable checklist for the reader."
+  ],
+  "value_add": "A primary-source explainer with dated figures, labeled limits, and practical checks the reader can run.",
+  "plan": {
+    "reader_title": "7 Legal Research Software Options Compared",
+    "seo_title": "Legal Research Software: 7 Options and Pricing Compared",
+    "meta_description": "Legal research software compared: Westlaw, Lexis+, Bloomberg Law, vLex Fastcase, Decisis, HeinOnline, and Trellis on coverage, citators, AI, and cost.",
+    "slug": "/legal-tech/legal-research-software/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "legal research tools",
+      "westlaw vs lexis"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "What Counts as Legal Research Software?",
+      "Seven Options at a Glance",
+      "1. Westlaw Advantage",
+      "2. Lexis+",
+      "3. Bloomberg Law",
+      "4. vLex Fastcase",
+      "5. Decisis",
+      "6. HeinOnline U.S. Core+",
+      "7. Trellis",
+      "How to Compare Research Coverage",
+      "Test Citators and AI Separately",
+      "Calculate the Complete Subscription Cost",
+      "Run a Two-Week Pilot",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://arxiv.org/abs/2405.20362"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/free-legal-ai/",
+      "/legal-tech/legal-practice-management-software/"
+    ],
+    "external_link_opportunities": [
+      "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "https://arxiv.org/abs/2405.20362",
+      "https://www.lexisnexis.com/en-us/products/lexis-plus.page",
+      "https://pro.bloomberglaw.com/products/legal-research-and-software/legal-research/",
+      "https://vlex.com/fastcase-library",
+      "https://www.decisis.com/purchase",
+      "https://heinonline.com/subscriptions/united-states/u-s-core-for-law-firms/",
+      "https://trellis.law/plans"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The ABA survey summary reported 67% of attorneys using fee-based online research services and 55% using free platforms.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "verified": true
+    },
+    {
+      "statement": "Westlaw Advantage pricing starts at $256.75 per month for single-circuit coverage and $399.75 for broader coverage; 2-year terms save 12% and 3-year terms 18%.",
+      "source_url": "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "verified": true
+    },
+    {
+      "statement": "A preregistered study found hallucination rates between 17% and 33% in tested legal AI tools.",
+      "source_url": "https://arxiv.org/abs/2405.20362",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  }
+}

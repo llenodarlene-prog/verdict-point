@@ -12,14 +12,14 @@ secondary_keywords: law firm marketing budget; legal lead generation cost
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Hub
-approved_internal_links: /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-social-media-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-practice-area-pages/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/ai-search-law-firms/; /legal-marketing/local-seo-for-law-firms-multiple-offices/; /legal-marketing/law-firm-local-seo-listing-consistency/; /law-firms/law-firm-intake-process/; /law-firms/law-firm-speed-to-lead/; /legal-marketing/law-firm-reviews-process/; /legal-marketing/law-firm-online-reviews-response/
+approved_internal_links: /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-social-media-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-practice-area-pages/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/ai-search-law-firms/; /legal-marketing/local-seo-for-law-firms-multiple-offices/; /legal-marketing/law-firm-local-seo-listing-consistency/; /law-firms/law-firm-intake-process/; /law-firms/law-firm-speed-to-lead/; /legal-marketing/law-firm-reviews-process/; /legal-marketing/law-firm-online-reviews-response/; /legal-marketing/law-firm-seo/
 research_record: content/research/article-1.json
 source_document: https://docs.google.com/document/d/12Oj_ZLuEeLe4j3_MmJD9PmRFY3iWndWUecvVaPEHPrk/edit?usp=drivesdk
 image: /assets/images/posts/law-firm-marketing-statistics/marketing-measurement-session-1600.jpg
 image_alt: Law firm team reviewing marketing charts and printed reports at a conference table overlooking a city
 author: Darlene Aberin
 published: 2026-10-03
-modified: 2026-10-18
+modified: 2026-10-26
 ---
 
 # Law Firm Marketing Statistics: What the Numbers Mean for 2027 Budgets
@@ -70,7 +70,7 @@ Three patterns stand out. Website and referral investment both rose by roughly s
 
 That gap matters for planning. A website that most firms now pay for still needs a way to be found and a clear path to an inquiry. The figures in [law firm website statistics](/legal-marketing/law-firm-website-statistics/) separate visits from inquiries, and [law firm SEO statistics](/legal-marketing/law-firm-seo-statistics/) show what search visibility can and cannot be expected to deliver.
 
-Narrower search work builds on these figures. Practical pieces cover [law firm SEO for practice area pages](/legal-marketing/law-firm-seo-practice-area-pages/), [law firm SEO metrics](/legal-marketing/law-firm-seo-metrics/), [AI search for law firms](/legal-marketing/ai-search-law-firms/), [local SEO for law firms with multiple offices](/legal-marketing/local-seo-for-law-firms-multiple-offices/), and [law firm local SEO listing consistency](/legal-marketing/law-firm-local-seo-listing-consistency/).
+Narrower search work builds on these figures. Practical pieces cover [law firm SEO for practice area pages](/legal-marketing/law-firm-seo-practice-area-pages/), [law firm SEO metrics](/legal-marketing/law-firm-seo-metrics/), [AI search for law firms](/legal-marketing/ai-search-law-firms/), [local SEO for law firms with multiple offices](/legal-marketing/local-seo-for-law-firms-multiple-offices/), and [law firm local SEO listing consistency](/legal-marketing/law-firm-local-seo-listing-consistency/). A step-by-step [90-day law firm SEO plan](/legal-marketing/law-firm-seo/) turns these figures into a schedule for small firms.
 
 The American Bar Association's 2024 TechReport points the same way from a different sample. It found 90% of responding firms had a website, down slightly from 94% in 2022, while solo practitioners rose to 70% from 61%. It also found social media use for marketing fell to 80% from 89%, with LinkedIn the most used platform at 76%. Those social figures are a useful baseline next to the [law firm social media statistics](/legal-marketing/law-firm-social-media-statistics/) that track which platforms produce inquiries.
 
