@@ -62,6 +62,22 @@ const shared = {
 // Stylesheet and script URLs carry a content hash, so a deploy never pairs new HTML with a cached old file.
 const contentHash = async file => createHash('sha256').update(await readFile(file)).digest('hex').slice(0, 10);
 const assetVersion = { css: await contentHash('src/styles/main.css'), js: await contentHash('src/scripts/main.js') };
+// Interactive tools: a page names its tool in front matter (tool: billable-hours) and its body places the markup with a ```tool fence.
+// Each tool's stylesheet and module carry their own content hash, like main.css and main.js.
+const coreVersion = await contentHash('src/scripts/calculators/billable-hours-core.js');
+const uiSource = await readFile('src/scripts/calculators/billable-hours-ui.js', 'utf8');
+// The module imports the core by a versioned URL, and its own version covers both files, so a deploy never mixes old and new formulas.
+await writeFile(path.join(dist, 'scripts/calculators/billable-hours-ui.js'), uiSource.replace("from './billable-hours-core.js'", `from './billable-hours-core.js?v=${coreVersion}'`));
+const uiVersion = createHash('sha256').update(uiSource + coreVersion).digest('hex').slice(0, 10);
+const tools = {
+  'billable-hours': {
+    markup: await readFile('src/partials/billable-hours-calculator.html', 'utf8'),
+    css: `/styles/billable-hours-calculator.css?v=${await contentHash('src/styles/billable-hours-calculator.css')}`,
+    js: `/scripts/calculators/billable-hours-ui.js?v=${uiVersion}`,
+    core: `/scripts/calculators/billable-hours-core.js?v=${coreVersion}`,
+    app: { name: 'Billable Hours Calculator', applicationCategory: 'BusinessApplication', operatingSystem: 'Any (runs in a web browser)', isAccessibleForFree: true }
+  }
+};
 const header = replace(headerTemplate, shared);
 // Images resolve through data/assets.json so every rendered image carries registered dimensions and alt guidance.
 const assetFor = src => {
@@ -155,8 +171,13 @@ for (const page of parsed) {
       return renderHub(hub, hubCopy.shared, publishedPosts.filter(post => post.slug.startsWith(metadata.slug)), nav,
         { slug: metadata.slug, chart: chartBlock, allPosts: publishedPosts, sections: homeCopy.coverage.cards, closing: homeCopy.closing });
     } }[metadata.template];
+  const tool = metadata.tool ? tools[metadata.tool] : null;
+  if (metadata.tool && !tool) throw new Error(`${source}: unknown tool ${metadata.tool}`);
+  if (tool) schema['@graph'].push({ '@type': 'WebApplication', '@id': `${url}#app`, url, ...tool.app, publisher: { '@id': `${siteUrl}/#organization` }, isPartOf: { '@id': `${url}#webpage` } });
   resetCharts();
-  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure });
+  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, blocks: tool ? { tool: () => tool.markup } : {} });
+  // Pages that opt in show the same breadcrumb trail as posts.
+  if (!article && metadata.breadcrumb === true) renderedBody = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>` + renderedBody;
   if (article) {
     // Posts open with a breadcrumb trail, then the H1, then the featured image.
     const trail = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>`;
@@ -177,6 +198,7 @@ for (const page of parsed) {
   const html = replace(base, {
     LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
     CANONICAL: url, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks, CSS_VERSION: assetVersion.css, JS_VERSION: assetVersion.js,
+    PAGE_HEAD: tool ? `<link rel="stylesheet" href="${tool.css}"><link rel="modulepreload" href="${tool.core}">` : '', PAGE_SCRIPTS: tool ? `<script type="module" src="${tool.js}"></script>` : '',
     ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
     HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="home" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });
