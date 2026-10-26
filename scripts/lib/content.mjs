@@ -31,7 +31,7 @@ function inline(value) {
   return text;
 }
 
-// Options: { chart(json) => html, image({ alt, src, caption }) => html } let the build add rich blocks.
+// Options: { chart(json) => html, image({ alt, src, caption }) => html, blocks: { name(text) => html } } let the build add rich blocks.
 export function markdownToHtml(markdown, options = {}) {
   const lines = markdown.split(/\r?\n/);
   const out = [];
@@ -57,6 +57,7 @@ export function markdownToHtml(markdown, options = {}) {
       const block = [];
       for (index += 1; index < lines.length && !/^```\s*$/.test(lines[index]); index += 1) block.push(lines[index]);
       if (fence[1] === 'chart' && options.chart) out.push(options.chart(block.join('\n')));
+      else if (options.blocks?.[fence[1]]) out.push(options.blocks[fence[1]](block.join('\n')));
       else out.push(`<pre><code>${escapeHtml(block.join('\n'))}</code></pre>`);
     } else if (caption && lines[index + 1]?.trim().startsWith('|')) {
       flushParagraph(); flushList(); tableMeta = { caption: caption[1], variant: caption[2] };

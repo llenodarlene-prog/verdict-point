@@ -13,6 +13,12 @@
       ]
     },
     {
+      "heading": "Tools",
+      "links": [
+        { "label": "Billable Hours Calculator", "url": "/law-firms/billable-hours-calculator/" }
+      ]
+    },
+    {
       "heading": "About",
       "links": [
         { "label": "About Us", "url": "/about/" },

@@ -1,0 +1,107 @@
+<section class="bhc" id="calculator" aria-labelledby="bhc-title" data-bhc>
+  <h2 id="bhc-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">Your entries stay in your browser and are not sent to Verdict Point.</p>
+  <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formulas, the six-minute chart, and the worked examples below work without it.</p></noscript>
+  <div class="bhc-tabs" role="tablist" aria-label="Calculator tools">
+    <button type="button" role="tab" id="bhc-tab-time" aria-controls="bhc-panel-time" aria-selected="true">Time Entry</button>
+    <button type="button" role="tab" id="bhc-tab-target" aria-controls="bhc-panel-target" aria-selected="false" tabindex="-1">Target Planner</button>
+    <button type="button" role="tab" id="bhc-tab-metrics" aria-controls="bhc-panel-metrics" aria-selected="false" tabindex="-1">Law Firm Metrics</button>
+    <button type="button" role="tab" id="bhc-tab-chart" aria-controls="bhc-panel-chart" aria-selected="false" tabindex="-1">Increment Chart</button>
+  </div>
+
+  <div class="bhc-panel" role="tabpanel" id="bhc-panel-time" aria-labelledby="bhc-tab-time" data-tool="time">
+    <form class="bhc-form" novalidate>
+      <fieldset class="bhc-seg">
+        <legend>Time entry method</legend>
+        <label><input type="radio" name="method" value="minutes" checked> Minutes</label>
+        <label><input type="radio" name="method" value="hm"> Hours and minutes</label>
+        <label><input type="radio" name="method" value="clock"> Start and end time</label>
+      </fieldset>
+      <div class="bhc-group" data-show="hm">
+        <div class="bhc-field"><label for="bhc-hours">Hours</label><div class="bhc-step"><button type="button" data-step="-1" aria-label="Decrease hours">−</button><input id="bhc-hours" name="hours" inputmode="numeric" value="0" aria-describedby="bhc-hours-err"><button type="button" data-step="1" aria-label="Increase hours">+</button></div><p class="bhc-err" id="bhc-hours-err"></p></div>
+      </div>
+      <div class="bhc-group" data-show="minutes hm">
+        <div class="bhc-field"><label for="bhc-minutes">Minutes</label><div class="bhc-step"><button type="button" data-step="-1" aria-label="Decrease minutes">−</button><input id="bhc-minutes" name="minutes" inputmode="numeric" value="37" aria-describedby="bhc-minutes-err"><button type="button" data-step="1" aria-label="Increase minutes">+</button></div><p class="bhc-err" id="bhc-minutes-err"></p></div>
+      </div>
+      <div class="bhc-group bhc-row" data-show="clock">
+        <div class="bhc-field"><label for="bhc-start">Start time</label><input id="bhc-start" name="start" type="time" aria-describedby="bhc-start-err"><p class="bhc-err" id="bhc-start-err"></p></div>
+        <div class="bhc-field"><label for="bhc-end">End time</label><input id="bhc-end" name="end" type="time" aria-describedby="bhc-end-err"><p class="bhc-err" id="bhc-end-err"></p></div>
+        <label class="bhc-check"><input type="checkbox" name="nextday"> Ends next day</label>
+        <div class="bhc-field"><label for="bhc-break">Break minutes</label><input id="bhc-break" name="break" inputmode="numeric" value="0" aria-describedby="bhc-break-err"><p class="bhc-err" id="bhc-break-err"></p></div>
+      </div>
+      <fieldset class="bhc-chips">
+        <legend>Billing increment</legend>
+        <button type="button" data-increment="0" aria-pressed="false">Exact</button>
+        <button type="button" data-increment="6" aria-pressed="true">6 min</button>
+        <button type="button" data-increment="10" aria-pressed="false">10 min</button>
+        <button type="button" data-increment="15" aria-pressed="false">15 min</button>
+        <button type="button" data-increment="30" aria-pressed="false">30 min</button>
+        <button type="button" data-increment="custom" aria-pressed="false">Custom</button>
+      </fieldset>
+      <div class="bhc-field" data-custom hidden><label for="bhc-custom">Custom increment (minutes)</label><input id="bhc-custom" name="custom" inputmode="numeric" value="12" aria-describedby="bhc-custom-err"><p class="bhc-err" id="bhc-custom-err"></p></div>
+      <div class="bhc-field"><label for="bhc-rounding">Rounding method</label>
+        <select id="bhc-rounding" name="rounding" aria-describedby="bhc-rounding-note"><option value="up" selected>Round up</option><option value="nearest">Round to nearest</option><option value="down">Round down</option><option value="exact">Exact (no rounding)</option></select>
+        <p class="bhc-note" id="bhc-rounding-note">Billing increments and rounding rules depend on the engagement agreement, client requirements, firm policy, and applicable professional rules. Review the exact time and the rounded result before using it in a bill.</p>
+      </div>
+      <div class="bhc-row">
+        <div class="bhc-field"><label for="bhc-rate">Hourly rate (optional)</label><input id="bhc-rate" name="rate" inputmode="decimal" aria-describedby="bhc-rate-err"><p class="bhc-err" id="bhc-rate-err"></p></div>
+        <div class="bhc-field"><label for="bhc-currency">Currency</label><select id="bhc-currency" name="currency"><option>USD</option><option>CAD</option><option>GBP</option><option>EUR</option><option>AUD</option></select></div>
+      </div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="reset">Reset</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="bhc-time-result-h"><h3 id="bhc-time-result-h" tabindex="-1">Result</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy results</button><button type="button" data-action="print">Print / Save as PDF</button><button type="button" data-action="share">Share calculation</button></div></div>
+  </div>
+
+  <div class="bhc-panel" role="tabpanel" id="bhc-panel-target" aria-labelledby="bhc-tab-target" data-tool="target" hidden>
+    <form class="bhc-form" novalidate>
+      <div class="bhc-field"><label for="bhc-target">Annual billable target (hours)</label><input id="bhc-target" name="target" inputmode="decimal" value="1800" aria-describedby="bhc-target-err"><p class="bhc-err" id="bhc-target-err"></p></div>
+      <div class="bhc-field"><label for="bhc-done">Billable hours completed year to date</label><input id="bhc-done" name="done" inputmode="decimal" value="0" aria-describedby="bhc-done-err"><p class="bhc-err" id="bhc-done-err"></p></div>
+      <div class="bhc-row">
+        <div class="bhc-field"><label for="bhc-weeks">Working weeks in the year</label><input id="bhc-weeks" name="weeks" inputmode="numeric" value="48" aria-describedby="bhc-weeks-err"><p class="bhc-err" id="bhc-weeks-err"></p></div>
+        <div class="bhc-field"><label for="bhc-doneweeks">Working weeks completed</label><input id="bhc-doneweeks" name="doneweeks" inputmode="numeric" value="0" aria-describedby="bhc-doneweeks-err"><p class="bhc-err" id="bhc-doneweeks-err"></p></div>
+      </div>
+      <div class="bhc-field"><label for="bhc-days">Working days per week</label><input id="bhc-days" name="days" inputmode="numeric" value="5" aria-describedby="bhc-days-err"><p class="bhc-err" id="bhc-days-err"></p></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="reset">Reset</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="bhc-target-result-h"><h3 id="bhc-target-result-h" tabindex="-1">Result</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy results</button><button type="button" data-action="print">Print / Save as PDF</button><button type="button" data-action="share">Share calculation</button></div></div>
+  </div>
+
+  <div class="bhc-panel" role="tabpanel" id="bhc-panel-metrics" aria-labelledby="bhc-tab-metrics" data-tool="metrics" hidden>
+    <form class="bhc-form" novalidate>
+      <fieldset class="bhc-seg">
+        <legend>Calculation</legend>
+        <label><input type="radio" name="mode" value="hours" checked> Hours only</label>
+        <label><input type="radio" name="mode" value="revenue"> Revenue estimate</label>
+      </fieldset>
+      <div class="bhc-field" data-show="hours"><label for="bhc-total">Total work hours</label><input id="bhc-total" name="total" inputmode="decimal" aria-describedby="bhc-total-err"><p class="bhc-err" id="bhc-total-err"></p></div>
+      <div class="bhc-field"><label for="bhc-billable">Billable hours recorded</label><input id="bhc-billable" name="billable" inputmode="decimal" aria-describedby="bhc-billable-err"><p class="bhc-err" id="bhc-billable-err"></p></div>
+      <div class="bhc-group" data-show="revenue">
+        <div class="bhc-field"><label for="bhc-mrate">Hourly rate</label><input id="bhc-mrate" name="rate" inputmode="decimal" aria-describedby="bhc-mrate-err"><p class="bhc-err" id="bhc-mrate-err"></p></div>
+        <div class="bhc-row">
+          <div class="bhc-field"><label for="bhc-real">Realization rate (%)</label><input id="bhc-real" name="realization" inputmode="decimal" value="100" aria-describedby="bhc-real-err"><p class="bhc-err" id="bhc-real-err"></p></div>
+          <div class="bhc-field"><label for="bhc-coll">Collection rate (%)</label><input id="bhc-coll" name="collection" inputmode="decimal" value="100" aria-describedby="bhc-coll-err"><p class="bhc-err" id="bhc-coll-err"></p></div>
+        </div>
+        <p class="bhc-note">These results are planning estimates. Firms may define realization and collection metrics differently, so use the definitions shown here when comparing results.</p>
+      </div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="reset">Reset</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="bhc-metrics-result-h"><h3 id="bhc-metrics-result-h" tabindex="-1">Result</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy results</button><button type="button" data-action="print">Print / Save as PDF</button><button type="button" data-action="share">Share calculation</button></div></div>
+  </div>
+
+  <div class="bhc-panel bhc-panel--wide" role="tabpanel" id="bhc-panel-chart" aria-labelledby="bhc-tab-chart" data-tool="chart" hidden>
+    <form class="bhc-form bhc-chart-controls" novalidate>
+      <div class="bhc-field"><label for="bhc-chart-rounding">Rounding method</label><select id="bhc-chart-rounding" name="rounding"><option value="up" selected>Round up</option><option value="nearest">Round to nearest</option><option value="down">Round down</option><option value="exact">Exact (no rounding)</option></select></div>
+      <div class="bhc-field"><label for="bhc-chart-custom">Custom increment column (minutes, optional)</label><input id="bhc-chart-custom" name="custom" inputmode="numeric" aria-describedby="bhc-chart-custom-err"><p class="bhc-err" id="bhc-chart-custom-err"></p></div>
+      <fieldset class="bhc-chips bhc-cols"><legend>Column shown on small screens</legend>
+        <button type="button" data-col="six" aria-pressed="true">6 min</button><button type="button" data-col="ten" aria-pressed="false">10 min</button><button type="button" data-col="fifteen" aria-pressed="false">15 min</button><button type="button" data-col="custom" aria-pressed="false" disabled>Custom</button>
+      </fieldset>
+      <div class="bhc-actions"><button type="button" data-action="copy">Copy table</button><button type="button" data-action="print">Print table</button><button type="button" data-action="share">Share calculation</button><button type="button" data-action="reset">Reset</button></div>
+    </form>
+    <p class="bhc-hint">Select a row to send that number of minutes to the Time Entry tool.</p>
+    <div class="bhc-table-wrap" data-out></div>
+  </div>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
