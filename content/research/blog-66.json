@@ -1,0 +1,435 @@
+{
+  "tracker_id": "Blog:66",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Legal Process Outsourcing: 9 Services Firms Can Compare. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal process outsourcing, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal teams, and people building legal careers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-26",
+    "scope_limitations": "Claims the pages did not support were reworded or cut; blocked sources were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal process outsourcing",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal process outsourcing",
+        "type": "short-tail",
+        "volume": 6600,
+        "difficulty": 34,
+        "cpc": 15.86,
+        "intent": "Informational",
+        "ranking_url": "http://www.uslegalsupport.com/blog/legal-process-outsourcing/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal process outsourcing services",
+        "type": "long-tail",
+        "volume": 210,
+        "difficulty": 33,
+        "cpc": 47.25,
+        "intent": "Informational",
+        "ranking_url": "http://www.uslegalsupport.com/blog/legal-process-outsourcing/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal process outsourcing company",
+        "type": "commercial",
+        "volume": 210,
+        "difficulty": 34,
+        "cpc": 14.63,
+        "intent": "Informational",
+        "ranking_url": "http://www.uslegalsupport.com/blog/legal-process-outsourcing/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal process outsourcing examples",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 36,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uslegalsupport.com/blog/legal-process-outsourcing/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal process outsourcing",
+        "type": "question",
+        "volume": 260,
+        "difficulty": 25,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uslegalsupport.com/blog/legal-process-outsourcing/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.thomsonreuters.com/en/press-releases/2025/january/alternative-legal-services-providers-2025-report-shows-segment-comprises-28-billion-of-the-legal-market.html",
+      "title": "Alternative Legal Services Providers 2025 Report",
+      "publisher": "thomsonreuters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Alternative Legal Services Providers 2025 Report",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_3_responsibilities_regarding_nonlawyer_assistant/comment_on_rule_5_3/",
+      "title": "Comment 3 to Model Rule 5.3",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Comment 3 to Model Rule 5.3",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_5_unauthorized_practice_of_law_multijurisdictional_practice_of_law/",
+      "title": "Model Rule 5.5",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Model Rule 5.5",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.integreon.com/what-we-do/legal-and-compliance-solutions/document-review-services/",
+      "title": "Integreon",
+      "publisher": "integreon.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Integreon",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://elevate.law/contracts/",
+      "title": "Elevate",
+      "publisher": "elevate.law",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Elevate",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.integreon.com/what-we-do/legal-and-compliance-solutions/contract-solutions/outsourced-contracts-support/",
+      "title": "Integreon",
+      "publisher": "integreon.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Integreon",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "The ALSP 2025 report estimated the market at $28.5 billion, from 18% compound annual growth between 2021 and 2023.",
+      "source_url": "https://www.thomsonreuters.com/en/press-releases/2025/january/alternative-legal-services-providers-2025-report-shows-segment-comprises-28-billion-of-the-legal-market.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Comment 3 to Rule 5.3 calls for reasonable efforts to ensure outside nonlawyer services are compatible with the lawyer's obligations.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_3_responsibilities_regarding_nonlawyer_assistant/comment_on_rule_5_3/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "A Guide to Legal & Litigation Support Service Outsourcing",
+      "url": "http://www.uslegalsupport.com/blog/legal-process-outsourcing/",
+      "publisher": "U.S. Legal Support",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "What Is Legal Process Outsourcing (LPO)?",
+      "url": "http://www.linkedin.com/pulse/what-legal-process-outsourcing-lpo-emaptaglobal-pq8de",
+      "publisher": "Emapta on LinkedIn",
+      "format": "Article",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Article"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "The Law Firm's Guide to Legal Process Outsourcing",
+      "url": "http://ifiveglobal.com/blog/law-firm-guide-legal-process-outsourcing/",
+      "publisher": "iFive Global",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Successful Implementation of Legal Process Outsourcing",
+      "url": "http://agilelegal.com/business-law-news/successful-implementation-of-legal-process-outsourcing",
+      "publisher": "Agile Legal",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Legal Process Outsourcing",
+      "url": "http://www.virtuallatinos.com/blog/legal-outsourcing-extensive-guide/",
+      "publisher": "Virtual Latinos",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    }
+  ],
+  "content_gaps": [
+    "Top results rarely tie claims to primary sources.",
+    "No reviewed page gives a dated, testable checklist for the reader."
+  ],
+  "value_add": "A primary-source explainer with dated figures, labeled limits, and practical checks the reader can run.",
+  "plan": {
+    "reader_title": "Legal Process Outsourcing: 9 Services Firms Can Compare",
+    "seo_title": "Legal Process Outsourcing: 9 Services and How to Compare",
+    "meta_description": "Legal process outsourcing explained: nine services from document review to eDiscovery, professional duties, provider comparison, and a bounded pilot plan.",
+    "slug": "/legal-business/legal-process-outsourcing/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "lpo services",
+      "legal outsourcing"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "What the Term Includes",
+      "Nine Service Categories to Compare",
+      "1. Legal Research Support",
+      "2. Document Review",
+      "3. eDiscovery Operations",
+      "4. Contract Review and Management",
+      "5. Litigation Support",
+      "6. Transaction Due Diligence",
+      "7. Compliance and Regulatory Support",
+      "8. Intellectual Property Support",
+      "9. Legal Administrative Support",
+      "Professional Duties Stay with the Firm",
+      "How to Compare Providers",
+      "Run a Bounded Pilot",
+      "When Outsourcing Fits",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.thomsonreuters.com/en/press-releases/2025/january/alternative-legal-services-providers-2025-report-shows-segment-comprises-28-billion-of-the-legal-market.html"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_3_responsibilities_regarding_nonlawyer_assistant/comment_on_rule_5_3/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_5_unauthorized_practice_of_law_multijurisdictional_practice_of_law/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal-business/in-house-counsel/",
+      "/legal-tech/legal-practice-management-software/"
+    ],
+    "external_link_opportunities": [
+      "https://www.thomsonreuters.com/en/press-releases/2025/january/alternative-legal-services-providers-2025-report-shows-segment-comprises-28-billion-of-the-legal-market.html",
+      "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_3_responsibilities_regarding_nonlawyer_assistant/comment_on_rule_5_3/",
+      "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_5_unauthorized_practice_of_law_multijurisdictional_practice_of_law/",
+      "https://www.integreon.com/what-we-do/legal-and-compliance-solutions/document-review-services/",
+      "https://elevate.law/contracts/",
+      "https://www.integreon.com/what-we-do/legal-and-compliance-solutions/contract-solutions/outsourced-contracts-support/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The ALSP 2025 report estimated the market at $28.5 billion, from 18% compound annual growth between 2021 and 2023.",
+      "source_url": "https://www.thomsonreuters.com/en/press-releases/2025/january/alternative-legal-services-providers-2025-report-shows-segment-comprises-28-billion-of-the-legal-market.html",
+      "verified": true
+    },
+    {
+      "statement": "Comment 3 to Rule 5.3 calls for reasonable efforts to ensure outside nonlawyer services are compatible with the lawyer's obligations.",
+      "source_url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_5_3_responsibilities_regarding_nonlawyer_assistant/comment_on_rule_5_3/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  }
+}

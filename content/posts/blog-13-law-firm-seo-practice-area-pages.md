@@ -11,13 +11,13 @@ primary_keyword: law firm seo
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/law-firm-marketing-statistics/
+approved_internal_links: /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo/
 research_record: content/research/blog-13.json
 image: /assets/images/posts/law-firm-seo-practice-area-pages/two-colleagues-review-practice-page-monitor-1600.jpg
 image_alt: Two colleagues reviewing a law firm practice page on a desktop monitor with printed page layouts on the desk
 author: Darlene Aberin
 published: 2026-10-16
-modified: 2026-10-18
+modified: 2026-10-26
 ---
 
 # Law Firm SEO: Give Every Practice Page a Clear Job
@@ -137,7 +137,7 @@ Once the service page is clear, law firm seo planning decides which questions ne
 
 Prioritize gaps that affect a reader's ability to prepare or assess fit. Do not select topics solely because a tool returns a large number.
 
-The [organic-search measurement framework](/legal-marketing/law-firm-seo-statistics/) can help evaluate the role of supporting pages. A question page may assist discovery without producing a direct engagement.
+The [organic-search measurement framework](/legal-marketing/law-firm-seo-statistics/) can help evaluate the role of supporting pages. A question page may assist discovery without producing a direct engagement. For the wider schedule these pages fit into, see the [90-day law firm SEO plan](/legal-marketing/law-firm-seo/).
 
 Internal anchors should describe the useful next subject. Avoid sentences written only to insert a link. If the connection needs an awkward explanation, the destination may belong elsewhere.
 

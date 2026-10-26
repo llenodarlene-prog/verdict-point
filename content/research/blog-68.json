@@ -1,0 +1,489 @@
+{
+  "tracker_id": "Blog:68",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 7 Free Legal AI Tools: Uses, Limits, and Free-Plan Rules. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for free legal ai, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal teams, and people building legal careers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-26",
+    "scope_limitations": "Claims the pages did not support were reworded or cut; blocked sources were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "free legal ai",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "free legal ai",
+        "type": "short-tail",
+        "volume": 6600,
+        "difficulty": 32,
+        "cpc": 4.965,
+        "intent": "Informational",
+        "ranking_url": "http://lawconnect.com/en-us",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best free legal ai for non lawyers",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 29,
+        "cpc": 12.93,
+        "intent": "Informational",
+        "ranking_url": "http://lawconnect.com/en-us",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best free legal ai",
+        "type": "commercial",
+        "volume": 90,
+        "difficulty": 51,
+        "cpc": 13.04,
+        "intent": "Informational",
+        "ranking_url": "http://lawconnect.com/en-us",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free legal ai chat",
+        "type": "problem",
+        "volume": 90,
+        "difficulty": 28,
+        "cpc": 11.12,
+        "intent": "Informational",
+        "ranking_url": "http://lawconnect.com/en-us",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is the best free legal ai platform",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://lawconnect.com/en-us",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-artificial-intelligence-techreport/",
+      "title": "2024 Artificial Intelligence TechReport",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "2024 Artificial Intelligence TechReport",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.20362",
+      "title": "preregistered empirical study",
+      "publisher": "arxiv.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "preregistered empirical study",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/",
+      "title": "Model Rule 1.6",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Model Rule 1.6",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://lawconnect.com/",
+      "title": "LawConnect",
+      "publisher": "lawconnect.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "LawConnect",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://justee.ai/",
+      "title": "Justee",
+      "publisher": "justee.ai",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Justee",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.genieai.co/pricing",
+      "title": "GenieAI's pricing page",
+      "publisher": "genieai.co",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "GenieAI's pricing page",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.thelawgpt.com/pricing",
+      "title": "TheLawGPT",
+      "publisher": "thelawgpt.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "TheLawGPT",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://lawyerz.com/",
+      "title": "Lawyerz",
+      "publisher": "lawyerz.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Lawyerz",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://aux.ai/",
+      "title": "Aux.ai",
+      "publisher": "aux.ai",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Aux.ai",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://ailawyer.com/",
+      "title": "AI Lawyer",
+      "publisher": "ailawyer.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "AI Lawyer",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "The 2024 ABA AI TechReport reported 30.2% of 512 respondents' offices using AI-based tools, and 47.8% at firms with 500 or more lawyers.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-artificial-intelligence-techreport/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "A preregistered study found the tested legal AI research tools hallucinated between 17% and 33% of the time.",
+      "source_url": "https://arxiv.org/abs/2405.20362",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "LawConnect: Free AI Legal Chat",
+      "url": "http://lawconnect.com/en-us",
+      "publisher": "LawConnect",
+      "format": "Product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Legal Research AI",
+      "url": "http://www.cetient.com/",
+      "publisher": "Cetient",
+      "format": "Product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Free Legal AI Chat",
+      "url": "http://justee.ai/legal-ai-chat",
+      "publisher": "Justee",
+      "format": "Product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "AI Lawyer & Legal AI Agents",
+      "url": "http://lawyerz.com/",
+      "publisher": "Lawyerz",
+      "format": "Product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "8 Best Free Legal AI Tools in 2026",
+      "url": "http://thelawgpt.com/blog/best-free-legal-ai-tools-2026",
+      "publisher": "TheLawGPT",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    }
+  ],
+  "content_gaps": [
+    "Top results rarely tie claims to primary sources.",
+    "No reviewed page gives a dated, testable checklist for the reader."
+  ],
+  "value_add": "A primary-source explainer with dated figures, labeled limits, and practical checks the reader can run.",
+  "plan": {
+    "reader_title": "7 Free Legal AI Tools: Uses, Limits, and Free-Plan Rules",
+    "seo_title": "Free Legal AI: 7 Tools, Their Limits, and Free-Plan Rules",
+    "meta_description": "Free legal AI tools compared: seven ongoing free plans, what each does, usage limits, adoption and accuracy research, and a five-step verification method.",
+    "slug": "/legal-tech/free-legal-ai/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "free legal ai tools",
+      "free ai lawyer"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "How We Classified Free Access",
+      "Seven Tools at a Glance",
+      "1. LawConnect",
+      "2. Justee",
+      "3. GenieAI",
+      "4. TheLawGPT",
+      "5. Lawyerz Libra",
+      "6. Aux.ai",
+      "7. AI Lawyer",
+      "What the Current Market Data Shows",
+      "A Five-Step Verification Method",
+      "Confidentiality and Professional Responsibility",
+      "When Free Access Is Enough",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-artificial-intelligence-techreport/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://arxiv.org/abs/2405.20362"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/ai-in-law-firms-statistics/",
+      "/legal-tech/legal-research-software/"
+    ],
+    "external_link_opportunities": [
+      "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-artificial-intelligence-techreport/",
+      "https://arxiv.org/abs/2405.20362",
+      "https://www.americanbar.org/groups/professional_responsibility/publications/model_rules_of_professional_conduct/rule_1_6_confidentiality_of_information/",
+      "https://lawconnect.com/",
+      "https://justee.ai/",
+      "https://www.genieai.co/pricing",
+      "https://www.thelawgpt.com/pricing",
+      "https://lawyerz.com/",
+      "https://aux.ai/",
+      "https://ailawyer.com/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The 2024 ABA AI TechReport reported 30.2% of 512 respondents' offices using AI-based tools, and 47.8% at firms with 500 or more lawyers.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-artificial-intelligence-techreport/",
+      "verified": true
+    },
+    {
+      "statement": "A preregistered study found the tested legal AI research tools hallucinated between 17% and 33% of the time.",
+      "source_url": "https://arxiv.org/abs/2405.20362",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  }
+}
