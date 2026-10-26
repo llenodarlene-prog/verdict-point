@@ -24,7 +24,8 @@
       "/law-firms/law-firm-intake-process/",
       "/law-firms/law-firm-speed-to-lead/",
       "/legal-marketing/law-firm-reviews-process/",
-      "/legal-marketing/law-firm-online-reviews-response/"
+      "/legal-marketing/law-firm-online-reviews-response/",
+      "/legal-marketing/law-firm-seo/"
     ],
     "natural_anchor_concepts": [
       {
@@ -77,7 +78,13 @@
       "/law-firms/biglaw-salary-scale/",
       "/legal/paralegal-salary/",
       "/legal/corporate-lawyer-salary/",
-      "/legal-business/general-counsel/"
+      "/legal-business/general-counsel/",
+      "/legal/what-is-a-law-clerk/",
+      "/legal/types-of-lawyers/",
+      "/legal/how-to-become-a-legal-assistant/",
+      "/legal/legal-assistant-and-paralegal/",
+      "/legal-business/in-house-counsel/",
+      "/legal-business/legal-process-outsourcing/"
     ],
     "natural_anchor_concepts": [
       {
@@ -126,7 +133,10 @@
       "/legal/legal-industry-statistics-firm-size/",
       "/legal-marketing/ai-search-visibility-law-firms/",
       "/legal-business/contract-lifecycle-management/",
-      "/legal-tech/document-management-software-law-firms/"
+      "/legal-tech/document-management-software-law-firms/",
+      "/legal-tech/legal-practice-management-software/",
+      "/legal-tech/legal-research-software/",
+      "/legal-tech/free-legal-ai/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1038,7 +1048,8 @@
       "/legal-marketing/law-firm-seo-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
       "/legal-marketing/law-firm-seo-metrics/",
-      "/legal-marketing/law-firm-marketing-statistics/"
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-seo/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1663,5 +1674,380 @@
     "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
     "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
     "content_number": "60"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "What Is a Law Clerk and What Does the Role Involve",
+    "url_slug": "/legal/what-is-a-law-clerk/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 41,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/what-does-a-paralegal-do/",
+      "/legal/lawyer-vs-attorney/",
+      "/legal/types-of-lawyers/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/what-does-a-paralegal-do/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/lawyer-vs-attorney/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/types-of-lawyers/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "61"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "15 Types of Lawyers and Their Practice Areas",
+    "url_slug": "/legal/types-of-lawyers/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 42,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/lawyer-vs-attorney/",
+      "/legal-business/in-house-counsel/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/lawyer-vs-attorney/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-business/in-house-counsel/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "62"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "How to Become a Legal Assistant and Find Your First Job",
+    "url_slug": "/legal/how-to-become-a-legal-assistant/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 43,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/paralegal-salary/",
+      "/legal/what-does-a-paralegal-do/",
+      "/legal/legal-assistant-and-paralegal/",
+      "/legal/what-is-a-law-clerk/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/paralegal-salary/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/what-does-a-paralegal-do/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/legal-assistant-and-paralegal/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/what-is-a-law-clerk/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "63"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Legal Assistant and Paralegal Roles Compared",
+    "url_slug": "/legal/legal-assistant-and-paralegal/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 44,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/paralegal-salary/",
+      "/legal/what-does-a-paralegal-do/",
+      "/legal/how-to-become-a-legal-assistant/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/paralegal-salary/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/what-does-a-paralegal-do/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/how-to-become-a-legal-assistant/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "64"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "What Is In House Counsel? Roles and Outside-Counsel Work",
+    "url_slug": "/legal-business/in-house-counsel/",
+    "cluster": "Legal Business",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 45,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/corporate-lawyer-salary/",
+      "/legal-business/general-counsel/",
+      "/legal-business/legal-process-outsourcing/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal/corporate-lawyer-salary/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-business/general-counsel/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-business/legal-process-outsourcing/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "65"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Legal Process Outsourcing: 9 Services Firms Can Compare",
+    "url_slug": "/legal-business/legal-process-outsourcing/",
+    "cluster": "Legal Business",
+    "launch_silo": "Legal Careers & Compensation",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 46,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal-business/in-house-counsel/",
+      "/legal-tech/legal-practice-management-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-business/in-house-counsel/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/legal-practice-management-software/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "66"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "7 Legal Practice Management Software Options for Small Firms",
+    "url_slug": "/legal-tech/legal-practice-management-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Practice Management Software",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 47,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/legal-research-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/clio-legal-software-total-cost/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/legal-research-software/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "67"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "7 Free Legal AI Tools: Uses, Limits, and Free-Plan Rules",
+    "url_slug": "/legal-tech/free-legal-ai/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal AI",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 48,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/ai-in-law-firms-statistics/",
+      "/legal-tech/legal-research-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/ai-in-law-firms-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/legal-research-software/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "68"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "7 Legal Research Software Options Compared",
+    "url_slug": "/legal-tech/legal-research-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal AI",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 49,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/free-legal-ai/",
+      "/legal-tech/legal-practice-management-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/free-legal-ai/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-tech/legal-practice-management-software/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "69"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Law Firm SEO: A Practical 90-Day Plan for Small Firms",
+    "url_slug": "/legal-marketing/law-firm-seo/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 5,
+    "publish_order": 50,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-seo-practice-area-pages/",
+      "/legal-marketing/law-firm-seo-metrics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-marketing/law-firm-marketing-statistics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-seo-practice-area-pages/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-seo-metrics/",
+        "concept": "existing phrase in the owner-approved editorial draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
+    "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
+    "content_number": "70"
   }
 ]

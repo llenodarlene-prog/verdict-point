@@ -1,0 +1,432 @@
+{
+  "tracker_id": "Blog:61",
+  "status": "verified",
+  "research_question": "Owner-approved addition: What Is a Law Clerk and What Does the Role Involve. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law clerk, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal teams, and people building legal careers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-26",
+    "scope_limitations": "Claims the pages did not support were reworded or cut; blocked sources were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law clerk",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law clerk",
+        "type": "short-tail",
+        "volume": 6600,
+        "difficulty": 37,
+        "cpc": 5.71,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Jobs/Law-Clerk/--in-Ohio",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is a law clerk in a law firm",
+        "type": "long-tail",
+        "volume": 110,
+        "difficulty": 27,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Jobs/Law-Clerk/--in-Ohio",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law clerk job",
+        "type": "commercial",
+        "volume": 2400,
+        "difficulty": 38,
+        "cpc": 3.34,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Jobs/Law-Clerk/--in-Ohio",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law clerk v paralegal",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 18,
+        "cpc": 5.59,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Jobs/Law-Clerk/--in-Ohio",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is law clerk",
+        "type": "question",
+        "volume": 2900,
+        "difficulty": 40,
+        "cpc": 7.57,
+        "intent": "Informational",
+        "ranking_url": "http://www.ziprecruiter.com/Jobs/Law-Clerk/--in-Ohio",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.onetonline.org/link/summary/23-1012.00",
+      "title": "O*NET classifies judicial law clerks",
+      "publisher": "onetonline.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "O*NET classifies judicial law clerks",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://oscar.uscourts.gov/duties_of_federal_law_clerks",
+      "title": "OSCAR's official duties information",
+      "publisher": "oscar.uscourts.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "OSCAR's official duties information",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://oscar.uscourts.gov/qualifications_salary_benefits",
+      "title": "OSCAR's federal qualification information",
+      "publisher": "oscar.uscourts.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "OSCAR's federal qualification information",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onetonline.org/link/summary/43-4031.00",
+      "title": "O*NET administrative court-clerk profile",
+      "publisher": "onetonline.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "O*NET administrative court-clerk profile",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.justice.gov/usao-sdca/law-clerk-positions",
+      "title": "US Attorney's Office student-clerk description",
+      "publisher": "justice.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "US Attorney's Office student-clerk description",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.uscourts.gov/careers/current-job-openings/139656",
+      "title": "District of Utah career-clerk vacancy",
+      "publisher": "uscourts.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "District of Utah career-clerk vacancy",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Federal law clerk duties center on legal research, writing, and chambers support for a judge.",
+      "source_url": "https://oscar.uscourts.gov/duties_of_federal_law_clerks",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "O*NET describes judicial law clerks as assisting judges with research and drafting.",
+      "source_url": "https://www.onetonline.org/link/summary/23-1012.00",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Law Clerk Jobs in Ohio",
+      "url": "http://www.ziprecruiter.com/Jobs/Law-Clerk/--in-Ohio",
+      "publisher": "ZipRecruiter",
+      "format": "Job board",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Job board"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Law Clerk Jobs in New Orleans",
+      "url": "http://www.ziprecruiter.com/Jobs/Law-Clerk/-in-New-Orleans,LA",
+      "publisher": "ZipRecruiter",
+      "format": "Job board",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Job board"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Law Clerk Jobs in California",
+      "url": "http://www.ziprecruiter.com/Jobs/Law-Clerk/--in-California",
+      "publisher": "ZipRecruiter",
+      "format": "Job board",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Job board"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "What is a law clerkship?",
+      "url": "http://www.ziprecruiter.com/e/law-clerkship-what-are-law-clerkships",
+      "publisher": "ZipRecruiter",
+      "format": "Q&A",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Q&A"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Legal Law Clerk Jobs in New York",
+      "url": "http://www.ziprecruiter.com/Jobs/Legal-Law-Clerk/--in-New-York",
+      "publisher": "ZipRecruiter",
+      "format": "Job board",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Job board"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    }
+  ],
+  "content_gaps": [
+    "Top results rarely tie claims to primary sources.",
+    "No reviewed page gives a dated, testable checklist for the reader."
+  ],
+  "value_add": "A primary-source explainer with dated figures, labeled limits, and practical checks the reader can run.",
+  "plan": {
+    "reader_title": "What Is a Law Clerk and What Does the Role Involve",
+    "seo_title": "What Is a Law Clerk? Judicial and Law Office Roles Explained",
+    "meta_description": "What a law clerk does in a judge's chambers or a law office, how term and career clerkships differ, qualifications, pay data, and how to apply.",
+    "slug": "/legal/what-is-a-law-clerk/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "what is a law clerk",
+      "judicial law clerk"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Identify Which Clerk Role the Employer Means",
+      "What Judicial Law Clerks Do",
+      "Attorney-Office Clerks Work on a Different Side",
+      "Administrative Court Clerks Form a Separate Category",
+      "Qualifications Depend on the Appointment",
+      "Term and Career Roles Need Different Questions",
+      "Compare Occupational Wages with Advertised Pay Carefully",
+      "A Hypothetical Assignment from Research to Review",
+      "Prepare Applications Around the Actual Announcement",
+      "Keep an Application Record for Each Employer",
+      "Read the Role Before Comparing the Career",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.onetonline.org/link/summary/23-1012.00"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://oscar.uscourts.gov/duties_of_federal_law_clerks"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://oscar.uscourts.gov/qualifications_salary_benefits"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/what-does-a-paralegal-do/",
+      "/legal/lawyer-vs-attorney/",
+      "/legal/types-of-lawyers/"
+    ],
+    "external_link_opportunities": [
+      "https://www.onetonline.org/link/summary/23-1012.00",
+      "https://oscar.uscourts.gov/duties_of_federal_law_clerks",
+      "https://oscar.uscourts.gov/qualifications_salary_benefits",
+      "https://www.onetonline.org/link/summary/43-4031.00",
+      "https://www.justice.gov/usao-sdca/law-clerk-positions",
+      "https://www.uscourts.gov/careers/current-job-openings/139656"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Federal law clerk duties center on legal research, writing, and chambers support for a judge.",
+      "source_url": "https://oscar.uscourts.gov/duties_of_federal_law_clerks",
+      "verified": true
+    },
+    {
+      "statement": "O*NET describes judicial law clerks as assisting judges with research and drafting.",
+      "source_url": "https://www.onetonline.org/link/summary/23-1012.00",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  }
+}

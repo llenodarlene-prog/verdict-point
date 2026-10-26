@@ -1,0 +1,452 @@
+{
+  "tracker_id": "Blog:67",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 7 Legal Practice Management Software Options for Small Firms. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal practice management software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal teams, and people building legal careers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-26",
+    "scope_limitations": "Claims the pages did not support were reworded or cut; blocked sources were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal practice management software",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal practice management software",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 19,
+        "cpc": 141.98,
+        "intent": "Informational",
+        "ranking_url": "http://www.smokeball.com/blog/best-law-practice-management-software",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal practice management software for small law firms",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 15,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.smokeball.com/blog/best-law-practice-management-software",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best legal practice management software",
+        "type": "commercial",
+        "volume": 70,
+        "difficulty": 21,
+        "cpc": 60.34,
+        "intent": "Informational",
+        "ranking_url": "http://www.smokeball.com/blog/best-law-practice-management-software",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal practice management software comparison",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 16,
+        "cpc": 48.85,
+        "intent": "Informational",
+        "ranking_url": "http://www.smokeball.com/blog/best-law-practice-management-software",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal practice management software",
+        "type": "question",
+        "volume": 30,
+        "difficulty": 18,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.smokeball.com/blog/best-law-practice-management-software",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/pricing/",
+      "title": "PracticePanther's plan page",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "PracticePanther's plan page",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-cloud-computing-techreport/",
+      "title": "2024 Cloud Computing TechReport",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "2024 Cloud Computing TechReport",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketmatter.com/pricing/",
+      "title": "Rocket Matter plans",
+      "publisher": "rocketmatter.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Rocket Matter plans",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bill4time.com/pricing/",
+      "title": "Bill4Time legal plans",
+      "publisher": "bill4time.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "Bill4Time legal plans",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://caretlegal.com/pricing/",
+      "title": "CARET Legal plans",
+      "publisher": "caretlegal.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "CARET Legal plans",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cosmolex.com/features/law-practice-management/",
+      "title": "CosmoLex feature overview",
+      "publisher": "cosmolex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "CosmoLex feature overview",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "MyCase lists Basic at $60 monthly or $50 annually, Pro at $120 or $100, and Advanced at $150 or $130 per user per month.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "PracticePanther lists Solo $49, Essential $69, Business $89, and Business Pro $114 per user per month billed annually.",
+      "source_url": "https://www.practicepanther.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Choosing the Best Law Practice Management Software",
+      "url": "http://www.smokeball.com/blog/best-law-practice-management-software",
+      "publisher": "Smokeball",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Legal Practice Management Software: A Complete Guide",
+      "url": "http://www.thelawgpt.com/blog/legal-practice-management-software",
+      "publisher": "TheLawGPT",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "How to Choose the Best Legal Practice Management Software",
+      "url": "http://www.clio.com/resources/legal-technology/legal-practice-management-software-guide/",
+      "publisher": "Clio",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor guide"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "The Top 3 Law Practice Management Software",
+      "url": "http://www.counselcpas.com/post/the-top-3-law-practice-management-lpm-software-for-2025",
+      "publisher": "Counsel CPAs",
+      "format": "Accounting blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Accounting blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "What Is the Best Law Practice Management Software?",
+      "url": "http://www.practicepanther.com/blog/what-is-the-best-law-practice-management-software/",
+      "publisher": "PracticePanther",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Vendor blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    }
+  ],
+  "content_gaps": [
+    "Top results rarely tie claims to primary sources.",
+    "No reviewed page gives a dated, testable checklist for the reader."
+  ],
+  "value_add": "A primary-source explainer with dated figures, labeled limits, and practical checks the reader can run.",
+  "plan": {
+    "reader_title": "7 Legal Practice Management Software Options for Small Firms",
+    "seo_title": "Legal Practice Management Software: 7 Small-Firm Options",
+    "meta_description": "Legal practice management software for small firms: seven platforms, public prices checked October 2026, total cost math, workflow tests, and exit terms.",
+    "slug": "/legal-tech/legal-practice-management-software/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "law practice management software",
+      "legal case management software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "How We Compared the Seven Platforms",
+      "Seven Options at a Glance",
+      "1. Clio",
+      "2. MyCase",
+      "3. PracticePanther",
+      "4. Rocket Matter",
+      "5. Bill4Time",
+      "6. CARET Legal",
+      "7. CosmoLex",
+      "How to Price the Full Decision",
+      "Test the Workflow and the Exit",
+      "Questions to Put in the Contract File",
+      "Choose the Lowest Complete Plan",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.mycase.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.practicepanther.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-cloud-computing-techreport/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/legal-research-software/"
+    ],
+    "external_link_opportunities": [
+      "https://www.mycase.com/pricing/",
+      "https://www.practicepanther.com/pricing/",
+      "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-cloud-computing-techreport/",
+      "https://www.rocketmatter.com/pricing/",
+      "https://www.bill4time.com/pricing/",
+      "https://caretlegal.com/pricing/",
+      "https://www.cosmolex.com/features/law-practice-management/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "MyCase lists Basic at $60 monthly or $50 annually, Pro at $120 or $100, and Advanced at $150 or $130 per user per month.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "PracticePanther lists Solo $49, Essential $69, Business $89, and Business Pro $114 per user per month billed annually.",
+      "source_url": "https://www.practicepanther.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "The ABA reported about 75% of attorneys using cloud computing for work, with solo practitioners at about 65%.",
+      "source_url": "https://www.americanbar.org/groups/law_practice/resources/tech-report/2024/2024-cloud-computing-techreport/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  }
+}

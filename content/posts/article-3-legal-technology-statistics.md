@@ -12,14 +12,14 @@ secondary_keywords: legal software adoption; law firm technology spending
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Hub
-approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/filevine-legal-software-case-types/; /legal-tech/litify-legal-software-implementation/; /legal-tech/smokeball-legal-software-time-capture/; /legal/legal-industry-statistics-firm-size/; /legal-marketing/ai-search-visibility-law-firms/; /legal-business/contract-lifecycle-management/; /legal-tech/document-management-software-law-firms/
+approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/filevine-legal-software-case-types/; /legal-tech/litify-legal-software-implementation/; /legal-tech/smokeball-legal-software-time-capture/; /legal/legal-industry-statistics-firm-size/; /legal-marketing/ai-search-visibility-law-firms/; /legal-business/contract-lifecycle-management/; /legal-tech/document-management-software-law-firms/; /legal-tech/legal-practice-management-software/; /legal-tech/legal-research-software/; /legal-tech/free-legal-ai/
 research_record: content/research/article-3.json
 source_document: https://docs.google.com/document/d/1otQmDyIbfbtN0HPsy1AMYJ-sZcNl2aUfLyyMdzWE-d8/edit?usp=drivesdk
 image: /assets/images/posts/legal-technology-statistics/lawyer-reviewing-legal-technology-data-1600.jpg
 image_alt: Lawyer in a navy blazer working on a laptop beside a tablet showing documents in a glass-walled office
 author: Darlene Aberin
 published: 2026-10-03
-modified: 2026-10-20
+modified: 2026-10-26
 ---
 
 # Legal Technology Statistics
@@ -74,7 +74,7 @@ The 73% figure is a strong signal that hosted software is now ordinary in legal 
 
 It does not show depth of use either. One firm may run intake, matters, documents, billing, and reporting in one cloud system. Another may use a single hosted application for one task. Both count as cloud users under a broad survey question.
 
-That gap matters when a firm moves from a national number to a purchase. Legal software adoption at the category level says nothing about what a specific product costs to run. Subscription tiers, payment fees, and add-ons decide that, as the breakdown of [Clio's total cost](/legal-tech/clio-legal-software-total-cost/) shows. Plan limits matter as well. The review of [MyCase legal software](/legal-tech/mycase-legal-software/) found that the features a firm needs often sit above the entry tier. Setup, rollout, and features differ too, as the pieces on [Filevine case types](/legal-tech/filevine-legal-software-case-types/), [Litify implementation](/legal-tech/litify-legal-software-implementation/), and [Smokeball time capture](/legal-tech/smokeball-legal-software-time-capture/) cover. Contract and document systems need their own requirements, set out in [contract lifecycle management](/legal-business/contract-lifecycle-management/) and [document management software](/legal-tech/document-management-software-law-firms/).
+That gap matters when a firm moves from a national number to a purchase. Legal software adoption at the category level says nothing about what a specific product costs to run. Subscription tiers, payment fees, and add-ons decide that, as the breakdown of [Clio's total cost](/legal-tech/clio-legal-software-total-cost/) shows. Plan limits matter as well. The review of [MyCase legal software](/legal-tech/mycase-legal-software/) found that the features a firm needs often sit above the entry tier. Setup, rollout, and features differ too, as the pieces on [Filevine case types](/legal-tech/filevine-legal-software-case-types/), [Litify implementation](/legal-tech/litify-legal-software-implementation/), and [Smokeball time capture](/legal-tech/smokeball-legal-software-time-capture/) cover. Contract and document systems need their own requirements, set out in [contract lifecycle management](/legal-business/contract-lifecycle-management/) and [document management software](/legal-tech/document-management-software-law-firms/). Compare [legal practice management software](/legal-tech/legal-practice-management-software/), [legal research software](/legal-tech/legal-research-software/), and [free legal AI](/legal-tech/free-legal-ai/) before buying.
 
 ## Technology Budgets Rise With Firm Size
 

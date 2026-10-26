@@ -1,0 +1,433 @@
+{
+  "tracker_id": "Blog:63",
+  "status": "verified",
+  "research_question": "Owner-approved addition: How to Become a Legal Assistant and Find Your First Job. Verify every figure and definition in the owner draft against primary sources.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for how to become a legal assistant, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal teams, and people building legal careers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Sources as displayed on 2026-10-26",
+    "scope_limitations": "Claims the pages did not support were reworded or cut; blocked sources were removed."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "how to become a legal assistant",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-10-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "how to become a legal assistant",
+        "type": "short-tail",
+        "volume": 18100,
+        "difficulty": 22,
+        "cpc": 16.49,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/djqguv/how_to_get_a_job_as_a_legal_assistant/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to become a legal assistant in texas",
+        "type": "long-tail",
+        "volume": 590,
+        "difficulty": 22,
+        "cpc": 13.37,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/djqguv/how_to_get_a_job_as_a_legal_assistant/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal assistant and paralegal jobs",
+        "type": "commercial",
+        "volume": 40,
+        "difficulty": 26,
+        "cpc": 0.09,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/djqguv/how_to_get_a_job_as_a_legal_assistant/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to become a legal assistant with no experience",
+        "type": "problem",
+        "volume": 90,
+        "difficulty": 20,
+        "cpc": 21.75,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/djqguv/how_to_get_a_job_as_a_legal_assistant/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to become a legal assistant without experience",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0.0,
+        "intent": "Informational",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/djqguv/how_to_get_a_job_as_a_legal_assistant/",
+        "retrieved_at": "2026-10-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/",
+      "title": "ABA's paralegal definition",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA's paralegal definition",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "title": "BLS occupation profile",
+      "publisher": "bls.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "BLS occupation profile",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.americanbar.org/groups/paralegals/blog/Certificate-Certified/",
+      "title": "ABA's explanation",
+      "publisher": "americanbar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "ABA's explanation",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://nala.org/certification/",
+      "title": "NALA certification information",
+      "publisher": "nala.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "NALA certification information",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onetonline.org/link/summary/43-6012.00",
+      "title": "O*NET legal administrative-support tasks",
+      "publisher": "onetonline.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "O*NET legal administrative-support tasks",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.whitecase.com/careers/locations/united-states/legal-assistants",
+      "title": "White & Case original employer information",
+      "publisher": "whitecase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-10-26",
+      "scope": "White & Case original employer information",
+      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "The ABA defines a paralegal as a person who performs specifically delegated substantive legal work for which a lawyer is responsible.",
+      "source_url": "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "The ABA distinguishes a certificate from a program and certification from a professional association.",
+      "source_url": "https://www.americanbar.org/groups/paralegals/blog/Certificate-Certified/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published source",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "Not applicable",
+      "method": "Published statement",
+      "limitations": "Can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "How to get a job as a legal assistant?",
+      "url": "http://www.reddit.com/r/LawFirm/comments/djqguv/how_to_get_a_job_as_a_legal_assistant/",
+      "publisher": "Reddit",
+      "format": "Forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Forum"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Legal Assistant Career Guide",
+      "url": "http://www.msudenver.edu/innovative-lifelong-learning/blog/how-to-become-a-legal-assistant-or-paralegal-skills-training-and-career-outlook/",
+      "publisher": "MSU Denver",
+      "format": "Education blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Education blog"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "What Does a Legal Assistant Do?",
+      "url": "http://www.indeed.com/career-advice/careers/what-does-a-legal-assistant-do",
+      "publisher": "Indeed",
+      "format": "Career explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Career explainer"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Legal Secretary Certificate Course",
+      "url": "http://www.legalstudies.com/legal-secretary-certificate-course/",
+      "publisher": "LegalStudies",
+      "format": "Course page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Course page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    },
+    {
+      "title": "Legal Assistant Career",
+      "url": "http://www.arlingtoncareerinstitute.edu/paralegal-legal-assistant/legal-assistant-careers/",
+      "publisher": "Arlington Career Institute",
+      "format": "School page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "School page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "No section-level evidence plan tied to primary sources."
+    }
+  ],
+  "content_gaps": [
+    "Top results rarely tie claims to primary sources.",
+    "No reviewed page gives a dated, testable checklist for the reader."
+  ],
+  "value_add": "A primary-source explainer with dated figures, labeled limits, and practical checks the reader can run.",
+  "plan": {
+    "reader_title": "How to Become a Legal Assistant and Find Your First Job",
+    "seo_title": "How to Become a Legal Assistant: 8 Steps to Your First Job",
+    "meta_description": "How to become a legal assistant: compare roles, education routes, certificates versus certification, skills, work samples, and applications that fit the job.",
+    "slug": "/legal/how-to-become-a-legal-assistant/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "legal assistant jobs",
+      "legal assistant certificate"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Step 1 Identify the Role You Want",
+      "Step 2 Choose an Entry Route That Fits",
+      "Step 3 Distinguish a Certificate from Certification",
+      "Step 4 Build Skills Around Reviewable Work",
+      "Step 5 Prepare Safe Work Samples",
+      "Step 6 Learn from an Original Employer Example",
+      "Step 7 Write Applications That Match the Evidence",
+      "Step 8 Use Interviews to Assess Supervision",
+      "What the Labor-Market Data Says",
+      "Turn the Research into a Short Preparation Schedule",
+      "Build Your Next Application Around a Specific Gap",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/groups/paralegals/blog/Certificate-Certified/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Tables from the editorial draft"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/paralegal-salary/",
+      "/legal/what-does-a-paralegal-do/",
+      "/legal/legal-assistant-and-paralegal/",
+      "/legal/what-is-a-law-clerk/"
+    ],
+    "external_link_opportunities": [
+      "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/",
+      "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm",
+      "https://www.americanbar.org/groups/paralegals/blog/Certificate-Certified/",
+      "https://nala.org/certification/",
+      "https://www.onetonline.org/link/summary/43-6012.00",
+      "https://www.whitecase.com/careers/locations/united-states/legal-assistants"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The ABA defines a paralegal as a person who performs specifically delegated substantive legal work for which a lawyer is responsible.",
+      "source_url": "https://www.americanbar.org/groups/paralegals/profession-information/current_aba_definition_of_legal_assistant_paralegal/",
+      "verified": true
+    },
+    {
+      "statement": "The ABA distinguishes a certificate from a program and certification from a professional association.",
+      "source_url": "https://www.americanbar.org/groups/paralegals/blog/Certificate-Certified/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-10-26"
+  }
+}
