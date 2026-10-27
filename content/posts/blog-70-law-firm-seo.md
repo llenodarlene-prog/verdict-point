@@ -157,7 +157,7 @@ links to related questions and official sources;
 
 a clear, restrained contact action.
 
-Do not invent outcomes, client numbers, awards, or experience. Claims about specialization, past results, and testimonials require review under the firm's jurisdictional rules.
+Never make up outcomes, client numbers, awards, or experience. Claims about specialization, past results, and testimonials require review under the firm's jurisdictional rules.
 
 ### Strengthen Attorney and Firm Entities
 
@@ -241,7 +241,7 @@ Location pages should contain office-specific information. Swapping a city name 
 
 The [American Bar Association's September 2026 website review](https://www.americanbar.org/groups/law_practice/resources/law-practice-today/2026/september-2026/what-does-your-law-firms-websites-say-to-prospective-clients/) identifies Model Rules 7.1, 7.2, 1.18, and 1.6 as relevant starting points. State rules and ethics opinions control in each jurisdiction.
 
-Review these items before publication:
+Review these items before a page goes live:
 
 descriptions of experience or expertise;
 
