@@ -72,3 +72,4 @@
   .bhc *{color:#000!important}.bhc-flow li{background:#fff;border:1px solid #000}
 }
 .bhc-print-stamp{display:none}@media print{.bhc-print-stamp{display:block}}
+@media(max-width:767px){.bhc-tabs{display:grid;grid-template-columns:1fr 1fr;overflow:visible}.bhc [role="tab"]{white-space:normal;text-align:center}}
