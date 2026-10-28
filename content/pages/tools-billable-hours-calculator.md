@@ -2,13 +2,15 @@
 title: Billable Hours Calculator for Lawyers and Law Firms
 seo_title: Billable Hours Calculator for Lawyers and Law Firms
 description: Convert minutes to billable hours, calculate targets, and estimate utilization, realization, collections, and billed value.
-slug: /law-firms/billable-hours-calculator/
+slug: /tools/billable-hours-calculator/
 type: page
 schema: WebPage
 tool: billable-hours
 breadcrumb: true
+parent: /tools/
+parent_label: Tools
 draft: false
-modified: 2026-10-27
+modified: 2026-10-28
 ---
 
 # Billable Hours Calculator for Lawyers and Law Firms
