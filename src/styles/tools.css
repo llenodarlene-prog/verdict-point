@@ -96,3 +96,11 @@
 @media(max-width:767px){.ldc-table{table-layout:fixed;width:100%;font-size:.85rem}.ldc-table th:nth-child(2),.ldc-table td:nth-child(2){width:4.5rem}.ldc-table td,.ldc-table th{padding:.4rem .45rem;overflow-wrap:anywhere}}
 .bhc-step input{min-width:0;flex:1 1 9rem}.ldc .bhc-step{flex-wrap:wrap}
 .bhc-step .bhc-add{padding:0 .9rem;font-size:.95rem}
+/* Law firm KPI calculator */
+.kpi-cards{display:grid;gap:.75rem}
+.kpi-card{border:1px solid #eef0f3;border-radius:.6rem;padding:.75rem .9rem}
+.prose .kpi-card h4{margin:0;font-family:var(--body);font-size:.92rem;font-weight:500;color:#596273}
+.prose .bhc .kpi-value{margin:.15rem 0 .2rem;font-size:1.35rem;font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.prose .bhc .kpi-na{font-size:1rem;color:#596273}
+.kpi-card details summary{cursor:pointer;font-size:.88rem;color:var(--ink);min-height:32px;display:flex;align-items:center}
+@media print{body[data-bhc-print="kpi"] .kpi-card details{display:block}body[data-bhc-print="kpi"] .kpi-card details>*{display:block}}
