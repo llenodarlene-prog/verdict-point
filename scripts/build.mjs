@@ -63,21 +63,25 @@ const shared = {
 const contentHash = async file => createHash('sha256').update(await readFile(file)).digest('hex').slice(0, 10);
 const assetVersion = { css: await contentHash('src/styles/main.css'), js: await contentHash('src/scripts/main.js') };
 // Interactive tools: a page names its tool in front matter (tool: billable-hours) and its body places the markup with a ```tool fence.
-// Each tool's stylesheet and module carry their own content hash, like main.css and main.js.
-const coreVersion = await contentHash('src/scripts/calculators/billable-hours-core.js');
-const uiSource = await readFile('src/scripts/calculators/billable-hours-ui.js', 'utf8');
-// The module imports the core by a versioned URL, and its own version covers both files, so a deploy never mixes old and new formulas.
-await writeFile(path.join(dist, 'scripts/calculators/billable-hours-ui.js'), uiSource.replace("from './billable-hours-core.js'", `from './billable-hours-core.js?v=${coreVersion}'`));
-const uiVersion = createHash('sha256').update(uiSource + coreVersion).digest('hex').slice(0, 10);
-const tools = {
-  'billable-hours': {
-    markup: await readFile('src/partials/billable-hours-calculator.html', 'utf8'),
-    css: `/styles/billable-hours-calculator.css?v=${await contentHash('src/styles/billable-hours-calculator.css')}`,
-    js: `/scripts/calculators/billable-hours-ui.js?v=${uiVersion}`,
-    core: `/scripts/calculators/billable-hours-core.js?v=${coreVersion}`,
-    app: { name: 'Billable Hours Calculator', applicationCategory: 'BusinessApplication', operatingSystem: 'Any (runs in a web browser)', isAccessibleForFree: true }
-  }
-};
+// The shared tools stylesheet and each module carry their own content hash, like main.css and main.js.
+// Each tool has a pure core module and a UI module. The UI imports the core by a versioned URL, and its own
+// version covers both files, so a deploy never mixes old and new formulas.
+const toolCss = `/styles/tools.css?v=${await contentHash('src/styles/tools.css')}`;
+const app = name => ({ name, applicationCategory: 'BusinessApplication', operatingSystem: 'Any (runs in a web browser)', isAccessibleForFree: true });
+const toolSpecs = { 'billable-hours': { partial: 'billable-hours-calculator', app: app('Billable Hours Calculator') }, 'legal-deadline': { partial: 'legal-deadline-calculator', app: app('Legal Deadline Calculator') } };
+const tools = {};
+for (const [id, spec] of Object.entries(toolSpecs)) {
+  const coreVersion = await contentHash(`src/scripts/calculators/${id}-core.js`);
+  const uiSource = await readFile(`src/scripts/calculators/${id}-ui.js`, 'utf8');
+  const importPath = `from './${id}-core.js'`;
+  if (!uiSource.includes(importPath)) throw new Error(`${id}-ui.js must import ./${id}-core.js`);
+  await writeFile(path.join(dist, `scripts/calculators/${id}-ui.js`), uiSource.replace(importPath, `from './${id}-core.js?v=${coreVersion}'`));
+  tools[id] = {
+    markup: await readFile(`src/partials/${spec.partial}.html`, 'utf8'), css: toolCss, app: spec.app,
+    js: `/scripts/calculators/${id}-ui.js?v=${createHash('sha256').update(uiSource + coreVersion).digest('hex').slice(0, 10)}`,
+    core: `/scripts/calculators/${id}-core.js?v=${coreVersion}`
+  };
+}
 const header = replace(headerTemplate, shared);
 // Images resolve through data/assets.json so every rendered image carries registered dimensions and alt guidance.
 const assetFor = src => {
@@ -128,7 +132,8 @@ for (const page of parsed) {
   if (article && metadata.draft !== true) for (const field of ['published', 'modified', 'author']) if (!metadata[field]) throw new Error(`${source}: published content missing ${field}`);
   const featured = metadata.image ? assetFor(metadata.image) : null;
   if (metadata.image && !featured) throw new Error(`${source}: featured image ${metadata.image} is not registered in data/assets.json`);
-  const hub = nav.primary.find(item => item.url !== '/' && metadata.slug.startsWith(item.url));
+  // A page outside the menu can name its parent section in front matter (parent: /tools/, parent_label: Tools) for its breadcrumb.
+  const hub = nav.primary.find(item => item.url !== '/' && metadata.slug.startsWith(item.url)) || (metadata.parent && metadata.parent !== metadata.slug ? { url: metadata.parent, label: metadata.parent_label || metadata.parent } : null);
   const crumbs = [{ name: 'Home', url: `${siteUrl}/` }, ...(hub && hub.url !== metadata.slug ? [{ name: hub.label, url: canonical(hub.url) }] : []), { name: metadata.title, url }];
   const schema = article ? articleSchema({ metadata, url, site, siteUrl, image: featured, body, crumbs, logo: logoImage, hubUrl: hub && hub.url !== metadata.slug ? canonical(hub.url) : null }) : {
     '@context': 'https://schema.org',

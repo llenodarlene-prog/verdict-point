@@ -1,1 +1,3 @@
-[]
+[
+  { "from": "/law-firms/billable-hours-calculator/", "to": "/tools/billable-hours-calculator/", "status": 301 }
+]
