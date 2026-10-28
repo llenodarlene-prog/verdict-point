@@ -1,4 +1,4 @@
-/* Billable hours calculator. Scoped to .bhc; uses the site palette tokens from main.css. */
+/* Interactive tools (billable hours, legal deadline). Scoped to .bhc; uses the site palette tokens from main.css. */
 .bhc{--bhc-error:#9B1C1C;--bhc-success:#176B45;--bhc-line:#d8dce2;width:min(1120px,calc(100vw - 2rem));margin:2rem calc(50% - min(560px,50vw - 1rem));background:var(--paper);border:1px solid color-mix(in srgb,var(--secondary) 55%,white);border-radius:1rem;padding:clamp(1rem,3vw,2rem);font-family:var(--body)}
 .prose .bhc h2.bhc-title{margin:0 0 .25rem;font-size:1.6rem}
 .prose .bhc p{font-size:1rem}
@@ -73,3 +73,26 @@
 }
 .bhc-print-stamp{display:none}@media print{.bhc-print-stamp{display:block}}
 @media(max-width:767px){.bhc-tabs{display:grid;grid-template-columns:1fr 1fr;overflow:visible}.bhc [role="tab"]{white-space:normal;text-align:center}}
+/* Legal deadline calculator */
+.bhc-version{font-size:.88rem!important;color:#596273;margin:-.5rem 0 1rem}
+.ldc .bhc-panel{margin-top:.5rem}
+.bhc-checks{display:grid!important;gap:.4rem}
+.bhc-checks .bhc-check{align-items:flex-start;padding:.55rem .8rem;line-height:1.35}
+.bhc-checks input{margin-top:.2rem}
+.bhc-add{white-space:nowrap}
+.ldc-chips{list-style:none;padding:0;margin:.5rem 0 0;display:flex;flex-wrap:wrap;gap:.4rem}
+.ldc-chips button{min-height:36px;padding:.3rem .7rem;font-variant-numeric:tabular-nums}
+.ldc-answer{display:grid;gap:.15rem;margin:0 0 1rem;padding:.9rem 1rem;background:var(--ink);color:#fff;border-radius:.6rem}
+.ldc-label{font-size:.8rem;text-transform:uppercase;letter-spacing:.1em;color:var(--secondary)}
+.ldc-answer strong{font-family:var(--display);font-size:clamp(1.35rem,1.1rem + 1vw,1.75rem);font-weight:500;line-height:1.2}
+.ldc-assume{margin:.25rem 0 0;padding-left:1.1rem}
+.prose .ldc-assume li{font-size:.92rem}
+.ldc-steps{margin-top:1.25rem;background:#fff;border:1px solid var(--bhc-line);border-radius:.8rem;padding:.75rem 1rem}
+.ldc-steps summary{cursor:pointer;font-weight:500;color:var(--ink);min-height:44px;display:flex;align-items:center}
+.ldc-table{margin-top:.75rem}
+.ldc-table tbody tr{cursor:default}
+.ldc-table tr.ldc-final td{font-weight:600;background:color-mix(in srgb,var(--secondary) 22%,white)}
+@media print{body[data-bhc-print="deadline"] .ldc-steps{border:0;padding:0}}
+@media(max-width:767px){.ldc-table{table-layout:fixed;width:100%;font-size:.85rem}.ldc-table th:nth-child(2),.ldc-table td:nth-child(2){width:4.5rem}.ldc-table td,.ldc-table th{padding:.4rem .45rem;overflow-wrap:anywhere}}
+.bhc-step input{min-width:0;flex:1 1 9rem}.ldc .bhc-step{flex-wrap:wrap}
+.bhc-step .bhc-add{padding:0 .9rem;font-size:.95rem}

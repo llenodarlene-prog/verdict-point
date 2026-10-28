@@ -15,7 +15,9 @@
     {
       "heading": "Tools",
       "links": [
-        { "label": "Billable Hours Calculator", "url": "/law-firms/billable-hours-calculator/" }
+        { "label": "All Tools", "url": "/tools/" },
+        { "label": "Legal Deadline Calculator", "url": "/tools/legal-deadline-calculator/" },
+        { "label": "Billable Hours Calculator", "url": "/tools/billable-hours-calculator/" }
       ]
     },
     {
