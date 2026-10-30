@@ -1,22 +1,22 @@
 <section class="bhc kpi" id="calculator" aria-labelledby="kpi-title" data-kpi>
-  <h2 id="kpi-title" class="bhc-title">Calculator</h2>
-  <p class="bhc-privacy">Your figures stay in your browser and are not sent to Verdict Point.</p>
+  <div class="bhc-head"><span class="bhc-badge">{{icon:chart-bar}}</span><div><h2 id="kpi-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
   <p class="bhc-version">Use totals for the same period, such as one year or one quarter. Each result shows its definition and formula.</p>
   <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The definitions, formulas, and worked example below work without it.</p></noscript>
   <div class="bhc-tabs" role="tablist" aria-label="KPI sections">
-    <button type="button" role="tab" id="kpi-tab-time" aria-controls="kpi-panel-time" aria-selected="true">Time and Capacity</button>
-    <button type="button" role="tab" id="kpi-tab-billing" aria-controls="kpi-panel-billing" aria-selected="false" tabindex="-1">Billing and Collections</button>
-    <button type="button" role="tab" id="kpi-tab-profit" aria-controls="kpi-panel-profit" aria-selected="false" tabindex="-1">Profitability</button>
-    <button type="button" role="tab" id="kpi-tab-intake" aria-controls="kpi-panel-intake" aria-selected="false" tabindex="-1">Marketing and Intake</button>
+    <button type="button" role="tab" id="kpi-tab-time" aria-controls="kpi-panel-time" aria-selected="true">{{icon:hourglass}}Time and Capacity</button>
+    <button type="button" role="tab" id="kpi-tab-billing" aria-controls="kpi-panel-billing" aria-selected="false" tabindex="-1">{{icon:receipt-2}}Billing and Collections</button>
+    <button type="button" role="tab" id="kpi-tab-profit" aria-controls="kpi-panel-profit" aria-selected="false" tabindex="-1">{{icon:report-money}}Profitability</button>
+    <button type="button" role="tab" id="kpi-tab-intake" aria-controls="kpi-panel-intake" aria-selected="false" tabindex="-1">{{icon:filter}}Marketing and Intake</button>
   </div>
   <div class="bhc-panel" role="tabpanel" id="kpi-panel-time" aria-labelledby="kpi-tab-time" data-section="time">
     <form class="bhc-form" novalidate>
       <div class="bhc-field"><label for="kpi-time-totalHours">Total work hours</label><input id="kpi-time-totalHours" name="totalHours" data-figure inputmode="decimal" aria-describedby="kpi-time-totalHours-err"><p class="bhc-err" id="kpi-time-totalHours-err"></p></div>
       <div class="bhc-field"><label for="kpi-time-billableHours">Billable hours</label><input id="kpi-time-billableHours" name="billableHours" data-figure inputmode="decimal" aria-describedby="kpi-time-billableHours-err"><p class="bhc-err" id="kpi-time-billableHours-err"></p></div>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="clear">Clear section</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear section</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="kpi-time-result-h"><h3 id="kpi-time-result-h" tabindex="-1">Results</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy summary</button><button type="button" data-action="print">Print dashboard</button></div></div>
+    <div class="bhc-result" aria-labelledby="kpi-time-result-h"><h3 id="kpi-time-result-h" tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print dashboard</button></div></div>
   </div>
   <div class="bhc-panel" role="tabpanel" id="kpi-panel-billing" aria-labelledby="kpi-tab-billing" data-section="billing" hidden>
     <form class="bhc-form" novalidate>
@@ -24,20 +24,20 @@
       <div class="bhc-field"><label for="kpi-billing-standardValue">Standard value of recorded time ($)</label><input id="kpi-billing-standardValue" name="standardValue" data-figure inputmode="decimal" aria-describedby="kpi-billing-standardValue-help kpi-billing-standardValue-err"><p class="bhc-note" id="kpi-billing-standardValue-help">Billable hours × standard rates, before write-downs.</p><p class="bhc-err" id="kpi-billing-standardValue-err"></p></div>
       <div class="bhc-field"><label for="kpi-billing-billedValue">Billed value ($)</label><input id="kpi-billing-billedValue" name="billedValue" data-figure inputmode="decimal" aria-describedby="kpi-billing-billedValue-help kpi-billing-billedValue-err"><p class="bhc-note" id="kpi-billing-billedValue-help">Amount invoiced after write-downs and discounts.</p><p class="bhc-err" id="kpi-billing-billedValue-err"></p></div>
       <div class="bhc-field"><label for="kpi-billing-collectedValue">Collected value ($)</label><input id="kpi-billing-collectedValue" name="collectedValue" data-figure inputmode="decimal" aria-describedby="kpi-billing-collectedValue-help kpi-billing-collectedValue-err"><p class="bhc-note" id="kpi-billing-collectedValue-help">Payments received against those bills.</p><p class="bhc-err" id="kpi-billing-collectedValue-err"></p></div>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="clear">Clear section</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear section</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="kpi-billing-result-h"><h3 id="kpi-billing-result-h" tabindex="-1">Results</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy summary</button><button type="button" data-action="print">Print dashboard</button></div></div>
+    <div class="bhc-result" aria-labelledby="kpi-billing-result-h"><h3 id="kpi-billing-result-h" tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print dashboard</button></div></div>
   </div>
   <div class="bhc-panel" role="tabpanel" id="kpi-panel-profit" aria-labelledby="kpi-tab-profit" data-section="profit" hidden>
     <form class="bhc-form" novalidate>
       <div class="bhc-field"><label for="kpi-profit-revenue">Revenue ($)</label><input id="kpi-profit-revenue" name="revenue" data-figure inputmode="decimal" aria-describedby="kpi-profit-revenue-err"><p class="bhc-err" id="kpi-profit-revenue-err"></p></div>
       <div class="bhc-field"><label for="kpi-profit-expenses">Operating expenses ($)</label><input id="kpi-profit-expenses" name="expenses" data-figure inputmode="decimal" aria-describedby="kpi-profit-expenses-help kpi-profit-expenses-err"><p class="bhc-note" id="kpi-profit-expenses-help">Include salaries and overhead. Say whether owner pay is included when you compare results.</p><p class="bhc-err" id="kpi-profit-expenses-err"></p></div>
       <div class="bhc-field"><label for="kpi-profit-lawyers">Lawyers or FTEs</label><input id="kpi-profit-lawyers" name="lawyers" data-figure inputmode="decimal" aria-describedby="kpi-profit-lawyers-err"><p class="bhc-err" id="kpi-profit-lawyers-err"></p></div>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="clear">Clear section</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear section</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="kpi-profit-result-h"><h3 id="kpi-profit-result-h" tabindex="-1">Results</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy summary</button><button type="button" data-action="print">Print dashboard</button></div></div>
+    <div class="bhc-result" aria-labelledby="kpi-profit-result-h"><h3 id="kpi-profit-result-h" tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print dashboard</button></div></div>
   </div>
   <div class="bhc-panel" role="tabpanel" id="kpi-panel-intake" aria-labelledby="kpi-tab-intake" data-section="intake" hidden>
     <form class="bhc-form" novalidate>
@@ -45,10 +45,10 @@
       <div class="bhc-field"><label for="kpi-intake-consultations">Consultations</label><input id="kpi-intake-consultations" name="consultations" data-figure inputmode="numeric" aria-describedby="kpi-intake-consultations-err"><p class="bhc-err" id="kpi-intake-consultations-err"></p></div>
       <div class="bhc-field"><label for="kpi-intake-newMatters">New matters opened</label><input id="kpi-intake-newMatters" name="newMatters" data-figure inputmode="numeric" aria-describedby="kpi-intake-newMatters-err"><p class="bhc-err" id="kpi-intake-newMatters-err"></p></div>
       <div class="bhc-field"><label for="kpi-intake-marketingSpend">Marketing spend ($)</label><input id="kpi-intake-marketingSpend" name="marketingSpend" data-figure inputmode="decimal" aria-describedby="kpi-intake-marketingSpend-err"><p class="bhc-err" id="kpi-intake-marketingSpend-err"></p></div>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="clear">Clear section</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear section</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="kpi-intake-result-h"><h3 id="kpi-intake-result-h" tabindex="-1">Results</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy summary</button><button type="button" data-action="print">Print dashboard</button></div></div>
+    <div class="bhc-result" aria-labelledby="kpi-intake-result-h"><h3 id="kpi-intake-result-h" tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print dashboard</button></div></div>
   </div>
   <p class="bhc-live" aria-live="polite" data-live></p>
 </section>

@@ -20,6 +20,19 @@ function init(root) {
   let timer = null, undo = null;
 
   const el = (tag, attrs = {}, text) => { const node = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v); if (text !== undefined) node.textContent = text; return node; };
+  // Visual helpers: Tabler icons from the page's inline sprite, stat tiles, a result fade, and a short toast.
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  const icon = name => { const svg = document.createElementNS(SVGNS, 'svg'); svg.setAttribute('class', 'ti'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false'); const use = document.createElementNS(SVGNS, 'use'); use.setAttribute('href', `#ti-${name}`); svg.append(use); return svg; };
+  const tile = (iconName, label, value, note) => { const t = el('div', { class: 'bhc-tile' }); const top = el('span', { class: 'bhc-tile-top' }); top.append(icon(iconName), document.createTextNode(label)); t.append(top, el('span', { class: 'bhc-tile-value' }, value)); if (note) t.append(el('span', { class: 'bhc-tile-note' }, note)); return t; };
+  const tiles = list => { const wrap = el('div', { class: 'bhc-tiles' }); wrap.append(...list); return wrap; };
+  const flash = node => { node.classList.remove('is-updated'); void node.offsetWidth; node.classList.add('is-updated'); };
+  const toastEl = el('div', { class: 'bhc-toast', role: 'status' });
+  document.body.append(toastEl);
+  let toastTimer = null;
+  const toast = message => { toastEl.replaceChildren(icon('check'), document.createTextNode(message)); toastEl.classList.add('is-on'); clearTimeout(toastTimer); toastTimer = setTimeout(() => toastEl.classList.remove('is-on'), 2200); };
+  // Buttons hold an icon and a text label; feedback swaps only the label.
+  const setLabel = (button, text) => { const node = [...button.childNodes].reverse().find(n => n.nodeType === 3); if (node) node.nodeValue = text; else button.append(document.createTextNode(text)); };
+  const labelOf = button => ([...button.childNodes].reverse().find(n => n.nodeType === 3)?.nodeValue || button.textContent).trim();
   const todayIso = () => { const t = new Date(); return `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, '0')}-${String(t.getDate()).padStart(2, '0')}`; };
   function setError(input, message) {
     input.setAttribute('aria-invalid', message ? 'true' : 'false');
@@ -64,14 +77,15 @@ function init(root) {
     const unit = input.mode === 'business' ? 'business day' : 'calendar day';
     const plural = input.days === 1 ? unit : `${unit}s`;
     const head = el('p', { class: 'ldc-answer' });
-    head.append(el('span', { class: 'ldc-label' }, 'Deadline'), el('strong', {}, longDate(r.deadline)));
-    const dl = el('dl', { class: 'bhc-figures' });
-    const add = (t, v, note) => { const w = el('div'); w.append(el('dt', {}, t), el('dd', {}, v)); if (note) w.append(el('dd', { class: 'bhc-def' }, note)); dl.append(w); };
-    add('Start date', longDate(input.start));
-    add('Period', `${input.days.toLocaleString('en-US')} ${plural} ${input.direction === 'forward' ? 'after' : 'before'} the start date`);
-    if (r.rolled) add('Adjustment', `The count ended on ${longDate(r.lastCounted)}, which is not a business day, so the deadline moved ${input.direction === 'forward' ? 'forward' : 'back'} ${r.rolledDays} day${r.rolledDays === 1 ? '' : 's'}.`);
-    if (r.landsOnExcluded) add('Note', `This date is a ${r.landsOnExcluded}. Turn on the weekend and holiday adjustment if your rule requires it.`);
-    add('Calendar days from start', r.calendarSpan.toLocaleString('en-US'));
+    head.append(icon('calendar-due'), el('span', { class: 'ldc-label' }, 'Deadline'), el('strong', {}, longDate(r.deadline)));
+    const list = [
+      tile('calendar-event', 'Start date', longDate(input.start)),
+      tile('hourglass', 'Period', `${input.days.toLocaleString('en-US')} ${plural}`, input.direction === 'forward' ? 'After the start date' : 'Before the start date'),
+      tile('arrows-left-right', 'Calendar days from start', r.calendarSpan.toLocaleString('en-US')),
+      tile('calendar-x', 'Days skipped', String(r.steps.filter(x => x.kind === 'skip' || x.kind === 'roll').length), input.mode === 'business' ? 'Weekends, holidays, and excluded dates' : 'Days the deadline moved past')
+    ];
+    if (r.rolled) list.push(tile('alert-circle', 'Moved off a closed day', `${r.rolledDays} day${r.rolledDays === 1 ? '' : 's'} ${input.direction === 'forward' ? 'later' : 'earlier'}`, `The count ended on ${longDate(r.lastCounted)}.`));
+    if (r.landsOnExcluded) list.push(tile('alert-circle', 'Lands on a closed day', r.landsOnExcluded, 'Turn on the weekend and holiday adjustment if your rule requires it.'));
     const assumptions = [
       input.includeStart ? 'Start date counted as day 1' : 'Start date not counted',
       input.mode === 'business' ? 'Weekends' + (input.holidays ? ', federal holidays' : '') + (excluded.length ? ', and your excluded dates' : '') + ' skipped while counting' : 'Every calendar day counted',
@@ -80,7 +94,9 @@ function init(root) {
     ];
     const ul = el('ul', { class: 'ldc-assume', 'aria-label': 'Assumptions used' });
     for (const a of assumptions) ul.append(el('li', {}, a));
-    out.replaceChildren(head, dl, el('p', { class: 'bhc-formula' }, 'Assumptions used:'), ul);
+    const cap = el('p', { class: 'viz-cap' }); cap.append(icon('info-circle'), document.createTextNode('Assumptions used'));
+    out.replaceChildren(head, tiles(list), calendar(input, r), cap, ul);
+    flash(out);
     // Day-by-day count, capped for display; the calculation itself always covers the full period.
     const rows = r.steps.length > 420 ? [...r.steps.slice(0, 200), null, ...r.steps.slice(-200)] : r.steps;
     const table = el('table', { class: 'bhc-table ldc-table' });
@@ -101,6 +117,36 @@ function init(root) {
     summary = ['Verdict Point Legal Deadline Calculator', `Deadline: ${longDate(r.deadline)}`, `Start date: ${longDate(input.start)}`, `Period: ${input.days} ${plural} ${input.direction === 'forward' ? 'after' : 'before'} the start date`, ...(r.rolled ? [`Count ended ${longDate(r.lastCounted)}; moved to the next day that is not a weekend or holiday`] : []), ...(excluded.length ? [`Excluded dates: ${excluded.join(', ')}`] : []), `Assumptions: ${assumptions.join('; ')}`, `Holiday rules version: 2026-10-28`, `Calculated ${new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}`, page, 'Check the governing rule, order, and local rules before relying on this date.'].join('\n');
   }
 
+  // Month grids from the start date to the deadline. Long periods show only the first and last month.
+  function calendar(input, r) {
+    const kinds = new Map();
+    for (const st of r.steps) kinds.set(st.date, st.kind === 'count' ? 'counted' : st.kind === 'start' ? 'start' : 'skipped');
+    kinds.set(input.start, 'start'); kinds.set(r.deadline, 'deadline');
+    const lo = Math.min(input.start, r.deadline), hi = Math.max(input.start, r.deadline);
+    const monthOf = n => { const d = new Date(n * 86400000); return [d.getUTCFullYear(), d.getUTCMonth()]; };
+    const months = [];
+    let [y, m] = monthOf(lo); const [hy, hm] = monthOf(hi);
+    while (y < hy || (y === hy && m <= hm)) { months.push([y, m]); m += 1; if (m === 12) { m = 0; y += 1; } }
+    const shown = months.length > 3 ? [months[0], months[months.length - 1]] : months;
+    const wrap = el('div', { class: 'viz' });
+    const cap = el('p', { class: 'viz-cap' }); cap.append(icon('calendar-event'), document.createTextNode(months.length > 3 ? `The count on a calendar (first and last of ${months.length} months)` : 'The count on a calendar'));
+    const grid = el('div', { class: 'ldc-cal', role: 'img', 'aria-label': `Calendar from ${longDate(lo)} to ${longDate(hi)}. Deadline ${longDate(r.deadline)}. The day-by-day table below lists every day.` });
+    for (const [yy, mm] of shown) {
+      const box = el('div', { class: 'ldc-month' });
+      box.append(el('h4', {}, new Date(Date.UTC(yy, mm, 1)).toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' })));
+      const g = el('div', { class: 'ldc-grid', 'aria-hidden': 'true' });
+      for (const d of ['S', 'M', 'T', 'W', 'T', 'F', 'S']) g.append(el('span', { class: 'dow' }, d));
+      const first = Date.UTC(yy, mm, 1) / 86400000, lead = new Date(first * 86400000).getUTCDay(), len = new Date(Date.UTC(yy, mm + 1, 0)).getUTCDate();
+      for (let i = 0; i < lead; i += 1) g.append(el('span'));
+      for (let d = 0; d < len; d += 1) { const n = first + d, k = kinds.get(n); g.append(el('span', { class: k ? `in ${k}` : (n >= lo && n <= hi ? 'in' : '') }, String(d + 1))); }
+      box.append(g); grid.append(box);
+    }
+    const legend = el('ul', { class: 'ldc-legend', 'aria-hidden': 'true' });
+    for (const [label, style] of [['Start', 'outline:2px solid var(--secondary);outline-offset:-2px'], ['Counted', 'background:color-mix(in srgb,var(--ink) 12%,white)'], ['Skipped or moved past', 'background:repeating-linear-gradient(45deg,#f3f4f6,#f3f4f6 3px,#e5e7eb 3px,#e5e7eb 6px)'], ['Deadline', 'background:var(--accent)']]) { const li = el('li'); li.append(el('i', { style }), document.createTextNode(label)); legend.append(li); }
+    wrap.append(cap, grid, legend);
+    return wrap;
+  }
+
   function run({ announce = true, focus = false } = {}) {
     const input = read();
     if (!input) { out.replaceChildren(el('p', { class: 'bhc-empty' }, 'Add a start date and number of days to see the deadline and each step of the count.')); stepsWrap.hidden = true; summary = ''; return; }
@@ -118,8 +164,8 @@ function init(root) {
   async function copyText(button, text, done) {
     try { await navigator.clipboard.writeText(text); }
     catch { const area = el('textarea'); area.value = text; area.setAttribute('readonly', ''); area.style.position = 'fixed'; area.style.opacity = '0'; document.body.append(area); area.select(); document.execCommand('copy'); area.remove(); }
-    const label = button.textContent; button.textContent = done; live.textContent = done === 'Copied' ? 'Copied to clipboard.' : 'Calculation link copied.';
-    setTimeout(() => { button.textContent = label; }, 2000);
+    const label = labelOf(button); setLabel(button, done); { const msg = done === 'Copied' ? 'Copied to clipboard.' : 'Calculation link copied.'; live.textContent = msg; toast(msg); }
+    setTimeout(() => setLabel(button, label), 2000);
   }
   function shareUrl() {
     const query = serializeDeadlineState({ start: field('start').value, days: field('days').value.trim(), dir: radio('dir'), mode: radio('mode'), first: field('first').checked, adjust: field('roll').checked ? 'roll' : 'none', hol: field('hol').checked, exclude: excluded.join(',') });

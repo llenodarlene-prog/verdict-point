@@ -1,12 +1,12 @@
 <section class="bhc" id="calculator" aria-labelledby="bhc-title" data-bhc>
-  <h2 id="bhc-title" class="bhc-title">Calculator</h2>
-  <p class="bhc-privacy">Your entries stay in your browser and are not sent to Verdict Point.</p>
+  <div class="bhc-head"><span class="bhc-badge">{{icon:clock-hour-4}}</span><div><h2 id="bhc-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your entries stay in your browser and are not sent to Verdict Point.</p></div></div>
   <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formulas, the six-minute chart, and the worked examples below work without it.</p></noscript>
   <div class="bhc-tabs" role="tablist" aria-label="Calculator tools">
-    <button type="button" role="tab" id="bhc-tab-time" aria-controls="bhc-panel-time" aria-selected="true">Time Entry</button>
-    <button type="button" role="tab" id="bhc-tab-target" aria-controls="bhc-panel-target" aria-selected="false" tabindex="-1">Target Planner</button>
-    <button type="button" role="tab" id="bhc-tab-metrics" aria-controls="bhc-panel-metrics" aria-selected="false" tabindex="-1">Law Firm Metrics</button>
-    <button type="button" role="tab" id="bhc-tab-chart" aria-controls="bhc-panel-chart" aria-selected="false" tabindex="-1">Increment Chart</button>
+    <button type="button" role="tab" id="bhc-tab-time" aria-controls="bhc-panel-time" aria-selected="true">{{icon:clock-hour-4}}Time Entry</button>
+    <button type="button" role="tab" id="bhc-tab-target" aria-controls="bhc-panel-target" aria-selected="false" tabindex="-1">{{icon:target-arrow}}Target Planner</button>
+    <button type="button" role="tab" id="bhc-tab-metrics" aria-controls="bhc-panel-metrics" aria-selected="false" tabindex="-1">{{icon:chart-pie}}Law Firm Metrics</button>
+    <button type="button" role="tab" id="bhc-tab-chart" aria-controls="bhc-panel-chart" aria-selected="false" tabindex="-1">{{icon:table}}Increment Chart</button>
   </div>
 
   <div class="bhc-panel" role="tabpanel" id="bhc-panel-time" aria-labelledby="bhc-tab-time" data-tool="time">
@@ -47,10 +47,10 @@
         <div class="bhc-field"><label for="bhc-rate">Hourly rate (optional)</label><input id="bhc-rate" name="rate" inputmode="decimal" aria-describedby="bhc-rate-err"><p class="bhc-err" id="bhc-rate-err"></p></div>
         <div class="bhc-field"><label for="bhc-currency">Currency</label><select id="bhc-currency" name="currency"><option>USD</option><option>CAD</option><option>GBP</option><option>EUR</option><option>AUD</option></select></div>
       </div>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="reset">Reset</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="reset">{{icon:arrow-back-up}}Reset</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="bhc-time-result-h"><h3 id="bhc-time-result-h" tabindex="-1">Result</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy results</button><button type="button" data-action="print">Print / Save as PDF</button><button type="button" data-action="share">Share calculation</button></div></div>
+    <div class="bhc-result" aria-labelledby="bhc-time-result-h"><h3 id="bhc-time-result-h" tabindex="-1">{{icon:sparkles}}Result</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy results</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button><button type="button" data-action="share">{{icon:share}}Share calculation</button></div></div>
   </div>
 
   <div class="bhc-panel" role="tabpanel" id="bhc-panel-target" aria-labelledby="bhc-tab-target" data-tool="target" hidden>
@@ -62,10 +62,10 @@
         <div class="bhc-field"><label for="bhc-doneweeks">Working weeks completed</label><input id="bhc-doneweeks" name="doneweeks" inputmode="numeric" value="0" aria-describedby="bhc-doneweeks-err"><p class="bhc-err" id="bhc-doneweeks-err"></p></div>
       </div>
       <div class="bhc-field"><label for="bhc-days">Working days per week</label><input id="bhc-days" name="days" inputmode="numeric" value="5" aria-describedby="bhc-days-err"><p class="bhc-err" id="bhc-days-err"></p></div>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="reset">Reset</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="reset">{{icon:arrow-back-up}}Reset</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="bhc-target-result-h"><h3 id="bhc-target-result-h" tabindex="-1">Result</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy results</button><button type="button" data-action="print">Print / Save as PDF</button><button type="button" data-action="share">Share calculation</button></div></div>
+    <div class="bhc-result" aria-labelledby="bhc-target-result-h"><h3 id="bhc-target-result-h" tabindex="-1">{{icon:sparkles}}Result</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy results</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button><button type="button" data-action="share">{{icon:share}}Share calculation</button></div></div>
   </div>
 
   <div class="bhc-panel" role="tabpanel" id="bhc-panel-metrics" aria-labelledby="bhc-tab-metrics" data-tool="metrics" hidden>
@@ -85,10 +85,10 @@
         </div>
         <p class="bhc-note">These results are planning estimates. Firms may define realization and collection metrics differently, so use the definitions shown here when comparing results.</p>
       </div>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="reset">Reset</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="reset">{{icon:arrow-back-up}}Reset</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="bhc-metrics-result-h"><h3 id="bhc-metrics-result-h" tabindex="-1">Result</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy results</button><button type="button" data-action="print">Print / Save as PDF</button><button type="button" data-action="share">Share calculation</button></div></div>
+    <div class="bhc-result" aria-labelledby="bhc-metrics-result-h"><h3 id="bhc-metrics-result-h" tabindex="-1">{{icon:sparkles}}Result</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy results</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button><button type="button" data-action="share">{{icon:share}}Share calculation</button></div></div>
   </div>
 
   <div class="bhc-panel bhc-panel--wide" role="tabpanel" id="bhc-panel-chart" aria-labelledby="bhc-tab-chart" data-tool="chart" hidden>
@@ -98,7 +98,7 @@
       <fieldset class="bhc-chips bhc-cols"><legend>Column shown on small screens</legend>
         <button type="button" data-col="six" aria-pressed="true">6 min</button><button type="button" data-col="ten" aria-pressed="false">10 min</button><button type="button" data-col="fifteen" aria-pressed="false">15 min</button><button type="button" data-col="custom" aria-pressed="false" disabled>Custom</button>
       </fieldset>
-      <div class="bhc-actions"><button type="button" data-action="copy">Copy table</button><button type="button" data-action="print">Print table</button><button type="button" data-action="share">Share calculation</button><button type="button" data-action="reset">Reset</button></div>
+      <div class="bhc-actions"><button type="button" data-action="copy">{{icon:copy}}Copy table</button><button type="button" data-action="print">{{icon:printer}}Print table</button><button type="button" data-action="share">{{icon:share}}Share calculation</button><button type="button" data-action="reset">{{icon:arrow-back-up}}Reset</button></div>
     </form>
     <p class="bhc-hint">Select a row to send that number of minutes to the Time Entry tool.</p>
     <div class="bhc-table-wrap" data-out></div>
