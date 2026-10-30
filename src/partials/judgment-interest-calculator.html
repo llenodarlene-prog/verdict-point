@@ -1,6 +1,6 @@
 <section class="bhc pji" id="calculator" aria-labelledby="pji-title" data-pji>
-  <h2 id="pji-title" class="bhc-title">Calculator</h2>
-  <p class="bhc-privacy">Your entries stay in your browser and are not sent to Verdict Point.</p>
+  <div class="bhc-head"><span class="bhc-badge">{{icon:building-bank}}</span><div><h2 id="pji-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your entries stay in your browser and are not sent to Verdict Point.</p></div></div>
   <p class="bhc-version">Method: 28 U.S.C. 1961, interest computed daily and compounded annually. Reviewed October 28, 2026.</p>
   <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The method and the worked example below work without it.</p></noscript>
   <div class="bhc-panel" data-tool="interest">
@@ -18,11 +18,11 @@
         <label><input type="radio" name="basis" value="actual"> Annual rate ÷ days in each judgment year</label>
       </fieldset>
       <p class="bhc-note">The statute does not set a day-count convention. Use the one your court, clerk, or opposing counsel uses, and say which in any calculation you share.</p>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="reset">Reset</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="reset">{{icon:arrow-back-up}}Reset</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="pji-result-h"><h3 id="pji-result-h" tabindex="-1">Result</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy results</button><button type="button" data-action="print">Print / Save as PDF</button><button type="button" data-action="share">Share calculation</button></div></div>
+    <div class="bhc-result" aria-labelledby="pji-result-h"><h3 id="pji-result-h" tabindex="-1">{{icon:sparkles}}Result</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy results</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button><button type="button" data-action="share">{{icon:share}}Share calculation</button></div></div>
   </div>
-  <details class="ldc-steps" data-steps-wrap hidden><summary>Show the year-by-year schedule</summary><div data-steps></div></details>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the year-by-year schedule</summary><div data-steps></div></details>
   <p class="bhc-live" aria-live="polite" data-live></p>
 </section>

@@ -14,6 +14,19 @@ function init(root) {
   let timeIncrement = 6, chartCol = 'six', timer = null, undo = null;
 
   const el = (tag, attrs = {}, text) => { const node = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v); if (text !== undefined) node.textContent = text; return node; };
+  // Visual helpers: Tabler icons from the page's inline sprite, stat tiles, a result fade, and a short toast.
+  const SVGNS = 'http://www.w3.org/2000/svg';
+  const icon = name => { const svg = document.createElementNS(SVGNS, 'svg'); svg.setAttribute('class', 'ti'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false'); const use = document.createElementNS(SVGNS, 'use'); use.setAttribute('href', `#ti-${name}`); svg.append(use); return svg; };
+  const tile = (iconName, label, value, note) => { const t = el('div', { class: 'bhc-tile' }); const top = el('span', { class: 'bhc-tile-top' }); top.append(icon(iconName), document.createTextNode(label)); t.append(top, el('span', { class: 'bhc-tile-value' }, value)); if (note) t.append(el('span', { class: 'bhc-tile-note' }, note)); return t; };
+  const tiles = list => { const wrap = el('div', { class: 'bhc-tiles' }); wrap.append(...list); return wrap; };
+  const flash = node => { node.classList.remove('is-updated'); void node.offsetWidth; node.classList.add('is-updated'); };
+  const toastEl = el('div', { class: 'bhc-toast', role: 'status' });
+  document.body.append(toastEl);
+  let toastTimer = null;
+  const toast = message => { toastEl.replaceChildren(icon('check'), document.createTextNode(message)); toastEl.classList.add('is-on'); clearTimeout(toastTimer); toastTimer = setTimeout(() => toastEl.classList.remove('is-on'), 2200); };
+  // Buttons hold an icon and a text label; feedback swaps only the label.
+  const setLabel = (button, text) => { const node = [...button.childNodes].reverse().find(n => n.nodeType === 3); if (node) node.nodeValue = text; else button.append(document.createTextNode(text)); };
+  const labelOf = button => ([...button.childNodes].reverse().find(n => n.nodeType === 3)?.nodeValue || button.textContent).trim();
   const field = (panel, name) => panel.querySelector(`[name="${name}"]`);
   const radio = (panel, name) => panel.querySelector(`[name="${name}"]:checked`)?.value;
   const fmt = (value, digits = 2) => new Intl.NumberFormat('en-US', { maximumFractionDigits: digits, minimumFractionDigits: 0 }).format(value);
@@ -42,19 +55,39 @@ function init(root) {
   }
 
   // ---------- Result rendering ----------
-  function rows(items) {
-    const dl = el('dl', { class: 'bhc-figures' });
-    for (const [term, value, note] of items) {
-      const wrap = el('div');
-      wrap.append(el('dt', {}, term), el('dd', {}, value));
-      if (note) wrap.append(el('dd', { class: 'bhc-def' }, note));
-      dl.append(wrap);
+  // Results as icon tiles; items keep the same [label, value, note] shape the copy summary uses.
+  function tileGrid(items, iconList) { return tiles(items.map(([t, v, n], i) => tile(iconList[i] || 'math-function', t, v, n))); }
+  function hero(iconName, label, value) { const p = el('p', { class: 'ldc-answer' }); p.append(icon(iconName), el('span', { class: 'ldc-label' }, label), el('strong', {}, value)); return p; }
+  function bars(title, iconName, list, label) {
+    const wrap = el('div', { class: 'viz' });
+    const cap = el('p', { class: 'viz-cap' }); cap.append(icon(iconName), document.createTextNode(title));
+    wrap.append(cap);
+    const max = Math.max(...list.map(x => x.value), 0) || 1;
+    const box = el('div', { role: 'img', 'aria-label': label });
+    for (const x of list) {
+      const row = el('div', { class: 'viz-row' });
+      const track = el('div', { class: 'viz-track', 'aria-hidden': 'true' }); const fill = el('span', { class: `viz-fill${x.tone ? ` is-${x.tone}` : ''}` }); fill.style.width = `${Math.max(0, x.value) / max * 100}%`; track.append(fill);
+      row.append(el('span', { 'aria-hidden': 'true' }, x.label), track, el('span', { class: 'viz-num', 'aria-hidden': 'true' }, x.text));
+      box.append(row);
     }
-    return dl;
+    wrap.append(box);
+    return wrap;
+  }
+  function ring(percent, big, small) {
+    const wrap = el('div', { class: 'ring' });
+    const svg = document.createElementNS(SVGNS, 'svg'); svg.setAttribute('viewBox', '0 0 120 120'); svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', `${big} ${small}`);
+    const C = 2 * Math.PI * 50;
+    const mk = (cls, extra = {}) => { const c = document.createElementNS(SVGNS, 'circle'); for (const [k, v] of Object.entries({ cx: 60, cy: 60, r: 50, fill: 'none', 'stroke-width': 12, class: cls, ...extra })) c.setAttribute(k, v); return c; };
+    const fg = mk('ring-fg', { 'stroke-dasharray': C, 'stroke-dashoffset': C * (1 - Math.min(percent, 100) / 100), 'stroke-linecap': 'round', transform: 'rotate(-90 60 60)' });
+    const t = document.createElementNS(SVGNS, 'text'); t.setAttribute('x', 60); t.setAttribute('y', 66); t.setAttribute('text-anchor', 'middle'); t.setAttribute('class', 'ring-text'); t.textContent = big;
+    svg.append(mk('ring-bg'), fg, t);
+    wrap.append(svg, el('span', { class: 'ring-label' }, small));
+    return wrap;
   }
   function show(panel, nodes, summary) {
     const out = panel.querySelector('[data-out]');
     out.replaceChildren(...nodes);
+    flash(out);
     panel.dataset.summary = summary || '';
   }
   function empty(panel) { show(panel, [el('p', { class: 'bhc-empty' }, 'Add your figures to see the calculation and the formula used.')], ''); }
@@ -104,7 +137,9 @@ function init(root) {
     const formula = r.exact ? `${r.totalMinutes} ÷ 60 = ${fmt(r.exactHours, 4)} hours` : `${r.totalMinutes} minutes ${input.rounding === 'up' ? 'rounded up' : input.rounding === 'down' ? 'rounded down' : 'rounded to nearest'} to ${r.roundedMinutes} minutes; ${r.roundedMinutes} ÷ 60 = ${hours(r.billableHours)} hours`;
     const explain = el('p', { class: 'bhc-formula' }, `Formula: ${formula}${r.estimatedValue !== null ? `; ${billable} × ${money(input.rate, input.currency)} = ${money(r.estimatedValue, input.currency)}` : ''}.`);
     if (r.estimatedValue === null) explain.textContent += ' Add an hourly rate to estimate a value.';
-    show(panel, [rows(items), explain], summary('Time entry', items, formula));
+    const timeBars = bars('Exact and billed time', 'clock-hour-4', [{ label: 'Exact', value: r.totalMinutes, text: `${fmt(r.totalMinutes, 0)} min` }, { label: r.exact ? 'Billed' : 'Billed', value: r.roundedMinutes, text: `${fmt(r.roundedMinutes, 0)} min`, tone: r.minuteDifference > 0 ? 'accent' : r.minuteDifference < 0 ? 'gold' : '' }], `Exact time ${r.totalMinutes} minutes; billed time ${r.roundedMinutes} minutes.`);
+    const big = hero('clock-check', `${label} billable time`, `${billable} hours`);
+    show(panel, [big, tileGrid(items, ['stopwatch', 'clock-check', 'cash', 'receipt-2', 'arrows-left-right']), timeBars, explain], summary('Time entry', items, formula));
     return true;
   }
 
@@ -128,10 +163,11 @@ function init(root) {
       ['Remaining working weeks', fmt(r.weeksRemaining, 0)]
     ];
     if (r.requiredWeeklyPace !== null) items.push(['Required weekly pace', `${hours(r.requiredWeeklyPace)} hours`], ['Required daily pace', `${hours(r.requiredDailyPace)} hours`]);
-    const bar = el('div', { class: 'bhc-progress', role: 'progressbar', 'aria-valuemin': '0', 'aria-valuemax': '100', 'aria-valuenow': String(Math.round(r.progressPercent)), 'aria-label': 'Progress toward annual target' });
-    const fill = el('span'); fill.style.width = `${r.progressPercent}%`; bar.append(fill);
     const progress = el('p', { class: 'bhc-formula' }, `Progress: ${pct(r.progressPercent)} of ${fmt(v.annualTarget)} hours. Weekly target = ${fmt(v.annualTarget)} ÷ ${v.workingWeeks} weeks; daily target = weekly target ÷ ${v.workdaysPerWeek} days.`);
-    show(panel, [rows(items), bar, progress], summary('Target planner', items, progress.textContent));
+    const statusIcon = { met: 'check', short: 'alert-circle', ahead: 'trending-up', on: 'target-arrow', behind: 'trending-down' }[r.status];
+    const pace = r.requiredWeeklyPace === null ? hero(statusIcon, 'Status', status) : hero(statusIcon, status, `${hours(r.requiredWeeklyPace)} hours a week to finish`);
+    const ringViz = ring(r.progressPercent, pct(r.progressPercent), `${fmt(v.completedHours)} of ${fmt(v.annualTarget)} hours completed`);
+    show(panel, [pace, ringViz, tileGrid(items, [statusIcon, 'calendar-event', 'calendar-due', 'clock-hour-4', 'hourglass', 'calendar-check', 'trending-up', 'stopwatch']), progress], summary('Target planner', items, progress.textContent));
     return true;
   }
 
@@ -145,7 +181,8 @@ function init(root) {
       if (billable > total) { setError(field(panel, 'billable'), 'Billable hours cannot exceed total work hours.'); return false; }
       const r = calculateFirmMetrics({ totalWorkHours: total, billableHours: billable });
       const items = [['Utilization rate', r.utilizationRate === null ? 'Not available' : pct(r.utilizationRate), 'Billable hours ÷ total work hours × 100.']];
-      show(panel, [rows(items)], summary('Law firm metrics', items, `${fmt(billable)} ÷ ${fmt(total)} × 100`));
+      const uBars = bars('Billable share of working time', 'gauge', [{ label: 'Total work', value: total, text: `${fmt(total)} h` }, { label: 'Billable', value: billable, text: `${fmt(billable)} h`, tone: 'gold' }], `Billable ${billable} of ${total} total work hours.`);
+      show(panel, [hero('gauge', 'Utilization rate', items[0][1]), uBars], summary('Law firm metrics', items, `${fmt(billable)} ÷ ${fmt(total)} × 100`));
       return true;
     }
     const rate = read(panel, 'rate', 'rate', { label: 'a rate' });
@@ -161,9 +198,8 @@ function init(root) {
       ['Effective collected rate', r.effectiveCollectedRate === null ? 'Not available' : `${money(r.effectiveCollectedRate, cur)} per billable hour`, 'Collected value ÷ billable hours.'],
       ['Overall yield', r.overallYield === null ? 'Not available' : pct(r.overallYield), 'Collected value ÷ recorded value × 100.']
     ];
-    const flow = el('ol', { class: 'bhc-flow', 'aria-label': 'Value flow' });
-    flow.append(el('li', {}, `Recorded ${money(r.recordedValue, cur)}`), el('li', {}, `Billed ${money(r.billedValue, cur)}`), el('li', {}, `Collected ${money(r.collectedValue, cur)}`));
-    show(panel, [flow, rows(items)], summary('Law firm metrics', items, 'Recorded → billed → collected'));
+    const vBars = bars('From recorded to collected', 'trending-down', [{ label: 'Recorded', value: r.recordedValue, text: money(r.recordedValue, cur) }, { label: 'Billed', value: r.billedValue, text: money(r.billedValue, cur), tone: 'gold' }, { label: 'Collected', value: r.collectedValue, text: money(r.collectedValue, cur), tone: 'accent' }], `Recorded ${money(r.recordedValue, cur)}, billed ${money(r.billedValue, cur)}, collected ${money(r.collectedValue, cur)}.`);
+    show(panel, [hero('wallet', 'Collected value', money(r.collectedValue, cur)), vBars, tileGrid(items, ['report-money', 'receipt-2', 'wallet', 'cash', 'percentage'])], summary('Law firm metrics', items, 'Recorded → billed → collected'));
     return true;
   }
 
@@ -276,8 +312,8 @@ function init(root) {
   async function copyText(button, text, done = 'Copied') {
     try { await navigator.clipboard.writeText(text); }
     catch { const area = el('textarea'); area.value = text; area.setAttribute('readonly', ''); area.style.position = 'fixed'; area.style.opacity = '0'; document.body.append(area); area.select(); document.execCommand('copy'); area.remove(); }
-    const label = button.textContent; button.textContent = done; live.textContent = done === 'Copied' ? 'Copied to clipboard.' : 'Link copied.';
-    setTimeout(() => { button.textContent = label; }, 2000);
+    const label = labelOf(button); setLabel(button, done); { const msg = done === 'Copied' ? 'Copied to clipboard.' : 'Link copied.'; live.textContent = msg; toast(msg); }
+    setTimeout(() => setLabel(button, label), 2000);
   }
   function shareState(tool) {
     const p = panels[tool], s = { tool };

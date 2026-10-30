@@ -1,6 +1,6 @@
 <section class="bhc ldc" id="calculator" aria-labelledby="ldc-title" data-ldc>
-  <h2 id="ldc-title" class="bhc-title">Calculator</h2>
-  <p class="bhc-privacy">Your entries stay in your browser and are not sent to Verdict Point.</p>
+  <div class="bhc-head"><span class="bhc-badge">{{icon:calendar-due}}</span><div><h2 id="ldc-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your entries stay in your browser and are not sent to Verdict Point.</p></div></div>
   <p class="bhc-version">Holiday rules: federal legal public holidays under 5 U.S.C. 6103, reviewed October 28, 2026.</p>
   <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The counting method and the federal holiday tables below work without it.</p></noscript>
   <div class="bhc-panel" data-tool="deadline">
@@ -27,15 +27,15 @@
       </fieldset>
       <p class="bhc-note" id="ldc-rule-note">The default settings follow the counting method in Federal Rule of Civil Procedure 6(a)(1). Your court, rule, or statute may count differently.</p>
       <div class="bhc-field"><label for="ldc-exclude">Other dates to exclude (optional)</label>
-        <div class="bhc-step"><input id="ldc-exclude" name="exclude" type="date" min="1990-01-01" max="2100-12-31" aria-describedby="ldc-exclude-help ldc-exclude-err"><button type="button" data-action="add-date" class="bhc-add">Add date</button></div>
+        <div class="bhc-step"><input id="ldc-exclude" name="exclude" type="date" min="1990-01-01" max="2100-12-31" aria-describedby="ldc-exclude-help ldc-exclude-err"><button type="button" data-action="add-date" class="bhc-add">{{icon:calendar-plus}}Add date</button></div>
         <p class="bhc-note" id="ldc-exclude-help">Add court closures or state holidays. Excluded dates are skipped like weekends.</p><p class="bhc-err" id="ldc-exclude-err"></p>
         <ul class="ldc-chips" data-excluded aria-label="Excluded dates"></ul>
       </div>
-      <div class="bhc-actions"><button type="submit" class="bhc-primary">Calculate</button><button type="button" data-action="example">Use example</button><button type="button" data-action="reset">Reset</button></div>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="reset">{{icon:arrow-back-up}}Reset</button></div>
     </form>
-    <div class="bhc-result" aria-labelledby="ldc-result-h"><h3 id="ldc-result-h" tabindex="-1">Result</h3><div class="bhc-out" data-out></div>
-      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">Copy results</button><button type="button" data-action="print">Print / Save as PDF</button><button type="button" data-action="share">Share calculation</button></div></div>
+    <div class="bhc-result" aria-labelledby="ldc-result-h"><h3 id="ldc-result-h" tabindex="-1">{{icon:sparkles}}Result</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy results</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button><button type="button" data-action="share">{{icon:share}}Share calculation</button></div></div>
   </div>
-  <details class="ldc-steps" data-steps-wrap hidden><summary>Show the day-by-day count</summary><div data-steps></div></details>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the day-by-day count</summary><div data-steps></div></details>
   <p class="bhc-live" aria-live="polite" data-live></p>
 </section>

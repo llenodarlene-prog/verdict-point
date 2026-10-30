@@ -66,6 +66,22 @@ const assetVersion = { css: await contentHash('src/styles/main.css'), js: await 
 // The shared tools stylesheet and each module carry their own content hash, like main.css and main.js.
 // Each tool has a pure core module and a UI module. The UI imports the core by a versioned URL, and its own
 // version covers both files, so a deploy never mixes old and new formulas.
+// Tabler icons (MIT, src/icons/tabler) are inlined as one hidden sprite on pages that use them. Only path
+// elements with plain drawing commands are copied from each vendored file.
+const iconDir = 'src/icons/tabler';
+const iconPaths = {};
+for (const file of (await readdir(iconDir)).filter(name => name.endsWith('.svg'))) {
+  const paths = [...(await readFile(path.join(iconDir, file), 'utf8')).matchAll(/<path\b[^>]*\bd="([^"]+)"[^>]*\/>/g)]
+    .filter(match => !/stroke="none"/.test(match[0]) && /^[MmLlHhVvCcSsQqTtAaZz0-9.,\s-]+$/.test(match[1])).map(match => `<path d="${match[1]}"/>`);
+  if (!paths.length) throw new Error(`${file}: icon has no drawable paths`);
+  iconPaths[file.replace(/\.svg$/, '')] = paths.join('');
+}
+const iconSprite = `<svg class="icon-sprite" width="0" height="0" aria-hidden="true" focusable="false" style="position:absolute">${Object.entries(iconPaths).map(([name, d]) => `<symbol id="ti-${name}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round">${d}</symbol>`).join('')}</svg>`;
+const iconTag = (name, className = 'ti') => { if (!iconPaths[name]) throw new Error(`unknown icon ${name}`); return `<svg class="${className}" aria-hidden="true" focusable="false"><use href="#ti-${name}"></use></svg>`; };
+const withIcons = html => html.replace(/\{\{icon:([a-z0-9-]+)\}\}/g, (_, name) => iconTag(name));
+const toolList = await readJson('data/tools.json');
+for (const item of toolList) if (!iconPaths[item.icon]) throw new Error(`data/tools.json: unknown icon ${item.icon}`);
+const toolCards = () => `<div class="tool-cards">${toolList.map(item => `<a class="tool-card" href="${escapeHtml(item.url)}"><span class="tool-card-icon">${iconTag(item.icon)}</span><span class="tool-card-cat">${escapeHtml(item.category)}</span><span class="tool-card-name">${escapeHtml(item.name)}</span><span class="tool-card-desc">${escapeHtml(item.description)}</span><span class="tool-card-go">${escapeHtml(item.task)} ${iconTag('arrow-right')}</span></a>`).join('')}</div>`;
 const toolCss = `/styles/tools.css?v=${await contentHash('src/styles/tools.css')}`;
 const app = name => ({ name, applicationCategory: 'BusinessApplication', operatingSystem: 'Any (runs in a web browser)', isAccessibleForFree: true });
 const toolSpecs = { 'billable-hours': { partial: 'billable-hours-calculator', app: app('Billable Hours Calculator') }, 'legal-deadline': { partial: 'legal-deadline-calculator', app: app('Legal Deadline Calculator') },
@@ -78,7 +94,7 @@ for (const [id, spec] of Object.entries(toolSpecs)) {
   if (!uiSource.includes(importPath)) throw new Error(`${id}-ui.js must import ./${id}-core.js`);
   await writeFile(path.join(dist, `scripts/calculators/${id}-ui.js`), uiSource.replace(importPath, `from './${id}-core.js?v=${coreVersion}'`));
   tools[id] = {
-    markup: await readFile(`src/partials/${spec.partial}.html`, 'utf8'), css: toolCss, app: spec.app,
+    markup: withIcons(await readFile(`src/partials/${spec.partial}.html`, 'utf8')), css: toolCss, app: spec.app,
     js: `/scripts/calculators/${id}-ui.js?v=${createHash('sha256').update(uiSource + coreVersion).digest('hex').slice(0, 10)}`,
     core: `/scripts/calculators/${id}-core.js?v=${coreVersion}`
   };
@@ -181,7 +197,7 @@ for (const page of parsed) {
   if (metadata.tool && !tool) throw new Error(`${source}: unknown tool ${metadata.tool}`);
   if (tool) schema['@graph'].push({ '@type': 'WebApplication', '@id': `${url}#app`, url, ...tool.app, publisher: { '@id': `${siteUrl}/#organization` }, isPartOf: { '@id': `${url}#webpage` } });
   resetCharts();
-  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, blocks: tool ? { tool: () => tool.markup } : {} });
+  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, blocks: { ...(tool ? { tool: () => tool.markup } : {}), toolcards: toolCards } });
   // Pages that opt in show the same breadcrumb trail as posts.
   if (!article && metadata.breadcrumb === true) renderedBody = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>` + renderedBody;
   if (article) {
@@ -204,7 +220,7 @@ for (const page of parsed) {
   const html = replace(base, {
     LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
     CANONICAL: url, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks, CSS_VERSION: assetVersion.css, JS_VERSION: assetVersion.js,
-    PAGE_HEAD: tool ? `<link rel="stylesheet" href="${tool.css}"><link rel="modulepreload" href="${tool.core}">` : '', PAGE_SCRIPTS: tool ? `<script type="module" src="${tool.js}"></script>` : '',
+    PAGE_HEAD: tool ? `<link rel="stylesheet" href="${tool.css}"><link rel="modulepreload" href="${tool.core}">` : metadata.tools_hub === true ? `<link rel="stylesheet" href="${toolCss}">` : '', PAGE_SCRIPTS: (tool || metadata.tools_hub === true ? iconSprite : '') + (tool ? `<script type="module" src="${tool.js}"></script>` : ''),
     ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
     HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="home" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });
