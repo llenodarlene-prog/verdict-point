@@ -85,7 +85,8 @@ const toolCards = () => `<div class="tool-cards">${toolList.map(item => `<a clas
 const toolCss = `/styles/tools.css?v=${await contentHash('src/styles/tools.css')}`;
 const app = name => ({ name, applicationCategory: 'BusinessApplication', operatingSystem: 'Any (runs in a web browser)', isAccessibleForFree: true });
 const toolSpecs = { 'billable-hours': { partial: 'billable-hours-calculator', app: app('Billable Hours Calculator') }, 'legal-deadline': { partial: 'legal-deadline-calculator', app: app('Legal Deadline Calculator') },
-  'judgment-interest': { partial: 'judgment-interest-calculator', app: app('Post-Judgment Interest Calculator') }, 'law-firm-kpi': { partial: 'law-firm-kpi-calculator', app: app('Law Firm KPI Calculator') } };
+  'judgment-interest': { partial: 'judgment-interest-calculator', app: app('Post-Judgment Interest Calculator') }, 'law-firm-kpi': { partial: 'law-firm-kpi-calculator', app: app('Law Firm KPI Calculator') },
+  'law-firm-seo-roi': { partial: 'law-firm-seo-roi-calculator', app: app('Law Firm SEO ROI Calculator') } };
 const tools = {};
 for (const [id, spec] of Object.entries(toolSpecs)) {
   const coreVersion = await contentHash(`src/scripts/calculators/${id}-core.js`);

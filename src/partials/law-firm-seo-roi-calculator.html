@@ -1,0 +1,45 @@
+<section class="bhc seo" id="calculator" aria-labelledby="seo-title" data-seo>
+  <div class="bhc-head"><span class="bhc-badge">{{icon:world-search}}</span><div><h2 id="seo-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Every number is your own assumption. The calculator does the arithmetic; it does not predict rankings or supply industry rates.</p>
+  <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formulas and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:cash}}Costs and Fees</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="seo-monthlyCost">Monthly SEO cost ($)</label><input id="seo-monthlyCost" name="monthlyCost" data-shared inputmode="decimal" aria-describedby="seo-monthlyCost-help seo-monthlyCost-err"><p class="bhc-note" id="seo-monthlyCost-help">Agency fee, content, and tools for one month.</p><p class="bhc-err" id="seo-monthlyCost-err"></p></div>
+      <div class="bhc-field"><label for="seo-setupCost">One-time setup cost ($)</label><input id="seo-setupCost" name="setupCost" data-shared inputmode="decimal" aria-describedby="seo-setupCost-help seo-setupCost-err"><p class="bhc-note" id="seo-setupCost-help">Charged in month one. Enter 0 if none.</p><p class="bhc-err" id="seo-setupCost-err"></p></div>
+      <div class="bhc-field"><label for="seo-months">Months to model</label><input id="seo-months" name="months" data-shared inputmode="numeric" aria-describedby="seo-months-help seo-months-err"><p class="bhc-note" id="seo-months-help">A whole number from 1 to 60.</p><p class="bhc-err" id="seo-months-err"></p></div>
+      <div class="bhc-field"><label for="seo-rampMonths">Months to reach full traffic</label><input id="seo-rampMonths" name="rampMonths" data-shared inputmode="numeric" aria-describedby="seo-rampMonths-help seo-rampMonths-err"><p class="bhc-note" id="seo-rampMonths-help">Traffic rises in a straight line until this month. Enter 0 for full traffic from month one.</p><p class="bhc-err" id="seo-rampMonths-err"></p></div>
+      <div class="bhc-field"><label for="seo-feePerMatter">Average fee per new matter ($)</label><input id="seo-feePerMatter" name="feePerMatter" data-shared inputmode="decimal" aria-describedby="seo-feePerMatter-help seo-feePerMatter-err"><p class="bhc-note" id="seo-feePerMatter-help">Fees you expect to collect from one new client.</p><p class="bhc-err" id="seo-feePerMatter-err"></p></div>
+      <div class="bhc-field"><label for="seo-margin">Profit margin on fees (%)</label><input id="seo-margin" name="margin" data-shared inputmode="decimal" aria-describedby="seo-margin-help seo-margin-err"><p class="bhc-note" id="seo-margin-help">Share of each fee left after the cost of doing the work.</p><p class="bhc-err" id="seo-margin-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group seo-low"><legend>{{icon:trending-up}}Low scenario</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="seo-low-visits">Monthly organic visits at full traffic</label><input id="seo-low-visits" name="low.visits" data-scenario="low" data-key="visits" inputmode="numeric" aria-describedby="seo-low-visits-err"><p class="bhc-err" id="seo-low-visits-err"></p></div>
+      <div class="bhc-field"><label for="seo-low-visitToLead">Visit-to-lead rate (%)</label><input id="seo-low-visitToLead" name="low.visitToLead" data-scenario="low" data-key="visitToLead" inputmode="decimal" aria-describedby="seo-low-visitToLead-err"><p class="bhc-err" id="seo-low-visitToLead-err"></p></div>
+      <div class="bhc-field"><label for="seo-low-leadToConsult">Lead-to-consultation rate (%)</label><input id="seo-low-leadToConsult" name="low.leadToConsult" data-scenario="low" data-key="leadToConsult" inputmode="decimal" aria-describedby="seo-low-leadToConsult-err"><p class="bhc-err" id="seo-low-leadToConsult-err"></p></div>
+      <div class="bhc-field"><label for="seo-low-consultToClient">Consultation-to-client rate (%)</label><input id="seo-low-consultToClient" name="low.consultToClient" data-scenario="low" data-key="consultToClient" inputmode="decimal" aria-describedby="seo-low-consultToClient-err"><p class="bhc-err" id="seo-low-consultToClient-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group seo-base"><legend>{{icon:target-arrow}}Base scenario</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="seo-base-visits">Monthly organic visits at full traffic</label><input id="seo-base-visits" name="base.visits" data-scenario="base" data-key="visits" inputmode="numeric" aria-describedby="seo-base-visits-err"><p class="bhc-err" id="seo-base-visits-err"></p></div>
+      <div class="bhc-field"><label for="seo-base-visitToLead">Visit-to-lead rate (%)</label><input id="seo-base-visitToLead" name="base.visitToLead" data-scenario="base" data-key="visitToLead" inputmode="decimal" aria-describedby="seo-base-visitToLead-err"><p class="bhc-err" id="seo-base-visitToLead-err"></p></div>
+      <div class="bhc-field"><label for="seo-base-leadToConsult">Lead-to-consultation rate (%)</label><input id="seo-base-leadToConsult" name="base.leadToConsult" data-scenario="base" data-key="leadToConsult" inputmode="decimal" aria-describedby="seo-base-leadToConsult-err"><p class="bhc-err" id="seo-base-leadToConsult-err"></p></div>
+      <div class="bhc-field"><label for="seo-base-consultToClient">Consultation-to-client rate (%)</label><input id="seo-base-consultToClient" name="base.consultToClient" data-scenario="base" data-key="consultToClient" inputmode="decimal" aria-describedby="seo-base-consultToClient-err"><p class="bhc-err" id="seo-base-consultToClient-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group seo-high"><legend>{{icon:bolt}}High scenario</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="seo-high-visits">Monthly organic visits at full traffic</label><input id="seo-high-visits" name="high.visits" data-scenario="high" data-key="visits" inputmode="numeric" aria-describedby="seo-high-visits-err"><p class="bhc-err" id="seo-high-visits-err"></p></div>
+      <div class="bhc-field"><label for="seo-high-visitToLead">Visit-to-lead rate (%)</label><input id="seo-high-visitToLead" name="high.visitToLead" data-scenario="high" data-key="visitToLead" inputmode="decimal" aria-describedby="seo-high-visitToLead-err"><p class="bhc-err" id="seo-high-visitToLead-err"></p></div>
+      <div class="bhc-field"><label for="seo-high-leadToConsult">Lead-to-consultation rate (%)</label><input id="seo-high-leadToConsult" name="high.leadToConsult" data-scenario="high" data-key="leadToConsult" inputmode="decimal" aria-describedby="seo-high-leadToConsult-err"><p class="bhc-err" id="seo-high-leadToConsult-err"></p></div>
+      <div class="bhc-field"><label for="seo-high-consultToClient">Consultation-to-client rate (%)</label><input id="seo-high-consultToClient" name="high.consultToClient" data-scenario="high" data-key="consultToClient" inputmode="decimal" aria-describedby="seo-high-consultToClient-err"><p class="bhc-err" id="seo-high-consultToClient-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="copybase">{{icon:copy}}Copy base to low and high</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="seo-result-h"><h3 id="seo-result-h" tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the calculation month by month</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
