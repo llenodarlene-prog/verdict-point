@@ -1,0 +1,496 @@
+{
+ "reviewed": "2026-10-31",
+ "reviewer": "Darlene Aberin",
+ "topics": [
+  {
+   "id": "law-firms",
+   "name": "Law Firms and Business Models",
+   "icon": "building",
+   "description": "How firms are set up, owned, and paid."
+  },
+  {
+   "id": "billing",
+   "name": "Billing, Fees and Finance",
+   "icon": "receipt",
+   "description": "Billable hours, increments, and how time turns into invoices."
+  },
+  {
+   "id": "careers",
+   "name": "Legal Careers and Roles",
+   "icon": "briefcase",
+   "description": "Paralegals, legal assistants, clerks, and what each one does."
+  },
+  {
+   "id": "in-house",
+   "name": "In-House Counsel and Legal Operations",
+   "icon": "building-community",
+   "description": "Company lawyers and the teams that run legal departments."
+  },
+  {
+   "id": "technology",
+   "name": "Legal Technology, AI and Research",
+   "icon": "device-laptop",
+   "description": "Software, AI tools, and how legal research works."
+  },
+  {
+   "id": "management",
+   "name": "Law Firm Management and Growth",
+   "icon": "chart-arrows",
+   "description": "Marketing, intake, and running the business side of a firm."
+  },
+  {
+   "id": "metrics",
+   "name": "Metrics, Compensation and BigLaw",
+   "icon": "scale",
+   "description": "Utilization, realization, and the numbers firms track."
+  },
+  {
+   "id": "process",
+   "name": "Legal Processes and Documents",
+   "icon": "file-description",
+   "description": "Deadlines, invoices, engagement letters, and billing codes."
+  }
+ ],
+ "questions": [
+  {
+   "id": "what-does-a-paralegal-do",
+   "topic": "careers",
+   "q": "What does a paralegal do?",
+   "aliases": "paralegal duties paralegal job",
+   "blocks": [
+    [
+     "p",
+     "A paralegal does legal work that a lawyer assigns and supervises. That usually means drafting documents, organizing case files, and preparing for hearings or closings. The lawyer stays responsible for the result, and the paralegal can't give legal advice."
+    ],
+    [
+     "p",
+     "Common assignments include:"
+    ],
+    [
+     "ul",
+     [
+      "Drafting pleadings, discovery, and contracts for a lawyer to review.",
+      "Summarizing records, depositions, and research.",
+      "Writing and signing routine letters, as long as they show the paralegal title and give no legal advice.",
+      "Tracking deadlines, filings, and documents in each matter."
+     ]
+    ],
+    [
+     "p",
+     "In a firm, paralegal time on substantive work is often billed to the client, at a lower rate than a lawyer's. More detail on the day-to-day work is in [what a paralegal does in a law firm](/legal/what-does-a-paralegal-do/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "NALA, What Do Paralegals Do?",
+     "url": "https://nala.org/what-do-paralegals-do/"
+    }
+   ]
+  },
+  {
+   "id": "legal-assistant-vs-paralegal",
+   "topic": "careers",
+   "q": "What is the difference between a legal assistant and a paralegal?",
+   "aliases": "legal assistant vs paralegal compare",
+   "blocks": [
+    [
+     "p",
+     "It depends on the employer. Some firms use \"legal assistant\" for administrative support and \"paralegal\" for substantive legal work. Others use both titles for the same job. So read the duties before you compare pay or plan a career move."
+    ],
+    [
+     "p",
+     "These clues in a job posting tell you which kind of role it really is:"
+    ],
+    [
+     "table",
+     [
+      "If the posting mentions...",
+      "It leans toward..."
+     ],
+     [
+      [
+       "Drafting, research, or document review",
+       "Paralegal-style legal work"
+      ],
+      [
+       "Calendars, calls, and correspondence",
+       "Administrative support"
+      ],
+      [
+       "Billable hours or a billing target",
+       "Substantive work the firm charges for"
+      ],
+      [
+       "A paralegal certificate or degree",
+       "A paralegal role, whatever the title says"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "The full breakdown, including training and supervision, is in [legal assistant and paralegal roles compared](/legal/legal-assistant-and-paralegal/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-a-legal-assistant",
+   "topic": "careers",
+   "q": "What is a legal assistant?",
+   "aliases": "legal assistant job role",
+   "blocks": [
+    [
+     "p",
+     "A legal assistant supports lawyers and legal teams with the work that keeps matters moving. At one firm that means calendars, client calls, and filing. At another it includes drafting and document prep. Because employers define the title differently, the job description tells you far more than the title does."
+    ],
+    [
+     "p",
+     "If you're thinking about the role, start with [how to become a legal assistant](/legal/how-to-become-a-legal-assistant/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-a-law-firm",
+   "topic": "law-firms",
+   "q": "What is a law firm?",
+   "aliases": "law firm definition how law firms work make money",
+   "blocks": [
+    [
+     "p",
+     "A law firm is a business in which one or more lawyers practice law and provide legal services to clients. Some firms are a single lawyer working alone. Others employ hundreds of lawyers across several offices. Either way, the firm earns money by charging clients for legal work."
+    ],
+    [
+     "p",
+     "Firms usually charge in one of four ways:"
+    ],
+    [
+     "ul",
+     [
+      "**Hourly fees:** the client pays for recorded time.",
+      "**Flat fees:** one set price for a defined task.",
+      "**Contingency fees:** the lawyer takes a share of any recovery.",
+      "**Retainers:** money paid upfront and drawn down as work is done."
+     ]
+    ],
+    [
+     "p",
+     "See how retainers work in practice in [retainer fee types and billing examples](/law-firms/retainer-fee/), and how firm sizes compare in [legal industry statistics by firm size](/legal/legal-industry-statistics-firm-size/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-are-billable-hours",
+   "topic": "billing",
+   "q": "What are billable hours?",
+   "aliases": "billable time how billable hours work calculated",
+   "blocks": [
+    [
+     "p",
+     "Billable hours are the time a lawyer or legal professional spends on client work that the firm can charge to that client. Research, drafting, calls, and court time usually count. Internal admin, marketing, and training usually don't. Firms record the time in set increments, often tenths of an hour."
+    ],
+    [
+     "p",
+     "Here's how one entry works at six-minute (0.1-hour) increments, rounding up:"
+    ],
+    [
+     "ol",
+     [
+      "A client call runs 14 minutes.",
+      "The next full increment above 14 minutes is 18 minutes.",
+      "The time entry shows 0.3 hours."
+     ]
+    ],
+    [
+     "p",
+     "Convert any amount of time with the [billable hours calculator](/tools/billable-hours-calculator/), or check the minute-to-tenth table in the [legal billing chart](/law-firms/legal-billing-chart/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-block-billing",
+   "topic": "billing",
+   "q": "What is block billing?",
+   "aliases": "block billing time entries invoice",
+   "blocks": [
+    [
+     "p",
+     "Block billing means putting several tasks into one time entry with a single total, instead of logging each task on its own line. The trouble is that nobody reading the invoice can see how long each task took. That makes the entry harder to review, question, or approve."
+    ],
+    [
+     "p",
+     "Compare the same 4.5 hours written two ways (an invented example):"
+    ],
+    [
+     "table",
+     [
+      "Block entry",
+      "Itemized entries"
+     ],
+     [
+      [
+       "Research, client call, and draft motion: 4.5 hours",
+       "Research on venue: 1.6 hours"
+      ],
+      [
+       "",
+       "Call with client about facts: 0.4 hours"
+      ],
+      [
+       "",
+       "Draft motion to transfer: 2.5 hours"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "Itemized entries pair well with consistent increments. The [legal billing chart](/law-firms/legal-billing-chart/) shows how minutes convert to tenths."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-in-house-counsel",
+   "topic": "in-house",
+   "q": "What is in-house counsel?",
+   "aliases": "corporate counsel inside counsel what does in-house counsel do",
+   "blocks": [
+    [
+     "p",
+     "In-house counsel is a lawyer employed by a company to handle its legal affairs. The lawyer works on salary for that one employer instead of billing clients by the hour. You'll also see the role called corporate counsel, inside counsel, or house counsel."
+    ],
+    [
+     "p",
+     "The day-to-day work, and how it differs from law-firm practice, is covered in [what is in-house counsel](/legal-business/in-house-counsel/). The head of the team is often the [general counsel](/legal-business/general-counsel/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "Cornell Law School LII, In-house counsel",
+     "url": "https://www.law.cornell.edu/wex/in-house_counsel"
+    }
+   ]
+  },
+  {
+   "id": "what-is-legal-operations",
+   "topic": "in-house",
+   "q": "What is legal operations?",
+   "aliases": "legal ops what does legal operations do roles",
+   "blocks": [
+    [
+     "p",
+     "Legal operations is the business side of a legal department. It covers budgets, technology, vendors, data, and the processes that let lawyers spend more time on legal work. Legal ops staff often come from finance, analytics, marketing, or training rather than law."
+    ],
+    [
+     "p",
+     "CLOC, a legal operations association, groups the work into areas such as:"
+    ],
+    [
+     "ul",
+     [
+      "Strategic planning.",
+      "Financial management.",
+      "Project management.",
+      "Technology portfolio investment."
+     ]
+    ],
+    [
+     "p",
+     "Many legal ops teams also manage outside law firms, which [in-house counsel and outside-counsel work](/legal-business/in-house-counsel/) explains in more detail."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "CLOC, What Is Legal Operations?",
+     "url": "https://cloc.org/what-is-legal-operations/"
+    }
+   ]
+  },
+  {
+   "id": "what-is-legal-research",
+   "topic": "technology",
+   "q": "What is legal research?",
+   "aliases": "legal research databases tools how to",
+   "blocks": [
+    [
+     "p",
+     "Legal research is the process of finding the law that applies to a question or problem. Researchers look for two kinds of authority. Primary authority is the law itself and binds courts and people. Secondary authority explains the law but isn't binding."
+    ],
+    [
+     "table",
+     [
+      "Type",
+      "Examples",
+      "Binding?"
+     ],
+     [
+      [
+       "Primary",
+       "Statutes, regulations, court decisions",
+       "Yes, within its jurisdiction"
+      ],
+      [
+       "Secondary",
+       "Treatises, law review articles, practice guides",
+       "No, but useful for finding and explaining primary law"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "For the tools firms use, see [legal research software options compared](/legal-tech/legal-research-software/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "Cornell Law School LII, Legal research",
+     "url": "https://www.law.cornell.edu/wex/legal_research"
+    }
+   ]
+  },
+  {
+   "id": "what-is-legal-technology",
+   "topic": "technology",
+   "q": "What is legal technology?",
+   "aliases": "legal tech software what software do law firms use",
+   "blocks": [
+    [
+     "p",
+     "Legal technology is software and tools built for legal work. It helps firms and legal departments manage cases, documents, billing, research, and contracts. Some tools do one job well, while others try to cover the whole practice."
+    ],
+    [
+     "p",
+     "The main categories are:"
+    ],
+    [
+     "ul",
+     [
+      "Practice management, for matters, calendars, and billing.",
+      "Document management, for storing and finding files.",
+      "Legal research platforms.",
+      "Contract lifecycle management, for drafting and tracking contracts.",
+      "AI tools, for drafting, summarizing, and review."
+     ]
+    ],
+    [
+     "p",
+     "Compare options in [legal practice management software for small firms](/legal-tech/legal-practice-management-software/) or see adoption data in [legal technology statistics](/legal-tech/legal-technology-statistics/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "can-ai-replace-lawyers",
+   "topic": "technology",
+   "q": "Can AI replace lawyers?",
+   "aliases": "will ai replace lawyers paralegals legal ai chatgpt",
+   "blocks": [
+    [
+     "p",
+     "Not today. AI tools can speed up drafting, summarizing, and research, but they still get things wrong, and a lawyer has to catch those errors. The lawyer also keeps the judgment calls: advising the client, weighing risk, and deciding what to file."
+    ],
+    [
+     "p",
+     "The error rate is real. A 2024 study by Magesh and colleagues tested AI research tools from LexisNexis and Thomson Reuters. It found that each one produced false information, or \"hallucinated,\" between 17% and 33% of the time."
+    ],
+    [
+     "p",
+     "What firms report about AI use is in [AI in law firms statistics](/legal-tech/ai-in-law-firms-statistics/), and what no-cost tools can and can't do is in [free legal AI tools](/legal-tech/free-legal-ai/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "Magesh et al., Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (arXiv, 2024)",
+     "url": "https://arxiv.org/abs/2405.20362"
+    }
+   ]
+  },
+  {
+   "id": "how-much-should-a-law-firm-spend-on-marketing",
+   "topic": "management",
+   "q": "How much should a law firm spend on marketing?",
+   "aliases": "law firm marketing budget seo cost",
+   "blocks": [
+    [
+     "p",
+     "There's no single right percentage. Set the budget from what a new client is worth to your firm and what each channel costs to bring one in. A personal injury firm and a small estate planning practice can reasonably spend very different amounts."
+    ],
+    [
+     "p",
+     "Work it out in four steps:"
+    ],
+    [
+     "ol",
+     [
+      "Find your average fee per new matter and your profit margin on it.",
+      "Count leads, consultations, and signed clients from each channel.",
+      "Divide each channel's spend by its signed clients to get cost per client.",
+      "Budget for the number of clients you need, then test a low and a high case."
+     ]
+    ],
+    [
+     "p",
+     "The [law firm SEO ROI calculator](/tools/law-firm-seo-roi-calculator/) runs those scenarios for you. For survey data on spend, see [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-law-firm-utilization",
+   "topic": "metrics",
+   "q": "What is a law firm utilization rate?",
+   "aliases": "utilization rate calculated kpi realization",
+   "blocks": [
+    [
+     "p",
+     "A utilization rate is the share of working time that a lawyer records as billable. Divide billable hours by total hours worked, then multiply by 100. It shows how much of the week goes to client work and how much goes to admin, marketing, and everything else."
+    ],
+    [
+     "p",
+     "Example: 1,500 billable hours ÷ 2,000 total hours × 100 = 75% utilization."
+    ],
+    [
+     "p",
+     "Calculate it from your own totals, alongside realization and collection, with the [law firm KPI calculator](/tools/law-firm-kpi-calculator/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "how-are-court-deadlines-calculated",
+   "topic": "process",
+   "q": "How are court deadlines calculated?",
+   "aliases": "legal deadline calculator court date counting days rule 6",
+   "blocks": [
+    [
+     "p",
+     "In federal civil cases, Federal Rule of Civil Procedure 6(a) sets the counting method for deadlines stated in days. You skip the trigger day, count every day after it, and land on the last day. If that day falls on a weekend or legal holiday, the deadline moves to the next business day."
+    ],
+    [
+     "p",
+     "The three steps under Rule 6(a)(1):"
+    ],
+    [
+     "ol",
+     [
+      "Exclude the day of the event that starts the period.",
+      "Count every day, including weekends and legal holidays.",
+      "Include the last day, unless it's a Saturday, Sunday, or legal holiday."
+     ]
+    ],
+    [
+     "p",
+     "State courts and local rules can count differently, so check the rule that governs your case. The [legal deadline calculator](/tools/legal-deadline-calculator/) does the counting and shows each step on a calendar."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "Cornell Law School LII, Federal Rule of Civil Procedure 6",
+     "url": "https://www.law.cornell.edu/rules/frcp/rule_6"
+    }
+   ]
+  }
+ ]
+}
