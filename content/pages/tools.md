@@ -1,26 +1,23 @@
 ---
 title: Legal Tools and Calculators
 seo_title: Free Legal Tools and Calculators for Law Firms
-description: Free calculators for legal professionals from Verdict Point, including a legal deadline calculator and a billable hours calculator.
+description: Free calculators for legal professionals from Verdict Point, including legal deadline, post-judgment interest, billable hours, and law firm KPI calculators.
 slug: /tools/
 type: page
 schema: WebPage
 breadcrumb: true
+tools_hub: true
 draft: false
-modified: 2026-10-28
+modified: 2026-10-30
 ---
 
 # Legal Tools and Calculators
 
 Free calculators for lawyers, legal staff, and law firm managers. Every tool runs in your browser, shows how it reached its result, and does not send what you enter to Verdict Point.
 
-## Dates and Deadlines
-
-**[Legal Deadline Calculator](/tools/legal-deadline-calculator/)**: Count calendar or business days from a trigger date, skip weekends and federal holidays, and see each step of the count.
-
-## Billing and Time
-
-**[Billable Hours Calculator](/tools/billable-hours-calculator/)**: Convert minutes to billable hours with any increment, plan an annual billable target, and model utilization, realization, and collections.
+```toolcards
+all
+```
 
 ## How These Tools Are Built
 

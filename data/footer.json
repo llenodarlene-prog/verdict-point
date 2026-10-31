@@ -17,7 +17,9 @@
       "links": [
         { "label": "All Tools", "url": "/tools/" },
         { "label": "Legal Deadline Calculator", "url": "/tools/legal-deadline-calculator/" },
-        { "label": "Billable Hours Calculator", "url": "/tools/billable-hours-calculator/" }
+        { "label": "Post-Judgment Interest Calculator", "url": "/tools/post-judgment-interest-calculator/" },
+        { "label": "Billable Hours Calculator", "url": "/tools/billable-hours-calculator/" },
+        { "label": "Law Firm KPI Calculator", "url": "/tools/law-firm-kpi-calculator/" }
       ]
     },
     {
