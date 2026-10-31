@@ -6,6 +6,7 @@ import { renderAbout } from './lib/about.mjs';
 import { contactEmail, renderContact } from './lib/contact.mjs';
 import { renderHome } from './lib/home.mjs';
 import { renderHub } from './lib/hub.mjs';
+import { renderFaqHub, validateFaq } from './lib/faq.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
 import { articleSchema, headMeta } from './lib/seo.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
@@ -83,6 +84,11 @@ const toolList = await readJson('data/tools.json');
 for (const item of toolList) if (!iconPaths[item.icon]) throw new Error(`data/tools.json: unknown icon ${item.icon}`);
 const toolCards = () => `<div class="tool-cards">${toolList.map(item => `<a class="tool-card" href="${escapeHtml(item.url)}"><span class="tool-card-icon">${iconTag(item.icon)}</span><span class="tool-card-cat">${escapeHtml(item.category)}</span><span class="tool-card-name">${escapeHtml(item.name)}</span><span class="tool-card-desc">${escapeHtml(item.description)}</span><span class="tool-card-go">${escapeHtml(item.task)} ${iconTag('arrow-right')}</span></a>`).join('')}</div>`;
 const toolCss = `/styles/tools.css?v=${await contentHash('src/styles/tools.css')}`;
+// Legal FAQ hub: answers come from data/legal-faq.json and render into the page HTML; the script only adds search and filters.
+const legalFaq = await readJson('data/legal-faq.json');
+validateFaq(legalFaq);
+const faqHead = `<link rel="stylesheet" href="/styles/faq.css?v=${await contentHash('src/styles/faq.css')}">`;
+const faqScript = `<script type="module" src="/scripts/legal-faq.js?v=${await contentHash('src/scripts/legal-faq.js')}"></script>`;
 const app = name => ({ name, applicationCategory: 'BusinessApplication', operatingSystem: 'Any (runs in a web browser)', isAccessibleForFree: true });
 const toolSpecs = { 'billable-hours': { partial: 'billable-hours-calculator', app: app('Billable Hours Calculator') }, 'legal-deadline': { partial: 'legal-deadline-calculator', app: app('Legal Deadline Calculator') },
   'judgment-interest': { partial: 'judgment-interest-calculator', app: app('Post-Judgment Interest Calculator') }, 'law-firm-kpi': { partial: 'law-firm-kpi-calculator', app: app('Law Firm KPI Calculator') },
@@ -198,7 +204,7 @@ for (const page of parsed) {
   if (metadata.tool && !tool) throw new Error(`${source}: unknown tool ${metadata.tool}`);
   if (tool) schema['@graph'].push({ '@type': 'WebApplication', '@id': `${url}#app`, url, ...tool.app, publisher: { '@id': `${siteUrl}/#organization` }, isPartOf: { '@id': `${url}#webpage` } });
   resetCharts();
-  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, blocks: { ...(tool ? { tool: () => tool.markup } : {}), toolcards: toolCards } });
+  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, blocks: { ...(tool ? { tool: () => tool.markup } : {}), toolcards: toolCards, faqhub: () => renderFaqHub(legalFaq, name => iconTag(name)) } });
   // Pages that opt in show the same breadcrumb trail as posts.
   if (!article && metadata.breadcrumb === true) renderedBody = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>` + renderedBody;
   if (article) {
@@ -221,7 +227,7 @@ for (const page of parsed) {
   const html = replace(base, {
     LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
     CANONICAL: url, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks, CSS_VERSION: assetVersion.css, JS_VERSION: assetVersion.js,
-    PAGE_HEAD: tool ? `<link rel="stylesheet" href="${tool.css}"><link rel="modulepreload" href="${tool.core}">` : metadata.tools_hub === true ? `<link rel="stylesheet" href="${toolCss}">` : '', PAGE_SCRIPTS: (tool || metadata.tools_hub === true ? iconSprite : '') + (tool ? `<script type="module" src="${tool.js}"></script>` : ''),
+    PAGE_HEAD: tool ? `<link rel="stylesheet" href="${tool.css}"><link rel="modulepreload" href="${tool.core}">` : metadata.tools_hub === true ? `<link rel="stylesheet" href="${toolCss}">` : metadata.faq_hub === true ? faqHead : '', PAGE_SCRIPTS: (tool || metadata.tools_hub === true || metadata.faq_hub === true ? iconSprite : '') + (tool ? `<script type="module" src="${tool.js}"></script>` : metadata.faq_hub === true ? faqScript : ''),
     ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
     HEADER: header, FOOTER: footer, CONTENT: designed ? `<div class="home" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</div>` : `<article class="shell prose" data-page-slug="${escapeHtml(metadata.slug)}">${renderedBody}</article>`
   });

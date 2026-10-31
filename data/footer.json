@@ -27,6 +27,7 @@
       "heading": "About",
       "links": [
         { "label": "About Us", "url": "/about/" },
+        { "label": "Legal FAQ", "url": "/legal-faq/" },
         { "label": "Contact Us", "url": "/contact/" },
         { "label": "Partner With Us", "url": "/partner-with-us/" }
       ]
