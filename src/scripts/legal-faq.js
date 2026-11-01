@@ -32,7 +32,7 @@ function init(root) {
     // Within each topic, stronger matches move to the top while a search is active.
     for (const section of sections) {
       const inSection = scored.filter(s => s.item.parentElement === section);
-      inSection.sort((a, b) => (b.score - a.score) || (Number(a.item.dataset.order) - Number(b.item.dataset.order))).forEach(s => section.append(s.item));
+      inSection.sort((a, b) => (b.score - a.score) || (Number(a.item.dataset.order) - Number(b.item.dataset.order))).forEach(s => section.insertBefore(s.item, section.querySelector('.faq-more')));
       section.hidden = !inSection.some(s => s.score > 0);
     }
     const shown = scored.filter(s => s.score > 0).length;

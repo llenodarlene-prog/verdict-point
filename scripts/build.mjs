@@ -204,7 +204,7 @@ for (const page of parsed) {
   if (metadata.tool && !tool) throw new Error(`${source}: unknown tool ${metadata.tool}`);
   if (tool) schema['@graph'].push({ '@type': 'WebApplication', '@id': `${url}#app`, url, ...tool.app, publisher: { '@id': `${siteUrl}/#organization` }, isPartOf: { '@id': `${url}#webpage` } });
   resetCharts();
-  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, blocks: { ...(tool ? { tool: () => tool.markup } : {}), toolcards: toolCards, faqhub: () => renderFaqHub(legalFaq, name => iconTag(name)) } });
+  let renderedBody = designed ? designed() : markdownToHtml(body, { chart: chartBlock, image: figure, blocks: { ...(tool ? { tool: () => tool.markup } : {}), toolcards: toolCards, faqhub: text => renderFaqHub(legalFaq, name => iconTag(name), text.trim() === 'all' ? '' : text.trim()) } });
   // Pages that opt in show the same breadcrumb trail as posts.
   if (!article && metadata.breadcrumb === true) renderedBody = `<nav class="breadcrumb" aria-label="Breadcrumb"><ol>${crumbs.map((crumb, i) => i < crumbs.length - 1 ? `<li><a href="${escapeHtml(crumb.url.replace(siteUrl, '') || '/')}">${escapeHtml(crumb.name)}</a></li>` : `<li aria-current="page">${escapeHtml(crumb.name)}</li>`).join('')}</ol></nav>` + renderedBody;
   if (article) {

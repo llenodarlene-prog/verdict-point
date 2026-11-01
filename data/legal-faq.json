@@ -1,5 +1,5 @@
 {
- "reviewed": "2026-10-31",
+ "reviewed": "2026-11-01",
  "reviewer": "Darlene Aberin",
  "topics": [
   {
@@ -12,13 +12,47 @@
    "id": "billing",
    "name": "Billing, Fees and Finance",
    "icon": "receipt",
-   "description": "Billable hours, increments, and how time turns into invoices."
+   "description": "Billable hours, increments, and how time turns into invoices.",
+   "url": "/legal-faq/billing-fees-finance/",
+   "subtopics": [
+    [
+     "timekeeping",
+     "Timekeeping and Increments"
+    ],
+    [
+     "invoices",
+     "Invoices and E-Billing"
+    ],
+    [
+     "metrics",
+     "Billing Metrics"
+    ],
+    [
+     "fees",
+     "Fee Arrangements"
+    ]
+   ]
   },
   {
    "id": "careers",
    "name": "Legal Careers and Roles",
    "icon": "briefcase",
-   "description": "Paralegals, legal assistants, clerks, and what each one does."
+   "description": "Paralegals, legal assistants, clerks, and what each one does.",
+   "url": "/legal-faq/legal-careers-roles/",
+   "subtopics": [
+    [
+     "paralegals",
+     "Paralegals"
+    ],
+    [
+     "legal-assistants",
+     "Legal Assistants"
+    ],
+    [
+     "lawyers-clerks",
+     "Lawyers and Law Clerks"
+    ]
+   ]
   },
   {
    "id": "in-house",
@@ -85,7 +119,9 @@
      "label": "NALA, What Do Paralegals Do?",
      "url": "https://nala.org/what-do-paralegals-do/"
     }
-   ]
+   ],
+   "featured": true,
+   "subtopic": "paralegals"
   },
   {
    "id": "legal-assistant-vs-paralegal",
@@ -131,7 +167,9 @@
      "The full breakdown, including training and supervision, is in [legal assistant and paralegal roles compared](/legal/legal-assistant-and-paralegal/)."
     ]
    ],
-   "sources": []
+   "sources": [],
+   "featured": true,
+   "subtopic": "legal-assistants"
   },
   {
    "id": "what-is-a-legal-assistant",
@@ -148,7 +186,9 @@
      "If you're thinking about the role, start with [how to become a legal assistant](/legal/how-to-become-a-legal-assistant/)."
     ]
    ],
-   "sources": []
+   "sources": [],
+   "featured": true,
+   "subtopic": "legal-assistants"
   },
   {
    "id": "what-is-a-law-firm",
@@ -178,7 +218,8 @@
      "See how retainers work in practice in [retainer fee types and billing examples](/law-firms/retainer-fee/), and how firm sizes compare in [legal industry statistics by firm size](/legal/legal-industry-statistics-firm-size/)."
     ]
    ],
-   "sources": []
+   "sources": [],
+   "featured": true
   },
   {
    "id": "what-are-billable-hours",
@@ -207,7 +248,9 @@
      "Convert any amount of time with the [billable hours calculator](/tools/billable-hours-calculator/), or check the minute-to-tenth table in the [legal billing chart](/law-firms/legal-billing-chart/)."
     ]
    ],
-   "sources": []
+   "sources": [],
+   "featured": true,
+   "subtopic": "timekeeping"
   },
   {
    "id": "what-is-block-billing",
@@ -249,7 +292,9 @@
      "Itemized entries pair well with consistent increments. The [legal billing chart](/law-firms/legal-billing-chart/) shows how minutes convert to tenths."
     ]
    ],
-   "sources": []
+   "sources": [],
+   "featured": true,
+   "subtopic": "timekeeping"
   },
   {
    "id": "what-is-in-house-counsel",
@@ -271,7 +316,8 @@
      "label": "Cornell Law School LII, In-house counsel",
      "url": "https://www.law.cornell.edu/wex/in-house_counsel"
     }
-   ]
+   ],
+   "featured": true
   },
   {
    "id": "what-is-legal-operations",
@@ -306,7 +352,8 @@
      "label": "CLOC, What Is Legal Operations?",
      "url": "https://cloc.org/what-is-legal-operations/"
     }
-   ]
+   ],
+   "featured": true
   },
   {
    "id": "what-is-legal-research",
@@ -348,7 +395,8 @@
      "label": "Cornell Law School LII, Legal research",
      "url": "https://www.law.cornell.edu/wex/legal_research"
     }
-   ]
+   ],
+   "featured": true
   },
   {
    "id": "what-is-legal-technology",
@@ -379,7 +427,8 @@
      "Compare options in [legal practice management software for small firms](/legal-tech/legal-practice-management-software/) or see adoption data in [legal technology statistics](/legal-tech/legal-technology-statistics/)."
     ]
    ],
-   "sources": []
+   "sources": [],
+   "featured": true
   },
   {
    "id": "can-ai-replace-lawyers",
@@ -405,7 +454,8 @@
      "label": "Magesh et al., Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools (arXiv, 2024)",
      "url": "https://arxiv.org/abs/2405.20362"
     }
-   ]
+   ],
+   "featured": true
   },
   {
    "id": "how-much-should-a-law-firm-spend-on-marketing",
@@ -435,7 +485,8 @@
      "The [law firm SEO ROI calculator](/tools/law-firm-seo-roi-calculator/) runs those scenarios for you. For survey data on spend, see [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/)."
     ]
    ],
-   "sources": []
+   "sources": [],
+   "featured": true
   },
   {
    "id": "what-is-law-firm-utilization",
@@ -456,7 +507,8 @@
      "Calculate it from your own totals, alongside realization and collection, with the [law firm KPI calculator](/tools/law-firm-kpi-calculator/)."
     ]
    ],
-   "sources": []
+   "sources": [],
+   "featured": true
   },
   {
    "id": "how-are-court-deadlines-calculated",
@@ -489,6 +541,639 @@
     {
      "label": "Cornell Law School LII, Federal Rule of Civil Procedure 6",
      "url": "https://www.law.cornell.edu/rules/frcp/rule_6"
+    }
+   ],
+   "featured": true
+  },
+  {
+   "id": "what-counts-as-billable-time",
+   "topic": "billing",
+   "subtopic": "timekeeping",
+   "q": "What counts as billable time?",
+   "aliases": "billable tasks non-billable admin",
+   "blocks": [
+    [
+     "p",
+     "Billable time is work done for a specific client that the engagement agreement lets the firm charge for. The agreement and the client's billing rules settle the edge cases. Work that runs the firm itself, like marketing or training, normally stays off the invoice."
+    ],
+    [
+     "p",
+     "A quick way to sort a task:"
+    ],
+    [
+     "table",
+     [
+      "Usually billable",
+      "Usually not billable"
+     ],
+     [
+      [
+       "Legal research for the client's matter",
+       "Bookkeeping and payroll"
+      ],
+      [
+       "Drafting and reviewing documents",
+       "Marketing and business development"
+      ],
+      [
+       "Calls, meetings, and court time",
+       "Internal training"
+      ],
+      [
+       "Substantive paralegal work",
+       "Clerical work like copying or scheduling"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "When a task falls in between, check the engagement letter first. Then log it the same way every time, and convert it with the [billable hours calculator](/tools/billable-hours-calculator/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "billable-hours-vs-hours-worked",
+   "topic": "billing",
+   "subtopic": "timekeeping",
+   "q": "What is the difference between billable hours and hours worked?",
+   "aliases": "billable vs worked total hours utilization",
+   "blocks": [
+    [
+     "p",
+     "Hours worked is every hour on the job. Billable hours is the part of that time charged to clients. The gap is everything else: admin, email triage, marketing, training, and time that gets written off."
+    ],
+    [
+     "p",
+     "The ratio between the two is the utilization rate:"
+    ],
+    [
+     "ol",
+     [
+      "Add up billable hours for a period, such as 1,500 in a year.",
+      "Add up all hours worked in the same period, such as 2,000.",
+      "Divide billable by worked: 1,500 ÷ 2,000 = 75% utilization."
+     ]
+    ],
+    [
+     "p",
+     "Those figures are an invented example. Run your own with the [law firm KPI calculator](/tools/law-firm-kpi-calculator/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-a-billing-increment",
+   "topic": "billing",
+   "subtopic": "timekeeping",
+   "q": "What is a billing increment?",
+   "aliases": "six-minute increment tenth of an hour 0.1 rounding",
+   "blocks": [
+    [
+     "p",
+     "A billing increment is the smallest unit of time a firm records. The most common is a tenth of an hour, or six minutes. Each entry rounds up to the next tenth, so a 7-minute task shows as 0.2 hours."
+    ],
+    [
+     "p",
+     "The Northern District of California publishes this conversion chart for tenths:"
+    ],
+    [
+     "table",
+     [
+      "Minutes worked",
+      "Time billed"
+     ],
+     [
+      [
+       "1 to 6",
+       "0.1"
+      ],
+      [
+       "7 to 12",
+       "0.2"
+      ],
+      [
+       "13 to 18",
+       "0.3"
+      ],
+      [
+       "19 to 24",
+       "0.4"
+      ],
+      [
+       "25 to 30",
+       "0.5"
+      ],
+      [
+       "31 to 36",
+       "0.6"
+      ],
+      [
+       "37 to 42",
+       "0.7"
+      ],
+      [
+       "43 to 48",
+       "0.8"
+      ],
+      [
+       "49 to 54",
+       "0.9"
+      ],
+      [
+       "55 to 60",
+       "1.0"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "Some engagement letters use other increments, such as quarter hours. Convert any length of time in the [billable hours calculator](/tools/billable-hours-calculator/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "U.S. District Court, Northern District of California, Billing Increment Chart",
+     "url": "https://cand.uscourts.gov/attorneys/criminal-justice-act-cja/billing-increment-chart-minutes-tenths-hour"
+    }
+   ]
+  },
+  {
+   "id": "can-paralegals-bill-clients",
+   "topic": "billing",
+   "subtopic": "timekeeping",
+   "q": "Can paralegals bill clients?",
+   "aliases": "paralegal billable time rate",
+   "blocks": [
+    [
+     "p",
+     "Yes. In a law firm, a paralegal's substantive legal work is often billed to clients. NALA says it's billed much like a lawyer's time, but at a lower hourly rate. Clerical and administrative work is the exception."
+    ],
+    [
+     "p",
+     "For a full picture of that work, see [what a paralegal does in a law firm](/legal/what-does-a-paralegal-do/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "NALA, What Do Paralegals Do?",
+     "url": "https://nala.org/what-do-paralegals-do/"
+    }
+   ]
+  },
+  {
+   "id": "how-do-law-firms-bill-clients",
+   "topic": "billing",
+   "subtopic": "invoices",
+   "q": "How do law firms bill clients?",
+   "aliases": "legal billing process invoice what is legal billing",
+   "blocks": [
+    [
+     "p",
+     "Most firms bill on a regular cycle, often monthly. Lawyers and staff record time and expenses on each matter. Someone reviews the entries, the firm sends an invoice under the fee agreement, and the client pays. Legal billing is the name for that whole process."
+    ],
+    [
+     "p",
+     "A typical cycle runs in five steps:"
+    ],
+    [
+     "ol",
+     [
+      "Timekeepers log time and costs against each matter.",
+      "A billing lawyer reviews entries and makes any write-downs.",
+      "The firm generates invoices, sometimes in a client's e-billing format.",
+      "The client reviews and pays, or disputes specific entries.",
+      "The firm records payment and follows up on anything unpaid."
+     ]
+    ],
+    [
+     "p",
+     "Firms measure how much survives each step with realization and collection rates. Run both with the [law firm KPI calculator](/tools/law-firm-kpi-calculator/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-legal-e-billing",
+   "topic": "billing",
+   "subtopic": "invoices",
+   "q": "What is legal e-billing?",
+   "aliases": "ebilling ledes electronic invoice",
+   "blocks": [
+    [
+     "p",
+     "Legal e-billing means sending invoices as structured electronic files instead of paper or PDF. Clients use e-billing systems to check each entry against their billing rules. The files usually follow LEDES, the data standard best known for legal e-billing formats."
+    ],
+    [
+     "p",
+     "E-billed invoices tend to need:"
+    ],
+    [
+     "ul",
+     [
+      "Separate entries for each task, not block entries.",
+      "Task and activity codes on each line.",
+      "Timekeeper names and approved rates.",
+      "The client's matter number and any other required fields."
+     ]
+    ],
+    [
+     "p",
+     "The codes are explained in the [UTBMS codes answer](#what-are-utbms-codes). Clean entries start with consistent increments, shown in the [legal billing chart](/law-firms/legal-billing-chart/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "LEDES Oversight Committee",
+     "url": "https://ledes.org/"
+    }
+   ]
+  },
+  {
+   "id": "what-are-utbms-codes",
+   "topic": "billing",
+   "subtopic": "invoices",
+   "q": "What are UTBMS codes?",
+   "aliases": "task codes activity codes aba codes l-codes",
+   "blocks": [
+    [
+     "p",
+     "UTBMS codes are standard codes that label each time entry by the type of work done. UTBMS stands for Uniform Task-Based Management System. The LEDES Oversight Committee maintains the code sets, which e-billing systems use to group legal spend."
+    ],
+    [
+     "p",
+     "An entry usually carries two codes. A task code names the phase of work, and an activity code names what was done. Together they let a client see how much went to discovery versus motions, for example."
+    ],
+    [
+     "p",
+     "Codes work best with clean, itemized entries. The [block billing answer](#what-is-block-billing) shows why, and the [legal billing chart](/law-firms/legal-billing-chart/) covers increments."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "LEDES Oversight Committee",
+     "url": "https://ledes.org/"
+    },
+    {
+     "label": "UTBMS.com",
+     "url": "https://utbms.com/"
+    }
+   ]
+  },
+  {
+   "id": "can-lawyers-bill-for-emails",
+   "topic": "billing",
+   "subtopic": "invoices",
+   "q": "Can lawyers bill for emails?",
+   "aliases": "bill for email phone calls",
+   "blocks": [
+    [
+     "p",
+     "Usually, yes, if the email is real client work and the fee agreement allows it. Reading a client's question and writing advice counts. Sending a calendar invite or a quick \"got it, thanks\" often doesn't."
+    ],
+    [
+     "p",
+     "Two habits keep email time easy to defend:"
+    ],
+    [
+     "ul",
+     [
+      "Describe what the email did, such as \"advised client on settlement terms.\"",
+      "Group several short emails on one matter instead of billing 0.1 for each."
+     ]
+    ],
+    [
+     "p",
+     "The [legal billing chart](/law-firms/legal-billing-chart/) shows how short tasks convert to tenths."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-a-realization-rate",
+   "topic": "billing",
+   "subtopic": "metrics",
+   "q": "What is a realization rate?",
+   "aliases": "billing realization write-downs",
+   "blocks": [
+    [
+     "p",
+     "A realization rate shows how much of the value of recorded time gets billed. Divide the billed amount by the standard value of the time, then multiply by 100. Write-downs and discounts pull it below 100%."
+    ],
+    [
+     "p",
+     "Example with invented figures: $483,000 billed ÷ $525,000 of time at standard rates × 100 = 92% realization."
+    ],
+    [
+     "p",
+     "Calculate yours with the [law firm KPI calculator](/tools/law-firm-kpi-calculator/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-a-collection-rate",
+   "topic": "billing",
+   "subtopic": "metrics",
+   "q": "What is a collection rate?",
+   "aliases": "collections unpaid invoices",
+   "blocks": [
+    [
+     "p",
+     "A collection rate shows how much of what a firm billed it got paid. Divide collected payments by the amount billed, then multiply by 100. A firm can bill nearly all its time and still collect poorly."
+    ],
+    [
+     "p",
+     "Example with invented figures: $458,850 collected ÷ $483,000 billed × 100 = 95% collection."
+    ],
+    [
+     "p",
+     "The [law firm KPI calculator](/tools/law-firm-kpi-calculator/) works out realization and collection together."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-an-effective-hourly-rate",
+   "topic": "billing",
+   "subtopic": "metrics",
+   "q": "What is an effective hourly rate?",
+   "aliases": "effective rate standard rate collected per hour",
+   "blocks": [
+    [
+     "p",
+     "An effective hourly rate is what a firm collects for each billable hour. Divide collected fees by billable hours. It usually comes in below the standard rate, because write-downs, discounts, and unpaid bills come out first."
+    ],
+    [
+     "table",
+     [
+      "Measure",
+      "Formula",
+      "Example"
+     ],
+     [
+      [
+       "Standard rate",
+       "Rate set for the timekeeper",
+       "$350 an hour"
+      ],
+      [
+       "Effective rate",
+       "Collected fees ÷ billable hours",
+       "$458,850 ÷ 1,500 = $305.90"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "The example figures are invented. Find your own in the [law firm KPI calculator](/tools/law-firm-kpi-calculator/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "what-is-a-retainer-fee",
+   "topic": "billing",
+   "subtopic": "fees",
+   "q": "What is a retainer fee?",
+   "aliases": "retainer advance fee trust account",
+   "blocks": [
+    [
+     "p",
+     "A retainer fee is money a client pays a lawyer upfront. The term covers two different things. An advance pays for future work and gets drawn down as the lawyer bills. A true retainer pays the lawyer to stay available, whether or not work follows."
+    ],
+    [
+     "p",
+     "The fee agreement should say which kind it is, when the lawyer earns the money, and what happens to any unused amount. Worked examples are in [retainer fee types and billing examples](/law-firms/retainer-fee/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "can-paralegals-give-legal-advice",
+   "topic": "careers",
+   "subtopic": "paralegals",
+   "q": "Can paralegals give legal advice?",
+   "aliases": "paralegal advice unauthorized practice",
+   "blocks": [
+    [
+     "p",
+     "No. Paralegals can't give legal advice or do any task reserved for licensed lawyers. They can gather facts, draft documents, and pass along a lawyer's advice. The advice itself has to come from the lawyer."
+    ],
+    [
+     "p",
+     "According to NALA, a paralegal can:"
+    ],
+    [
+     "ul",
+     [
+      "Interview clients and witnesses, under a lawyer's supervision.",
+      "Draft documents for a lawyer to review.",
+      "Write and sign routine letters that show the paralegal title and give no legal opinion."
+     ]
+    ],
+    [
+     "p",
+     "The day-to-day picture is in [what a paralegal does in a law firm](/legal/what-does-a-paralegal-do/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "NALA, What Do Paralegals Do?",
+     "url": "https://nala.org/what-do-paralegals-do/"
+    }
+   ]
+  },
+  {
+   "id": "what-is-a-certified-paralegal",
+   "topic": "careers",
+   "subtopic": "paralegals",
+   "q": "What is a Certified Paralegal?",
+   "aliases": "paralegal certification cp credential",
+   "blocks": [
+    [
+     "p",
+     "A Certified Paralegal, or CP, is someone who has earned NALA's professional credential. NALA has run the program for over 50 years. It's a credential from a professional association, not a license to practice law."
+    ],
+    [
+     "p",
+     "A school certificate is a different thing. It shows you finished a training program, while certification means you passed a credentialing exam. [How to become a legal assistant](/legal/how-to-become-a-legal-assistant/) covers how both fit into a job search."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "NALA, Certification",
+     "url": "https://nala.org/certification/"
+    }
+   ]
+  },
+  {
+   "id": "are-paralegals-and-legal-assistants-the-same-job",
+   "topic": "careers",
+   "subtopic": "legal-assistants",
+   "q": "Are paralegals and legal assistants the same occupation?",
+   "aliases": "onet occupation code job category",
+   "blocks": [
+    [
+     "p",
+     "In federal job data, yes. O*NET, the U.S. Labor Department's occupation database, lists \"Paralegals and Legal Assistants\" as one occupation, code 23-2011. It describes the work as assisting lawyers by investigating facts, preparing documents, or researching precedent."
+    ],
+    [
+     "p",
+     "Employers can still use the two titles for different jobs. The [legal assistant and paralegal comparison](/legal/legal-assistant-and-paralegal/) shows how to tell them apart in a posting."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "O*NET OnLine, 23-2011.00 Paralegals and Legal Assistants",
+     "url": "https://www.onetonline.org/link/summary/23-2011.00"
+    }
+   ]
+  },
+  {
+   "id": "how-do-you-become-a-legal-assistant",
+   "topic": "careers",
+   "subtopic": "legal-assistants",
+   "q": "How do you become a legal assistant?",
+   "aliases": "legal assistant degree requirements training",
+   "blocks": [
+    [
+     "p",
+     "Start with the jobs, not a course. Look at legal assistant postings where you want to work and note what they ask for. Requirements differ by employer, so no single path covers every role."
+    ],
+    [
+     "p",
+     "A practical order of steps:"
+    ],
+    [
+     "ol",
+     [
+      "Collect five to ten real postings in your area.",
+      "List the education and skills they share.",
+      "Fill the gaps with training that matches those postings.",
+      "Apply with examples that show the skills each posting asks for."
+     ]
+    ],
+    [
+     "p",
+     "The full plan is in [how to become a legal assistant](/legal/how-to-become-a-legal-assistant/)."
+    ]
+   ],
+   "sources": []
+  },
+  {
+   "id": "lawyer-vs-attorney",
+   "topic": "careers",
+   "subtopic": "lawyers-clerks",
+   "q": "What is the difference between a lawyer and an attorney?",
+   "aliases": "lawyer attorney attorney-at-law",
+   "blocks": [
+    [
+     "p",
+     "In everyday US use, there's very little difference. Cornell's legal dictionary says a lawyer is also called an attorney or attorney-at-law. The bigger question is whether the person is licensed to practice where you need help."
+    ],
+    [
+     "p",
+     "More on titles and licensing is in [lawyer vs attorney in the United States](/legal/lawyer-vs-attorney/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "Cornell Law School LII, Lawyer",
+     "url": "https://www.law.cornell.edu/wex/lawyer"
+    }
+   ]
+  },
+  {
+   "id": "what-is-a-law-clerk",
+   "topic": "careers",
+   "subtopic": "lawyers-clerks",
+   "q": "What is a law clerk?",
+   "aliases": "judicial clerk clerkship",
+   "blocks": [
+    [
+     "p",
+     "A law clerk does legal research and writing for a judge or a legal office. In most judges' chambers, clerks concentrate on research and writing. Court staff who manage records are a different job, even when the title includes \"clerk.\""
+    ],
+    [
+     "p",
+     "Federal judicial clerks often handle tasks like these:"
+    ],
+    [
+     "ul",
+     [
+      "Legal research and bench memos.",
+      "Drafting orders and opinions.",
+      "Checking citations and proofreading the judge's work.",
+      "Helping the judge during courtroom proceedings."
+     ]
+    ],
+    [
+     "p",
+     "See how the role varies in [what is a law clerk](/legal/what-is-a-law-clerk/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "OSCAR, Duties of Federal Law Clerks",
+     "url": "https://oscar.uscourts.gov/duties_of_federal_law_clerks"
+    }
+   ]
+  },
+  {
+   "id": "how-do-legal-roles-compare",
+   "topic": "careers",
+   "subtopic": "lawyers-clerks",
+   "q": "How do paralegals, legal assistants, law clerks, and lawyers compare?",
+   "aliases": "legal roles comparison law clerk vs paralegal",
+   "blocks": [
+    [
+     "p",
+     "Ask two things: who does the person work for, and can they give legal advice? Only a licensed lawyer can advise clients. The other roles support legal work in different ways."
+    ],
+    [
+     "table",
+     [
+      "Role",
+      "Typical work",
+      "Gives legal advice?"
+     ],
+     [
+      [
+       "Lawyer",
+       "Advises and represents clients",
+       "Yes, where licensed"
+      ],
+      [
+       "Paralegal",
+       "Drafting, research, and case prep under a lawyer",
+       "No"
+      ],
+      [
+       "Legal assistant",
+       "Ranges from admin support to paralegal-style work",
+       "No"
+      ],
+      [
+       "Judicial law clerk",
+       "Research, memos, and draft opinions for a judge",
+       "No, works for the court"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "For practice areas once you're licensed, browse [types of lawyers and their practice areas](/legal/types-of-lawyers/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "NALA, What Do Paralegals Do?",
+     "url": "https://nala.org/what-do-paralegals-do/"
+    },
+    {
+     "label": "OSCAR, Duties of Federal Law Clerks",
+     "url": "https://oscar.uscourts.gov/duties_of_federal_law_clerks"
     }
    ]
   }

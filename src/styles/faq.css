@@ -43,3 +43,11 @@
 @media print{.faq-search,.faq-chips,.faq-actions{display:none!important}}
 .faq .visually-hidden{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
 .faq [hidden]{display:none!important}
+.faq-jump ul{display:flex;flex-wrap:wrap;gap:.4rem .9rem;list-style:none;padding:0;margin:1rem 0 .5rem}
+.faq-jump a{font-size:.92rem}
+.faq-jump span{color:#596273}
+.faq-more{font-weight:600}
+.faq-more a{display:inline-flex;align-items:center;gap:.35rem}
+.faq-card.is-silo{border-color:var(--secondary)}
+.faq-card-count .ti{width:.95em;height:.95em}
+.faq-section-intro{max-width:75ch}
