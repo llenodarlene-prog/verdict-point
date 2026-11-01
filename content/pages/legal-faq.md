@@ -8,7 +8,7 @@ schema: WebPage
 breadcrumb: true
 faq_hub: true
 draft: false
-modified: 2026-10-31
+modified: 2026-11-01
 ---
 
 # Legal Industry FAQ: Law Firms, Careers, Billing and Technology
