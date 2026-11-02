@@ -151,9 +151,9 @@
       "source_type": "Primary or official page",
       "year": "2026",
       "published_at": "Not stated",
-      "accessed_at": "2026-10-26",
+      "accessed_at": "2026-11-02",
       "scope": "GenieAI's pricing page",
-      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "method": "Opened and read the live page on 2026-11-02 (Claude fact-check during screenshot capture); figures updated to match the live page.",
       "limitations": "Can change without notice; not legal advice.",
       "verified": true
     },

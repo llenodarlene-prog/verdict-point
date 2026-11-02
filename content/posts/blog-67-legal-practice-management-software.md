@@ -17,7 +17,7 @@ image: /assets/images/posts/legal-practice-management-software/practice-manageme
 image_alt: Lawyer presenting a practice management screen of matter, document, and billing icons to colleagues and remote attendees
 author: Darlene Aberin
 published: 2026-10-30
-modified: 2026-10-30
+modified: 2026-11-02
 ---
 
 # 7 Legal Practice Management Software Options for Small Firms
@@ -65,8 +65,8 @@ The prices below are public US list prices observed on October 25, 2026. "Quote"
 | PracticePanther | $49 | Per user, per month on annual schedule | Core matters, time, portal, storage, mobile apps |
 | Rocket Matter | $59 in plan table | Per user, per month, paid annually | Billing, trust accounting, migration, support |
 | Bill4Time | $59 for Legal Pro annually | Per user, per month | Time, billing, trust accounting, LEDES, data import |
-| CARET Legal | $79 plus implementation | Per user, per month, billed annually | Email, documents, billing, accounting, reporting |
-| CosmoLex | Quote | Subscription | Practice management with built-in business and trust accounting |
+| CARET Legal | Request a demo; no public price | Per user plus one-time implementation fees | Email, documents, billing, accounting, reporting |
+| CosmoLex | $49 with yearly billing | Per user, per month | Practice management with built-in business and trust accounting |
 
 The Rocket Matter page also says plans start at $49 in its FAQ. Its visible plan table starts at $59. Ask the vendor to resolve that difference in writing.
 
@@ -128,7 +128,7 @@ Use a representative invoice during the trial. Include multiple timekeepers, exp
 
 ## 6. CARET Legal
 
-CARET Legal lists Enterprise at $79, Enterprise Plus at $99, and Enterprise Insights at $119 per user per month when billed annually. The page also says one-time implementation fees apply.
+CARET Legal's pricing page names three plans: Enterprise, Enterprise Plus, and Enterprise Insights. As of November 2026 it shows no dollar figures, only a demo request for each plan. The page says pricing is per user plus one-time implementation fees.
 
 ![CARET Legal pricing page listing Enterprise, Enterprise Plus, and Enterprise Insights plans with Schedule a Demo buttons and feature lists](/assets/images/posts/legal-practice-management-software/caretlegal-screenshot-1600.jpg "CARET Legal pricing page showing the Enterprise, Enterprise Plus, and Enterprise Insights plans, captured November 2026.")
 
@@ -140,7 +140,7 @@ Ask staff from billing, intake, and legal work to attend the demo. Each group sh
 
 ## 7. CosmoLex
 
-CosmoLex describes an integrated platform for matters, business accounting, trust accounting, time, billing, documents, email, tasks, and calendars. It offers a ten-day trial without a credit card. We did not find a current public list price on the pages reviewed.
+CosmoLex describes an integrated platform for matters, business accounting, trust accounting, time, billing, documents, email, tasks, and calendars. It offers a ten-day trial without a credit card. Its pricing page lists Launch at $49, Core at $99, and Pro at $129 per user per month with yearly billing, which it says saves $120 per user.
 
 ![CosmoLex feature page headline about all-in-one law practice management, with a dashboard showing reports and billing summaries](/assets/images/posts/legal-practice-management-software/cosmolex-screenshot-1600.jpg "CosmoLex law practice management feature page, captured November 2026.")
 
@@ -216,7 +216,7 @@ It centralizes matters and related work. Common functions include contacts, cale
 
 ### How Much Does It Cost for a Small Firm?
 
-The public entry points in this comparison range from $49 to $79 per user per month, while some vendors require a quote. The complete plan may cost more after accounting, CRM, implementation, migration, and payment services.
+The public entry points in this comparison range from $49 to $59 per user per month, while some vendors require a quote or a demo. The complete plan may cost more after accounting, CRM, implementation, migration, and payment services.
 
 ### Is a Free Trial Enough to Evaluate a Platform?
 
@@ -235,3 +235,4 @@ Vendors offer different export tools and post-cancellation periods. Obtain the f
 - [Bill4Time legal plans](https://www.bill4time.com/pricing/)
 - [CARET Legal plans](https://caretlegal.com/pricing/)
 - [CosmoLex feature overview](https://www.cosmolex.com/features/law-practice-management/)
+- [CosmoLex pricing](https://www.cosmolex.com/pricing/)

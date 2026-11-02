@@ -151,9 +151,9 @@
       "source_type": "Primary or official page",
       "year": "2026",
       "published_at": "Not stated",
-      "accessed_at": "2026-10-26",
+      "accessed_at": "2026-11-02",
       "scope": "CARET Legal plans",
-      "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
+      "method": "Opened and read the live page on 2026-11-02 (Claude fact-check during screenshot capture); figures updated to match the live page.",
       "limitations": "Can change without notice; not legal advice.",
       "verified": true
     },
@@ -168,6 +168,19 @@
       "scope": "CosmoLex feature overview",
       "method": "Opened and read the live page on 2026-10-26 (Claude fact-check; pages that block automated clients were read through a page reader that renders the live page); fact-check sign-off by Darlene Aberin.",
       "limitations": "Can change without notice; not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cosmolex.com/pricing/",
+      "title": "CosmoLex pricing",
+      "publisher": "cosmolex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-02",
+      "scope": "CosmoLex plan prices",
+      "method": "Opened and read the live page on 2026-11-02 (Claude fact-check during screenshot capture).",
+      "limitations": "Can change without notice; prices shown with yearly billing; not legal advice.",
       "verified": true
     }
   ],

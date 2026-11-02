@@ -17,7 +17,7 @@ image: /assets/images/posts/free-legal-ai/reviewing-ai-flagged-document-laptop-1
 image_alt: Legal professional pointing to flagged passages in a document on a laptop beside annotated printouts
 author: Darlene Aberin
 published: 2026-10-30
-modified: 2026-10-30
+modified: 2026-11-02
 ---
 
 # 7 Free Legal AI Tools: Uses, Limits, and Free-Plan Rules
@@ -52,7 +52,7 @@ The table compares each free legal AI tool by verified access, starting task, an
 | --- | --- | --- | --- |
 | LawConnect | Free navigation | Explain a situation and identify next steps | Information is not a substitute for legal advice |
 | Justee | Free document review | Flag and explain terms in one document | Upload up to 10 MB; paid plans add privacy features |
-| GenieAI | Ongoing $0 plan | Draft, review, edit, or question a contract | Usage limits apply; confirm jurisdiction and source law |
+| GenieAI | Free start with limited AI tokens | Draft, review, edit, or question a contract | Exports locked until upgrade; confirm jurisdiction and source law |
 | TheLawGPT | Ongoing $0 plan | Ask a legal question and inspect cited sources | Three questions daily; files up to 1 MB |
 | Lawyerz Libra | Free questions and document work | Generate a research or drafting starting point | Public page does not publish a clear daily allowance |
 | Aux.ai | Free informational chat | Ask a general consumer legal question | No attorney-client relationship; informational content |
@@ -82,7 +82,7 @@ Justee says documents receive encryption and that it does not train AI on user d
 
 ## 3. GenieAI
 
-GenieAI's pricing page lists a $0 plan without a credit card. It includes document creation, Q&A, review and editing, more than 500 templates, a DOCX editor, and PDF import.
+GenieAI's pricing page offers a free start without a credit card. As of November 2026, that free access comes with limited AI tokens, and exports stay locked until the user upgrades. The paid plans begin with Pro at $59 per month, billed annually.
 
 ![GenieAI pricing page with a try for free banner and Pro, Business, and Enterprise plan cards](/assets/images/posts/free-legal-ai/genieai-screenshot-1600.jpg "GenieAI pricing page showing its paid plans and free trial banner, captured November 2026.")
 
