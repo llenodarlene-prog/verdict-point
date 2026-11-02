@@ -59,6 +59,8 @@ The table uses prices published by each provider. "Quote" means the vendor did n
 
 [Westlaw Advantage](https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing) fits firms that need broad U.S. authority, editorial enhancements, and an established citator. Thomson Reuters lists KeyCite, the West Key Number System, and Headnotes among its included research tools.
 
+![Thomson Reuters Westlaw Advantage plans and pricing page with a step-by-step plan builder and an order summary panel](/assets/images/posts/legal-research-software/westlaw-screenshot-1600.jpg "Westlaw Advantage plans and pricing page with its plan builder, captured November 2026.")
+
 The platform also includes Deep Research, AI Jurisdictional Surveys, and litigation document analysis. Those features may help with issue spotting and multi-step research. Lawyers still need to open and check every cited authority.
 
 Published pricing starts at $256.75 per month for single-circuit coverage. All-states and federal coverage starts at $399.75 per month. The vendor says online pricing is available to new customers only.
@@ -89,6 +91,8 @@ Ask whether every required court, document type, and historical period is includ
 
 vLex Fastcase provides U.S. federal and state cases, statutes, regulations, court rules, and administrative materials. Its current tools include AI case analysis, Cert Citator, and an interactive timeline.
 
+![vLex Fastcase library page headline about comprehensive United States legal research](/assets/images/posts/legal-research-software/vlex-screenshot-1600.jpg "vLex Fastcase library page describing its US legal research collection, captured November 2026.")
+
 Current vLex pages identify the company as part of Clio. That ownership change makes older stand-alone Fastcase reviews and prices unreliable, so check every feature against the current page.
 
 The provider says Fastcase Library is available through more than 80 bar-association partnerships. Participating members may receive access as a benefit. The exact library, training, and AI entitlements can differ by association.
@@ -98,6 +102,8 @@ Check bar membership before buying another subscription. Then confirm whether th
 ## 5. Decisis
 
 Decisis targets solo lawyers and small firms with lower published prices. Its Appellate plan starts at $125 per month. The National plan starts at $145 per month.
+
+![Decisis homepage headline about speed, reliability, and affordability, with a preview of the Decisis search screen](/assets/images/posts/legal-research-software/decisis-screenshot-1600.jpg "Decisis homepage describing its legal research database, captured November 2026.")
 
 The service includes the InterCite citator and offers plans with different geographic reach. Decisis describes its tools as designed for bar associations and small law firms, so a lawyer should first ask whether a bar membership already includes access.
 
@@ -109,6 +115,8 @@ Decisis can be a credible shortlist option where its coverage matches the work. 
 
 HeinOnline U.S. Core+ for Law Firms is strongest for journals, historical materials, government publications, and true-to-print documents. The package includes the full text of more than 3,300 law journals.
 
+![HeinOnline page for the U.S. Core+ for Law Firms research package, with a button to request a quote or trial](/assets/images/posts/legal-research-software/heinonline-screenshot-1600.jpg "HeinOnline U.S. Core+ for Law Firms package page, captured November 2026.")
+
 Its collections include the U.S. Code, Federal Register, Code of Federal Regulations, Statutes at Large, legislative histories, treaties, and case law. CourtListener integration supports U.S. case access and citation lookup.
 
 HeinOnline asks firms to request a quote or trial. Its image-based archive and long historical runs can fill gaps that current-practice databases handle differently.
@@ -118,6 +126,8 @@ Treat it as a specialist option when periodicals, legislative history, and histo
 ## 7. Trellis
 
 Trellis specializes in state trial-court dockets, filings, rulings, verdicts, and judge analytics. Its current coverage page lists state and federal records, while its support material centers the product on state trial courts. Buyers should verify the exact jurisdiction and data type they need.
+
+![Trellis plans and pricing page with Research, Research and Judge Analytics, and Law Firms or Corporations tiers](/assets/images/posts/legal-research-software/trellis-screenshot-1600.jpg "Trellis plans page showing the Research and Research and Judge Analytics tiers, captured November 2026.")
 
 The plans page offers a Research tier and a Research and Judge Analytics tier, with monthly or annual billing and a stated 20% saving on annual terms. Law firms and corporations are asked to contact the company. Confirm the current price on the page, because the figures shift with the billing toggle.
 
