@@ -71,6 +71,8 @@ Two-year terms receive a stated 12% discount, while three-year terms receive 18%
 
 Lexis+ combines legal research with Shepard's citation analysis. It suits firms that want broad primary and secondary content with a familiar validation workflow.
 
+![LexisNexis products menu listing Lexis+ with Protégé as a legal AI solution for drafting, research, and analysis, beside other LexisNexis products](/assets/images/posts/legal-research-software/lexis-plus-screenshot-1600.jpg "LexisNexis products menu listing Lexis+ with Protégé, captured November 2026.")
+
 LexisNexis invites firms with one to three attorneys to explore Lexis+ pricing and packages online. The included jurisdiction and content set varies by package, so compare the exact library in each quote. Larger firms and broader packages require custom pricing.
 
 Lexis+ with Protégé adds generative research, drafting, and summarization functions. The vendor says legal answers link to sources and citation validation. Treat those links as a starting point for review rather than proof of accuracy.
@@ -80,6 +82,8 @@ Before signing, list the exact treatises, practice guides, court records, and ju
 ## 3. Bloomberg Law
 
 Bloomberg Law combines primary and secondary sources with dockets, legal news, analytics, and business intelligence. It can fit litigation, transactional, regulatory, and in-house teams that need legal and commercial context together.
+
+![Bloomberg Law legal research page with Request Pricing and Request Demo buttons and feature panels for search, resources, and insights](/assets/images/posts/legal-research-software/bloomberg-law-screenshot-1600.jpg "Bloomberg Law legal research product page, captured November 2026.")
 
 The platform advertises unlimited access to its content and workflow tools under one price. Bloomberg does not publish a standard price on the reviewed page. Buyers must request a quote.
 

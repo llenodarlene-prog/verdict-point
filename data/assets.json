@@ -1698,5 +1698,125 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://trellis.law/plans, captured 2026-11-02",
     "alt_guidance": "Trellis plans and pricing page with Research, Research and Judge Analytics, and Law Firms or Corporations tiers"
+  },
+  {
+    "path": "/assets/images/posts/clio-legal-software-total-cost/clio-screenshot-1600.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 1 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button"
+  },
+  {
+    "path": "/assets/images/posts/clio-legal-software-total-cost/clio-screenshot-800.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 1 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/clio-screenshot-1600.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/clio-screenshot-800.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/bill4time-screenshot-1600.jpg",
+    "title": "Bill4Time pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.bill4time.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Bill4Time yearly pricing showing Time and Billing at $39, Time and Billing Enterprise at $69, Legal Pro at $59, and Legal Enterprise at $89 per user per month"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/bill4time-screenshot-800.jpg",
+    "title": "Bill4Time pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.bill4time.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Bill4Time yearly pricing showing Time and Billing at $39, Time and Billing Enterprise at $69, Legal Pro at $59, and Legal Enterprise at $89 per user per month"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/lawyerz-libra-screenshot-1600.jpg",
+    "title": "Lawyerz homepage introducing Libra",
+    "use": "Blog 68 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawyerz.com/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Lawyerz homepage panel introducing Libra, with sections for asking the AI lawyer, legal AI agents, document generation, and lawyer search"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/lawyerz-libra-screenshot-800.jpg",
+    "title": "Lawyerz homepage introducing Libra",
+    "use": "Blog 68 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawyerz.com/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Lawyerz homepage panel introducing Libra, with sections for asking the AI lawyer, legal AI agents, document generation, and lawyer search"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/lexis-plus-screenshot-1600.jpg",
+    "title": "LexisNexis products menu listing Lexis+ with Protege",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus.page, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "LexisNexis products menu listing Lexis+ with Protégé as a legal AI solution for drafting, research, and analysis, beside other LexisNexis products"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/lexis-plus-screenshot-800.jpg",
+    "title": "LexisNexis products menu listing Lexis+ with Protege",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus.page, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "LexisNexis products menu listing Lexis+ with Protégé as a legal AI solution for drafting, research, and analysis, beside other LexisNexis products"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/bloomberg-law-screenshot-1600.jpg",
+    "title": "Bloomberg Law legal research page",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://pro.bloomberglaw.com/products/legal-research-and-software/legal-research/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Bloomberg Law legal research page with Request Pricing and Request Demo buttons and feature panels for search, resources, and insights"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/bloomberg-law-screenshot-800.jpg",
+    "title": "Bloomberg Law legal research page",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://pro.bloomberglaw.com/products/legal-research-and-software/legal-research/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Bloomberg Law legal research page with Request Pricing and Request Demo buttons and feature panels for search, resources, and insights"
   }
 ]

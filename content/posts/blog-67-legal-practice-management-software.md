@@ -74,6 +74,8 @@ The Rocket Matter page also says plans start at $49 in its FAQ. Its visible plan
 
 Clio's public pricing page could not be opened for this review, so we do not quote a price or plan list. Ask Clio for a written quote that names the tier, the included storage, security features, accounting, and training. For a fuller budget model, see [Clio legal software costs](/legal-tech/clio-legal-software-total-cost/).
 
+![Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button](/assets/images/posts/legal-practice-management-software/clio-screenshot-1600.jpg "Clio Manage pricing page showing the Starter, Core, Signature, and Elite plans, captured November 2026.")
+
 Portability deserves the same attention. Ask Clio to state in writing which records the firm can export, in which formats, and for how long after cancellation. That answer helps a buyer frame a written export test.
 
 Clio may suit a small firm that wants one broad platform. The firm should still map each required workflow to the quoted tier. Confirm whether intake, document automation, AI, and advanced reporting are included or sold at another level.
@@ -119,6 +121,8 @@ The pricing page contains the $59 table and a $49 starting-price statement. Trea
 ## 5. Bill4Time
 
 Bill4Time lists Legal Pro at $69 monthly or $59 per user per month when billed annually. Legal Enterprise appears at $99 monthly or $89 annually. A separate Time & Billing plan starts at $39 annually, but it omits several legal-specific features.
+
+![Bill4Time yearly pricing showing Time and Billing at $39, Time and Billing Enterprise at $69, Legal Pro at $59, and Legal Enterprise at $89 per user per month](/assets/images/posts/legal-practice-management-software/bill4time-screenshot-1600.jpg "Bill4Time pricing page with yearly pricing selected, captured November 2026.")
 
 Legal Pro includes trust accounting, a conflict checker, contingency billing, task workflows, LEDES export, and basic data import. Enterprise adds custom data fields, a dedicated success specialist, and advanced import.
 

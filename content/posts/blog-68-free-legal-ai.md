@@ -108,6 +108,8 @@ The vendor says the product provides information rather than legal advice and te
 
 Lawyerz describes Libra as a free AI lawyer and legal copilot. Its public pages say users can ask questions, conduct research, receive checklists, and create contracts or other documents.
 
+![Lawyerz homepage panel introducing Libra, with sections for asking the AI lawyer, legal AI agents, document generation, and lawyer search](/assets/images/posts/free-legal-ai/lawyerz-libra-screenshot-1600.jpg "Lawyerz homepage introducing the Libra AI lawyer, captured November 2026.")
+
 Libra may be useful for generating an issue list or first-pass structure. A student might use it to identify concepts for independent research. A consumer might use it to prepare questions for a lawyer.
 
 The public pages reviewed did not state a clear daily allowance, document cap, or guaranteed response scope. That absence is itself a buying fact. Do not build a workflow around an allowance the vendor has not published. Review the live terms and privacy policy before sharing any personal or client information.

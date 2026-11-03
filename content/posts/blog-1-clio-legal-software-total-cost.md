@@ -42,6 +42,8 @@ These are the cost checks to carry into any Clio legal software budget for the c
 
 Clio's U.S. pricing page names four Clio Manage plans. Only one shows a price. The table below summarizes what the page states for each plan as of October 2, 2026.
 
+![Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button](/assets/images/posts/clio-legal-software-total-cost/clio-screenshot-1600.jpg "Clio Manage pricing page showing the Starter, Core, Signature, and Elite plans, captured November 2026.")
+
 Table: Clio Manage plans as listed on Clio's U.S. pricing page (checked October 2, 2026) {.compare}
 | Plan | Public Price | AI Included | Accounting Included | Clio Grow |
 | --- | --- | --- | --- | --- |
