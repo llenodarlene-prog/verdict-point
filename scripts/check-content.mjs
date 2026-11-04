@@ -143,6 +143,9 @@ for (const file of files) {
     else {
       if (asset.rights_status !== 'approved' || !asset.width || !asset.height || !asset.alt_guidance) fail(`${file}: image ${src} lacks approved rights, dimensions, or alt guidance`);
       if (!alt.trim()) fail(`${file}: image ${src} has empty alt text`);
+      // Alt text should describe the image in a sentence a screen reader can read in one pass.
+      else if (alt.length > 150) fail(`${file}: image ${src} alt text is ${alt.length} characters; keep it to 150 or fewer`);
+      else if (/\.(jpe?g|png|webp|gif)\b|^(image|photo|picture|screenshot)\b|\b(image|picture|photo) of\b/i.test(alt)) fail(`${file}: image ${src} alt text "${alt}" reads like a filename or label; describe what the image shows`);
       if (!(await stat(path.join('.', src.replace(/^\//, ''))).catch(() => null))) fail(`${file}: image file ${src} does not exist`);
     }
   }
