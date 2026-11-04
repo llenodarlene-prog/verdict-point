@@ -43,9 +43,11 @@ These points cover what AutoTime does and where a person still has to decide.
 
 ## What AutoTime Does and Which Plans Include It
 
-Smokeball legal software is sold in four plans: Bill, Boost, Grow, and Prosper+. The [Smokeball pricing page](https://www.smokeball.com/pricing) shows a "Get Pricing" button for each one and no dollar figure. Its own answer on cost says pricing depends on the number of users, the plan, the contract term, and any optional products or services.
+Smokeball legal software is sold in four plans: Bill, Boost, Grow, and Prosper+. The [Smokeball pricing page](https://www.smokeball.com/pricing) shows a "Get Pricing" button for each one and no dollar figure. Its cost answer says pricing depends on the number of users, the plan, the contract term, and any optional products or services.
 
-The same page is clear about where automatic capture sits. Its comparison table lists time tracking as manual for Bill, Boost, and Grow, and automatic for Prosper+. Its FAQ adds that AutoTime is included with Prosper+ and that Grow users can buy it as an add-on.
+![Smokeball pricing page comparing the Bill, Boost, Grow, and Prosper+ plans](/assets/images/posts/smokeball-legal-software-time-capture/smokeball-screenshot-1600.jpg "Smokeball pricing plans, captured November 2026.")
+
+The same page shows where automatic capture sits. Its comparison table lists time tracking as manual for Bill, Boost, and Grow, and automatic for Prosper+. Its FAQ adds that AutoTime is included with Prosper+ and that Grow users can buy it as an add-on.
 
 Table: Where AutoTime sits in Smokeball's four plans {.compare}
 | Plan | Time Tracking Listed | AutoTime | Published Price |
@@ -55,7 +57,7 @@ Table: Where AutoTime sits in Smokeball's four plans {.compare}
 | Grow | Manual | Paid add-on | None, quote required |
 | Prosper+ | Automatic | Included | None, quote required |
 
-This matters before any demo. A firm that wants automatic capture is comparing Prosper+ against Grow plus an add-on, not against the entry plan. Third-party directories list per-user prices for Smokeball, and they do not agree with one another. The only figure that counts is the one in a written quote.
+This matters before any demo. A firm that wants automatic capture is comparing Prosper+ against Grow plus an add-on, not against the entry plan. Third-party directories list per-user prices for Smokeball, but their figures conflict. Only the written quote counts.
 
 Adoption figures do not help much here either. Broad [legal technology statistics](/legal-tech/legal-technology-statistics/) show that most firms use cloud tools, but they say nothing about which plan tier a firm bought or which features it switched on.
 

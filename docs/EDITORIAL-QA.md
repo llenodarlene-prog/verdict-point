@@ -17,7 +17,14 @@ Owner standard (Darlene Aberin, 2026-10-21) for Verdict Point, Fin Loom, Stack R
 9. **Verdict Point brand check:** verify jurisdiction and effective dates; distinguish laws, proposals, opinions, and operational advice; never invent attorney review.
 10. **Keywords:** primary keyword once in the main heading, twice in the body including the introduction, unless the brand or brief sets a count. Natural placement, never bolded.
 11. **Language and structure:** US English, brand voice and banned words, no em dashes or filler, lists for steps, tables for comparisons, FAQs only when useful, heading introductions and list lead-ins kept, and tables, captions, metadata, and alt text matching verified claims.
-12. **Status:** PASS (all checks complete), REVISE (correctable problems), HOLD (essential evidence missing, contradicted, or unable to support the angle). Style alone never earns PASS. When drafting or rewriting, fix failures before delivery; for audit-only requests, report without rewriting.
+12. **Tool and app screenshots (owner standard, 2026-11-01):** any article or blog that lists tools or apps, or highlights one or two, shows a real screenshot of each featured tool next to the section about it. Rules:
+    - **Source:** capture the vendor's public website, product page, public demo, or free plan, or use an image from the vendor's official press or media kit. Never show a mockup, an AI-generated image, or another product's screen as the tool.
+    - **Privacy:** no client data, personal data, account details, or anything behind a login that the vendor does not show publicly.
+    - **Tracking:** register each file in `data/assets.json` with its path, dimensions, `rights_status`, `rights_source` (the page URL captured or the media kit used), and the capture date.
+    - **Caption and alt text:** the caption names the tool, what the screen shows, and the capture month, for example "Clio Manage pricing page, captured November 2026." Alt text describes what the screen shows, not just the tool name.
+    - **Accuracy:** the screenshot must match the claims in the text. If the vendor changes the page, recapture the screenshot when the post is next updated.
+    - **Missing screenshot:** if no legitimate screenshot or press image is available for a featured tool, the post is REVISE until one is added or the owner approves going without it.
+13. **Status:** PASS (all checks complete), REVISE (correctable problems), HOLD (essential evidence missing, contradicted, or unable to support the angle). Style alone never earns PASS. When drafting or rewriting, fix failures before delivery; for audit-only requests, report without rewriting.
 
 ## How It Applies in This Repository
 

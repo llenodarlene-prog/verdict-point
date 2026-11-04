@@ -43,6 +43,8 @@ The decisions that matter most come before anyone builds a template or moves a l
 
 The [Filevine pricing page](https://www.filevine.com/pricing/) states that all packages are custom built for each team. Its pricing answer says the company will tailor a plan for each organization. No per-user price appears on the page.
 
+![Filevine pricing page header saying all packages are custom built for each team, with a Book a Demo button](/assets/images/posts/filevine-legal-software-case-types/filevine-screenshot-1600.jpg "Filevine pricing page stating that all packages are custom built, captured November 2026.")
+
 That sets Filevine apart from two platforms that publish at least some rates.
 
 ```chart

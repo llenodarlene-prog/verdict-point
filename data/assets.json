@@ -1278,5 +1278,545 @@
     "rights_status": "approved",
     "rights_source": "Owned brand asset supplied by Verdict Point (Darlene Aberin, 2026-10-26)",
     "alt_guidance": "Lawyer presenting a search and location strategy board to a colleague in a law office"
+  },
+  {
+    "path": "/assets/images/posts/mycase-legal-software/mycase-screenshot-1600.jpg",
+    "title": "MyCase pricing page",
+    "use": "Blog 2 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.mycase.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "MyCase pricing page with annual billing selected, listing Basic at $50, Pro at $100, and Advanced at $130 per user per month"
+  },
+  {
+    "path": "/assets/images/posts/mycase-legal-software/mycase-screenshot-800.jpg",
+    "title": "MyCase pricing page",
+    "use": "Blog 2 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.mycase.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "MyCase pricing page with annual billing selected, listing Basic at $50, Pro at $100, and Advanced at $130 per user per month"
+  },
+  {
+    "path": "/assets/images/posts/filevine-legal-software-case-types/filevine-screenshot-1600.jpg",
+    "title": "Filevine pricing page",
+    "use": "Blog 3 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.filevine.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "Filevine pricing page header saying all packages are custom built for each team, with a Book a Demo button"
+  },
+  {
+    "path": "/assets/images/posts/filevine-legal-software-case-types/filevine-screenshot-800.jpg",
+    "title": "Filevine pricing page",
+    "use": "Blog 3 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.filevine.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "Filevine pricing page header saying all packages are custom built for each team, with a Book a Demo button"
+  },
+  {
+    "path": "/assets/images/posts/smokeball-legal-software-time-capture/smokeball-screenshot-1600.jpg",
+    "title": "Smokeball pricing plans",
+    "use": "Blog 4 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.smokeball.com/pricing, captured 2026-11-02",
+    "alt_guidance": "Smokeball pricing page comparing the Bill, Boost, Grow, and Prosper+ plans"
+  },
+  {
+    "path": "/assets/images/posts/smokeball-legal-software-time-capture/smokeball-screenshot-800.jpg",
+    "title": "Smokeball pricing plans",
+    "use": "Blog 4 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.smokeball.com/pricing, captured 2026-11-02",
+    "alt_guidance": "Smokeball pricing page comparing the Bill, Boost, Grow, and Prosper+ plans"
+  },
+  {
+    "path": "/assets/images/posts/lawpay-legal-payments-fees/lawpay-screenshot-1600.jpg",
+    "title": "LawPay pricing page",
+    "use": "Blog 5 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lawpay.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "LawPay pricing page with a $19 per month no-contract plan beside a custom pricing option"
+  },
+  {
+    "path": "/assets/images/posts/lawpay-legal-payments-fees/lawpay-screenshot-800.jpg",
+    "title": "LawPay pricing page",
+    "use": "Blog 5 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lawpay.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "LawPay pricing page with a $19 per month no-contract plan beside a custom pricing option"
+  },
+  {
+    "path": "/assets/images/posts/litify-legal-software-implementation/litify-screenshot-1600.jpg",
+    "title": "Litify homepage",
+    "use": "Blog 6 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.litify.com/, captured 2026-11-02",
+    "alt_guidance": "Litify homepage headline about legal work and AI in a single platform, with a laptop showing the Litify interface"
+  },
+  {
+    "path": "/assets/images/posts/litify-legal-software-implementation/litify-screenshot-800.jpg",
+    "title": "Litify homepage",
+    "use": "Blog 6 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.litify.com/, captured 2026-11-02",
+    "alt_guidance": "Litify homepage headline about legal work and AI in a single platform, with a laptop showing the Litify interface"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/mycase-screenshot-1600.jpg",
+    "title": "MyCase pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.mycase.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "MyCase pricing page with annual billing selected, listing Basic at $50, Pro at $100, and Advanced at $130 per user per month"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/mycase-screenshot-800.jpg",
+    "title": "MyCase pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.mycase.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "MyCase pricing page with annual billing selected, listing Basic at $50, Pro at $100, and Advanced at $130 per user per month"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/practicepanther-screenshot-1600.jpg",
+    "title": "PracticePanther pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.practicepanther.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "PracticePanther pricing table with annual billing, showing Solo at $49, Essential at $69, Business at $89, and Business Pro at $114"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/practicepanther-screenshot-800.jpg",
+    "title": "PracticePanther pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.practicepanther.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "PracticePanther pricing table with annual billing, showing Solo at $49, Essential at $69, Business at $89, and Business Pro at $114"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/rocketmatter-screenshot-1600.jpg",
+    "title": "Rocket Matter pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.rocketmatter.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "Rocket Matter pricing table with annual pricing, showing Essentials at $59, Pro at $95, Premier at $115, and Elite at $145"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/rocketmatter-screenshot-800.jpg",
+    "title": "Rocket Matter pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.rocketmatter.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "Rocket Matter pricing table with annual pricing, showing Essentials at $59, Pro at $95, Premier at $115, and Elite at $145"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/caretlegal-screenshot-1600.jpg",
+    "title": "CARET Legal pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://caretlegal.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "CARET Legal pricing page listing Enterprise, Enterprise Plus, and Enterprise Insights plans with Schedule a Demo buttons and feature lists"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/caretlegal-screenshot-800.jpg",
+    "title": "CARET Legal pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://caretlegal.com/pricing/, captured 2026-11-02",
+    "alt_guidance": "CARET Legal pricing page listing Enterprise, Enterprise Plus, and Enterprise Insights plans with Schedule a Demo buttons and feature lists"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/cosmolex-screenshot-1600.jpg",
+    "title": "CosmoLex law practice management page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.cosmolex.com/features/law-practice-management/, captured 2026-11-02",
+    "alt_guidance": "CosmoLex feature page headline about all-in-one law practice management, with a dashboard showing reports and billing summaries"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/cosmolex-screenshot-800.jpg",
+    "title": "CosmoLex law practice management page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.cosmolex.com/features/law-practice-management/, captured 2026-11-02",
+    "alt_guidance": "CosmoLex feature page headline about all-in-one law practice management, with a dashboard showing reports and billing summaries"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/lawconnect-screenshot-1600.jpg",
+    "title": "LawConnect homepage",
+    "use": "Blog 68 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawconnect.com/en-us, captured 2026-11-02",
+    "alt_guidance": "LawConnect US homepage with a box for asking a legal question and a prompt to start with the right legal support"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/lawconnect-screenshot-800.jpg",
+    "title": "LawConnect homepage",
+    "use": "Blog 68 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawconnect.com/en-us, captured 2026-11-02",
+    "alt_guidance": "LawConnect US homepage with a box for asking a legal question and a prompt to start with the right legal support"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/justee-screenshot-1600.jpg",
+    "title": "Justee homepage",
+    "use": "Blog 68 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://justee.ai/, captured 2026-11-02",
+    "alt_guidance": "Justee homepage offering legal AI document review, with a panel to drop a PDF or Word file for review"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/justee-screenshot-800.jpg",
+    "title": "Justee homepage",
+    "use": "Blog 68 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://justee.ai/, captured 2026-11-02",
+    "alt_guidance": "Justee homepage offering legal AI document review, with a panel to drop a PDF or Word file for review"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/genieai-screenshot-1600.jpg",
+    "title": "GenieAI pricing page",
+    "use": "Blog 68 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.genieai.co/pricing, captured 2026-11-02",
+    "alt_guidance": "GenieAI pricing page with a try for free banner and Pro, Business, and Enterprise plan cards"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/genieai-screenshot-800.jpg",
+    "title": "GenieAI pricing page",
+    "use": "Blog 68 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.genieai.co/pricing, captured 2026-11-02",
+    "alt_guidance": "GenieAI pricing page with a try for free banner and Pro, Business, and Enterprise plan cards"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/thelawgpt-screenshot-1600.jpg",
+    "title": "TheLawGPT pricing page",
+    "use": "Blog 68 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.thelawgpt.com/pricing, captured 2026-11-02",
+    "alt_guidance": "TheLawGPT pricing table with a $0 Free plan next to Starter, Pro, and Business plans"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/thelawgpt-screenshot-800.jpg",
+    "title": "TheLawGPT pricing page",
+    "use": "Blog 68 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.thelawgpt.com/pricing, captured 2026-11-02",
+    "alt_guidance": "TheLawGPT pricing table with a $0 Free plan next to Starter, Pro, and Business plans"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/auxai-screenshot-1600.jpg",
+    "title": "Aux.ai homepage",
+    "use": "Blog 68 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://aux.ai/, captured 2026-11-02",
+    "alt_guidance": "Aux.ai homepage headline offering free legal help chat, listing practice areas such as personal injury, divorce, and wills"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/auxai-screenshot-800.jpg",
+    "title": "Aux.ai homepage",
+    "use": "Blog 68 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://aux.ai/, captured 2026-11-02",
+    "alt_guidance": "Aux.ai homepage headline offering free legal help chat, listing practice areas such as personal injury, divorce, and wills"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/ailawyer-screenshot-1600.jpg",
+    "title": "AI Lawyer homepage",
+    "use": "Blog 68 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://ailawyer.com/, captured 2026-11-02",
+    "alt_guidance": "AI Lawyer homepage asking what legal document the user needs, with a text box and sample document types"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/ailawyer-screenshot-800.jpg",
+    "title": "AI Lawyer homepage",
+    "use": "Blog 68 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://ailawyer.com/, captured 2026-11-02",
+    "alt_guidance": "AI Lawyer homepage asking what legal document the user needs, with a text box and sample document types"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/westlaw-screenshot-1600.jpg",
+    "title": "Westlaw Advantage plans and pricing page",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing, captured 2026-11-02",
+    "alt_guidance": "Thomson Reuters Westlaw Advantage plans and pricing page with a step-by-step plan builder and an order summary panel"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/westlaw-screenshot-800.jpg",
+    "title": "Westlaw Advantage plans and pricing page",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing, captured 2026-11-02",
+    "alt_guidance": "Thomson Reuters Westlaw Advantage plans and pricing page with a step-by-step plan builder and an order summary panel"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/vlex-screenshot-1600.jpg",
+    "title": "vLex Fastcase library page",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://vlex.com/fastcase-library, captured 2026-11-02",
+    "alt_guidance": "vLex Fastcase library page headline about comprehensive United States legal research"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/vlex-screenshot-800.jpg",
+    "title": "vLex Fastcase library page",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://vlex.com/fastcase-library, captured 2026-11-02",
+    "alt_guidance": "vLex Fastcase library page headline about comprehensive United States legal research"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/decisis-screenshot-1600.jpg",
+    "title": "Decisis homepage",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.decisis.com/, captured 2026-11-02",
+    "alt_guidance": "Decisis homepage headline about speed, reliability, and affordability, with a preview of the Decisis search screen"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/decisis-screenshot-800.jpg",
+    "title": "Decisis homepage",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.decisis.com/, captured 2026-11-02",
+    "alt_guidance": "Decisis homepage headline about speed, reliability, and affordability, with a preview of the Decisis search screen"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/heinonline-screenshot-1600.jpg",
+    "title": "HeinOnline U.S. Core+ for Law Firms page",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://heinonline.com/subscriptions/united-states/u-s-core-for-law-firms/, captured 2026-11-02",
+    "alt_guidance": "HeinOnline page for the U.S. Core+ for Law Firms research package, with a button to request a quote or trial"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/heinonline-screenshot-800.jpg",
+    "title": "HeinOnline U.S. Core+ for Law Firms page",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://heinonline.com/subscriptions/united-states/u-s-core-for-law-firms/, captured 2026-11-02",
+    "alt_guidance": "HeinOnline page for the U.S. Core+ for Law Firms research package, with a button to request a quote or trial"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/trellis-screenshot-1600.jpg",
+    "title": "Trellis plans and pricing page",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://trellis.law/plans, captured 2026-11-02",
+    "alt_guidance": "Trellis plans and pricing page with Research, Research and Judge Analytics, and Law Firms or Corporations tiers"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/trellis-screenshot-800.jpg",
+    "title": "Trellis plans and pricing page",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://trellis.law/plans, captured 2026-11-02",
+    "alt_guidance": "Trellis plans and pricing page with Research, Research and Judge Analytics, and Law Firms or Corporations tiers"
+  },
+  {
+    "path": "/assets/images/posts/clio-legal-software-total-cost/clio-screenshot-1600.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 1 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button"
+  },
+  {
+    "path": "/assets/images/posts/clio-legal-software-total-cost/clio-screenshot-800.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 1 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/clio-screenshot-1600.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/clio-screenshot-800.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/bill4time-screenshot-1600.jpg",
+    "title": "Bill4Time pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.bill4time.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Bill4Time yearly pricing showing Time and Billing at $39, Time and Billing Enterprise at $69, Legal Pro at $59, and Legal Enterprise at $89 per user per month"
+  },
+  {
+    "path": "/assets/images/posts/legal-practice-management-software/bill4time-screenshot-800.jpg",
+    "title": "Bill4Time pricing page",
+    "use": "Blog 67 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.bill4time.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Bill4Time yearly pricing showing Time and Billing at $39, Time and Billing Enterprise at $69, Legal Pro at $59, and Legal Enterprise at $89 per user per month"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/lawyerz-libra-screenshot-1600.jpg",
+    "title": "Lawyerz homepage introducing Libra",
+    "use": "Blog 68 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawyerz.com/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Lawyerz homepage panel introducing Libra, with sections for asking the AI lawyer, legal AI agents, document generation, and lawyer search"
+  },
+  {
+    "path": "/assets/images/posts/free-legal-ai/lawyerz-libra-screenshot-800.jpg",
+    "title": "Lawyerz homepage introducing Libra",
+    "use": "Blog 68 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawyerz.com/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Lawyerz homepage panel introducing Libra, with sections for asking the AI lawyer, legal AI agents, document generation, and lawyer search"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/lexis-plus-screenshot-1600.jpg",
+    "title": "LexisNexis products menu listing Lexis+ with Protege",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus.page, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "LexisNexis products menu listing Lexis+ with Protégé as a legal AI solution for drafting, research, and analysis, beside other LexisNexis products"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/lexis-plus-screenshot-800.jpg",
+    "title": "LexisNexis products menu listing Lexis+ with Protege",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus.page, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "LexisNexis products menu listing Lexis+ with Protégé as a legal AI solution for drafting, research, and analysis, beside other LexisNexis products"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/bloomberg-law-screenshot-1600.jpg",
+    "title": "Bloomberg Law legal research page",
+    "use": "Blog 69 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://pro.bloomberglaw.com/products/legal-research-and-software/legal-research/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Bloomberg Law legal research page with Request Pricing and Request Demo buttons and feature panels for search, resources, and insights"
+  },
+  {
+    "path": "/assets/images/posts/legal-research-software/bloomberg-law-screenshot-800.jpg",
+    "title": "Bloomberg Law legal research page",
+    "use": "Blog 69 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://pro.bloomberglaw.com/products/legal-research-and-software/legal-research/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Bloomberg Law legal research page with Request Pricing and Request Demo buttons and feature panels for search, resources, and insights"
   }
 ]

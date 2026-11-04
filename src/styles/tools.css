@@ -183,3 +183,21 @@
 .kpi-cards{grid-template-columns:repeat(auto-fit,minmax(min(13rem,100%),1fr))}
 @media(max-width:480px){.viz-row{grid-template-columns:5.5rem 1fr auto;gap:.4rem;font-size:.8rem}}
 @media(max-width:767px){.bhc-tabs>[role="tab"]{min-width:0;justify-content:center;padding:.5rem .55rem;font-size:.88rem}}
+/* Law firm SEO ROI calculator: grouped inputs and a scenario comparison table */
+.bhc .seo-group{display:block;border-top:1px solid var(--bhc-line);padding-top:.75rem}
+.bhc .seo-group:first-of-type{border-top:0;padding-top:0}
+.seo-group legend{display:flex;align-items:center;gap:.4rem;font-family:var(--display);font-size:1.05rem}
+.seo-group legend .ti{color:var(--secondary)}
+.seo-group .bhc-field{flex:1 1 min(11rem,100%);min-width:0}
+.seo-group input{width:100%;min-width:0}
+.seo-compare{width:100%;table-layout:auto;border-collapse:collapse;font-size:.85rem;margin:.25rem 0 1rem}
+.seo-compare th,.seo-compare td{padding:.4rem .3rem;border-bottom:1px solid var(--bhc-line);text-align:right;font-variant-numeric:tabular-nums}
+.seo-compare th:first-child,.seo-compare td:first-child{text-align:left;width:36%}
+.seo-compare .is-base{background:color-mix(in srgb,var(--secondary) 12%,white);font-weight:600}
+.seo-compare caption{text-align:left;font-weight:500;color:var(--ink);padding-bottom:.4rem}
+.seo-compare td{white-space:nowrap;font-size:.78rem;padding-inline:.2rem}
+.seo-compare th{overflow-wrap:normal;hyphens:auto}
+.seo-compare th:first-child{width:auto}
+.seo-compare thead th.is-base{color:var(--ink)}
+.seo-scroll{max-width:100%;overflow-x:auto}
+.seo .bhc-panel>*{min-width:0}

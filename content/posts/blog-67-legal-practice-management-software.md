@@ -17,7 +17,7 @@ image: /assets/images/posts/legal-practice-management-software/practice-manageme
 image_alt: Lawyer presenting a practice management screen of matter, document, and billing icons to colleagues and remote attendees
 author: Darlene Aberin
 published: 2026-10-30
-modified: 2026-10-30
+modified: 2026-11-02
 ---
 
 # 7 Legal Practice Management Software Options for Small Firms
@@ -65,14 +65,16 @@ The prices below are public US list prices observed on October 25, 2026. "Quote"
 | PracticePanther | $49 | Per user, per month on annual schedule | Core matters, time, portal, storage, mobile apps |
 | Rocket Matter | $59 in plan table | Per user, per month, paid annually | Billing, trust accounting, migration, support |
 | Bill4Time | $59 for Legal Pro annually | Per user, per month | Time, billing, trust accounting, LEDES, data import |
-| CARET Legal | $79 plus implementation | Per user, per month, billed annually | Email, documents, billing, accounting, reporting |
-| CosmoLex | Quote | Subscription | Practice management with built-in business and trust accounting |
+| CARET Legal | Request a demo; no public price | Per user plus one-time implementation fees | Email, documents, billing, accounting, reporting |
+| CosmoLex | $49 with yearly billing | Per user, per month | Practice management with built-in business and trust accounting |
 
 The Rocket Matter page also says plans start at $49 in its FAQ. Its visible plan table starts at $59. Ask the vendor to resolve that difference in writing.
 
 ## 1. Clio
 
 Clio's public pricing page could not be opened for this review, so we do not quote a price or plan list. Ask Clio for a written quote that names the tier, the included storage, security features, accounting, and training. For a fuller budget model, see [Clio legal software costs](/legal-tech/clio-legal-software-total-cost/).
+
+![Clio Manage pricing page with Starter marked starting at $49 per user, and Core, Signature, and Elite each showing a Get pricing button](/assets/images/posts/legal-practice-management-software/clio-screenshot-1600.jpg "Clio Manage pricing page showing the Starter, Core, Signature, and Elite plans, captured November 2026.")
 
 Portability deserves the same attention. Ask Clio to state in writing which records the firm can export, in which formats, and for how long after cancellation. That answer helps a buyer frame a written export test.
 
@@ -84,6 +86,8 @@ Ask the salesperson to export a sample matter during the trial. Open the resulti
 
 [MyCase pricing](https://www.mycase.com/pricing/) lists Basic at $60 per user monthly, or $50 with annual billing. Pro appears at $120 monthly or $100 annually. Advanced appears at $150 monthly or $130 annually.
 
+![MyCase pricing page with annual billing selected, listing Basic at $50, Pro at $100, and Advanced at $130 per user per month](/assets/images/posts/legal-practice-management-software/mycase-screenshot-1600.jpg "MyCase pricing page showing Basic, Pro, and Advanced plans, captured November 2026.")
+
 The vendor offers a ten-day trial without a credit card. It also describes guided implementation and migration for contacts, matters, notes, tasks, documents, and invoices. The migration remains subject to technical requirements, feasibility, and scope.
 
 MyCase may fit a small firm that places client communication beside matter and billing work. The public page lists texting, messages, chat, workflow, API, and reporting features across its tiers. Buyers should compare the plan columns carefully because an attractive feature may sit above Basic.
@@ -93,6 +97,8 @@ Prepare a migration inventory before the demo. Count active and closed matters, 
 ## 3. PracticePanther
 
 [PracticePanther's plan page](https://www.practicepanther.com/pricing/) shows Solo at $49, Essential at $69, Business at $89, and Business Pro at $114 per user per month. The displayed figures sit on the annual-billing schedule.
+
+![PracticePanther pricing table with annual billing, showing Solo at $49, Essential at $69, Business at $89, and Business Pro at $114](/assets/images/posts/legal-practice-management-software/practicepanther-screenshot-1600.jpg "PracticePanther pricing page showing Solo, Essential, Business, and Business Pro plans, captured November 2026.")
 
 Every plan includes contact and matter management, time and expense tracking, support, a secure client portal, unlimited data storage, and mobile apps. Higher tiers add features such as custom fields, intake forms, e-signature, LEDES billing, and expanded accounting.
 
@@ -104,6 +110,8 @@ Do not compare the Solo price with a competitor's accounting tier. Build a requi
 
 Rocket Matter's pricing table lists Essentials at $59, Pro at $95, Premier at $115, and Elite at $145 per user per month when paid annually. The vendor says every plan includes support and free data migration.
 
+![Rocket Matter pricing table with annual pricing, showing Essentials at $59, Pro at $95, Premier at $115, and Elite at $145](/assets/images/posts/legal-practice-management-software/rocketmatter-screenshot-1600.jpg "Rocket Matter pricing page showing Essentials, Pro, Premier, and Elite plans, captured November 2026.")
+
 Published features include time and expense tracking, digital invoicing, trust accounting, flat-fee billing, and payment tools. Higher tiers expand automation and reporting. The company also sells a separate CRM add-on, so intake needs can change the full price.
 
 Rocket Matter may fit a billing-focused practice that wants migration included in the subscription offer. Confirm which tier contains every required billing rule, workflow, and report. Also ask whether CRM setup fees or payment services affect the first-year budget.
@@ -114,6 +122,8 @@ The pricing page contains the $59 table and a $49 starting-price statement. Trea
 
 Bill4Time lists Legal Pro at $69 monthly or $59 per user per month when billed annually. Legal Enterprise appears at $99 monthly or $89 annually. A separate Time & Billing plan starts at $39 annually, but it omits several legal-specific features.
 
+![Bill4Time yearly pricing showing Time and Billing at $39, Time and Billing Enterprise at $69, Legal Pro at $59, and Legal Enterprise at $89 per user per month](/assets/images/posts/legal-practice-management-software/bill4time-screenshot-1600.jpg "Bill4Time pricing page with yearly pricing selected, captured November 2026.")
+
 Legal Pro includes trust accounting, a conflict checker, contingency billing, task workflows, LEDES export, and basic data import. Enterprise adds custom data fields, a dedicated success specialist, and advanced import.
 
 Bill4Time may fit a small firm whose buying decision starts with time, billing, trust records, and standardized invoice exports. Firms that need full intake automation or broad document workflows should test those requirements rather than infer them from the billing feature set.
@@ -122,7 +132,9 @@ Use a representative invoice during the trial. Include multiple timekeepers, exp
 
 ## 6. CARET Legal
 
-CARET Legal lists Enterprise at $79, Enterprise Plus at $99, and Enterprise Insights at $119 per user per month when billed annually. The page also says one-time implementation fees apply.
+CARET Legal's pricing page names three plans: Enterprise, Enterprise Plus, and Enterprise Insights. As of November 2026 it shows no dollar figures, only a demo request for each plan. The page says pricing is per user plus one-time implementation fees.
+
+![CARET Legal pricing page listing Enterprise, Enterprise Plus, and Enterprise Insights plans with Schedule a Demo buttons and feature lists](/assets/images/posts/legal-practice-management-software/caretlegal-screenshot-1600.jpg "CARET Legal pricing page showing the Enterprise, Enterprise Plus, and Enterprise Insights plans, captured November 2026.")
 
 The entry plan includes built-in email, document management, calendaring, tasks, contacts, billing, accounting, reporting, a client portal, storage, LEDES invoicing, and integrated payments. Higher plans add workflow automation, permissions, analytics, and other controls.
 
@@ -132,7 +144,9 @@ Ask staff from billing, intake, and legal work to attend the demo. Each group sh
 
 ## 7. CosmoLex
 
-CosmoLex describes an integrated platform for matters, business accounting, trust accounting, time, billing, documents, email, tasks, and calendars. It offers a ten-day trial without a credit card. We did not find a current public list price on the pages reviewed.
+CosmoLex describes an integrated platform for matters, business accounting, trust accounting, time, billing, documents, email, tasks, and calendars. It offers a ten-day trial without a credit card. Its pricing page lists Launch at $49, Core at $99, and Pro at $129 per user per month with yearly billing, which it says saves $120 per user.
+
+![CosmoLex feature page headline about all-in-one law practice management, with a dashboard showing reports and billing summaries](/assets/images/posts/legal-practice-management-software/cosmolex-screenshot-1600.jpg "CosmoLex law practice management feature page, captured November 2026.")
 
 CosmoLex may fit a small firm seeking one system for practice management and legal accounting. That combination can reduce duplicate entry. It also means the accounting conversion and reconciliation process deserves careful testing.
 
@@ -206,7 +220,7 @@ It centralizes matters and related work. Common functions include contacts, cale
 
 ### How Much Does It Cost for a Small Firm?
 
-The public entry points in this comparison range from $49 to $79 per user per month, while some vendors require a quote. The complete plan may cost more after accounting, CRM, implementation, migration, and payment services.
+The public entry points in this comparison range from $49 to $59 per user per month, while some vendors require a quote or a demo. The complete plan may cost more after accounting, CRM, implementation, migration, and payment services.
 
 ### Is a Free Trial Enough to Evaluate a Platform?
 
@@ -225,3 +239,4 @@ Vendors offer different export tools and post-cancellation periods. Obtain the f
 - [Bill4Time legal plans](https://www.bill4time.com/pricing/)
 - [CARET Legal plans](https://caretlegal.com/pricing/)
 - [CosmoLex feature overview](https://www.cosmolex.com/features/law-practice-management/)
+- [CosmoLex pricing](https://www.cosmolex.com/pricing/)

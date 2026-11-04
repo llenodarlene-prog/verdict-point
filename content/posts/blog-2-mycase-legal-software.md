@@ -62,6 +62,8 @@ Intake deserves special attention because software cannot fix an undefined quali
 
 The [MyCase pricing page](https://www.mycase.com/pricing/) lists both annual and monthly rates. Compare on the same basis, because an annual rate looks lower than another vendor's flexible monthly price even when it is not.
 
+![MyCase pricing page with annual billing selected, listing Basic at $50, Pro at $100, and Advanced at $130 per user per month](/assets/images/posts/mycase-legal-software/mycase-screenshot-1600.jpg "MyCase pricing page showing Basic, Pro, and Advanced plans, captured November 2026.")
+
 ```chart
 mycase-plan-prices
 ```
