@@ -42,6 +42,8 @@ This guide to implementing Litify legal software is based on public Litify mater
 
 The [current Litify platform page](https://www.litify.com/) emphasizes matter, intake, document, billing, reporting, workflow, and firm-wide intelligence capabilities. Those categories are useful, but they do not tell a firm which process should be standardized or which exceptions must remain.
 
+![Litify homepage headline about legal work and AI in a single platform, with a laptop showing the Litify interface](/assets/images/posts/litify-legal-software-implementation/litify-screenshot-1600.jpg "Litify homepage describing its legal and AI platform, captured November 2026.")
+
 Begin with the operating decisions that the software will need to support:
 
 | Operating Area | Decision to Make Before Configuration |

@@ -17,7 +17,7 @@ image: /assets/images/posts/free-legal-ai/reviewing-ai-flagged-document-laptop-1
 image_alt: Legal professional pointing to flagged passages in a document on a laptop beside annotated printouts
 author: Darlene Aberin
 published: 2026-10-30
-modified: 2026-10-30
+modified: 2026-11-02
 ---
 
 # 7 Free Legal AI Tools: Uses, Limits, and Free-Plan Rules
@@ -52,7 +52,7 @@ The table compares each free legal AI tool by verified access, starting task, an
 | --- | --- | --- | --- |
 | LawConnect | Free navigation | Explain a situation and identify next steps | Information is not a substitute for legal advice |
 | Justee | Free document review | Flag and explain terms in one document | Upload up to 10 MB; paid plans add privacy features |
-| GenieAI | Ongoing $0 plan | Draft, review, edit, or question a contract | Usage limits apply; confirm jurisdiction and source law |
+| GenieAI | Free start with limited AI tokens | Draft, review, edit, or question a contract | Exports locked until upgrade; confirm jurisdiction and source law |
 | TheLawGPT | Ongoing $0 plan | Ask a legal question and inspect cited sources | Three questions daily; files up to 1 MB |
 | Lawyerz Libra | Free questions and document work | Generate a research or drafting starting point | Public page does not publish a clear daily allowance |
 | Aux.ai | Free informational chat | Ask a general consumer legal question | No attorney-client relationship; informational content |
@@ -64,6 +64,8 @@ The labels describe public access. They do not rate accuracy, confidentiality, o
 
 LawConnect offers free legal navigation. A user explains a situation in ordinary language, receives legal-specific information and possible next steps, and can choose to connect with a lawyer. The site's FAQ says its AI legal assistant is completely free to use.
 
+![LawConnect US homepage with a box for asking a legal question and a prompt to start with the right legal support](/assets/images/posts/free-legal-ai/lawconnect-screenshot-1600.jpg "LawConnect US homepage with its free legal question box, captured November 2026.")
+
 This structure may help a consumer organize an unfamiliar issue before contacting counsel. It can also create a summary for a later conversation. Its geographic pages differ, so select the correct country before relying on the stated process.
 
 The site says its content is informational and should not replace legal advice. Treat its response as an intake aid. Verify deadlines, filing requirements, and legal conclusions with the correct authority or a qualified lawyer.
@@ -72,13 +74,17 @@ The site says its content is informational and should not replace legal advice. 
 
 Justee provides a free document-review function without signup. It accepts PDF, Word, or pasted text up to 10 MB. The site says the review covers any US state's law or the law of England and Wales.
 
+![Justee homepage offering legal AI document review, with a panel to drop a PDF or Word file for review](/assets/images/posts/free-legal-ai/justee-screenshot-1600.jpg "Justee homepage with its document review upload panel, captured November 2026.")
+
 The tool may help a freelancer, business owner, or legal professional create a first list of contract questions. It can identify clauses for closer reading and explain why a provision may deserve attention. The result should not decide whether a user signs or rejects an agreement.
 
 Justee says documents receive encryption and that it does not train AI on user data. It also reserves "Full Private Mode" for paid plans. That difference deserves review before anyone uploads sensitive material. Read the current privacy policy and terms, identify subprocessors, and obtain firm approval for client data.
 
 ## 3. GenieAI
 
-GenieAI's pricing page lists a $0 plan without a credit card. It includes document creation, Q&A, review and editing, more than 500 templates, a DOCX editor, and PDF import.
+GenieAI's pricing page offers a free start without a credit card. As of November 2026, that free access comes with limited AI tokens, and exports stay locked until the user upgrades. The paid plans begin with Pro at $59 per month, billed annually.
+
+![GenieAI pricing page with a try for free banner and Pro, Business, and Enterprise plan cards](/assets/images/posts/free-legal-ai/genieai-screenshot-1600.jpg "GenieAI pricing page showing its paid plans and free trial banner, captured November 2026.")
 
 This free legal AI option focuses on contracts. It may help a user structure a first draft, compare wording, or ask questions about an uploaded agreement. Its templates and editor can be useful when the task is defined and the user already knows the governing jurisdiction.
 
@@ -90,6 +96,8 @@ For every proposed clause, check the legal effect and consistency with the rest 
 
 TheLawGPT publishes a "free forever" plan at $0 per seat. It allows three legal questions per day, file uploads up to 1 MB, and access to case-law search. The detailed plan table shows one level of follow-up depth on the free tier.
 
+![TheLawGPT pricing table with a $0 Free plan next to Starter, Pro, and Business plans](/assets/images/posts/free-legal-ai/thelawgpt-screenshot-1600.jpg "TheLawGPT pricing page showing the $0 Free plan beside paid plans, captured November 2026.")
+
 The tool may help frame a research question or identify authorities to inspect. It can also provide a preliminary explanation for a person deciding what professional help to seek.
 
 The pricing page contains a potential ambiguity. Summary bullets near the top mention document reviews and generations, while the detailed comparison shows dashes for those free-plan features. We therefore do not count them as verified free functions. A user should check the live account before assuming access.
@@ -100,6 +108,8 @@ The vendor says the product provides information rather than legal advice and te
 
 Lawyerz describes Libra as a free AI lawyer and legal copilot. Its public pages say users can ask questions, conduct research, receive checklists, and create contracts or other documents.
 
+![Lawyerz homepage panel introducing Libra, with sections for asking the AI lawyer, legal AI agents, document generation, and lawyer search](/assets/images/posts/free-legal-ai/lawyerz-libra-screenshot-1600.jpg "Lawyerz homepage introducing the Libra AI lawyer, captured November 2026.")
+
 Libra may be useful for generating an issue list or first-pass structure. A student might use it to identify concepts for independent research. A consumer might use it to prepare questions for a lawyer.
 
 The public pages reviewed did not state a clear daily allowance, document cap, or guaranteed response scope. That absence is itself a buying fact. Do not build a workflow around an allowance the vendor has not published. Review the live terms and privacy policy before sharing any personal or client information.
@@ -108,6 +118,8 @@ The public pages reviewed did not state a clear daily allowance, document cap, o
 
 Aux.ai provides free conversational legal information across subjects including personal injury, child custody, divorce, criminal law, real estate, and wills. The site says the chat is available around the clock.
 
+![Aux.ai homepage headline offering free legal help chat, listing practice areas such as personal injury, divorce, and wills](/assets/images/posts/free-legal-ai/auxai-screenshot-1600.jpg "Aux.ai homepage offering free internet lawyer chat, captured November 2026.")
+
 The service may help a consumer name the subject of a problem and collect general questions. Its broad subject coverage makes it an orientation tool rather than a substitute for jurisdiction-specific advice.
 
 Aux expressly states that the chat does not create an attorney-client relationship and provides informational content only. The public page reviewed did not publish a detailed free allowance. Users should not infer that the answer has been reviewed for their facts, court, or deadline.
@@ -115,6 +127,8 @@ Aux expressly states that the chat does not create an attorney-client relationsh
 ## 7. AI Lawyer
 
 AI Lawyer offers a guided document generator. Users describe a document, answer questions, and preview the result. The site includes agreements such as leases, nondisclosure agreements, contractor agreements, and powers of attorney.
+
+![AI Lawyer homepage asking what legal document the user needs, with a text box and sample document types](/assets/images/posts/free-legal-ai/ailawyer-screenshot-1600.jpg "AI Lawyer homepage with its document generator prompt, captured November 2026.")
 
 This is a free preview rather than a complete free plan. The vendor says answering questions and previewing a document costs nothing. Downloading, emailing, or printing requires a one-time purchase or subscription. A free trial may also be available.
 

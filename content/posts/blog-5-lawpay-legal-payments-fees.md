@@ -44,6 +44,8 @@ The guide splits costs into three layers: monthly charges, payment-method charge
 
 The [LawPay pricing page](https://www.lawpay.com/pricing/) lists the subscription and the processing rates as separate items. That split matters for budgeting. Transaction costs rise and fall with payment volume. Monthly charges apply even in a quiet month.
 
+![LawPay pricing page with a $19 per month no-contract plan beside a custom pricing option](/assets/images/posts/lawpay-legal-payments-fees/lawpay-screenshot-1600.jpg "LawPay pricing page showing the $19 monthly plan and custom pricing option, captured November 2026.")
+
 The table below groups each published figure with the question a firm should answer before relying on it.
 
 | Cost Type | Published Figure | Question to Answer |
