@@ -41,6 +41,8 @@ A linked citation is the start of verification. It is not proof that a generated
 
 The current product name is Lexis+ with Protégé. LexisNexis describes Protégé as the assistant within its research, drafting, and analysis platform. Buyers should confirm account entitlements because packaging can differ.
 
+![LexisNexis products menu listing Lexis+ with Protégé as a legal AI solution for drafting, research, and analysis, beside other LexisNexis products](/assets/images/posts/legal-research-software/lexis-plus-screenshot-1600.jpg "LexisNexis products menu listing Lexis+ with Protégé, captured November 2026.")
+
 The [Lexis+ with Protégé product page](https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page) describes several grounding sources. These include primary law, secondary sources, Practical Guidance, selected web content, and organization documents. It also describes integrated Shepard’s citations and verification tools.
 
 That mix offers flexibility. It also creates a source-classification duty. A lawyer should know which source set supported each answer before relying on it.
