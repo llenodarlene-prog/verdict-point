@@ -15,7 +15,7 @@ approved_internal_links: /legal-tech/legal-technology-statistics/; /law-firms/la
 research_record: content/research/blog-6.json
 source_document: https://docs.google.com/document/d/1YFJOscAsSUvRk4oKOdaGmdY26_FhYGmHTAasZTWS2Co/edit?usp=drivesdk
 image: /assets/images/posts/litify-legal-software-implementation/implementation-binder-whiteboard-marble-desk-1600.jpg
-image_alt: Navy leather binder and gold pen on a marble table, with a laptop showing a workflow diagram and a whiteboard of sticky notes grouped in project-phase columns
+image_alt: Binder and pen on a marble table beside a laptop workflow diagram and a whiteboard of sticky notes in project-phase columns
 author: Darlene Aberin
 published: 2026-10-13
 modified: 2026-10-13
