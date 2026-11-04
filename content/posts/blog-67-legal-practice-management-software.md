@@ -122,7 +122,7 @@ The pricing page contains the $59 table and a $49 starting-price statement. Trea
 
 Bill4Time lists Legal Pro at $69 monthly or $59 per user per month when billed annually. Legal Enterprise appears at $99 monthly or $89 annually. A separate Time & Billing plan starts at $39 annually, but it omits several legal-specific features.
 
-![Bill4Time yearly pricing showing Time and Billing at $39, Time and Billing Enterprise at $69, Legal Pro at $59, and Legal Enterprise at $89 per user per month](/assets/images/posts/legal-practice-management-software/bill4time-screenshot-1600.jpg "Bill4Time pricing page with yearly pricing selected, captured November 2026.")
+![Bill4Time yearly pricing: Time and Billing $39, Time and Billing Enterprise $69, Legal Pro $59, Legal Enterprise $89 per user](/assets/images/posts/legal-practice-management-software/bill4time-screenshot-1600.jpg "Bill4Time pricing page with yearly pricing selected, captured November 2026.")
 
 Legal Pro includes trust accounting, a conflict checker, contingency billing, task workflows, LEDES export, and basic data import. Enterprise adds custom data fields, a dedicated success specialist, and advanced import.
 
