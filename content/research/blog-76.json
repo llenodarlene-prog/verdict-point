@@ -1,13 +1,13 @@
 {
   "tracker_id": "Blog:76",
   "status": "verified",
-  "research_question": "Owner-approved addition: 8 Best Legal Document Automation Software Tools. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_question": "Owner-approved addition: 9 Best Legal Document Automation Software Tools. Verify every product fact and price in the owner draft against official vendor pages.",
   "research_brief": {
     "purpose": "Owner-supplied editorial draft for legal document automation software, fact-checked and fitted to house rules.",
     "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
     "publication_year": "2026",
     "data_period": "Vendor pages as displayed on 2026-11-05",
-    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Clio Draft removed (no usable screenshot of the vendor page; Clio blocks automated readers); Knackly Professional corrected from $834 yearly-equivalent to the listed $1,000 per month, with the Done For You $500 plan added; Woodpecker month-to-month prices and extra-user fee added; LEAP state-specific form claim narrowed to what the page states."
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Clio Draft restored 2026-11-05 from an owner-supplied screenshot of the live vendor page (the vendor blocks automated readers); pricing-page claims from the original draft cut; Knackly Professional corrected from $834 yearly-equivalent to the listed $1,000 per month, with the Done For You $500 plan added; Woodpecker month-to-month prices and extra-user fee added; LEAP state-specific form claim narrowed to what the page states."
   },
   "keyword_research": {
     "approved_primary_keyword": "legal document automation software",
@@ -140,6 +140,19 @@
       "published_at": "Not stated",
       "accessed_at": "2026-11-05",
       "scope": "Woodpecker pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/draft/",
+      "title": "Clio Draft",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Clio Draft",
       "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
       "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
       "verified": true
@@ -390,9 +403,9 @@
   ],
   "value_add": "A same-day check of eight tools' published prices with corrected tiers, plus a worked first-year license comparison across four published price points.",
   "plan": {
-    "reader_title": "8 Best Legal Document Automation Software Tools",
-    "seo_title": "8 Best Legal Document Automation Software Tools for 2026",
-    "meta_description": "Compare eight legal document automation software tools by templates, interviews, conditional logic, Word support, integrations, pricing, and setup effort.",
+    "reader_title": "9 Best Legal Document Automation Software Tools",
+    "seo_title": "9 Best Legal Document Automation Software Tools for 2026",
+    "meta_description": "Compare nine legal document automation software tools by templates, interviews, conditional logic, Word support, integrations, pricing, and setup effort.",
     "slug": "/legal-tech/best-legal-document-automation-software/",
     "search_intent": "Commercial",
     "secondary_keywords": [
@@ -408,12 +421,14 @@
       "1. Gavel Workflows: Best Client-Facing No-Code Automation",
       "2. HotDocs Advance: Best for Complex Template Libraries",
       "3. Woodpecker: Best Word Add-In for Smaller Teams",
-      "4. Contract Express: Best Enterprise Word-Based Automation",
-      "5. docassemble: Best Open-Source Guided Interview Platform",
-      "6. Knackly: Best for Complex Logic With Published Tiers",
-      "7. LEAP: Best Built-In Form Library and Practice Management",
-      "8. Smokeball: Best Automation Around Word and Outlook",
+      "4. Clio Draft: Best for Court Forms and Clio Integration",
+      "5. Contract Express: Best Enterprise Word-Based Automation",
+      "6. Docassemble: Best Open-Source Guided Interview Platform",
+      "7. Knackly: Best for Complex Logic With Published Tiers",
+      "8. LEAP: Best Built-In Form Library and Practice Management",
+      "9. Smokeball: Best Automation Around Word and Outlook",
       "What the First Year Costs at Published Rates",
+      "Start With One Document Family",
       "Choose by Automation Model",
       "Questions to Ask Before Buying",
       "Frequently Asked Questions",
@@ -456,6 +471,7 @@
       "https://help.hotdocs.com/",
       "https://knackly.io/pricing/",
       "https://woodpecker.squarespace.com/pricing",
+      "https://www.clio.com/draft/",
       "https://www.contractexpress.com/",
       "https://www.gavel.io/pricing",
       "https://www.leaplegalsoftware.com/us/features/legal-document-automation/",
