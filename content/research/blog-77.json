@@ -1,0 +1,519 @@
+{
+  "tracker_id": "Blog:77",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 8 Best Legal Contract Management Software Platforms. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal contract management software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-05",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; ContractWorks pricing corrected from $600 per month to Repository from $425 and Premium from $1,195 per month billed annually, trial corrected from two weeks of drafting to a 14-day Repository trial; ContractWorks e-signature pack price cut (not on page); Agiloft Astra free-plan claim cut (not on page); Docusign CLM Essentials and CLM+ tier names cut (not on page)."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal contract management software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-05"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal contract management software",
+        "type": "short-tail",
+        "volume": 210,
+        "difficulty": 29,
+        "cpc": 386.3,
+        "intent": "Commercial",
+        "ranking_url": "http://www.cobblestonesoftware.com/industries/legal-contract-management-software",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "contract lifecycle management software",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 46,
+        "cpc": 179.95,
+        "intent": "Commercial",
+        "ranking_url": "http://www.cobblestonesoftware.com/industries/legal-contract-management-software",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best contract management software",
+        "type": "commercial",
+        "volume": 390,
+        "difficulty": 45,
+        "cpc": 182.67,
+        "intent": "Commercial",
+        "ranking_url": "http://www.cobblestonesoftware.com/industries/legal-contract-management-software",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "missed contract renewal",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.cobblestonesoftware.com/industries/legal-contract-management-software",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is contract lifecycle management",
+        "type": "question",
+        "volume": 1000,
+        "difficulty": 9,
+        "cpc": 14.98,
+        "intent": "Commercial",
+        "ranking_url": "http://www.cobblestonesoftware.com/industries/legal-contract-management-software",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://ironcladapp.com/pricing",
+      "title": "Ironclad pricing",
+      "publisher": "ironcladapp.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Ironclad pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://juro.com/pricing",
+      "title": "Juro pricing",
+      "publisher": "juro.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Juro pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.spotdraft.com/legal/clm-product-services-offerings-e6e5c133?v=2.0",
+      "title": "SpotDraft product terms",
+      "publisher": "legal.spotdraft.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "SpotDraft product terms",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://linksquares.com/pricing/",
+      "title": "LinkSquares pricing",
+      "publisher": "linksquares.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LinkSquares pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.agiloft.com/platform/contract-management-software",
+      "title": "Agiloft CLM",
+      "publisher": "agiloft.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Agiloft CLM",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.contractworks.com/contract-management-software-pricing",
+      "title": "ContractWorks pricing",
+      "publisher": "contractworks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "ContractWorks pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.docusign.com/products/clm",
+      "title": "Docusign CLM",
+      "publisher": "docusign.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Docusign CLM",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.icertis.com/products/operate/contract-lifecycle-management",
+      "title": "Icertis Contract Management",
+      "publisher": "icertis.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Icertis Contract Management",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.spotdraft.com/pricing",
+      "title": "SpotDraft pricing",
+      "publisher": "spotdraft.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "SpotDraft pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Agiloft says its CLM connects with over 1,000 existing systems.",
+      "source_url": "https://www.agiloft.com/platform/contract-management-software",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ContractWorks lists Repository from $425 and Premium from $1,195 per month billed annually.",
+      "source_url": "https://www.contractworks.com/contract-management-software-pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ContractWorks Repository includes up to 50,000 documents, unlimited users, and 10 e-signature licenses.",
+      "source_url": "https://www.contractworks.com/contract-management-software-pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "All Juro plans include unlimited users, workflows, and templates, priced on contract volume and integration complexity.",
+      "source_url": "https://juro.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Legal Contract Management Software",
+      "url": "http://www.cobblestonesoftware.com/industries/legal-contract-management-software",
+      "publisher": "cobblestonesoftware.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "10 Best Contract Management Software",
+      "url": "http://zylo.com/blog/best-contract-management-software",
+      "publisher": "zylo.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best contract management software: a buyer's guide for 2026",
+      "url": "http://juro.com/learn/contract-management-software",
+      "publisher": "juro.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Top Contract Management Software for Legal Teams",
+      "url": "http://www.sirion.ai/library/contract-insights/contract-management-software-legal-teams/",
+      "publisher": "sirion.ai",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Contract Management Tools For Modern Legal Departments",
+      "url": "http://www.lexisnexis.com/community/insights/legal/counsellink/b/counsellink/posts/essential-contract-management-tools",
+      "publisher": "lexisnexis.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of eight CLM vendors' pricing models with stale draft figures corrected, plus a worked yearly cost benchmark from the only published price in the group.",
+  "plan": {
+    "reader_title": "8 Best Legal Contract Management Software Platforms",
+    "seo_title": "8 Best Legal Contract Management Software Platforms",
+    "meta_description": "Compare eight legal contract management software platforms by workflow, repository, AI review, integrations, pricing model, and best-fit legal team.",
+    "slug": "/legal-tech/best-legal-contract-management-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "contract lifecycle management software",
+      "CLM software for legal teams",
+      "contract management software for lawyers"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Evaluated the Platforms",
+      "Repository, Self-Service, or Enterprise CLM?",
+      "1. Ironclad: Best for Configurable Cross-Team Contracting",
+      "2. Icertis: Best for Complex Global Contract Operations",
+      "3. Agiloft: Best for No-Code Configuration",
+      "4. ContractWorks: Best Repository-First Option With Public Pricing",
+      "5. Juro: Best for Business Self-Service With Legal Guardrails",
+      "6. LinkSquares: Best for In-House Legal Analytics",
+      "7. SpotDraft: Best for Volume-Based Scaling",
+      "8. Docusign CLM: Best for the Docusign Ecosystem",
+      "What a Repository Costs Over One Year",
+      "Choose by Contract Problem",
+      "Questions to Include in the RFP",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://ironcladapp.com/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://juro.com/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://legal.spotdraft.com/legal/clm-product-services-offerings-e6e5c133?v=2.0"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/"
+    ],
+    "external_link_opportunities": [
+      "https://ironcladapp.com/pricing",
+      "https://juro.com/pricing",
+      "https://legal.spotdraft.com/legal/clm-product-services-offerings-e6e5c133?v=2.0",
+      "https://linksquares.com/pricing/",
+      "https://www.agiloft.com/platform/contract-management-software",
+      "https://www.contractworks.com/contract-management-software-pricing",
+      "https://www.docusign.com/products/clm",
+      "https://www.icertis.com/products/operate/contract-lifecycle-management",
+      "https://www.spotdraft.com/pricing"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Agiloft says its CLM connects with over 1,000 existing systems.",
+      "source_url": "https://www.agiloft.com/platform/contract-management-software",
+      "verified": true
+    },
+    {
+      "statement": "ContractWorks lists Repository from $425 and Premium from $1,195 per month billed annually.",
+      "source_url": "https://www.contractworks.com/contract-management-software-pricing",
+      "verified": true
+    },
+    {
+      "statement": "ContractWorks Repository includes up to 50,000 documents, unlimited users, and 10 e-signature licenses.",
+      "source_url": "https://www.contractworks.com/contract-management-software-pricing",
+      "verified": true
+    },
+    {
+      "statement": "All Juro plans include unlimited users, workflows, and templates, priced on contract volume and integration complexity.",
+      "source_url": "https://juro.com/pricing",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  }
+}

@@ -1,0 +1,540 @@
+{
+  "tracker_id": "Blog:73",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 9 Best Legal Billing Software Options for Different Firm Workflows. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal billing software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-05",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Clio payment processing rates cut (Clio pages block automated readers and the owner screenshot shows only plan prices); TimeSolv $147 corrected as a marketing add-on, not a billing plan; Rocket Matter start corrected from $39 (CRM add-on) to $59; CosmoLex tier prices added from the pricing page; Bill4Time Legal Pro feature list cut (not visible in the screenshot)."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal billing software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-10-04",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-05"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal billing software",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 39,
+        "cpc": 219.55,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/1plnori/best_legal_billing_software_whats_your_top_pick/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm billing software",
+        "type": "long-tail",
+        "volume": 1300,
+        "difficulty": 39,
+        "cpc": 219.55,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/1plnori/best_legal_billing_software_whats_your_top_pick/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best legal billing software",
+        "type": "commercial",
+        "volume": 70,
+        "difficulty": 33,
+        "cpc": 176.85,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/1plnori/best_legal_billing_software_whats_your_top_pick/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal billing errors",
+        "type": "problem",
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/1plnori/best_legal_billing_software_whats_your_top_pick/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal billing software",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 36,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/1plnori/best_legal_billing_software_whats_your_top_pick/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "title": "Smokeball support: AutoTime Basics",
+      "publisher": "support.smokeball.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Smokeball support: AutoTime Basics",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bill4time.com/pricing/",
+      "title": "Bill4Time pricing",
+      "publisher": "bill4time.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Bill4Time pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/pricing/",
+      "title": "Clio pricing",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Clio pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cosmolex.com/pricing/",
+      "title": "CosmoLex pricing",
+      "publisher": "cosmolex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "CosmoLex pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawpay.com/pricing/",
+      "title": "LawPay pricing",
+      "publisher": "lawpay.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LawPay pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/pricing/",
+      "title": "PracticePanther pricing",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "PracticePanther pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketmatter.com/features/legal-billing/",
+      "title": "Rocket Matter legal billing",
+      "publisher": "rocketmatter.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Rocket Matter legal billing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketmatter.com/pricing/",
+      "title": "Rocket Matter pricing",
+      "publisher": "rocketmatter.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Rocket Matter pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.smokeball.com/pricing",
+      "title": "Smokeball pricing",
+      "publisher": "smokeball.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Smokeball pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.timesolv.com/billing-invoicing-features/invoicing/",
+      "title": "TimeSolv legal invoicing",
+      "publisher": "timesolv.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "TimeSolv legal invoicing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.timesolv.com/pricing/",
+      "title": "TimeSolv pricing",
+      "publisher": "timesolv.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "TimeSolv pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "MyCase lists Basic at $50, Pro at $100, and Advanced at $130 per user per month billed annually.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "TimeSolv supports LEDES 1998B, 1998BI, Chubb, Litigation Advisor, and UTBMS task codes.",
+      "source_url": "https://www.timesolv.com/billing-invoicing-features/invoicing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LawPay costs $19 per month with processing at 2.99% plus $0.30 for Visa, Mastercard, and Discover, 3.90% plus $0.30 for American Express, 1% for eCheck, and 5.95% for Pay Later.",
+      "source_url": "https://www.lawpay.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Best Legal Billing Software, What's your top pick?",
+      "url": "http://www.reddit.com/r/LawFirm/comments/1plnori/best_legal_billing_software_whats_your_top_pick/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-04)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "11 of the best legal billing software solutions for 2026",
+      "url": "http://www.lawpay.com/about/blog/best-legal-billing-software-small-firms/",
+      "publisher": "lawpay.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-04)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LeanLaw | Legal Billing Software for Law Firms on QuickBooks",
+      "url": "http://www.leanlaw.co/",
+      "publisher": "leanlaw.co",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-04)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Invoicing Software for Law Firms",
+      "url": "http://www.smokeball.com/features/bill/invoicing",
+      "publisher": "smokeball.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-04)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal e-billing software: What is it and how can law firms benefit",
+      "url": "http://www.fedbar.org/blog/legal-e-billing-software-what-is-it-and-how-can-law-firms-benefit/",
+      "publisher": "fedbar.org",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-04)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of nine vendors' published prices with stale draft figures corrected, plus a worked monthly payment-fee calculation from LawPay's published rates.",
+  "plan": {
+    "reader_title": "9 Best Legal Billing Software Options for Different Firm Workflows",
+    "seo_title": "9 Best Legal Billing Software Options for 2026",
+    "meta_description": "Compare nine legal billing software platforms by time capture, invoicing, LEDES, payments, accounting links, published pricing, and best-fit workflow.",
+    "slug": "/legal-tech/best-legal-billing-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "law firm billing software",
+      "attorney billing software",
+      "legal time and billing software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Evaluated the Products",
+      "1. Clio: Best Broad Practice Management Billing",
+      "2. MyCase: Best Client-Facing Billing Workflow",
+      "3. Smokeball: Best for Activity-Based Time Capture",
+      "4. TimeSolv: Best Specialist for LEDES Billing",
+      "5. Bill4Time: Best Configurable Time and Billing",
+      "6. PracticePanther: Best for Simple Small-Firm Workflows",
+      "7. CosmoLex: Best When Billing Must Post to Accounting",
+      "8. LawPay: Best Focused Legal Payments Option",
+      "9. Rocket Matter: Best Flexible Billing in Practice Management",
+      "What Payment Fees Add to a Month of Billing",
+      "Choose by Workflow",
+      "Questions to Ask Before Signing",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bill4time.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.clio.com/pricing/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-accounting-software/"
+    ],
+    "external_link_opportunities": [
+      "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "https://www.bill4time.com/pricing/",
+      "https://www.clio.com/pricing/",
+      "https://www.cosmolex.com/pricing/",
+      "https://www.lawpay.com/pricing/",
+      "https://www.mycase.com/pricing/",
+      "https://www.practicepanther.com/pricing/",
+      "https://www.rocketmatter.com/features/legal-billing/",
+      "https://www.rocketmatter.com/pricing/",
+      "https://www.smokeball.com/pricing",
+      "https://www.timesolv.com/billing-invoicing-features/invoicing/",
+      "https://www.timesolv.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "MyCase lists Basic at $50, Pro at $100, and Advanced at $130 per user per month billed annually.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "TimeSolv supports LEDES 1998B, 1998BI, Chubb, Litigation Advisor, and UTBMS task codes.",
+      "source_url": "https://www.timesolv.com/billing-invoicing-features/invoicing/",
+      "verified": true
+    },
+    {
+      "statement": "LawPay costs $19 per month with processing at 2.99% plus $0.30 for Visa, Mastercard, and Discover, 3.90% plus $0.30 for American Express, 1% for eCheck, and 5.95% for Pay Later.",
+      "source_url": "https://www.lawpay.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  }
+}
