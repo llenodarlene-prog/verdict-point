@@ -1,0 +1,554 @@
+{
+  "tracker_id": "Blog:71",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 7 Best Legal Calendaring Software Options for Law Firms. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal calendaring software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-05",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; DocketCalendar pricing corrected from $15 per court and $15 per calendar to $20 per court and $20 per user, and rule sets from 1,800+ to about 2,200; LawToolBox monthly-billing figure and CalendarRules Canada and Clio claims cut as not shown on the pages; CourtAlert ethical-wall claim cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal calendaring software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-05"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal calendaring software",
+        "type": "short-tail",
+        "volume": 170,
+        "difficulty": 27,
+        "cpc": 187.49,
+        "intent": "Commercial",
+        "ranking_url": "http://lawtoolbox.com/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm calendaring software",
+        "type": "long-tail",
+        "volume": 50,
+        "difficulty": 30,
+        "cpc": 69.02,
+        "intent": "Commercial",
+        "ranking_url": "http://lawtoolbox.com/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best legal calendaring software",
+        "type": "commercial",
+        "volume": 20,
+        "difficulty": 30,
+        "cpc": 55.74,
+        "intent": "Commercial",
+        "ranking_url": "http://lawtoolbox.com/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "missed court deadline",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://lawtoolbox.com/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal calendaring",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://lawtoolbox.com/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://deadlines.com/",
+      "title": "Deadlines.com",
+      "publisher": "deadlines.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Deadlines.com",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://deadlines.com/features/",
+      "title": "Deadlines.com features",
+      "publisher": "deadlines.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Deadlines.com features",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://deadlines.com/pricing/",
+      "title": "Deadlines.com pricing",
+      "publisher": "deadlines.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Deadlines.com pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.thomsonreuters.com/en/products/deadline-assistant",
+      "title": "Thomson Reuters Deadline Assistant",
+      "publisher": "legal.thomsonreuters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Thomson Reuters Deadline Assistant",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://support.lawtoolbox.com/support/solutions/articles/16000135755-faq-calendar-calculate-deadlines",
+      "title": "LawToolBox support: calculate deadlines",
+      "publisher": "support.lawtoolbox.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LawToolBox support: calculate deadlines",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.aderant.com/solutions-milana/",
+      "title": "Aderant Milana",
+      "publisher": "aderant.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Aderant Milana",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.calendarrules.com/",
+      "title": "CalendarRules",
+      "publisher": "calendarrules.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "CalendarRules",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.courtalert.com/content/CaseManagement",
+      "title": "CourtAlert Case Management",
+      "publisher": "courtalert.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "CourtAlert Case Management",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.docketcalendar.com/",
+      "title": "DocketCalendar",
+      "publisher": "docketcalendar.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "DocketCalendar",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.docketcalendar.com/updates",
+      "title": "DocketCalendar updates",
+      "publisher": "docketcalendar.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "DocketCalendar updates",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.docketcalendar.com/whats-included",
+      "title": "DocketCalendar: What's Included",
+      "publisher": "docketcalendar.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "DocketCalendar: What's Included",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawtoolbox.com/",
+      "title": "LawToolBox",
+      "publisher": "lawtoolbox.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LawToolBox",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawtoolbox.com/pricing/",
+      "title": "LawToolBox pricing",
+      "publisher": "lawtoolbox.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LawToolBox pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "LawToolBox lists $39 per user per month for 2 to 9 users on yearly billing, $36 for 10 to 19, $25 for 20 to 79, and $21 for 80 or more.",
+      "source_url": "https://www.lawtoolbox.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "DocketCalendar lists $20 per court and $20 per user per month, with unlimited calculations per court.",
+      "source_url": "https://www.docketcalendar.com/whats-included",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Deadlines.com lists $35 per case per month for one case, $30 for 2 to 5, $25 for 6 to 29, and $20 for 30 or more, with unlimited users.",
+      "source_url": "https://deadlines.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Legal Software | Automated Calendaring for Law Firms",
+      "url": "http://lawtoolbox.com/",
+      "publisher": "lawtoolbox.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Calendaring Solutions",
+      "url": "http://legal.thomsonreuters.com/en/legal/business-development/legal-calendaring-solutions",
+      "publisher": "legal.thomsonreuters.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Calendaring Software 101",
+      "url": "http://www.mycase.com/blog/legal-case-management/court-calendaring-software/",
+      "publisher": "mycase.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Legal Calendaring Software in 2026: Buyer's Guide",
+      "url": "http://www.lexzur.com/how-to-find-the-best-legal-calendaring-software-for-your-law-practice/",
+      "publisher": "lexzur.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Calendaring Software for Law Firms",
+      "url": "http://caretlegal.com/case-management/legal-calendaring/",
+      "publisher": "caretlegal.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A dated, same-day check of seven vendors' published prices and rule coverage, corrected where the owner draft had gone out of date, plus a worked monthly cost comparison across three pricing units.",
+  "plan": {
+    "reader_title": "7 Best Legal Calendaring Software Options for Law Firms",
+    "seo_title": "7 Best Legal Calendaring Software Options for 2026",
+    "meta_description": "Compare seven legal calendaring software options by court-rule coverage, docketing workflow, calendar sync, published pricing, and best-fit law firm.",
+    "slug": "/legal-tech/best-legal-calendaring-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "law firm calendaring software",
+      "rules-based legal calendaring software",
+      "legal docketing software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Selected the Platforms",
+      "Calendar, Rules Engine, or Docketing System?",
+      "1. LawToolBox: Best for Microsoft 365 Firms",
+      "2. CalendarRules: Best Specialist Rules Engine",
+      "3. DocketCalendar: Best Transparent Modular Subscription",
+      "4. Deadlines.com: Best for Small Firms With Case-Based Pricing",
+      "5. Thomson Reuters Deadline Assistant: Best Central Outlook Administration",
+      "6. CourtAlert Case Management: Best for Filing Reconciliation",
+      "7. Aderant Milana: Best Enterprise Cloud Docketing",
+      "What Three Published Price Models Cost for One Firm",
+      "Choose by Workflow, Not Feature Count",
+      "A Practical Buying and Implementation Checklist",
+      "Why a Second Review Still Belongs in the Process",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://deadlines.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://deadlines.com/features/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://deadlines.com/pricing/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-lawyer-time-tracking-software/"
+    ],
+    "external_link_opportunities": [
+      "https://deadlines.com/",
+      "https://deadlines.com/features/",
+      "https://deadlines.com/pricing/",
+      "https://legal.thomsonreuters.com/en/products/deadline-assistant",
+      "https://support.lawtoolbox.com/support/solutions/articles/16000135755-faq-calendar-calculate-deadlines",
+      "https://www.aderant.com/solutions-milana/",
+      "https://www.calendarrules.com/",
+      "https://www.courtalert.com/content/CaseManagement",
+      "https://www.docketcalendar.com/",
+      "https://www.docketcalendar.com/updates",
+      "https://www.docketcalendar.com/whats-included",
+      "https://www.lawtoolbox.com/",
+      "https://www.lawtoolbox.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "LawToolBox lists $39 per user per month for 2 to 9 users on yearly billing, $36 for 10 to 19, $25 for 20 to 79, and $21 for 80 or more.",
+      "source_url": "https://www.lawtoolbox.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "DocketCalendar lists $20 per court and $20 per user per month, with unlimited calculations per court.",
+      "source_url": "https://www.docketcalendar.com/whats-included",
+      "verified": true
+    },
+    {
+      "statement": "Deadlines.com lists $35 per case per month for one case, $30 for 2 to 5, $25 for 6 to 29, and $20 for 30 or more, with unlimited users.",
+      "source_url": "https://deadlines.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  }
+}

@@ -136,7 +136,16 @@
       "/legal-tech/document-management-software-law-firms/",
       "/legal-tech/legal-practice-management-software/",
       "/legal-tech/legal-research-software/",
-      "/legal-tech/free-legal-ai/"
+      "/legal-tech/free-legal-ai/",
+      "/legal-tech/best-legal-calendaring-software/",
+      "/legal-tech/best-lawyer-time-tracking-software/",
+      "/legal-tech/best-legal-billing-software/",
+      "/legal-tech/best-legal-accounting-software/",
+      "/legal-tech/best-law-firm-document-management-software/",
+      "/legal-tech/best-legal-document-automation-software/",
+      "/legal-tech/best-legal-contract-management-software/",
+      "/legal-tech/best-legal-crm-software/",
+      "/legal-tech/best-ediscovery-software/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2049,5 +2058,290 @@
     "placement_guidance": "Owner-approved additions (2026-10-16): links as placed in the editorial draft.",
     "qa_status": "Added by owner approval 2026-10-16; owner lifted the Hold / SERP Review status",
     "content_number": "70"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "7 Best Legal Calendaring Software Options for Law Firms",
+    "url_slug": "/legal-tech/best-legal-calendaring-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 51,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-lawyer-time-tracking-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-lawyer-time-tracking-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "71"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "9 Best Lawyer Time Tracking Software Tools for Billable Work",
+    "url_slug": "/legal-tech/best-lawyer-time-tracking-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 52,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-billing-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-billing-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "72"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "9 Best Legal Billing Software Options for Different Firm Workflows",
+    "url_slug": "/legal-tech/best-legal-billing-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 53,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-accounting-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-accounting-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "73"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "8 Best Legal Accounting Software Platforms for Law Firms",
+    "url_slug": "/legal-tech/best-legal-accounting-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 54,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-billing-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-billing-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "74"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "8 Best Law Firm Document Management Software Platforms",
+    "url_slug": "/legal-tech/best-law-firm-document-management-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 55,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/",
+      "/legal-tech/best-ediscovery-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-document-automation-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-ediscovery-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "75"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "8 Best Legal Document Automation Software Tools",
+    "url_slug": "/legal-tech/best-legal-document-automation-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 56,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-law-firm-document-management-software/",
+      "/legal-tech/best-legal-contract-management-software/",
+      "/legal-tech/best-legal-crm-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-law-firm-document-management-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-contract-management-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-crm-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "76"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "8 Best Legal Contract Management Software Platforms",
+    "url_slug": "/legal-tech/best-legal-contract-management-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 57,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-document-automation-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "77"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "7 Best Legal CRM Software Platforms for Law Firms",
+    "url_slug": "/legal-tech/best-legal-crm-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 58,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-document-automation-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "78"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "10 Best eDiscovery Software Platforms for Legal Teams",
+    "url_slug": "/legal-tech/best-ediscovery-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 59,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-calendaring-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-calendaring-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-04",
+    "content_number": "79"
   }
 ]

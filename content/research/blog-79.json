@@ -1,0 +1,514 @@
+{
+  "tracker_id": "Blog:79",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 10 Best eDiscovery Software Platforms for Legal Teams. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for ediscovery software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-05",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; GoldFynch $27 for 3 GB and $200 organization fee cut (not shown in page text or screenshot), 10 GB at $76 and the 300 GB step pricing confirmed; Everlaw per-GB wording cut; Nextpoint plan processing limits cut (not on page); Federal Rules of Civil Procedure source dropped (not cited for any claim)."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "ediscovery software",
+    "intent": "Navigational",
+    "serp_checked_at": "2026-11-01",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-05"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "ediscovery software",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 37,
+        "cpc": 94.6,
+        "intent": "Navigational",
+        "ranking_url": "http://www.reddit.com/r/ediscovery/comments/1qe1d8g/what_ediscovery_platforms_are_people_actually/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "electronic discovery software",
+        "type": "long-tail",
+        "volume": 1600,
+        "difficulty": 42,
+        "cpc": 59.1,
+        "intent": "Navigational",
+        "ranking_url": "http://www.reddit.com/r/ediscovery/comments/1qe1d8g/what_ediscovery_platforms_are_people_actually/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best ediscovery software",
+        "type": "commercial",
+        "volume": 50,
+        "difficulty": 17,
+        "cpc": 20.84,
+        "intent": "Navigational",
+        "ranking_url": "http://www.reddit.com/r/ediscovery/comments/1qe1d8g/what_ediscovery_platforms_are_people_actually/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ediscovery costs",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 22,
+        "cpc": 61.78,
+        "intent": "Navigational",
+        "ranking_url": "http://www.reddit.com/r/ediscovery/comments/1qe1d8g/what_ediscovery_platforms_are_people_actually/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is ediscovery software",
+        "type": "question",
+        "volume": 50,
+        "difficulty": 31,
+        "cpc": 13.63,
+        "intent": "Navigational",
+        "ranking_url": "http://www.reddit.com/r/ediscovery/comments/1qe1d8g/what_ediscovery_platforms_are_people_actually/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://csdisco.com/offerings/platform/pricing",
+      "title": "DISCO platform pricing",
+      "publisher": "csdisco.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "DISCO platform pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://goldfynch.com/pricing.html",
+      "title": "GoldFynch pricing",
+      "publisher": "goldfynch.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "GoldFynch pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.casepoint.com/pricing/",
+      "title": "Casepoint pricing",
+      "publisher": "casepoint.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Casepoint pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.everlaw.com/pricing/",
+      "title": "Everlaw pricing",
+      "publisher": "everlaw.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Everlaw pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.exterro.com/e-discovery-software",
+      "title": "Exterro eDiscovery",
+      "publisher": "exterro.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Exterro eDiscovery",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.logikcull.com/pricing",
+      "title": "Logikcull pricing",
+      "publisher": "logikcull.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Logikcull pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nextpoint.com/ediscovery-pricing",
+      "title": "Nextpoint pricing",
+      "publisher": "nextpoint.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Nextpoint pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nuix.com/solutions/nuix-discover",
+      "title": "Nuix Discover",
+      "publisher": "nuix.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Nuix Discover",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.relativity.com/pricing/",
+      "title": "Relativity aiR pricing",
+      "publisher": "relativity.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Relativity aiR pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.revealdata.com/use-case/ediscovery",
+      "title": "Reveal eDiscovery",
+      "publisher": "revealdata.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Reveal eDiscovery",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Relativity aiR pricing allows pay as you go or one- or three-year commitments.",
+      "source_url": "https://www.relativity.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Relativity says aiR Review, Privilege, and Case Strategy are included with committed data volume with no extra AI licenses.",
+      "source_url": "https://www.relativity.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "DISCO says there are no separate fees for ingest, processing, or users, with a per-GB hosting fee based on processed data size.",
+      "source_url": "https://csdisco.com/offerings/platform/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "What eDiscovery Platforms Are People Actually Happy With",
+      "url": "http://www.reddit.com/r/ediscovery/comments/1qe1d8g/what_ediscovery_platforms_are_people_actually/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "eDiscovery Software for Legal Teams | Relativity aiR",
+      "url": "https://www.relativity.com/",
+      "publisher": "relativity.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Everlaw eDiscovery",
+      "url": "https://www.everlaw.com/",
+      "publisher": "everlaw.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "DISCO eDiscovery",
+      "url": "https://csdisco.com/",
+      "publisher": "csdisco.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best E-Discovery Solutions Reviews 2026",
+      "url": "https://www.gartner.com/reviews/market/e-discovery-solutions",
+      "publisher": "gartner.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of ten platforms grouped by pricing unit, with unsupported draft prices cut, plus a worked hosting-cost example from the only published plan price.",
+  "plan": {
+    "reader_title": "10 Best eDiscovery Software Platforms for Legal Teams",
+    "seo_title": "10 Best eDiscovery Software Platforms for 2026",
+    "meta_description": "Compare ten ediscovery software platforms by processing, review, AI, deployment, pricing model, and fit for small firms and enterprise legal teams.",
+    "slug": "/legal-tech/best-ediscovery-software/",
+    "search_intent": "Navigational",
+    "secondary_keywords": [
+      "ediscovery platforms",
+      "ediscovery tools for law firms",
+      "ediscovery review software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Evaluated the Platforms",
+      "Three Common Pricing Models",
+      "1. RelativityOne: Best for Complex Enterprise Matters",
+      "2. Everlaw: Best for Collaborative Cloud Litigation",
+      "3. DISCO: Best for Simple Per-GB Pricing",
+      "4. Logikcull: Best for Self-Service Matters",
+      "5. Reveal: Best for AI-Supported Review",
+      "6. GoldFynch: Best Transparent Option for Small Cases",
+      "7. Nextpoint: Best Per-User Model for Litigation Teams",
+      "8. Casepoint: Best for Enterprise and Government Work",
+      "9. Exterro: Best for Legal Holds Through Review",
+      "10. Nuix Discover: Best for Flexible Deployment",
+      "What a Small Case Costs on GoldFynch",
+      "Choose by Matter Profile",
+      "Questions to Include in an RFP",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://csdisco.com/offerings/platform/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://goldfynch.com/pricing.html"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.casepoint.com/pricing/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-calendaring-software/"
+    ],
+    "external_link_opportunities": [
+      "https://csdisco.com/offerings/platform/pricing",
+      "https://goldfynch.com/pricing.html",
+      "https://www.casepoint.com/pricing/",
+      "https://www.everlaw.com/pricing/",
+      "https://www.exterro.com/e-discovery-software",
+      "https://www.logikcull.com/pricing",
+      "https://www.nextpoint.com/ediscovery-pricing",
+      "https://www.nuix.com/solutions/nuix-discover",
+      "https://www.relativity.com/pricing/",
+      "https://www.revealdata.com/use-case/ediscovery"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Relativity aiR pricing allows pay as you go or one- or three-year commitments.",
+      "source_url": "https://www.relativity.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Relativity says aiR Review, Privilege, and Case Strategy are included with committed data volume with no extra AI licenses.",
+      "source_url": "https://www.relativity.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "DISCO says there are no separate fees for ingest, processing, or users, with a per-GB hosting fee based on processed data size.",
+      "source_url": "https://csdisco.com/offerings/platform/pricing",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  }
+}

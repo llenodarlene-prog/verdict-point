@@ -1,0 +1,590 @@
+{
+  "tracker_id": "Blog:72",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 9 Best Lawyer Time Tracking Software Tools for Billable Work. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for lawyer time tracking software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-05",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; WiseTime $360 price cut (not in page text); Rocket Matter starting price corrected from $39 (a CRM add-on) to $59; TimeSolv $49 starting price cut (plan prices not in page text; $147 figure is a marketing add-on); Smokeball overnight-entry claim cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "lawyer time tracking software",
+    "intent": "Transactional",
+    "serp_checked_at": "2026-09-11",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-05"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "lawyer time tracking software",
+        "type": "short-tail",
+        "volume": 390,
+        "difficulty": 33,
+        "cpc": 149.15,
+        "intent": "Transactional",
+        "ranking_url": "http://clockify.me/attorney-time-tracking",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal time tracking software",
+        "type": "long-tail",
+        "volume": 480,
+        "difficulty": 38,
+        "cpc": 118.43,
+        "intent": "Transactional",
+        "ranking_url": "http://clockify.me/attorney-time-tracking",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best time tracking software for lawyers",
+        "type": "commercial",
+        "volume": 10,
+        "difficulty": 18,
+        "cpc": 0,
+        "intent": "Transactional",
+        "ranking_url": "http://clockify.me/attorney-time-tracking",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "lost billable hours",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Transactional",
+        "ranking_url": "http://clockify.me/attorney-time-tracking",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how do lawyers track billable hours",
+        "type": "question",
+        "volume": 40,
+        "difficulty": 13,
+        "cpc": 26.67,
+        "intent": "Transactional",
+        "ranking_url": "http://clockify.me/attorney-time-tracking",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "title": "Smokeball support: AutoTime Basics",
+      "publisher": "support.smokeball.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Smokeball support: AutoTime Basics",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://wisetime.com/pricing/",
+      "title": "WiseTime pricing",
+      "publisher": "wisetime.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "WiseTime pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bill4time.com/pricing/",
+      "title": "Bill4Time pricing",
+      "publisher": "bill4time.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Bill4Time pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/pricing/",
+      "title": "Clio pricing",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Clio pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.leanlaw.co/pricing/",
+      "title": "LeanLaw pricing",
+      "publisher": "leanlaw.co",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LeanLaw pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/features/law-firm-time-tracking-software/",
+      "title": "MyCase time tracking",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "MyCase time tracking",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/pricing/",
+      "title": "PracticePanther pricing",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "PracticePanther pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketmatter.com/features/legal-billing/",
+      "title": "Rocket Matter legal billing",
+      "publisher": "rocketmatter.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Rocket Matter legal billing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketmatter.com/pricing/",
+      "title": "Rocket Matter pricing",
+      "publisher": "rocketmatter.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Rocket Matter pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.smokeball.com/features/do/autotime",
+      "title": "Smokeball AutoTime",
+      "publisher": "smokeball.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Smokeball AutoTime",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.smokeball.com/pricing",
+      "title": "Smokeball pricing",
+      "publisher": "smokeball.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Smokeball pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.timesolv.com/billing-invoicing-features/invoicing/",
+      "title": "TimeSolv legal invoicing",
+      "publisher": "timesolv.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "TimeSolv legal invoicing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.timesolv.com/pricing/",
+      "title": "TimeSolv pricing",
+      "publisher": "timesolv.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "TimeSolv pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Smokeball AutoTime entries are not automatically billed and can be edited before an invoice is sent.",
+      "source_url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "MyCase users can stop and start up to three timers at once.",
+      "source_url": "https://www.mycase.com/features/law-firm-time-tracking-software/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "MyCase Smart Time Finder passively tracks activity in MyCase to identify billable time not yet entered.",
+      "source_url": "https://www.mycase.com/features/law-firm-time-tracking-software/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "TimeSolv supports LEDES 1998B, 1998BI, and UTBMS task codes.",
+      "source_url": "https://www.timesolv.com/billing-invoicing-features/invoicing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Time tracker for lawyers & attorneys",
+      "url": "http://clockify.me/attorney-time-tracking",
+      "publisher": "clockify.me",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "End-to-End Legal Time Tracking Software",
+      "url": "http://www.lawpay.com/features/lawyer-time-tracking-software/",
+      "publisher": "lawpay.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best apps for keeping track of hours/billables?",
+      "url": "http://www.reddit.com/r/LawFirm/comments/rj9k45/best_apps_for_keeping_track_of_hoursbillables/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Attorney Time Tracking Software Solutions",
+      "url": "http://www.fedbar.org/blog/best-attorney-time-tracking-software-solutions/",
+      "publisher": "fedbar.org",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "10 Top Apps for Time-Tracking in Law Firms",
+      "url": "http://www.proofserve.com/learn/10-top-apps-for-time-tracking-in-law-firms",
+      "publisher": "proofserve.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of nine vendors' published prices and capture features, with stale draft prices corrected, plus a worked five-user monthly cost table built only from printed rates.",
+  "plan": {
+    "reader_title": "9 Best Lawyer Time Tracking Software Tools for Billable Work",
+    "seo_title": "9 Best Lawyer Time Tracking Software Tools for 2026",
+    "meta_description": "Compare nine lawyer time tracking software tools by passive capture, timers, mobile entry, billing links, privacy controls, published pricing, and firm fit.",
+    "slug": "/legal-tech/best-lawyer-time-tracking-software/",
+    "search_intent": "Transactional",
+    "secondary_keywords": [
+      "legal time tracking software",
+      "attorney time tracking software",
+      "law firm timekeeping software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Evaluated the Tools",
+      "Passive Capture, Timers, and Prompts",
+      "1. WiseTime: Best for Private Passive Desktop Capture",
+      "2. Smokeball AutoTime: Best for Automatic Capture Inside Smokeball",
+      "3. MyCase: Best Mix of Timers and Missed-Time Review",
+      "4. Clio: Best Broad Practice Management Workflow",
+      "5. TimeSolv: Best for Detailed Time and E-Billing",
+      "6. Bill4Time: Best Transparent Specialist Pricing",
+      "7. LeanLaw: Best for QuickBooks Online Firms",
+      "8. PracticePanther: Best Straightforward Small-Firm Suite",
+      "9. Rocket Matter: Best for Flexible Rates and Batch Billing",
+      "What Five Users Cost Per Month at Published Rates",
+      "Choose by Timekeeping Failure",
+      "Questions to Ask Before Buying",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://wisetime.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bill4time.com/pricing/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-billing-software/"
+    ],
+    "external_link_opportunities": [
+      "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "https://wisetime.com/pricing/",
+      "https://www.bill4time.com/pricing/",
+      "https://www.clio.com/pricing/",
+      "https://www.leanlaw.co/pricing/",
+      "https://www.mycase.com/features/law-firm-time-tracking-software/",
+      "https://www.mycase.com/pricing/",
+      "https://www.practicepanther.com/pricing/",
+      "https://www.rocketmatter.com/features/legal-billing/",
+      "https://www.rocketmatter.com/pricing/",
+      "https://www.smokeball.com/features/do/autotime",
+      "https://www.smokeball.com/pricing",
+      "https://www.timesolv.com/billing-invoicing-features/invoicing/",
+      "https://www.timesolv.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Smokeball AutoTime entries are not automatically billed and can be edited before an invoice is sent.",
+      "source_url": "https://support.smokeball.com/hc/en-us/articles/5860708227863-AutoTime-Basics",
+      "verified": true
+    },
+    {
+      "statement": "MyCase users can stop and start up to three timers at once.",
+      "source_url": "https://www.mycase.com/features/law-firm-time-tracking-software/",
+      "verified": true
+    },
+    {
+      "statement": "MyCase Smart Time Finder passively tracks activity in MyCase to identify billable time not yet entered.",
+      "source_url": "https://www.mycase.com/features/law-firm-time-tracking-software/",
+      "verified": true
+    },
+    {
+      "statement": "TimeSolv supports LEDES 1998B, 1998BI, and UTBMS task codes.",
+      "source_url": "https://www.timesolv.com/billing-invoicing-features/invoicing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  }
+}
