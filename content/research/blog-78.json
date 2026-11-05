@@ -1,0 +1,497 @@
+{
+  "tracker_id": "Blog:78",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 7 Best Legal CRM Software Platforms for Law Firms. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal crm software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-05",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; LexisNexis InterAction+ removed (no usable screenshot of the vendor page; LexisNexis blocks automated readers); HubSpot prices updated to the promotional Starter $7 and Professional $90 shown on the pricing page, with regular prices noted; Clio Grow Elite and add-on packaging claim cut (Clio blocks automated readers and the screenshot does not show it); Law Ruler usage-fee terms claim cut (not found in fetched terms text)."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal crm software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-15",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-05"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal crm software",
+        "type": "short-tail",
+        "volume": 170,
+        "difficulty": 22,
+        "cpc": 100.61,
+        "intent": "Commercial",
+        "ranking_url": "http://surepoint.com/resources/toolkit/crm-toolkit/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm crm",
+        "type": "long-tail",
+        "volume": 390,
+        "difficulty": 25,
+        "cpc": 76.15,
+        "intent": "Commercial",
+        "ranking_url": "http://surepoint.com/resources/toolkit/crm-toolkit/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best crm for law firms",
+        "type": "commercial",
+        "volume": 70,
+        "difficulty": 29,
+        "cpc": 44.96,
+        "intent": "Commercial",
+        "ranking_url": "http://surepoint.com/resources/toolkit/crm-toolkit/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm lead follow up",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://surepoint.com/resources/toolkit/crm-toolkit/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal crm",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://surepoint.com/resources/toolkit/crm-toolkit/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://legal.hubspot.com/hubspot-product-and-services-catalog/products",
+      "title": "HubSpot product catalog",
+      "publisher": "legal.hubspot.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "HubSpot product catalog",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/grow/",
+      "title": "Clio Grow",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Clio Grow",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.hubspot.com/pricing/sales",
+      "title": "HubSpot Sales Hub pricing",
+      "publisher": "hubspot.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "HubSpot Sales Hub pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.intapp.com/legal/dealcloud/",
+      "title": "Intapp DealCloud for legal",
+      "publisher": "intapp.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Intapp DealCloud for legal",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawmatics.com/pricing",
+      "title": "Lawmatics pricing",
+      "publisher": "lawmatics.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Lawmatics pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawruler.com/pricing/",
+      "title": "Law Ruler pricing",
+      "publisher": "lawruler.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Law Ruler pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.leaddocket.com/features/",
+      "title": "Lead Docket features",
+      "publisher": "leaddocket.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Lead Docket features",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.leaddocket.com/pricing/",
+      "title": "Lead Docket pricing",
+      "publisher": "leaddocket.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Lead Docket pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Lawmatics Essential includes 500 contacts and Premium includes 10,000 contacts.",
+      "source_url": "https://www.lawmatics.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Law Ruler subscriptions are billed monthly on an annual term, with 15% savings for annual prepaid subscriptions.",
+      "source_url": "https://www.lawruler.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "HubSpot Sales Hub offers a free plan for up to two users.",
+      "source_url": "https://www.hubspot.com/pricing/sales",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Toolkit: CRM for Law Firms",
+      "url": "http://surepoint.com/resources/toolkit/crm-toolkit/",
+      "publisher": "surepoint.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "What's a good CRM for lawyers",
+      "url": "http://www.reddit.com/r/CRMSoftware/comments/1sqpq7p/whats_a_good_crm_for_lawyers_that_actually_fits/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "AI-Powered Legal CRM for Attorneys & Law Firms",
+      "url": "http://www.clio.com/features/legal-crm-software/",
+      "publisher": "clio.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best CRM Software for Law firms",
+      "url": "http://www.mycase.com/blog/client-management/best-crm-for-law-firms/",
+      "publisher": "mycase.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Legal CRM Software in 2026",
+      "url": "http://getperspective.ai/blog/best-legal-crm-software-2026-9-platforms-ranked-by-client-intake",
+      "publisher": "getperspective.ai",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-15)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of seven CRMs split into intake and relationship tools, with promotional prices labeled, plus a worked five-user seat comparison.",
+  "plan": {
+    "reader_title": "7 Best Legal CRM Software Platforms for Law Firms",
+    "seo_title": "7 Best Legal CRM Software Platforms for 2026",
+    "meta_description": "Compare seven legal CRM software platforms by intake, follow-up, relationship tracking, practice management handoff, published pricing, and firm fit.",
+    "slug": "/legal-tech/best-legal-crm-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "law firm CRM software",
+      "legal intake software",
+      "CRM for law firms"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Evaluated the Platforms",
+      "Intake CRM or Relationship CRM?",
+      "1. Clio Grow: Best for Firms Using Clio",
+      "2. Lawmatics: Best for Configurable Intake and Nurture",
+      "3. Law Ruler: Best for High-Volume Messaging Workflows",
+      "4. Lead Docket: Best for Structured Intake Teams",
+      "5. MyCase: Best Built-In CRM for MyCase Firms",
+      "6. HubSpot: Best Configurable General-Purpose Option",
+      "7. Intapp DealCloud: Best for Complex Client Development",
+      "What Five Users Pay Each Month at Published Rates",
+      "Choose the CRM Category First",
+      "Questions to Ask Before Buying",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://legal.hubspot.com/hubspot-product-and-services-catalog/products"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.clio.com/grow/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.hubspot.com/pricing/sales"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/"
+    ],
+    "external_link_opportunities": [
+      "https://legal.hubspot.com/hubspot-product-and-services-catalog/products",
+      "https://www.clio.com/grow/",
+      "https://www.hubspot.com/pricing/sales",
+      "https://www.intapp.com/legal/dealcloud/",
+      "https://www.lawmatics.com/pricing",
+      "https://www.lawruler.com/pricing/",
+      "https://www.leaddocket.com/features/",
+      "https://www.leaddocket.com/pricing/",
+      "https://www.mycase.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Lawmatics Essential includes 500 contacts and Premium includes 10,000 contacts.",
+      "source_url": "https://www.lawmatics.com/pricing",
+      "verified": true
+    },
+    {
+      "statement": "Law Ruler subscriptions are billed monthly on an annual term, with 15% savings for annual prepaid subscriptions.",
+      "source_url": "https://www.lawruler.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "HubSpot Sales Hub offers a free plan for up to two users.",
+      "source_url": "https://www.hubspot.com/pricing/sales",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  }
+}

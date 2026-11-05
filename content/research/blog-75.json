@@ -1,0 +1,548 @@
+{
+  "tracker_id": "Blog:75",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 8 Best Law Firm Document Management Software Platforms. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm document management software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-05",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; LexWorkplace corrected to free Starter for Uptime clients, Core $395 and Advanced $595 with 3 users, and 100 GB at $40 (draft said 1 TB on Core); iManage Security Policy Manager claim cut (not on page); ABA Model Rule 1.6 claim cut (ABA page blocks automated readers); SharePoint price added from Microsoft's plan comparison."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm document management software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-01",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-05"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm document management software",
+        "type": "short-tail",
+        "volume": 480,
+        "difficulty": 23,
+        "cpc": 133.48,
+        "intent": "Commercial",
+        "ranking_url": "http://legal.thomsonreuters.com/en/legal/data-document-management/document-management",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal document management software",
+        "type": "long-tail",
+        "volume": 480,
+        "difficulty": 25,
+        "cpc": 133.48,
+        "intent": "Commercial",
+        "ranking_url": "http://legal.thomsonreuters.com/en/legal/data-document-management/document-management",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best document management software for law firms",
+        "type": "commercial",
+        "volume": 40,
+        "difficulty": 25,
+        "cpc": 70.13,
+        "intent": "Commercial",
+        "ranking_url": "http://legal.thomsonreuters.com/en/legal/data-document-management/document-management",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm document organization",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://legal.thomsonreuters.com/en/legal/data-document-management/document-management",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal document management",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 28,
+        "cpc": 5.09,
+        "intent": "Commercial",
+        "ranking_url": "http://legal.thomsonreuters.com/en/legal/data-document-management/document-management",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://imanage.com/imanage-products/document-email-management/",
+      "title": "iManage document and email management",
+      "publisher": "imanage.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "iManage document and email management",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://lexworkplace.com/pricing/",
+      "title": "LexWorkplace pricing",
+      "publisher": "lexworkplace.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LexWorkplace pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/features/legal-documents/",
+      "title": "Clio legal documents",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Clio legal documents",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/pricing/",
+      "title": "Clio pricing",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Clio pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.leaplegalsoftware.com/us/",
+      "title": "LEAP Legal Software",
+      "publisher": "leaplegalsoftware.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LEAP Legal Software",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+      "title": "Microsoft SharePoint",
+      "publisher": "microsoft.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Microsoft SharePoint",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-365/sharepoint/compare-sharepoint-plans",
+      "title": "Microsoft SharePoint plans",
+      "publisher": "microsoft.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Microsoft SharePoint plans",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/features/mycase-drive/",
+      "title": "MyCase Drive",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "MyCase Drive",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.netdocuments.com/pricing/",
+      "title": "NetDocuments pricing",
+      "publisher": "netdocuments.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "NetDocuments pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.smokeball.com/pricing",
+      "title": "Smokeball pricing",
+      "publisher": "smokeball.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Smokeball pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "NetDocuments organizes documents and email by client and matter with version control and search, and lists ethical walls and data loss prevention.",
+      "source_url": "https://www.netdocuments.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "NetDocuments says ethical walls, data loss prevention, and data residency can affect the package.",
+      "source_url": "https://www.netdocuments.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LexWorkplace costs $395 a month on Core and $595 a month on Advanced, with 3 users included on both.",
+      "source_url": "https://lexworkplace.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LexWorkplace Starter is free for firms on Uptime Manage or Uptime Cloud.",
+      "source_url": "https://lexworkplace.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Legal Document Management Software Solutions",
+      "url": "http://legal.thomsonreuters.com/en/legal/data-document-management/document-management",
+      "publisher": "legal.thomsonreuters.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Global Law Firms | Legal Document Management",
+      "url": "https://imanage.com/",
+      "publisher": "imanage.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Document Management for Lawyers and Law Firms",
+      "url": "https://www.netdocuments.com/",
+      "publisher": "netdocuments.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Legal Document Management Solutions Reviews 2026",
+      "url": "https://www.gartner.com/reviews/market/legal-document-management",
+      "publisher": "gartner.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "What do small law firms use for Document Management",
+      "url": "https://www.reddit.com/r/LawFirm/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-01)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of eight platforms sorted by product type, with stale draft prices corrected, plus a worked five-user monthly license comparison from published prices.",
+  "plan": {
+    "reader_title": "8 Best Law Firm Document Management Software Platforms",
+    "seo_title": "8 Best Law Firm Document Management Software Platforms",
+    "meta_description": "Compare eight law firm document management software platforms by email filing, search, versioning, permissions, integrations, pricing, and firm fit.",
+    "slug": "/legal-tech/best-law-firm-document-management-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "legal document management software",
+      "document management system for law firms",
+      "law firm DMS"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Evaluated the Platforms",
+      "1. iManage: Best for Large-Firm Governance",
+      "2. NetDocuments: Best Dedicated Cloud DMS",
+      "3. LexWorkplace: Best Focused DMS With Published Pricing",
+      "4. Clio: Best Matter-Based Documents for Clio Firms",
+      "5. MyCase: Best Desktop Drive for MyCase Firms",
+      "6. LEAP: Best for Small Firms on Microsoft 365",
+      "7. Smokeball: Best for Word and Outlook Automation",
+      "8. Microsoft SharePoint: Best for Firms With Technical Staff",
+      "What a Five-User Firm Pays Each Month",
+      "Dedicated DMS or Practice Platform Documents?",
+      "A Practical Evaluation Script",
+      "Questions to Ask Every Vendor",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://imanage.com/imanage-products/document-email-management/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://lexworkplace.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.clio.com/features/legal-documents/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/",
+      "/legal-tech/best-ediscovery-software/"
+    ],
+    "external_link_opportunities": [
+      "https://imanage.com/imanage-products/document-email-management/",
+      "https://lexworkplace.com/pricing/",
+      "https://www.clio.com/features/legal-documents/",
+      "https://www.clio.com/pricing/",
+      "https://www.leaplegalsoftware.com/us/",
+      "https://www.microsoft.com/en-us/microsoft-365/sharepoint/collaboration",
+      "https://www.microsoft.com/en-us/microsoft-365/sharepoint/compare-sharepoint-plans",
+      "https://www.mycase.com/features/mycase-drive/",
+      "https://www.mycase.com/pricing/",
+      "https://www.netdocuments.com/pricing/",
+      "https://www.smokeball.com/pricing"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "NetDocuments organizes documents and email by client and matter with version control and search, and lists ethical walls and data loss prevention.",
+      "source_url": "https://www.netdocuments.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "NetDocuments says ethical walls, data loss prevention, and data residency can affect the package.",
+      "source_url": "https://www.netdocuments.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "LexWorkplace costs $395 a month on Core and $595 a month on Advanced, with 3 users included on both.",
+      "source_url": "https://lexworkplace.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "LexWorkplace Starter is free for firms on Uptime Manage or Uptime Cloud.",
+      "source_url": "https://lexworkplace.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  }
+}

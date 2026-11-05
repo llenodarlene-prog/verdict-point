@@ -1,0 +1,512 @@
+{
+  "tracker_id": "Blog:74",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 8 Best Legal Accounting Software Platforms for Law Firms. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal accounting software, fact-checked and fitted to house rules.",
+    "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-05",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; ABA Model Rule 1.15 and IOLTA guide claims cut (ABA pages block automated readers and no readable primary copy was found); CARET Legal plan prices cut (not in page text); TrustBooks 100-transaction limit cut (not on page); MyCase three-way reconciliation claim cut (not on pricing page)."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal accounting software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-08-23",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-05"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal accounting software",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 29,
+        "cpc": 232.83,
+        "intent": "Commercial",
+        "ranking_url": "http://www.sage.com/en-us/industry/services/legal/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm accounting software",
+        "type": "long-tail",
+        "volume": 480,
+        "difficulty": 33,
+        "cpc": 251.49,
+        "intent": "Commercial",
+        "ranking_url": "http://www.sage.com/en-us/industry/services/legal/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best legal accounting software",
+        "type": "commercial",
+        "volume": 70,
+        "difficulty": 19,
+        "cpc": 154.62,
+        "intent": "Commercial",
+        "ranking_url": "http://www.sage.com/en-us/industry/services/legal/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "trust account reconciliation",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 19,
+        "cpc": 11.07,
+        "intent": "Commercial",
+        "ranking_url": "http://www.sage.com/en-us/industry/services/legal/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is three way reconciliation",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.sage.com/en-us/industry/services/legal/",
+        "retrieved_at": "2026-11-05",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://caretlegal.com/pricing/",
+      "title": "CARET Legal pricing",
+      "publisher": "caretlegal.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "CARET Legal pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://help.clio.com/hc/en-us/articles/47397952204315-Set-Up-Clio-Accounting",
+      "title": "Clio help: Set Up Clio Accounting",
+      "publisher": "help.clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Clio help: Set Up Clio Accounting",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://pclawtimematters.com/product-pclaw/",
+      "title": "PCLaw",
+      "publisher": "pclawtimematters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "PCLaw",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://trustbooks.com/pricing/",
+      "title": "TrustBooks pricing",
+      "publisher": "trustbooks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "TrustBooks pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.actionstep.com/legal-accounting/",
+      "title": "Actionstep Legal Accounting",
+      "publisher": "actionstep.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Actionstep Legal Accounting",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/pricing/",
+      "title": "Clio pricing",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "Clio pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cosmolex.com/features/trust-accounting-software/",
+      "title": "CosmoLex trust accounting",
+      "publisher": "cosmolex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "CosmoLex trust accounting",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cosmolex.com/pricing/",
+      "title": "CosmoLex pricing",
+      "publisher": "cosmolex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "CosmoLex pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.leanlaw.co/pricing/",
+      "title": "LeanLaw pricing",
+      "publisher": "leanlaw.co",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LeanLaw pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "CosmoLex says it blocks ledger overdrafts and commingling and runs three-way reconciliations in a few clicks.",
+      "source_url": "https://www.cosmolex.com/features/trust-accounting-software/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "MyCase Accounting costs $39 per user per month and is available on Pro and Advanced plans.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "MyCase Pro costs $100 and Advanced $130 per user per month billed annually.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Legal Accounting Software for Law Firms",
+      "url": "http://www.sage.com/en-us/industry/services/legal/",
+      "publisher": "sage.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-08-23)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best law firm accounting software for 2026",
+      "url": "http://www.lawpay.com/about/blog/best-law-firm-accounting-software/",
+      "publisher": "lawpay.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-08-23)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Legal Accounting Software for Lawyers and Law Firms",
+      "url": "http://www.clio.com/resources/legal-accounting/legal-accounting-software/",
+      "publisher": "clio.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-08-23)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "TrustBooks: Trust Accounting Software for Attorneys",
+      "url": "http://trustbooks.com/",
+      "publisher": "trustbooks.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-08-23)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Accounting Software",
+      "url": "http://www.mycase.com/features/legal-accounting-software/",
+      "publisher": "mycase.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-08-23)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of eight vendors sorted by accounting model, with unsupported draft claims cut, plus a worked three-user monthly cost comparison from published prices.",
+  "plan": {
+    "reader_title": "8 Best Legal Accounting Software Platforms for Law Firms",
+    "seo_title": "8 Best Legal Accounting Software Platforms for 2026",
+    "meta_description": "Compare eight legal accounting software platforms by trust controls, general ledger, billing links, integrations, published pricing, and law firm fit.",
+    "slug": "/legal-tech/best-legal-accounting-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "law firm accounting software",
+      "legal trust accounting software",
+      "IOLTA accounting software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Evaluated the Platforms",
+      "What Legal Accounting Software Should Control",
+      "1. CosmoLex: Best All-in-One Option for Small and Midsize Firms",
+      "2. Clio Accounting: Best for Firms Already Using Clio",
+      "3. MyCase Accounting: Best Add-On for MyCase Firms",
+      "4. CARET Legal: Best Integrated Financial Operations Suite",
+      "5. LeanLaw: Best QuickBooks Online Connection",
+      "6. Actionstep Legal Accounting: Best for Configurable Workflows",
+      "7. PCLaw: Best for Established Legal Bookkeeping",
+      "8. TrustBooks: Best Focused Trust Accounting Option",
+      "What Three Users Pay Each Month at Published Rates",
+      "How to Choose the Right Model",
+      "Questions to Ask Every Vendor",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://caretlegal.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://help.clio.com/hc/en-us/articles/47397952204315-Set-Up-Clio-Accounting"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://pclawtimematters.com/product-pclaw/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-billing-software/"
+    ],
+    "external_link_opportunities": [
+      "https://caretlegal.com/pricing/",
+      "https://help.clio.com/hc/en-us/articles/47397952204315-Set-Up-Clio-Accounting",
+      "https://pclawtimematters.com/product-pclaw/",
+      "https://trustbooks.com/pricing/",
+      "https://www.actionstep.com/legal-accounting/",
+      "https://www.clio.com/pricing/",
+      "https://www.cosmolex.com/features/trust-accounting-software/",
+      "https://www.cosmolex.com/pricing/",
+      "https://www.leanlaw.co/pricing/",
+      "https://www.mycase.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "CosmoLex says it blocks ledger overdrafts and commingling and runs three-way reconciliations in a few clicks.",
+      "source_url": "https://www.cosmolex.com/features/trust-accounting-software/",
+      "verified": true
+    },
+    {
+      "statement": "MyCase Accounting costs $39 per user per month and is available on Pro and Advanced plans.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "MyCase Pro costs $100 and Advanced $130 per user per month billed annually.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-05"
+  }
+}
