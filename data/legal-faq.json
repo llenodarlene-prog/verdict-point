@@ -1,5 +1,5 @@
 {
- "reviewed": "2026-11-01",
+ "reviewed": "2026-11-06",
  "reviewer": "Darlene Aberin",
  "topics": [
   {
@@ -64,7 +64,22 @@
    "id": "technology",
    "name": "Legal Technology, AI and Research",
    "icon": "device-laptop",
-   "description": "Software, AI tools, and how legal research works."
+   "description": "Legal software costs, AI tools, and how legal research works.",
+   "url": "/legal-faq/legal-technology-ai/",
+   "subtopics": [
+    [
+     "software",
+     "Choosing Legal Software"
+    ],
+    [
+     "ai",
+     "AI in Legal Work"
+    ],
+    [
+     "research",
+     "Legal Research"
+    ]
+   ]
   },
   {
    "id": "management",
@@ -396,7 +411,8 @@
      "url": "https://www.law.cornell.edu/wex/legal_research"
     }
    ],
-   "featured": true
+   "featured": true,
+   "subtopic": "research"
   },
   {
    "id": "what-is-legal-technology",
@@ -428,7 +444,8 @@
     ]
    ],
    "sources": [],
-   "featured": true
+   "featured": true,
+   "subtopic": "software"
   },
   {
    "id": "can-ai-replace-lawyers",
@@ -455,7 +472,8 @@
      "url": "https://arxiv.org/abs/2405.20362"
     }
    ],
-   "featured": true
+   "featured": true,
+   "subtopic": "ai"
   },
   {
    "id": "how-much-should-a-law-firm-spend-on-marketing",
@@ -1176,6 +1194,293 @@
      "url": "https://oscar.uscourts.gov/duties_of_federal_law_clerks"
     }
    ]
+  },
+  {
+   "id": "how-much-does-legal-billing-software-cost",
+   "topic": "technology",
+   "q": "How much does legal billing software cost?",
+   "aliases": "law firm billing software price per user cost",
+   "blocks": [
+    [
+     "p",
+     "Most legal billing software costs about $39 to $60 per user per month at the entry level, billed yearly. Payment-focused tools can cost less per firm, but card processing fees often cost more than the subscription."
+    ],
+    [
+     "table",
+     [
+      "Product",
+      "Published entry price",
+      "Billing unit"
+     ],
+     [
+      [
+       "Bill4Time Time and Billing",
+       "$39",
+       "Per user per month, yearly"
+      ],
+      [
+       "PracticePanther Solo",
+       "$49",
+       "Per user per month, yearly"
+      ],
+      [
+       "MyCase Basic",
+       "$50",
+       "Per user per month, yearly"
+      ],
+      [
+       "LawPay",
+       "$19",
+       "Per firm per month"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "LawPay also charges 2.99% plus $0.30 per Visa, Mastercard, or Discover payment and 1% per eCheck. On $12,000 of card payments a month, that fee is larger than many seat licenses. Prices were checked on vendor pages on November 5, 2026, and can change."
+    ],
+    [
+     "p",
+     "For context on how firms buy these tools, see our [legal technology statistics](/legal-tech/legal-technology-statistics/) or the breakdown of [LawPay payment fees](/legal-tech/lawpay-legal-payments-fees/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "MyCase pricing",
+     "url": "https://www.mycase.com/pricing/"
+    },
+    {
+     "label": "PracticePanther pricing",
+     "url": "https://www.practicepanther.com/pricing/"
+    },
+    {
+     "label": "LawPay pricing",
+     "url": "https://www.lawpay.com/pricing/"
+    }
+   ],
+   "featured": true,
+   "subtopic": "software"
+  },
+  {
+   "id": "what-is-ledes-billing",
+   "topic": "technology",
+   "q": "What is LEDES billing?",
+   "aliases": "ledes utbms e-billing electronic billing format",
+   "blocks": [
+    [
+     "p",
+     "LEDES is a family of standard electronic invoice formats that many corporate legal departments and insurers require from outside counsel. Instead of a PDF, the firm sends a structured file that the client's e-billing system can check line by line."
+    ],
+    [
+     "p",
+     "LEDES files usually carry UTBMS task and activity codes, which label what each time entry was for. Common versions include LEDES 1998B and 1998BI. TimeSolv, for example, says it supports LEDES 1998B, 1998BI, and UTBMS task codes."
+    ],
+    [
+     "p",
+     "Not every billing tool supports every format, so test your client's exact file before you buy. Our guide to [legal practice management software](/legal-tech/legal-practice-management-software/) compares which platforms include it."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "TimeSolv legal invoicing",
+     "url": "https://www.timesolv.com/billing-invoicing-features/invoicing/"
+    }
+   ],
+   "featured": false,
+   "subtopic": "software"
+  },
+  {
+   "id": "what-is-three-way-trust-reconciliation",
+   "topic": "technology",
+   "q": "What is three-way trust reconciliation?",
+   "aliases": "iolta trust accounting reconciliation client ledger",
+   "blocks": [
+    [
+     "p",
+     "Three-way trust reconciliation compares three numbers for a client trust account: the bank statement balance, the trust account ledger, and the total of every individual client ledger. All three should match. Any difference needs to be found, fixed, and documented."
+    ],
+    [
+     "ol",
+     [
+      "Reconcile the bank statement to the trust ledger, allowing for outstanding checks and deposits.",
+      "Add up every client ledger balance.",
+      "Confirm the client total equals the trust ledger and the adjusted bank balance."
+     ]
+    ],
+    [
+     "p",
+     "Legal accounting tools such as CosmoLex say they run three-way reconciliations in a few clicks, but someone still has to review the report. How often you must reconcile depends on your state. See how firms use [legal practice management software](/legal-tech/legal-practice-management-software/) for trust accounting."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "CosmoLex trust accounting",
+     "url": "https://www.cosmolex.com/features/trust-accounting-software/"
+    }
+   ],
+   "featured": false,
+   "subtopic": "software"
+  },
+  {
+   "id": "what-is-legal-document-automation",
+   "topic": "technology",
+   "q": "What is legal document automation?",
+   "aliases": "document assembly templates interviews automated forms",
+   "blocks": [
+    [
+     "p",
+     "Legal document automation turns approved templates into finished documents from a set of answers. A user fills in a guided interview, and the software inserts names, dates, and the right optional clauses. It is different from generative AI, which writes new text."
+    ],
+    [
+     "p",
+     "Tools range from free to enterprise. docassemble is free, open-source software for guided interviews and document assembly, though hosting a server costs money, about $10 to $40 a month or more by its own estimate. Paid tools such as Woodpecker start at $39 a month on yearly billing."
+    ],
+    [
+     "p",
+     "Every generated document still needs review. For where finished files should live, see our guide to [document management software for law firms](/legal-tech/document-management-software-law-firms/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "docassemble",
+     "url": "https://docassemble.org/"
+    },
+    {
+     "label": "docassemble deployment guide",
+     "url": "https://docassemble.org/deploy.html"
+    },
+    {
+     "label": "Woodpecker pricing",
+     "url": "https://woodpecker.squarespace.com/pricing"
+    }
+   ],
+   "featured": false,
+   "subtopic": "software"
+  },
+  {
+   "id": "how-is-ediscovery-software-priced",
+   "topic": "technology",
+   "q": "How is eDiscovery software priced?",
+   "aliases": "ediscovery cost per gb hosting per user",
+   "blocks": [
+    [
+     "p",
+     "eDiscovery software is usually priced in one of three ways: by the gigabytes of data you host each month, by user seat, or by a set data tier per case. Most enterprise vendors give quotes rather than public prices."
+    ],
+    [
+     "table",
+     [
+      "Model",
+      "Example",
+      "What drives cost"
+     ],
+     [
+      [
+       "Per GB hosted",
+       "DISCO, Logikcull",
+       "Data size and hosting time"
+      ],
+      [
+       "Per user",
+       "Nextpoint",
+       "Number of reviewers"
+      ],
+      [
+       "Per case tier",
+       "GoldFynch, 10 GB for $76 a month",
+       "Data tier and months hosted"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "Culling data early cuts per-GB bills, while per-user plans favor steady teams with big data sets. For adoption context, see our [legal technology statistics](/legal-tech/legal-technology-statistics/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "DISCO platform pricing",
+     "url": "https://csdisco.com/offerings/platform/pricing"
+    },
+    {
+     "label": "Nextpoint pricing",
+     "url": "https://www.nextpoint.com/ediscovery-pricing"
+    },
+    {
+     "label": "GoldFynch pricing",
+     "url": "https://goldfynch.com/pricing.html"
+    }
+   ],
+   "featured": false,
+   "subtopic": "software"
+  },
+  {
+   "id": "what-is-rules-based-legal-calendaring",
+   "topic": "technology",
+   "q": "What is rules-based legal calendaring?",
+   "aliases": "court rules docketing deadline calculator",
+   "blocks": [
+    [
+     "p",
+     "Rules-based legal calendaring software calculates court deadlines from a trigger event, such as a service date, using the court's procedural rules. It then adds every resulting date to the firm's calendar, so staff don't count days by hand."
+    ],
+    [
+     "p",
+     "Rules engines are measured by the courts they cover. CalendarRules, for example, says it maintains more than 2,500 rule sets. Always confirm the exact courts and judges your firm uses, and keep a second person checking critical dates."
+    ],
+    [
+     "p",
+     "For a quick count of days, try the free [legal deadline calculator](/tools/legal-deadline-calculator/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "CalendarRules",
+     "url": "https://www.calendarrules.com/"
+    }
+   ],
+   "featured": false,
+   "subtopic": "software"
+  },
+  {
+   "id": "do-legal-ai-tools-cost-extra",
+   "topic": "technology",
+   "q": "Do legal software platforms charge extra for AI?",
+   "aliases": "ai pricing credits included legal ai cost",
+   "blocks": [
+    [
+     "p",
+     "It depends on the vendor. Some include AI in the base price, while others charge credits for heavier AI tasks. Ask for the AI terms in writing before you sign."
+    ],
+    [
+     "ul",
+     [
+      "Relativity says its aiR Review, Privilege, and Case Strategy tools are included with your committed data volume, with no extra AI licenses.",
+      "DISCO says its per-GB fee includes unlimited use of its Cecilia AI.",
+      "Everlaw says AI is included, but some batch AI features use credits."
+     ]
+    ],
+    [
+     "p",
+     "Included AI still needs validation on your own matters. See how firms are adopting these tools in our [AI in law firms statistics](/legal-tech/ai-in-law-firms-statistics/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "Relativity aiR pricing",
+     "url": "https://www.relativity.com/pricing/"
+    },
+    {
+     "label": "DISCO platform pricing",
+     "url": "https://csdisco.com/offerings/platform/pricing"
+    },
+    {
+     "label": "Everlaw pricing",
+     "url": "https://www.everlaw.com/pricing/"
+    }
+   ],
+   "featured": false,
+   "subtopic": "ai"
   }
  ]
 }
