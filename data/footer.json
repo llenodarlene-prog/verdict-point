@@ -20,7 +20,11 @@
         { "label": "Post-Judgment Interest Calculator", "url": "/tools/post-judgment-interest-calculator/" },
         { "label": "Billable Hours Calculator", "url": "/tools/billable-hours-calculator/" },
         { "label": "Law Firm KPI Calculator", "url": "/tools/law-firm-kpi-calculator/" },
-        { "label": "Law Firm SEO ROI Calculator", "url": "/tools/law-firm-seo-roi-calculator/" }
+        { "label": "Law Firm SEO ROI Calculator", "url": "/tools/law-firm-seo-roi-calculator/" },
+        { "label": "Legal Software Cost Calculator", "url": "/tools/legal-software-cost-calculator/" },
+        { "label": "Payment Processing Fee Calculator", "url": "/tools/payment-processing-fee-calculator/" },
+        { "label": "eDiscovery Cost Calculator", "url": "/tools/ediscovery-cost-calculator/" },
+        { "label": "Contingency Fee Calculator", "url": "/tools/contingency-fee-calculator/" }
       ]
     },
     {
