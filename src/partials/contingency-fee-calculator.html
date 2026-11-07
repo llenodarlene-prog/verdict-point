@@ -1,0 +1,26 @@
+<section class="bhc seo" id="calculator" aria-labelledby="contingency-fee-title" data-calc="contingency-fee">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="contingency-fee-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Every number is your own input. The calculator does the arithmetic; it does not supply prices, rates, or advice.</p>
+  <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formulas and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:scale}}Settlement and Fee</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="contingency-fee-gross">Gross settlement or award ($)</label><input id="contingency-fee-gross" name="gross" inputmode="decimal" aria-describedby="contingency-fee-gross-help contingency-fee-gross-err"><p class="bhc-note" id="contingency-fee-gross-help">The total amount recovered before anything is paid out.</p><p class="bhc-err" id="contingency-fee-gross-err"></p></div>
+      <div class="bhc-field"><label for="contingency-fee-feePct">Contingency fee (%)</label><input id="contingency-fee-feePct" name="feePct" inputmode="decimal" aria-describedby="contingency-fee-feePct-help contingency-fee-feePct-err"><p class="bhc-note" id="contingency-fee-feePct-help">The percentage in your fee agreement. One third is 33.33.</p><p class="bhc-err" id="contingency-fee-feePct-err"></p></div>
+      <div class="bhc-field"><label for="contingency-fee-method">When are case costs taken out?</label><select id="contingency-fee-method" name="method" aria-describedby="contingency-fee-method-help contingency-fee-method-err"><option value="before">Before the fee is calculated</option><option value="after">After the fee is calculated</option></select><p class="bhc-note" id="contingency-fee-method-help">Your fee agreement should say which method applies.</p><p class="bhc-err" id="contingency-fee-method-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:receipt}}Deductions (optional)</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="contingency-fee-costs">Case costs advanced ($)</label><input id="contingency-fee-costs" name="costs" inputmode="decimal" aria-describedby="contingency-fee-costs-help contingency-fee-costs-err"><p class="bhc-note" id="contingency-fee-costs-help">Filing fees, experts, records, and similar costs. Enter 0 if none.</p><p class="bhc-err" id="contingency-fee-costs-err"></p></div>
+      <div class="bhc-field"><label for="contingency-fee-liens">Liens and other payments ($)</label><input id="contingency-fee-liens" name="liens" inputmode="decimal" aria-describedby="contingency-fee-liens-help contingency-fee-liens-err"><p class="bhc-note" id="contingency-fee-liens-help">Medical liens or other amounts paid from the recovery. Enter 0 if none.</p><p class="bhc-err" id="contingency-fee-liens-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="contingency-fee-result-h"><h3 id="contingency-fee-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
