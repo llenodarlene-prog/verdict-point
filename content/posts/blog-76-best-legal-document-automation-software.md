@@ -1,7 +1,7 @@
 ---
-title: 8 Best Legal Document Automation Software Tools
-seo_title: 8 Best Legal Document Automation Software Tools for 2026
-description: Compare eight legal document automation software tools by templates, interviews, conditional logic, Word support, integrations, pricing, and setup effort.
+title: 9 Best Legal Document Automation Software Tools
+seo_title: 9 Best Legal Document Automation Software Tools for 2026
+description: Compare nine legal document automation software tools by templates, interviews, conditional logic, Word support, integrations, pricing, and setup effort.
 slug: /legal-tech/best-legal-document-automation-software/
 type: blog
 schema: BlogPosting
@@ -20,9 +20,9 @@ published: 2026-11-08
 modified: 2026-11-05
 ---
 
-# 8 Best Legal Document Automation Software Tools
+# 9 Best Legal Document Automation Software Tools
 
-The best legal document automation software depends on the document and on who fills in the interview. Gavel and Woodpecker offer approachable workflows with published prices. HotDocs, Contract Express, and Knackly handle complex assembly. docassemble is an open-source platform for technical teams. LEAP and Smokeball build automation into wider practice management.
+The best legal document automation software depends on the document and on who fills in the interview. Gavel and Woodpecker offer approachable workflows with published prices, and Clio Draft adds court forms for Clio firms. HotDocs, Contract Express, and Knackly handle complex assembly. docassemble is an open-source platform for technical teams. LEAP and Smokeball build automation into wider practice management.
 
 Document automation isn't the same as generative drafting. Assembly starts from approved templates and rules, collects structured answers, and produces defined documents. Generative AI can help draft or revise wording, but it needs its own checking process.
 
@@ -38,13 +38,14 @@ No vendor paid to be included. We checked product facts and prices against offic
 
 ## Quick Comparison
 
-The table sorts the eight tools by automation model and the published US price we found on November 5, 2026. Builder seats, extra users, hosting, setup, and template conversion can add to the cost.
+The table sorts the nine tools by automation model and the published US price we found on November 5, 2026. Builder seats, extra users, hosting, setup, and template conversion can add to the cost.
 
 | Platform | Automation Model | Best Fit | Published Starting Price |
 |---|---|---|---|
 | Gavel Workflows | No-code interviews with Word and PDF output | Client-facing legal workflows | $83 per month, billed yearly |
 | HotDocs Advance | Complex template and interview assembly | Large template libraries | Quote required |
 | Woodpecker | Microsoft Word add-in with questionnaires | Firms automating existing Word files | $39 per month, billed yearly |
+| Clio Draft | AI drafting, intake, and court forms | Clio firms and form-heavy practices | Quote required |
 | Contract Express | Enterprise Word-based automation | Large firms and legal departments | Quote required |
 | docassemble | Open-source guided interviews | Technical teams and access-to-justice projects | Free software; hosting extra |
 | Knackly | Complex Word and PDF automation | Firms needing advanced logic | $250 per month |
@@ -93,7 +94,19 @@ Woodpecker works inside Microsoft Word, so firms keep familiar files and convert
 
 **Test:** Generate a document with headers, footers, tables, numbering, cross-references, optional clauses, and signature blocks.
 
-## 4. Contract Express: Best Enterprise Word-Based Automation
+## 4. Clio Draft: Best for Court Forms and Clio Integration
+
+Clio's Draft page calls it AI legal drafting software that automates document tasks from client information gathering to drafting. The page also says users can access up-to-date court forms for their area inside Clio. Clio blocks automated readers, so we checked this page from a screenshot of the live page supplied by the site owner.
+
+Pricing goes through Clio's sales team. Send the vendor your list of form numbers and revision dates before you buy, since coverage varies by court.
+
+![Clio Draft page headed AI legal drafting software that saves you hours, beside a Clio dashboard with AI Actions](/assets/images/posts/best-legal-document-automation-software/clio-draft-screenshot-1600.jpg "Clio Draft page, captured November 2026.")
+
+**Best fit:** Clio firms and practices that rely on local court forms.
+
+**Test:** Generate a court-form packet from matter data and inspect every field against the current form.
+
+## 5. Contract Express: Best Enterprise Word-Based Automation
 
 Thomson Reuters Contract Express uses guided questionnaires to create single documents and document suites. Its page says it integrates with Microsoft Word, Microsoft Excel, and iSheets, and that finished documents can go to Word for markup and validation.
 
@@ -105,7 +118,7 @@ Pricing is by quote. Your setup scope should name who handles template conversio
 
 **Test:** Ask who will convert, check, document, and maintain the first template set after launch.
 
-## 5. Docassemble: Best Open-Source Guided Interview Platform
+## 6. Docassemble: Best Open-Source Guided Interview Platform
 
 docassemble describes itself as a free, open-source expert system for guided interviews and document assembly, built on Python, YAML, and Markdown. Interviews can give users documents in PDF, RTF, or DOCX format.
 
@@ -117,7 +130,7 @@ There's no license fee. The [docassemble deployment guide](https://docassemble.o
 
 **Test:** Weigh hosting, security updates, backups, accessibility, and developer continuity before you treat free as the total cost.
 
-## 6. Knackly: Best for Complex Logic With Published Tiers
+## 7. Knackly: Best for Complex Logic With Published Tiers
 
 Knackly's pricing page lists Starter at $250 a month, Done For You at $500, and Professional at $1,000. Extra users cost $40 a month on the first two plans and $50 on Professional. The page says yearly plans, billed upfront, get two months free.
 
@@ -129,7 +142,7 @@ Knackly aims at complex legal documents and deeper integrations on its top plan.
 
 **Test:** Build one template your firm thinks is too complex for mail merge, then count the upkeep steps.
 
-## 7. LEAP: Best Built-In Form Library and Practice Management
+## 8. LEAP: Best Built-In Form Library and Practice Management
 
 LEAP's document automation page says it helps firms prepare agreements, court forms, pleadings, affidavits, and other legal documents. It fills matter data into forms, letters, and emails in Microsoft 365. Pricing is by request.
 
@@ -141,7 +154,7 @@ That can cut integration work for a small firm. It also means you can't judge th
 
 **Test:** Confirm the exact state, court, and practice-area library, and name who updates your local templates.
 
-## 8. Smokeball: Best Automation Around Word and Outlook
+## 9. Smokeball: Best Automation Around Word and Outlook
 
 Smokeball's pricing page lists automated forms and templates, Word and Outlook integration, and advanced document automation on higher plans. Pricing is by quote.
 
@@ -178,6 +191,7 @@ Match the legal document automation software model to your team.
 
 - **Client-Facing Workflows:** Choose Gavel for no-code interviews.
 - **Word-First Rollout:** Choose Woodpecker for a smaller, Word-based start.
+- **Court Forms:** Choose Clio Draft when you already run on Clio.
 - **Complex Assembly:** Choose HotDocs, Contract Express, or Knackly for large template programs.
 - **Open Source:** Choose docassemble when you have technical owners.
 - **Full Platform:** Choose LEAP or Smokeball when automation belongs inside new practice management.
@@ -213,7 +227,7 @@ No. It standardizes repeated work, but templates, logic, source data, jurisdicti
 
 ### Which Tool Works Best in Microsoft Word?
 
-Woodpecker is a focused Word add-in. HotDocs, Contract Express, Knackly, Gavel, LEAP, and Smokeball also work with Word in different ways.
+Woodpecker is a focused Word add-in. HotDocs, Contract Express, Knackly, Gavel, Clio Draft, LEAP, and Smokeball also work with Word in different ways.
 
 ### Is Open-Source Document Automation Free?
 
@@ -221,6 +235,7 @@ docassemble has no license fee. Hosting, development, security, upkeep, backups,
 
 ## Resources
 
+- [Clio Draft](https://www.clio.com/draft/)
 - [HotDocs documentation](https://help.hotdocs.com/)
 - [Contract Express](https://www.contractexpress.com/)
 - [docassemble](https://docassemble.org/)

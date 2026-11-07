@@ -1,13 +1,13 @@
 {
   "tracker_id": "Blog:78",
   "status": "verified",
-  "research_question": "Owner-approved addition: 7 Best Legal CRM Software Platforms for Law Firms. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_question": "Owner-approved addition: 8 Best Legal CRM Software Platforms for Law Firms. Verify every product fact and price in the owner draft against official vendor pages.",
   "research_brief": {
     "purpose": "Owner-supplied editorial draft for legal crm software, fact-checked and fitted to house rules.",
     "audience": "Law firm owners, legal operations staff, and legal teams in the United States.",
     "publication_year": "2026",
     "data_period": "Vendor pages as displayed on 2026-11-05",
-    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; LexisNexis InterAction+ removed (no usable screenshot of the vendor page; LexisNexis blocks automated readers); HubSpot prices updated to the promotional Starter $7 and Professional $90 shown on the pricing page, with regular prices noted; Clio Grow Elite and add-on packaging claim cut (Clio blocks automated readers and the screenshot does not show it); Law Ruler usage-fee terms claim cut (not found in fetched terms text)."
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; LexisNexis InterAction+ AI restored 2026-11-05 from an owner-supplied screenshot of the live vendor page (the vendor blocks automated readers); pricing-page claims from the original draft cut; HubSpot prices updated to the promotional Starter $7 and Professional $90 shown on the pricing page, with regular prices noted; Clio Grow Elite and add-on packaging claim cut (Clio blocks automated readers and the screenshot does not show it); Law Ruler usage-fee terms claim cut (not found in fetched terms text)."
   },
   "keyword_research": {
     "approved_primary_keyword": "legal crm software",
@@ -179,6 +179,19 @@
       "published_at": "Not stated",
       "accessed_at": "2026-11-05",
       "scope": "Lead Docket pricing",
+      "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lexisnexis.com/en-us/products/interaction/default.page",
+      "title": "LexisNexis InterAction+ AI",
+      "publisher": "lexisnexis.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-05",
+      "scope": "LexisNexis InterAction+ AI",
       "method": "Opened and read the live page on 2026-11-05 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-04; fact-check sign-off by Darlene Aberin.",
       "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
       "verified": true
@@ -390,9 +403,9 @@
   ],
   "value_add": "A same-day check of seven CRMs split into intake and relationship tools, with promotional prices labeled, plus a worked five-user seat comparison.",
   "plan": {
-    "reader_title": "7 Best Legal CRM Software Platforms for Law Firms",
-    "seo_title": "7 Best Legal CRM Software Platforms for 2026",
-    "meta_description": "Compare seven legal CRM software platforms by intake, follow-up, relationship tracking, practice management handoff, published pricing, and firm fit.",
+    "reader_title": "8 Best Legal CRM Software Platforms for Law Firms",
+    "seo_title": "8 Best Legal CRM Software Platforms for 2026",
+    "meta_description": "Compare eight legal CRM software platforms by intake, follow-up, relationship tracking, practice management handoff, published pricing, and firm fit.",
     "slug": "/legal-tech/best-legal-crm-software/",
     "search_intent": "Commercial",
     "secondary_keywords": [
@@ -412,8 +425,10 @@
       "4. Lead Docket: Best for Structured Intake Teams",
       "5. MyCase: Best Built-In CRM for MyCase Firms",
       "6. HubSpot: Best Configurable General-Purpose Option",
-      "7. Intapp DealCloud: Best for Complex Client Development",
+      "7. LexisNexis InterAction+ AI: Best for Relationship Intelligence",
+      "8. Intapp DealCloud: Best for Complex Client Development",
       "What Five Users Pay Each Month at Published Rates",
+      "Measure Your Intake Before You Buy",
       "Choose the CRM Category First",
       "Questions to Ask Before Buying",
       "Frequently Asked Questions",
@@ -457,6 +472,7 @@
       "https://www.lawruler.com/pricing/",
       "https://www.leaddocket.com/features/",
       "https://www.leaddocket.com/pricing/",
+      "https://www.lexisnexis.com/en-us/products/interaction/default.page",
       "https://www.mycase.com/pricing/"
     ],
     "excluded_claims": [

@@ -3238,5 +3238,45 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.nuix.com/solutions/nuix-discover, captured by the site owner and supplied 2026-11-04",
     "alt_guidance": "Nuix Discover page headed AI-Assisted eDiscovery Built for the Way You Work, noting SaaS, on-premises, and hybrid deployment"
+  },
+  {
+    "path": "/assets/images/posts/best-legal-document-automation-software/clio-draft-screenshot-1600.jpg",
+    "title": "Clio Draft page",
+    "use": "Blog 76 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/draft/, captured by the site owner and supplied 2026-11-04",
+    "alt_guidance": "Clio Draft page headed AI legal drafting software that saves you hours, beside a Clio dashboard with AI Actions"
+  },
+  {
+    "path": "/assets/images/posts/best-legal-document-automation-software/clio-draft-screenshot-800.jpg",
+    "title": "Clio Draft page",
+    "use": "Blog 76 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/draft/, captured by the site owner and supplied 2026-11-04",
+    "alt_guidance": "Clio Draft page headed AI legal drafting software that saves you hours, beside a Clio dashboard with AI Actions"
+  },
+  {
+    "path": "/assets/images/posts/best-legal-crm-software/interaction-screenshot-1600.jpg",
+    "title": "LexisNexis InterAction+ AI page",
+    "use": "Blog 78 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/interaction/default.page, captured by the site owner and supplied 2026-11-04",
+    "alt_guidance": "LexisNexis InterAction+ AI page headed The next generation of relationship intelligence for law firms, with analytics and relationship panels"
+  },
+  {
+    "path": "/assets/images/posts/best-legal-crm-software/interaction-screenshot-800.jpg",
+    "title": "LexisNexis InterAction+ AI page",
+    "use": "Blog 78 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/interaction/default.page, captured by the site owner and supplied 2026-11-04",
+    "alt_guidance": "LexisNexis InterAction+ AI page headed The next generation of relationship intelligence for law firms, with analytics and relationship panels"
   }
 ]

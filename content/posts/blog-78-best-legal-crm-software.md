@@ -1,7 +1,7 @@
 ---
-title: 7 Best Legal CRM Software Platforms for Law Firms
-seo_title: 7 Best Legal CRM Software Platforms for 2026
-description: Compare seven legal CRM software platforms by intake, follow-up, relationship tracking, practice management handoff, published pricing, and firm fit.
+title: 8 Best Legal CRM Software Platforms for Law Firms
+seo_title: 8 Best Legal CRM Software Platforms for 2026
+description: Compare eight legal CRM software platforms by intake, follow-up, relationship tracking, practice management handoff, published pricing, and firm fit.
 slug: /legal-tech/best-legal-crm-software/
 type: blog
 schema: BlogPosting
@@ -20,9 +20,9 @@ published: 2026-11-09
 modified: 2026-11-05
 ---
 
-# 7 Best Legal CRM Software Platforms for Law Firms
+# 8 Best Legal CRM Software Platforms for Law Firms
 
-The best legal CRM software depends on which question your firm needs answered. If it's "what happens after someone contacts us," look at intake tools: Clio Grow, Lawmatics, Law Ruler, Lead Docket, and MyCase. If it's "who knows this client and where can we grow," look at relationship tools such as Intapp DealCloud. HubSpot sits in between as a general CRM you configure yourself.
+The best legal CRM software depends on which question your firm needs answered. If it's "what happens after someone contacts us," look at intake tools: Clio Grow, Lawmatics, Law Ruler, Lead Docket, and MyCase. If it's "who knows this client and where can we grow," look at relationship tools such as LexisNexis InterAction+ AI and Intapp DealCloud. HubSpot sits in between as a general CRM you configure yourself.
 
 Those two jobs use different records, different users, and different measures of success. Mixing them in one shortlist is the most common buying mistake. A personal injury firm chasing fast replies and a corporate firm mapping partner contacts need very different software, even though both vendors call their product a CRM.
 
@@ -38,7 +38,7 @@ No vendor paid to be included. We checked product facts and prices against offic
 
 ## Quick Comparison
 
-The table groups the seven platforms by CRM type and the published US price we found on November 5, 2026.
+The table groups the eight platforms by CRM type and the published US price we found on November 5, 2026.
 
 | Platform | CRM Type | Best For | Published Starting Price |
 |---|---|---|---|
@@ -48,6 +48,7 @@ The table groups the seven platforms by CRM type and the published US price we f
 | Lead Docket | Legal intake platform | Structured intake teams | Custom quote |
 | MyCase | Practice management with legal CRM | One lead-to-matter system | $100 per user per month for Pro, billed yearly |
 | HubSpot | General-purpose CRM | Firms with marketing staff | Free for up to 2 users |
+| LexisNexis InterAction+ AI | Relationship intelligence | Midsize and large firms | Quote required |
 | Intapp DealCloud | Business development platform | Larger firms and complex relationships | Quote required |
 
 ## How We Evaluated the Platforms
@@ -140,7 +141,19 @@ HubSpot isn't built for law firms. You'll need to design conflict steps, matter 
 
 **Test:** Map one lead from first form to signed client and list every custom field and automation you had to build.
 
-## 7. Intapp DealCloud: Best for Complex Client Development
+## 7. LexisNexis InterAction+ AI: Best for Relationship Intelligence
+
+LexisNexis describes InterAction+ AI as the next generation of relationship intelligence for law firms. Its page says the product combines InterAction's understanding of a firm's business and relationships with LexisNexis Protégé to surface signals, insights, and next steps. LexisNexis blocks automated readers, so we checked this page from a screenshot of the live page supplied by the site owner.
+
+Pricing is by quote. Ask for a written scope that covers data cleanup, email and calendar links, and adoption support.
+
+![LexisNexis InterAction+ AI page headed The next generation of relationship intelligence for law firms, with analytics and relationship panels](/assets/images/posts/best-legal-crm-software/interaction-screenshot-1600.jpg "LexisNexis InterAction+ AI page, captured November 2026.")
+
+**Best fit:** Midsize and large firms that want relationship data tied to LexisNexis tools.
+
+**Test:** Pick one key client and check which partner relationships and suggested next steps the system shows.
+
+## 8. Intapp DealCloud: Best for Complex Client Development
 
 Intapp describes DealCloud for legal as an AI business development platform for law firms. Its page highlights relationship intelligence and mapping, pursuit tracking, and win-loss patterns, pricing trends, and competitor activity across practice areas.
 
@@ -182,7 +195,7 @@ Those numbers become your baseline. Ask each vendor to show how its reports woul
 Match legal CRM software to the question your firm needs answered.
 
 - **New Lead Follow-Up:** Choose Clio Grow, Lawmatics, Law Ruler, Lead Docket, or MyCase.
-- **Firmwide Relationships:** Choose Intapp DealCloud.
+- **Firmwide Relationships:** Choose LexisNexis InterAction+ AI or Intapp DealCloud.
 - **Custom Marketing Stack:** Choose HubSpot when you have staff to configure it.
 
 Intake answers often feed engagement letters, so pair your CRM with the [legal document automation software](/legal-tech/best-legal-document-automation-software/) we compared. For adoption trends across firms, see our [legal technology statistics](/legal-tech/legal-technology-statistics/).
@@ -229,4 +242,5 @@ Clio Grow or MyCase may fit firms already on those platforms. Lawmatics and Law 
 - [Lead Docket features](https://www.leaddocket.com/features/)
 - [MyCase pricing](https://www.mycase.com/pricing/)
 - [HubSpot product catalog](https://legal.hubspot.com/hubspot-product-and-services-catalog/products)
+- [LexisNexis InterAction+ AI](https://www.lexisnexis.com/en-us/products/interaction/default.page)
 - [Intapp DealCloud for legal](https://www.intapp.com/legal/dealcloud/)
