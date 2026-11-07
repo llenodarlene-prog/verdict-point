@@ -1,0 +1,34 @@
+<section class="bhc seo" id="calculator" aria-labelledby="payment-processing-fee-title" data-calc="payment-processing-fee">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:receipt-2}}</span><div><h2 id="payment-processing-fee-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Every number is your own input. The calculator does the arithmetic; it does not supply prices, rates, or advice.</p>
+  <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formulas and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:receipt-2}}Card Payments</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="payment-processing-fee-cardVolume">Monthly card volume ($)</label><input id="payment-processing-fee-cardVolume" name="cardVolume" inputmode="decimal" aria-describedby="payment-processing-fee-cardVolume-help payment-processing-fee-cardVolume-err"><p class="bhc-note" id="payment-processing-fee-cardVolume-help">Total charged to credit and debit cards in a month.</p><p class="bhc-err" id="payment-processing-fee-cardVolume-err"></p></div>
+      <div class="bhc-field"><label for="payment-processing-fee-cardCount">Number of card payments</label><input id="payment-processing-fee-cardCount" name="cardCount" inputmode="numeric" aria-describedby="payment-processing-fee-cardCount-help payment-processing-fee-cardCount-err"><p class="bhc-note" id="payment-processing-fee-cardCount-help">Used for the fixed per-transaction fee.</p><p class="bhc-err" id="payment-processing-fee-cardCount-err"></p></div>
+      <div class="bhc-field"><label for="payment-processing-fee-cardRate">Card rate (%)</label><input id="payment-processing-fee-cardRate" name="cardRate" inputmode="decimal" aria-describedby="payment-processing-fee-cardRate-help payment-processing-fee-cardRate-err"><p class="bhc-note" id="payment-processing-fee-cardRate-help">The percentage from your processor agreement.</p><p class="bhc-err" id="payment-processing-fee-cardRate-err"></p></div>
+      <div class="bhc-field"><label for="payment-processing-fee-cardFixed">Fixed fee per card payment ($)</label><input id="payment-processing-fee-cardFixed" name="cardFixed" inputmode="decimal" aria-describedby="payment-processing-fee-cardFixed-help payment-processing-fee-cardFixed-err"><p class="bhc-note" id="payment-processing-fee-cardFixed-help">Enter 0 if your plan has none.</p><p class="bhc-err" id="payment-processing-fee-cardFixed-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:wallet}}eCheck Payments (optional)</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="payment-processing-fee-achVolume">Monthly eCheck volume ($)</label><input id="payment-processing-fee-achVolume" name="achVolume" inputmode="decimal" aria-describedby="payment-processing-fee-achVolume-help payment-processing-fee-achVolume-err"><p class="bhc-note" id="payment-processing-fee-achVolume-help">Bank transfers from clients. Enter 0 if none.</p><p class="bhc-err" id="payment-processing-fee-achVolume-err"></p></div>
+      <div class="bhc-field"><label for="payment-processing-fee-achCount">Number of eCheck payments</label><input id="payment-processing-fee-achCount" name="achCount" inputmode="numeric" aria-describedby="payment-processing-fee-achCount-err"><p class="bhc-err" id="payment-processing-fee-achCount-err"></p></div>
+      <div class="bhc-field"><label for="payment-processing-fee-achRate">eCheck rate (%)</label><input id="payment-processing-fee-achRate" name="achRate" inputmode="decimal" aria-describedby="payment-processing-fee-achRate-err"><p class="bhc-err" id="payment-processing-fee-achRate-err"></p></div>
+      <div class="bhc-field"><label for="payment-processing-fee-achFixed">Fixed fee per eCheck ($)</label><input id="payment-processing-fee-achFixed" name="achFixed" inputmode="decimal" aria-describedby="payment-processing-fee-achFixed-err"><p class="bhc-err" id="payment-processing-fee-achFixed-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:adjustments}}Plan and Scenario</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="payment-processing-fee-monthlyFee">Monthly platform fee ($)</label><input id="payment-processing-fee-monthlyFee" name="monthlyFee" inputmode="decimal" aria-describedby="payment-processing-fee-monthlyFee-help payment-processing-fee-monthlyFee-err"><p class="bhc-note" id="payment-processing-fee-monthlyFee-help">Subscription or account fee. Enter 0 if none.</p><p class="bhc-err" id="payment-processing-fee-monthlyFee-err"></p></div>
+      <div class="bhc-field"><label for="payment-processing-fee-shift">Share of card volume moved to eCheck (%)</label><input id="payment-processing-fee-shift" name="shift" inputmode="decimal" aria-describedby="payment-processing-fee-shift-help payment-processing-fee-shift-err"><p class="bhc-note" id="payment-processing-fee-shift-help">Tests what happens if more clients pay by bank transfer.</p><p class="bhc-err" id="payment-processing-fee-shift-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="payment-processing-fee-result-h"><h3 id="payment-processing-fee-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>

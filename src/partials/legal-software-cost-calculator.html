@@ -1,0 +1,38 @@
+<section class="bhc seo" id="calculator" aria-labelledby="legal-software-cost-title" data-calc="legal-software-cost">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:device-laptop}}</span><div><h2 id="legal-software-cost-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Every number is your own input. The calculator does the arithmetic; it does not supply prices, rates, or advice.</p>
+  <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formulas and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:users}}Your Firm</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="legal-software-cost-users">Number of users</label><input id="legal-software-cost-users" name="users" inputmode="numeric" aria-describedby="legal-software-cost-users-help legal-software-cost-users-err"><p class="bhc-note" id="legal-software-cost-users-help">Everyone who needs a paid seat.</p><p class="bhc-err" id="legal-software-cost-users-err"></p></div>
+      <div class="bhc-field"><label for="legal-software-cost-months">Months to compare</label><input id="legal-software-cost-months" name="months" inputmode="numeric" aria-describedby="legal-software-cost-months-help legal-software-cost-months-err"><p class="bhc-note" id="legal-software-cost-months-help">A whole number from 1 to 120. Contract length is a good choice.</p><p class="bhc-err" id="legal-software-cost-months-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:device-laptop}}Option A</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="legal-software-cost-a-perUser">Price per user per month ($)</label><input id="legal-software-cost-a-perUser" name="a.perUser" inputmode="decimal" aria-describedby="legal-software-cost-a-perUser-help legal-software-cost-a-perUser-err"><p class="bhc-note" id="legal-software-cost-a-perUser-help">The plan price from the vendor page or quote.</p><p class="bhc-err" id="legal-software-cost-a-perUser-err"></p></div>
+      <div class="bhc-field"><label for="legal-software-cost-a-flat">Flat monthly fees ($)</label><input id="legal-software-cost-a-flat" name="a.flat" inputmode="decimal" aria-describedby="legal-software-cost-a-flat-help legal-software-cost-a-flat-err"><p class="bhc-note" id="legal-software-cost-a-flat-help">Firm-wide fees, add-ons, or a connected product. Enter 0 if none.</p><p class="bhc-err" id="legal-software-cost-a-flat-err"></p></div>
+      <div class="bhc-field"><label for="legal-software-cost-a-setup">One-time setup and migration ($)</label><input id="legal-software-cost-a-setup" name="a.setup" inputmode="decimal" aria-describedby="legal-software-cost-a-setup-help legal-software-cost-a-setup-err"><p class="bhc-note" id="legal-software-cost-a-setup-help">Charged once at the start. Enter 0 if none.</p><p class="bhc-err" id="legal-software-cost-a-setup-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:target-arrow}}Option B (optional)</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="legal-software-cost-b-perUser">Price per user per month ($)</label><input id="legal-software-cost-b-perUser" name="b.perUser" inputmode="decimal" aria-describedby="legal-software-cost-b-perUser-err"><p class="bhc-err" id="legal-software-cost-b-perUser-err"></p></div>
+      <div class="bhc-field"><label for="legal-software-cost-b-flat">Flat monthly fees ($)</label><input id="legal-software-cost-b-flat" name="b.flat" inputmode="decimal" aria-describedby="legal-software-cost-b-flat-err"><p class="bhc-err" id="legal-software-cost-b-flat-err"></p></div>
+      <div class="bhc-field"><label for="legal-software-cost-b-setup">One-time setup and migration ($)</label><input id="legal-software-cost-b-setup" name="b.setup" inputmode="decimal" aria-describedby="legal-software-cost-b-setup-err"><p class="bhc-err" id="legal-software-cost-b-setup-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:bolt}}Option C (optional)</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="legal-software-cost-c-perUser">Price per user per month ($)</label><input id="legal-software-cost-c-perUser" name="c.perUser" inputmode="decimal" aria-describedby="legal-software-cost-c-perUser-err"><p class="bhc-err" id="legal-software-cost-c-perUser-err"></p></div>
+      <div class="bhc-field"><label for="legal-software-cost-c-flat">Flat monthly fees ($)</label><input id="legal-software-cost-c-flat" name="c.flat" inputmode="decimal" aria-describedby="legal-software-cost-c-flat-err"><p class="bhc-err" id="legal-software-cost-c-flat-err"></p></div>
+      <div class="bhc-field"><label for="legal-software-cost-c-setup">One-time setup and migration ($)</label><input id="legal-software-cost-c-setup" name="c.setup" inputmode="decimal" aria-describedby="legal-software-cost-c-setup-err"><p class="bhc-err" id="legal-software-cost-c-setup-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="legal-software-cost-result-h"><h3 id="legal-software-cost-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
