@@ -1,0 +1,501 @@
+{
+  "tracker_id": "Blog:85",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Best Wyoming Registered Agent Services: Providers and Annual Costs. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for wyoming registered agent services, fact-checked and fitted to house rules.",
+    "audience": "Small-business owners, founders, and consumers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-08",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Harbor Compliance renewal corrected from $149 to $159, changing its three-year total from $397 to $417; claim that Wyoming's roster is incomplete cut (the guide only says it is not an endorsement); Bizee renewal source changed to its registered agent page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "wyoming registered agent services",
+    "intent": "Navigational",
+    "serp_checked_at": "2026-11-06",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "wyoming registered agent services",
+        "type": "short-tail",
+        "volume": 2900,
+        "difficulty": 26,
+        "cpc": 28.77,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wyoming registered agent services llc",
+        "type": "long-tail",
+        "volume": 2900,
+        "difficulty": 36,
+        "cpc": 28.77,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "registered agent services wyoming",
+        "type": "commercial",
+        "volume": 8100,
+        "difficulty": 29,
+        "cpc": 24.63,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wyoming registered agent services llc reviews",
+        "type": "problem",
+        "volume": 210,
+        "difficulty": 29,
+        "cpc": 22.23,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is wyoming registered agent services llc legit",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 23,
+        "cpc": 20.17,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://bizee.com/business-management/registered-agent",
+      "title": "Bizee registered agent",
+      "publisher": "bizee.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Bizee registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2",
+      "title": "MyCompanyWorks order page",
+      "publisher": "secure.mycompanyworks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "MyCompanyWorks order page",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/Business/Docs/HowToFindOrBecomeARegisteredAgent.pdf",
+      "title": "Wyoming registered agent guide",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming registered agent guide",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "title": "Wyoming registered agent FAQs",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming registered agent FAQs",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.harborcompliance.com/registered-agent-service",
+      "title": "Harbor Compliance registered agent",
+      "publisher": "harborcompliance.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Harbor Compliance registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.incorp.com/registered-agent-services",
+      "title": "InCorp registered agent",
+      "publisher": "incorp.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "InCorp registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "title": "LegalZoom registered agent",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.northwestregisteredagent.com/registered-agent",
+      "title": "Northwest registered agent",
+      "publisher": "northwestregisteredagent.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Northwest registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/registered-agent/",
+      "title": "ZenBusiness registered agent",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Wyoming requires all businesses, domestic or foreign, to maintain a registered agent with a physical Wyoming address; virtual addresses and mail forwarders do not qualify.",
+      "source_url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "A Wyoming individual agent must be at least 18, reside in Wyoming, and keep key-individual and communications-contact records.",
+      "source_url": "https://sos.wyo.gov/Business/Docs/HowToFindOrBecomeARegisteredAgent.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Harbor Compliance lists $99 for the first year for new customers, renewing at $159 annually.",
+      "source_url": "https://www.harborcompliance.com/registered-agent-service",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Registered Agents & Offices",
+      "url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=1",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Appointing a Registered Agent in Wyoming",
+      "url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=2",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "What is a Wyoming registered agent? - Discern",
+      "url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=3",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Wyoming Registered Agent Services Reviews",
+      "url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=4",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Wyoming Registered Agents: How, Why, and When to Get",
+      "url": "https://www.google.com/search?q=wyoming+registered+agent+services&serp_position=5",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Wyoming's agent qualifications and recordkeeping duties beside seven providers, with a three-year cost table, a roster verification checklist, and a step-by-step agent change order.",
+  "plan": {
+    "reader_title": "Best Wyoming Registered Agent Services: Providers and Annual Costs",
+    "seo_title": "Best Wyoming Registered Agent Services for 2026",
+    "meta_description": "Compare Wyoming registered agent services by annual price, renewals, document handling, state qualifications, switching, and long-term cost.",
+    "slug": "/legal-business/wyoming-registered-agent-services/",
+    "search_intent": "Navigational",
+    "secondary_keywords": [
+      "wyoming registered agent services llc",
+      "registered agent services wyoming",
+      "wyoming registered agent services llc reviews"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Wyoming Comparison",
+      "Our Wyoming Picks",
+      "What Wyoming Requires From an Agent",
+      "1. MyCompanyWorks: Best Flat Yearly Price",
+      "2. Northwest: Best Formation Bundle",
+      "3. Harbor Compliance: Best First-Year Price",
+      "4. InCorp: Best Prepaid Option",
+      "5. Bizee: Best First-Year Formation Inclusion",
+      "6. ZenBusiness: Best for Dashboard Users",
+      "7. LegalZoom: Best for LegalZoom Users",
+      "Three-Year Cost Comparison",
+      "Can You Be Your Own Wyoming Registered Agent?",
+      "Using Wyoming's Public Roster",
+      "Changing Agents in Wyoming",
+      "Privacy Has Limits",
+      "Warning Signs in an Agent Offer",
+      "Formation and Brand Comparisons",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://bizee.com/business-management/registered-agent"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://sos.wyo.gov/Business/Docs/HowToFindOrBecomeARegisteredAgent.pdf"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/zenbusiness-vs-legalzoom/"
+    ],
+    "external_link_opportunities": [
+      "https://bizee.com/business-management/registered-agent",
+      "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2",
+      "https://sos.wyo.gov/Business/Docs/HowToFindOrBecomeARegisteredAgent.pdf",
+      "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "https://www.harborcompliance.com/registered-agent-service",
+      "https://www.incorp.com/registered-agent-services",
+      "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "https://www.northwestregisteredagent.com/registered-agent",
+      "https://www.zenbusiness.com/registered-agent/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Wyoming requires all businesses, domestic or foreign, to maintain a registered agent with a physical Wyoming address; virtual addresses and mail forwarders do not qualify.",
+      "source_url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "verified": true
+    },
+    {
+      "statement": "A Wyoming individual agent must be at least 18, reside in Wyoming, and keep key-individual and communications-contact records.",
+      "source_url": "https://sos.wyo.gov/Business/Docs/HowToFindOrBecomeARegisteredAgent.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Harbor Compliance lists $99 for the first year for new customers, renewing at $159 annually.",
+      "source_url": "https://www.harborcompliance.com/registered-agent-service",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  }
+}

@@ -1,0 +1,458 @@
+{
+  "tracker_id": "Blog:86",
+  "status": "verified",
+  "research_question": "Owner-approved addition: ZenBusiness vs LegalZoom: Pricing, Add-ons, and Best Fit. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for zenbusiness vs legalzoom, fact-checked and fitted to house rules.",
+    "audience": "Small-business owners, founders, and consumers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-08",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; ZenBusiness website-builder trial corrected to apply to all packages and be preselected on Starter; Starter's free year of Worry-Free Compliance renewing at $199 added; ZenBusiness $99 first-year agent offer added to the basket, changing year-one totals; LegalZoom Premium bookkeeping renewal confirmed at $9.99 a month after six months."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "zenbusiness vs legalzoom",
+    "intent": "Navigational",
+    "serp_checked_at": "2026-11-08",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "zenbusiness vs legalzoom",
+        "type": "short-tail",
+        "volume": 390,
+        "difficulty": 28,
+        "cpc": 36.85,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zenbusiness vs legalzoom for llc",
+        "type": "long-tail",
+        "volume": 90,
+        "difficulty": 25,
+        "cpc": 44.81,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zenbusiness registered agent services",
+        "type": "commercial",
+        "volume": 480,
+        "difficulty": 32,
+        "cpc": 12.22,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zenbusiness vs legalzoom reddit",
+        "type": "problem",
+        "volume": 20,
+        "difficulty": 30,
+        "cpc": 0,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom registered agent services",
+        "type": "question",
+        "volume": 260,
+        "difficulty": 51,
+        "cpc": 31.66,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fincen.gov/boi",
+      "title": "FinCEN BOI reporting",
+      "publisher": "fincen.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "FinCEN BOI reporting",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "title": "IRS: Get an EIN",
+      "publisher": "irs.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "IRS: Get an EIN",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "title": "LegalZoom LLC plans",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom LLC plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "title": "LegalZoom registered agent",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "title": "ZenBusiness formation plans",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness formation plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/registered-agent/",
+      "title": "ZenBusiness registered agent",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "The IRS online tool issues an EIN directly from the IRS for free.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ZenBusiness Pro costs $199 and renews at $199 a year; Starter preselects a 30-day website builder trial that renews at $15 a month.",
+      "source_url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LegalZoom Pro costs $249 and its Business Attorney Plan auto-renews at $49 a month after 30 days.",
+      "source_url": "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "LegalZoom vs ZenBusiness: Which is Better?",
+      "url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=1",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-08)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "ZenBusiness vs LegalZoom: Which is Better?",
+      "url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=2",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-08)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom vs ZenBusiness: Which is Better? (2026)",
+      "url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=3",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-08)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom vs. ZenBusiness vs. LLCAttorney",
+      "url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=4",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-08)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "ZenBusiness vs LegalZoom: Comparison & Verdict 2026",
+      "url": "https://www.google.com/search?q=zenbusiness+vs+legalzoom&serp_position=5",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-08)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A like-for-like first-year and second-year basket for ZenBusiness and LegalZoom that shows how agent offers, package renewals, and monthly trials flip the cheaper option between years.",
+  "plan": {
+    "reader_title": "ZenBusiness vs LegalZoom: Pricing, Add-ons, and Best Fit",
+    "seo_title": "ZenBusiness vs LegalZoom: 2026 Cost Comparison",
+    "meta_description": "Compare ZenBusiness and LegalZoom formation plans, registered agent fees, renewals, add-ons, processing, and the best fit for different owners.",
+    "slug": "/legal-business/zenbusiness-vs-legalzoom/",
+    "search_intent": "Navigational",
+    "secondary_keywords": [
+      "zenbusiness vs legalzoom for llc",
+      "zenbusiness registered agent services",
+      "legalzoom registered agent services"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "ZenBusiness vs LegalZoom at a Glance",
+      "Our Verdict",
+      "The Advertised Price Is Only the First Number",
+      "A Comparable Formation Basket",
+      "ZenBusiness Plans and Recurring Charges",
+      "LegalZoom Plans and Recurring Charges",
+      "Registered Agent Differences",
+      "A Three-Year Cost Outlook",
+      "Cancellation and Renewal Checklist",
+      "Formation Speed Has Two Clocks",
+      "Annual Report and Compliance Help",
+      "Current BOI Rule",
+      "Which Service Fits Each Owner?",
+      "Questions to Ask Before Checkout",
+      "What Most Comparisons Miss",
+      "More Comparisons",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.fincen.gov/boi"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.legalzoom.com/business/business-formation/llc-overview.html"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/trust-and-will-vs-legalzoom/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fincen.gov/boi",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "https://www.zenbusiness.com/pricing-formation-plans/",
+      "https://www.zenbusiness.com/registered-agent/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "The IRS online tool issues an EIN directly from the IRS for free.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "verified": true
+    },
+    {
+      "statement": "ZenBusiness Pro costs $199 and renews at $199 a year; Starter preselects a 30-day website builder trial that renews at $15 a month.",
+      "source_url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "verified": true
+    },
+    {
+      "statement": "LegalZoom Pro costs $249 and its Business Attorney Plan auto-renews at $49 a month after 30 days.",
+      "source_url": "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  }
+}

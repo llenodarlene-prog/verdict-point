@@ -1,0 +1,543 @@
+{
+  "tracker_id": "Blog:83",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Best Wyoming LLC Formation Services: Costs and Providers Compared. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for wyoming llc formation services, fact-checked and fitted to house rules.",
+    "audience": "Small-business owners, founders, and consumers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-08",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Paper-filing 15-business-day claim cut (not found in fetched Wyoming text); delinquency wording corrected to dissolution if the report is not filed within 60 days of the due date; Bizee renewal source changed to its registered agent page; ZenBusiness first-year agent offer ($99) added."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "wyoming llc formation services",
+    "intent": "Navigational",
+    "serp_checked_at": "2026-11-06",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "wyoming llc formation services",
+        "type": "short-tail",
+        "volume": 5400,
+        "difficulty": 27,
+        "cpc": 28.74,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wyoming llc registered agent services",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 34,
+        "cpc": 0,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wyoming registered agent services",
+        "type": "commercial",
+        "volume": 2900,
+        "difficulty": 26,
+        "cpc": 28.77,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "registered agent services wyoming",
+        "type": "problem",
+        "volume": 8100,
+        "difficulty": 29,
+        "cpc": 24.63,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wyoming registered agent services reviews",
+        "type": "question",
+        "volume": 30,
+        "difficulty": 28,
+        "cpc": 29.46,
+        "intent": "Navigational",
+        "ranking_url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://bizee.com/business-management/registered-agent",
+      "title": "Bizee registered agent",
+      "publisher": "bizee.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Bizee registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2",
+      "title": "MyCompanyWorks order page",
+      "publisher": "secure.mycompanyworks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "MyCompanyWorks order page",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/Business/Docs/HowToFindOrBecomeARegisteredAgent.pdf",
+      "title": "Wyoming registered agent guide",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming registered agent guide",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/Business/Docs/Notice_Beware_of_Scams_Targeting_Wyoming_Businesses.pdf",
+      "title": "Wyoming scam notice",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming scam notice",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/Business/docs/HowToCreateAWyomingCompany.pdf",
+      "title": "Wyoming company-creation guide",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming company-creation guide",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/faqs.aspx?root=BUS",
+      "title": "Wyoming business FAQs",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming business FAQs",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "title": "Wyoming registered agent FAQs",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming registered agent FAQs",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fincen.gov/boi",
+      "title": "FinCEN BOI reporting",
+      "publisher": "fincen.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "FinCEN BOI reporting",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "title": "IRS: Get an EIN",
+      "publisher": "irs.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "IRS: Get an EIN",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "title": "LegalZoom LLC plans",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom LLC plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.northwestregisteredagent.com/llc",
+      "title": "Northwest LLC service",
+      "publisher": "northwestregisteredagent.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Northwest LLC service",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "title": "ZenBusiness formation plans",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness formation plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Wyoming's annual license tax is $60 or two-tenths of one mill on Wyoming assets, whichever is greater.",
+      "source_url": "https://sos.wyo.gov/faqs.aspx?root=BUS",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Wyoming requires all businesses, domestic or foreign, to maintain a registered agent with a physical Wyoming address.",
+      "source_url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Wyoming says a company filed online is active as soon as the online filing process is completed.",
+      "source_url": "https://sos.wyo.gov/Business/docs/HowToCreateAWyomingCompany.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Your Ultimate Guide to Forming a Wyoming LLC",
+      "url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=1",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Wyoming LLC: Benefits, Formation Process, and Costs",
+      "url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=2",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best 2026 Wyoming LLC Formation Services",
+      "url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=3",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Wyoming LLC Registration | IncFast",
+      "url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=4",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "5 Best Wyoming LLC Services for 2026",
+      "url": "https://www.google.com/search?q=wyoming+llc+formation+services&serp_position=5",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-06)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Wyoming's official fee and tax rules beside five providers, with a worked three-year cost model for nonresidents and a clear account of Wyoming's privacy limits.",
+  "plan": {
+    "reader_title": "Best Wyoming LLC Formation Services: Costs and Providers Compared",
+    "seo_title": "Best Wyoming LLC Formation Services for 2026",
+    "meta_description": "Compare Wyoming LLC formation services, state fees, registered agent renewals, annual license tax, processing, privacy limits, and best fit.",
+    "slug": "/legal-business/wyoming-llc-formation-services/",
+    "search_intent": "Navigational",
+    "secondary_keywords": [
+      "wyoming registered agent services",
+      "registered agent services wyoming",
+      "wyoming llc registered agent services"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Wyoming LLC Cost Snapshot",
+      "Quick Provider Comparison",
+      "Our Wyoming Picks",
+      "Wyoming's Registered Agent Requirements",
+      "1. Northwest: Best Formation and Agent Value",
+      "2. Bizee: Best First-Year Price",
+      "3. MyCompanyWorks: Best Agent Renewal Rate",
+      "4. ZenBusiness: Best Paid Bundle",
+      "5. LegalZoom: Best Broad Legal Catalog",
+      "Online Filing Can Beat a Service on Speed",
+      "The Annual License Tax and Report",
+      "Official Reminders and Misleading Mail",
+      "Privacy Claims Need Careful Wording",
+      "A Decision Framework for Nonresidents",
+      "A Three-Year Wyoming Cost Example",
+      "EIN and BOI Checks",
+      "How Wyoming Compares",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://bizee.com/business-management/registered-agent"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://sos.wyo.gov/Business/Docs/HowToFindOrBecomeARegisteredAgent.pdf"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/texas-llc-formation-services/"
+    ],
+    "external_link_opportunities": [
+      "https://bizee.com/business-management/registered-agent",
+      "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2",
+      "https://sos.wyo.gov/Business/Docs/HowToFindOrBecomeARegisteredAgent.pdf",
+      "https://sos.wyo.gov/Business/Docs/Notice_Beware_of_Scams_Targeting_Wyoming_Businesses.pdf",
+      "https://sos.wyo.gov/Business/docs/HowToCreateAWyomingCompany.pdf",
+      "https://sos.wyo.gov/faqs.aspx?root=BUS",
+      "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "https://www.fincen.gov/boi",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "https://www.northwestregisteredagent.com/llc",
+      "https://www.zenbusiness.com/pricing-formation-plans/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Wyoming's annual license tax is $60 or two-tenths of one mill on Wyoming assets, whichever is greater.",
+      "source_url": "https://sos.wyo.gov/faqs.aspx?root=BUS",
+      "verified": true
+    },
+    {
+      "statement": "Wyoming requires all businesses, domestic or foreign, to maintain a registered agent with a physical Wyoming address.",
+      "source_url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "verified": true
+    },
+    {
+      "statement": "Wyoming says a company filed online is active as soon as the online filing process is completed.",
+      "source_url": "https://sos.wyo.gov/Business/docs/HowToCreateAWyomingCompany.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  }
+}

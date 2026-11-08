@@ -1,0 +1,456 @@
+{
+  "tracker_id": "Blog:88",
+  "status": "verified",
+  "research_question": "Owner-approved addition: LegalZoom Review: Actual Costs, Add-ons, and Who Should Use It. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legalzoom review, fact-checked and fitted to house rules.",
+    "audience": "Small-business owners, founders, and consumers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-08",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; 'Public company' claim cut (not verified on a primary source); Harbor Compliance comparison corrected to $99 then $159; Premium Will ($299, attorney plan at $199 a year) added; consultation limits added from LegalZoom's estate plan terms."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legalzoom review",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-07",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legalzoom review",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 34,
+        "cpc": 25.83,
+        "intent": "Commercial",
+        "ranking_url": "https://www.google.com/search?q=legalzoom+review&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom registered agent services",
+        "type": "long-tail",
+        "volume": 260,
+        "difficulty": 51,
+        "cpc": 31.66,
+        "intent": "Commercial",
+        "ranking_url": "https://www.google.com/search?q=legalzoom+review&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "trademark legalzoom review",
+        "type": "commercial",
+        "volume": 40,
+        "difficulty": 23,
+        "cpc": 7.63,
+        "intent": "Commercial",
+        "ranking_url": "https://www.google.com/search?q=legalzoom+review&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom review reddit",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.google.com/search?q=legalzoom+review&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom review is legalzoom legit",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "https://www.google.com/search?q=legalzoom+review&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.fincen.gov/boi",
+      "title": "FinCEN BOI reporting",
+      "publisher": "fincen.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "FinCEN BOI reporting",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "title": "IRS: Get an EIN",
+      "publisher": "irs.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "IRS: Get an EIN",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "title": "LegalZoom LLC plans",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom LLC plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "title": "LegalZoom registered agent",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "title": "LegalZoom estate plan comparison",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom estate plan comparison",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/personal/estate-planning/living-trust-overview.html",
+      "title": "LegalZoom living trust plans",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom living trust plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "LegalZoom Pro costs $249 and its Business Attorney Plan renews at $49 a month after 30 days.",
+      "source_url": "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LegalZoom's estate plans cost $149, $299, $399, and $549, with attorney plans renewing at $25 a month or $199 a year.",
+      "source_url": "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LegalZoom registered agent service costs $249 a year and includes switch paperwork with state fees covered.",
+      "source_url": "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "LegalZoom Review 2026: Are They Worth It? - BizReport",
+      "url": "https://www.google.com/search?q=legalzoom+review&serp_position=1",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom Reviews Say Never Use LegalZoom",
+      "url": "https://www.google.com/search?q=legalzoom+review&serp_position=2",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Has anyone given LegalZoom a shot?",
+      "url": "https://www.google.com/search?q=legalzoom+review&serp_position=3",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom LLC Review in 2024",
+      "url": "https://www.google.com/search?q=legalzoom+review&serp_position=4",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom Review: Pros, Cons & Sign-Up Process",
+      "url": "https://www.google.com/search?q=legalzoom+review&serp_position=5",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A product-by-product LegalZoom review that separates one-time and recurring charges, with a worked two-year LLC bill showing the effect of keeping or canceling the attorney plan.",
+  "plan": {
+    "reader_title": "LegalZoom Review: Actual Costs, Add-ons, and Who Should Use It",
+    "seo_title": "LegalZoom Review 2026: Prices, Renewals, Pros and Cons",
+    "meta_description": "Our LegalZoom review checks LLC and estate plan prices, registered agent fees, renewals, attorney plans, limitations, and the best users.",
+    "slug": "/legal-business/legalzoom-review/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "legalzoom registered agent services",
+      "legalzoom review is legalzoom legit",
+      "trademark legalzoom review"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "LegalZoom Review Verdict",
+      "LegalZoom Pricing Snapshot",
+      "What LegalZoom Sells",
+      "LegalZoom LLC Formation Review",
+      "What an LLC Order Can Cost",
+      "Registered Agent Service Review",
+      "EIN Service Value",
+      "LegalZoom Estate Planning Review",
+      "Where LegalZoom Provides Value",
+      "LegalZoom Limitations",
+      "Is LegalZoom Legitimate?",
+      "Current Federal Compliance Note",
+      "Who Should Use LegalZoom?",
+      "Compare Before You Buy",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.fincen.gov/boi"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.legalzoom.com/business/business-formation/llc-overview.html"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/zenbusiness-review/"
+    ],
+    "external_link_opportunities": [
+      "https://www.fincen.gov/boi",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "https://www.legalzoom.com/personal/estate-planning/living-trust-overview.html"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "LegalZoom Pro costs $249 and its Business Attorney Plan renews at $49 a month after 30 days.",
+      "source_url": "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "verified": true
+    },
+    {
+      "statement": "LegalZoom's estate plans cost $149, $299, $399, and $549, with attorney plans renewing at $25 a month or $199 a year.",
+      "source_url": "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "verified": true
+    },
+    {
+      "statement": "LegalZoom registered agent service costs $249 a year and includes switch paperwork with state fees covered.",
+      "source_url": "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  }
+}

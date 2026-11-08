@@ -1,0 +1,472 @@
+{
+  "tracker_id": "Blog:89",
+  "status": "verified",
+  "research_question": "Owner-approved addition: ZenBusiness Reviews: Plans, Renewal Costs, and Best Fit. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for zenbusiness reviews, fact-checked and fitted to house rules.",
+    "audience": "Small-business owners, founders, and consumers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-08",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Starter's free year of Worry-Free Compliance renewing at $199 added; website builder trial corrected to be preselected on Starter and listed across packages; rush processing ($79) added; Harbor Compliance comparison corrected to $99 then $159; 'lifetime document access' wording replaced with the page's 'dashboard with unlimited storage'; Money Pro limited to Pro and Premium."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "zenbusiness reviews",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-07",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "zenbusiness reviews",
+        "type": "short-tail",
+        "volume": 1600,
+        "difficulty": 32,
+        "cpc": 17.91,
+        "intent": "Informational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zenbusiness llc formation services",
+        "type": "long-tail",
+        "volume": 1600,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zenbusiness registered agent services",
+        "type": "commercial",
+        "volume": 480,
+        "difficulty": 32,
+        "cpc": 12.22,
+        "intent": "Informational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zenbusiness reviews complaints",
+        "type": "problem",
+        "volume": 50,
+        "difficulty": 12,
+        "cpc": 15.26,
+        "intent": "Informational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zenbusiness reviews reddit",
+        "type": "question",
+        "volume": 40,
+        "difficulty": 30,
+        "cpc": 8.05,
+        "intent": "Informational",
+        "ranking_url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=1",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://efile.sunbiz.org/disclaimer.html",
+      "title": "Sunbiz online filing notice",
+      "publisher": "efile.sunbiz.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Sunbiz online filing notice",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/faqs.aspx?root=BUS",
+      "title": "Wyoming business FAQs",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming business FAQs",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fincen.gov/boi",
+      "title": "FinCEN BOI reporting",
+      "publisher": "fincen.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "FinCEN BOI reporting",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "title": "IRS: Get an EIN",
+      "publisher": "irs.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "IRS: Get an EIN",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "title": "ZenBusiness formation plans",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness formation plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/pricing-products/",
+      "title": "ZenBusiness product pricing",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness product pricing",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/registered-agent/",
+      "title": "ZenBusiness registered agent",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "ZenBusiness Pro costs $199 and renews at $199 a year; Starter preselects a 30-day website builder trial that renews at $15 a month.",
+      "source_url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ZenBusiness registered agent service costs $99 for the first year with formation, then $199 a year.",
+      "source_url": "https://www.zenbusiness.com/registered-agent/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "The IRS online tool issues an EIN directly from the IRS for free.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "ZenBusiness - HORRIBLE!!!! DO NOT USE!!!",
+      "url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=1",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "ZenBusiness LLC And Business Formation Review",
+      "url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=2",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Read Customer Service Reviews of www.zenbusiness.com",
+      "url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=3",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "ZenBusiness review: features, pricing, and who it's best for",
+      "url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=4",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "ZenBusiness Review (2026) Pricing, Plans, Pros & Cons",
+      "url": "https://www.google.com/search?q=zenbusiness+reviews&serp_position=5",
+      "publisher": "Google redirect (destination hidden in Ubersuggest)",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-07)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A ZenBusiness review that lists every renewal and preselected trial on one table, with a worked two-year basket and a check of which Pro features still matter after formation.",
+  "plan": {
+    "reader_title": "ZenBusiness Reviews: Plans, Renewal Costs, and Best Fit",
+    "seo_title": "ZenBusiness Review 2026: Plans, Pricing and Renewals",
+    "meta_description": "Our ZenBusiness review checks formation plans, registered agent pricing, processing, add-ons, renewals, limitations, and the best users.",
+    "slug": "/legal-business/zenbusiness-review/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "zenbusiness llc formation services",
+      "zenbusiness registered agent services",
+      "zenbusiness reviews complaints"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "ZenBusiness Review Verdict",
+      "ZenBusiness Pricing Snapshot",
+      "Starter Review",
+      "Pro Review",
+      "Premium Review",
+      "Registered Agent Service Review",
+      "A Practical First-Year Basket",
+      "EIN Service Review",
+      "Processing Times",
+      "Subscription Checks",
+      "Compliance Claims and BOI Rules",
+      "Where ZenBusiness Provides Value",
+      "ZenBusiness Limitations",
+      "Who Should Use ZenBusiness?",
+      "What Most ZenBusiness Reviews Miss",
+      "Compare Before You Buy",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://efile.sunbiz.org/disclaimer.html"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://sos.wyo.gov/faqs.aspx?root=BUS"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.fincen.gov/boi"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/best-registered-agent-services/"
+    ],
+    "external_link_opportunities": [
+      "https://efile.sunbiz.org/disclaimer.html",
+      "https://sos.wyo.gov/faqs.aspx?root=BUS",
+      "https://www.fincen.gov/boi",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "https://www.zenbusiness.com/pricing-formation-plans/",
+      "https://www.zenbusiness.com/pricing-products/",
+      "https://www.zenbusiness.com/registered-agent/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "ZenBusiness Pro costs $199 and renews at $199 a year; Starter preselects a 30-day website builder trial that renews at $15 a month.",
+      "source_url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "verified": true
+    },
+    {
+      "statement": "ZenBusiness registered agent service costs $99 for the first year with formation, then $199 a year.",
+      "source_url": "https://www.zenbusiness.com/registered-agent/",
+      "verified": true
+    },
+    {
+      "statement": "The IRS online tool issues an EIN directly from the IRS for free.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  }
+}
