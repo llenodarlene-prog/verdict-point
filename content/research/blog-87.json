@@ -1,0 +1,406 @@
+{
+  "tracker_id": "Blog:87",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Trust & Will vs LegalZoom: Wills, Trusts, Pricing, and Attorney Support. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for trust & will vs legalzoom, fact-checked and fitted to house rules.",
+    "audience": "Small-business owners, founders, and consumers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-08",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Trust & Will attorney option corrected from a $299 add-on to attorney plans starting at $1,499 for complex needs, with attorney support in the $299-a-year Pro membership; Trust & Will 'free updates' corrected to optional unlimited updates at $49 a year; LegalZoom Premium Will ($299) added; LegalZoom source moved from the AAA partner page to legalzoom.com."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "trust & will vs legalzoom",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-24",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "trust & will vs legalzoom",
+        "type": "short-tail",
+        "volume": 70,
+        "difficulty": 29,
+        "cpc": 41.64,
+        "intent": "Commercial",
+        "ranking_url": "http://www.linkedin.com/pulse/can-i-use-legalzoom-trust-my-heres-honest-take-ledly-jennings-a2woc",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "trust will vs legalzoom",
+        "type": "long-tail",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.linkedin.com/pulse/can-i-use-legalzoom-trust-my-heres-honest-take-ledly-jennings-a2woc",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom review",
+        "type": "commercial",
+        "volume": 1300,
+        "difficulty": 34,
+        "cpc": 25.83,
+        "intent": "Commercial",
+        "ranking_url": "http://www.linkedin.com/pulse/can-i-use-legalzoom-trust-my-heres-honest-take-ledly-jennings-a2woc",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "trust & will vs legalzoom reddit",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.linkedin.com/pulse/can-i-use-legalzoom-trust-my-heres-honest-take-ledly-jennings-a2woc",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom review safe",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.linkedin.com/pulse/can-i-use-legalzoom-trust-my-heres-honest-take-ledly-jennings-a2woc",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://help.trustandwill.com/hc/en-us/articles/360053615451-Pricing-for-Trusts-and-Wills",
+      "title": "Trust & Will pricing help",
+      "publisher": "help.trustandwill.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Trust & Will pricing help",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://trustandwill.com/compare",
+      "title": "Trust & Will plan comparison",
+      "publisher": "trustandwill.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Trust & Will plan comparison",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "title": "LegalZoom estate plan comparison",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom estate plan comparison",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/personal/estate-planning/living-trust-overview.html",
+      "title": "LegalZoom living trust plans",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom living trust plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Trust & Will charges $199 or $299 for its Will Plan and $499 or $599 for its Trust Plan; Essentials costs $49 a year and Pro $299 a year.",
+      "source_url": "https://help.trustandwill.com/hc/en-us/articles/360053615451-Pricing-for-Trusts-and-Wills",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LegalZoom lists Pro Will at $149, Premium Will at $299, Basic Trust at $399, and Premium Trust at $549; the Pro Will attorney plan renews at $25 a month after 30 days.",
+      "source_url": "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Can I Use LegalZoom or Trust & Will for My Trust?",
+      "url": "http://www.linkedin.com/pulse/can-i-use-legalzoom-trust-my-heres-honest-take-ledly-jennings-a2woc",
+      "publisher": "linkedin.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-24)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Trust & Will vs LegalZoom in 2026",
+      "url": "http://ailawyer.pro/blog/trust-and-will-vs-legalzoom",
+      "publisher": "ailawyer.pro",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-24)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Did we make a huge mistake by using LegalZoom?",
+      "url": "http://www.reddit.com/r/EstatePlanning/comments/1kzyqrd/did_we_make_a_huge_mistake_by_using_legalzoom/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-24)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom Trust Cost vs. a California Attorney",
+      "url": "http://livingtrust-attorneys.com/blog/attorney-vs-legalzoom-living-trust",
+      "publisher": "livingtrust-attorneys.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-24)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom Will Review 2026",
+      "url": "http://www.ncoa.org/product-resources/estate-planning/legalzoom-reviews/",
+      "publisher": "ncoa.org",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-24)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A plan-by-plan price, document, and renewal comparison of Trust & Will and LegalZoom, with a worked two-year cost table and a clear list of situations that call for an estate planning attorney.",
+  "plan": {
+    "reader_title": "Trust & Will vs LegalZoom: Wills, Trusts, Pricing, and Attorney Support",
+    "seo_title": "Trust & Will vs LegalZoom: 2026 Estate Plan Comparison",
+    "meta_description": "Compare Trust & Will and LegalZoom prices, included documents, revisions, memberships, attorney support, and the situations that need a lawyer.",
+    "slug": "/legal-business/trust-and-will-vs-legalzoom/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "trust will vs legalzoom",
+      "legalzoom review",
+      "legalzoom will review"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Trust & Will vs LegalZoom at a Glance",
+      "Our Verdict",
+      "Start With the Plan Type",
+      "Trust & Will Pricing",
+      "LegalZoom Pricing",
+      "Document Comparison",
+      "What Two Years Cost at List Prices",
+      "Revision Access Can Change the Value",
+      "Attorney Support Isn't the Same on Both",
+      "When an Online Plan May Fit",
+      "When to Speak With an Attorney",
+      "Trust Funding Deserves Its Own Check",
+      "More Comparisons",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://help.trustandwill.com/hc/en-us/articles/360053615451-Pricing-for-Trusts-and-Wills"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://trustandwill.com/compare"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.legalzoom.com/personal/estate-planning/compare.html"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/legalzoom-review/"
+    ],
+    "external_link_opportunities": [
+      "https://help.trustandwill.com/hc/en-us/articles/360053615451-Pricing-for-Trusts-and-Wills",
+      "https://trustandwill.com/compare",
+      "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "https://www.legalzoom.com/personal/estate-planning/living-trust-overview.html"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Trust & Will charges $199 or $299 for its Will Plan and $499 or $599 for its Trust Plan; Essentials costs $49 a year and Pro $299 a year.",
+      "source_url": "https://help.trustandwill.com/hc/en-us/articles/360053615451-Pricing-for-Trusts-and-Wills",
+      "verified": true
+    },
+    {
+      "statement": "LegalZoom lists Pro Will at $149, Premium Will at $299, Basic Trust at $399, and Premium Trust at $549; the Pro Will attorney plan renews at $25 a month after 30 days.",
+      "source_url": "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "tracker_id": "Blog:81",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Best Registered Agent Services: National Providers Compared. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for registered agent services, fact-checked and fitted to house rules.",
+    "audience": "Small-business owners, founders, and consumers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-08",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Harbor Compliance renewal corrected from $149 to $159, changing its three-year total from $397 to $417; Rocket Lawyer agent price corrected from $124.99 to $125 and its $249 and $349 membership prices cut (Rocket Lawyer blocks automated readers); Bizee renewal source changed to its registered agent page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "registered agent services",
+    "intent": "Navigational",
+    "serp_checked_at": "2026-10-17",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "registered agent services",
+        "type": "short-tail",
+        "volume": 12100,
+        "difficulty": 52,
+        "cpc": 35.24,
+        "intent": "Navigational",
+        "ranking_url": "http://www.registeredagentsinc.com/georgia/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "llc registered agent services",
+        "type": "long-tail",
+        "volume": 9900,
+        "difficulty": 15,
+        "cpc": 36.08,
+        "intent": "Navigational",
+        "ranking_url": "http://www.registeredagentsinc.com/georgia/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "registered agent services comparison",
+        "type": "commercial",
+        "volume": 260,
+        "difficulty": 10,
+        "cpc": 0,
+        "intent": "Navigational",
+        "ranking_url": "http://www.registeredagentsinc.com/georgia/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cheap registered agent services",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 22,
+        "cpc": 34.75,
+        "intent": "Navigational",
+        "ranking_url": "http://www.registeredagentsinc.com/georgia/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what are registered agent services",
+        "type": "question",
+        "volume": 320,
+        "difficulty": 21,
+        "cpc": 18.92,
+        "intent": "Navigational",
+        "ranking_url": "http://www.registeredagentsinc.com/georgia/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://bizee.com/business-management/registered-agent",
+      "title": "Bizee registered agent",
+      "publisher": "bizee.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Bizee registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2",
+      "title": "MyCompanyWorks order page",
+      "publisher": "secure.mycompanyworks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "MyCompanyWorks order page",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "title": "Wyoming registered agent FAQs",
+      "publisher": "sos.wyo.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Wyoming registered agent FAQs",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.harborcompliance.com/registered-agent-service",
+      "title": "Harbor Compliance registered agent",
+      "publisher": "harborcompliance.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Harbor Compliance registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.incorp.com/registered-agent-services",
+      "title": "InCorp registered agent",
+      "publisher": "incorp.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "InCorp registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "title": "LegalZoom registered agent",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.northwestregisteredagent.com/registered-agent",
+      "title": "Northwest registered agent",
+      "publisher": "northwestregisteredagent.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Northwest registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketlawyer.com/registered-agent",
+      "title": "Rocket Lawyer registered agent",
+      "publisher": "rocketlawyer.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Rocket Lawyer registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.sos.state.tx.us/corp/registeredagentfaqs.shtml",
+      "title": "Texas registered agent FAQs",
+      "publisher": "sos.state.tx.us",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Texas registered agent FAQs",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/registered-agent/",
+      "title": "ZenBusiness registered agent",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Texas requires a registered office street address where process may be personally served on the agent during normal business hours.",
+      "source_url": "https://www.sos.state.tx.us/corp/registeredagentfaqs.shtml",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Wyoming says post office boxes, drop boxes, virtual addresses, mail forwarding locations, and UPS or FedEx stores do not qualify as a registered office.",
+      "source_url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Harbor Compliance lists $99 for the first year for new customers, renewing at $159 annually.",
+      "source_url": "https://www.harborcompliance.com/registered-agent-service",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Georgia Registered Agent",
+      "url": "http://www.registeredagentsinc.com/georgia/",
+      "publisher": "registeredagentsinc.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "What is an Oklahoma registered agent?",
+      "url": "http://www.discern.com/resources/oklahoma-registered-agent",
+      "publisher": "discern.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Washington Registered Agents: How, Why, and When",
+      "url": "http://www.legalzoom.com/articles/washington-registered-agent",
+      "publisher": "legalzoom.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Massachusetts Registered Agent Services - Top 7 Reviewed",
+      "url": "http://www.simplifyllc.com/registered-agents/massachusetts/",
+      "publisher": "simplifyllc.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Florida LLC Registered Agent: Requirements, Costs",
+      "url": "http://www.upcounsel.com/llc-registered-agent-florida",
+      "publisher": "upcounsel.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day price check of eight registered agent providers with a worked three-year cost table that shows how renewal rates and prepayment change the ranking.",
+  "plan": {
+    "reader_title": "Best Registered Agent Services: National Providers Compared",
+    "seo_title": "Best Registered Agent Services for 2026: 8 Compared",
+    "meta_description": "Compare registered agent services by first-year price, renewal, document delivery, state coverage, multi-year cost, and switching support.",
+    "slug": "/legal-business/best-registered-agent-services/",
+    "search_intent": "Navigational",
+    "secondary_keywords": [
+      "llc registered agent services",
+      "registered agent services comparison",
+      "cheap registered agent services"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "What a Registered Agent Does",
+      "How We Compared Providers",
+      "1. Harbor Compliance: Best Introductory Price",
+      "2. MyCompanyWorks: Best Flat Yearly Price",
+      "3. Northwest Registered Agent: Best Simple National Option",
+      "4. InCorp: Best Prepaid Discount",
+      "5. Rocket Lawyer: Best for Existing Members",
+      "6. Bizee: Best Formation Bundle",
+      "7. ZenBusiness: Best Integrated Dashboard",
+      "8. LegalZoom: Best Broad Legal Account",
+      "First Year Versus Three-Year Cost",
+      "Questions to Ask Before You Buy",
+      "Can You Serve as Your Own Registered Agent?",
+      "Switching Providers Without a Gap",
+      "Pairing an Agent With Formation",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://bizee.com/business-management/registered-agent"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://sos.wyo.gov/faqs.aspx?root=RAO"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/florida-llc-formation-services/"
+    ],
+    "external_link_opportunities": [
+      "https://bizee.com/business-management/registered-agent",
+      "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2",
+      "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "https://www.harborcompliance.com/registered-agent-service",
+      "https://www.incorp.com/registered-agent-services",
+      "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "https://www.northwestregisteredagent.com/registered-agent",
+      "https://www.rocketlawyer.com/registered-agent",
+      "https://www.sos.state.tx.us/corp/registeredagentfaqs.shtml",
+      "https://www.zenbusiness.com/registered-agent/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Texas requires a registered office street address where process may be personally served on the agent during normal business hours.",
+      "source_url": "https://www.sos.state.tx.us/corp/registeredagentfaqs.shtml",
+      "verified": true
+    },
+    {
+      "statement": "Wyoming says post office boxes, drop boxes, virtual addresses, mail forwarding locations, and UPS or FedEx stores do not qualify as a registered office.",
+      "source_url": "https://sos.wyo.gov/faqs.aspx?root=RAO",
+      "verified": true
+    },
+    {
+      "statement": "Harbor Compliance lists $99 for the first year for new customers, renewing at $159 annually.",
+      "source_url": "https://www.harborcompliance.com/registered-agent-service",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  }
+}

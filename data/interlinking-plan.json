@@ -2343,5 +2343,340 @@
     "placement_guidance": "Owner-approved additions (2026-11-04): links as placed in the edited draft.",
     "qa_status": "Added by owner approval 2026-11-04",
     "content_number": "78"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Best LLC Formation Services: Providers Compared by Real Cost",
+    "url_slug": "/legal-business/best-llc-formation-services/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Hub",
+    "publish_phase": 6,
+    "publish_order": 60,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-registered-agent-services/",
+      "/legal-business/florida-llc-formation-services/",
+      "/legal-business/wyoming-llc-formation-services/",
+      "/legal-business/texas-llc-formation-services/",
+      "/legal-business/wyoming-registered-agent-services/",
+      "/legal-business/zenbusiness-vs-legalzoom/",
+      "/legal-business/trust-and-will-vs-legalzoom/",
+      "/legal-business/legalzoom-review/",
+      "/legal-business/zenbusiness-review/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-registered-agent-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/florida-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/wyoming-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/texas-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/wyoming-registered-agent-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/zenbusiness-vs-legalzoom/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/trust-and-will-vs-legalzoom/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/legalzoom-review/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/zenbusiness-review/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "80"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Best Registered Agent Services: National Providers Compared",
+    "url_slug": "/legal-business/best-registered-agent-services/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 61,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/florida-llc-formation-services/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/florida-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "81"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Best Florida LLC Formation Services: Fees and Providers Compared",
+    "url_slug": "/legal-business/florida-llc-formation-services/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 62,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/wyoming-llc-formation-services/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/wyoming-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "82"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Best Wyoming LLC Formation Services: Costs and Providers Compared",
+    "url_slug": "/legal-business/wyoming-llc-formation-services/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 63,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/texas-llc-formation-services/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/texas-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "83"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Best Texas LLC Formation Services: Fees and Providers Compared",
+    "url_slug": "/legal-business/texas-llc-formation-services/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 64,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/wyoming-registered-agent-services/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/wyoming-registered-agent-services/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "84"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Best Wyoming Registered Agent Services: Providers and Annual Costs",
+    "url_slug": "/legal-business/wyoming-registered-agent-services/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 65,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/zenbusiness-vs-legalzoom/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/zenbusiness-vs-legalzoom/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "85"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "ZenBusiness vs LegalZoom: Pricing, Add-ons, and Best Fit",
+    "url_slug": "/legal-business/zenbusiness-vs-legalzoom/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 66,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/trust-and-will-vs-legalzoom/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/trust-and-will-vs-legalzoom/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "86"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Trust & Will vs LegalZoom: Wills, Trusts, Pricing, and Attorney Support",
+    "url_slug": "/legal-business/trust-and-will-vs-legalzoom/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 67,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/legalzoom-review/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/legalzoom-review/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "87"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "LegalZoom Review: Actual Costs, Add-ons, and Who Should Use It",
+    "url_slug": "/legal-business/legalzoom-review/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 68,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/zenbusiness-review/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/zenbusiness-review/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "88"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "ZenBusiness Reviews: Plans, Renewal Costs, and Best Fit",
+    "url_slug": "/legal-business/zenbusiness-review/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 6,
+    "publish_order": 69,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/best-registered-agent-services/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/best-registered-agent-services/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-08",
+    "content_number": "89"
   }
 ]
