@@ -1,0 +1,578 @@
+{
+  "tracker_id": "Blog:80",
+  "status": "verified",
+  "research_question": "Owner-approved addition: Best LLC Formation Services: Providers Compared by Real Cost. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for llc formation services, fact-checked and fitted to house rules.",
+    "audience": "Small-business owners, founders, and consumers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-08",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; SBA small-business statistics cut (SBA PDF blocked automated readers); Swyft Standard and Premium labeled as fall-sale prices ($169 and $269, regularly $199 and $299); Bizee renewal confirmed at $149 on its registered agent page and the Volusion order URL replaced; ZenBusiness preselected website-builder trial at $15 a month added; Northwest $125 renewal attributed to its registered agent page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "llc formation services",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-10-17",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-08"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "llc formation services",
+        "type": "short-tail",
+        "volume": 14800,
+        "difficulty": 31,
+        "cpc": 61.17,
+        "intent": "Commercial",
+        "ranking_url": "http://www.llcuniversity.com/best-llc-service-in-pennsylvania/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best llc formation services",
+        "type": "long-tail",
+        "volume": 590,
+        "difficulty": 29,
+        "cpc": 100.03,
+        "intent": "Commercial",
+        "ranking_url": "http://www.llcuniversity.com/best-llc-service-in-pennsylvania/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free llc formation services",
+        "type": "commercial",
+        "volume": 880,
+        "difficulty": 37,
+        "cpc": 68.14,
+        "intent": "Commercial",
+        "ranking_url": "http://www.llcuniversity.com/best-llc-service-in-pennsylvania/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cheapest llc formation services",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 66,
+        "cpc": 77.59,
+        "intent": "Commercial",
+        "ranking_url": "http://www.llcuniversity.com/best-llc-service-in-pennsylvania/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "llc formation services reviews",
+        "type": "question",
+        "volume": 40,
+        "difficulty": 44,
+        "cpc": 125.41,
+        "intent": "Commercial",
+        "ranking_url": "http://www.llcuniversity.com/best-llc-service-in-pennsylvania/",
+        "retrieved_at": "2026-11-08",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://bizee.com/business-management/registered-agent",
+      "title": "Bizee registered agent",
+      "publisher": "bizee.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Bizee registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://bizee.com/pricing",
+      "title": "Bizee pricing",
+      "publisher": "bizee.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Bizee pricing",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2",
+      "title": "MyCompanyWorks order page",
+      "publisher": "secure.mycompanyworks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "MyCompanyWorks order page",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.census.gov/econ/bfs/current/index.html",
+      "title": "Census Business Formation Statistics",
+      "publisher": "census.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Census Business Formation Statistics",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.fincen.gov/boi",
+      "title": "FinCEN BOI reporting",
+      "publisher": "fincen.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "FinCEN BOI reporting",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.incauthority.com/",
+      "title": "Inc Authority",
+      "publisher": "incauthority.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Inc Authority",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "title": "IRS: Get an EIN",
+      "publisher": "irs.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "IRS: Get an EIN",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "title": "LegalZoom LLC plans",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom LLC plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "title": "LegalZoom registered agent",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "LegalZoom registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.northwestregisteredagent.com/llc",
+      "title": "Northwest LLC service",
+      "publisher": "northwestregisteredagent.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Northwest LLC service",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.northwestregisteredagent.com/registered-agent",
+      "title": "Northwest registered agent",
+      "publisher": "northwestregisteredagent.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Northwest registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.swyftfilings.com/",
+      "title": "Swyft Filings",
+      "publisher": "swyftfilings.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "Swyft Filings",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "title": "ZenBusiness formation plans",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness formation plans",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/registered-agent/",
+      "title": "ZenBusiness registered agent",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-08",
+      "scope": "ZenBusiness registered agent",
+      "method": "Opened and read the live page on 2026-11-08 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-08; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Census reported 534,947 seasonally adjusted business applications in September 2026.",
+      "source_url": "https://www.census.gov/econ/bfs/current/index.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "The IRS online tool issues an EIN directly from the IRS for free.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "FinCEN says U.S. companies are exempt from BOI reporting (updated August 11, 2026).",
+      "source_url": "https://www.fincen.gov/boi",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Top 5 Best LLC Services in Pennsylvania (2026 Update)",
+      "url": "http://www.llcuniversity.com/best-llc-service-in-pennsylvania/",
+      "publisher": "llcuniversity.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "4 Companies for Online LLC Formation",
+      "url": "http://www.businessinsider.com/personal-finance/banking/best-llc-formation-services-online",
+      "publisher": "businessinsider.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Maryland LLC Formation Services 2026",
+      "url": "http://www.businessrocket.com/business-corner/start/llc/formation-maryland/",
+      "publisher": "businessrocket.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best LLC Services in California for New Business",
+      "url": "http://www.creditdonkey.com/best-llc-services-in-california.html",
+      "publisher": "creditdonkey.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Form an LLC in California",
+      "url": "http://www.corporatecreations.com/llc/california",
+      "publisher": "corporatecreations.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of seven formation providers that separates state fees, entry prices, and registered agent renewals, plus a worked two-year provider bill and the current FinCEN BOI exemption.",
+  "plan": {
+    "reader_title": "Best LLC Formation Services: Providers Compared by Real Cost",
+    "seo_title": "Best LLC Formation Services for 2026: 7 Compared",
+    "meta_description": "Compare LLC formation services by state fees, package price, registered agent renewals, EIN costs, processing, subscriptions, and best fit.",
+    "slug": "/legal-business/best-llc-formation-services/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best llc formation services",
+      "free llc formation services",
+      "llc registered agent services"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "Our Picks",
+      "How We Compared LLC Formation Services",
+      "1. Northwest Registered Agent: Best Overall",
+      "2. Bizee: Best First-Year Bundle",
+      "3. ZenBusiness: Best Paid Package",
+      "4. LegalZoom: Best Legal Catalog",
+      "5. Swyft Filings: Best Published Speed Tiers",
+      "6. Inc Authority: Best First-Year Inclusions",
+      "7. MyCompanyWorks: Best Agent Renewal Price",
+      "What a Two-Year Provider Bill Looks Like",
+      "Government Fees Still Set the Baseline",
+      "Don't Pay for an EIN Before Checking the Free Route",
+      "Check Current BOI Guidance",
+      "Registered Agents Deserve Their Own Comparison",
+      "Brand Comparisons and Reviews",
+      "When Direct Filing Is the Better Choice",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://bizee.com/business-management/registered-agent"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://bizee.com/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-registered-agent-services/",
+      "/legal-business/florida-llc-formation-services/",
+      "/legal-business/wyoming-llc-formation-services/",
+      "/legal-business/texas-llc-formation-services/",
+      "/legal-business/wyoming-registered-agent-services/",
+      "/legal-business/zenbusiness-vs-legalzoom/",
+      "/legal-business/trust-and-will-vs-legalzoom/",
+      "/legal-business/legalzoom-review/",
+      "/legal-business/zenbusiness-review/"
+    ],
+    "external_link_opportunities": [
+      "https://bizee.com/business-management/registered-agent",
+      "https://bizee.com/pricing",
+      "https://secure.mycompanyworks.com/oms/order-b.php?entityId=2&stateId=2",
+      "https://www.census.gov/econ/bfs/current/index.html",
+      "https://www.fincen.gov/boi",
+      "https://www.incauthority.com/",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "https://www.legalzoom.com/business/business-formation/llc-overview.html",
+      "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html/",
+      "https://www.northwestregisteredagent.com/llc",
+      "https://www.northwestregisteredagent.com/registered-agent",
+      "https://www.swyftfilings.com/",
+      "https://www.zenbusiness.com/pricing-formation-plans/",
+      "https://www.zenbusiness.com/registered-agent/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Census reported 534,947 seasonally adjusted business applications in September 2026.",
+      "source_url": "https://www.census.gov/econ/bfs/current/index.html",
+      "verified": true
+    },
+    {
+      "statement": "The IRS online tool issues an EIN directly from the IRS for free.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "verified": true
+    },
+    {
+      "statement": "FinCEN says U.S. companies are exempt from BOI reporting (updated August 11, 2026).",
+      "source_url": "https://www.fincen.gov/boi",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-08"
+  }
+}
