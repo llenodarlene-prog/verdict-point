@@ -10,7 +10,7 @@ import { renderFaqHub, validateFaq } from './lib/faq.mjs';
 import { renderChart, resetCharts } from './lib/charts.mjs';
 import { articleSchema, headMeta } from './lib/seo.mjs';
 import { assertUniqueRoute, validateRedirects } from './lib/workflow.mjs';
-import { isScheduled, publishDate } from './lib/schedule.mjs';
+import { isScheduled, publishMoment } from './lib/schedule.mjs';
 
 const cwd = process.cwd();
 const dist = path.join(cwd, 'dist');
@@ -136,7 +136,7 @@ const parsed = [];
 const sourceRoutes = new Map();
 // Production omits drafts and posts scheduled after today; their routes are remembered so links to them can be unlinked below.
 const excludedDraftRoutes = new Set();
-const today = publishDate();
+const today = publishMoment();
 for (const file of sourceFiles) {
   const { metadata, body } = await readContent(file);
   if ((metadata.draft === true || isScheduled(metadata, today)) && buildEnv === 'production') { if (metadata.slug) excludedDraftRoutes.add(metadata.slug); continue; }

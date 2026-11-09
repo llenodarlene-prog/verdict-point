@@ -1,9 +1,9 @@
 name: Scheduled publish
-# Check once a day in the site's configured publication timezone. A deploy only runs when an
-# approved post on main reaches its publication date. The production environment approval still applies.
+# Check every hour. A deploy only runs when an approved post on main reached its publication
+# date and publish_time (publish_timezone) since the previous check. The production environment approval still applies.
 on:
   schedule:
-    - cron: '5 22 * * *'
+    - cron: '5 * * * *'
   workflow_dispatch:
 permissions:
   contents: read

@@ -1,7 +1,7 @@
 import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { readContent } from './lib/content.mjs';
-import { isScheduled, publishDate } from './lib/schedule.mjs';
+import { isScheduled, publishMoment } from './lib/schedule.mjs';
 
 const dist = path.resolve('dist');
 const site = JSON.parse(await readFile('data/site.json', 'utf8'));
@@ -64,7 +64,7 @@ if (!shouldIndex && !/Allow:\s*\//.test(robotsText)) failures.push('non-indexabl
 // Production must not expose drafts or not-yet-due scheduled posts anywhere: no page, link, listing, sitemap or feed entry, or structured-data URL.
 if (buildEnv === 'production') {
   const draftRoutes = [];
-  const today = publishDate();
+  const today = publishMoment();
   for (const file of (await walk('content').catch(() => [])).filter(item => item.endsWith('.md'))) {
     const { metadata } = await readContent(file);
     if ((metadata.draft === true || isScheduled(metadata, today)) && metadata.slug) draftRoutes.push(metadata.slug);

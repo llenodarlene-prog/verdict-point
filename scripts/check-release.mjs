@@ -2,7 +2,7 @@ import { readFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { isLive, isPost, publishDate } from './lib/schedule.mjs';
+import { isLive, isPost, publishMoment } from './lib/schedule.mjs';
 import { readContent } from './lib/content.mjs';
 
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
@@ -57,7 +57,7 @@ for (const route of requiredPages) {
 }
 
 // Only posts that are live today count toward launch; scheduled posts are still validated by check-content.
-const today = publishDate();
+const today = publishMoment();
 const published = pages.filter(page => isLive(page.metadata, today) && isPost(page.metadata));
 const launchIds = new Set(launch.map(item => `${item.type}:${item.content_number}`));
 const counts = new Map();
