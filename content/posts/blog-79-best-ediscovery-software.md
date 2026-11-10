@@ -17,6 +17,7 @@ image: /assets/images/posts/best-ediscovery-software/featured-review-team-data-f
 image_alt: Legal review team at monitors while a wall display shows scattered documents passing through a filter into three sorted groups
 author: Darlene Aberin
 published: 2026-11-10
+publish_time: 08:30
 modified: 2026-11-05
 ---
 
