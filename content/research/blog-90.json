@@ -1,0 +1,447 @@
+{
+  "tracker_id": "Blog:90",
+  "status": "verified",
+  "research_question": "What were national law school acceptance rates in 2025, and what did the completed 2026 cycle show about applicants and applications?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for law school acceptance rates, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "AccessLex Data Deck spring 2026 (2025 cycle); LSAC September 2026 update (completed 2026 cycle); LSAC volume page as displayed 2026-11-10",
+    "scope_limitations": "No 2026 national admitted total is published in the LSAC cycle summary, so no 2026 rate is estimated. ABA Standard 509 specifics were cut because americanbar.org blocks automated readers and could not be verified."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law school acceptance rates",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-10",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-10"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law school acceptance rates",
+        "type": "short-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://report.lsac.org/VolumeSummaryOriginalFormat.aspx?Format=PDF",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ivy league law school acceptance rates",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://report.lsac.org/VolumeSummaryOriginalFormat.aspx?Format=PDF",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "colleges with highest law school acceptance rates",
+        "type": "commercial",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://report.lsac.org/VolumeSummaryOriginalFormat.aspx?Format=PDF",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "early decision law school acceptance rates",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://report.lsac.org/VolumeSummaryOriginalFormat.aspx?Format=PDF",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "university of pennsylvania law school admission rate",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://report.lsac.org/VolumeSummaryOriginalFormat.aspx?Format=PDF",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.accesslex.org/research-and-data-tools-and-resources/legal-education-data-deck",
+      "title": "Legal Education Data Deck (spring 2026)",
+      "publisher": "AccessLex Institute",
+      "source_type": "Research organization data report",
+      "year": "2026",
+      "published_at": "2026-04-23",
+      "accessed_at": "2026-11-10",
+      "scope": "2025 applicants 76,500 (+11,700, 18%); admitted +11%; matriculants +8%; admission rate 65%, down 4 points, lowest since 2006; prior ~69% for ~5 years; J.D. degrees 36,340 in 2025",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lsac.org/podcast/keeping-data-september-2026",
+      "title": "Keeping Up to Data, September 2026",
+      "publisher": "Law School Admission Council",
+      "source_type": "Official data update (transcript)",
+      "year": "2026",
+      "published_at": "2026-09-10",
+      "accessed_at": "2026-11-10",
+      "scope": "2026 cycle: 82,487 applicants (+7.9%, +27.4% vs 2024); 579,839 applications (+10.8%, +35.5%); women 57.3%, men 40%, minoritized 50.2%, first-gen just over 28%; LSAT tests +13.3%, takers +11.1%; August tests ~+7%, Sept registrations ~+5%, Oct ~+3%",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lsac.org/data-research/data/current-volume-summaries-region-raceethnicity-gender-identity-lsat-score",
+      "title": "Current Volume Summaries",
+      "publisher": "Law School Admission Council",
+      "source_type": "Official data page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-10",
+      "scope": "Reports updated daily; says it is too early in the 2026-2027 cycle to reach conclusions about applicant volume",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lsac.org/data-research",
+      "title": "Legal Education Data and Research",
+      "publisher": "Law School Admission Council",
+      "source_type": "Official data hub",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-10",
+      "scope": "Hub page for LSAC admission-cycle data",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "AccessLex: national law school admission rate 65% in 2025, down 4 points, lowest since 2006",
+      "source_url": "https://www.accesslex.org/research-and-data-tools-and-resources/legal-education-data-deck",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "ABA law school applicants",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Applicants",
+      "unit": "Percent of applicants admitted",
+      "method": "Admissions pipeline data",
+      "limitations": "National rate; not a school-level rate.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "AccessLex: 76,500 applicants in 2025, up 11,700 or 18%",
+      "source_url": "https://www.accesslex.org/research-and-data-tools-and-resources/legal-education-data-deck",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "ABA law school applicants",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "People",
+      "method": "Admissions pipeline data",
+      "limitations": "Rounded by publisher.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LSAC: 82,487 applicants in the 2026 cycle, up 7.9%",
+      "source_url": "https://www.lsac.org/podcast/keeping-data-september-2026",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Law school applicants, 2026 cycle",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "People",
+      "method": "LSAC cycle totals",
+      "limitations": "Reported in a spoken update; final cycle volume.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LSAC: 579,839 applications in the 2026 cycle, up 10.8%",
+      "source_url": "https://www.lsac.org/podcast/keeping-data-september-2026",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Applications to law schools, 2026 cycle",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Applications",
+      "method": "LSAC cycle totals",
+      "limitations": "Applications are not people.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Year To Date ABA 2026 Applicant and Applications",
+      "url": "http://report.lsac.org/VolumeSummaryOriginalFormat.aspx?Format=PDF",
+      "publisher": "LSAC",
+      "format": "Data report",
+      "updated_at": "Not stated",
+      "headings": [
+        "Volume summary table"
+      ],
+      "coverage": [
+        "Applicant and application counts"
+      ],
+      "sources": [
+        "LSAC"
+      ],
+      "data_assets": [
+        "PDF table"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "Official counts.",
+      "gaps": "No rate explanation or context for readers."
+    },
+    {
+      "title": "Legal Education Data and Research",
+      "url": "http://www.lsac.org/data-research",
+      "publisher": "LSAC",
+      "format": "Data hub",
+      "updated_at": "Not stated",
+      "headings": [
+        "Data library"
+      ],
+      "coverage": [
+        "Links to reports"
+      ],
+      "sources": [
+        "LSAC"
+      ],
+      "data_assets": [
+        "Report links"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "Authoritative hub.",
+      "gaps": "No direct answer on acceptance rates."
+    },
+    {
+      "title": "T14 Law Schools: Acceptance Rates and Class Profiles",
+      "url": "http://www.joinleland.com/library/a/law-school-application-rates-and-class-profiles",
+      "publisher": "Leland",
+      "format": "Listicle",
+      "updated_at": "Not stated",
+      "headings": [
+        "School profiles"
+      ],
+      "coverage": [
+        "Top-school rates"
+      ],
+      "sources": [
+        "School disclosures"
+      ],
+      "data_assets": [
+        "School tables"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-10)"
+      ],
+      "covered_well": "School-level detail for top schools.",
+      "gaps": "No national rate or applicant-versus-application distinction."
+    },
+    {
+      "title": "Enrollment Statistics",
+      "url": "http://www.sandiego.edu/law/admissions/jd/enrollment-statistics.php",
+      "publisher": "University of San Diego School of Law",
+      "format": "School disclosure",
+      "updated_at": "Not stated",
+      "headings": [
+        "Class profile"
+      ],
+      "coverage": [
+        "One school"
+      ],
+      "sources": [
+        "School data"
+      ],
+      "data_assets": [
+        "Profile table"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 1 (collected 2026-11-10)"
+      ],
+      "covered_well": "Primary school data.",
+      "gaps": "Single school; no national context."
+    },
+    {
+      "title": "20 Law Schools That Are Hardest to Get Into",
+      "url": "http://www.usnews.com/education/best-graduate-schools/the-short-list-grad-school/articles/law-schools-that-are-hardest-to-get-into",
+      "publisher": "U.S. News",
+      "format": "Ranking list",
+      "updated_at": "Not stated",
+      "headings": [
+        "Lowest acceptance rates"
+      ],
+      "coverage": [
+        "Most selective schools"
+      ],
+      "sources": [
+        "School survey"
+      ],
+      "data_assets": [
+        "Ranked list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "Clear ranked answer.",
+      "gaps": "Selectivity only; no denominator or cycle explanation."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages mix applicant and application denominators.",
+    "Few pages show the completed 2026 cycle totals beside the 2025 national rate.",
+    "Early-cycle figures are often presented as final."
+  ],
+  "value_add": "Separates applicants from applications with a worked ratio, reconciles AccessLex and LSAC counts with labeled arithmetic, and gives a five-measure school comparison framework.",
+  "plan": {
+    "reader_title": "Law School Acceptance Rates: 2026 Admissions Statistics",
+    "seo_title": "Law School Acceptance Rates: 2025 and 2026 Data",
+    "meta_description": "Law school acceptance rates fell to a 65% national admission rate in 2025. See applicant and application counts, 2026 cycle data, and how to compare schools.",
+    "slug": "/legal/law-school-acceptance-rates/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "law school admission rate",
+      "law school applicants 2026",
+      "how many people applied to law school"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "The National Admission Rate Trend",
+      "What the 2026 Cycle Showed",
+      "Applicants and Applications Are Different",
+      "How the 2025 and 2026 Figures Fit Together",
+      "How to Calculate a School's Acceptance Rate",
+      "Where to Find Comparable School Data",
+      "Why Early-Cycle Numbers Need Care",
+      "Acceptance Rate Versus Your Own Chances",
+      "Why Ranking Pages Often Disagree",
+      "A Better Way to Compare Schools",
+      "What These Numbers Cannot Tell You",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.accesslex.org/research-and-data-tools-and-resources/legal-education-data-deck"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.lsac.org/podcast/keeping-data-september-2026"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.lsac.org/data-research/data/current-volume-summaries-region-raceethnicity-gender-identity-lsat-score"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/patent-litigation-statistics/",
+      "/legal/us-divorce-statistics/",
+      "/legal/types-of-lawyers/"
+    ],
+    "external_link_opportunities": [
+      "https://www.accesslex.org/research-and-data-tools-and-resources/legal-education-data-deck",
+      "https://www.lsac.org/podcast/keeping-data-september-2026",
+      "https://www.lsac.org/data-research/data/current-volume-summaries-region-raceethnicity-gender-identity-lsat-score",
+      "https://www.lsac.org/data-research"
+    ],
+    "excluded_claims": [
+      "ABA Standard 509 content details (source blocked automated verification)",
+      "Any 2026 national admission rate",
+      "School-level rates"
+    ],
+    "drafting_cautions": [
+      "Label every figure with its cycle.",
+      "Do not divide offers by applications for a national rate.",
+      "Label LSAC testing indicators as indicators, not application totals."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "National admission rate 65% in 2025, lowest since 2006",
+      "source_url": "https://www.accesslex.org/research-and-data-tools-and-resources/legal-education-data-deck",
+      "verified": true
+    },
+    {
+      "statement": "2026 cycle: 82,487 applicants and 579,839 applications",
+      "source_url": "https://www.lsac.org/podcast/keeping-data-september-2026",
+      "verified": true
+    },
+    {
+      "statement": "Current-cycle volume page updated daily; too early for 2026-2027 conclusions",
+      "source_url": "https://www.lsac.org/data-research/data/current-volume-summaries-region-raceethnicity-gender-identity-lsat-score",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-10"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-10"
+  }
+}
