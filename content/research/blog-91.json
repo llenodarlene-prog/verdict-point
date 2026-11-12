@@ -1,0 +1,465 @@
+{
+  "tracker_id": "Blog:91",
+  "status": "verified",
+  "research_question": "How many divorces did the CDC record in 2024, what is the current rate, and what does the national series leave out?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for divorce statistics, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "CDC/NCHS provisional national marriage and divorce tables, 2000-2024; CDC FastStats as displayed 2026-11-10",
+    "scope_limitations": "Reporting-area data exclude five states (CA, HI, IN, MN, NM) in 2018-2024; no missing state is estimated. Census Bureau page in owner draft returned 404 and was replaced with CDC FastStats."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "divorce statistics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-10",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-10"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "divorce statistics",
+        "type": "short-tail",
+        "volume": 2900,
+        "difficulty": 44,
+        "cpc": 1.64,
+        "intent": "Informational",
+        "ranking_url": "http://www.wf-lawyers.com/divorce-statistics-and-facts/",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "united states divorce statistics",
+        "type": "long-tail",
+        "volume": 4400,
+        "difficulty": 42,
+        "cpc": 0.05,
+        "intent": "Informational",
+        "ranking_url": "http://www.wf-lawyers.com/divorce-statistics-and-facts/",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "divorce statistics 2025",
+        "type": "commercial",
+        "volume": 590,
+        "difficulty": 62,
+        "cpc": 7.59,
+        "intent": "Informational",
+        "ranking_url": "http://www.wf-lawyers.com/divorce-statistics-and-facts/",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "divorce statistics second marriage",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 41,
+        "cpc": 0.07,
+        "intent": "Informational",
+        "ranking_url": "http://www.wf-lawyers.com/divorce-statistics-and-facts/",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what are the divorce statistics in the us",
+        "type": "question",
+        "volume": 4400,
+        "difficulty": 52,
+        "cpc": 1.73,
+        "intent": "Informational",
+        "ranking_url": "http://www.wf-lawyers.com/divorce-statistics-and-facts/",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-24.pdf",
+      "title": "Provisional number of marriages and divorces and rates: United States, 2000-2024",
+      "publisher": "CDC National Center for Health Statistics",
+      "source_type": "Government statistics",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-10",
+      "scope": "Divorces and annulments, reporting-area population, and rate per 1,000 for 2000-2024 with excluded-state footnotes; marriages and rates for 2000-2024",
+      "method": "Downloaded the live PDF on 2026-11-10 and extracted its text (Claude fact-check); every figure used was matched to the table; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/marriage-divorce.htm",
+      "title": "Marriages and Divorces (NVSS)",
+      "publisher": "CDC National Center for Health Statistics",
+      "source_type": "Government program page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-10",
+      "scope": "Collection of detailed data suspended beginning January 1996; rates calculated from provisional counts received from state health departments; national trend tables 2000-2024",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.pewresearch.org/short-reads/2025/10/16/8-facts-about-divorce-in-the-united-states/",
+      "title": "8 facts about divorce in the United States",
+      "publisher": "Pew Research Center",
+      "source_type": "Research analysis of federal survey data",
+      "year": "2025",
+      "published_at": "2025-10-16",
+      "accessed_at": "2026-11-10",
+      "scope": "Refined divorce rate 14.4 per 1,000 married women in 2023 (peak ~22.6 around 1980); age 50+ rate 10.3 in 2023; one-third of ever-married had first marriage end in divorce (not 33% of marriages); 66% of ever-divorced remarried; median duration 10 years (2008) to 12 (2023)",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/fastats/marriage-divorce.htm",
+      "title": "FastStats: Marriage and Divorce",
+      "publisher": "CDC National Center for Health Statistics",
+      "source_type": "Government statistics",
+      "year": "2023",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-10",
+      "scope": "672,502 divorces and 2.4 rate (45 reporting states and D.C.) for 2023; marriages 2,041,926, rate 6.1",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "CDC: 662,950 divorces and annulments in the 2024 reporting area",
+      "source_url": "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-24.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Reporting-area population (45 states and D.C.)",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Events",
+      "method": "Vital statistics records",
+      "limitations": "Excludes CA, HI, IN, MN, NM; provisional.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "CDC: crude divorce rate 2.3 per 1,000 in 2024",
+      "source_url": "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-24.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Reporting-area population",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "284,385,897 people",
+      "unit": "Rate per 1,000 total population",
+      "method": "Vital statistics records",
+      "limitations": "Crude rate; denominator includes people who cannot divorce.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "CDC: divorce rate 4.0 per 1,000 in 2000",
+      "source_url": "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-24.pdf",
+      "data_year": "2000",
+      "geography": "United States",
+      "population": "Reporting-area population",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "233,550,143 people",
+      "unit": "Rate per 1,000 total population",
+      "method": "Vital statistics records",
+      "limitations": "Different excluded states than 2024.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "CDC FastStats: divorce figures cover 45 reporting states and D.C.",
+      "source_url": "https://www.cdc.gov/nchs/fastats/marriage-divorce.htm",
+      "data_year": "2023",
+      "geography": "United States",
+      "population": "Reporting states",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Coverage note",
+      "method": "Published summary",
+      "limitations": "Shows 2023 figures.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Pew: refined divorce rate 14.4 per 1,000 married women in 2023",
+      "source_url": "https://www.pewresearch.org/short-reads/2025/10/16/8-facts-about-divorce-in-the-united-states/",
+      "data_year": "2023",
+      "geography": "United States",
+      "population": "Married women age 15+",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Married women age 15+",
+      "unit": "Rate per 1,000 married women",
+      "method": "Pew analysis of ACS and NCHS data",
+      "limitations": "Survey-based; not comparable to CDC crude rate.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Divorce Statistics: Over 115 Studies, Facts and Rates",
+      "url": "http://www.wf-lawyers.com/divorce-statistics-and-facts/",
+      "publisher": "Wilkinson and Finkbeiner",
+      "format": "Law firm statistics roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Long list of facts"
+      ],
+      "coverage": [
+        "Many studies"
+      ],
+      "sources": [
+        "Mixed secondary sources"
+      ],
+      "data_assets": [
+        "Bullet lists"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "Very broad coverage.",
+      "gaps": "Mixes measures and years; dated studies; no reporting-area caveat."
+    },
+    {
+      "title": "8 facts about divorce in the United States",
+      "url": "http://www.pewresearch.org/short-reads/2025/10/16/8-facts-about-divorce-in-the-united-states/",
+      "publisher": "Pew Research Center",
+      "format": "Research short read",
+      "updated_at": "Not stated",
+      "headings": [
+        "Eight facts"
+      ],
+      "coverage": [
+        "Survey-based divorce facts"
+      ],
+      "sources": [
+        "Census ACS and Pew analysis"
+      ],
+      "data_assets": [
+        "Charts"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "Authoritative survey analysis.",
+      "gaps": "Survey measures, not CDC event counts; no 2024 CDC table."
+    },
+    {
+      "title": "FastStats: Marriage and Divorce",
+      "url": "http://www.cdc.gov/nchs/fastats/marriage-divorce.htm",
+      "publisher": "CDC",
+      "format": "Government summary",
+      "updated_at": "Not stated",
+      "headings": [
+        "Headline figures"
+      ],
+      "coverage": [
+        "Counts and rates"
+      ],
+      "sources": [
+        "NVSS"
+      ],
+      "data_assets": [
+        "Figures"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-10)"
+      ],
+      "covered_well": "Official headline numbers.",
+      "gaps": "No trend, no explanation of crude rate or missing states."
+    },
+    {
+      "title": "Divorce Statistics Across America",
+      "url": "http://merelfamilylaw.com/blog/divorce-statistics-across-america/",
+      "publisher": "Merel Family Law",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "State statistics"
+      ],
+      "coverage": [
+        "State-by-state rates"
+      ],
+      "sources": [
+        "Mixed sources"
+      ],
+      "data_assets": [
+        "Tables"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "State detail.",
+      "gaps": "Mixes sources and years; no denominator definitions."
+    },
+    {
+      "title": "Divorce in Decline: About 40% of Today's Marriages Will End in Divorce",
+      "url": "http://ifstudies.org/blog/divorce-in-decline-about-40-of-todays-marriages-will-end-in-divorce",
+      "publisher": "Institute for Family Studies",
+      "format": "Research blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Lifetime projection"
+      ],
+      "coverage": [
+        "Projected lifetime divorce"
+      ],
+      "sources": [
+        "Author model"
+      ],
+      "data_assets": [
+        "Projection"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-10)"
+      ],
+      "covered_well": "Addresses the 50% myth.",
+      "gaps": "Model-based projection; not annual CDC data."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages rarely name the excluded states.",
+    "Crude rates are presented as the share of marriages ending.",
+    "Few pages show the 2000-2024 CDC trend with the 2024 figures."
+  ],
+  "value_add": "Names the five excluded states, calculates reporting-area coverage (about 84%), shows the 25-year CDC trend, and separates four divorce measures in one table.",
+  "plan": {
+    "reader_title": "US Divorce Statistics: Rates, Counts, and Trends",
+    "seo_title": "US Divorce Statistics: 2024 CDC Rates and Trends",
+    "meta_description": "Divorce statistics from the CDC: 662,950 divorces and a 2.3 rate per 1,000 people in 2024. See the 25-year trend, which states are missing, and the 50% myth.",
+    "slug": "/legal/us-divorce-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "us divorce rate",
+      "divorce rate 2024",
+      "how many divorces per year",
+      "divorce statistics us"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "US Divorce Counts and Rates, 2015 to 2024",
+      "The 25-Year Trend",
+      "What a Rate of 2.3 Means",
+      "Which States the National Count Leaves Out",
+      "Marriages and Divorces Side by Side",
+      "Four Measures That Should Not Be Mixed",
+      "What Survey-Based Divorce Statistics Add",
+      "What Happened in 2020",
+      "The Half of Marriages Myth",
+      "How Age and Marriage History Affect the Numbers",
+      "What the Trend Supports",
+      "Where Divorce Statistics Fit in Legal Data",
+      "How to Read Divorce Statistics You Find Online",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-24.pdf"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.cdc.gov/nchs/nvss/marriage-divorce.htm"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.pewresearch.org/short-reads/2025/10/16/8-facts-about-divorce-in-the-united-states/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/law-school-acceptance-rates/",
+      "/legal/medical-malpractice-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-24.pdf",
+      "https://www.cdc.gov/nchs/nvss/marriage-divorce.htm",
+      "https://www.pewresearch.org/short-reads/2025/10/16/8-facts-about-divorce-in-the-united-states/",
+      "https://www.cdc.gov/nchs/fastats/marriage-divorce.htm"
+    ],
+    "excluded_claims": [
+      "Census Bureau dataset claims (page returned 404)",
+      "Lifetime divorce probability",
+      "Causes of the 2020 dip"
+    ],
+    "drafting_cautions": [
+      "Always say reporting area.",
+      "Do not divide divorces by marriages.",
+      "Label the coverage figure as our calculation."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "2024: 662,950 divorces and annulments, 2.3 per 1,000",
+      "source_url": "https://www.cdc.gov/nchs/data/dvs/marriage-divorce/national-marriage-divorce-rates-00-24.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Detailed data collection suspended beginning January 1996",
+      "source_url": "https://www.cdc.gov/nchs/nvss/marriage-divorce.htm",
+      "verified": true
+    },
+    {
+      "statement": "Refined divorce rate 14.4 per 1,000 married women in 2023",
+      "source_url": "https://www.pewresearch.org/short-reads/2025/10/16/8-facts-about-divorce-in-the-united-states/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-10"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-10"
+  }
+}

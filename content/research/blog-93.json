@@ -1,0 +1,458 @@
+{
+  "tracker_id": "Blog:93",
+  "status": "verified",
+  "research_question": "How many patent cases reached federal district courts in 2025, how has PTAB institution changed, and how do the forums and periods differ?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for patent litigation statistics, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "US Courts Judicial Business 2025 (fiscal years); Federal Judicial Caseload Statistics (year ending March 31, 2025); USPTO PTAB trial statistics October 2026 (FY23-FY27 YTD)",
+    "scope_limitations": "Court periods differ and are never combined. Trademark total of 4,211 in the owner draft was cut because it appears only in a summary, not the verbatim page text. PTAB institution is not invalidation."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "patent litigation statistics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-10",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-12"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "patent litigation statistics",
+        "type": "short-tail",
+        "volume": 30,
+        "difficulty": 39,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uspto.gov/about-us/news-updates/patent-litigation-data-through-2016-now-available",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "us patent litigation statistics",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uspto.gov/about-us/news-updates/patent-litigation-data-through-2016-now-available",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "patent lawsuits",
+        "type": "commercial",
+        "volume": 90,
+        "difficulty": 19,
+        "cpc": 15.26,
+        "intent": "Informational",
+        "ranking_url": "http://www.uspto.gov/about-us/news-updates/patent-litigation-data-through-2016-now-available",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai patent lawsuits",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uspto.gov/about-us/news-updates/patent-litigation-data-through-2016-now-available",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how many patent lawsuits are filed each year",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uspto.gov/about-us/news-updates/patent-litigation-data-through-2016-now-available",
+        "retrieved_at": "2026-11-12",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.uscourts.gov/data-news/reports/statistical-reports/judicial-business-united-states-courts/judicial-business-2025/us-district-courts-judicial-business-2025",
+      "title": "Judicial Business 2025: U.S. District Courts",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-12",
+      "scope": "Patent cases up 23% (758) to 4,075; IP cases up 16% (2,362) to 17,234; trademark cases up 25%; IL-N trademark +599 to 1,555",
+      "method": "Opened and read the live page on 2026-11-12 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.uscourts.gov/data-news/reports/statistical-reports/federal-judicial-caseload-statistics/federal-judicial-caseload-statistics-2025",
+      "title": "Federal Judicial Caseload Statistics 2025",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-12",
+      "scope": "Year ending March 31, 2025: IP filings +9% (1,266); patents +24% (722); trademarks +7% (235) to 3,656; ANDA +26% (64) to 311; Federal Circuit 1,459 (+<1%); PTO appeals down 26% (126) to 368",
+      "method": "Opened and read the live page on 2026-11-12 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.uspto.gov/sites/default/files/documents/Trial_Stats_October_2026.pdf",
+      "title": "PTAB Trial Statistics, October 2026",
+      "publisher": "U.S. Patent and Trademark Office",
+      "source_type": "Government statistics",
+      "year": "2026",
+      "published_at": "2026-10-31",
+      "accessed_at": "2026-11-12",
+      "scope": "Institution by petition FY23 752/375 (67%), FY24 740/347 (68%), FY25 616/619 (50%), FY26 379/552 (41%), FY27 YTD 18/6 (75%); Oct 2026: 33 petitions, IPR 27, PGR 6; tech mix; discretionary 21 referred / 5 denied; merits 18 granted of 19",
+      "method": "Downloaded the live PDF and extracted its text on 2026-11-10 (Claude fact-check); every figure used was matched to the charts; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.uscourts.gov/data-news/reports/statistical-reports/judicial-business-united-states-courts/judicial-business-2025/us-courts-appeals-judicial-business-2025",
+      "title": "Judicial Business 2025: U.S. Courts of Appeals",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-12",
+      "scope": "Federal Circuit filings down 13% to 1,270 in 2025; PTO appeals 349; district courts 309",
+      "method": "Opened and read the live page on 2026-11-12 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.uspto.gov/patents/ptab/statistics",
+      "title": "PTAB Statistics",
+      "publisher": "U.S. Patent and Trademark Office",
+      "source_type": "Government data hub",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-12",
+      "scope": "Lists FY2026 and October 2026 trial and appeal statistics files",
+      "method": "Opened and read the live page on 2026-11-12 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "US Courts: 4,075 patent cases in FY2025, up 758 or 23%",
+      "source_url": "https://www.uscourts.gov/data-news/reports/statistical-reports/judicial-business-united-states-courts/judicial-business-2025/us-district-courts-judicial-business-2025",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Civil cases filed in U.S. district courts",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Cases",
+      "method": "Court caseload records",
+      "limitations": "Fiscal-year series; not combinable with March series.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "US Courts: patent cases up 24% (722) in year ending March 31, 2025",
+      "source_url": "https://www.uscourts.gov/data-news/reports/statistical-reports/federal-judicial-caseload-statistics/federal-judicial-caseload-statistics-2025",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Civil cases filed in U.S. district courts",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Cases",
+      "method": "Court caseload records",
+      "limitations": "March year-end series.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "USPTO: PTAB petition-level institution rate 41% in FY2026 (379 instituted, 552 denied)",
+      "source_url": "https://www.uspto.gov/sites/default/files/documents/Trial_Stats_October_2026.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "PTAB institution decisions",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Decided petitions",
+      "unit": "Percent of petitions",
+      "method": "USPTO administrative data",
+      "limitations": "Institution is not a final decision.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "USPTO: PTAB institution rate 68% in FY2024",
+      "source_url": "https://www.uspto.gov/sites/default/files/documents/Trial_Stats_October_2026.pdf",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "PTAB institution decisions",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Decided petitions",
+      "unit": "Percent of petitions",
+      "method": "USPTO administrative data",
+      "limitations": "Petition level.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Patent litigation data through 2016 now available",
+      "url": "http://www.uspto.gov/about-us/news-updates/patent-litigation-data-through-2016-now-available",
+      "publisher": "USPTO",
+      "format": "Government news",
+      "updated_at": "Not stated",
+      "headings": [
+        "Dataset release"
+      ],
+      "coverage": [
+        "Litigation dataset"
+      ],
+      "sources": [
+        "USPTO"
+      ],
+      "data_assets": [
+        "Dataset link"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "Official dataset.",
+      "gaps": "Data end in 2016."
+    },
+    {
+      "title": "The IP High Court Releases Recent IP Litigation Statistics",
+      "url": "http://aiklaw.co.jp/en/whatsnewip/2025/07/07/5662/",
+      "publisher": "AIK Law",
+      "format": "Law firm news",
+      "updated_at": "Not stated",
+      "headings": [
+        "Japan statistics"
+      ],
+      "coverage": [
+        "Japanese courts"
+      ],
+      "sources": [
+        "IP High Court"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "Current data.",
+      "gaps": "Japan, not U.S."
+    },
+    {
+      "title": "Patent Infringement Cases and Litigation Data",
+      "url": "http://clarivate.com/intellectual-property/litigation-intelligence/darts-ip-patent-case-data/",
+      "publisher": "Clarivate",
+      "format": "Vendor product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Product features"
+      ],
+      "coverage": [
+        "Paid database"
+      ],
+      "sources": [
+        "Proprietary"
+      ],
+      "data_assets": [
+        "Product page"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-10)"
+      ],
+      "covered_well": "Global coverage.",
+      "gaps": "No public statistics; sales page."
+    },
+    {
+      "title": "US Patent Litigation",
+      "url": "http://www.patsnap.com/litigation/us-cases-all/",
+      "publisher": "PatSnap",
+      "format": "Vendor database page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Case list"
+      ],
+      "coverage": [
+        "Case search"
+      ],
+      "sources": [
+        "Proprietary"
+      ],
+      "data_assets": [
+        "Case list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-10)"
+      ],
+      "covered_well": "Case-level access.",
+      "gaps": "No summary statistics or periods."
+    },
+    {
+      "title": "Patent litigation 101",
+      "url": "http://legal.thomsonreuters.com/blog/patent-litigation-101/",
+      "publisher": "Thomson Reuters",
+      "format": "Explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Process overview"
+      ],
+      "coverage": [
+        "Litigation process"
+      ],
+      "sources": [
+        "Editorial"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-10)"
+      ],
+      "covered_well": "Clear process explanation.",
+      "gaps": "No current filing or PTAB numbers."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages are vendor product pages without public figures.",
+    "No ranking page separates fiscal-year and March year-end court series.",
+    "PTAB institution is often described as invalidation."
+  ],
+  "value_add": "Puts FY2025 court filings, the March 2025 caseload series, five years of PTAB institution data, and Federal Circuit appeals side by side with periods labeled, plus a stage map that prevents double counting.",
+  "plan": {
+    "reader_title": "Patent Litigation Statistics: Court Filings and PTAB Activity",
+    "seo_title": "Patent Litigation Statistics: 2025 Courts and PTAB",
+    "meta_description": "Patent litigation statistics: 4,075 federal patent cases in 2025, up 23%, and PTAB institution falling from 68% to 41%. See the data, periods, and limits.",
+    "slug": "/legal/patent-litigation-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "patent lawsuits 2025",
+      "ptab institution rate",
+      "patent cases filed"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "How Many Patent Lawsuits Are Filed in Federal Court?",
+      "The March Year-End Series",
+      "What PTAB Institution Statistics Mean",
+      "Petitions Filed and Technology Mix",
+      "Institution Is Not Invalidation",
+      "Federal Circuit Appeals From the USPTO",
+      "How the Stages of a Patent Dispute Fit Together",
+      "Why Filing Counts Do Not Measure Patent Quality",
+      "How to Read Patent Litigation Statistics",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.uscourts.gov/data-news/reports/statistical-reports/judicial-business-united-states-courts/judicial-business-2025/us-district-courts-judicial-business-2025"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.uscourts.gov/data-news/reports/statistical-reports/federal-judicial-caseload-statistics/federal-judicial-caseload-statistics-2025"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.uspto.gov/sites/default/files/documents/Trial_Stats_October_2026.pdf"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/medical-malpractice-statistics/",
+      "/legal/law-school-acceptance-rates/"
+    ],
+    "external_link_opportunities": [
+      "https://www.uscourts.gov/data-news/reports/statistical-reports/judicial-business-united-states-courts/judicial-business-2025/us-district-courts-judicial-business-2025",
+      "https://www.uscourts.gov/data-news/reports/statistical-reports/federal-judicial-caseload-statistics/federal-judicial-caseload-statistics-2025",
+      "https://www.uspto.gov/sites/default/files/documents/Trial_Stats_October_2026.pdf",
+      "https://www.uscourts.gov/data-news/reports/statistical-reports/judicial-business-united-states-courts/judicial-business-2025/us-courts-appeals-judicial-business-2025",
+      "https://www.uspto.gov/patents/ptab/statistics"
+    ],
+    "excluded_claims": [
+      "Trademark total 4,211 (summary only, not verbatim)",
+      "Damages averages",
+      "Final written decision outcomes"
+    ],
+    "drafting_cautions": [
+      "Name the period with every court figure.",
+      "Never call institution invalidation.",
+      "Do not combine Federal Circuit totals from different periods."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "4,075 patent cases in FY2025, up 23%",
+      "source_url": "https://www.uscourts.gov/data-news/reports/statistical-reports/judicial-business-united-states-courts/judicial-business-2025/us-district-courts-judicial-business-2025",
+      "verified": true
+    },
+    {
+      "statement": "Patent cases up 24% in year ending March 31, 2025; PTO appeals down 26% to 368",
+      "source_url": "https://www.uscourts.gov/data-news/reports/statistical-reports/federal-judicial-caseload-statistics/federal-judicial-caseload-statistics-2025",
+      "verified": true
+    },
+    {
+      "statement": "PTAB institution rate 68% (FY24), 50% (FY25), 41% (FY26)",
+      "source_url": "https://www.uspto.gov/sites/default/files/documents/Trial_Stats_October_2026.pdf",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-12"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-12"
+  }
+}

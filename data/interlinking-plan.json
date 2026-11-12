@@ -2678,5 +2678,150 @@
     "placement_guidance": "Owner-approved additions (2026-11-08): links as placed in the edited draft.",
     "qa_status": "Added by owner approval 2026-11-08",
     "content_number": "89"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Law School Acceptance Rates: 2026 Admissions Statistics",
+    "url_slug": "/legal/law-school-acceptance-rates/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 70,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/patent-litigation-statistics/",
+      "/legal/us-divorce-statistics/",
+      "/legal/types-of-lawyers/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/patent-litigation-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/us-divorce-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/types-of-lawyers/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "90"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "US Divorce Statistics: Rates, Counts, and Trends",
+    "url_slug": "/legal/us-divorce-statistics/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 71,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/law-school-acceptance-rates/",
+      "/legal/medical-malpractice-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/law-school-acceptance-rates/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/medical-malpractice-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "91"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Medical Malpractice Statistics: Payments, Claims, and Data Limits",
+    "url_slug": "/legal/medical-malpractice-statistics/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 72,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/us-divorce-statistics/",
+      "/legal/patent-litigation-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/us-divorce-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/patent-litigation-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "92"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Patent Litigation Statistics: Court Filings and PTAB Activity",
+    "url_slug": "/legal/patent-litigation-statistics/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 73,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/medical-malpractice-statistics/",
+      "/legal/law-school-acceptance-rates/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/medical-malpractice-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/law-school-acceptance-rates/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "93"
   }
 ]
