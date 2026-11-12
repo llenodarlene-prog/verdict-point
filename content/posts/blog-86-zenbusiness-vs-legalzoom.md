@@ -17,6 +17,7 @@ image: /assets/images/posts/zenbusiness-vs-legalzoom/featured-two-tablets-1600.j
 image_alt: Two tablets on a desk, one showing a business formation progress screen and one showing a grid of legal documents
 author: Darlene Aberin
 published: 2026-11-13
+publish_time: 16:30
 modified: 2026-11-08
 ---
 

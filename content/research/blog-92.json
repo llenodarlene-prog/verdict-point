@@ -1,0 +1,445 @@
+{
+  "tracker_id": "Blog:92",
+  "status": "verified",
+  "research_question": "What do NPDB payment reports and AMA survey data show about medical malpractice in the United States, and what can they not prove?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for medical malpractice statistics, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "NPDB cumulative counts as of December 2025; NPDB public use file through June 30, 2026 (August 2026 release); AMA Benchmark Surveys 2016-2022 (April 2023 study)",
+    "scope_limitations": "NPDB counts are payment reports, not claims or proven negligence. The statement that payments are not findings of negligence is labeled as our reading, not an NPDB statement. Public-file field details and payment-range claims in the owner draft were cut as unverified."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "medical malpractice statistics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-10",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-10"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "medical malpractice statistics",
+        "type": "short-tail",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nejm.org/doi/full/10.1056/NEJMsa1012370",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "medical malpractice statistics by state",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 25,
+        "cpc": 3.96,
+        "intent": "Informational",
+        "ranking_url": "http://www.nejm.org/doi/full/10.1056/NEJMsa1012370",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "us medical malpractice statistics",
+        "type": "commercial",
+        "volume": 40,
+        "difficulty": 49,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nejm.org/doi/full/10.1056/NEJMsa1012370",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "deaths from medical malpractice statistics",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 71,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nejm.org/doi/full/10.1056/NEJMsa1012370",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "wrongful death medical malpractice statistics",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nejm.org/doi/full/10.1056/NEJMsa1012370",
+        "retrieved_at": "2026-11-10",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.npdb.hrsa.gov/resources/whatIsTheNPDB.jsp",
+      "title": "What Is the NPDB?",
+      "publisher": "National Practitioner Data Bank (HRSA)",
+      "source_type": "Government program page",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-10",
+      "scope": "~1,354,000 adverse action reports; ~529,000 medical malpractice payment reports; ~45,000 judgment or conviction reports (as of Dec. 2025); 15.9 million plus query responses and 71,800 plus new reports in 2025; MMPR definition",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ama-assn.org/system/files/policy-research-perspective-medical-liability-claim-frequency.pdf",
+      "title": "Medical Liability Claim Frequency Among U.S. Physicians",
+      "publisher": "American Medical Association (José R. Guardado, PhD)",
+      "source_type": "Professional association research report",
+      "year": "2023",
+      "published_at": "2023-04-01",
+      "accessed_at": "2026-11-10",
+      "scope": "Benchmark Surveys 2016-2022: 31.2% ever sued (2022), 34.0% (2016); 1.8% sued prior year (2022); 61 claims per 100 physicians (2022), 68 (2016); 72% of claims no indemnity payment; 65% dropped/dismissed/withdrawn; 6% trial verdict, 89% defendant wins; OB/GYN 62.4%, general surgery 59.3% ever sued",
+      "method": "Downloaded the live PDF on 2026-11-10 and extracted its text (Claude fact-check); every figure used was matched to the text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://npdb.hrsa.gov/resources/publicData.jsp",
+      "title": "NPDB Public Use Data File",
+      "publisher": "National Practitioner Data Bank (HRSA)",
+      "source_type": "Government data documentation",
+      "year": "2026",
+      "published_at": "2026-08-01",
+      "accessed_at": "2026-11-10",
+      "scope": "Last update August 2026; covers September 1, 1990 through June 30, 2026; updated four times a year; no identifying information; data use agreement bans re-identification",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://npdb.hrsa.gov/analysistool/",
+      "title": "NPDB Data Analysis Tool",
+      "publisher": "National Practitioner Data Bank (HRSA)",
+      "source_type": "Government data tool",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-10",
+      "scope": "AAR and MMPR data 1990 through June 30, 2026; 30-day reporting window caveat; annual results may not match quarterly public file",
+      "method": "Opened and read the live page on 2026-11-10 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "NPDB: about 529,000 medical malpractice payment reports as of Dec. 2025",
+      "source_url": "https://www.npdb.hrsa.gov/resources/whatIsTheNPDB.jsp",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Reports submitted to the NPDB",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Reports",
+      "method": "Cumulative administrative count",
+      "limitations": "Rounded; payments only.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "AMA: 31.2% of physicians ever sued in 2022",
+      "source_url": "https://www.ama-assn.org/system/files/policy-research-perspective-medical-liability-claim-frequency.pdf",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Non-federal physicians with 20+ patient-care hours per week",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Survey respondents (3,500 per year)",
+      "unit": "Percent of physicians",
+      "method": "Weighted national survey",
+      "limitations": "Self-reported; response rates 31-38%.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "AMA citing MPLA: 72% of claims involve no indemnity payment",
+      "source_url": "https://www.ama-assn.org/system/files/policy-research-perspective-medical-liability-claim-frequency.pdf",
+      "data_year": "2018",
+      "geography": "United States",
+      "population": "Closed medical liability claims 2016-2018",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Closed claims",
+      "unit": "Percent of claims",
+      "method": "Industry closed-claim data cited in study",
+      "limitations": "Secondary citation within the AMA study.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "AMA: 62.4% of OB/GYNs and 59.3% of general surgeons ever sued",
+      "source_url": "https://www.ama-assn.org/system/files/policy-research-perspective-medical-liability-claim-frequency.pdf",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Physicians by specialty",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Survey respondents by specialty",
+      "unit": "Percent of physicians",
+      "method": "Weighted national survey",
+      "limitations": "Pooled 2020-2022 data per study.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Malpractice Risk According to Physician Specialty",
+      "url": "http://www.nejm.org/doi/full/10.1056/NEJMsa1012370",
+      "publisher": "New England Journal of Medicine",
+      "format": "Peer-reviewed study",
+      "updated_at": "Not stated",
+      "headings": [
+        "Risk by specialty"
+      ],
+      "coverage": [
+        "Claim risk by specialty"
+      ],
+      "sources": [
+        "Single insurer data"
+      ],
+      "data_assets": [
+        "Tables"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "Rigorous specialty analysis.",
+      "gaps": "Data from 1991-2005; single insurer; behind paywall."
+    },
+    {
+      "title": "Medical Malpractice Statistics and Facts",
+      "url": "http://www.nationaltriallaw.com/medical-malpractice-statistics/",
+      "publisher": "National Trial Law",
+      "format": "Law firm roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Fact list"
+      ],
+      "coverage": [
+        "Mixed statistics"
+      ],
+      "sources": [
+        "Mixed secondary sources"
+      ],
+      "data_assets": [
+        "Bullets"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "Broad list.",
+      "gaps": "Mixes errors, claims, and payments; dated sources."
+    },
+    {
+      "title": "Medical liability market research",
+      "url": "http://www.ama-assn.org/about/ama-research/medical-liability-market-research",
+      "publisher": "American Medical Association",
+      "format": "Research hub",
+      "updated_at": "Not stated",
+      "headings": [
+        "Research list"
+      ],
+      "coverage": [
+        "AMA liability papers"
+      ],
+      "sources": [
+        "AMA surveys"
+      ],
+      "data_assets": [
+        "Report links"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-10)"
+      ],
+      "covered_well": "Primary research.",
+      "gaps": "No direct statistics summary on the page."
+    },
+    {
+      "title": "Medical Malpractice Statistics",
+      "url": "http://anzalonelegal.com/medical-malpractice-statistics.html",
+      "publisher": "Anzalone Law",
+      "format": "Law firm page",
+      "updated_at": "Not stated",
+      "headings": [
+        "State facts"
+      ],
+      "coverage": [
+        "New Hampshire focus"
+      ],
+      "sources": [
+        "Mixed sources"
+      ],
+      "data_assets": [
+        "Text"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-10)"
+      ],
+      "covered_well": "Local angle.",
+      "gaps": "Thin sourcing; no unit definitions."
+    },
+    {
+      "title": "Medical Malpractice Statistics 2026",
+      "url": "http://www.sokolovelaw.com/personal-injury/medical-malpractice/statistics/",
+      "publisher": "Sokolove Law",
+      "format": "Law firm roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Injuries and lawsuits"
+      ],
+      "coverage": [
+        "Error and lawsuit figures"
+      ],
+      "sources": [
+        "Mixed secondary sources"
+      ],
+      "data_assets": [
+        "Bullets"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-10)"
+      ],
+      "covered_well": "Updated year in title.",
+      "gaps": "Treats medical error estimates and claims as one series."
+    }
+  ],
+  "content_gaps": [
+    "Pages treat NPDB payment reports as all malpractice cases.",
+    "Few pages explain that most claims pay nothing.",
+    "Specialty risk is rarely shown with a dated, nationally representative source."
+  ],
+  "value_add": "Pairs NPDB payment counts with AMA survey claim frequency, shows closed-claim outcomes, separates payment, claim, and negligence, and documents public file coverage and timing caveats.",
+  "plan": {
+    "reader_title": "Medical Malpractice Statistics: Payments, Claims, and Data Limits",
+    "seo_title": "Medical Malpractice Statistics: NPDB and AMA Data",
+    "meta_description": "Medical malpractice statistics from the NPDB and AMA: about 529,000 payment reports through 2025, 31% of physicians ever sued, and what the counts do not prove.",
+    "slug": "/legal/medical-malpractice-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "npdb statistics",
+      "how often are doctors sued",
+      "malpractice claims by specialty"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Key NPDB Figures",
+      "What a Payment Report Is",
+      "Why the NPDB Misses Most Claims",
+      "How Often Physicians Are Sued",
+      "Medical Malpractice Statistics by Specialty",
+      "Three Ways to Count Malpractice",
+      "What the Public Data File Covers",
+      "Why Payment Dollars Need Context",
+      "What These Data Cannot Show",
+      "How to Use These Numbers Responsibly",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.npdb.hrsa.gov/resources/whatIsTheNPDB.jsp"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.ama-assn.org/system/files/policy-research-perspective-medical-liability-claim-frequency.pdf"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://npdb.hrsa.gov/resources/publicData.jsp"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/us-divorce-statistics/",
+      "/legal/patent-litigation-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://www.npdb.hrsa.gov/resources/whatIsTheNPDB.jsp",
+      "https://www.ama-assn.org/system/files/policy-research-perspective-medical-liability-claim-frequency.pdf",
+      "https://npdb.hrsa.gov/resources/publicData.jsp",
+      "https://npdb.hrsa.gov/analysistool/"
+    ],
+    "excluded_claims": [
+      "Public use file field-level details (not verified)",
+      "Payment-range precision claims",
+      "Medical error death estimates"
+    ],
+    "drafting_cautions": [
+      "Never call payment reports cases.",
+      "Attribute MPLA figures as cited by the AMA.",
+      "Label the 1.93 million total as our calculation."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "About 529,000 payment reports as of Dec. 2025",
+      "source_url": "https://www.npdb.hrsa.gov/resources/whatIsTheNPDB.jsp",
+      "verified": true
+    },
+    {
+      "statement": "31.2% of physicians ever sued; 72% of claims no indemnity payment",
+      "source_url": "https://www.ama-assn.org/system/files/policy-research-perspective-medical-liability-claim-frequency.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Public use file covers Sept. 1, 1990 to June 30, 2026, no identifying information",
+      "source_url": "https://npdb.hrsa.gov/resources/publicData.jsp",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-10"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-10"
+  }
+}

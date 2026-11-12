@@ -2,7 +2,7 @@ import { readFile, readdir, stat } from 'node:fs/promises';
 import path from 'node:path';
 import { readContent } from './lib/content.mjs';
 import { auditCitations, compileKillPattern, validateResearchRecord } from './lib/workflow.mjs';
-import { cadenceViolations } from './lib/schedule.mjs';
+import { cadenceViolations, validPublishTime } from './lib/schedule.mjs';
 
 const readJson = async file => JSON.parse(await readFile(file, 'utf8'));
 async function walk(dir) {
@@ -151,5 +151,6 @@ for (const file of files) {
   }
 }
 for (const message of cadenceViolations(cadencePosts)) fail(`publication cadence: ${message}`);
+for (const { metadata, file } of cadencePosts) if (!validPublishTime(metadata)) fail(`${file}: publish_time must be HH:MM in 24-hour time`);
 if (failures.length) { console.error([...new Set(failures)].map(message => `ERROR: ${message}`).join('\n')); process.exit(1); }
 console.log(`Validated ${publishedChecked} published content items; skipped ${files.length - publishedChecked} pages or drafts.`);

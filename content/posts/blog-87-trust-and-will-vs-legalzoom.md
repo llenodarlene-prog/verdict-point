@@ -17,6 +17,7 @@ image: /assets/images/posts/trust-and-will-vs-legalzoom/featured-estate-folders-
 image_alt: Navy will folder with a tree emblem and green trust binder with a house emblem, beside a family photo and a checklist
 author: Darlene Aberin
 published: 2026-11-14
+publish_time: 08:30
 modified: 2026-11-08
 ---
 

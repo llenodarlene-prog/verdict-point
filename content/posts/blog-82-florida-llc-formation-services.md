@@ -17,6 +17,7 @@ image: /assets/images/posts/florida-llc-formation-services/featured-florida-desk
 image_alt: Desk with a Florida map printout, a sealed filing folder with a pen, and a laptop comparing three plans by a beach view
 author: Darlene Aberin
 published: 2026-11-11
+publish_time: 16:30
 modified: 2026-11-08
 ---
 

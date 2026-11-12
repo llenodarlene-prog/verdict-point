@@ -17,6 +17,7 @@ image: /assets/images/posts/zenbusiness-review/featured-plan-tiers-1600.jpg
 image_alt: Laptop showing a three-step formation flow next to a card of three plan tiers and a desk calendar marked with renewal icons
 author: Darlene Aberin
 published: 2026-11-15
+publish_time: 11:30
 modified: 2026-11-08
 ---
 
