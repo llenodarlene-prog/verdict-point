@@ -13,6 +13,8 @@ launch_silo: Law Firm Economics
 silo_role: Supporting
 approved_internal_links: /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/lawpay-legal-payments-fees/
 research_record: content/research/article-9.json
+image: /assets/images/posts/law-firm-billing-statistics/featured-billing-report-timer-1600.jpg
+image_alt: A lawyer studying a printed billing report while a laptop shows a timer, an invoice icon, and charts
 source_document: https://docs.google.com/document/d/1hfyjw7lw78_uGpmrVJgTSiPchYuUSSmzv7ED1YnnCGs/edit?usp=drivesdk
 author: 
 published: 

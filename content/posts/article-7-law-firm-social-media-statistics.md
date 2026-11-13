@@ -13,6 +13,8 @@ launch_silo: Legal Marketing Measurement
 silo_role: Supporting
 approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/
 research_record: content/research/article-7.json
+image: /assets/images/posts/law-firm-social-media-statistics/featured-social-dashboard-1600.jpg
+image_alt: Two lawyers reviewing a monitor dashboard with social platform icons, a rising line chart, and bar charts
 source_document: https://docs.google.com/document/d/1uMcjfXbvn5SfYITn16p0IiREUTgH_OcEErVHc4CaXdI/edit?usp=drivesdk
 author: 
 published: 

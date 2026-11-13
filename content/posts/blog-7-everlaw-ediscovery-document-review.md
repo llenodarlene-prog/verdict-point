@@ -13,6 +13,8 @@ launch_silo: eDiscovery & Legal AI
 silo_role: Commercial Support
 approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/ai-in-law-firms-statistics/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/lexisnexis-legal-ai-source-checking/
 research_record: content/research/blog-7.json
+image: /assets/images/posts/everlaw-ediscovery-document-review/featured-document-review-dual-monitors-1600.jpg
+image_alt: Three legal professionals reviewing a document list and highlighted text on two desktop monitors in a law office
 source_document: https://docs.google.com/document/d/1gmLwSKmHuDDyEzm-aKxaY_VYPBKK6KKWUSxXbtHGyQI/edit?usp=drivesdk
 author: 
 published: 

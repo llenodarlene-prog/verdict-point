@@ -13,6 +13,8 @@ launch_silo: Client Acquisition & Economics
 silo_role: Bridge
 approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-tech/mycase-legal-software/
 research_record: content/research/article-8.json
+image: /assets/images/posts/law-firm-client-acquisition-statistics/featured-intake-call-funnel-1600.jpg
+image_alt: A lawyer taking notes during a phone call while a laptop shows a funnel chart and client metrics
 source_document: https://docs.google.com/document/d/1kS8W-JhPrwFjv6jqqmd-n-VgtIurh4PGX0ds4n3i-Hg/edit?usp=drivesdk
 author: 
 published: 
