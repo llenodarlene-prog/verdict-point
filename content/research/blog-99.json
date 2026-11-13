@@ -1,0 +1,408 @@
+{
+  "tracker_id": "Blog:99",
+  "status": "verified",
+  "research_question": "What do federal oversight data show about abuse and serious deficiencies in US nursing homes?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for nursing home abuse statistics, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "HHS OIG data snapshot OEI-01-23-00052 (October 2025, 2013-2022); CMS provider data as of 2026-11-13",
+    "scope_limitations": "No national abuse count exists. The 1.2 million residents figure from the owner draft was replaced by the OIG report's 15,136 homes figure because the supplied excerpt was not a screenshot of the live source. CMS row counts were cut."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "nursing home abuse statistics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-10-14",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "nursing home abuse statistics",
+        "type": "short-tail",
+        "volume": 30,
+        "difficulty": 11,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.wilentz.com/personal/personal-injury/nursing-home-abuse-and-neglect",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "nursing home abuse statistics 2023",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.wilentz.com/personal/personal-injury/nursing-home-abuse-and-neglect",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "nursing home complaints",
+        "type": "commercial",
+        "volume": 480,
+        "difficulty": 41,
+        "cpc": 14.03,
+        "intent": "Informational",
+        "ranking_url": "http://www.wilentz.com/personal/personal-injury/nursing-home-abuse-and-neglect",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "state nursing home complaints",
+        "type": "problem",
+        "volume": 140,
+        "difficulty": 59,
+        "cpc": 19.05,
+        "intent": "Informational",
+        "ranking_url": "http://www.wilentz.com/personal/personal-injury/nursing-home-abuse-and-neglect",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "who investigates nursing home complaints",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.wilentz.com/personal/personal-injury/nursing-home-abuse-and-neglect",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://oig.hhs.gov/reports/all/2025/special-focus-facility-program-nursing-homes-20132022/",
+      "title": "Special Focus Facility Program Nursing Homes, 2013-2022 (OEI-01-23-00052)",
+      "publisher": "HHS Office of Inspector General",
+      "source_type": "Government data snapshot",
+      "year": "2025",
+      "published_at": "2025-10-01",
+      "accessed_at": "2026-11-13",
+      "scope": "645 SFFs; 591 (92%) received 6,296 complaint surveys; 26% high scope/severity; 429 entered and exited, 96 over 24 months; 64% serious deficiency within 3 years; 1,670 remedies; 15,136 homes Dec 2022",
+      "method": "Read the full report from a copy of the official PDF supplied by the site owner on 2026-11-13 because the OIG site blocked automated access; text extracted and every figure matched (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://data.cms.gov/provider-data/dataset/r5ix-sfxw",
+      "title": "Health Deficiencies",
+      "publisher": "Centers for Medicare and Medicaid Services",
+      "source_type": "Government dataset",
+      "year": "2026",
+      "published_at": "2026-10-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Nursing home health citations in last three years, one citation per row; modified 2026-10-01",
+      "method": "Read the dataset record through the CMS metadata service on 2026-11-13 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://data.cms.gov/provider-data/dataset/tbry-pc2d",
+      "title": "Survey Summary",
+      "publisher": "Centers for Medicare and Medicaid Services",
+      "source_type": "Government dataset",
+      "year": "2026",
+      "published_at": "2026-10-01",
+      "accessed_at": "2026-11-13",
+      "scope": "One row per home; three most recent inspections; citation counts",
+      "method": "Read the dataset record through the CMS metadata service on 2026-11-13 (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "OIG: 64% of SFF graduates received a serious deficiency within 3 years",
+      "source_url": "https://oig.hhs.gov/reports/all/2025/special-focus-facility-program-nursing-homes-20132022/",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Special Focus Facility graduates 2013-2022",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "SFF graduates",
+      "unit": "Percent",
+      "method": "Administrative records analysis",
+      "limitations": "Worst-performing homes only.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "OIG: 591 of 645 SFFs received 6,296 complaint surveys",
+      "source_url": "https://oig.hhs.gov/reports/all/2025/special-focus-facility-program-nursing-homes-20132022/",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "SFFs 2013-2022",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "645 SFFs",
+      "unit": "Homes and surveys",
+      "method": "Administrative records analysis",
+      "limitations": "Selected population.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "OIG: 15,136 nursing homes nationwide as of Dec 2022",
+      "source_url": "https://oig.hhs.gov/reports/all/2025/special-focus-facility-program-nursing-homes-20132022/",
+      "data_year": "2022",
+      "geography": "United States",
+      "population": "Certified nursing homes",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Homes",
+      "method": "CMS data cited by OIG",
+      "limitations": "Point in time.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "New Jersey Nursing Home Abuse and Neglect Lawyers",
+      "url": "http://www.wilentz.com/personal/personal-injury/nursing-home-abuse-and-neglect",
+      "publisher": "Wilentz",
+      "format": "Law firm page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "New Jersey Nursing Home Abuse and Neglect Lawyers"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-10-14)"
+      ],
+      "covered_well": "Local legal context.",
+      "gaps": "Sales page; few data."
+    },
+    {
+      "title": "How to Spot Nursing Home Abuse and Neglect",
+      "url": "http://ilerlawfirm.net/spot-care-home-abuse/",
+      "publisher": "Iler Law Firm",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "How to Spot Nursing Home Abuse and Neglect"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-10-14)"
+      ],
+      "covered_well": "Warning signs.",
+      "gaps": "No federal data."
+    },
+    {
+      "title": "The Sexual Victimization of Older Women Living in Nursing Homes",
+      "url": "http://pubmed.ncbi.nlm.nih.gov/26331674/",
+      "publisher": "PubMed",
+      "format": "Study abstract",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "The Sexual Victimization of Older Women Living in Nursing Homes"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-10-14)"
+      ],
+      "covered_well": "Peer-reviewed.",
+      "gaps": "Narrow, older study."
+    },
+    {
+      "title": "Elder Abuse Statistics",
+      "url": "http://www.californiaelderabuselawyer.com/blog/2021/july/elder-abuse-statistics/",
+      "publisher": "California Elder Abuse Lawyer",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Elder Abuse Statistics"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-10-14)"
+      ],
+      "covered_well": "Broad list.",
+      "gaps": "2021; secondary figures."
+    },
+    {
+      "title": "Nursing Home Abuse in America",
+      "url": "http://www.personalinjurysandiego.org/practice-areas/nursing-home-abuse-in-america/",
+      "publisher": "Personal Injury San Diego",
+      "format": "Law firm page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Nursing Home Abuse in America"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 7 (collected 2026-10-14)"
+      ],
+      "covered_well": "Overview.",
+      "gaps": "Unsourced figures."
+    }
+  ],
+  "content_gaps": [
+    "Pages cite unsourced abuse rates.",
+    "Few use OIG or CMS data.",
+    "Citations treated as incidents."
+  ],
+  "value_add": "Uses OIG SFF data and CMS dataset definitions to show complaints, serious deficiencies, relapse, and penalties, with a clear unit guide.",
+  "plan": {
+    "reader_title": "Nursing Home Abuse Statistics: Deficiencies and Enforcement",
+    "seo_title": "Nursing Home Abuse Statistics: Inspections and SFF Data",
+    "meta_description": "Nursing home abuse statistics from federal oversight data: 645 Special Focus Facilities, 6,296 complaint surveys, 64% relapse after graduation, and CMS citation data.",
+    "slug": "/legal/nursing-home-abuse-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "nursing home complaints",
+      "special focus facility",
+      "nursing home deficiencies"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Why There Is No National Abuse Count",
+      "The Special Focus Facility Program",
+      "Complaints and Serious Deficiencies",
+      "Abuse-Related Problems Before Selection",
+      "What Happens After Graduation",
+      "Enforcement and Penalties",
+      "CMS Inspection Data You Can Search",
+      "How to Read Nursing Home Abuse Statistics",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://oig.hhs.gov/reports/all/2025/special-focus-facility-program-nursing-homes-20132022/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://data.cms.gov/provider-data/dataset/r5ix-sfxw"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://data.cms.gov/provider-data/dataset/tbry-pc2d"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/car-accident-statistics/",
+      "/legal/workplace-harassment-statistics/",
+      "/legal/medical-malpractice-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://oig.hhs.gov/reports/all/2025/special-focus-facility-program-nursing-homes-20132022/",
+      "https://data.cms.gov/provider-data/dataset/r5ix-sfxw",
+      "https://data.cms.gov/provider-data/dataset/tbry-pc2d"
+    ],
+    "excluded_claims": [
+      "National abuse incidence",
+      "CMS row counts",
+      "1.2 million residents figure (excerpt not verifiable)"
+    ],
+    "drafting_cautions": [
+      "Never call citations incidents.",
+      "Limit SFF findings to SFFs."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "SFF findings 2013-2022",
+      "source_url": "https://oig.hhs.gov/reports/all/2025/special-focus-facility-program-nursing-homes-20132022/",
+      "verified": true
+    },
+    {
+      "statement": "Health Deficiencies dataset is one citation per row",
+      "source_url": "https://data.cms.gov/provider-data/dataset/r5ix-sfxw",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  }
+}
