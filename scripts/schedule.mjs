@@ -1,4 +1,4 @@
-import { appendFile, readdir } from 'node:fs/promises';
+import { appendFile, readdir, readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { readContent } from './lib/content.mjs';
 import { isLive, liveMoment, publishMoment } from './lib/schedule.mjs';
@@ -34,9 +34,27 @@ for (const name of files) {
 
 const goingLive = rows.filter(row => row.state === 'live' && row.moment > since && row.moment <= now);
 
+// GitHub can skip scheduled runs for hours, so a time window alone can miss a post.
+// The main check compares every live post with the production sitemap and deploys if any is missing.
+async function missingFromProduction() {
+  const site = JSON.parse(await readFile('data/site.json', 'utf8'));
+  const base = String(process.env.PRODUCTION_URL || site.url || '').replace(/\/$/, '');
+  try {
+    const response = await fetch(`${base}/sitemap.xml`, { signal: AbortSignal.timeout(20000) });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const xml = await response.text();
+    return rows.filter(row => row.state === 'live' && !xml.includes(`${base}${row.slug}<`));
+  } catch (error) {
+    console.log(`Could not read the production sitemap (${error.message}); using the time window only.`);
+    return null;
+  }
+}
+
 if (mode === 'due') {
-  const due = goingLive.length > 0;
-  console.log(due
+  const missing = await missingFromProduction();
+  const due = goingLive.length > 0 || (missing?.length ?? 0) > 0;
+  if (missing?.length) console.log(`${missing.length} live post(s) missing from production: ${missing.map(row => row.slug).join(', ')}`);
+  console.log(goingLive.length
     ? `${goingLive.length} post(s) went live between ${since} and ${now}: ${goingLive.map(row => row.slug).join(', ')}`
     : `Nothing went live between ${since} and ${now}.`
   );
