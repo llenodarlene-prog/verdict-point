@@ -13,8 +13,8 @@ launch_silo: eDiscovery & Legal AI
 silo_role: Commercial Support
 approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/
 research_record: content/research/blog-8.json
-image: /assets/images/posts/relativity-ediscovery-hosting/featured-review-platform-monitor-1600.jpg
-image_alt: Two lawyers studying a document review screen with highlighted passages, with a laptop showing page thumbnails
+image: /assets/images/posts/relativity-ediscovery-hosting/featured-cloud-hosted-review-1600.jpg
+image_alt: A laptop showing a document review list with highlighted text in front of server racks and a cloud padlock graphic
 source_document: https://docs.google.com/document/d/1uz12TsLsELTuLQ-gF2djultn6m03kMFNHyXnrPUlQFE/edit?usp=drivesdk
 author: 
 published: 

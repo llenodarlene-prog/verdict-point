@@ -13,6 +13,8 @@ launch_silo: Legal AI
 silo_role: Commercial Support
 approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-technology-statistics/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/everlaw-ediscovery-document-review/
 research_record: content/research/blog-10.json
+image: /assets/images/posts/lexisnexis-legal-ai-source-checking/featured-source-review-monitor-1600.jpg
+image_alt: Two lawyers studying a document review screen with highlighted passages, with a laptop showing page thumbnails
 source_document: https://docs.google.com/document/d/184grE2_HNYKs2COI8DgX9AK8yMFPK05TdBeyyK6XCGs/edit?usp=drivesdk
 author: 
 published: 
