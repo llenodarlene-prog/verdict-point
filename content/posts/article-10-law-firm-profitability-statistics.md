@@ -13,6 +13,8 @@ launch_silo: Law Firm Economics
 silo_role: Hub
 approved_internal_links: /law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/
 research_record: content/research/article-10.json
+image: /assets/images/posts/law-firm-profitability-statistics/featured-partners-reviewing-charts-1600.jpg
+image_alt: Four lawyers around a conference table as one points to bar and donut charts on a laptop
 source_document: https://docs.google.com/document/d/18r6jRfZn1tEbDf53Rwrl5cOW4tYv1HqjIpBDMOKAkEA/edit?usp=drivesdk
 author: 
 published: 

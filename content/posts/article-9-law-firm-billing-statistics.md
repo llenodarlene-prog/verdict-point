@@ -13,6 +13,8 @@ launch_silo: Law Firm Economics
 silo_role: Supporting
 approved_internal_links: /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/lawpay-legal-payments-fees/
 research_record: content/research/article-9.json
+image: /assets/images/posts/law-firm-billing-statistics/featured-lawyer-reviewing-invoices-1600.jpg
+image_alt: A lawyer reading a printed report at a desk with a calculator, stacked papers, and a laptop showing billing charts
 source_document: https://docs.google.com/document/d/1hfyjw7lw78_uGpmrVJgTSiPchYuUSSmzv7ED1YnnCGs/edit?usp=drivesdk
 author: 
 published: 
