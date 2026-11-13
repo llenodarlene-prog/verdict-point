@@ -6,7 +6,18 @@
    "id": "law-firms",
    "name": "Law Firms and Business Models",
    "icon": "building",
-   "description": "How firms are set up, owned, and paid."
+   "description": "How firms are set up, owned, and paid.",
+   "url": "/legal-faq/law-firms-business-models/",
+   "subtopics": [
+    [
+     "firm-basics",
+     "Firm Basics"
+    ],
+    [
+     "fees",
+     "Fees and Retainers"
+    ]
+   ]
   },
   {
    "id": "billing",
@@ -58,7 +69,18 @@
    "id": "in-house",
    "name": "In-House Counsel and Legal Operations",
    "icon": "building-community",
-   "description": "Company lawyers and the teams that run legal departments."
+   "description": "Company lawyers and the teams that run legal departments.",
+   "url": "/legal-faq/in-house-legal-operations/",
+   "subtopics": [
+    [
+     "roles",
+     "In-House Roles"
+    ],
+    [
+     "operations",
+     "Legal Operations"
+    ]
+   ]
   },
   {
    "id": "technology",
@@ -85,19 +107,56 @@
    "id": "management",
    "name": "Law Firm Management and Growth",
    "icon": "chart-arrows",
-   "description": "Marketing, intake, and running the business side of a firm."
+   "description": "Marketing, intake, and running the business side of a firm.",
+   "url": "/legal-faq/law-firm-management-growth/",
+   "subtopics": [
+    [
+     "marketing",
+     "Marketing"
+    ],
+    [
+     "clients",
+     "Intake and Clients"
+    ],
+    [
+     "systems",
+     "Systems"
+    ]
+   ]
   },
   {
    "id": "metrics",
    "name": "Metrics, Compensation and BigLaw",
    "icon": "scale",
-   "description": "Utilization, realization, and the numbers firms track."
+   "description": "Utilization, realization, and the numbers firms track.",
+   "url": "/legal-faq/metrics-compensation-biglaw/",
+   "subtopics": [
+    [
+     "firm-metrics",
+     "Firm Metrics"
+    ],
+    [
+     "pay",
+     "Compensation"
+    ]
+   ]
   },
   {
    "id": "process",
    "name": "Legal Processes and Documents",
    "icon": "file-description",
-   "description": "Deadlines, invoices, engagement letters, and billing codes."
+   "description": "Deadlines, invoices, engagement letters, and billing codes.",
+   "url": "/legal-faq/legal-processes-documents/",
+   "subtopics": [
+    [
+     "court",
+     "Court Processes"
+    ],
+    [
+     "business",
+     "Business Formation"
+    ]
+   ]
   }
  ],
  "questions": [
@@ -234,7 +293,8 @@
     ]
    ],
    "sources": [],
-   "featured": true
+   "featured": true,
+   "subtopic": "firm-basics"
   },
   {
    "id": "what-are-billable-hours",
@@ -332,7 +392,8 @@
      "url": "https://www.law.cornell.edu/wex/in-house_counsel"
     }
    ],
-   "featured": true
+   "featured": true,
+   "subtopic": "roles"
   },
   {
    "id": "what-is-legal-operations",
@@ -368,7 +429,8 @@
      "url": "https://cloc.org/what-is-legal-operations/"
     }
    ],
-   "featured": true
+   "featured": true,
+   "subtopic": "operations"
   },
   {
    "id": "what-is-legal-research",
@@ -504,7 +566,8 @@
     ]
    ],
    "sources": [],
-   "featured": true
+   "featured": true,
+   "subtopic": "marketing"
   },
   {
    "id": "what-is-law-firm-utilization",
@@ -526,7 +589,8 @@
     ]
    ],
    "sources": [],
-   "featured": true
+   "featured": true,
+   "subtopic": "firm-metrics"
   },
   {
    "id": "how-are-court-deadlines-calculated",
@@ -561,7 +625,8 @@
      "url": "https://www.law.cornell.edu/rules/frcp/rule_6"
     }
    ],
-   "featured": true
+   "featured": true,
+   "subtopic": "court"
   },
   {
    "id": "what-counts-as-billable-time",
@@ -1481,6 +1546,596 @@
    ],
    "featured": false,
    "subtopic": "ai"
+  },
+  {
+   "id": "how-many-law-firms-are-there",
+   "topic": "law-firms",
+   "q": "How many law firms are there in the US?",
+   "aliases": "number of law firms us firm size count",
+   "blocks": [
+    [
+     "p",
+     "The Census Bureau counted 156,583 law firms with employees in 2022, operating 166,972 locations. Most are very small."
+    ],
+    [
+     "ul",
+     [
+      "**Under five employees:** 116,668 firms, or 74.5%.",
+      "**Under 20 employees:** 149,187 firms, or 95.3%.",
+      "**500 or more employees:** 203 firms, about 0.13%, which took in about 34.9% of receipts."
+     ]
+    ],
+    [
+     "p",
+     "These counts cover firms with paid employees in the Offices of Lawyers industry. See the full breakdown in [legal industry statistics by firm size](/legal/legal-industry-statistics-firm-size/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "Census Bureau SUSB 2022 detailed sizes",
+     "url": "https://www2.census.gov/programs-surveys/susb/tables/2022/us_state_naics_detailedsizes_2022.xlsx"
+    }
+   ],
+   "featured": false,
+   "subtopic": "firm-basics"
+  },
+  {
+   "id": "what-are-the-main-types-of-lawyers",
+   "topic": "law-firms",
+   "q": "What are the main types of lawyers?",
+   "aliases": "practice areas kinds of lawyers specialties",
+   "blocks": [
+    [
+     "p",
+     "Lawyers are usually grouped by practice area, such as family, tax, criminal, or commercial litigation. They can also be grouped by where they work, such as a law firm, a company, or government."
+    ],
+    [
+     "ul",
+     [
+      "**Practice areas overlap:** one matter can involve several specialties.",
+      "**Setting differs:** in-house, government, and firm roles describe the employer, not the subject.",
+      "**Client side matters:** two lawyers in one field may represent opposite interests."
+     ]
+    ],
+    [
+     "p",
+     "See fifteen common areas explained in [types of lawyers](/legal/types-of-lawyers/), and how titles compare in [lawyer vs attorney](/legal/lawyer-vs-attorney/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "firm-basics"
+  },
+  {
+   "id": "how-do-contingency-fees-work",
+   "topic": "law-firms",
+   "q": "How do contingency fees work?",
+   "aliases": "contingency fee percentage settlement costs",
+   "blocks": [
+    [
+     "p",
+     "In a contingency arrangement, the lawyer is paid a percentage of what the client recovers. If there is no recovery, there is usually no fee, though the agreement may still address costs."
+    ],
+    [
+     "ol",
+     [
+      "The recovery is received.",
+      "Case costs the firm advanced, such as filing and expert fees, are repaid.",
+      "The fee percentage is applied, either before or after costs, as the agreement states.",
+      "Liens are paid, and the rest goes to the client."
+     ]
+    ],
+    [
+     "p",
+     "The order of deductions changes the client's net. Try both methods in the [contingency fee calculator](/tools/contingency-fee-calculator/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "fees"
+  },
+  {
+   "id": "what-does-a-general-counsel-do",
+   "topic": "in-house",
+   "q": "What does a general counsel do?",
+   "aliases": "gc chief legal officer role responsibilities",
+   "blocks": [
+    [
+     "p",
+     "A general counsel leads an organization's legal function and advises its leadership. The exact authority depends on how the employer defines the role."
+    ],
+    [
+     "ul",
+     [
+      "**Advises leadership:** gives legal advice to executives and, where set up, the board.",
+      "**Manages legal support:** decides what is handled internally and what goes to outside firms.",
+      "**Owns legal risk processes:** often oversees compliance, contracts, and disputes."
+     ]
+    ],
+    [
+     "p",
+     "The title alone does not show reporting lines or budget authority. See [general counsel roles and responsibilities](/legal-business/general-counsel/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "roles"
+  },
+  {
+   "id": "in-house-vs-outside-counsel",
+   "topic": "in-house",
+   "q": "What is the difference between in-house counsel and outside counsel?",
+   "aliases": "in house vs outside counsel law firm company lawyer",
+   "blocks": [
+    [
+     "p",
+     "In-house counsel are lawyers employed by the organization they advise. Outside counsel are lawyers at a law firm the organization hires for specific matters."
+    ],
+    [
+     "table",
+     [
+      "",
+      "In-House Counsel",
+      "Outside Counsel"
+     ],
+     [
+      [
+       "Employer",
+       "The organization itself",
+       "A law firm"
+      ],
+      [
+       "Client",
+       "The organization",
+       "The organization, per engagement"
+      ],
+      [
+       "Typical work",
+       "Contracts, compliance, governance, triage",
+       "Specialized, high-stakes, or high-volume matters"
+      ]
+     ]
+    ],
+    [
+     "p",
+     "Most companies use both. Read [what in-house counsel do](/legal-business/in-house-counsel/) for how the split works."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "roles"
+  },
+  {
+   "id": "what-is-legal-process-outsourcing",
+   "topic": "in-house",
+   "q": "What is legal process outsourcing?",
+   "aliases": "lpo outsourcing document review contract support",
+   "blocks": [
+    [
+     "p",
+     "Legal process outsourcing (LPO) means sending a defined legal or support task to an outside provider. Document review, contract support, legal research, and eDiscovery operations are common examples."
+    ],
+    [
+     "ul",
+     [
+      "**Define the work unit:** inputs, outputs, and escalation points.",
+      "**Keep legal judgment:** the retaining lawyer stays responsible for the work.",
+      "**Check data handling:** access, storage, deletion, and subcontractors."
+     ]
+    ],
+    [
+     "p",
+     "Compare nine service types in [legal process outsourcing](/legal-business/legal-process-outsourcing/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "operations"
+  },
+  {
+   "id": "what-is-contract-lifecycle-management",
+   "topic": "in-house",
+   "q": "What is contract lifecycle management?",
+   "aliases": "clm contract management stages",
+   "blocks": [
+    [
+     "p",
+     "Contract lifecycle management (CLM) covers an agreement from the first request through performance, renewal, or closeout. Drafting and signing are only part of it."
+    ],
+    [
+     "ol",
+     [
+      "Intake and request.",
+      "Drafting and negotiation.",
+      "Approval and signature.",
+      "Performance and obligations.",
+      "Amendments.",
+      "Renewal or closeout."
+     ]
+    ],
+    [
+     "p",
+     "Each stage needs a named owner. See [contract lifecycle management stages and ownership](/legal-business/contract-lifecycle-management/) and our [legal contract management software](/legal-tech/best-legal-contract-management-software/) comparison."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "operations"
+  },
+  {
+   "id": "what-is-a-law-firm-intake-process",
+   "topic": "management",
+   "q": "What is a law firm intake process?",
+   "aliases": "client intake inquiry consultation",
+   "blocks": [
+    [
+     "p",
+     "Law firm intake is the process that moves a prospective client from first contact to a decision on whether the firm will take the matter."
+    ],
+    [
+     "ul",
+     [
+      "**One owner per inquiry:** someone is always responsible for the next step.",
+      "**Staged questions:** collect only what the current decision needs.",
+      "**Clear exits:** declines and withdrawals get recorded statuses."
+     ]
+    ],
+    [
+     "p",
+     "See a full workflow in [law firm intake](/law-firms/law-firm-intake-process/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "clients"
+  },
+  {
+   "id": "what-is-speed-to-lead",
+   "topic": "management",
+   "q": "What is speed to lead for a law firm?",
+   "aliases": "response time inquiry lead response",
+   "blocks": [
+    [
+     "p",
+     "Speed to lead is how long a prospective client waits for a useful reply after contacting the firm. An automatic confirmation does not count as a useful reply."
+    ],
+    [
+     "ul",
+     [
+      "**Define the clock:** name the event that starts and stops the measure.",
+      "**Show unanswered inquiries:** a median of replies can hide the ones still waiting.",
+      "**Pair speed with quality:** a fast reply should still explain the next step."
+     ]
+    ],
+    [
+     "p",
+     "Learn how to measure it in [law firm speed to lead](/law-firms/law-firm-speed-to-lead/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "clients"
+  },
+  {
+   "id": "should-lawyers-respond-to-negative-reviews",
+   "topic": "management",
+   "q": "Should a lawyer respond to a negative online review?",
+   "aliases": "bad review reply confidentiality",
+   "blocks": [
+    [
+     "p",
+     "Only with care. A public reply must not reveal confidential client information, even when the review seems unfair."
+    ],
+    [
+     "ol",
+     [
+      "Preserve the review through an approved internal process.",
+      "Decide whether any public reply is needed.",
+      "If you reply, keep it short and free of case facts.",
+      "Treat a removal request to the platform as a separate step."
+     ]
+    ],
+    [
+     "p",
+     "Your jurisdiction's rules control. See [law firm online reviews](/legal-marketing/law-firm-online-reviews-response/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "marketing"
+  },
+  {
+   "id": "local-seo-for-multiple-offices",
+   "topic": "management",
+   "q": "How should a law firm with several offices handle local SEO?",
+   "aliases": "local seo multiple offices google business profile",
+   "blocks": [
+    [
+     "p",
+     "Give each real office its own accurate presence, and do not create listings for places where the firm has no eligible office."
+    ],
+    [
+     "ul",
+     [
+      "**Confirm office reality:** separate staffed offices from service areas.",
+      "**One page per office:** explain access, services, and contact routes.",
+      "**Check eligibility:** an address alone does not qualify for a Google Business Profile."
+     ]
+    ],
+    [
+     "p",
+     "See the audit framework in [local SEO for law firms with multiple offices](/legal-marketing/local-seo-for-law-firms-multiple-offices/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "marketing"
+  },
+  {
+   "id": "what-is-practice-management-software",
+   "topic": "management",
+   "q": "What is legal practice management software?",
+   "aliases": "pms case management software small firm",
+   "blocks": [
+    [
+     "p",
+     "Legal practice management software puts matters, calendars, time, billing, documents, and client communication in one system."
+    ],
+    [
+     "ul",
+     [
+      "**Price the full first year:** include setup, migration, payment fees, and add-ons.",
+      "**Test a real matter:** run one from intake through final invoice.",
+      "**Check exit terms:** confirm you can export your data after cancelling."
+     ]
+    ],
+    [
+     "p",
+     "Compare seven options in [legal practice management software](/legal-tech/legal-practice-management-software/), and estimate costs with the [legal software cost calculator](/tools/legal-software-cost-calculator/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "systems"
+  },
+  {
+   "id": "what-is-the-biglaw-salary-scale",
+   "topic": "metrics",
+   "q": "What is the BigLaw salary scale?",
+   "aliases": "biglaw associate salary class year milbank",
+   "blocks": [
+    [
+     "p",
+     "The BigLaw salary scale is a class-year table of associate base pay published by large firms. Milbank's June 2026 memo set base salaries from $235,000 to $455,000, effective July 1, 2026."
+    ],
+    [
+     "ul",
+     [
+      "**Name the employer:** schedules differ between firms.",
+      "**Check the effective date:** a midyear raise is not a full year of pay.",
+      "**Bonuses are separate:** base salary tables do not include them."
+     ]
+    ],
+    [
+     "p",
+     "Compare published schedules in the [BigLaw salary scale](/law-firms/biglaw-salary-scale/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "Milbank 2026 salary announcement",
+     "url": "https://abovethelaw.com/wp-content/uploads/sites/4/2026/06/2026-Salary-Announcement.pdf"
+    }
+   ],
+   "featured": false,
+   "subtopic": "pay"
+  },
+  {
+   "id": "how-much-do-lawyers-make",
+   "topic": "metrics",
+   "q": "How much do lawyers make?",
+   "aliases": "lawyer salary median wage bls",
+   "blocks": [
+    [
+     "p",
+     "The median annual wage for lawyers was $159,670 in May 2025, according to the Bureau of Labor Statistics. Half earned more and half earned less."
+    ],
+    [
+     "ul",
+     [
+      "**Setting matters:** law firm, in-house, and government roles pay differently.",
+      "**BigLaw is separate:** large-firm associate scales start far higher.",
+      "**Medians are not offers:** compare the specific role and location."
+     ]
+    ],
+    [
+     "p",
+     "See [corporate lawyer salary](/legal/corporate-lawyer-salary/) for in-house and firm comparisons."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "BLS Occupational Outlook: Lawyers",
+     "url": "https://www.bls.gov/ooh/legal/lawyers.htm"
+    }
+   ],
+   "featured": false,
+   "subtopic": "pay"
+  },
+  {
+   "id": "how-much-do-paralegals-make",
+   "topic": "metrics",
+   "q": "How much do paralegals make?",
+   "aliases": "paralegal salary legal assistant wage",
+   "blocks": [
+    [
+     "p",
+     "The median annual wage for paralegals and legal assistants was $62,890 in May 2025, according to the Bureau of Labor Statistics. BLS reports the two jobs as one occupation."
+    ],
+    [
+     "ul",
+     [
+      "**Location changes pay:** state and metro medians vary widely.",
+      "**Employer type matters:** sectors report different medians.",
+      "**It is not a starting salary:** the median covers all experience levels."
+     ]
+    ],
+    [
+     "p",
+     "See state and employer data in [paralegal salary](/legal/paralegal-salary/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "BLS Occupational Outlook: Paralegals and Legal Assistants",
+     "url": "https://www.bls.gov/ooh/legal/paralegals-and-legal-assistants.htm"
+    }
+   ],
+   "featured": false,
+   "subtopic": "pay"
+  },
+  {
+   "id": "which-seo-metrics-should-law-firms-track",
+   "topic": "metrics",
+   "q": "Which SEO metrics should a law firm track?",
+   "aliases": "law firm seo kpi reporting conversions",
+   "blocks": [
+    [
+     "p",
+     "Track the chain from search to fee, and keep each stage separate. Rankings alone cannot show whether marketing produced clients."
+    ],
+    [
+     "ol",
+     [
+      "Impressions and clicks from search tools.",
+      "Inquiries recorded on the website and phone.",
+      "Consultations and signed engagements from intake records.",
+      "Fees collected from financial records."
+     ]
+    ],
+    [
+     "p",
+     "Read the reporting framework in [law firm SEO metrics](/legal-marketing/law-firm-seo-metrics/), then test returns with the [law firm SEO ROI calculator](/tools/law-firm-seo-roi-calculator/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "firm-metrics"
+  },
+  {
+   "id": "how-is-post-judgment-interest-calculated",
+   "topic": "process",
+   "q": "How is federal post-judgment interest calculated?",
+   "aliases": "post judgment interest 28 usc 1961 federal",
+   "blocks": [
+    [
+     "p",
+     "Under 28 U.S.C. 1961, interest on a federal civil money judgment runs from the date the judgment is entered, at the rate the statute sets."
+    ],
+    [
+     "ul",
+     [
+      "**Start date:** the date of entry of the judgment.",
+      "**Compounding:** the statute compounds interest annually.",
+      "**Rate:** tied to the weekly average one-year constant maturity Treasury yield for the week before judgment."
+     ]
+    ],
+    [
+     "p",
+     "Run the numbers with the [post-judgment interest calculator](/tools/post-judgment-interest-calculator/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "28 U.S.C. 1961 (Cornell LII)",
+     "url": "https://www.law.cornell.edu/uscode/text/28/1961"
+    }
+   ],
+   "featured": false,
+   "subtopic": "court"
+  },
+  {
+   "id": "how-much-does-it-cost-to-form-an-llc",
+   "topic": "process",
+   "q": "How much does it cost to form an LLC?",
+   "aliases": "llc cost state filing fee formation service",
+   "blocks": [
+    [
+     "p",
+     "You always pay your state's filing fee. A formation service may charge $0 or more on top, and a registered agent adds a yearly cost."
+    ],
+    [
+     "ul",
+     [
+      "**State fee:** set by each state and paid even with a $0 package.",
+      "**Registered agent:** about $119 to $249 a year among the providers we compared.",
+      "**EIN:** free from the IRS."
+     ]
+    ],
+    [
+     "p",
+     "Compare first-year and renewal costs in [LLC formation services](/legal-business/best-llc-formation-services/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "IRS: Get an employer identification number",
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number"
+    }
+   ],
+   "featured": false,
+   "subtopic": "business"
+  },
+  {
+   "id": "what-is-a-registered-agent",
+   "topic": "process",
+   "q": "What is a registered agent?",
+   "aliases": "registered agent statutory agent service of process",
+   "blocks": [
+    [
+     "p",
+     "A registered agent is the person or company named in state records to receive legal notices and official mail for your business."
+    ],
+    [
+     "ul",
+     [
+      "**Not a mailbox:** an agent receives legal notices, not all business mail.",
+      "**Renewal matters:** the cheapest first year is not always the cheapest over three years.",
+      "**Switch carefully:** file the state change form before cancelling your old agent."
+     ]
+    ],
+    [
+     "p",
+     "See prices and features in [registered agent services](/legal-business/best-registered-agent-services/)."
+    ]
+   ],
+   "sources": [],
+   "featured": false,
+   "subtopic": "business"
+  },
+  {
+   "id": "do-i-need-to-pay-for-an-ein",
+   "topic": "process",
+   "q": "Do I need to pay for an EIN?",
+   "aliases": "ein employer identification number free",
+   "blocks": [
+    [
+     "p",
+     "No. The IRS issues an employer identification number (EIN) for free. A paid EIN add-on from a formation service only buys convenience."
+    ],
+    [
+     "p",
+     "Apply directly through the IRS. See which add-ons are worth paying for in [LLC formation services](/legal-business/best-llc-formation-services/)."
+    ]
+   ],
+   "sources": [
+    {
+     "label": "IRS: Get an employer identification number",
+     "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number"
+    }
+   ],
+   "featured": false,
+   "subtopic": "business"
   }
  ]
 }

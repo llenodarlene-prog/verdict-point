@@ -1,0 +1,418 @@
+{
+  "tracker_id": "Blog:98",
+  "status": "verified",
+  "research_question": "How many people died in US traffic crashes in 2025 and 2024, and how should the rates be read?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for car accident statistics, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "NHTSA 2025 early estimate (2026-04-01); FARS final 2024; NHTSA 2024 early estimate (DOT HS 813 710)",
+    "scope_limitations": "2025 figures are estimates. FARS 30-day definition in the owner draft was cut as unverified."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "car accident statistics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-10",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "car accident statistics",
+        "type": "short-tail",
+        "volume": 1600,
+        "difficulty": 70,
+        "cpc": 3.76,
+        "intent": "Informational",
+        "ranking_url": "http://azdot.gov/planning/traffic-safety/arizona-motor-vehicle-crash-facts",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "car accident statistics us",
+        "type": "long-tail",
+        "volume": 210,
+        "difficulty": 71,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://azdot.gov/planning/traffic-safety/arizona-motor-vehicle-crash-facts",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "car accident statistics by state",
+        "type": "commercial",
+        "volume": 210,
+        "difficulty": 68,
+        "cpc": 26.29,
+        "intent": "Informational",
+        "ranking_url": "http://azdot.gov/planning/traffic-safety/arizona-motor-vehicle-crash-facts",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cause of car accident statistics",
+        "type": "problem",
+        "volume": 110,
+        "difficulty": 71,
+        "cpc": 11.33,
+        "intent": "Informational",
+        "ranking_url": "http://azdot.gov/planning/traffic-safety/arizona-motor-vehicle-crash-facts",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "death car accident statistics",
+        "type": "question",
+        "volume": 140,
+        "difficulty": 71,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://azdot.gov/planning/traffic-safety/arizona-motor-vehicle-crash-facts",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.nhtsa.gov/press-releases/traffic-deaths-2025-early-estimates-2024-annual",
+      "title": "Record-Low Traffic Deaths and Fatality Rates in 2025",
+      "publisher": "National Highway Traffic Safety Administration",
+      "source_type": "Government press release",
+      "year": "2026",
+      "published_at": "2026-04-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Estimated 36,640 deaths in 2025, -6.7%; rate 1.10, second-lowest in recorded history",
+      "method": "Checked on 2026-11-13 against screenshots of the live page supplied by the site owner, because the site blocks automated readers (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www-fars.nhtsa.dot.gov/Main/index.aspx",
+      "title": "FARS Encyclopedia",
+      "publisher": "National Highway Traffic Safety Administration",
+      "source_type": "Government statistics",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "2024: 36,297 fatal crashes; 39,254 deaths; rate 1.19; per-capita rates; person types; alcohol 30%; large trucks",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813710",
+      "title": "Early Estimate of Motor Vehicle Traffic Fatalities in 2024 (DOT HS 813 710)",
+      "publisher": "National Highway Traffic Safety Administration",
+      "source_type": "Government statistical summary",
+      "year": "2025",
+      "published_at": "2025-04-01",
+      "accessed_at": "2026-11-13",
+      "scope": "2024 estimate 39,345 and 1.20; historical 2013-2024 deaths and rates",
+      "method": "Downloaded the file and extracted its text on 2026-11-13 (Claude fact-check); every figure used was matched to the text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "NHTSA: estimated 36,640 traffic deaths in 2025, down 6.7%",
+      "source_url": "https://www.nhtsa.gov/press-releases/traffic-deaths-2025-early-estimates-2024-annual",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Motor vehicle traffic deaths",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Deaths",
+      "method": "Statistical projection",
+      "limitations": "Early estimate.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": true,
+      "verified": true
+    },
+    {
+      "claim": "FARS: 39,254 deaths and 36,297 fatal crashes in 2024",
+      "source_url": "https://www-fars.nhtsa.dot.gov/Main/index.aspx",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Motor vehicle traffic crashes",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Deaths and crashes",
+      "method": "Census of fatal crashes",
+      "limitations": "Final file.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "FARS: 1.19 deaths per 100 million VMT in 2024",
+      "source_url": "https://www-fars.nhtsa.dot.gov/Main/index.aspx",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Vehicle miles traveled",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "3,294 billion VMT",
+      "unit": "Rate",
+      "method": "Census of fatal crashes",
+      "limitations": "National average.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Arizona Motor Vehicle Crash Data",
+      "url": "http://azdot.gov/planning/traffic-safety/arizona-motor-vehicle-crash-facts",
+      "publisher": "Arizona DOT",
+      "format": "State data",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Arizona Motor Vehicle Crash Data"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "State detail.",
+      "gaps": "One state only."
+    },
+    {
+      "title": "Traffic Crash Deaths: Early Estimates Jan-June 2025",
+      "url": "http://www.nhtsa.gov/press-releases/nhtsa-reports-sharp-drop-traffic-fatalities-first-half-2025",
+      "publisher": "NHTSA",
+      "format": "Press release",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Traffic Crash Deaths: Early Estimates Jan-June 2025"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-10)"
+      ],
+      "covered_well": "Official.",
+      "gaps": "Half-year only."
+    },
+    {
+      "title": "Data",
+      "url": "http://www.nhtsa.gov/data",
+      "publisher": "NHTSA",
+      "format": "Data hub",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Data"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-10)"
+      ],
+      "covered_well": "Official tools.",
+      "gaps": "No summary answer."
+    },
+    {
+      "title": "The Impact of Motor Vehicle Crashes",
+      "url": "http://www.transportation.gov/NRSS/SafetyProblem",
+      "publisher": "US DOT",
+      "format": "Government page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "The Impact of Motor Vehicle Crashes"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "Policy context.",
+      "gaps": "Not updated tables."
+    },
+    {
+      "title": "Historical Car Crash Deaths and Rates",
+      "url": "http://injuryfacts.nsc.org/motor-vehicle/historical-fatality-trends/deaths-and-rates/",
+      "publisher": "National Safety Council",
+      "format": "Statistics page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Historical Car Crash Deaths and Rates"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "Long series.",
+      "gaps": "Different counting rules than FARS."
+    }
+  ],
+  "content_gaps": [
+    "Estimates presented as final.",
+    "Crashes and deaths mixed.",
+    "Rates not explained."
+  ],
+  "value_add": "Separates the 2025 estimate from final 2024 FARS data, shows estimate-to-final revision, person-type table, and a guide to four rate types.",
+  "plan": {
+    "reader_title": "Car Accident Statistics: Fatal Crashes, Deaths, and Risk Measures",
+    "seo_title": "Car Accident Statistics: 2025 and 2024 NHTSA Data",
+    "meta_description": "Car accident statistics from NHTSA: an estimated 36,640 traffic deaths in 2025, down 6.7%, and final 2024 counts of 36,297 fatal crashes and 39,254 deaths.",
+    "slug": "/legal/car-accident-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "traffic deaths 2025",
+      "fatal crashes 2024",
+      "traffic fatality rate"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "The 2025 Early Estimate",
+      "Final 2024 Car Accident Statistics",
+      "Crashes Versus Deaths",
+      "Who Died in 2024",
+      "People Outside the Vehicle",
+      "Alcohol and Large Trucks",
+      "How Estimates Get Revised",
+      "Where Deaths Fell",
+      "The Recent Trend",
+      "Seasons and Quarters",
+      "A Longer View",
+      "Which Rate Should You Use?",
+      "Who Uses These Numbers",
+      "Common Mistakes With Car Accident Statistics",
+      "What These Data Cannot Show",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.nhtsa.gov/press-releases/traffic-deaths-2025-early-estimates-2024-annual"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www-fars.nhtsa.dot.gov/Main/index.aspx"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813710"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/us-bankruptcy-statistics/",
+      "/legal/nursing-home-abuse-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://www.nhtsa.gov/press-releases/traffic-deaths-2025-early-estimates-2024-annual",
+      "https://www-fars.nhtsa.dot.gov/Main/index.aspx",
+      "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813710"
+    ],
+    "excluded_claims": [
+      "FARS definition details (not verified)",
+      "Injury crash counts"
+    ],
+    "drafting_cautions": [
+      "Label estimates.",
+      "Separate crashes and deaths."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "36,640 estimated deaths in 2025",
+      "source_url": "https://www.nhtsa.gov/press-releases/traffic-deaths-2025-early-estimates-2024-annual",
+      "verified": true
+    },
+    {
+      "statement": "2024 final crash and death counts",
+      "source_url": "https://www-fars.nhtsa.dot.gov/Main/index.aspx",
+      "verified": true
+    },
+    {
+      "statement": "2024 early estimate 39,345",
+      "source_url": "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813710",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "tracker_id": "Blog:96",
+  "status": "verified",
+  "research_question": "How many EEOC discrimination charges were filed in FY2025, by basis, and what did the agency resolve and recover?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for employment discrimination statistics, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "EEOC Table E1a (FY1997-FY2025); FY2025 APR; April 2026 release; OGC FY2025 report",
+    "scope_limitations": "Basis counts overlap and are never summed. Recovery channels listed separately."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "employment discrimination statistics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-10",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "employment discrimination statistics",
+        "type": "short-tail",
+        "volume": 90,
+        "difficulty": 42,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "disability employment discrimination statistics",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "eeoc statistics",
+        "type": "commercial",
+        "volume": 40,
+        "difficulty": 19,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "eeoc statistics by state",
+        "type": "problem",
+        "volume": 30,
+        "difficulty": 44,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what state has the most lawyers per capita",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 35,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1a._Charge_Receipts_by_Basis_or_Statute_%28All_Statutes%29_FY_1997_-_FY_2025_0.xlsx",
+      "title": "Table E1a. Charge Receipts by Basis or Statute, FY1997-FY2025",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government statistics table",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "FY2025 total 88,201; retaliation 54,350; disability 36,256; race 29,338; sex 26,941; age 16,353; notes on overlap, FY2022 religion, PWFA",
+      "method": "Downloaded the spreadsheet on 2026-11-13 and read its cell values directly (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.eeoc.gov/fy-2027-agency-performance-plan-app-and-fy-2025-agency-performance-report-apr",
+      "title": "FY2027 Performance Plan and FY2025 Performance Report",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government performance report",
+      "year": "2026",
+      "published_at": "2026-04-03",
+      "accessed_at": "2026-11-13",
+      "scope": "88,201 charges vs 88,531; 90,743 resolutions; inventory 49,807; 7,929 of 11,346 mediations; $245.3M",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.eeoc.gov/newsroom/eeoc-highlights-record-breaking-results-agency-reports",
+      "title": "EEOC Highlights Record-Breaking Results",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government press release",
+      "year": "2026",
+      "published_at": "2026-04-06",
+      "accessed_at": "2026-11-13",
+      "scope": "$660M for 17,680; $528M pre-litigation; $104.6M federal; $55M systemic; $52.5M conciliation; $27M litigation; ~270,000 inquiries",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report",
+      "title": "Office of General Counsel FY2025 Annual Report",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government annual report",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "94 merits suits; Title VII 54, ADA 35, ADEA 9; bases; 96.5% success",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+      "title": "Enforcement and Litigation Statistics",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government data index",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Index of tables",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "EEOC: 88,201 charges in FY2025",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1a._Charge_Receipts_by_Basis_or_Statute_%28All_Statutes%29_FY_1997_-_FY_2025_0.xlsx",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Charges filed with EEOC",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Charges",
+      "method": "Administrative records",
+      "limitations": "Excludes FEPA-only charges.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "EEOC: retaliation in 54,350 charges (61.6%) in FY2025",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1a._Charge_Receipts_by_Basis_or_Statute_%28All_Statutes%29_FY_1997_-_FY_2025_0.xlsx",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Charges filed with EEOC",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "88,201 charges",
+      "unit": "Charges and percent",
+      "method": "Administrative records",
+      "limitations": "Bases overlap.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "EEOC: $660 million recovered for 17,680 people in FY2025",
+      "source_url": "https://www.eeoc.gov/newsroom/eeoc-highlights-record-breaking-results-agency-reports",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "EEOC enforcement",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "US dollars",
+      "method": "Agency report",
+      "limitations": "Channels overlap.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Enforcement and Litigation Statistics",
+      "url": "http://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+      "publisher": "EEOC",
+      "format": "Data index",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Enforcement and Litigation Statistics"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "Primary tables.",
+      "gaps": "Spreadsheets only; no explanation."
+    },
+    {
+      "title": "Ending Discrimination and Harassment at Work",
+      "url": "http://www.americanprogress.org/article/playbook-for-the-advancement-of-women-in-the-economy/ending-discrimination-and-harassment-at-work/",
+      "publisher": "Center for American Progress",
+      "format": "Policy article",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Ending Discrimination and Harassment at Work"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "Policy context.",
+      "gaps": "Not current charge data."
+    },
+    {
+      "title": "Workplace Discrimination and Employment Law Statistics 2025",
+      "url": "http://www.rekhiwolk.com/employment-law/employment-law-statistics/",
+      "publisher": "Rekhi and Wolk",
+      "format": "Law firm roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Workplace Discrimination and Employment Law Statistics 2025"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-10)"
+      ],
+      "covered_well": "Broad list.",
+      "gaps": "Older data; overlap not explained."
+    },
+    {
+      "title": "U.S. Workplace Discrimination Trends and Stats",
+      "url": "http://fairchildemploymentlaw.com/workplace-discrimination-trends-in-the-united-states/",
+      "publisher": "Fairchild Employment Law",
+      "format": "Law firm blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "U.S. Workplace Discrimination Trends and Stats"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 6 (collected 2026-11-10)"
+      ],
+      "covered_well": "Trend framing.",
+      "gaps": "Secondary sourcing."
+    },
+    {
+      "title": "Statistics on Workplace Discrimination (2026 Guide)",
+      "url": "http://meditopia.com/en/forwork/articles/workplace-discrimination-statistics",
+      "publisher": "Meditopia",
+      "format": "Vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Statistics on Workplace Discrimination (2026 Guide)"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 7 (collected 2026-11-10)"
+      ],
+      "covered_well": "Readable.",
+      "gaps": "Mixed survey sources."
+    }
+  ],
+  "content_gaps": [
+    "Pages sum overlapping bases.",
+    "FY2025 data rarely shown.",
+    "Recovery channels added together."
+  ],
+  "value_add": "FY2024-FY2025 basis table from the EEOC spreadsheet with overlap warning, long-term trend, resolution and mediation results, and recovery channel table.",
+  "plan": {
+    "reader_title": "Employment Discrimination Statistics: EEOC Charges and Outcomes",
+    "seo_title": "Employment Discrimination Statistics: FY2025 EEOC",
+    "meta_description": "Employment discrimination statistics from the EEOC: 88,201 charges in FY2025, retaliation in 61.6%, disability in 41.1%, plus relief, mediation, and lawsuits.",
+    "slug": "/legal/employment-discrimination-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "eeoc charge statistics",
+      "retaliation charges",
+      "eeoc 2025 data"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Charges by Basis, FY2025",
+      "Retaliation Jumped in FY2025",
+      "Long-Term Trends",
+      "How the EEOC Resolved Charges",
+      "Money Recovered for Workers",
+      "EEOC Lawsuits",
+      "What Charges Do Not Prove",
+      "How to Read Employment Discrimination Statistics",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1a._Charge_Receipts_by_Basis_or_Statute_%28All_Statutes%29_FY_1997_-_FY_2025_0.xlsx"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.eeoc.gov/fy-2027-agency-performance-plan-app-and-fy-2025-agency-performance-report-apr"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.eeoc.gov/newsroom/eeoc-highlights-record-breaking-results-agency-reports"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/workplace-harassment-statistics/",
+      "/legal/how-many-lawyers-in-the-us/"
+    ],
+    "external_link_opportunities": [
+      "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1a._Charge_Receipts_by_Basis_or_Statute_%28All_Statutes%29_FY_1997_-_FY_2025_0.xlsx",
+      "https://www.eeoc.gov/fy-2027-agency-performance-plan-app-and-fy-2025-agency-performance-report-apr",
+      "https://www.eeoc.gov/newsroom/eeoc-highlights-record-breaking-results-agency-reports",
+      "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report",
+      "https://www.eeoc.gov/data/enforcement-and-litigation-statistics-0"
+    ],
+    "excluded_claims": [
+      "Prevalence estimates",
+      "Causes of retaliation jump"
+    ],
+    "drafting_cautions": [
+      "Never add basis counts.",
+      "Label fiscal years."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Charges by basis FY2025",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-04/Table_E1a._Charge_Receipts_by_Basis_or_Statute_%28All_Statutes%29_FY_1997_-_FY_2025_0.xlsx",
+      "verified": true
+    },
+    {
+      "statement": "90,743 resolutions; 70% mediation",
+      "source_url": "https://www.eeoc.gov/fy-2027-agency-performance-plan-app-and-fy-2025-agency-performance-report-apr",
+      "verified": true
+    },
+    {
+      "statement": "$660 million for 17,680",
+      "source_url": "https://www.eeoc.gov/newsroom/eeoc-highlights-record-breaking-results-agency-reports",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  }
+}
