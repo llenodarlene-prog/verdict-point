@@ -13,6 +13,8 @@ launch_silo: Legal AI
 silo_role: Commercial Support
 approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-technology-statistics/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/everlaw-ediscovery-document-review/
 research_record: content/research/blog-9.json
+image: /assets/images/posts/harvey-legal-ai-pilot/featured-ai-assistant-review-1600.jpg
+image_alt: A lawyer reading a printed document beside a monitor showing an AI assistant chat and a laptop with a draft
 source_document: https://docs.google.com/document/d/1U3d8b3dK0kwf0BAIubbOa1l9bsKAJXyMwoprNdCw9SM/edit?usp=drivesdk
 author: 
 published: 
