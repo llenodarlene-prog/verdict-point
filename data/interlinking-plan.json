@@ -2823,5 +2823,225 @@
     "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
     "qa_status": "Added by owner approval 2026-11-10",
     "content_number": "93"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "US Bankruptcy Statistics: Filings by Chapter and Case Type",
+    "url_slug": "/legal/us-bankruptcy-statistics/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 74,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/how-many-lawyers-in-the-us/",
+      "/legal/car-accident-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/how-many-lawyers-in-the-us/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/car-accident-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "94"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Workplace Harassment Statistics: EEOC Charges and Outcomes",
+    "url_slug": "/legal/workplace-harassment-statistics/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 75,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/nursing-home-abuse-statistics/",
+      "/legal/employment-discrimination-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/nursing-home-abuse-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/employment-discrimination-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "95"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Employment Discrimination Statistics: EEOC Charges and Outcomes",
+    "url_slug": "/legal/employment-discrimination-statistics/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 76,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/workplace-harassment-statistics/",
+      "/legal/how-many-lawyers-in-the-us/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/workplace-harassment-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/how-many-lawyers-in-the-us/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "96"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "How Many Lawyers Are in the US? 2026 Lawyer Statistics",
+    "url_slug": "/legal/how-many-lawyers-in-the-us/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 77,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/employment-discrimination-statistics/",
+      "/legal/us-bankruptcy-statistics/",
+      "/legal/law-school-acceptance-rates/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/employment-discrimination-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/us-bankruptcy-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/law-school-acceptance-rates/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "97"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Nursing Home Abuse Statistics: Deficiencies and Enforcement",
+    "url_slug": "/legal/nursing-home-abuse-statistics/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 79,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/car-accident-statistics/",
+      "/legal/workplace-harassment-statistics/",
+      "/legal/medical-malpractice-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/car-accident-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/workplace-harassment-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/medical-malpractice-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "99"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "Car Accident Statistics: Fatal Crashes, Deaths, and Risk Measures",
+    "url_slug": "/legal/car-accident-statistics/",
+    "cluster": "Legal",
+    "launch_silo": "Legal Industry & Economics",
+    "silo_role": "Supporting",
+    "publish_phase": 7,
+    "publish_order": 78,
+    "primary_silo_hub": "/legal/legal-industry-statistics-firm-size/",
+    "approved_outbound_targets": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/us-bankruptcy-statistics/",
+      "/legal/nursing-home-abuse-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal/legal-industry-statistics-firm-size/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/us-bankruptcy-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal/nursing-home-abuse-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-10",
+    "content_number": "98"
   }
 ]

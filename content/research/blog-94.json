@@ -1,0 +1,412 @@
+{
+  "tracker_id": "Blog:94",
+  "status": "verified",
+  "research_question": "How many bankruptcy cases were filed in the year to September 2026, by chapter and case type, and how does that compare with history?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for bankruptcy statistics, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "US Courts release of 2026-10-22 and Table F for 12 months ending 2026-09-30",
+    "scope_limitations": "Court case counts, not people or firms. Circuit totals not converted to rates. No causal claims."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "bankruptcy statistics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-10",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "bankruptcy statistics",
+        "type": "short-tail",
+        "volume": 110,
+        "difficulty": 61,
+        "cpc": 12.3,
+        "intent": "Informational",
+        "ranking_url": "http://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "bankruptcy statistics us",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 66,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "small business bankruptcy statistics",
+        "type": "commercial",
+        "volume": 30,
+        "difficulty": 44,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "medical debt bankruptcy statistics",
+        "type": "problem",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "bankruptcy statistics 2026",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.uscourts.gov/data-news/judiciary-news/2026/10/22/bankruptcy-filings-increase-114-percent",
+      "title": "Bankruptcy Filings Increase 11.4 Percent",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "source_type": "Government statistics release",
+      "year": "2026",
+      "published_at": "2026-10-22",
+      "accessed_at": "2026-11-13",
+      "scope": "621,111 filings (+11.4%); business 27,054 (+12.5%); non-business 594,057; chapters 7/11/12/13 for 2022-2026; peak near 1.6 million Sept 2010; low 380,634 June 2022",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+      "title": "Bankruptcy Filings Statistics",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "source_type": "Government data hub",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Quarterly filings for 12-month periods ending Mar 31, Jun 30, Sep 30, Dec 31; Tables F, F-2, Report F-5A (county)",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.uscourts.gov/sites/default/files/document/bf_f_0930.2026.pdf",
+      "title": "Table F, 12-month periods ending September 30, 2025 and 2026",
+      "publisher": "Administrative Office of the U.S. Courts",
+      "source_type": "Government statistics table",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Filed 621,111; terminated 556,601 (+3.7%); pending 749,734 (+9.0%); circuit and district filings",
+      "method": "Downloaded the file and extracted its text on 2026-11-13 (Claude fact-check); every figure used was matched to the text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "US Courts: 621,111 bankruptcy filings in 12 months ending Sept. 30, 2026, up 11.4%",
+      "source_url": "https://www.uscourts.gov/data-news/judiciary-news/2026/10/22/bankruptcy-filings-increase-114-percent",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "U.S. bankruptcy courts",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Cases",
+      "method": "Court records",
+      "limitations": "Rolling 12-month period.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "US Courts: Chapter 7 filings 391,386",
+      "source_url": "https://www.uscourts.gov/data-news/judiciary-news/2026/10/22/bankruptcy-filings-increase-114-percent",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "U.S. bankruptcy courts",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Cases",
+      "method": "Court records",
+      "limitations": "Includes business and non-business.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Table F: pending cases 749,734, up 9.0%",
+      "source_url": "https://www.uscourts.gov/sites/default/files/document/bf_f_0930.2026.pdf",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "U.S. bankruptcy courts",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Cases",
+      "method": "Court records",
+      "limitations": "Inventory, not delay.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Bankruptcy Filings Statistics",
+      "url": "http://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+      "publisher": "US Courts",
+      "format": "Data hub",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Bankruptcy Filings Statistics"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 1 (collected 2026-11-10)"
+      ],
+      "covered_well": "Official tables.",
+      "gaps": "No plain-language summary."
+    },
+    {
+      "title": "Bankruptcy Statistics",
+      "url": "http://www.abi.org/newsroom/bankruptcy-statistics",
+      "publisher": "American Bankruptcy Institute",
+      "format": "Statistics page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Bankruptcy Statistics"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "Monthly series.",
+      "gaps": "Calendar-year framing; little chapter context."
+    },
+    {
+      "title": "Bankruptcy: Statistics and Data",
+      "url": "http://guides.libraries.emory.edu/law/bankruptcy/bankruptcy_statistics",
+      "publisher": "Emory Law Library",
+      "format": "Research guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Bankruptcy: Statistics and Data"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-10)"
+      ],
+      "covered_well": "Source directory.",
+      "gaps": "No figures."
+    },
+    {
+      "title": "Bankruptcy Statistics",
+      "url": "http://www.debt.org/bankruptcy/statistics/",
+      "publisher": "Debt.org",
+      "format": "Statistics roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Bankruptcy Statistics"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-10)"
+      ],
+      "covered_well": "Readable summary.",
+      "gaps": "Mixes periods; secondary sources."
+    },
+    {
+      "title": "Bankruptcy and Restructuring Intelligence Platform",
+      "url": "http://www.bankruptcydata.com/",
+      "publisher": "BankruptcyData",
+      "format": "Vendor platform",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Bankruptcy and Restructuring Intelligence Platform"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 7 (collected 2026-11-10)"
+      ],
+      "covered_well": "Corporate case data.",
+      "gaps": "Paid; corporate focus only."
+    }
+  ],
+  "content_gaps": [
+    "Pages mix calendar and fiscal-year periods.",
+    "Few show pending cases or circuit data.",
+    "Percentages shown without counts."
+  ],
+  "value_add": "Five-year chapter and business tables, filed/terminated/pending comparison, circuit growth table, and count-beside-percentage reading guide.",
+  "plan": {
+    "reader_title": "US Bankruptcy Statistics: Filings by Chapter and Case Type",
+    "seo_title": "US Bankruptcy Statistics: 2026 Filings by Chapter",
+    "meta_description": "Bankruptcy statistics from the US Courts: 621,111 filings in the year to September 2026, up 11.4%. See chapter, business, circuit, and pending-case data.",
+    "slug": "/legal/us-bankruptcy-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "bankruptcy filings 2026",
+      "chapter 7 filings",
+      "business bankruptcies"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Five Years of Bankruptcy Filings",
+      "How Today Compares With the Peak",
+      "Bankruptcy Filings by Chapter",
+      "Business Versus Non-Business Cases",
+      "Filed, Terminated, and Pending Cases",
+      "Bankruptcy Statistics by Circuit",
+      "Why Filings Are Rising",
+      "What Bankruptcy Statistics Do Not Show",
+      "How to Read Bankruptcy Percentages",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.uscourts.gov/data-news/judiciary-news/2026/10/22/bankruptcy-filings-increase-114-percent"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.uscourts.gov/sites/default/files/document/bf_f_0930.2026.pdf"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/how-many-lawyers-in-the-us/",
+      "/legal/car-accident-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://www.uscourts.gov/data-news/judiciary-news/2026/10/22/bankruptcy-filings-increase-114-percent",
+      "https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+      "https://www.uscourts.gov/sites/default/files/document/bf_f_0930.2026.pdf"
+    ],
+    "excluded_claims": [
+      "Causes of the rise",
+      "Per-capita state rankings"
+    ],
+    "drafting_cautions": [
+      "Label rolling 12-month periods.",
+      "Show counts with percentages."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "621,111 filings, up 11.4%",
+      "source_url": "https://www.uscourts.gov/data-news/judiciary-news/2026/10/22/bankruptcy-filings-increase-114-percent",
+      "verified": true
+    },
+    {
+      "statement": "Pending 749,734; circuit filings",
+      "source_url": "https://www.uscourts.gov/sites/default/files/document/bf_f_0930.2026.pdf",
+      "verified": true
+    },
+    {
+      "statement": "Quarterly 12-month reporting periods",
+      "source_url": "https://www.uscourts.gov/data-news/reports/statistical-reports/bankruptcy-filings-statistics",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  }
+}

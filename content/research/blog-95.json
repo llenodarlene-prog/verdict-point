@@ -1,0 +1,439 @@
+{
+  "tracker_id": "Blog:95",
+  "status": "verified",
+  "research_question": "How many harassment charges did the EEOC receive in FY2025, how were they resolved, and what do charge counts miss?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for workplace harassment statistics, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "EEOC Tables E2a and E2c (FY2010-FY2025); OGC FY2025 annual report",
+    "scope_limitations": "Charges are allegations. 90% underreporting figure is an outside study cited by EEOC, labeled as such."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "workplace harassment statistics",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-10",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "workplace harassment statistics",
+        "type": "short-tail",
+        "volume": 70,
+        "difficulty": 42,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nsvrc.org/ending-sexual-assault-and-harassment-workplace/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "workplace harassment statistics 2024",
+        "type": "long-tail",
+        "volume": 20,
+        "difficulty": 8,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nsvrc.org/ending-sexual-assault-and-harassment-workplace/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "workplace harassment statistics 2023",
+        "type": "commercial",
+        "volume": 30,
+        "difficulty": 47,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nsvrc.org/ending-sexual-assault-and-harassment-workplace/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "workplace harassment statistics uk",
+        "type": "problem",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nsvrc.org/ending-sexual-assault-and-harassment-workplace/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "workplace harassment statistics india",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.nsvrc.org/ending-sexual-assault-and-harassment-workplace/",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2a._Charges_Alleging_Harassment_Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29_FY_2010_-_FY_2025.xlsx",
+      "title": "Table E2a. Charges Alleging Harassment, FY2010-FY2025",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government statistics table",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "FY2025 receipts 37,397; resolutions 37,613; resolution types; monetary benefits $261.9M",
+      "method": "Downloaded the spreadsheet on 2026-11-13 and read its cell values directly (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2c._Title_VII_Sexual_Harassment_Charge_Receipts_and_Resolutions_by_Type_of_Resolution_FY_2010_-_FY_2025.xlsx",
+      "title": "Table E2c. Title VII Sexual Harassment, FY2010-FY2025",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government statistics table",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "FY2025 receipts 8,475; resolutions 8,689; benefits $86.12M",
+      "method": "Downloaded the spreadsheet on 2026-11-13 and read its cell values directly (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report",
+      "title": "Office of General Counsel FY2025 Annual Report",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government annual report",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "94 merits suits; harassment raised in 29; 96.5% success; almost $27M for ~2,505 people",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.eeoc.gov/data/sexual-harassment-our-nations-workplaces",
+      "title": "Sexual Harassment in Our Nation's Workplaces (data highlight)",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government data highlight (archived)",
+      "year": "2022",
+      "published_at": "2022-04-01",
+      "accessed_at": "2026-11-13",
+      "scope": "Cites study: 90% of those who experience harassment never take formal action",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.eeoc.gov/data/enforcement-and-litigation-statistics-0",
+      "title": "Enforcement and Litigation Statistics",
+      "publisher": "U.S. Equal Employment Opportunity Commission",
+      "source_type": "Government data index",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Index of FY1997-FY2025 tables",
+      "method": "Opened and read the live page on 2026-11-13 (Claude fact-check); every figure used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "EEOC: 37,397 harassment charges in FY2025",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2a._Charges_Alleging_Harassment_Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29_FY_2010_-_FY_2025.xlsx",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Charges filed with EEOC",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Charges",
+      "method": "Administrative records",
+      "limitations": "Allegations; excludes FEPA-only charges.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "EEOC: 8,475 Title VII sexual harassment charges in FY2025",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2c._Title_VII_Sexual_Harassment_Charge_Receipts_and_Resolutions_by_Type_of_Resolution_FY_2010_-_FY_2025.xlsx",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Charges filed with EEOC",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "Charges",
+      "method": "Administrative records",
+      "limitations": "Allegations.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "EEOC: 60.6% of harassment resolutions were no reasonable cause in FY2025",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2a._Charges_Alleging_Harassment_Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29_FY_2010_-_FY_2025.xlsx",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Harassment charge resolutions",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "37,613 resolutions",
+      "unit": "Percent",
+      "method": "Administrative records",
+      "limitations": "Not a finding that no harassment occurred.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Ending Sexual Assault and Harassment in the Workplace",
+      "url": "http://www.nsvrc.org/ending-sexual-assault-and-harassment-workplace/",
+      "publisher": "NSVRC",
+      "format": "Advocacy resource",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Ending Sexual Assault and Harassment in the Workplace"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-10)"
+      ],
+      "covered_well": "Context and resources.",
+      "gaps": "No current charge data."
+    },
+    {
+      "title": "Sexual Harassment in Our Nation's Workplaces",
+      "url": "http://www.eeoc.gov/data/sexual-harassment-our-nations-workplaces",
+      "publisher": "EEOC",
+      "format": "Archived data highlight",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Sexual Harassment in Our Nation's Workplaces"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-10)"
+      ],
+      "covered_well": "Authoritative.",
+      "gaps": "Covers FY2018-FY2021 only."
+    },
+    {
+      "title": "2025 Workplace Harassment and Misconduct Statistics",
+      "url": "http://www.hracuity.com/resources/research/2025-workplace-harassment-and-misconduct-statistics/",
+      "publisher": "HR Acuity",
+      "format": "Vendor survey",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "2025 Workplace Harassment and Misconduct Statistics"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-10)"
+      ],
+      "covered_well": "Recent survey.",
+      "gaps": "Sponsored survey; not charge data."
+    },
+    {
+      "title": "Workplace Harassment Remains Prevalent As EEOC Rescinds Guidance",
+      "url": "http://www.forbes.com/sites/michelletravis/2026/02/05/troubling-new-data-on-workplace-harassment-as-eeoc-rescinds-guidance/",
+      "publisher": "Forbes",
+      "format": "News analysis",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Workplace Harassment Remains Prevalent As EEOC Rescinds Guidance"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 6 (collected 2026-11-10)"
+      ],
+      "covered_well": "Current context.",
+      "gaps": "Opinion framing; limited tables."
+    },
+    {
+      "title": "How Common Is Sexual Harassment in the Workplace?",
+      "url": "http://www.360training.com/blog/how-common-is-sexual-harassment-in-the-workplace",
+      "publisher": "360training",
+      "format": "Training vendor blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "How Common Is Sexual Harassment in the Workplace?"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 7 (collected 2026-11-10)"
+      ],
+      "covered_well": "Accessible.",
+      "gaps": "Secondary figures; dated."
+    }
+  ],
+  "content_gaps": [
+    "Ranking pages cite FY2018-21 data or surveys.",
+    "Few show resolution outcomes.",
+    "Underreporting figures lack attribution."
+  ],
+  "value_add": "FY2021-FY2025 harassment and sexual harassment tables from EEOC spreadsheets, full resolution breakdown, and labeled share of all charges.",
+  "plan": {
+    "reader_title": "Workplace Harassment Statistics: EEOC Charges and Outcomes",
+    "seo_title": "Workplace Harassment Statistics: FY2025 EEOC Data",
+    "meta_description": "Workplace harassment statistics from the EEOC: 37,397 harassment charges in FY2025, 8,475 sexual harassment charges, outcomes, and what the counts miss.",
+    "slug": "/legal/workplace-harassment-statistics/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "eeoc harassment charges",
+      "sexual harassment statistics",
+      "harassment charges 2025"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Harassment Charges by Year",
+      "Sexual Harassment Charges",
+      "How Harassment Charges Are Resolved",
+      "Harassment Within All EEOC Charges",
+      "Harassment Lawsuits Filed by the EEOC",
+      "Why Charges Undercount Harassment",
+      "What the Data Cannot Show",
+      "How to Read Workplace Harassment Statistics",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2a._Charges_Alleging_Harassment_Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29_FY_2010_-_FY_2025.xlsx"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2c._Title_VII_Sexual_Harassment_Charge_Receipts_and_Resolutions_by_Type_of_Resolution_FY_2010_-_FY_2025.xlsx"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/nursing-home-abuse-statistics/",
+      "/legal/employment-discrimination-statistics/"
+    ],
+    "external_link_opportunities": [
+      "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2a._Charges_Alleging_Harassment_Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29_FY_2010_-_FY_2025.xlsx",
+      "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2c._Title_VII_Sexual_Harassment_Charge_Receipts_and_Resolutions_by_Type_of_Resolution_FY_2010_-_FY_2025.xlsx",
+      "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report",
+      "https://www.eeoc.gov/data/sexual-harassment-our-nations-workplaces",
+      "https://www.eeoc.gov/data/enforcement-and-litigation-statistics-0"
+    ],
+    "excluded_claims": [
+      "Prevalence estimates",
+      "Industry rankings"
+    ],
+    "drafting_cautions": [
+      "Call charges allegations.",
+      "Attribute the 90% figure to the cited study."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "37,397 harassment charges FY2025",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2a._Charges_Alleging_Harassment_Charge_Receipts_and_Resolutions_by_Type_%28All_Statutes%29_FY_2010_-_FY_2025.xlsx",
+      "verified": true
+    },
+    {
+      "statement": "8,475 sexual harassment charges FY2025",
+      "source_url": "https://www.eeoc.gov/sites/default/files/2026-03/Table_E2c._Title_VII_Sexual_Harassment_Charge_Receipts_and_Resolutions_by_Type_of_Resolution_FY_2010_-_FY_2025.xlsx",
+      "verified": true
+    },
+    {
+      "statement": "Harassment raised in 29 of 94 merits suits",
+      "source_url": "https://www.eeoc.gov/office-general-counsel-fiscal-year-2025-annual-report",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  }
+}

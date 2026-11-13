@@ -1,0 +1,406 @@
+{
+  "tracker_id": "Blog:97",
+  "status": "verified",
+  "research_question": "How many resident active lawyers are in the US, where are they, and how is the count built?",
+  "research_brief": {
+    "purpose": "Owner-approved statistics page for how many lawyers are in the us, rebuilt from the owner draft after a live fact-check.",
+    "audience": "Readers, students, journalists, and legal professionals in the United States who need sourced figures.",
+    "publication_year": "2026",
+    "data_period": "ABA 2025 Profile of the Legal Profession announcement; BLS May 2025; Census SUSB 2022",
+    "scope_limitations": "ABA methodology page could not be verified and its coverage percentages were cut. Licensed lawyers are not jobs."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "how many lawyers are in the us",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-13"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "how many lawyers are in the us",
+        "type": "short-tail",
+        "volume": 2400,
+        "difficulty": 53,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.americanbar.org/content/dam/aba/administrative/news/2020/07/potlp2020.pdf",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "number of lawyers in the us",
+        "type": "long-tail",
+        "volume": 260,
+        "difficulty": 43,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.americanbar.org/content/dam/aba/administrative/news/2020/07/potlp2020.pdf",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how many attorneys in the us",
+        "type": "commercial",
+        "volume": 2400,
+        "difficulty": 33,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.americanbar.org/content/dam/aba/administrative/news/2020/07/potlp2020.pdf",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "lawyers per capita by state",
+        "type": "problem",
+        "volume": 50,
+        "difficulty": 28,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.americanbar.org/content/dam/aba/administrative/news/2020/07/potlp2020.pdf",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what state has the most lawyers per capita",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 35,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.americanbar.org/content/dam/aba/administrative/news/2020/07/potlp2020.pdf",
+        "retrieved_at": "2026-11-13",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/12/aba-2025-profile-of-the-legal-profession-report/",
+      "title": "ABA 2025 Profile of the Legal Profession report",
+      "publisher": "American Bar Association",
+      "source_type": "Professional association release",
+      "year": "2025",
+      "published_at": "2025-12-01",
+      "accessed_at": "2026-11-13",
+      "scope": "1,374,720 vs 1,355,963 (1.38%); +73,363 (5.6%) over 10 years; state counts; growth states; regions; women 41%, men 58%; data since 1878",
+      "method": "Checked on 2026-11-13 against screenshots of the live page supplied by the site owner, because the site blocks automated readers (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "title": "Occupational Outlook Handbook: Lawyers",
+      "publisher": "U.S. Bureau of Labor Statistics",
+      "source_type": "Government statistics",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "Median annual wage $159,670 in May 2025",
+      "method": "Opened and read the live page on 2026-10-20 (Claude fact-check, earlier legal industry report); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/susb.html",
+      "title": "Statistics of U.S. Businesses",
+      "publisher": "U.S. Census Bureau",
+      "source_type": "Government statistics",
+      "year": "2022",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-13",
+      "scope": "SUSB definitions; 2022 Offices of Lawyers firm counts (156,583 firms; 74.5% under five employees)",
+      "method": "Opened and read on 2026-10-02 for the earlier legal industry report (Claude fact-check); fact-check sign-off by Darlene Aberin.",
+      "limitations": "Administrative records; figures can be revised by the publisher. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "ABA: 1,374,720 resident active lawyers in 2025",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/12/aba-2025-profile-of-the-legal-profession-report/",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Resident active lawyers",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "People",
+      "method": "National Lawyer Population Survey",
+      "limitations": "Some duplicate licensing may remain.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ABA: New York 190,015 lawyers",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/12/aba-2025-profile-of-the-legal-profession-report/",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Resident active lawyers",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "People",
+      "method": "National Lawyer Population Survey",
+      "limitations": "Raw count.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "BLS: lawyer median wage $159,670 May 2025",
+      "source_url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Lawyers (SOC 23-1011)",
+      "sample": "Not applicable (administrative records)",
+      "denominator": "Not applicable",
+      "unit": "USD annual",
+      "method": "OEWS",
+      "limitations": "Jobs, not licensees.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "ABA Profile of the Legal Profession 2020",
+      "url": "http://www.americanbar.org/content/dam/aba/administrative/news/2020/07/potlp2020.pdf",
+      "publisher": "American Bar Association",
+      "format": "Report PDF",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "ABA Profile of the Legal Profession 2020"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-13)"
+      ],
+      "covered_well": "Authoritative.",
+      "gaps": "2020 data; outdated."
+    },
+    {
+      "title": "ABA Profile of the Legal Profession: Diversity and Well-Being",
+      "url": "http://www.2civility.org/aba-profile-of-the-legal-profession-diversity-and-well-being/",
+      "publisher": "2Civility",
+      "format": "Commentary",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "ABA Profile of the Legal Profession: Diversity and Well-Being"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-13)"
+      ],
+      "covered_well": "Context.",
+      "gaps": "Older edition."
+    },
+    {
+      "title": "54 Lawyer Statistics and Facts",
+      "url": "http://www.rev.com/blog/lawyer-statistics",
+      "publisher": "Rev",
+      "format": "Vendor roundup",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "54 Lawyer Statistics and Facts"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-13)"
+      ],
+      "covered_well": "Popular list.",
+      "gaps": "Mixed sources and years."
+    },
+    {
+      "title": "The Lawyer Statistical Report",
+      "url": "http://www.americanbarfoundation.org/wp-content/uploads/2023/05/2005_lawyer_statistical_report.pdf",
+      "publisher": "American Bar Foundation",
+      "format": "Historical report",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "The Lawyer Statistical Report"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-13)"
+      ],
+      "covered_well": "Historical depth.",
+      "gaps": "2005 data."
+    },
+    {
+      "title": "Legal News article",
+      "url": "http://legalnews.com/Home/Articles?DataId=1591585",
+      "publisher": "Legal News",
+      "format": "News",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Legal News article"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-11-13)"
+      ],
+      "covered_well": "News coverage.",
+      "gaps": "Not a data reference."
+    }
+  ],
+  "content_gaps": [
+    "Top results show 2020 or older counts.",
+    "Few separate licensees from jobs.",
+    "Regional growth rarely shown."
+  ],
+  "value_add": "Current 2025 ABA counts with state, growth, and regional tables, plus a licensed-versus-jobs comparison with BLS and Census.",
+  "plan": {
+    "reader_title": "How Many Lawyers Are in the US? 2026 Lawyer Statistics",
+    "seo_title": "How Many Lawyers Are in the US? 2025 ABA Count",
+    "meta_description": "How many lawyers are in the US? The ABA counted 1,374,720 resident active lawyers in 2025. See state counts, ten-year growth, regions, and what the count measures.",
+    "slug": "/legal/how-many-lawyers-in-the-us/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "how many attorneys in the us",
+      "number of lawyers in the us",
+      "lawyers by state"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "The National Lawyer Count",
+      "States With the Most Lawyers",
+      "Where the Lawyer Population Is Growing",
+      "Lawyer Demographics",
+      "Licensed Lawyers Versus Lawyer Jobs",
+      "Lawyers Versus Law Firms",
+      "What the Count Can and Cannot Show",
+      "How We Checked the Data",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.americanbar.org/news/abanews/aba-news-archives/2025/12/aba-2025-profile-of-the-legal-profession-report/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.bls.gov/ooh/legal/lawyers.htm"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.census.gov/programs-surveys/susb.html"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
+    "internal_links": [
+      "/legal/legal-industry-statistics-firm-size/",
+      "/legal/employment-discrimination-statistics/",
+      "/legal/us-bankruptcy-statistics/",
+      "/legal/law-school-acceptance-rates/"
+    ],
+    "external_link_opportunities": [
+      "https://www.americanbar.org/news/abanews/aba-news-archives/2025/12/aba-2025-profile-of-the-legal-profession-report/",
+      "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "https://www.census.gov/programs-surveys/susb.html"
+    ],
+    "excluded_claims": [
+      "ABA methodology coverage percentages (not verified)",
+      "Per-capita rankings"
+    ],
+    "drafting_cautions": [
+      "Say resident active lawyers.",
+      "Label DC as a city jurisdiction."
+    ]
+  },
+  "claims": [
+    {
+      "statement": "1,374,720 resident active lawyers in 2025",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/12/aba-2025-profile-of-the-legal-profession-report/",
+      "verified": true
+    },
+    {
+      "statement": "Median lawyer wage $159,670",
+      "source_url": "https://www.bls.gov/ooh/legal/lawyers.htm",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-13"
+  }
+}
