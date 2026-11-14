@@ -1,241 +1,407 @@
 {
   "tracker_id": "Article:8",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Law Firm Client Acquisition Statistics. Planned sources and method: Consented intake and advertising records; define signed engagement. Build a source-labelled comparison covering cost per signed case and law firm lead sources; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
+  "research_question": "What do public benchmarks show about law firm lead cost, intake responsiveness, and phone conversions, and why is cost per signed matter different?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Statistics article separating lead cost, intake response, and signed-matter cost for 2027 budgeting.",
+    "audience": "Law firm managing partners, marketing and intake managers in the United States.",
+    "publication_year": "2026",
+    "data_period": "WordStream 2026 benchmarks; Clio 2024 intake study; Ruler Analytics 2026 dataset.",
+    "scope_limitations": "No public source establishes a universal cost per signed matter; vendor datasets have undisclosed legal mixes."
   },
   "keyword_research": {
     "approved_primary_keyword": "law firm client acquisition statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-09-22",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
-      },
-      {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-11-14"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "law firm client acquisition statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://attorneyatlawmagazine.com/legal-marketing/how-firms-can-use-behavioral-data-to-influence-client-acquisition-retention-and-service-delivery",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "legal marketing statistics",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 53,
+        "cpc": 7.84,
+        "intent": "Informational",
+        "ranking_url": "http://attorneyatlawmagazine.com/legal-marketing/how-firms-can-use-behavioral-data-to-influence-client-acquisition-retention-and-service-delivery",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm billing software",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1300,
+        "difficulty": 39,
+        "cpc": 219.55,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://attorneyatlawmagazine.com/legal-marketing/how-firms-can-use-behavioral-data-to-influence-client-acquisition-retention-and-service-delivery",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to improve law firm profitability",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 24,
+        "cpc": 9.38,
+        "intent": "Informational",
+        "ranking_url": "http://attorneyatlawmagazine.com/legal-marketing/how-firms-can-use-behavioral-data-to-influence-client-acquisition-retention-and-service-delivery",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is law firm billing",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://attorneyatlawmagazine.com/legal-marketing/how-firms-can-use-behavioral-data-to-influence-client-acquisition-retention-and-service-delivery",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.wordstream.com/blog/2026-google-ads-benchmarks",
+      "title": "2026 Google Ads Benchmarks",
+      "publisher": "WordStream",
+      "source_type": "Vendor benchmark",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Average cost per lead by industry.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Only the attorneys and legal services CPL row is used; verified via owner screenshot captured 2026-11-13.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/guides/client-intake-legal-trends/",
+      "title": "Are Law Firms Failing at Marketing and Client Engagement?",
+      "publisher": "Clio",
+      "source_type": "Vendor research",
+      "year": "2024",
+      "published_at": "2024-10-07",
+      "accessed_at": "2026-11-14",
+      "scope": "Responsiveness of 500 law firms to client inquiries.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Third-party shopper study; methodology detail not on page.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "title": "23+ Legal Marketing Statistics Backed by Real Data 2026",
+      "publisher": "Ruler Analytics",
+      "source_type": "Vendor dataset",
+      "year": "2026",
+      "published_at": "2026-05-29",
+      "accessed_at": "2026-11-14",
+      "scope": "Share of legal conversions by phone.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor-tracked; legal sample breakdown not disclosed.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Attorneys and legal services average cost per lead: $131.63.",
+      "source_url": "https://www.wordstream.com/blog/2026-google-ads-benchmarks",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Google Ads advertisers in the WordStream sample",
+      "sample": "WordStream benchmark sample",
+      "denominator": "Leads",
+      "unit": "US dollars",
+      "method": "Vendor benchmark",
+      "limitations": "Blends markets and practice areas",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Of 500 law firms contacted in 2024, 40% picked up when called, 52% were reached by phone, and 33% responded to email.",
+      "source_url": "https://www.clio.com/guides/client-intake-legal-trends/",
+      "data_year": "2024",
+      "geography": "Not stated",
+      "population": "Law firms contacted by shoppers",
+      "sample": "500 law firms",
+      "denominator": "Firms contacted",
+      "unit": "Percent",
+      "method": "Third-party shopper study",
+      "limitations": "Single study; method detail limited",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "56.3% of legal conversions happen via phone call.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Legal businesses in the Ruler dataset",
+      "sample": "Ruler tracked dataset",
+      "denominator": "Conversions",
+      "unit": "Percent",
+      "method": "Vendor tracking",
+      "limitations": "Definition of conversion not stated",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "How Firms Can Use Behavioral Data to Influence Client Acquisition",
+      "url": "http://attorneyatlawmagazine.com/legal-marketing/how-firms-can-use-behavioral-data-to-influence-client-acquisition-retention-and-service-delivery",
+      "publisher": "Attorney at Law Magazine",
+      "format": "Article",
+      "updated_at": "Not stated",
+      "headings": [
+        "Behavioral data"
+      ],
+      "coverage": [
+        "Acquisition strategy"
+      ],
+      "sources": [
+        "Opinion"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-09-22)"
+      ],
+      "covered_well": "Strategic framing",
+      "gaps": "Few statistics"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Top 40+ Law Firm Marketing Statistics for 2026",
+      "url": "http://www.mycase.com/blog/law-firm-marketing/law-firm-marketing-statistics/",
+      "publisher": "MyCase",
+      "format": "Listicle",
+      "updated_at": "Not stated",
+      "headings": [
+        "Marketing stats"
+      ],
+      "coverage": [
+        "Mixed statistics"
+      ],
+      "sources": [
+        "Mixed"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-09-22)"
+      ],
+      "covered_well": "Broad",
+      "gaps": "Blends lead and client metrics"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Client Retention Rates: Law Firm Profit Strategy",
+      "url": "http://www.leanlaw.co/blog/client-retention-rates-for-law-firms-why-the-clients-you-keep-matter-more-than-the-ones-you-chase/",
+      "publisher": "LeanLaw",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Retention"
+      ],
+      "coverage": [
+        "Retention economics"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-09-22)"
+      ],
+      "covered_well": "Retention angle",
+      "gaps": "No acquisition benchmarks"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Analyzing Client Acquisition Data for Attorneys",
+      "url": "http://legalbrandmarketing.com/analyzing-client-acquisition-data-for-attorneys/",
+      "publisher": "Legal Brand Marketing",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Data analysis"
+      ],
+      "coverage": [
+        "Acquisition analytics"
+      ],
+      "sources": [
+        "Agency"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-09-22)"
+      ],
+      "covered_well": "Process",
+      "gaps": "No public benchmarks"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Unbelievable Law Firm Marketing Statistics",
+      "url": "http://www.attorneyatwork.com/unbelievable-law-firm-marketing-statistics/",
+      "publisher": "Attorney at Work",
+      "format": "Article",
+      "updated_at": "Not stated",
+      "headings": [
+        "Marketing stats"
+      ],
+      "coverage": [
+        "Intake responsiveness"
+      ],
+      "sources": [
+        "Clio data"
+      ],
+      "data_assets": [
+        "Stats"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 6 (collected 2026-09-22)"
+      ],
+      "covered_well": "Readable",
+      "gaps": "No signed-matter method"
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Competitors treat cost per lead as cost per client.",
+    "Few connect intake responsiveness to acquisition cost."
+  ],
+  "value_add": "A signed-matter cost formula, an acquisition ledger, and guidance on fixed outcome windows.",
   "plan": {
     "reader_title": "Law Firm Client Acquisition Statistics",
     "seo_title": "Law Firm Client Acquisition Statistics",
-    "meta_description": "",
+    "meta_description": "Law firm client acquisition statistics for lead costs, response rates, and signed-matter measurement, with 2026 benchmarks and limits.",
     "slug": "/law-firms/law-firm-client-acquisition-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "law firm cost per lead",
+      "law firm intake response rate"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "What the 2026 Paid Search Benchmarks Actually Measure",
+      "Why Cost per Lead Is Not Cost per Signed Matter",
+      "How to Use Public Benchmarks in a 2027 Budget",
+      "Intake Performance Changes Acquisition Economics",
+      "Response Rate Belongs in the Marketing Review",
+      "Phone Calls Need Their Own Attribution Rules",
+      "A Better Client Acquisition Ledger",
+      "Fields Worth Capturing",
+      "Choose a Fixed Outcome Window",
+      "Four Numbers That Should Not Be Blended",
+      "Attribution Is a Management Choice",
+      "Segmentation Makes the Numbers Useful",
+      "Add Quality and Capacity Guardrails",
+      "Treat Referrals as a Measured Channel",
+      "Protect Privacy While Improving Attribution",
+      "A 2027 Measurement Plan for Law Firms",
+      "The Bottom Line",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Lead cost",
+        "sources": [
+          "https://www.wordstream.com/blog/2026-google-ads-benchmarks"
+        ]
+      },
+      {
+        "section": "Intake",
+        "sources": [
+          "https://www.clio.com/guides/client-intake-legal-trends/"
+        ]
+      },
+      {
+        "section": "Phone attribution",
+        "sources": [
+          "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
     "internal_links": [
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
       "/legal-marketing/law-firm-seo-statistics/",
       "/legal-tech/mycase-legal-software/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.wordstream.com/blog/2026-google-ads-benchmarks",
+      "https://www.clio.com/guides/client-intake-legal-trends/",
+      "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/"
+    ],
+    "excluded_claims": [
+      "WordStream CTR, CPC, conversion rate",
+      "WordStream sample size and dates"
+    ],
+    "drafting_cautions": [
+      "Never present cost per lead as cost per signed matter.",
+      "Label Clio figures as a 2024 study."
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "48% of law firms were unreachable by phone in the Clio study.",
+      "source_url": "https://www.clio.com/guides/client-intake-legal-trends/",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
-  },
-  "recovery": {
-    "research_brief": "https://docs.google.com/document/d/1o_OH3T92PTKr79vhiucP1F9p8T6UGM17yCzH8Tw30tU/edit?usp=drivesdk",
-    "research_snapshot": "sources/google-drive/1o_OH3T92PTKr79vhiucP1F9p8T6UGM17yCzH8Tw30tU.md",
-    "draft_snapshot": "sources/google-drive/1kS8W-JhPrwFjv6jqqmd-n-VgtIurh4PGX0ds4n3i-Hg.md",
-    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   }
 }
