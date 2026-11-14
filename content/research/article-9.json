@@ -1,241 +1,401 @@
 {
   "tracker_id": "Article:9",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Law Firm Billing Statistics and Uncollected Work. Planned sources and method: Clio billing benchmarks; distinguish utilization, realization and collection. Build a source-labelled comparison covering law firm realization rate and law firm collection rate; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
+  "research_question": "What do current public benchmarks show for law firm utilization, realization, and collection, and how should lockup be measured?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Statistics article tracing work from recorded time to collected cash, with a firm-level lockup method.",
+    "audience": "Law firm managing partners, finance and billing managers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Clio 2026 KPIs; Thomson Reuters 2026 State of the US Legal Market (2025 data).",
+    "scope_limitations": "Clio figures reflect its customer dataset; Thomson Reuters covers monitored large firms; no public lockup median used."
   },
   "keyword_research": {
     "approved_primary_keyword": "law firm billing statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-09-22",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
-      },
-      {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-11-14"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "law firm billing statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.clio.com/blog/law-firm-billing/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
-        "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "keyword": "law firm billing",
+        "type": "short-tail",
+        "volume": 110,
+        "difficulty": 32,
+        "cpc": 65.81,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.clio.com/blog/law-firm-billing/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm billing software",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1300,
+        "difficulty": 39,
+        "cpc": 219.55,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.clio.com/blog/law-firm-billing/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
-        "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "keyword": "law firm billing rates",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 37,
+        "cpc": 4.61,
+        "intent": "Informational",
+        "ranking_url": "http://www.clio.com/blog/law-firm-billing/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is wip in law firm billing",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.clio.com/blog/law-firm-billing/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm billing problems",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.clio.com/blog/law-firm-billing/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.clio.com/resources/legal-trends/benchmarks/",
+      "title": "Law Firm Performance Benchmarks",
+      "publisher": "Clio",
+      "source_type": "Vendor benchmark",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "2026 utilization, realization, and collection KPIs.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Clio customer data; verified via owner screenshot captured 2026-11-13.",
+      "verified": true
+    },
+    {
+      "url": "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "title": "2026 State of the US Legal Market",
+      "publisher": "Thomson Reuters Institute",
+      "source_type": "Industry report",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Monitored-firm financial performance in 2025.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Monitored segment of larger firms.",
+      "verified": true
+    },
+    {
+      "url": "https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails",
+      "title": "Law Firm Financial Index Q4 2025",
+      "publisher": "Thomson Reuters Institute",
+      "source_type": "Industry index",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Quarterly demand and financial index.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Monitored segment; quarterly data.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Clio 2026 KPIs: 42% utilization (about 3.4 billable hours), 90% realization (about 3.0 hours), 92% collection (about 2.8 hours).",
+      "source_url": "https://www.clio.com/resources/legal-trends/benchmarks/",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Law firms in Clio data",
+      "sample": "Clio customer data",
+      "denominator": "Eight-hour workday",
+      "unit": "Percent and hours",
+      "method": "Vendor benchmark",
+      "limitations": "Rounded; vendor dataset",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Worked rate growth of 7.3% during 2025.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Firms monitored by Thomson Reuters",
+      "sample": "Monitored firms",
+      "denominator": "Prior-year worked rates",
+      "unit": "Percent",
+      "method": "Industry report",
+      "limitations": "Monitored segment only",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "The Ultimate Legal Billing Guide",
+      "url": "http://www.clio.com/blog/law-firm-billing/",
+      "publisher": "Clio",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Billing guide"
+      ],
+      "coverage": [
+        "Billing practices"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-09-22)"
+      ],
+      "covered_well": "Practical billing steps",
+      "gaps": "Few benchmarks"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Before the Invoice",
+      "url": "http://www.aderant.com/blog/before-the-invoice-the-law-firm-data-everyone-ignores/",
+      "publisher": "Aderant",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Pre-bill data"
+      ],
+      "coverage": [
+        "Unbilled time"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-09-22)"
+      ],
+      "covered_well": "Pre-bill focus",
+      "gaps": "No public benchmarks"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firm Pricing: Data-Driven Rate Strategy",
+      "url": "http://www.leanlaw.co/blog/law-firm-pricing-data-driven-framework/",
+      "publisher": "LeanLaw",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Pricing"
+      ],
+      "coverage": [
+        "Rate strategy"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-09-22)"
+      ],
+      "covered_well": "Pricing framing",
+      "gaps": "No collection data"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Complete guide to law firm billing",
+      "url": "http://www.sage.com/en-us/blog/guide-to-law-firm-billing/",
+      "publisher": "Sage",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Billing basics"
+      ],
+      "coverage": [
+        "Billing methods"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 6 (collected 2026-09-22)"
+      ],
+      "covered_well": "Basics",
+      "gaps": "No KPI benchmarks"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Small Law Firm Billing Trends",
+      "url": "http://8am.com/blog/small-law-firm-billing-trends/",
+      "publisher": "8am",
+      "format": "Data blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Billing trends"
+      ],
+      "coverage": [
+        "Small-firm billing data"
+      ],
+      "sources": [
+        "Vendor data"
+      ],
+      "data_assets": [
+        "Charts"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 8 (collected 2026-09-22)"
+      ],
+      "covered_well": "Small-firm data",
+      "gaps": "No lockup method"
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Competitors cite outdated KPIs.",
+    "Few explain why lockup medians cannot be summed."
+  ],
+  "value_add": "A funnel view from recorded time to cash, a firm-level lockup method with a worked example, and a monthly billing report.",
   "plan": {
     "reader_title": "Law Firm Billing Statistics and Uncollected Work",
     "seo_title": "Law Firm Billing Statistics and Uncollected Work",
-    "meta_description": "",
+    "meta_description": "Law firm billing statistics for utilization, realization, collection, and lockup, with 2026 benchmarks for planning 2026–2027 cash flow.",
     "slug": "/law-firms/law-firm-billing-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "law firm realization rate",
+      "law firm lockup"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "How Work Moves Through the Billing Funnel",
+      "Utilization Shows the Recorded Starting Point",
+      "Realization Shows What Reaches the Invoice",
+      "Collection Shows What Becomes Cash",
+      "Lockup Measures the Time Dimension",
+      "Realization Lockup Starts Before the Bill",
+      "Collection Lockup Starts After the Bill",
+      "Total Lockup Must Be Calculated Firm by Firm",
+      "A Worked Lockup Example",
+      "Why the Example Is Useful",
+      "Diagnose Uncollected Work by Stage",
+      "Time Capture Needs Prompt Review",
+      "Write-Down Reasons Need Consistent Codes",
+      "Receivables Need Named Ownership",
+      "Build a Better Monthly Billing Report",
+      "Adjust the Scorecard for the Fee Model",
+      "Separate Backlog From Leakage",
+      "Reconcile Operational and Accounting Views",
+      "Review Trends, Not Isolated Months",
+      "Keep Billing and Profit Measures Separate",
+      "The Bottom Line",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Billing funnel",
+        "sources": [
+          "https://www.clio.com/resources/legal-trends/benchmarks/"
+        ]
+      },
+      {
+        "section": "Rate pressure",
+        "sources": [
+          "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
     "internal_links": [
       "/law-firms/law-firm-profitability-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/smokeball-legal-software-time-capture/",
       "/legal-tech/lawpay-legal-payments-fees/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.clio.com/resources/legal-trends/benchmarks/",
+      "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails"
+    ],
+    "excluded_claims": [
+      "2025 Clio figures (superseded)",
+      "Public lockup medians",
+      "Clio billing guide claims (page blocked)"
+    ],
+    "drafting_cautions": [
+      "Label Clio figures as 2026 KPIs.",
+      "Never add component medians."
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Clio defines utilization as the share of an eight-hour day put toward billable work, realization as the share of billable work invoiced, and collection as the share of invoiced work paid.",
+      "source_url": "https://www.clio.com/resources/legal-trends/benchmarks/",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
-  },
-  "recovery": {
-    "research_brief": "https://docs.google.com/document/d/1QboZvm_qHiEPmdoYGyrdtfwG11K1ZDZNYHHy0yeUM44/edit?usp=drivesdk",
-    "research_snapshot": "sources/google-drive/1QboZvm_qHiEPmdoYGyrdtfwG11K1ZDZNYHHy0yeUM44.md",
-    "draft_snapshot": "sources/google-drive/1hfyjw7lw78_uGpmrVJgTSiPchYuUSSmzv7ED1YnnCGs.md",
-    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   }
 }

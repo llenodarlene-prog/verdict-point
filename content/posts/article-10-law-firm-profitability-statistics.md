@@ -5,31 +5,24 @@ description: Law firm profitability statistics covering profit growth, margins, 
 slug: /law-firms/law-firm-profitability-statistics/
 type: article
 schema: Article
-draft: true
+draft: false
 tracker_id: Article:10
 primary_keyword: law firm profitability statistics
 cluster: Law Firms
 launch_silo: Law Firm Economics
 silo_role: Hub
-approved_internal_links: /law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/
+approved_internal_links: /law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/retainer-fee/; /law-firms/legal-billing-chart/
 research_record: content/research/article-10.json
 image: /assets/images/posts/law-firm-profitability-statistics/featured-partners-reviewing-charts-1600.jpg
 image_alt: Four lawyers around a conference table as one points to bar and donut charts on a laptop
 source_document: https://docs.google.com/document/d/18r6jRfZn1tEbDf53Rwrl5cOW4tYv1HqjIpBDMOKAkEA/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-11-24
+publish_time: 10:15
+modified: 2026-11-14
 ---
 
 # Law Firm Profitability Statistics: Growth, Margin, and Cost Pressure
-
-**SEO title:** Law Firm Profitability Statistics for 2026
-
-**Meta description:** Law firm profitability statistics covering profit growth, margins, billing performance, and the limits of public benchmarks for 2027 planning.
-
-**Suggested slug:** /law-firms/law-firm-profitability-statistics/
-
-**Primary keyword:** law firm profitability statistics
 
 Law firm profitability statistics can describe growth, margin, or operating efficiency. Those measures are related, but they are not interchangeable. A 13% rise in profit does not mean a 13% profit margin. A strong collection rate does not prove that a firm controls costs.
 
@@ -37,16 +30,14 @@ Public benchmarks are also shaped by the firms included in each dataset. Large a
 
 ## Key Statistics and Data
 
-The current law firm profitability statistics show strong results in monitored market segments. They also show why readers need to examine the basis of each number.
-
-* **Profit Growth:** Thomson Reuters reported average profit growth of 13% during 2025 for the firms it monitored.  
-* **Worked Rate Growth:** The same 2026 market report recorded 7.3% growth in worked rates.  
-* **Quarterly Demand Growth:** Demand rose 3.3% in the fourth quarter of 2025, down from 3.9% in the third quarter.  
-* **Financial Index:** The Thomson Reuters Law Firm Financial Index closed the fourth quarter at 61.  
-* **Monitored Margin:** Thomson Reuters said margins remained above 40% in its monitored segment.  
-* **Utilization:** Clio's 2025 benchmark was 38%, equal to about 3.0 billable hours in an eight-hour day.  
-* **Realization:** Clio reported an 88% rate, or about 2.6 invoiced hours.  
-* **Collection:** Clio reported a 93% rate, or about 2.4 collected hours.
+* **Profit Growth:** Thomson Reuters reported average profit growth of 13% during 2025 for the firms it monitored.
+* **Worked Rate Growth:** The same 2026 market report recorded 7.3% growth in worked rates.
+* **Quarterly Demand Growth:** Demand rose 3.3% in the fourth quarter of 2025, down from 3.9% in the third quarter.
+* **Financial Index:** The Thomson Reuters Law Firm Financial Index closed the fourth quarter at 61.
+* **Monitored Margin:** Thomson Reuters said margins remained above 40% in its monitored segment.
+* **Utilization:** Clio's 2026 KPI is 42%, about 3.4 billable hours in an eight-hour day.
+* **Realization:** Clio reports 90%, or about 3.0 invoiced hours.
+* **Collection:** Clio reports 92%, or about 2.8 collected hours.
 
 ## What the Latest Profit Growth Figure Means
 
@@ -56,7 +47,7 @@ Profit growth can result from higher rates, more demand, better productivity, lo
 
 ## Growth Rate and Margin Answer Different Questions
 
-Growth compares one period with another. Margin compares profit with revenue during one period. A firm can post rapid profit growth from a weak base while still carrying a modest margin. Another firm may have a high margin but little growth.
+Growth compares one period with another. Margin compares profit with revenue during one period. A firm can post rapid profit growth from a weak base while still carrying a modest margin. Another firm may have a high margin but little growth. Law firm profitability statistics often blur growth and margin.
 
 | Measure | Basic Formula | Question Answered |
 | :---- | :---- | :---- |
@@ -71,7 +62,7 @@ The formulas look simple, yet accounting choices can change the results. “Prof
 
 A worked rate values time at the applicable rate before later billing adjustments and collections. It can rise after a pricing change, even when clients receive discounts. It also says nothing about how quickly the resulting invoices are paid.
 
-The [Clio software cost analysis](https://verdictpoint.org/legal-tech/clio-legal-software-total-cost/) illustrates another planning issue. Technology expenses belong in the cost base, while expected time savings need separate proof. Subscription price alone does not establish return on investment.
+The [Clio software cost analysis](/legal-tech/clio-legal-software-total-cost/) illustrates another planning issue. Technology expenses belong in the cost base, while expected time savings need separate proof. Subscription price alone does not establish return on investment.
 
 ## A Strong Quarter Does Not Create a Universal Benchmark
 
@@ -81,7 +72,7 @@ Those findings are useful evidence about the commercial legal market covered by 
 
 ## Segment Labels Belong Beside Every Figure
 
-A benchmark becomes misleading when its source population disappears from the sentence. Reports should name the segment, geographic scope, period, and calculation. They should also identify whether the number is an average or a median.
+A benchmark becomes misleading when its source population disappears from the sentence. Reports should name the segment, geographic scope, period, and calculation. They should also identify whether the number is an average or a median. Law firm profitability statistics without a segment label can mislead.
 
 Firm size alone does not solve the problem. Two ten-lawyer firms may have very different economics because one handles contingency matters and the other bills recurring business work. Practice type and fee model can matter as much as headcount.
 
@@ -89,19 +80,19 @@ Firm size alone does not solve the problem. Two ten-lawyer firms may have very d
 
 The latest complete results may guide a 2027 budget, but they do not become a 2027 benchmark. Label historical data by its actual period. Then state that leaders are using it as a planning reference.
 
-That approach also applies to broad [law firm marketing statistics](https://verdictpoint.org/legal-marketing/law-firm-marketing-statistics/). A prior-year acquisition result can inform future spend. It cannot predict demand, competitive pricing, or conversion rates with certainty.
+That approach also applies to broad [law firm marketing statistics](/legal-marketing/law-firm-marketing-statistics/). A prior-year acquisition result can inform future spend. It cannot predict demand, competitive pricing, or conversion rates with certainty.
 
 ## Billing Performance Supports Profit but Does Not Define It
 
-Clio's [2025 law firm performance benchmarks](https://www.clio.com/resources/legal-trends/benchmarks/) report 38% utilization, 88% realization, and 93% collection. These operational measures show how recorded work moves toward cash. They are not profit margins.
+Clio's [2026 law firm KPIs](https://www.clio.com/resources/legal-trends/benchmarks/) report 42% utilization, 90% realization, and 92% collection. These operational measures show how recorded work moves toward cash. They are not profit margins.
 
-| Operating Measure | 2025 Benchmark | Profit Connection |
+| Operating Measure | 2026 KPI | Profit Connection |
 | :---- | :---- | :---- |
-| Utilization | 38% | Influences billable output |
-| Realization | 88% | Shows how much recorded value reaches invoices |
-| Collection | 93% | Shows how much invoiced value becomes cash |
+| Utilization | 42% | Influences billable output |
+| Realization | 90% | Shows how much recorded value reaches invoices |
+| Collection | 92% | Shows how much invoiced value becomes cash |
 
-Rounded values need care. The source displays about 3.0 billable hours, 2.6 invoiced hours, and 2.4 collected hours for an eight-hour day. Multiplying rounded rates may not reproduce those hours exactly.
+Rounded values need care. The source displays about 3.4 billable hours, 3.0 invoiced hours, and 2.8 collected hours for an eight-hour day. Multiplying rounded rates may not reproduce those hours exactly.
 
 ## Low Utilization Can Limit Revenue Capacity
 
@@ -117,13 +108,13 @@ A firm should code the reason for each reduction. That makes it possible to sepa
 
 ## Collection Affects Cash, Not Just Accounting
 
-A high collection rate supports cash flow, yet timing still matters. Invoices that remain unpaid for months can strain payroll and distributions. Review collection rates beside accounts-receivable aging and lockup days.
+A high collection rate supports cash flow, yet timing still matters. Invoices that remain unpaid for months can strain payroll and distributions. Review collection rates beside accounts-receivable aging and lockup days. Payment terms matter here too: [LawPay fees and legal payments](/legal-tech/lawpay-legal-payments-fees/) affect net cash, a clear [retainer fee](/law-firms/retainer-fee/) arrangement can reduce unpaid balances, and a [legal billing chart](/law-firms/legal-billing-chart/) helps timekeepers record time consistently.
 
-The related [law firm billing statistics](https://verdictpoint.org/law-firms/law-firm-billing-statistics/) explain how utilization, realization, collection, and lockup fit together. Profit reviews should include those operating signals without confusing them with margin.
+The related [law firm billing statistics](/law-firms/law-firm-billing-statistics/) explain how utilization, realization, collection, and lockup fit together. Profit reviews should include those operating signals without confusing them with margin.
 
 ## Build a Profit Bridge From Revenue to Distributable Profit
 
-Useful law firm profitability statistics require a bridge between revenue and the final profit measure. The bridge makes cost assumptions visible and prevents leaders from comparing incompatible numbers.
+Useful law firm profitability statistics require a bridge between revenue and the final profit measure. The bridge makes cost assumptions visible and prevents leaders from comparing incompatible numbers. A profit bridge turns law firm profitability statistics into a firm-level view.
 
 A practical internal model can begin with collected revenue. The firm then subtracts direct matter costs, lawyer and staff costs, occupancy, technology, insurance, marketing, finance, and other overhead. Partner compensation needs its own stated treatment.
 
@@ -162,11 +153,11 @@ Assume a firm collects $2,000,000 during the year. It spends $200,000 on direct 
 
 The calculation would be:
 
-1. **Collected Revenue:** Start with $2,000,000.  
-2. **Less Direct Matter Costs:** Subtract $200,000.  
-3. **Less Employee Compensation:** Subtract $900,000.  
-4. **Less Overhead:** Subtract $400,000.  
-5. **Operating Profit:** The remaining amount is $500,000.  
+1. **Collected Revenue:** Start with $2,000,000.
+2. **Less Direct Matter Costs:** Subtract $200,000.
+3. **Less Employee Compensation:** Subtract $900,000.
+4. **Less Overhead:** Subtract $400,000.
+5. **Operating Profit:** The remaining amount is $500,000.
 6. **Operating Margin:** $500,000 ÷ $2,000,000 = 25%.
 
 This example does not show a healthy or unhealthy universal margin. A firm must consider risk, owner labor, debt, capital needs, and practice model before judging the result.
@@ -179,23 +170,23 @@ For example, model a rate increase with the existing realization rate. Next, tes
 
 ## Include Implementation Costs in Technology Cases
 
-Software projects can add subscription fees, migration work, training time, consulting, and process redesign. Benefits may arrive later than the invoices. The [Litify implementation analysis](https://verdictpoint.org/legal-tech/litify-legal-software-implementation/) helps frame those costs when building a business case.
+Software projects can add subscription fees, migration work, training time, consulting, and process redesign. Benefits may arrive later than the invoices. The [Litify implementation analysis](/legal-tech/litify-legal-software-implementation/) helps frame those costs when building a business case.
 
 Track expected and realized benefits separately. Time saved is not automatically profit. The firm must convert that capacity into more valuable work, lower cost, or better service.
 
 ## A 2027 Profitability Review Checklist
 
-Before approving the plan, leadership should test the definitions and assumptions behind the forecast. A short checklist can expose gaps early.
+Before approving the plan, leadership should test the definitions and assumptions behind the forecast. A short checklist can expose gaps early. Use it before relying on any law firm profitability statistics.
 
-* **Name the Profit Measure:** Specify operating profit, net income, distributable profit, or another defined result.  
-* **State the Revenue Basis:** Use collected, billed, or recognized revenue consistently.  
-* **Fix the Compensation Rule:** Explain how partner salaries, draws, and distributions are treated.  
-* **Segment the Forecast:** Review practice area, office, fee model, and client mix where data allows.  
-* **Separate Price From Realization:** Do not assume every rate increase reaches the invoice.  
-* **Model Collection Timing:** Include receivables and lockup, not only annual revenue.  
-* **Include Full Costs:** Add labor, technology, occupancy, insurance, marketing, and implementation expenses.  
-* **Show Counts and Dollars:** Percentages alone can hide small samples or large balances.  
-* **Use Scenarios:** Prepare base, downside, and upside cases with documented drivers.  
+* **Name the Profit Measure:** Specify operating profit, net income, distributable profit, or another defined result.
+* **State the Revenue Basis:** Use collected, billed, or recognized revenue consistently.
+* **Fix the Compensation Rule:** Explain how partner salaries, draws, and distributions are treated.
+* **Segment the Forecast:** Review practice area, office, fee model, and client mix where data allows.
+* **Separate Price From Realization:** Do not assume every rate increase reaches the invoice.
+* **Model Collection Timing:** Include receivables and lockup, not only annual revenue.
+* **Include Full Costs:** Add labor, technology, occupancy, insurance, marketing, and implementation expenses.
+* **Show Counts and Dollars:** Percentages alone can hide small samples or large balances.
+* **Use Scenarios:** Prepare base, downside, and upside cases with documented drivers.
 * **Preserve the Source Period:** Label 2025 and 2026 results accurately when using them for 2027 planning.
 
 The checklist creates a common basis for finance, operations, and practice leaders. It also makes forecast revisions easier when demand or costs change.
@@ -206,8 +197,26 @@ The best law firm profitability statistics keep growth, margin, and billing perf
 
 For 2027 planning, firms should build their own profit bridge and state every definition. The result should show the revenue basis, cost treatment, owner compensation rule, period, and segment. That makes the forecast comparable, explainable, and useful for decisions.
 
+## Frequently Asked Questions
+
+### What Is the Difference Between Profit Growth and Profit Margin?
+
+Profit growth compares this year's profit with last year's. Profit margin compares profit with revenue in one period. A firm can grow profit 13% and still have a thin margin.
+
+### Do Law Firm Profitability Statistics Apply to Small Firms?
+
+Only with care. The Thomson Reuters figures describe the firms it monitors, which are mostly larger commercial firms. A small consumer practice should build its own baseline from its books.
+
+### Are Utilization, Realization, and Collection Profit Measures?
+
+No. They show how recorded work moves toward cash. Profit also depends on costs, overhead, and owner pay.
+
+### How Often Should a Firm Review Its Profit Bridge?
+
+Quarterly works for most firms, with a full review at year end. Record each change so the next review can compare results.
+
 ## Resources
 
-* [Thomson Reuters Institute, 2026 State of the US Legal Market](https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026)  
-* [Thomson Reuters Institute, Q4 2025 Law Firm Financial Index](https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails)  
+* [Thomson Reuters Institute, 2026 State of the US Legal Market](https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026)
+* [Thomson Reuters Institute, Q4 2025 Law Firm Financial Index](https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails)
 * [Clio, Law Firm Performance Benchmarks](https://www.clio.com/resources/legal-trends/benchmarks/)
