@@ -16,7 +16,7 @@ research_record: content/research/blog-10.json
 image: /assets/images/posts/lexisnexis-legal-ai-source-checking/featured-source-review-monitor-1600.jpg
 image_alt: Two lawyers studying a document review screen with highlighted passages, with a laptop showing page thumbnails
 source_document: https://docs.google.com/document/d/184grE2_HNYKs2COI8DgX9AK8yMFPK05TdBeyyK6XCGs/edit?usp=drivesdk
-author: 
+author: Darlene Aberin
 published: 
 modified: 
 ---
@@ -25,33 +25,31 @@ modified:
 
 LexisNexis Legal AI can return linked legal sources and Shepard’s information. Those features shorten the path to authority, but they do not finish legal review. A lawyer must still confirm that each source exists, supports the proposition, applies to the jurisdiction, and remains effective.
 
-The product now uses Lexis+ with Protégé branding. Its current experience can use LexisNexis content, selected web sources, and organization documents. Each source type requires different checks. This guide provides a repeatable method for research, drafting, and pilot review.
+The product now uses Lexis+ with Protégé branding. LexisNexis says its connected experience can use LexisNexis content, selected web or international sources, and organization documents. Each source type requires different checks. This guide provides a repeatable method for research, drafting, and pilot review.
 
 ## Key Takeaways
 
-A linked citation is the start of verification. It is not proof that a generated conclusion is sound.
-
-* **Check the proposition first.** Break the output into statements that require authority.  
-* **Open every cited source.** Confirm the citation resolves to the claimed material.  
-* **Read the supporting passage.** A real source may not support the generated sentence.  
-* **Confirm authority and timing.** Check jurisdiction, court level, date, and procedural posture.  
-* **Review Shepard’s treatment.** Coverage and signals help, but they do not replace legal judgment.  
-* **Separate source types.** Legal databases, web pages, and firm documents need different controls.  
+* **Check the proposition first.** Break the output into statements that require authority.
+* **Open every cited source.** Confirm the citation resolves to the claimed material.
+* **Read the supporting passage.** A real source may not support the generated sentence.
+* **Confirm authority and timing.** Check jurisdiction, court level, date, and procedural posture.
+* **Review Shepard’s treatment.** Coverage and signals help, but they do not replace legal judgment.
+* **Separate source types.** Legal databases, web pages, and firm documents need different controls.
 * **Save the review record.** The final work should show who checked each material proposition.
 
 ## Know What the Current Product Includes
 
-The current product name is Lexis+ with Protégé. LexisNexis describes Protégé as the assistant within its research, drafting, and analysis platform. Buyers should confirm account entitlements because packaging can differ.
+The current product name is Lexis+ with Protégé. A LexisNexis [free trial page](https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial) calls it legal generative AI with conversational search, drafting, summarization, and document analysis. The same page limits that trial offer to firms with 1 to 50 attorneys, so buyers should confirm account entitlements because packaging can differ.
 
 ![LexisNexis products menu listing Lexis+ with Protégé as a legal AI solution for drafting, research, and analysis, beside other LexisNexis products](/assets/images/posts/legal-research-software/lexis-plus-screenshot-1600.jpg "LexisNexis products menu listing Lexis+ with Protégé, captured November 2026.")
 
-The [Lexis+ with Protégé product page](https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page) describes several grounding sources. These include primary law, secondary sources, Practical Guidance, selected web content, and organization documents. It also describes integrated Shepard’s citations and verification tools.
+LexisNexis describes several grounding sources in its [August 2026 workflow update](https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows). LexisNexis content is the default. Web or international content can be added from the prompt bar, and organizational or matter-specific documents can be added when relevant. The update says outputs provide legal citations, Shepard’s treatment where applicable, and source traceability.
 
 That mix offers flexibility. It also creates a source-classification duty. A lawyer should know which source set supported each answer before relying on it.
 
 ## Legal Content Is the Default Grounding Source
 
-LexisNexis reported in August 2026 that its connected prompt experience keeps its legal content as the default grounding source. Users may add web or international sources when appropriate. The company also describes model selection within the workflow.
+LexisNexis reported in August 2026 that its connected prompt experience keeps its legal content as the default grounding source. Web and international content must be actively selected. A Best Fit model is selected by default, and users can choose a different model.
 
 Default grounding does not resolve every issue. A cited case might come from the wrong jurisdiction. A secondary source may summarize a rule without controlling force. A valid statute may not reflect the relevant effective date.
 
@@ -61,13 +59,13 @@ Internal files can add firm knowledge, precedents, and client context. They can 
 
 Before connecting internal sources, decide:
 
-* **Who owns the document:** Name the team responsible for accuracy and access.  
-* **Which version controls:** Avoid drafts that conflict with approved forms or advice.  
-* **Who may retrieve it:** Apply ethical walls, matter permissions, and role controls.  
-* **How long it remains valid:** Add review dates for policies and precedent materials.  
+* **Who owns the document:** Name the team responsible for accuracy and access.
+* **Which version controls:** Avoid drafts that conflict with approved forms or advice.
+* **Who may retrieve it:** Apply ethical walls, matter permissions, and role controls.
+* **How long it remains valid:** Add review dates for policies and precedent materials.
 * **Whether it can support the proposition:** Internal work may guide drafting without proving the law.
 
-These controls also improve [document-review collaboration](https://verdictpoint.org/legal-tech/everlaw-ediscovery-document-review/). Shared access only helps when teams can identify the approved source.
+These controls also improve [document-review collaboration](/legal-tech/everlaw-ediscovery-document-review/). Shared access only helps when teams can identify the approved source.
 
 ## Use the Source Verification Ladder
 
@@ -83,7 +81,6 @@ A strong LexisNexis Legal AI review moves through seven questions. Stop at the f
 | **6** | Is there contrary authority? | Search notes and competing sources |
 | **7** | Can the user access and use it? | Subscription, permission, and confidentiality status |
 
-⟧
 
 The order prevents wasted work. There is no reason to analyze treatment for a citation that does not resolve. There is also no reason to polish a proposition that its source contradicts.
 
@@ -121,7 +118,7 @@ Subscription coverage can affect the record. A citation reference may appear eve
 
 Shepard’s helps researchers review legal status, treatment, history, and citing references. Its value depends on source coverage and the question under review.
 
-LexisNexis explains in its [Shepard’s Coverage documentation](https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1087952) that coverage varies by content type and jurisdiction. Some materials receive full history and treatment. Others receive limited citing references. Not every LexisNexis document has a Shepard’s report.
+LexisNexis explains in its [Shepard’s Coverage documentation](https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1087952) that coverage varies by content type and jurisdiction. Coverage may include history, legal treatment phrases, and citing references. Some materials provide limited coverage by design, and not every document on LexisNexis has a Shepard’s report.
 
 ## What Shepard’s Helps You Check
 
@@ -129,10 +126,10 @@ The service can help identify later treatment and citing authority. It also give
 
 Use it for these tasks:
 
-* **Status review:** Check whether later authority affected the source.  
-* **Treatment analysis:** Read the phrase and context applied by later decisions.  
-* **Citing references:** Find later sources that discuss the cited authority.  
-* **History review:** Trace prior and later stages where coverage supports it.  
+* **Status review:** Check whether later authority affected the source.
+* **Treatment analysis:** Read the phrase and context applied by later decisions.
+* **Citing references:** Find later sources that discuss the cited authority.
+* **History review:** Trace prior and later stages where coverage supports it.
 * **Research expansion:** Identify stronger, newer, or contrary authority.
 
 The firm should preserve the Shepard’s result date. Treatment can change after the work product is completed.
@@ -154,9 +151,8 @@ The current LexisNexis Legal AI experience can bring several source types into o
 | **Organization documents** | Firm or client knowledge | Stale version, access, and limited scope | Owner, version, permission, and approved use |
 | **Uploaded matter files** | Facts and evidence | Confidentiality and incomplete record | Authorization, completeness, provenance, and citation |
 
-⟧
 
-LexisNexis describes a [connected prompt experience](https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows) where users can choose web or international content. The source choice should appear in the review record. Otherwise, later reviewers may assume legal-database grounding where none existed.
+LexisNexis describes a connected prompt experience where users must actively select web or international content. The source choice should appear in the review record. Otherwise, later reviewers may assume legal-database grounding where none existed.
 
 ## Review the Output Proposition by Proposition
 
@@ -177,9 +173,8 @@ Use this verification log:
 | **Reviewer** | Lawyer responsible for the check |
 | **Resolution** | Accept, revise, replace source, or remove |
 
-⟧
 
-Introduce the log during [designing a legal-AI pilot](https://verdictpoint.org/legal-tech/harvey-legal-ai-pilot/). The same fields can compare citation quality across tasks and reviewers.
+Introduce the log during [designing a legal-AI pilot](/legal-tech/harvey-legal-ai-pilot/). The same fields can compare citation quality across tasks and reviewers.
 
 ## Use a Hypothetical Without Invented Citations
 
@@ -187,11 +182,11 @@ Suppose an output states that a contract clause is unenforceable in the forum. T
 
 The reviewer should follow this order:
 
-1. Confirm the case and citation match.  
-2. Find the passage supporting the rule.  
-3. Check whether the court had controlling authority.  
-4. Compare the facts and procedural posture.  
-5. Review later treatment and contrary authority.  
+1. Confirm the case and citation match.
+2. Find the passage supporting the rule.
+3. Check whether the court had controlling authority.
+4. Compare the facts and procedural posture.
+5. Review later treatment and contrary authority.
 6. Rewrite the proposition to match the source’s limits.
 
 This hypothetical uses no real case citation. It shows the method without creating false authority.
@@ -202,54 +197,23 @@ Every workflow needs a named human owner. The owner decides whether verification
 
 Set sign-off rules before scale increases. Include these controls:
 
-* **Materiality threshold:** Define which statements require full source verification.  
-* **Reviewer qualification:** Match practice area and jurisdiction to the work.  
-* **Escalation path:** Name the person who resolves uncertain or conflicting authority.  
-* **Record retention:** Store prompts, outputs, source logs, and final corrections.  
-* **Client requirements:** Follow engagement terms and disclosure rules where applicable.  
+* **Materiality threshold:** Define which statements require full source verification.
+* **Reviewer qualification:** Match practice area and jurisdiction to the work.
+* **Escalation path:** Name the person who resolves uncertain or conflicting authority.
+* **Record retention:** Store prompts, outputs, source logs, and final corrections.
+* **Client requirements:** Follow engagement terms and disclosure rules where applicable.
 * **Periodic retesting:** Recheck performance after major product or workflow changes.
 
-Broader [AI-use statistics](https://verdictpoint.org/legal-tech/ai-in-law-firms-statistics/) and [legal technology statistics](https://verdictpoint.org/legal-tech/legal-technology-statistics/) can show market behavior. They cannot set a safe sign-off rule for one firm.
+Broader [AI-use statistics](/legal-tech/ai-in-law-firms-statistics/) and [legal technology statistics](/legal-tech/legal-technology-statistics/) can show market behavior. They cannot set a safe sign-off rule for one firm.
 
 ## Audit a Sample of Completed Reviews
 
-## 
 
-## Supervising lawyers should sample finished verification logs after rollout. The audit should compare the saved proposition, cited passage, treatment, and final wording. It should also confirm that the named reviewer completed the work.
+Supervising lawyers should sample finished verification logs after rollout. The audit should compare the saved proposition, cited passage, treatment, and final wording. It should also confirm that the named reviewer completed the work.
 
-## 
+Use a larger sample for high-risk research or new users. Record recurring defects and update training or prompts. If one error type persists, pause the affected workflow until the team corrects it.
 
-## Use a larger sample for high-risk research or new users. Record recurring defects and update training or prompts. If one error type persists, pause the affected workflow until the team corrects it.
-
-## 
-
-## Audits should test the process, not merely count completed fields. A full log can still contain weak legal judgment. Reviewers should assess whether the evidence supports the recorded resolution.
-
-## 
-
-## Frequently Asked Questions
-
-These answers explain the workflow at a high level. They do not provide legal advice.
-
-## Does LexisNexis Legal AI Verify Every Citation Automatically?
-
-The product provides citation and Shepard’s tools. Lawyers should still verify the source, passage, authority, treatment, and application.
-
-## Does a Shepard’s Signal Prove the Generated Sentence Is Correct?
-
-No. The signal concerns legal status or treatment. It does not prove that a cited passage supports the generated proposition.
-
-## Can Users Add Web Sources to Protégé?
-
-LexisNexis describes web and international content choices in its connected prompt experience. Firms should record when those sources support an answer.
-
-## Are All LexisNexis Sources Covered by Shepard’s?
-
-No. LexisNexis states that coverage varies by content and jurisdiction. Some materials have limited reports or no Shepard’s report.
-
-## What Should a Verification Log Include?
-
-Record the proposition, citation, passage, jurisdiction, date, treatment, contrary authority, reviewer, and final resolution.
+Audits should test the process, not merely count completed fields. A full log can still contain weak legal judgment. Reviewers should assess whether the evidence supports the recorded resolution.
 
 ## Keep Source Review Visible
 
@@ -257,12 +221,32 @@ The platform can make authority easier to reach. A defensible workflow still sho
 
 Verdict Point helps legal teams evaluate technology through transparent methods. Use this ladder in research, drafting, and pilot work so linked sources become checked sources.
 
+## Frequently Asked Questions
+
+### Does LexisNexis Legal AI Verify Every Citation Automatically?
+
+LexisNexis says outputs include legal citations and Shepard’s treatment where applicable. Lawyers should still verify the source, passage, authority, treatment, and application.
+
+### Does a Shepard’s Signal Prove the Generated Sentence Is Correct?
+
+No. The signal concerns legal status or treatment. It does not prove that a cited passage supports the generated proposition.
+
+### Can Users Add Web Sources to Protégé?
+
+LexisNexis describes web and international content choices in its connected prompt experience. Firms should record when those sources support an answer.
+
+### Are All LexisNexis Sources Covered by Shepard’s?
+
+No. LexisNexis states that coverage varies by content type and jurisdiction. Some materials have limited coverage by design, and some documents have no Shepard’s report.
+
+### What Should a Verification Log Include?
+
+Record the proposition, citation, passage, jurisdiction, date, treatment, contrary authority, reviewer, and final resolution.
+
 ## Resources
 
-* [Lexis+ with Protégé Product Page](https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page)  
-* [Lexis+ with Protégé Legal Research](https://www.lexisnexis.com/en-us/products/lexis-plus-protege/legal-research.page)  
-* [Shepard’s Coverage](https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1087952)  
-* [Shepard’s Tools](https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1089373)  
-* [Connected Protégé Workflow Update](https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows)
+* [Modernizing Legal Workflows: A More Connected Lexis+ with Protégé Experience](https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows)
+* [Shepard’s Coverage](https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1087952)
+* [Lexis+ with Protégé Free Trial](https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial)
 
-**Publication Note:** This guide uses public desk research, not hands-on product testing. Recheck naming, entitlements, model choices, source options, and verification features immediately before publication.
+*This guide uses public desk research, not hands-on product testing. Sources were checked November 14, 2026.*

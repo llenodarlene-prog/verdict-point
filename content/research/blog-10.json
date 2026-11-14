@@ -1,241 +1,397 @@
 {
   "tracker_id": "Blog:10",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Checking Sources in LexisNexis Legal AI. Planned sources and method: LexisNexis official product documentation; test citation traceability. Build a source-labelled comparison covering Lexis AI citations and Lexis legal research tools; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
+  "research_question": "How should lawyers verify sources returned by LexisNexis Legal AI (Lexis+ with Protégé)?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Commercial-support guide giving a repeatable source-verification ladder and log for Lexis+ with Protégé output.",
+    "audience": "Lawyers, law librarians, and knowledge managers in the United States using or evaluating Lexis+ with Protégé.",
+    "publication_year": "2026",
+    "data_period": "LexisNexis announcement (August 27, 2026) and help documentation current as of November 2026.",
+    "scope_limitations": "Vendor documentation only; no hands-on testing; product page returned 403 and is not cited."
   },
   "keyword_research": {
     "approved_primary_keyword": "lexisnexis legal ai",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-09-22",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
-      },
-      {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-11-14"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "lexisnexis legal ai",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 90,
+        "difficulty": 41,
+        "cpc": 31.4,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
-        "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
-      },
-      {
-        "keyword": "",
+        "keyword": "lexis ai price",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 140,
+        "difficulty": 42,
+        "cpc": 13.95,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "lexis ai legal research",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 33,
+        "cpc": 47.62,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is lexis ai confidential",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 10,
+        "difficulty": 10,
+        "cpc": 11.1,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is lexis ai",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 30,
+        "cpc": 44.49,
+        "intent": "Informational",
+        "ranking_url": "http://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial",
+      "title": "Lexis+ with Protégé free trial",
+      "publisher": "LexisNexis",
+      "source_type": "Vendor landing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Product description and trial eligibility.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Marketing page; verified via owner screenshot captured 2026-11-13.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows",
+      "title": "Modernizing Legal Workflows: A More Connected Lexis+ with Protégé Experience",
+      "publisher": "LexisNexis",
+      "source_type": "Vendor announcement",
+      "year": "2026",
+      "published_at": "2026-08-27",
+      "accessed_at": "2026-11-14",
+      "scope": "Grounding sources, web/international selection, model choice, organization documents.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor announcement; availability by plan not stated.",
+      "verified": true
+    },
+    {
+      "url": "https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1087952",
+      "title": "Shepard's Coverage",
+      "publisher": "LexisNexis",
+      "source_type": "Vendor help article",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Scope of Shepard's coverage.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Verified via owner screenshot captured 2026-11-13.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "LexisNexis announced the connected Lexis+ with Protégé experience on August 27, 2026.",
+      "source_url": "https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Lexis+ with Protégé users",
+      "sample": "Not applicable (announcement)",
+      "denominator": "Not applicable",
+      "unit": "Date",
+      "method": "Vendor announcement",
+      "limitations": "Vendor statement",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Lexis+ with Protégé",
+      "url": "http://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+      "publisher": "LexisNexis",
+      "format": "Vendor product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Product"
+      ],
+      "coverage": [
+        "Features"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 1 (collected 2026-09-22)"
+      ],
+      "covered_well": "Product framing",
+      "gaps": "No verification workflow"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Lexis+ | AI Legal Research Tools",
+      "url": "http://www.lexisnexis.com/en-us/products/lexis-plus.page",
+      "publisher": "LexisNexis",
+      "format": "Vendor product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Research tools"
+      ],
+      "coverage": [
+        "Features"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-09-22)"
+      ],
+      "covered_well": "Feature list",
+      "gaps": "No reviewer log"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Lexis+ Protégé Review",
+      "url": "http://lawyerist.com/reviews/artificial-intelligence-in-law-firms/lexis-ai-review-artificial-intelligence-for-lawyers/",
+      "publisher": "Lawyerist",
+      "format": "Review",
+      "updated_at": "Not stated",
+      "headings": [
+        "Review"
+      ],
+      "coverage": [
+        "Pros and cons"
+      ],
+      "sources": [
+        "Vendor and testing"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 7 (collected 2026-09-22)"
+      ],
+      "covered_well": "Independent view",
+      "gaps": "No source-checking ladder"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "LexisNexis Launches Lexis+ AI",
+      "url": "http://legal-tech.blog/lexisnexis-launches-lexis-ai-a-generative-ai-solution-with-linked-hallucination-free-legal-citations",
+      "publisher": "legal-tech.blog",
+      "format": "News",
+      "updated_at": "Not stated",
+      "headings": [
+        "Launch"
+      ],
+      "coverage": [
+        "Launch claims"
+      ],
+      "sources": [
+        "Press release"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 8 (collected 2026-09-22)"
+      ],
+      "covered_well": "Launch context",
+      "gaps": "Repeats vendor claims"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Lexis+ with Protégé by LexisNexis",
+      "url": "http://www.legaltechnologyhub.com/vendors/lexis-ai-by-lexisnexis/",
+      "publisher": "Legal Technology Hub",
+      "format": "Directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Vendor profile"
+      ],
+      "coverage": [
+        "Profile"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 11 (collected 2026-09-22)"
+      ],
+      "covered_well": "Directory overview",
+      "gaps": "No review method"
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Ranking pages describe features but not a proposition-level verification method.",
+    "No competitor separates legal, web, and uploaded evidence."
+  ],
+  "value_add": "A seven-step source verification ladder, a source-type control table, and a verification log template.",
   "plan": {
     "reader_title": "Checking Sources in LexisNexis Legal AI",
     "seo_title": "Checking Sources in LexisNexis Legal AI",
-    "meta_description": "",
+    "meta_description": "Use this LexisNexis Legal AI source-checking workflow to test citations, passages, treatment, jurisdiction, and lawyer approval.",
     "slug": "/legal-tech/lexisnexis-legal-ai-source-checking/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "Lexis+ with Protégé",
+      "Shepard's coverage"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Know What the Current Product Includes",
+      "Legal Content Is the Default Grounding Source",
+      "Organization Documents Need Separate Review",
+      "Use the Source Verification Ladder",
+      "Step 1: Confirm the Citation Exists",
+      "Step 2: Confirm the Source Identity",
+      "Step 3: Check Status and Effective Date",
+      "Step 4: Match the Passage to the Proposition",
+      "Steps 5 to 7: Authority, Conflict, and Access",
+      "Understand What Shepard’s Can and Cannot Do",
+      "What Shepard’s Helps You Check",
+      "What Shepard’s Does Not Prove",
+      "Separate Legal, Web, and Uploaded Evidence",
+      "Review the Output Proposition by Proposition",
+      "Use a Hypothetical Without Invented Citations",
+      "Define the Lawyer Sign-Off Point",
+      "Audit a Sample of Completed Reviews",
+      "Keep Source Review Visible",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Grounding sources",
+        "sources": [
+          "https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows"
+        ]
+      },
+      {
+        "section": "Shepard's limits",
+        "sources": [
+          "https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1087952"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "LexisNexis products menu screenshot"
+    ],
     "internal_links": [
       "/legal-tech/ai-in-law-firms-statistics/",
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/harvey-legal-ai-pilot/",
       "/legal-tech/everlaw-ediscovery-document-review/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial",
+      "https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows",
+      "https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1087952"
+    ],
+    "excluded_claims": [
+      "Product-page grounding list (page returned 403)",
+      "Shepard's Tools details",
+      "Accuracy or hallucination rates"
+    ],
+    "drafting_cautions": [
+      "Do not claim automatic citation verification.",
+      "Use no real case citations in the hypothetical."
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "LexisNexis content remains the default source for grounding responses.",
+      "source_url": "https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows",
+      "verified": true
+    },
+    {
+      "statement": "Web and international content must be actively selected.",
+      "source_url": "https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows",
+      "verified": true
+    },
+    {
+      "statement": "A Best Fit model is selected by default and users can choose a different model.",
+      "source_url": "https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows",
+      "verified": true
+    },
+    {
+      "statement": "Organizational or matter-specific documents can be added through the prompt experience when relevant.",
+      "source_url": "https://www.lexisnexis.com/community/insights/legal/b/product-announcement/posts/modernizing-legal-workflows",
+      "verified": true
+    },
+    {
+      "statement": "Shepard's coverage varies by content type and jurisdiction; some materials have limited coverage by design and not all documents have Shepard's reports.",
+      "source_url": "https://supportcenter.lexisnexis.com/app/lexisplus/a_id/1087952",
+      "verified": true
+    },
+    {
+      "statement": "Lexis+ with Protégé is described as legal generative AI with conversational search, drafting, summarization and document analysis; the trial is for firms with 1 to 50 attorneys.",
+      "source_url": "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
-  },
-  "recovery": {
-    "research_brief": "https://docs.google.com/document/d/1TOSTJx1CtRsCcQU2sahlMwbXs2sBUYQnwfo6xDHFva4/edit?usp=drivesdk",
-    "research_snapshot": "sources/google-drive/1TOSTJx1CtRsCcQU2sahlMwbXs2sBUYQnwfo6xDHFva4.md",
-    "draft_snapshot": "sources/google-drive/184grE2_HNYKs2COI8DgX9AK8yMFPK05TdBeyyK6XCGs.md",
-    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   }
 }
