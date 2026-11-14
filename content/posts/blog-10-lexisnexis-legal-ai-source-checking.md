@@ -5,7 +5,7 @@ description: Use this LexisNexis Legal AI source-checking workflow to test citat
 slug: /legal-tech/lexisnexis-legal-ai-source-checking/
 type: blog
 schema: Article
-draft: true
+draft: false
 tracker_id: Blog:10
 primary_keyword: lexisnexis legal ai
 cluster: Legal Tech
@@ -17,8 +17,9 @@ image: /assets/images/posts/lexisnexis-legal-ai-source-checking/featured-source-
 image_alt: Two lawyers studying a document review screen with highlighted passages, with a laptop showing page thumbnails
 source_document: https://docs.google.com/document/d/184grE2_HNYKs2COI8DgX9AK8yMFPK05TdBeyyK6XCGs/edit?usp=drivesdk
 author: Darlene Aberin
-published: 
-modified: 
+published: 2026-11-21
+publish_time: 09:45
+modified: 2026-11-14
 ---
 
 # LexisNexis Legal AI: A Source-Checking Workflow for Law Firms
@@ -55,7 +56,7 @@ Default grounding does not resolve every issue. A cited case might come from the
 
 ## Organization Documents Need Separate Review
 
-Internal files can add firm knowledge, precedents, and client context. They can also introduce stale language or matter-specific restrictions. Treat a firm document as evidence with an owner, date, and approved use.
+Internal files can add firm knowledge, precedents, and client context. They can also introduce stale language or matter-specific restrictions. Treat a firm document as evidence with an owner, date, and approved use. Adding them to LexisNexis Legal AI prompts calls for its own controls.
 
 Before connecting internal sources, decide:
 
@@ -178,7 +179,7 @@ Introduce the log during [designing a legal-AI pilot](/legal-tech/harvey-legal-a
 
 ## Use a Hypothetical Without Invented Citations
 
-Suppose an output states that a contract clause is unenforceable in the forum. The answer includes a linked case. The reviewer should not accept the conclusion after opening the link.
+Suppose an output states that a contract clause is unenforceable in the forum. The answer includes a linked case. The reviewer should not accept the conclusion after opening the link. This example shows the ladder applied to one LexisNexis Legal AI answer.
 
 The reviewer should follow this order:
 
@@ -193,7 +194,7 @@ This hypothetical uses no real case citation. It shows the method without creati
 
 ## Define the Lawyer Sign-Off Point
 
-Every workflow needs a named human owner. The owner decides whether verification is complete and whether the output may enter work product.
+Every workflow needs a named human owner. The owner decides whether verification is complete and whether the output may enter work product. LexisNexis Legal AI output should never reach work product without that sign-off.
 
 Set sign-off rules before scale increases. Include these controls:
 
@@ -208,8 +209,7 @@ Broader [AI-use statistics](/legal-tech/ai-in-law-firms-statistics/) and [legal 
 
 ## Audit a Sample of Completed Reviews
 
-
-Supervising lawyers should sample finished verification logs after rollout. The audit should compare the saved proposition, cited passage, treatment, and final wording. It should also confirm that the named reviewer completed the work.
+Supervising lawyers should sample finished verification logs after rollout. The audit should compare the saved proposition, cited passage, treatment, and final wording. It should also confirm that the named reviewer completed the work. Audits keep LexisNexis Legal AI reviews honest after the pilot ends.
 
 Use a larger sample for high-risk research or new users. Record recurring defects and update training or prompts. If one error type persists, pause the affected workflow until the team corrects it.
 

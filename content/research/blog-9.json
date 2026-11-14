@@ -353,12 +353,6 @@
         "sources": [
           "https://www.harvey.ai/security"
         ]
-      },
-      {
-        "section": "Governance",
-        "sources": [
-          "https://www.harvey.ai/blog/governance-iso-42001"
-        ]
       }
     ],
     "visuals": [
@@ -397,11 +391,6 @@
     {
       "statement": "Harvey's security page describes model-provider zero-data-retention requirements and regional options.",
       "source_url": "https://www.harvey.ai/security",
-      "verified": true
-    },
-    {
-      "statement": "Harvey announced ISO 42001 certification in June 2026.",
-      "source_url": "https://www.harvey.ai/blog/governance-iso-42001",
       "verified": true
     }
   ],

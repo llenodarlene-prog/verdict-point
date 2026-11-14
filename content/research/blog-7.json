@@ -106,19 +106,6 @@
       "verified": true
     },
     {
-      "url": "https://www.everlaw.com/users/storybuilder/",
-      "title": "Everlaw Storybuilder",
-      "publisher": "Everlaw",
-      "source_type": "Vendor product page",
-      "year": "2026",
-      "published_at": "Not stated",
-      "accessed_at": "2026-11-14",
-      "scope": "Storybuilder positioning.",
-      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
-      "limitations": "Marketing page.",
-      "verified": true
-    },
-    {
       "url": "https://www.everlaw.com/pricing-b/",
       "title": "Everlaw Pricing",
       "publisher": "Everlaw",
@@ -142,6 +129,19 @@
       "scope": "Pricing approach based on hosted data.",
       "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
       "limitations": "Only the pricing-approach section verified via owner screenshot captured 2026-11-13.",
+      "verified": true
+    },
+    {
+      "url": "https://www.everlaw.com/users/storybuilder/",
+      "title": "Everlaw Storybuilder",
+      "publisher": "Everlaw",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Storybuilder positioning.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Marketing page.",
       "verified": true
     }
   ],
@@ -365,9 +365,9 @@
     "external_link_opportunities": [
       "https://support.everlaw.com/hc/en-us/articles/25390790827035-Sharing-and-Collaborating-on-Searches",
       "https://support.everlaw.com/hc/en-us/articles/210011233-Sharing-and-Object-Permissions",
-      "https://www.everlaw.com/users/storybuilder/",
       "https://www.everlaw.com/pricing-b/",
-      "https://support.everlaw.com/hc/en-us/articles/205660765-Billing-and-Pricing-FAQ"
+      "https://support.everlaw.com/hc/en-us/articles/205660765-Billing-and-Pricing-FAQ",
+      "https://www.everlaw.com/users/storybuilder/"
     ],
     "excluded_claims": [
       "Peak-data billing method",
@@ -399,16 +399,6 @@
     {
       "statement": "Single-document AI actions and Writing Assistant are included; batch actions use credits; unused committed credit purchases expire at term end.",
       "source_url": "https://www.everlaw.com/pricing-b/",
-      "verified": true
-    },
-    {
-      "statement": "The billing FAQ says pricing is based on data hosted, with unlimited user licenses, processing, and productions, and pay-as-you-go or annual per-GB options.",
-      "source_url": "https://support.everlaw.com/hc/en-us/articles/205660765-Billing-and-Pricing-FAQ",
-      "verified": true
-    },
-    {
-      "statement": "Everlaw describes Storybuilder as collaborative narrative building and trial preparation.",
-      "source_url": "https://www.everlaw.com/users/storybuilder/",
       "verified": true
     }
   ],

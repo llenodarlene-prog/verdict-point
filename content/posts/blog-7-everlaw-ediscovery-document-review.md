@@ -5,7 +5,7 @@ description: Evaluate Everlaw eDiscovery across search sharing, project and obje
 slug: /legal-tech/everlaw-ediscovery-document-review/
 type: blog
 schema: Article
-draft: true
+draft: false
 tracker_id: Blog:7
 primary_keyword: everlaw ediscovery
 cluster: Legal Tech
@@ -17,8 +17,9 @@ image: /assets/images/posts/everlaw-ediscovery-document-review/featured-document
 image_alt: Three legal professionals reviewing a document list and highlighted text on two desktop monitors in a law office
 source_document: https://docs.google.com/document/d/1gmLwSKmHuDDyEzm-aKxaY_VYPBKK6KKWUSxXbtHGyQI/edit?usp=drivesdk
 author: Darlene Aberin
-published: 
-modified: 
+published: 2026-11-20
+publish_time: 18:40
+modified: 2026-11-14
 ---
 
 # Everlaw eDiscovery: Test Collaboration Before Review Begins
@@ -40,7 +41,7 @@ This guide uses current public pricing and help documentation. It does not claim
 
 ## Map the Review Set to the Shared Work Product
 
-An eDiscovery team does more than read documents. It creates searches, coding decisions, assignments, review layouts, binders, timelines, deposition material, drafts, and other work product. The access model should follow that chain.
+An eDiscovery team does more than read documents. It creates searches, coding decisions, assignments, review layouts, binders, timelines, deposition material, drafts, and other work product. The access model should follow that chain. In Everlaw eDiscovery, many of those items can be shared on their own.
 
 | Review Element | Collaboration Need | Permission Question |
 | --- | --- | --- |
@@ -58,7 +59,7 @@ When comparing [Relativity deployment and hosting choices](/legal-tech/relativit
 
 ## Understand Search Sharing and Personal Copies
 
-Everlaw’s [search-collaboration documentation](https://support.everlaw.com/hc/en-us/articles/25390790827035-Sharing-and-Collaborating-on-Searches) says searches are private to the creator by default. A creator can share a search with View, Edit, or Full Access.
+Everlaw’s [search-collaboration documentation](https://support.everlaw.com/hc/en-us/articles/25390790827035-Sharing-and-Collaborating-on-Searches) says searches are private to the creator by default. A creator can share a search with View, Edit, or Full Access. Search sharing is one of the first Everlaw eDiscovery settings a project manager should test.
 
 The three levels should be tested with representative roles:
 
@@ -99,7 +100,7 @@ The “Demo Result” column must remain blank until the firm observes the behav
 
 ![Everlaw Storybuilder product page describing collaborative narrative building and trial preparation](/assets/images/posts/everlaw-ediscovery-document-review/everlaw-storybuilder-screenshot-1600.jpg "Everlaw Storybuilder page, captured November 2026.")
 
-Everlaw positions Storybuilder as a way to build case work from reviewed evidence. The [Storybuilder materials](https://www.everlaw.com/users/storybuilder/) can help a buyer understand the intended transition from document review to collaborative case preparation.
+Everlaw positions Storybuilder as a way to build case work from reviewed evidence. The Storybuilder materials can help a buyer understand the intended transition from document review to collaborative case preparation.
 
 The implementation question is not only whether the feature exists. The team needs rules for who can add evidence, edit descriptions, organize themes, create drafts, approve work product, and export or share it.
 
@@ -115,7 +116,7 @@ The [current Everlaw pricing page](https://www.everlaw.com/pricing-b/) describes
 
 “Unlimited users and uploads” does not mean unlimited free storage or unlimited use of every AI function. The budget still needs to follow the platform’s measurement rules.
 
-Everlaw’s billing FAQ says pricing is based on the amount of data hosted, with unlimited user licenses, processing, and productions. It also says buyers can pay as you go or lock in lower per-GB rates with an annual data commitment. The FAQ has separate answers on when data size is measured, partial projects, and other charges, so read them before modeling the budget.
+Everlaw’s Billing and Pricing FAQ, listed in Resources, has separate answers on when data size is measured, partial projects, and charges aside from hosted data size. Read them before modeling the budget.
 
 | Cost Driver | What to Confirm |
 | --- | --- |
@@ -127,7 +128,7 @@ Everlaw’s billing FAQ says pricing is based on the amount of data hosted, with
 | Migration and onboarding | Included services and work outside the standard scope |
 | Annual commitment | Volume assumptions, overage, renewal, and unused commitment treatment |
 
-The [Billing and Pricing FAQ](https://support.everlaw.com/hc/en-us/articles/205660765-Billing-and-Pricing-FAQ) should be read together with the current pricing page. The FAQ centers on hosted data, while the pricing page also covers AI usage, so both pages belong in the budget.
+The Billing and Pricing FAQ should be read together with the current pricing page. The FAQ centers on hosted data, while the pricing page also covers AI usage, so both pages belong in the budget.
 
 ## Model AI Credits Separately From Data
 
@@ -143,7 +144,7 @@ The pilot should also measure whether the batch action changes review time, erro
 
 ## Do Not Delete Data Solely to Reduce Cost
 
-Hosted-data pricing can create pressure to remove material, but eDiscovery data may be subject to legal hold, preservation duties, court orders, client requirements, production needs, or internal retention policies.
+Hosted-data pricing can create pressure to remove material, but eDiscovery data may be subject to legal hold, preservation duties, court orders, client requirements, production needs, or internal retention policies. That holds for Everlaw eDiscovery projects as much as any other review platform.
 
 No cost-reduction action should occur without the required legal and operational approvals. The firm should identify who can authorize archival, export, deletion, or project closure and what evidence must be retained.
 
@@ -151,7 +152,7 @@ A responsible closeout process may include confirming holds, documenting product
 
 ## Run a Collaboration and Cost Pilot
 
-A useful evaluation should combine permissions, work product, and cost. Testing only search speed or interface preference will not show whether the platform fits the review team.
+A useful evaluation should combine permissions, work product, and cost. Testing only search speed or interface preference will not show whether the platform fits the review team. An Everlaw eDiscovery pilot should test both at once.
 
 1. **Create Representative Roles:** Include reviewer, senior reviewer, manager, outside collaborator, and administrator.
 2. **Load Approved Sample Data:** Use material permitted for the evaluation and record native and processed volumes.

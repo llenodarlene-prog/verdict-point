@@ -5,7 +5,7 @@ description: Compare Relativity eDiscovery hosting paths, Server duties, partner
 slug: /legal-tech/relativity-ediscovery-hosting/
 type: blog
 schema: Article
-draft: true
+draft: false
 tracker_id: Blog:8
 primary_keyword: relativity ediscovery
 cluster: Legal Tech
@@ -16,7 +16,8 @@ research_record: content/research/blog-8.json
 image: /assets/images/posts/relativity-ediscovery-hosting/featured-cloud-hosted-review-1600.jpg
 image_alt: A laptop showing a document review list with highlighted text in front of server racks and a cloud padlock graphic
 author: Darlene Aberin
-published: 
+published: 2026-11-22
+publish_time: 10:30
 modified: 2026-11-14
 ---
 
@@ -37,7 +38,7 @@ That distinction should shape every hosting review for 2027. A firm must separat
 
 ## Start With the Matter, Not the Hosting Label
 
-A useful Relativity eDiscovery review begins with the work that must run. “Cloud” and “Server” are too broad for an early decision. The team needs a matter inventory, expected data volumes, review demands, integrations, and service requirements.
+A useful Relativity eDiscovery review begins with the work that must run. “Cloud” and “Server” are too broad for an early decision. The team needs a matter inventory, expected data volumes, review demands, integrations, and service requirements. Every relativity ediscovery plan should begin with the matters, not the deployment model.
 
 Start by separating new matters from existing ones. Relativity’s [Server 2028 policy](https://www.relativity.com/server-policy/) allows new Server matters through December 31, 2027. The same page says existing matters may stay on Server after that date. It also says Relativity has not announced an end-of-life date for Server.
 
@@ -67,7 +68,7 @@ The same inventory discipline supports a [controlled legal-AI pilot](/legal-tech
 
 ## Compare Cloud, Server, and Partner Delivery
 
-The hosting route decides who handles each operational task. It also changes which costs appear on the invoice. Use the matrix below to keep those responsibilities visible.
+The hosting route decides who handles each operational task. It also changes which costs appear on the invoice. Use the matrix below to keep those responsibilities visible. Each route delivers relativity ediscovery work, but the duties fall on different people.
 
 | Decision Area | Relativity aiR | Relativity Server | Partner-Assisted Route |
 | :---- | :---- | :---- | :---- |
@@ -120,7 +121,7 @@ These questions often expose the real constraint. The issue may be staffing, not
 
 ## Build a Like-for-Like Cost Comparison
 
-Relativity eDiscovery pricing cannot be reduced to one public number. Quotes may reflect platform scope, storage, processing, users, support, partner services, and migration. Server costs also vary by workload and internal accounting.
+Relativity eDiscovery pricing cannot be reduced to one public number. Quotes may reflect platform scope, storage, processing, users, support, partner services, and migration. Server costs also vary by workload and internal accounting. A fair relativity ediscovery cost comparison uses the same matters and workload for each route.
 
 Use one workload profile for every option. Then request pricing against the same assumptions.
 
@@ -157,7 +158,7 @@ The same discipline applies when comparing Relativity with [Everlaw document rev
 
 ## Treat 2027 as the Decision Year
 
-The 2028 rule makes 2027 a practical cutover year. Firms need enough time for procurement, security review, contracting, technical testing, and staff training. A late decision compresses every one of those tasks.
+The 2028 rule makes 2027 a practical cutover year. Firms need enough time for procurement, security review, contracting, technical testing, and staff training. A late decision compresses every one of those tasks. Teams that run relativity ediscovery on Server have a clear planning window.
 
 Use four milestones to control the work:
 

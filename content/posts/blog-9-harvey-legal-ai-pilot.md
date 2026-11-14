@@ -5,7 +5,7 @@ description: Run a Harvey Legal AI pilot with fixed tasks, lawyer review, securi
 slug: /legal-tech/harvey-legal-ai-pilot/
 type: blog
 schema: Article
-draft: true
+draft: false
 tracker_id: Blog:9
 primary_keyword: harvey legal ai
 cluster: Legal Tech
@@ -16,7 +16,8 @@ research_record: content/research/blog-9.json
 image: /assets/images/posts/harvey-legal-ai-pilot/featured-ai-assistant-review-1600.jpg
 image_alt: A lawyer reading a printed document beside a monitor showing an AI assistant chat and a laptop with a draft
 author: Darlene Aberin
-published: 
+published: 2026-11-21
+publish_time: 17:20
 modified: 2026-11-14
 ---
 
@@ -40,7 +41,7 @@ Public research can inform the design, but it cannot predict a firm’s outcome.
 
 ![Harvey home page headed Build a Frontier Legal Organization, showing a product dashboard with usage charts](/assets/images/posts/harvey-legal-ai-pilot/harvey-home-screenshot-1600.jpg "Harvey home page, captured November 2026.")
 
-
+ A harvey legal ai demo shows what the tool can do on chosen examples.
 A demo shows selected capabilities under favorable conditions. A pilot tests repeatable work under agreed controls. That difference changes the evidence a buying team collects.
 
 A demo may use a clean document and a skilled presenter. A firm pilot should include realistic instructions, imperfect source files, and normal review steps. It should also record failures, retries, and manual corrections.
@@ -62,7 +63,7 @@ The distinction also helps teams discuss [AI adoption versus performance](/legal
 
 ## Select One Bounded Legal Workflow
 
-The first Harvey Legal AI test should focus on a recurring workflow with clear inputs and outputs. Avoid “general legal research” as the scope. It lacks a stable finish line.
+The first Harvey Legal AI test should focus on a recurring workflow with clear inputs and outputs. Avoid “general legal research” as the scope. It lacks a stable finish line. A focused harvey legal ai pilot is easier to score than a broad one.
 
 Good candidates have enough volume to justify testing. They also allow experienced lawyers to define acceptable work. Examples may include a first-pass contract issue list, a chronology from approved records, or a research memo with source requirements.
 
@@ -167,7 +168,7 @@ Do not copy the benchmark’s percentage into an ROI model. Your task set, confi
 
 ## Set Security and Procurement Gates
 
-Security review should run beside quality testing. A good output cannot excuse an unacceptable data arrangement. The buyer needs product controls, contract terms, and internal operating rules.
+Security review should run beside quality testing. A good output cannot excuse an unacceptable data arrangement. The buyer needs product controls, contract terms, and internal operating rules. Security review for harvey legal ai should start before any client data enters the pilot.
 
 Harvey’s [security page](https://www.harvey.ai/security) describes model-provider zero-data-retention requirements. It also says customer inputs, outputs, and uploaded documents do not train underlying models. The page describes regional options and customer data controls. These are vendor statements that the contract should reflect.
 
@@ -187,7 +188,7 @@ Review these items before uploading approved material:
 * **Incident process:** Confirm notice timing, investigation support, and evidence access.  
 * **Bespoke training:** Clarify whether any customer-specific training is requested or allowed.
 
-Harvey announced [ISO 42001 certification](https://www.harvey.ai/blog/governance-iso-42001) in June 2026. Treat that as one governance signal. It does not replace review of scope, certificate details, controls, and contract obligations.
+Treat any governance certification, such as ISO 42001, as one signal. It does not replace review of scope, certificate details, controls, and contract obligations.
 
 ## Run a Controlled 30-Day Pilot
 
@@ -204,7 +205,7 @@ Do not add unrelated workflows during week three. Put new ideas in a later-test 
 
 ## Make a Go, Revise, or Stop Decision
 
-The final meeting should answer whether one workflow can enter controlled use. It should not decide whether the product is “good” in general.
+The final meeting should answer whether one workflow can enter controlled use. It should not decide whether the product is “good” in general. The harvey legal ai decision should follow the pass criteria set at the start.
 
 Use three possible outcomes:
 
