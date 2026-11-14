@@ -1,7 +1,7 @@
 ---
 title: Law Firm Billing Statistics and Uncollected Work
 seo_title: Law Firm Billing Statistics and Uncollected Work
-description: Law firm billing statistics for utilization, realization, collection, and lockup, with 2025 benchmarks for planning 2026–2027 cash flow.
+description: Law firm billing statistics for utilization, realization, collection, and lockup, with 2026 benchmarks for planning 2026–2027 cash flow.
 slug: /law-firms/law-firm-billing-statistics/
 type: article
 schema: Article
@@ -16,49 +16,37 @@ research_record: content/research/article-9.json
 image: /assets/images/posts/law-firm-billing-statistics/featured-billing-report-timer-1600.jpg
 image_alt: A lawyer studying a printed billing report while a laptop shows a timer, an invoice icon, and charts
 source_document: https://docs.google.com/document/d/1hfyjw7lw78_uGpmrVJgTSiPchYuUSSmzv7ED1YnnCGs/edit?usp=drivesdk
-author: 
+author: Darlene Aberin
 published: 
-modified: 
+modified: 2026-11-14
 ---
 
 # Law Firm Billing Statistics: From Recorded Time to Collected Cash
 
-**SEO title:** Law Firm Billing Statistics for 2026
-
-**Meta description:** Law firm billing statistics for utilization, realization, collection, and lockup, with 2025 benchmarks for planning 2026–2027 cash flow.
-
-**Suggested slug:** /law-firms/law-firm-billing-statistics/
-
-**Primary keyword:** law firm billing statistics
-
 Law firm billing statistics reveal where earned work slows before it becomes cash. The loss may begin when time goes unrecorded. It may continue when recorded work is not billed. Even an issued invoice can sit unpaid for weeks.
 
-The latest public benchmarks help firms locate those delays. Clio's 2025 reporting provides utilization, realization, collection, and lockup measures. Each answers a different question. None should be treated as a complete measure of profit.
+The latest public benchmarks help firms locate those delays. Clio's 2026 KPIs provide utilization, realization, and collection measures, and lockup can be calculated from a firm's own balances. Each answers a different question. None should be treated as a complete measure of profit.
 
 ## Key Statistics and Data
 
-These law firm billing statistics provide a current public reference point. They describe performance in Clio's dataset and should be compared with a firm's own definitions.
-
-* **Utilization Rate:** Lawyers recorded billable work for 38% of an eight-hour day, equal to about 3.0 hours.  
-* **Realization Rate:** Firms invoiced 88% of recorded billable work, shown as about 2.6 hours.  
-* **Collection Rate:** Firms collected 93% of invoiced amounts, shown as about 2.4 hours.  
-* **Realization Lockup:** The 2025 median was 43 days between work performed and billing.  
-* **Collection Lockup:** The median was 32 days between billing and payment.  
-* **Total Lockup:** The median combined measure was 93 days.  
-* **Rounding Note:** Rounded rates and hours may not reproduce one another exactly.  
-* **Median Note:** The median component values should not be added to recreate the median total.
+* **Utilization Rate:** Clio's 2026 KPIs show lawyers recording billable work for 42% of an eight-hour day, about 3.4 hours.
+* **Realization Rate:** Firms invoiced 90% of billable work, shown as about 3.0 hours.
+* **Collection Rate:** Firms collected 92% of invoiced work, shown as about 2.8 hours.
+* **Worked Rate Growth:** Thomson Reuters reported 7.3% worked rate growth during 2025 for the firms it monitors.
+* **Rounding Note:** Rounded rates and hours may not reproduce one another exactly.
+* **Lockup Note:** Lockup must be calculated from each firm's own balances; this article uses a worked example rather than a public median.
 
 ## How Work Moves Through the Billing Funnel
 
 Billing performance is a sequence, not one percentage. Time must be recorded, approved, invoiced, paid, and deposited. A delay at any stage reduces the cash available for payroll and other costs.
 
-Clio's [2025 billing benchmarks](https://www.clio.com/resources/legal-trends/benchmarks/) provide three operating rates. Utilization compares billable work with the working day. Realization compares the invoiced value with recorded billable value. Collection compares collected value with invoiced value.
+Clio's [2026 billing KPIs](https://www.clio.com/resources/legal-trends/benchmarks/) provide three operating rates. Utilization compares billable work with the working day. Realization compares the invoiced value with recorded billable value. Collection compares collected value with invoiced value.
 
-| Stage | 2025 Benchmark | Approximate Eight-Hour-Day View |
+| Stage | 2026 KPI | Approximate Eight-Hour-Day View |
 | :---- | :---- | :---- |
-| Utilization | 38% | 3.0 billable hours |
-| Realization | 88% | 2.6 invoiced hours |
-| Collection | 93% | 2.4 collected hours |
+| Utilization | 42% | 3.4 billable hours |
+| Realization | 90% | 3.0 invoiced hours |
+| Collection | 92% | 2.8 collected hours |
 
 The hour figures are rounded displays. A reader should not multiply the rounded percentages and expect an exact match. Each rate also has its own denominator, so a high collection rate cannot repair low utilization.
 
@@ -66,31 +54,31 @@ The hour figures are rounded displays. A reader should not multiply the rounded 
 
 Utilization measures how much of the available workday becomes billable activity. Administrative work, business development, training, leave, and internal meetings can lower the rate. Weak timekeeping can lower it further because completed work never reaches the record.
 
-A 38% benchmark does not mean every lawyer should bill exactly 3.0 hours daily. Roles, practices, staffing models, and fee arrangements differ. The measure is most useful when a firm compares similar timekeepers and tracks changes over time.
+A 42% benchmark does not mean every lawyer should bill exactly 3.4 hours daily. Roles, practices, staffing models, and fee arrangements differ. The measure is most useful when a firm compares similar timekeepers and tracks changes over time.
 
 ## Realization Shows What Reaches the Invoice
 
 Realization declines when firms write down time, apply discounts, exclude work, or fail to bill recorded entries. Some reductions are deliberate. A fixed-fee matter may not map neatly to hourly value. Other reductions may reveal poor scoping or late review.
 
-Leaders should separate planned pricing adjustments from avoidable leakage. That distinction is important when comparing software costs with results. A [Clio total-cost review](https://verdictpoint.org/legal-tech/clio-legal-software-total-cost/) should include the process changes needed to produce cleaner invoices, not just subscription fees.
+Rate growth adds pressure here. Thomson Reuters' [2026 State of the US Legal Market](https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026) reported 7.3% worked rate growth during 2025 for the firms it monitors, and higher rates can raise the chance of write-downs. Leaders should separate planned pricing adjustments from avoidable leakage. That distinction is important when comparing software costs with results. A [Clio total-cost review](/legal-tech/clio-legal-software-total-cost/) should include the process changes needed to produce cleaner invoices, not just subscription fees.
 
 ## Collection Shows What Becomes Cash
 
-Collection begins after the invoice is issued. A 93% rate still leaves a gap between billed work and received payment. That gap may reflect payment terms, disputes, client hardship, slow follow-up, or eventual write-offs.
+Collection begins after the invoice is issued. A 92% rate still leaves a gap between billed work and received payment. That gap may reflect payment terms, disputes, client hardship, slow follow-up, or eventual write-offs.
 
 The rate also needs a stated time window. A recent invoice may be unpaid but not late. Aging schedules provide the needed context by grouping receivables into periods such as current, 31–60 days, and more than 90 days.
 
 ## Lockup Measures the Time Dimension
 
-Rates show how much value survives each stage. Lockup shows how long that value remains unavailable. Clio's current law firm billing statistics report median realization lockup of 43 days, collection lockup of 32 days, and total lockup of 93 days.
+Rates show how much value survives each stage. Lockup shows how long that value remains unavailable. It has two parts, and each firm should calculate them from its own balances.
 
-| Lockup Measure | Firm-Level Formula | 2025 Median |
-| :---- | :---- | :---- |
-| Realization lockup | Unbilled work ÷ annual revenue × 365 | 43 days |
-| Collection lockup | Unpaid invoices ÷ annual revenue × 365 | 32 days |
-| Total lockup | Same-firm realization plus collection lockup | 93 days |
+| Lockup Measure | Firm-Level Formula |
+| :---- | :---- |
+| Realization lockup | Unbilled work ÷ annual revenue × 365 |
+| Collection lockup | Unpaid invoices ÷ annual revenue × 365 |
+| Total lockup | Same-firm realization plus collection lockup |
 
-The median total is not 75 days, even though 43 plus 32 equals 75. Each published median can come from a different firm at the midpoint of its distribution. Adding separate medians does not recreate the median of firm-level totals.
+Published medians for each part can come from different firms, so adding them does not recreate a typical total. Calculate total lockup firm by firm, then compare it with the firm's own history.
 
 ## Realization Lockup Starts Before the Bill
 
@@ -102,13 +90,13 @@ Firms can monitor days from work date to draft bill, then from draft bill to inv
 
 Collection lockup rises when invoices remain unpaid relative to annual revenue. Clear bills, predictable schedules, retainers, and convenient payment methods can reduce friction. Follow-up ownership also matters.
 
-Payment technology can change the client experience, but firms still need policies and controls. A review of [LawPay fees and legal payments](https://verdictpoint.org/legal-tech/lawpay-legal-payments-fees/) can help leaders compare transaction costs with possible gains in payment speed.
+Payment technology can change the client experience, but firms still need policies and controls. A review of [LawPay fees and legal payments](/legal-tech/lawpay-legal-payments-fees/) can help leaders compare transaction costs with possible gains in payment speed.
 
 ## Total Lockup Must Be Calculated Firm by Firm
 
 For one firm, total lockup is the sum of its realization and collection lockup. The calculation connects both sides of the delay. Improving only collections may leave a large unbilled balance untouched.
 
-The same caution applies to broad [law firm profitability statistics](https://verdictpoint.org/law-firms/law-firm-profitability-statistics/). Faster billing can support cash flow, but profit also depends on pricing, demand, staffing, overhead, and partner compensation.
+The same caution applies to broad [law firm profitability statistics](/law-firms/law-firm-profitability-statistics/). Faster billing can support cash flow, but profit also depends on pricing, demand, staffing, overhead, and partner compensation.
 
 ## A Worked Lockup Example
 
@@ -116,8 +104,8 @@ The following example is hypothetical. It demonstrates the formula and is not a 
 
 Assume a firm has $1,000,000 in annual revenue, $100,000 in unbilled work, and $50,000 in unpaid invoices. Its calculations would be:
 
-* **Realization Lockup:** $100,000 ÷ $1,000,000 × 365 = 36.5 days.  
-* **Collection Lockup:** $50,000 ÷ $1,000,000 × 365 = 18.25 days.  
+* **Realization Lockup:** $100,000 ÷ $1,000,000 × 365 = 36.5 days.
+* **Collection Lockup:** $50,000 ÷ $1,000,000 × 365 = 18.25 days.
 * **Total Lockup:** 36.5 \+ 18.25 = 54.75 days.
 
 The result does not mean every dollar waits exactly 54.75 days. It expresses the balances as days of annual revenue. Firms should use the same revenue basis and measurement date each period.
@@ -144,7 +132,7 @@ However, lockup can change because revenue changes. Review the underlying dollar
 
 Delayed entries reduce narrative quality and increase forgotten work. They can also create billing surprises for clients. Daily or weekly checks help managers find missing time while the work remains fresh.
 
-Automated capture tools may identify activity that would otherwise be missed. A [Smokeball time-capture review](https://verdictpoint.org/legal-tech/smokeball-legal-software-time-capture/) can help a firm assess those features. The policy should still define what is billable and who approves entries.
+Automated capture tools may identify activity that would otherwise be missed. A [Smokeball time-capture review](/legal-tech/smokeball-legal-software-time-capture/) can help a firm assess those features. The policy should still define what is billable and who approves entries.
 
 ## Write-Down Reasons Need Consistent Codes
 
@@ -156,7 +144,7 @@ Managers can then review patterns by practice and matter type. Frequent scope ad
 
 Collection work often becomes inconsistent when no person owns the next action. Assign responsibility for reminders, lawyer escalation, payment plans, and write-off approval. Record each contact in the billing system.
 
-Clio's [law firm billing guide](https://www.clio.com/blog/law-firm-billing/) recommends clear policies and timely invoices. Those basics help clients understand what they owe and when payment is due.
+Clear billing policies and timely invoices help clients understand what they owe and when payment is due.
 
 ## Build a Better Monthly Billing Report
 
@@ -164,13 +152,13 @@ A useful report combines flow, balances, and time. It should allow leaders to mo
 
 The core scorecard can include the following measures.
 
-* **Recorded Billable Value:** Show current-period work before adjustments.  
-* **Utilization:** Segment by comparable role or timekeeper group.  
-* **Realization:** Separate standard-price realization from actual billed realization when possible.  
-* **Collection:** State the invoice and payment windows behind the rate.  
-* **Unbilled Balance:** Add aging by work date or prebill stage.  
-* **Accounts Receivable:** Show current, 31–60, 61–90, and 90-plus-day balances.  
-* **Lockup Days:** Report realization, collection, and total using consistent inputs.  
+* **Recorded Billable Value:** Show current-period work before adjustments.
+* **Utilization:** Segment by comparable role or timekeeper group.
+* **Realization:** Separate standard-price realization from actual billed realization when possible.
+* **Collection:** State the invoice and payment windows behind the rate.
+* **Unbilled Balance:** Add aging by work date or prebill stage.
+* **Accounts Receivable:** Show current, 31–60, 61–90, and 90-plus-day balances.
+* **Lockup Days:** Report realization, collection, and total using consistent inputs.
 * **Write-Downs and Write-Offs:** Separate reductions before and after invoicing.
 
 The report should also show denominators. A 100% collection rate based on one invoice is less stable than 96% across hundreds. Dollar values prevent percentage improvements from hiding a growing balance.
@@ -215,12 +203,12 @@ Use billing measures to find workflow and cash delays. Use revenue, direct costs
 
 ## The Bottom Line
 
-The most useful law firm billing statistics follow work from the working day to the bank account. The 2025 benchmarks show 38% utilization, 88% realization, and 93% collection. Median lockup measures show that time remains a major part of the cash-flow story.
+The most useful law firm billing statistics follow work from the working day to the bank account. Clio's 2026 KPIs show 42% utilization, 90% realization, and 92% collection. Lockup shows that time remains a major part of the cash-flow story.
 
 For 2026–2027 planning, firms should pair those references with their own balances and matter records. Define every rate, retain the raw dollar values, and calculate total lockup at firm level. That structure makes billing delays visible before they become larger cash problems.
 
 ## Resources
 
-* [Clio, Law Firm Performance Benchmarks](https://www.clio.com/resources/legal-trends/benchmarks/)  
-* [Clio, 2025 Legal Trends Report](https://www.clio.com/wp-content/uploads/2025/09/2025-Legal-Trends-Report.pdf)  
-* [Clio, Law Firm Billing Guide](https://www.clio.com/blog/law-firm-billing/)
+* [Clio, Law Firm Performance Benchmarks](https://www.clio.com/resources/legal-trends/benchmarks/)
+* [Thomson Reuters Institute, 2026 State of the US Legal Market](https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026)
+* [Thomson Reuters Institute, Q4 2025 Law Firm Financial Index](https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails)
