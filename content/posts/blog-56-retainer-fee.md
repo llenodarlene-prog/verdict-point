@@ -11,13 +11,13 @@ primary_keyword: retainer fee
 cluster: Law Firms
 launch_silo: Payments & Billing
 silo_role: Supporting
-approved_internal_links: /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /law-firms/legal-billing-chart/
+approved_internal_links: /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /law-firms/legal-billing-chart/; /law-firms/law-firm-profitability-statistics/
 research_record: content/research/blog-56.json
 image: /assets/images/posts/retainer-fee/retainer-agreement-ledger-folder-calculator-1600.jpg
 image_alt: Open folder holding an engagement letter and a ledger sheet beside a pen and calculator on a stone desk
 author: Darlene Aberin
 published: 2026-10-24
-modified: 2026-10-24
+modified: 2026-11-14
 ---
 
 # Retainer Fee Types and Billing Examples
@@ -75,7 +75,7 @@ These examples show why a template copied from another state needs review. A fam
 
 ## How a Retainer Fee Appears in a Ledger
 
-For an advance arrangement, a ledger can show the relationship between money received and charges applied. It should make the remaining balance traceable. A payment request, invoice, and bank transaction represent different events and need separate records.
+For an advance arrangement, a ledger can show the relationship between money received and charges applied. It should make the remaining balance traceable. A payment request, invoice, and bank transaction represent different events and need separate records. Broader [law firm profitability statistics](/law-firms/law-firm-profitability-statistics/) show why unearned advances should never be counted as profit.
 
 The following example is hypothetical. Assume a $5,000 opening advance, $1,500 in earned legal fees, and $200 in incurred expenses. Assume the agreement calls for replenishing the available balance to $5,000. These amounts are invented solely to explain the calculation.
 

@@ -477,7 +477,10 @@
       "/law-firms/law-firm-billing-statistics/",
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
-      "/legal-tech/litify-legal-software-implementation/"
+      "/legal-tech/litify-legal-software-implementation/",
+      "/legal-tech/lawpay-legal-payments-fees/",
+      "/law-firms/retainer-fee/",
+      "/law-firms/legal-billing-chart/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1529,7 +1532,8 @@
     "approved_outbound_targets": [
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/mycase-legal-software/",
-      "/law-firms/legal-billing-chart/"
+      "/law-firms/legal-billing-chart/",
+      "/law-firms/law-firm-profitability-statistics/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1564,7 +1568,8 @@
     "approved_outbound_targets": [
       "/law-firms/retainer-fee/",
       "/legal-tech/smokeball-legal-software-time-capture/",
-      "/legal-tech/clio-legal-software-total-cost/"
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/law-firms/law-firm-profitability-statistics/"
     ],
     "natural_anchor_concepts": [
       {

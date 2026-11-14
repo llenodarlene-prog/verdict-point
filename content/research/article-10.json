@@ -1,241 +1,423 @@
 {
   "tracker_id": "Article:10",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Law Firm Profitability Statistics by Practice Size. Planned sources and method: Public firm reports and anonymized expense sample; define partner compensation. Build a source-labelled comparison covering law firm profit margin and profit per partner; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
+  "research_question": "What do current public data show about law firm profit growth, margins, and billing performance, and what are their limits?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Statistics article separating profit growth, margin, and operating efficiency for 2027 planning.",
+    "audience": "Law firm owners, managing partners, and finance leads in the United States.",
+    "publication_year": "2026",
+    "data_period": "Thomson Reuters 2026 State of the US Legal Market (2025 data); LFFI Q4 2025; Clio 2026 KPIs.",
+    "scope_limitations": "Thomson Reuters covers monitored larger firms; Clio reflects its customer data; no universal small-firm margin."
   },
   "keyword_research": {
     "approved_primary_keyword": "law firm profitability statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-09-22",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
-      },
-      {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-11-14"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "law firm profitability statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.lawpay.com/about/blog/law-firm-profitability/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm profitability",
+        "type": "short-tail",
+        "volume": 40,
+        "difficulty": 25,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.lawpay.com/about/blog/law-firm-profitability/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to calculate law firm profitability",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 40,
+        "difficulty": 19,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.lawpay.com/about/blog/law-firm-profitability/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm profitability metrics",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 34,
+        "cpc": 12.98,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.lawpay.com/about/blog/law-firm-profitability/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to improve law firm profitability",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 24,
+        "cpc": 9.38,
+        "intent": "Informational",
+        "ranking_url": "http://www.lawpay.com/about/blog/law-firm-profitability/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is law firm billing",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.lawpay.com/about/blog/law-firm-profitability/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "title": "2026 State of the US Legal Market",
+      "publisher": "Thomson Reuters Institute",
+      "source_type": "Industry report",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Monitored-firm profit and rate growth in 2025.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Monitored segment of larger firms.",
+      "verified": true
+    },
+    {
+      "url": "https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails",
+      "title": "Law Firm Financial Index Q4 2025",
+      "publisher": "Thomson Reuters Institute",
+      "source_type": "Industry index",
+      "year": "2025",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Q4 2025 demand growth, index level, and margins.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Monitored segment; quarterly data.",
+      "verified": true
+    },
+    {
+      "url": "https://www.clio.com/resources/legal-trends/benchmarks/",
+      "title": "Law Firm Performance Benchmarks",
+      "publisher": "Clio",
+      "source_type": "Vendor benchmark",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "2026 utilization, realization, and collection KPIs.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Clio customer data; verified via owner screenshot captured 2026-11-13.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Average profit growth of 13% during 2025 for monitored firms; worked rates grew 7.3%.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Firms monitored by Thomson Reuters",
+      "sample": "Monitored firms",
+      "denominator": "Prior-year profit and rates",
+      "unit": "Percent",
+      "method": "Industry report",
+      "limitations": "Monitored segment only",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Demand rose 3.3% in Q4 2025, down from 3.9% in Q3; the LFFI closed at 61; margins remained above 40%.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails",
+      "data_year": "2025",
+      "geography": "United States",
+      "population": "Firms monitored by Thomson Reuters",
+      "sample": "Monitored firms",
+      "denominator": "Prior-year quarter",
+      "unit": "Percent and index",
+      "method": "Industry index",
+      "limitations": "Monitored segment only",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Clio 2026 KPIs: 42% utilization, 90% realization, 92% collection.",
+      "source_url": "https://www.clio.com/resources/legal-trends/benchmarks/",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Law firms in Clio data",
+      "sample": "Clio customer data",
+      "denominator": "Eight-hour workday",
+      "unit": "Percent",
+      "method": "Vendor benchmark",
+      "limitations": "Rounded; vendor dataset",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firm Profitability: Key Metrics",
+      "url": "http://www.lawpay.com/about/blog/law-firm-profitability/",
+      "publisher": "LawPay",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Metrics"
+      ],
+      "coverage": [
+        "Profit KPIs"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-09-22)"
+      ],
+      "covered_well": "KPI list",
+      "gaps": "No segment labels"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firm Profitability Topic",
+      "url": "http://www.law.com/topics/law-firm-profitability/",
+      "publisher": "Law.com",
+      "format": "News hub",
+      "updated_at": "Not stated",
+      "headings": [
+        "News"
+      ],
+      "coverage": [
+        "Big Law profit news"
+      ],
+      "sources": [
+        "Reporting"
+      ],
+      "data_assets": [
+        "Rankings"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-09-22)"
+      ],
+      "covered_well": "Current news",
+      "gaps": "Big Law only"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Improve Law Firm Profitability through These Metrics",
+      "url": "http://anderscpa.com/learn/blog/law-firm-profitability-optimize-operational-financial-metrics/",
+      "publisher": "Anders CPA",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Metrics"
+      ],
+      "coverage": [
+        "Operational metrics"
+      ],
+      "sources": [
+        "Advisory"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-09-22)"
+      ],
+      "covered_well": "Accounting view",
+      "gaps": "No public benchmarks"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firms in the US Industry Analysis, 2026",
+      "url": "http://www.ibisworld.com/united-states/industry/law-firms/1389/",
+      "publisher": "IBISWorld",
+      "format": "Industry report",
+      "updated_at": "Not stated",
+      "headings": [
+        "Industry"
+      ],
+      "coverage": [
+        "Market size and margins"
+      ],
+      "sources": [
+        "Proprietary"
+      ],
+      "data_assets": [
+        "Charts"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 6 (collected 2026-09-22)"
+      ],
+      "covered_well": "Industry scope",
+      "gaps": "Paywalled"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Law Firm Profitability Metrics",
+      "url": "http://caretlegal.com/blog/law-firm-metrics-planning-for-growth-despite-headwinds/",
+      "publisher": "CARET Legal",
+      "format": "Blog",
+      "updated_at": "Not stated",
+      "headings": [
+        "Planning"
+      ],
+      "coverage": [
+        "Growth metrics"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 7 (collected 2026-09-22)"
+      ],
+      "covered_well": "Planning focus",
+      "gaps": "Limited data"
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Competitors present monitored Big Law margins as universal.",
+    "Few separate growth from margin."
+  ],
+  "value_add": "A profit bridge from revenue to distributable profit with a hypothetical, plus a 2027 review checklist.",
   "plan": {
     "reader_title": "Law Firm Profitability Statistics by Practice Size",
     "seo_title": "Law Firm Profitability Statistics by Practice Size",
-    "meta_description": "",
+    "meta_description": "Law firm profitability statistics covering profit growth, margins, billing performance, and the limits of public benchmarks for 2027 planning.",
     "slug": "/law-firms/law-firm-profitability-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "law firm profit margin",
+      "law firm profit per partner"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "What the Latest Profit Growth Figure Means",
+      "Growth Rate and Margin Answer Different Questions",
+      "Worked Rates Are Not Collected Rates",
+      "A Strong Quarter Does Not Create a Universal Benchmark",
+      "Segment Labels Belong Beside Every Figure",
+      "2026 Data Should Not Be Relabeled as 2027 Data",
+      "Billing Performance Supports Profit but Does Not Define It",
+      "Low Utilization Can Limit Revenue Capacity",
+      "Realization Reflects Pricing and Delivery",
+      "Collection Affects Cash, Not Just Accounting",
+      "Build a Profit Bridge From Revenue to Distributable Profit",
+      "Partner Compensation Can Change the Story",
+      "Direct Costs Need Consistent Treatment",
+      "Shared Overhead Requires a Fair Allocation Rule",
+      "A Hypothetical Profit Bridge",
+      "Test Changes One Driver at a Time",
+      "Include Implementation Costs in Technology Cases",
+      "A 2027 Profitability Review Checklist",
+      "The Bottom Line",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Profit growth",
+        "sources": [
+          "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026"
+        ]
+      },
+      {
+        "section": "Quarterly signal",
+        "sources": [
+          "https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails"
+        ]
+      },
+      {
+        "section": "Billing performance",
+        "sources": [
+          "https://www.clio.com/resources/legal-trends/benchmarks/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
     "internal_links": [
       "/law-firms/law-firm-billing-statistics/",
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
-      "/legal-tech/litify-legal-software-implementation/"
+      "/legal-tech/litify-legal-software-implementation/",
+      "/legal-tech/lawpay-legal-payments-fees/",
+      "/law-firms/retainer-fee/",
+      "/law-firms/legal-billing-chart/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026",
+      "https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails",
+      "https://www.clio.com/resources/legal-trends/benchmarks/"
+    ],
+    "excluded_claims": [
+      "Clio 2025 figures (superseded)",
+      "Universal small-firm margin"
+    ],
+    "drafting_cautions": [
+      "Label every figure with segment and period.",
+      "Do not relabel 2026 data as 2027."
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "A 13% rise in profit describes growth, not margin; monitored margins above 40% apply to the Thomson Reuters segment only.",
+      "source_url": "https://www.thomsonreuters.com/en/institute/reports/lffi-q4-2025-full-sails",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
-  },
-  "recovery": {
-    "research_brief": "https://docs.google.com/document/d/117sooGyNOaS-vVx_TMb4IXvUAMmbx7S7Wh0pJWTDoyA/edit?usp=drivesdk",
-    "research_snapshot": "sources/google-drive/117sooGyNOaS-vVx_TMb4IXvUAMmbx7S7Wh0pJWTDoyA.md",
-    "draft_snapshot": "sources/google-drive/18r6jRfZn1tEbDf53Rwrl5cOW4tYv1HqjIpBDMOKAkEA.md",
-    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   }
 }

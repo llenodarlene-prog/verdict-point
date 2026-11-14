@@ -5,19 +5,22 @@ description: Compare law firm social media statistics for 2026–2027 by platfor
 slug: /legal-marketing/law-firm-social-media-statistics/
 type: article
 schema: Article
-draft: true
+draft: false
 tracker_id: Article:7
 primary_keyword: law firm social media statistics
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
 approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/
+ai_exceptions: actually
+ai_exception_reason: The word appears only inside the cited Illinois Commission on Professionalism URL, which cannot be changed.
 research_record: content/research/article-7.json
 image: /assets/images/posts/law-firm-social-media-statistics/featured-social-dashboard-1600.jpg
 image_alt: Two lawyers reviewing a monitor dashboard with social platform icons, a rising line chart, and bar charts
 source_document: https://docs.google.com/document/d/1uMcjfXbvn5SfYITn16p0IiREUTgH_OcEErVHc4CaXdI/edit?usp=drivesdk
 author: Darlene Aberin
-published: 
+published: 2026-11-22
+publish_time: 17:50
 modified: 2026-11-14
 ---
 
@@ -64,7 +67,7 @@ For budget context, [marketing channel benchmarks](/legal-marketing/law-firm-mar
 
 ## Why Presence Is Not Performance
 
-Presence answers a simple question: does the firm maintain an account? Performance asks whether activity reaches the right audience and supports a defined goal.
+Presence answers a simple question: does the firm maintain an account? Performance asks whether activity reaches the right audience and supports a defined goal. Most law firm social media statistics measure presence, not results.
 
 An inactive account and a daily publishing program both count as presence. So can a recruiting page, an attorney profile, or a firm brand page. The adoption percentage does not separate them.
 
@@ -79,7 +82,7 @@ Each layer can improve while the next remains flat. That pattern is not automati
 
 ## What Social Conversion Benchmarks Show
 
-Ruler Analytics publishes conversion figures from its tracked legal dataset. The [2026 legal benchmark](https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/) reports 2.2% for paid social. Organic social stands at 2.1%.
+Ruler Analytics publishes conversion figures from its tracked legal dataset. The [2026 legal benchmark](https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/) reports 2.2% for paid social. Organic social stands at 2.1%. Conversion figures are the rarest law firm social media statistics.
 
 These are vendor-tracked conversion rates. They do not represent the percentage of lawyers who win clients through social media. The publisher also does not disclose a legal-only firm count on the page.
 
@@ -150,7 +153,7 @@ The answers can shape the next publishing cycle. They should not become promises
 
 ## What a Social Reporting Sheet Should Include
 
-A good reporting sheet connects content with website and intake outcomes. It also keeps platform metrics in their proper place.
+A good reporting sheet connects content with website and intake outcomes. It also keeps platform metrics in their proper place. Firm records turn public law firm social media statistics into something useful.
 
 Use one row for each post or campaign. Add a stable content ID so edited captions do not break the record.
 
@@ -202,7 +205,7 @@ Firms should avoid several common claims.
 
 ## A 2027 Social Measurement Checklist
 
-The 2027 plan should begin with business questions, not platform dashboards. Each measure needs an owner and decision.
+The 2027 plan should begin with business questions, not platform dashboards. Each measure needs an owner and decision. Use it beside any law firm social media statistics a vendor shares.
 
 Use this checklist before presenting results.
 

@@ -5,7 +5,7 @@ description: Law firm billing statistics for utilization, realization, collectio
 slug: /law-firms/law-firm-billing-statistics/
 type: article
 schema: Article
-draft: true
+draft: false
 tracker_id: Article:9
 primary_keyword: law firm billing statistics
 cluster: Law Firms
@@ -17,7 +17,8 @@ image: /assets/images/posts/law-firm-billing-statistics/featured-billing-report-
 image_alt: A lawyer studying a printed billing report while a laptop shows a timer, an invoice icon, and charts
 source_document: https://docs.google.com/document/d/1hfyjw7lw78_uGpmrVJgTSiPchYuUSSmzv7ED1YnnCGs/edit?usp=drivesdk
 author: Darlene Aberin
-published: 
+published: 2026-11-23
+publish_time: 18:05
 modified: 2026-11-14
 ---
 
@@ -52,25 +53,25 @@ The hour figures are rounded displays. A reader should not multiply the rounded 
 
 ## Utilization Shows the Recorded Starting Point
 
-Utilization measures how much of the available workday becomes billable activity. Administrative work, business development, training, leave, and internal meetings can lower the rate. Weak timekeeping can lower it further because completed work never reaches the record.
+Utilization measures how much of the available workday becomes billable activity. Administrative work, business development, training, leave, and internal meetings can lower the rate. Weak timekeeping can lower it further because completed work never reaches the record. Utilization is the first of the law firm billing statistics in the funnel.
 
 A 42% benchmark does not mean every lawyer should bill exactly 3.4 hours daily. Roles, practices, staffing models, and fee arrangements differ. The measure is most useful when a firm compares similar timekeepers and tracks changes over time.
 
 ## Realization Shows What Reaches the Invoice
 
-Realization declines when firms write down time, apply discounts, exclude work, or fail to bill recorded entries. Some reductions are deliberate. A fixed-fee matter may not map neatly to hourly value. Other reductions may reveal poor scoping or late review.
+Realization declines when firms write down time, apply discounts, exclude work, or fail to bill recorded entries. Some reductions are deliberate. A fixed-fee matter may not map neatly to hourly value. Other reductions may reveal poor scoping or late review. Realization is where many law firm billing statistics show the first visible loss.
 
 Rate growth adds pressure here. Thomson Reuters' [2026 State of the US Legal Market](https://www.thomsonreuters.com/en/institute/reports/state-of-the-us-legal-market-2026) reported 7.3% worked rate growth during 2025 for the firms it monitors, and higher rates can raise the chance of write-downs. Leaders should separate planned pricing adjustments from avoidable leakage. That distinction is important when comparing software costs with results. A [Clio total-cost review](/legal-tech/clio-legal-software-total-cost/) should include the process changes needed to produce cleaner invoices, not just subscription fees.
 
 ## Collection Shows What Becomes Cash
 
-Collection begins after the invoice is issued. A 92% rate still leaves a gap between billed work and received payment. That gap may reflect payment terms, disputes, client hardship, slow follow-up, or eventual write-offs.
+Collection begins after the invoice is issued. A 92% rate still leaves a gap between billed work and received payment. That gap may reflect payment terms, disputes, client hardship, slow follow-up, or eventual write-offs. Collection is the last rate among these law firm billing statistics.
 
 The rate also needs a stated time window. A recent invoice may be unpaid but not late. Aging schedules provide the needed context by grouping receivables into periods such as current, 31–60 days, and more than 90 days.
 
 ## Lockup Measures the Time Dimension
 
-Rates show how much value survives each stage. Lockup shows how long that value remains unavailable. It has two parts, and each firm should calculate them from its own balances.
+Rates show how much value survives each stage. Lockup shows how long that value remains unavailable. It has two parts, and each firm should calculate them from its own balances. Lockup adds time to law firm billing statistics that otherwise show only rates.
 
 | Lockup Measure | Firm-Level Formula |
 | :---- | :---- |
@@ -148,7 +149,7 @@ Clear billing policies and timely invoices help clients understand what they owe
 
 ## Build a Better Monthly Billing Report
 
-A useful report combines flow, balances, and time. It should allow leaders to move from a firmwide view to the matters causing the change.
+A useful report combines flow, balances, and time. It should allow leaders to move from a firmwide view to the matters causing the change. A monthly report keeps law firm billing statistics tied to the firm's own data.
 
 The core scorecard can include the following measures.
 
@@ -191,7 +192,7 @@ A reconciled report gives leaders confidence that an operational improvement rea
 
 ## Review Trends, Not Isolated Months
 
-Billing cycles, court schedules, holidays, and large matters can shift one month's result. Use rolling trends and year-over-year comparisons where definitions remain unchanged. Add notes when a large settlement or invoice affects the period.
+Billing cycles, court schedules, holidays, and large matters can shift one month's result. Use rolling trends and year-over-year comparisons where definitions remain unchanged. Add notes when a large settlement or invoice affects the period. Law firm billing statistics are most useful as a trend.
 
 Quarterly review is often suitable for policy decisions. Operational teams may need weekly queues for missing time, draft bills, and overdue accounts.
 
