@@ -1,210 +1,360 @@
 {
   "tracker_id": "Blog:7",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Everlaw eDiscovery for Collaborative Document Review. Planned sources and method: Everlaw official product documentation and published procurement records. Build a source-labelled comparison covering Everlaw review platform and Everlaw pricing model; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
+  "research_question": "How should a legal team evaluate Everlaw eDiscovery for collaborative review, permissions, and cost?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Commercial-support guide to test Everlaw search sharing, object permissions, and pricing drivers before live review.",
+    "audience": "eDiscovery project managers, litigation support teams, and law firm buyers in the United States.",
+    "publication_year": "2026",
+    "data_period": "Everlaw pricing and help pages current as of November 2026.",
+    "scope_limitations": "Vendor documentation only; no hands-on test; no published per-GB rate."
   },
   "keyword_research": {
     "approved_primary_keyword": "everlaw ediscovery",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-09-17",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
-      },
-      {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-11-14"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "everlaw ediscovery",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 140,
+        "difficulty": 17,
+        "cpc": 87.62,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.everlaw.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
-        "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
-      },
-      {
-        "keyword": "",
+        "keyword": "everlaw pricing",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 90,
+        "difficulty": 33,
+        "cpc": 69.93,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.everlaw.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "everlaw ediscovery software",
+        "type": "long-tail",
+        "volume": 90,
+        "difficulty": 32,
+        "cpc": 59.64,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.everlaw.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "everlaw vs relativity",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 40,
+        "difficulty": 26,
+        "cpc": 24.36,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.everlaw.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is everlaw",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 170,
+        "difficulty": 22,
+        "cpc": 8.73,
+        "intent": "Informational",
+        "ranking_url": "http://www.everlaw.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://support.everlaw.com/hc/en-us/articles/25390790827035-Sharing-and-Collaborating-on-Searches",
+      "title": "Sharing and Collaborating on Searches",
+      "publisher": "Everlaw",
+      "source_type": "Vendor help article",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Search privacy defaults and sharing levels.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Help article; verified via owner screenshot captured 2026-11-13 because the site blocks automated fetches.",
+      "verified": true
+    },
+    {
+      "url": "https://support.everlaw.com/hc/en-us/articles/210011233-Sharing-and-Object-Permissions",
+      "title": "Sharing and Object Permissions",
+      "publisher": "Everlaw",
+      "source_type": "Vendor help article",
+      "year": "2026",
+      "published_at": "2026-10-07",
+      "accessed_at": "2026-11-14",
+      "scope": "Shareable object types and permission sections.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Help article; verified via owner screenshot captured 2026-11-13.",
+      "verified": true
+    },
+    {
+      "url": "https://www.everlaw.com/pricing-b/",
+      "title": "Everlaw Pricing",
+      "publisher": "Everlaw",
+      "source_type": "Vendor pricing page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Subscription model, AI inclusions, credits.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "No dollar rates published.",
+      "verified": true
+    },
+    {
+      "url": "https://support.everlaw.com/hc/en-us/articles/205660765-Billing-and-Pricing-FAQ",
+      "title": "Billing and Pricing FAQ",
+      "publisher": "Everlaw",
+      "source_type": "Vendor help article",
+      "year": "2026",
+      "published_at": "2026-10-17",
+      "accessed_at": "2026-11-14",
+      "scope": "Pricing approach based on hosted data.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Only the pricing-approach section verified via owner screenshot captured 2026-11-13.",
+      "verified": true
+    },
+    {
+      "url": "https://www.everlaw.com/users/storybuilder/",
+      "title": "Everlaw Storybuilder",
+      "publisher": "Everlaw",
+      "source_type": "Vendor product page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Storybuilder positioning.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Marketing page.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Everlaw search sharing offers three permission levels: View, Edit, and Full Access.",
+      "source_url": "https://support.everlaw.com/hc/en-us/articles/25390790827035-Sharing-and-Collaborating-on-Searches",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Everlaw users",
+      "sample": "Not applicable (product documentation)",
+      "denominator": "Not applicable",
+      "unit": "Count",
+      "method": "Vendor documentation",
+      "limitations": "Product behavior may change",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Everlaw | AI Built for Litigation and Investigations",
+      "url": "http://www.everlaw.com/",
+      "publisher": "Everlaw",
+      "format": "Vendor home",
+      "updated_at": "Not stated",
+      "headings": [
+        "Platform"
+      ],
+      "coverage": [
+        "Product overview"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 1 (collected 2026-09-17)"
+      ],
+      "covered_well": "Brand overview",
+      "gaps": "No permission test plan"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Everlaw as an ESI discovery platform",
+      "url": "http://www.reddit.com/r/ediscovery/comments/1f2e0uz/everlaw_as_an_esi_discovery_platform/",
+      "publisher": "Reddit",
+      "format": "Forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "User opinions"
+      ],
+      "coverage": [
+        "Practitioner views"
+      ],
+      "sources": [
+        "Anecdotes"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-09-17)"
+      ],
+      "covered_well": "Real user questions",
+      "gaps": "Unverified"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Everlaw - eDiscovery & Document Review Tools",
+      "url": "http://www.carahsoft.com/everlaw",
+      "publisher": "Carahsoft",
+      "format": "Reseller page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Public sector offering"
+      ],
+      "coverage": [
+        "Product summary"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-09-17)"
+      ],
+      "covered_well": "Procurement angle",
+      "gaps": "No cost-driver detail"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Everlaw vs Relativity: Which Wins?",
+      "url": "http://www.rev.com/blog/everlaw-vs-relativity-vs-rev",
+      "publisher": "Rev",
+      "format": "Comparison",
+      "updated_at": "Not stated",
+      "headings": [
+        "Comparison"
+      ],
+      "coverage": [
+        "Feature comparison"
+      ],
+      "sources": [
+        "Vendor pages"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 7 (collected 2026-09-17)"
+      ],
+      "covered_well": "Side-by-side framing",
+      "gaps": "Competitor-authored; no permission testing"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Everlaw Reviews & Ratings 2026",
+      "url": "http://www.gartner.com/reviews/product/everlaw",
+      "publisher": "Gartner Peer Insights",
+      "format": "Reviews",
+      "updated_at": "Not stated",
+      "headings": [
+        "Ratings"
+      ],
+      "coverage": [
+        "User reviews"
+      ],
+      "sources": [
+        "Peer reviews"
+      ],
+      "data_assets": [
+        "Ratings"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 10 (collected 2026-09-17)"
+      ],
+      "covered_well": "Peer sentiment",
+      "gaps": "No implementation checklist"
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page offers a role-based permission test matrix.",
+    "Competitors do not separate hosted data from AI credits."
+  ],
+  "value_add": "A permission test matrix and a cost-driver worksheet that keeps hosted data and AI credits separate.",
   "plan": {
     "reader_title": "Everlaw eDiscovery for Collaborative Document Review",
     "seo_title": "Everlaw eDiscovery for Collaborative Document Review",
-    "meta_description": "",
+    "meta_description": "Evaluate Everlaw eDiscovery across search sharing, project and object permissions, review work product, hosted data, AI credits, and services.",
     "slug": "/legal-tech/everlaw-ediscovery-document-review/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "Everlaw document review",
+      "Everlaw pricing"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Map the Review Set to the Shared Work Product",
+      "Understand Search Sharing and Personal Copies",
+      "Test Project, Object, Group, and Admin Permissions Separately",
+      "Keep Evidence and Case-Building Work Connected",
+      "Separate Hosted Data From Other Cost Drivers",
+      "Model AI Credits Separately From Data",
+      "Do Not Delete Data Solely to Reduce Cost",
+      "Run a Collaboration and Cost Pilot",
+      "What Should a Buyer Conclude?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Search sharing",
+        "sources": [
+          "https://support.everlaw.com/hc/en-us/articles/25390790827035-Sharing-and-Collaborating-on-Searches"
+        ]
+      },
+      {
+        "section": "Object permissions",
+        "sources": [
+          "https://support.everlaw.com/hc/en-us/articles/210011233-Sharing-and-Object-Permissions"
+        ]
+      },
+      {
+        "section": "Cost",
+        "sources": [
+          "https://www.everlaw.com/pricing-b/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Everlaw Storybuilder screenshot",
+      "Everlaw pricing screenshot"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/ai-in-law-firms-statistics/",
@@ -212,31 +362,54 @@
       "/legal-tech/harvey-legal-ai-pilot/",
       "/legal-tech/lexisnexis-legal-ai-source-checking/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://support.everlaw.com/hc/en-us/articles/25390790827035-Sharing-and-Collaborating-on-Searches",
+      "https://support.everlaw.com/hc/en-us/articles/210011233-Sharing-and-Object-Permissions",
+      "https://www.everlaw.com/pricing-b/",
+      "https://support.everlaw.com/hc/en-us/articles/205660765-Billing-and-Pricing-FAQ",
+      "https://www.everlaw.com/users/storybuilder/"
+    ],
+    "excluded_claims": [
+      "Peak-data billing method",
+      "Subproject double-billing",
+      "Produced-file storage charges",
+      "Least-restrictive group permission rule"
+    ],
+    "drafting_cautions": [
+      "Do not present unlimited uploads as unlimited free storage.",
+      "Do not recommend deletion without preservation approval."
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Searches are private to their creator by default and can be shared with View, Edit, or Full Access.",
+      "source_url": "https://support.everlaw.com/hc/en-us/articles/25390790827035-Sharing-and-Collaborating-on-Searches",
+      "verified": true
+    },
+    {
+      "statement": "Documents, binders, searches, folders, assignments, review window layouts, results table views, predictive coding models, document sets, Stories, Drafts, and Depositions can be shared.",
+      "source_url": "https://support.everlaw.com/hc/en-us/articles/210011233-Sharing-and-Object-Permissions",
+      "verified": true
+    },
+    {
+      "statement": "Pricing is based on the amount of data managed and usage, without limits on users or uploads, under case or annual subscriptions.",
+      "source_url": "https://www.everlaw.com/pricing-b/",
+      "verified": true
+    },
+    {
+      "statement": "Single-document AI actions and Writing Assistant are included; batch actions use credits; unused committed credit purchases expire at term end.",
+      "source_url": "https://www.everlaw.com/pricing-b/",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
-  },
-  "recovery": {
-    "research_brief": "https://docs.google.com/document/d/1myIJ1yxR0XfLPjG2QY8wARqZ47wi2pZOhVcOCe5w1iM/edit?usp=drivesdk",
-    "research_snapshot": "sources/google-drive/1myIJ1yxR0XfLPjG2QY8wARqZ47wi2pZOhVcOCe5w1iM.md",
-    "draft_snapshot": "sources/google-drive/1gmLwSKmHuDDyEzm-aKxaY_VYPBKK6KKWUSxXbtHGyQI.md",
-    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   }
 }

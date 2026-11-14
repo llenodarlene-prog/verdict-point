@@ -113,7 +113,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Legal Technology Statistics\". Reader needs a defined dataset or measurement method. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/legal-tech/legal-technology-statistics/",
-    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/",
+    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Legal Technology Adoption",
@@ -135,7 +135,9 @@
       "/legal-tech/best-legal-document-automation-software/",
       "/legal-tech/best-legal-contract-management-software/",
       "/legal-tech/best-legal-crm-software/",
-      "/legal-tech/best-ediscovery-software/"
+      "/legal-tech/best-ediscovery-software/",
+      "/legal-tech/relativity-ediscovery-hosting/",
+      "/legal-tech/lexisnexis-legal-ai-source-checking/"
     ]
   },
   {
