@@ -4158,5 +4158,45 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.relativity.com/server-policy/, captured 2026-11-14",
     "alt_guidance": "Relativity Server 2028 Policy page headed Cloud-First Starts Here, stating that more than 85% of Relativity users have moved to the cloud"
+  },
+  {
+    "path": "/assets/images/posts/everlaw-ediscovery-document-review/everlaw-storybuilder-screenshot-1600.jpg",
+    "title": "Everlaw Storybuilder page",
+    "use": "Blog 7 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.everlaw.com/users/storybuilder/, captured 2026-11-14",
+    "alt_guidance": "Everlaw Storybuilder product page describing collaborative narrative building and trial preparation"
+  },
+  {
+    "path": "/assets/images/posts/everlaw-ediscovery-document-review/everlaw-storybuilder-screenshot-800.jpg",
+    "title": "Everlaw Storybuilder page",
+    "use": "Blog 7 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.everlaw.com/users/storybuilder/, captured 2026-11-14",
+    "alt_guidance": "Everlaw Storybuilder product page describing collaborative narrative building and trial preparation"
+  },
+  {
+    "path": "/assets/images/posts/everlaw-ediscovery-document-review/everlaw-pricing-screenshot-1600.jpg",
+    "title": "Everlaw pricing page",
+    "use": "Blog 7 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.everlaw.com/pricing-b/, captured 2026-11-14",
+    "alt_guidance": "Everlaw pricing page headed Clear Pricing, Without Surprises, saying pricing is based on data managed and usage without limits on users or uploads"
+  },
+  {
+    "path": "/assets/images/posts/everlaw-ediscovery-document-review/everlaw-pricing-screenshot-800.jpg",
+    "title": "Everlaw pricing page",
+    "use": "Blog 7 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.everlaw.com/pricing-b/, captured 2026-11-14",
+    "alt_guidance": "Everlaw pricing page headed Clear Pricing, Without Surprises, saying pricing is based on data managed and usage without limits on users or uploads"
   }
 ]

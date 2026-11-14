@@ -97,6 +97,8 @@ The “Demo Result” column must remain blank until the firm observes the behav
 
 ## Keep Evidence and Case-Building Work Connected
 
+![Everlaw Storybuilder product page describing collaborative narrative building and trial preparation](/assets/images/posts/everlaw-ediscovery-document-review/everlaw-storybuilder-screenshot-1600.jpg "Everlaw Storybuilder page, captured November 2026.")
+
 Everlaw positions Storybuilder as a way to build case work from reviewed evidence. The [Storybuilder materials](https://www.everlaw.com/users/storybuilder/) can help a buyer understand the intended transition from document review to collaborative case preparation.
 
 The implementation question is not only whether the feature exists. The team needs rules for who can add evidence, edit descriptions, organize themes, create drafts, approve work product, and export or share it.
@@ -108,6 +110,8 @@ The same principle applies to AI-assisted summaries or drafting. A [source-check
 ## Separate Hosted Data From Other Cost Drivers
 
 The [current Everlaw pricing page](https://www.everlaw.com/pricing-b/) describes case and annual platform subscriptions based on managed data and usage. It says pricing is based on the amount of data you manage and your usage, without limits on users or uploads.
+
+![Everlaw pricing page headed Clear Pricing, Without Surprises, saying pricing is based on data managed and usage without limits on users or uploads](/assets/images/posts/everlaw-ediscovery-document-review/everlaw-pricing-screenshot-1600.jpg "Everlaw pricing page, captured November 2026.")
 
 “Unlimited users and uploads” does not mean unlimited free storage or unlimited use of every AI function. The budget still needs to follow the platform’s measurement rules.
 
