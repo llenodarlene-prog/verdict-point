@@ -11,13 +11,13 @@ primary_keyword: legal billing chart
 cluster: Law Firms
 launch_silo: Payments & Billing
 silo_role: Supporting
-approved_internal_links: /law-firms/retainer-fee/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/clio-legal-software-total-cost/
+approved_internal_links: /law-firms/retainer-fee/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/clio-legal-software-total-cost/; /law-firms/law-firm-profitability-statistics/
 research_record: content/research/blog-57.json
 image: /assets/images/posts/legal-billing-chart/timesheet-entry-desk-clock-1600.jpg
 image_alt: Hand filling in a timesheet on a clipboard beside a desk clock with law books on shelves behind
 author: Darlene Aberin
 published: 2026-10-25
-modified: 2026-10-25
+modified: 2026-11-14
 ---
 
 # Legal Billing Chart for Minutes and Tenths of an Hour
@@ -92,7 +92,7 @@ Do not restart rounding merely because the clock passes an hour. Apply the agree
 
 ## Turn Converted Time into a Hypothetical Fee
 
-For a time-based charge, multiply the applicable hourly rate by the approved hours. The District of New Hampshire's CJA explanation expressly describes upward tenths. Its instructions remain specific to that court's stated context.
+For a time-based charge, multiply the applicable hourly rate by the approved hours. The District of New Hampshire's CJA explanation expressly describes upward tenths. Its instructions remain specific to that court's stated context. Billed time is only one input; [law firm profitability statistics](/law-firms/law-firm-profitability-statistics/) show how costs and collections shape the result.
 
 Assume a hypothetical hourly rate of $240 for the following worksheet. Also assume the governing instructions permit each listed conversion. These invented amounts illustrate multiplication, rather than approved charges or typical legal prices.
 

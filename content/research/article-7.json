@@ -1,240 +1,405 @@
 {
   "tracker_id": "Article:7",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Law Firm Social Media Statistics by Platform. Planned sources and method: ABA platform-use survey and disclosed post sample; separate paid reach. Build a source-labelled comparison covering lawyer LinkedIn use and law firm social engagement; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
+  "research_question": "How common is law firm social media use by platform, and what do public conversion benchmarks show?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Statistics article separating platform adoption from tracked social conversion for law firm marketers.",
+    "audience": "Law firm marketing managers and partners in the United States.",
+    "publication_year": "2026",
+    "data_period": "ABA 2024 Legal Technology Survey (released March 2025); Ruler Analytics 2026 dataset.",
+    "scope_limitations": "Adoption rates are firm-level survey figures; conversion rates are vendor-tracked and not legal-only firm counts."
   },
   "keyword_research": {
     "approved_primary_keyword": "law firm social media statistics",
     "intent": "Informational",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-09-22",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
-      },
-      {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-11-14"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "law firm social media statistics",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "legal marketing statistics",
         "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 30,
+        "difficulty": 53,
+        "cpc": 7.84,
+        "intent": "Informational",
+        "ranking_url": "http://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "law firm billing software",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 1300,
+        "difficulty": 39,
+        "cpc": 219.55,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how to calculate law firm profitability",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 40,
+        "difficulty": 19,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is law firm billing",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Informational",
+        "ranking_url": "http://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "title": "ABA Releases New Survey on Legal Tech Trends",
+      "publisher": "American Bar Association",
+      "source_type": "Association survey release",
+      "year": "2024",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Firm social media presence and platform use.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Release lacks response base by firm size; verified via owner screenshot captured 2026-11-13.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "title": "23+ Legal Marketing Statistics Backed by Real Data 2026",
+      "publisher": "Ruler Analytics",
+      "source_type": "Vendor dataset",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Legal paid and organic social conversion rates.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor-tracked; legal subset firm mix not disclosed.",
+      "verified": true
+    },
+    {
+      "url": "https://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/",
+      "title": "5 Social Media Metrics That Actually Matter for Lawyers",
+      "publisher": "Illinois Supreme Court Commission on Professionalism",
+      "source_type": "Professional guidance",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Social metrics framework for lawyers.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Guidance, not statistics.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "80% of firms maintain a social media presence.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Law firms responding to the ABA Legal Technology Survey",
+      "sample": "ABA survey respondents",
+      "denominator": "Firms",
+      "unit": "Percent",
+      "method": "Survey",
+      "limitations": "Response base not stated in release",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "LinkedIn 78%, Facebook 53%, Instagram 22%, X 18% firm use.",
+      "source_url": "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "data_year": "2024",
+      "geography": "United States",
+      "population": "Law firms responding to the ABA Legal Technology Survey",
+      "sample": "ABA survey respondents",
+      "denominator": "Firms",
+      "unit": "Percent",
+      "method": "Survey",
+      "limitations": "Multi-platform; percentages overlap",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Legal paid social converts at 2.2% and organic social at 2.1%.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "data_year": "2026",
+      "geography": "Not stated",
+      "population": "Legal businesses in the Ruler dataset",
+      "sample": "Ruler tracked dataset",
+      "denominator": "Sessions",
+      "unit": "Percent",
+      "method": "Vendor tracking",
+      "limitations": "Vendor data; firm count not disclosed",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "5 Social Media Metrics That Actually Matter for Lawyers",
+      "url": "http://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/",
+      "publisher": "2civility",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Metrics"
+      ],
+      "coverage": [
+        "Social metrics"
+      ],
+      "sources": [
+        "Own guidance"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-09-22)"
+      ],
+      "covered_well": "Metric framing",
+      "gaps": "No platform adoption data"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Top 40+ Law Firm Marketing Statistics for 2026",
+      "url": "http://www.mycase.com/blog/law-firm-marketing/law-firm-marketing-statistics/",
+      "publisher": "MyCase",
+      "format": "Listicle",
+      "updated_at": "Not stated",
+      "headings": [
+        "Marketing stats"
+      ],
+      "coverage": [
+        "Mixed statistics"
+      ],
+      "sources": [
+        "Mixed"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-09-22)"
+      ],
+      "covered_well": "Broad coverage",
+      "gaps": "Mixes adoption and outcomes"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "92 Legal Marketing Statistics for 2026",
+      "url": "http://seoprofy.com/blog/legal-marketing-statistics/",
+      "publisher": "SEOProfy",
+      "format": "Listicle",
+      "updated_at": "Not stated",
+      "headings": [
+        "Marketing stats"
+      ],
+      "coverage": [
+        "Mixed statistics"
+      ],
+      "sources": [
+        "Mixed"
+      ],
+      "data_assets": [
+        "Stat list"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 5 (collected 2026-09-22)"
+      ],
+      "covered_well": "Volume of figures",
+      "gaps": "Limited source context"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Social Media for Law Firms",
+      "url": "http://www.casepeer.com/blog/social-media-for-law-firms/",
+      "publisher": "CASEpeer",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Tips"
+      ],
+      "coverage": [
+        "Social tips"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 6 (collected 2026-09-22)"
+      ],
+      "covered_well": "Practical tips",
+      "gaps": "Few statistics"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "The Complete Guide to Social Media for Lawyers",
+      "url": "http://www.clio.com/resources/digital-marketing-lawyers/social-media-lawyers/",
+      "publisher": "Clio",
+      "format": "Guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "How-to"
+      ],
+      "coverage": [
+        "Social guide"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 8 (collected 2026-09-22)"
+      ],
+      "covered_well": "Depth",
+      "gaps": "No attribution method"
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Competitors mix adoption and conversion on one scale.",
+    "Few explain attribution limits."
+  ],
+  "value_add": "Two-group framing (adoption vs conversion), a reporting sheet, and an attribution checklist.",
   "plan": {
     "reader_title": "Law Firm Social Media Statistics by Platform",
     "seo_title": "Law Firm Social Media Statistics by Platform",
-    "meta_description": "",
+    "meta_description": "Compare law firm social media statistics for 2026–2027 by platform, conversion type, and attribution limit.",
     "slug": "/legal-marketing/law-firm-social-media-statistics/",
     "search_intent": "Informational",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "lawyer LinkedIn use",
+      "law firm social engagement"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Statistics and Data",
+      "How Common Is Law Firm Social Media Use?",
+      "Why Presence Is Not Performance",
+      "What Social Conversion Benchmarks Show",
+      "Why Paid and Organic Social Must Stay Separate",
+      "How Social Can Assist Without Last-Click Credit",
+      "What Engagement Measures Are Worth Tracking?",
+      "What a Social Reporting Sheet Should Include",
+      "How Social and SEO Reporting Work Together",
+      "What Firms Should Not Claim",
+      "A 2027 Social Measurement Checklist",
+      "The Bottom Line for 2026–2027",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Adoption",
+        "sources": [
+          "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/"
+        ]
+      },
+      {
+        "section": "Conversion",
+        "sources": [
+          "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/"
+        ]
+      },
+      {
+        "section": "Engagement",
+        "sources": [
+          "https://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Data tables"
+    ],
     "internal_links": [
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
       "/legal-marketing/law-firm-seo-statistics/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.americanbar.org/news/abanews/aba-news-archives/2025/03/aba-survey-on-legal-tech-trends/",
+      "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "https://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/"
+    ],
+    "excluded_claims": [
+      "Platform ROI claims",
+      "Firm-size cohorts not in the release"
+    ],
+    "drafting_cautions": [
+      "Never sum platform percentages.",
+      "Label Ruler figures as vendor-tracked."
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "The wider Ruler dataset covers more than 110 million sessions across 13 industries.",
+      "source_url": "https://www.ruleranalytics.com/blog/reporting/legal-marketing-statistics/",
+      "verified": true
+    },
+    {
+      "statement": "The Commission recommends measuring beyond follower totals, connecting activity with engagement, traffic, leads, and clients.",
+      "source_url": "https://www.2civility.org/5-social-media-metrics-that-actually-matter-for-lawyers/",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
-  },
-  "recovery": {
-    "research_brief": "https://docs.google.com/document/d/1ztbrOzNHdrasOTK6DSGnxcsRAdRd9pyrk32m6AFXWSc/edit?usp=drivesdk",
-    "research_snapshot": "sources/google-drive/1ztbrOzNHdrasOTK6DSGnxcsRAdRd9pyrk32m6AFXWSc.md",
-    "draft_snapshot": "sources/google-drive/1uMcjfXbvn5SfYITn16p0IiREUTgH_OcEErVHc4CaXdI.md",
-    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   }
 }

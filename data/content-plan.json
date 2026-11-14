@@ -425,7 +425,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Law Firm Profitability Statistics by Practice Size\". Reader needs a defined dataset or measurement method. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/law-firms/law-firm-profitability-statistics/",
-    "internal_link_targets_launch_set": "/law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/",
+    "internal_link_targets_launch_set": "/law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/retainer-fee/; /law-firms/legal-billing-chart/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Law Firm Economics",
@@ -437,7 +437,10 @@
       "/law-firms/law-firm-billing-statistics/",
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
-      "/legal-tech/litify-legal-software-implementation/"
+      "/legal-tech/litify-legal-software-implementation/",
+      "/legal-tech/lawpay-legal-payments-fees/",
+      "/law-firms/retainer-fee/",
+      "/law-firms/legal-billing-chart/"
     ]
   },
   {
@@ -4189,7 +4192,7 @@
     "intent_rationale": "Informational query; Ubersuggest marks retainer fee as informational.",
     "no_data_publish_decision": "Publish: owner approved 2026-10-20.",
     "url_slug": "/law-firms/retainer-fee/",
-    "internal_link_targets_launch_set": "/legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /law-firms/legal-billing-chart/",
+    "internal_link_targets_launch_set": "/legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /law-firms/legal-billing-chart/; /law-firms/law-firm-profitability-statistics/",
     "seo_title": "Retainer Fee: Advances, True Retainers, and Flat Fees",
     "meta_description": "How a retainer fee works: advances versus true retainers and flat fees, trust account rules, a worked ledger example, and when unearned money is refunded.",
     "launch_silo": "Payments & Billing",
@@ -4200,7 +4203,8 @@
     "internal_link_targets": [
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/mycase-legal-software/",
-      "/law-firms/legal-billing-chart/"
+      "/law-firms/legal-billing-chart/",
+      "/law-firms/law-firm-profitability-statistics/"
     ]
   },
   {
@@ -4231,7 +4235,7 @@
     "intent_rationale": "Informational query; Ubersuggest marks legal billing chart as informational.",
     "no_data_publish_decision": "Publish: owner approved 2026-10-20.",
     "url_slug": "/law-firms/legal-billing-chart/",
-    "internal_link_targets_launch_set": "/law-firms/retainer-fee/; /legal-tech/smokeball-legal-software-time-capture/",
+    "internal_link_targets_launch_set": "/law-firms/retainer-fee/; /legal-tech/smokeball-legal-software-time-capture/; /law-firms/law-firm-profitability-statistics/",
     "seo_title": "Legal Billing Chart: Convert Minutes to Tenths of an Hour",
     "meta_description": "A legal billing chart converting minutes to tenths of an hour, with exact versus rounded time, worked fee examples, and court rules on aggregating short tasks.",
     "launch_silo": "Payments & Billing",
@@ -4241,7 +4245,8 @@
     "content_number": "57",
     "internal_link_targets": [
       "/law-firms/retainer-fee/",
-      "/legal-tech/smokeball-legal-software-time-capture/"
+      "/legal-tech/smokeball-legal-software-time-capture/",
+      "/law-firms/law-firm-profitability-statistics/"
     ]
   },
   {
