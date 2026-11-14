@@ -11,7 +11,7 @@ primary_keyword: relativity ediscovery
 cluster: Legal Tech
 launch_silo: eDiscovery & Legal AI
 silo_role: Commercial Support
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-ediscovery-software/; /legal-tech/harvey-legal-ai-pilot/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/
 research_record: content/research/blog-8.json
 image: /assets/images/posts/relativity-ediscovery-hosting/featured-cloud-hosted-review-1600.jpg
 image_alt: A laptop showing a document review list with highlighted text in front of server racks and a cloud padlock graphic
@@ -80,7 +80,7 @@ The hosting route decides who handles each operational task. It also changes whi
 | **Best buyer question** | What is included in the commercial offer? | Can we support this safely through matter closure? | Who owns each migration and support task? |
 
 
-The partner route is not a separate platform by itself. Relativity's [partner directory](https://www.relativity.com/partners/) says partners can help with cloud migration, user support, project management, and more, and lets buyers filter by partner tier and competency. The listing It does not validate a specific partner’s scope or fees.
+The partner route is not a separate platform by itself. Relativity's [partner directory](https://www.relativity.com/partners/) says partners can help with cloud migration, user support, project management, and more, and lets buyers filter by partner tier and competency. The listing does not validate a specific partner’s scope or fees.
 
 Ask each provider for a responsibility schedule. It should name the party responsible for backups, incident response, user support, upgrades, exports, and migration validation.
 
@@ -153,7 +153,7 @@ Before choosing dates, complete this readiness checklist:
 
 The schedule should include a pilot matter. Choose one with realistic complexity but manageable risk. Record every defect and correction. Those findings improve the plan for later waves.
 
-The same discipline applies when comparing other [eDiscovery software](/legal-tech/best-ediscovery-software/). Workflow fit depends on real matter steps, not feature lists.
+The same discipline applies when comparing Relativity with [Everlaw document review](/legal-tech/everlaw-ediscovery-document-review/). Workflow fit depends on real matter steps, not feature lists.
 
 ## Treat 2027 as the Decision Year
 

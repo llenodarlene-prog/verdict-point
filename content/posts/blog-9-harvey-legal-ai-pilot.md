@@ -11,7 +11,7 @@ primary_keyword: harvey legal ai
 cluster: Legal Tech
 launch_silo: Legal AI
 silo_role: Commercial Support
-approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-technology-statistics/; /legal-tech/legal-research-software/; /legal-tech/best-ediscovery-software/
+approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-technology-statistics/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/everlaw-ediscovery-document-review/
 research_record: content/research/blog-9.json
 image: /assets/images/posts/harvey-legal-ai-pilot/featured-ai-assistant-review-1600.jpg
 image_alt: A lawyer reading a printed document beside a monitor showing an AI assistant chat and a laptop with a draft
@@ -137,7 +137,7 @@ The scorecard below supports a clearer decision.
 | **Workflow fit** | Users can repeat the process consistently | Observed sessions and error notes |
 
 
-Source checking deserves its own procedure. A citation can exist without supporting the generated sentence. The checks used in [legal research software](/legal-tech/legal-research-software/), such as confirming that each cited case says what the output claims, apply here too. If the pilot touches large document sets, compare the workflow with dedicated [eDiscovery software](/legal-tech/best-ediscovery-software/) before assuming one tool should do both jobs.
+Source checking deserves its own procedure. A citation can exist without supporting the generated sentence. The same discipline behind [source checking with LexisNexis legal AI](/legal-tech/lexisnexis-legal-ai-source-checking/), such as confirming that each cited case says what the output claims, applies here too. If the pilot touches large document sets, compare the workflow with [Everlaw document review](/legal-tech/everlaw-ediscovery-document-review/) before assuming one tool should do both jobs.
 
 ## Measure Net Review Time
 

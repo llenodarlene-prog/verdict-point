@@ -1,240 +1,386 @@
 {
   "tracker_id": "Blog:8",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Comparing Relativity eDiscovery Hosting Options. Planned sources and method: Relativity official deployment documentation; compare hosted options. Build a source-labelled comparison covering Relativity hosting and Relativity document review; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
+  "research_question": "How should a legal team compare Relativity eDiscovery hosting paths given the Server 2028 policy?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Commercial-support guide comparing RelativityOne, partner hosting, and self-managed Server under the 2028 policy.",
+    "audience": "Litigation support managers, eDiscovery leads, and law firm IT in the United States.",
+    "publication_year": "2026",
+    "data_period": "Relativity policy and documentation current as of November 2026.",
+    "scope_limitations": "Vendor documentation only; no pricing is published; partner fees vary."
   },
   "keyword_research": {
     "approved_primary_keyword": "relativity ediscovery",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-11-09",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
-      },
-      {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-11-14"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "relativity ediscovery",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 590,
+        "difficulty": 32,
+        "cpc": 13.59,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.relativity.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
-        "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
-      },
-      {
-        "keyword": "",
+        "keyword": "relativity ediscovery software",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 140,
+        "difficulty": 46,
+        "cpc": 8.14,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.relativity.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "relativity ediscovery pricing",
+        "type": "long-tail",
+        "volume": 10,
+        "difficulty": 31,
+        "cpc": 0,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.relativity.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "relativity server",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 50,
+        "difficulty": 17,
+        "cpc": 24.7,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.relativity.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is relativity ediscovery",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 20,
+        "difficulty": 36,
+        "cpc": 6.76,
+        "intent": "Informational",
+        "ranking_url": "http://www.relativity.com/",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.relativity.com/server-policy/",
+      "title": "Relativity Server 2028 Policy",
+      "publisher": "Relativity",
+      "source_type": "Vendor policy page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Server new-matter cutoff and existing-matter policy.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor policy; may change.",
+      "verified": true
+    },
+    {
+      "url": "https://www.relativity.com/partners/",
+      "title": "Relativity Partner Directory",
+      "publisher": "Relativity",
+      "source_type": "Vendor directory",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Partner services and filters.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Listing does not validate partner scope or fees.",
+      "verified": true
+    },
+    {
+      "url": "https://help.relativity.com/Server2026/Content/Installing_and_Upgrading/System_requirements/System_requirements.htm",
+      "title": "Relativity Server 2026 System Requirements",
+      "publisher": "Relativity",
+      "source_type": "Vendor documentation",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Server infrastructure requirements.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Technical documentation; environment-specific.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
+      "claim": "Relativity Server allows new matters through December 31, 2027, with new matters and workspaces created in RelativityOne from January 1, 2028.",
+      "source_url": "https://www.relativity.com/server-policy/",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Relativity Server customers",
+      "sample": "Not applicable (policy)",
+      "denominator": "Not applicable",
+      "unit": "Date",
+      "method": "Vendor policy statement",
+      "limitations": "Policy may change",
       "sponsored": false,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Relativity",
+      "url": "http://www.relativity.com/",
+      "publisher": "Relativity",
+      "format": "Vendor home",
+      "updated_at": "Not stated",
+      "headings": [
+        "Platform"
+      ],
+      "coverage": [
+        "Product overview"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 1 (collected 2026-11-09)"
+      ],
+      "covered_well": "Brand overview",
+      "gaps": "No hosting comparison"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "eDiscovery Platform",
+      "url": "http://www.relativity.com/platform/ediscovery/",
+      "publisher": "Relativity",
+      "format": "Vendor product page",
+      "updated_at": "Not stated",
+      "headings": [
+        "eDiscovery features"
+      ],
+      "coverage": [
+        "Features"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-09)"
+      ],
+      "covered_well": "Feature list",
+      "gaps": "No Server vs cloud trade-offs"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "r/ediscovery discussion",
+      "url": "http://www.reddit.com/r/ediscovery/",
+      "publisher": "Reddit",
+      "format": "Forum",
+      "updated_at": "Not stated",
+      "headings": [
+        "User opinions"
+      ],
+      "coverage": [
+        "Practitioner views"
+      ],
+      "sources": [
+        "Anecdotes"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-09)"
+      ],
+      "covered_well": "Real practitioner questions",
+      "gaps": "Unverified anecdotes"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Partner Directory",
+      "url": "http://www.relativity.com/partners/",
+      "publisher": "Relativity",
+      "format": "Directory",
+      "updated_at": "Not stated",
+      "headings": [
+        "Partners"
+      ],
+      "coverage": [
+        "Partner listing"
+      ],
+      "sources": [
+        "Vendor"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-09)"
+      ],
+      "covered_well": "Partner discovery",
+      "gaps": "No evaluation criteria"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Complete Legal",
+      "url": "http://completelegal.us/",
+      "publisher": "Complete Legal",
+      "format": "Service provider",
+      "updated_at": "Not stated",
+      "headings": [
+        "Hosting services"
+      ],
+      "coverage": [
+        "Provider offering"
+      ],
+      "sources": [
+        "Provider"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 7 (collected 2026-11-09)"
+      ],
+      "covered_well": "Service view",
+      "gaps": "Single-provider perspective"
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "No ranking page compares hosting paths against the 2028 policy.",
+    "Partner listings lack evaluation questions."
+  ],
+  "value_add": "A side-by-side hosting decision framework tied to the verified 2028 policy dates, with partner due-diligence questions.",
   "plan": {
     "reader_title": "Comparing Relativity eDiscovery Hosting Options",
     "seo_title": "Comparing Relativity eDiscovery Hosting Options",
-    "meta_description": "",
+    "meta_description": "Compare Relativity eDiscovery hosting paths, Server duties, partner support, costs, and the 2028 policy before planning a move.",
     "slug": "/legal-tech/relativity-ediscovery-hosting/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "Relativity hosting",
+      "Relativity document review"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Start With the Matter, Not the Hosting Label",
+      "Track One: New Matters and Workspaces",
+      "Track Two: Existing Server Matters",
+      "Compare Cloud, Server, and Partner Delivery",
+      "Understand the Real Work Behind Relativity Server",
+      "Infrastructure Costs to Include",
+      "Operational Questions to Answer",
+      "Build a Like-for-Like Cost Comparison",
+      "Plan Migration Around Evidence and Acceptance Tests",
+      "Treat 2027 as the Decision Year",
+      "Govern the Mixed Environment During Transition",
+      "Document the Hosting Decision",
+      "Make the Hosting Decision Defensible",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Policy",
+        "sources": [
+          "https://www.relativity.com/server-policy/"
+        ]
+      },
+      {
+        "section": "Partner route",
+        "sources": [
+          "https://www.relativity.com/partners/"
+        ]
+      },
+      {
+        "section": "Server duties",
+        "sources": [
+          "https://help.relativity.com/Server2026/Content/Installing_and_Upgrading/System_requirements/System_requirements.htm"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Relativity Server policy screenshot"
+    ],
     "internal_links": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/everlaw-ediscovery-document-review/",
       "/legal-tech/harvey-legal-ai-pilot/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.relativity.com/server-policy/",
+      "https://www.relativity.com/partners/",
+      "https://help.relativity.com/Server2026/Content/Installing_and_Upgrading/System_requirements/System_requirements.htm"
+    ],
+    "excluded_claims": [
+      "Pricing (not published)",
+      "Unverified policy exceptions"
+    ],
+    "drafting_cautions": [
+      "Quote policy dates exactly.",
+      "Do not imply partner listings validate scope or fees."
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Existing matters may stay on Server after December 31, 2027.",
+      "source_url": "https://www.relativity.com/server-policy/",
+      "verified": true
+    },
+    {
+      "statement": "Relativity has not announced an end-of-life date for Server.",
+      "source_url": "https://www.relativity.com/server-policy/",
+      "verified": true
+    },
+    {
+      "statement": "Partners can help with cloud migration, user support, project management, and more; the directory filters by tier and competency.",
+      "source_url": "https://www.relativity.com/partners/",
+      "verified": true
+    },
+    {
+      "statement": "Server 2026 requirements describe infrastructure built on .NET and Microsoft SQL Server.",
+      "source_url": "https://help.relativity.com/Server2026/Content/Installing_and_Upgrading/System_requirements/System_requirements.htm",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
-  },
-  "recovery": {
-    "research_brief": "https://docs.google.com/document/d/10E9NMtNruCR7mh_MNSzsli0T4hATerU6G6wSf2h3CPU/edit?usp=drivesdk",
-    "research_snapshot": "sources/google-drive/10E9NMtNruCR7mh_MNSzsli0T4hATerU6G6wSf2h3CPU.md",
-    "draft_snapshot": "sources/google-drive/1uz12TsLsELTuLQ-gF2djultn6m03kMFNHyXnrPUlQFE.md",
-    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   }
 }

@@ -1,241 +1,418 @@
 {
   "tracker_id": "Blog:9",
-  "status": "scaffolded",
-  "research_question": "Owned-page scope: Planning a Harvey Legal AI Pilot. Planned sources and method: Harvey official documentation and reproducible firm pilot protocol. Build a source-labelled comparison covering Harvey AI evaluation and Harvey legal research accuracy; record dates, definitions and sample limits. Sources are proposed, not verified findings.",
+  "status": "verified",
+  "research_question": "How should a law firm structure a Harvey Legal AI pilot so the result shows proven value, not a strong demo?",
   "research_brief": {
-    "purpose": "",
-    "audience": "",
-    "publication_year": "",
-    "data_period": "",
-    "scope_limitations": ""
+    "purpose": "Commercial-support guide helping firms design a controlled Harvey pilot with fixed tasks, review, security gates, and pass criteria.",
+    "audience": "Law firm innovation leads, knowledge managers, and partners evaluating Harvey in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages and benchmark posts current as of November 2026.",
+    "scope_limitations": "Vendor statements only; no independent accuracy data for Harvey customer use; no pricing is published."
   },
   "keyword_research": {
     "approved_primary_keyword": "harvey legal ai",
     "intent": "Commercial Investigation",
-    "serp_checked_at": "",
+    "serp_checked_at": "2026-11-09",
     "tools": [
       {
-        "name": "Ahrefs",
-        "status": "pending",
-        "retrieved_at": ""
-      },
-      {
         "name": "Ubersuggest",
-        "status": "pending",
-        "retrieved_at": ""
+        "status": "verified",
+        "retrieved_at": "2026-11-14"
       }
     ],
     "queries": [
       {
-        "keyword": "",
+        "keyword": "harvey legal ai",
         "type": "short-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 2900,
+        "difficulty": 24,
+        "cpc": 19.31,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.nytimes.com/2025/12/04/business/dealbook/harvey-legal-ai.html",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
-        "type": "long-tail",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
-      },
-      {
-        "keyword": "",
+        "keyword": "harvey ai pricing",
         "type": "commercial",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 480,
+        "difficulty": 31,
+        "cpc": 22.52,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.nytimes.com/2025/12/04/business/dealbook/harvey-legal-ai.html",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "how much does harvey ai cost",
+        "type": "long-tail",
+        "volume": 210,
+        "difficulty": 30,
+        "cpc": 17.95,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.nytimes.com/2025/12/04/business/dealbook/harvey-legal-ai.html",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "harvey ai competitors",
         "type": "problem",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 210,
+        "difficulty": 11,
+        "cpc": 43.69,
+        "intent": "Commercial Investigation",
+        "ranking_url": "http://www.nytimes.com/2025/12/04/business/dealbook/harvey-legal-ai.html",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       },
       {
-        "keyword": "",
+        "keyword": "what is harvey ai",
         "type": "question",
-        "volume": null,
-        "difficulty": null,
-        "cpc": null,
-        "intent": "",
-        "ranking_url": "",
-        "retrieved_at": "",
-        "tool": ""
+        "volume": 720,
+        "difficulty": 47,
+        "cpc": 20.96,
+        "intent": "Informational",
+        "ranking_url": "http://www.nytimes.com/2025/12/04/business/dealbook/harvey-legal-ai.html",
+        "retrieved_at": "2026-11-14",
+        "tool": "Ubersuggest"
       }
     ]
   },
   "sources": [
     {
-      "url": "",
-      "title": "",
-      "publisher": "",
-      "source_type": "",
-      "year": "",
-      "published_at": "",
-      "accessed_at": "",
-      "scope": "",
-      "method": "",
-      "limitations": "",
-      "verified": false
+      "url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+      "title": "Introducing Harvey's Legal Agent Benchmark",
+      "publisher": "Harvey",
+      "source_type": "Vendor blog",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Benchmark design: tasks, practice areas, rubric criteria.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor-built benchmark; vendor description.",
+      "verified": true
+    },
+    {
+      "url": "https://www.harvey.ai/blog/legal-agent-benchmark-initial-results",
+      "title": "Legal Agent Benchmark Initial Results",
+      "publisher": "Harvey",
+      "source_type": "Vendor blog",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Initial frontier-model results under all-criteria-pass scoring.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Measures evaluated models, not Harvey customer accuracy.",
+      "verified": true
+    },
+    {
+      "url": "https://www.harvey.ai/security",
+      "title": "Harvey Security",
+      "publisher": "Harvey",
+      "source_type": "Vendor page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "Data retention, training, regional and customer data controls.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor statements; contract terms govern.",
+      "verified": true
+    },
+    {
+      "url": "https://www.harvey.ai/blog/governance-iso-42001",
+      "title": "Harvey ISO 42001 Announcement",
+      "publisher": "Harvey",
+      "source_type": "Vendor blog",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-14",
+      "scope": "ISO 42001 certification announcement.",
+      "method": "Opened and read the live page on 2026-11-14 (Claude fact-check); every statement used was matched to the page text; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Announcement; certificate scope must be checked separately.",
+      "verified": true
     }
   ],
   "statistics": [
     {
-      "claim": "",
-      "source_url": "",
-      "data_year": "",
-      "geography": "",
-      "population": "",
-      "sample": "",
-      "denominator": "",
-      "unit": "",
-      "method": "",
-      "limitations": "",
-      "sponsored": false,
+      "claim": "Harvey's Legal Agent Benchmark describes 1,250 tasks across 24 practice areas and more than 75,000 expert-written rubric criteria.",
+      "source_url": "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Benchmark tasks",
+      "sample": "Not applicable (benchmark design)",
+      "denominator": "Benchmark",
+      "unit": "Count",
+      "method": "Vendor description of benchmark design",
+      "limitations": "Vendor-built benchmark",
+      "sponsored": true,
       "partial_year": false,
       "estimate": false,
-      "verified": false
+      "verified": true
+    },
+    {
+      "claim": "Initial LAB results reported less than 10% aggregate end-to-end completion for evaluated frontier models under an all-criteria-pass method.",
+      "source_url": "https://www.harvey.ai/blog/legal-agent-benchmark-initial-results",
+      "data_year": "2026",
+      "geography": "Global",
+      "population": "Evaluated frontier models",
+      "sample": "Benchmark task set",
+      "denominator": "All benchmark tasks",
+      "unit": "Percent",
+      "method": "All-criteria-pass scoring",
+      "limitations": "Not Harvey customer accuracy; not a hallucination rate",
+      "sponsored": true,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
     }
   ],
   "competitors": [
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Harvey, a Maker of A.I. Legal Software, Raises $160 Million",
+      "url": "http://www.nytimes.com/2025/12/04/business/dealbook/harvey-legal-ai.html",
+      "publisher": "The New York Times",
+      "format": "News",
+      "updated_at": "Not stated",
+      "headings": [
+        "Funding news"
+      ],
+      "coverage": [
+        "Company funding and growth"
+      ],
+      "sources": [
+        "Company statements"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 2 (collected 2026-11-09)"
+      ],
+      "covered_well": "Company context",
+      "gaps": "No buyer evaluation guidance"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Harvey AI Review [2026]",
+      "url": "http://growlaw.co/blog/harvey-ai-review",
+      "publisher": "GrowLaw",
+      "format": "Review",
+      "updated_at": "Not stated",
+      "headings": [
+        "Features and fit"
+      ],
+      "coverage": [
+        "Features, pros and cons"
+      ],
+      "sources": [
+        "Vendor pages"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 3 (collected 2026-11-09)"
+      ],
+      "covered_well": "Feature overview",
+      "gaps": "No pilot design or pass criteria"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "How Mid-Sized Law Firms Scale Legal AI Firmwide",
+      "url": "http://www.harvey.ai/resources/guides/firmwide-legal-ai-capability-mid-sized-law-firms",
+      "publisher": "Harvey",
+      "format": "Vendor guide",
+      "updated_at": "Not stated",
+      "headings": [
+        "Rollout"
+      ],
+      "coverage": [
+        "Firmwide adoption"
+      ],
+      "sources": [
+        "Vendor experience"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 4 (collected 2026-11-09)"
+      ],
+      "covered_well": "Rollout framing",
+      "gaps": "Vendor perspective; no independent test plan"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "What Is Harvey AI?",
+      "url": "http://www.layer3labs.io/guides/harvey-ai-explained",
+      "publisher": "Layer3 Labs",
+      "format": "Explainer",
+      "updated_at": "Not stated",
+      "headings": [
+        "Platform explained"
+      ],
+      "coverage": [
+        "Product overview"
+      ],
+      "sources": [
+        "Vendor pages"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 8 (collected 2026-11-09)"
+      ],
+      "covered_well": "Plain explanation",
+      "gaps": "No security or evaluation gates"
     },
     {
-      "title": "",
-      "url": "",
-      "publisher": "",
-      "format": "",
-      "updated_at": "",
-      "headings": [],
-      "coverage": [],
-      "sources": [],
-      "data_assets": [],
-      "link_patterns": [],
-      "trust_signals": [],
-      "covered_well": "",
-      "gaps": ""
+      "title": "Harvey's $8 Billion Question",
+      "url": "http://news.bloomberglaw.com/in-house-counsel/harveys-8-billion-question-can-ai-startup-match-its-hype",
+      "publisher": "Bloomberg Law",
+      "format": "News analysis",
+      "updated_at": "Not stated",
+      "headings": [
+        "Hype vs results"
+      ],
+      "coverage": [
+        "Market expectations"
+      ],
+      "sources": [
+        "Interviews"
+      ],
+      "data_assets": [
+        "None"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "Ubersuggest SERP position 9 (collected 2026-11-09)"
+      ],
+      "covered_well": "Skeptical market view",
+      "gaps": "Paywalled; no firm checklist"
     }
   ],
-  "content_gaps": [],
-  "value_add": "",
+  "content_gaps": [
+    "Competitors cover funding and features but not a measurable pilot protocol.",
+    "No ranking page separates benchmark results from customer accuracy."
+  ],
+  "value_add": "A reusable pilot plan: fixed task set, lawyer review rubric, security gates, and pass criteria, with vendor claims labelled as vendor claims.",
   "plan": {
     "reader_title": "Planning a Harvey Legal AI Pilot",
     "seo_title": "Planning a Harvey Legal AI Pilot",
-    "meta_description": "",
+    "meta_description": "Run a Harvey Legal AI pilot with fixed tasks, lawyer review, security gates, and pass criteria that separate a strong demo from proven value.",
     "slug": "/legal-tech/harvey-legal-ai-pilot/",
     "search_intent": "Commercial Investigation",
-    "secondary_keywords": [],
-    "outline": [],
-    "evidence_map": [],
-    "visuals": [],
+    "secondary_keywords": [
+      "Harvey AI evaluation",
+      "Harvey legal research accuracy"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "A Demo Is Not a Pilot",
+      "Select One Bounded Legal Workflow",
+      "Define the Task Boundary",
+      "Set an Acceptable Failure Policy",
+      "Build a Lawyer-Reviewed Baseline and Holdout Set",
+      "Create the Reference Record",
+      "Protect the Holdout Tasks",
+      "Score Quality and Review Burden Separately",
+      "Measure Net Review Time",
+      "Record Reviewer Agreement",
+      "Use Harvey’s Benchmark as Context, Not Proof",
+      "Set Security and Procurement Gates",
+      "Check the Proposed Arrangement",
+      "Run a Controlled 30-Day Pilot",
+      "Make a Go, Revise, or Stop Decision",
+      "Preserve the Pilot Evidence",
+      "Make the Pilot Evidence Worth Keeping",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "Benchmark context",
+        "sources": [
+          "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark"
+        ]
+      },
+      {
+        "section": "Security gates",
+        "sources": [
+          "https://www.harvey.ai/security"
+        ]
+      },
+      {
+        "section": "Governance",
+        "sources": [
+          "https://www.harvey.ai/blog/governance-iso-42001"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Harvey home screenshot",
+      "Harvey security screenshot"
+    ],
     "internal_links": [
       "/legal-tech/ai-in-law-firms-statistics/",
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/lexisnexis-legal-ai-source-checking/",
       "/legal-tech/everlaw-ediscovery-document-review/"
     ],
-    "external_link_opportunities": [],
-    "excluded_claims": [],
-    "drafting_cautions": []
+    "external_link_opportunities": [
+      "https://www.harvey.ai/blog/introducing-harveys-legal-agent-benchmark",
+      "https://www.harvey.ai/blog/legal-agent-benchmark-initial-results",
+      "https://www.harvey.ai/security",
+      "https://www.harvey.ai/blog/governance-iso-42001"
+    ],
+    "excluded_claims": [
+      "Harvey pricing (not published)",
+      "Customer accuracy or hallucination rates",
+      "Funding and valuation figures"
+    ],
+    "drafting_cautions": [
+      "Label LAB results as frontier-model benchmark results.",
+      "Treat security statements as vendor claims the contract must reflect."
+    ]
   },
   "claims": [
     {
-      "statement": "",
-      "source_url": "",
-      "verified": false
+      "statement": "Harvey's security page says customer inputs, outputs, and uploaded documents do not train underlying models.",
+      "source_url": "https://www.harvey.ai/security",
+      "verified": true
+    },
+    {
+      "statement": "Harvey's security page describes model-provider zero-data-retention requirements and regional options.",
+      "source_url": "https://www.harvey.ai/security",
+      "verified": true
+    },
+    {
+      "statement": "Harvey announced ISO 42001 certification in June 2026.",
+      "source_url": "https://www.harvey.ai/blog/governance-iso-42001",
+      "verified": true
     }
   ],
   "fact_check": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   },
   "qa": {
-    "completed": false,
-    "reviewer": "",
-    "reviewed_at": ""
-  },
-  "recovery": {
-    "research_brief": "https://docs.google.com/document/d/17dTyRd2BQYFBhT8bMKzAAuJwlfisIGbEtnIC31QMP2A/edit?usp=drivesdk",
-    "research_snapshot": "sources/google-drive/17dTyRd2BQYFBhT8bMKzAAuJwlfisIGbEtnIC31QMP2A.md",
-    "draft_snapshot": "sources/google-drive/1U3d8b3dK0kwf0BAIubbOa1l9bsKAJXyMwoprNdCw9SM.md",
-    "status_note": "Source documents recovered. Structured evidence and publication sign-off are pending; source assertions are not treated as verified approval."
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-14"
   }
 }
