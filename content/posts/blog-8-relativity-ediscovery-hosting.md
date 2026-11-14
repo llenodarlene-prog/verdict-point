@@ -5,7 +5,7 @@ description: Compare Relativity eDiscovery hosting paths, Server duties, partner
 slug: /legal-tech/relativity-ediscovery-hosting/
 type: blog
 schema: Article
-draft: true
+draft: false
 tracker_id: Blog:8
 primary_keyword: relativity ediscovery
 cluster: Legal Tech
@@ -15,10 +15,10 @@ approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/e
 research_record: content/research/blog-8.json
 image: /assets/images/posts/relativity-ediscovery-hosting/featured-cloud-hosted-review-1600.jpg
 image_alt: A laptop showing a document review list with highlighted text in front of server racks and a cloud padlock graphic
-source_document: https://docs.google.com/document/d/1uz12TsLsELTuLQ-gF2djultn6m03kMFNHyXnrPUlQFE/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-11-22
+publish_time: 10:30
+modified: 2026-11-14
 ---
 
 # Relativity eDiscovery Hosting: What Firms Need to Decide Before 2028
@@ -29,9 +29,7 @@ That distinction should shape every hosting review for 2027. A firm must separat
 
 ## Key Takeaways
 
-The current policy sets a firm deadline for new work, not an unconditional Server shutdown. These points should guide the first planning meeting.
-
-* **New matters change in 2028.** Relativity says new matters and workspaces will move to aiR in 2028, with limited exceptions.  
+* **New matters change in 2028.** Relativity says all new matters and workspaces must be created in Relativity aiR by January 1, 2028.  
 * **Existing matters can remain.** Current Server matters may continue with maintenance updates and security patches.  
 * **Server keeps internal duties.** The hosting team remains responsible for infrastructure, licensing, scaling, backups, and operations.  
 * **Partner scope needs detail.** A partner listing does not define migration work, support hours, pricing, or accountability.  
@@ -40,9 +38,11 @@ The current policy sets a firm deadline for new work, not an unconditional Serve
 
 ## Start With the Matter, Not the Hosting Label
 
-A useful Relativity eDiscovery review begins with the work that must run. “Cloud” and “Server” are too broad for an early decision. The team needs a matter inventory, expected data volumes, review demands, integrations, and service requirements.
+A useful Relativity eDiscovery review begins with the work that must run. “Cloud” and “Server” are too broad for an early decision. The team needs a matter inventory, expected data volumes, review demands, integrations, and service requirements. Every relativity ediscovery plan should begin with the matters, not the deployment model.
 
-Start by separating new matters from existing ones. Relativity’s [Server 2028 policy](https://www.relativity.com/server-policy/) allows new Server matters through December 31, 2027. The same page says existing matters may stay on Server after that date. It also states there is no current plan to discontinue Server.
+Start by separating new matters from existing ones. Relativity’s [Server 2028 policy](https://www.relativity.com/server-policy/) allows new Server matters through December 31, 2027. The same page says existing matters may stay on Server after that date. It also says Relativity has not announced an end-of-life date for Server.
+
+![Relativity Server 2028 Policy page headed Cloud-First Starts Here, stating that more than 85% of Relativity users have moved to the cloud](/assets/images/posts/relativity-ediscovery-hosting/relativity-server-policy-screenshot-1600.jpg "Relativity Server 2028 Policy page, captured November 2026.")
 
 That policy creates two planning tracks. Each track needs its own owner, budget, and target date.
 
@@ -64,11 +64,11 @@ Classify each matter using these factors:
 * **Export needs:** Define required formats, audit records, and chain-of-custody evidence.  
 * **Risk level:** Note privilege, residency, confidentiality, and client restrictions.
 
-The same inventory discipline supports a [controlled legal-AI pilot](https://verdictpoint.org/legal-tech/harvey-legal-ai-pilot/). Both projects fail when technical dependencies appear late.
+The same inventory discipline supports a [controlled legal-AI pilot](/legal-tech/harvey-legal-ai-pilot/). Both projects fail when technical dependencies appear late.
 
 ## Compare Cloud, Server, and Partner Delivery
 
-The hosting route decides who handles each operational task. It also changes which costs appear on the invoice. Use the matrix below to keep those responsibilities visible.
+The hosting route decides who handles each operational task. It also changes which costs appear on the invoice. Use the matrix below to keep those responsibilities visible. Each route delivers relativity ediscovery work, but the duties fall on different people.
 
 | Decision Area | Relativity aiR | Relativity Server | Partner-Assisted Route |
 | :---- | :---- | :---- | :---- |
@@ -80,9 +80,8 @@ The hosting route decides who handles each operational task. It also changes whi
 | **Cost visibility** | Quote, usage, storage, and services | Infrastructure, licenses, people, and support | Quote plus exclusions and change fees |
 | **Best buyer question** | What is included in the commercial offer? | Can we support this safely through matter closure? | Who owns each migration and support task? |
 
-⟧
 
-The partner route is not a separate platform by itself. A partner may sell services around cloud migration, operations, or managed review. Relativity’s [partner directory](https://www.relativity.com/partners/) confirms available routes. It does not validate a specific partner’s scope or fees.
+The partner route is not a separate platform by itself. Relativity's [partner directory](https://www.relativity.com/partners/) says partners can help with cloud migration, user support, project management, and more, and lets buyers filter by partner tier and competency. The listing does not validate a specific partner’s scope or fees.
 
 Ask each provider for a responsibility schedule. It should name the party responsible for backups, incident response, user support, upgrades, exports, and migration validation.
 
@@ -122,7 +121,7 @@ These questions often expose the real constraint. The issue may be staffing, not
 
 ## Build a Like-for-Like Cost Comparison
 
-Relativity eDiscovery pricing cannot be reduced to one public number. Quotes may reflect platform scope, storage, processing, users, support, partner services, and migration. Server costs also vary by workload and internal accounting.
+Relativity eDiscovery pricing cannot be reduced to one public number. Quotes may reflect platform scope, storage, processing, users, support, partner services, and migration. Server costs also vary by workload and internal accounting. A fair relativity ediscovery cost comparison uses the same matters and workload for each route.
 
 Use one workload profile for every option. Then request pricing against the same assumptions.
 
@@ -136,7 +135,6 @@ Use one workload profile for every option. Then request pricing against the same
 | **Migration** | Exports, transforms, validation, retries | A platform quote may exclude project work |
 | **Custom tools** | Rebuild, replace, or retire | Compatibility work may drive the schedule |
 
-⟧
 
 Do not compare a cloud subscription with Server licensing alone. Add people, facilities, security, recovery, upgrades, and downtime exposure. For a partner quote, list every exclusion. Then assign an internal owner to each excluded task.
 
@@ -156,11 +154,11 @@ Before choosing dates, complete this readiness checklist:
 
 The schedule should include a pilot matter. Choose one with realistic complexity but manageable risk. Record every defect and correction. Those findings improve the plan for later waves.
 
-The same discipline applies to [Everlaw review and collaboration](https://verdictpoint.org/legal-tech/everlaw-ediscovery-document-review/) assessments. Workflow fit depends on real matter steps, not feature lists.
+The same discipline applies when comparing Relativity with [Everlaw document review](/legal-tech/everlaw-ediscovery-document-review/). Workflow fit depends on real matter steps, not feature lists.
 
 ## Treat 2027 as the Decision Year
 
-The 2028 rule makes 2027 a practical cutover year. Firms need enough time for procurement, security review, contracting, technical testing, and staff training. A late decision compresses every one of those tasks.
+The 2028 rule makes 2027 a practical cutover year. Firms need enough time for procurement, security review, contracting, technical testing, and staff training. A late decision compresses every one of those tasks. Teams that run relativity ediscovery on Server have a clear planning window.
 
 Use four milestones to control the work:
 
@@ -169,7 +167,7 @@ Use four milestones to control the work:
 3. **Pilot accepted:** The team meets written migration and workflow tests.  
 4. **Cutover rule published:** Intake teams know where new matters will open.
 
-Broader [legal technology statistics](https://verdictpoint.org/legal-tech/legal-technology-statistics/) can frame adoption trends. They should not replace a firm-specific capacity and risk review.
+Broader [legal technology statistics](/legal-tech/legal-technology-statistics/) can frame adoption trends. They should not replace a firm-specific capacity and risk review.
 
 ## Govern the Mixed Environment During Transition
 
@@ -192,43 +190,15 @@ Set an exception process for matters that miss the normal schedule. Each excepti
 
 ## Document the Hosting Decision
 
-## 
 
-## Keep a short decision record after the commercial review. List the options considered, workload assumptions, source dates, rejected alternatives, and approval owners. Attach the final quotes and responsibility schedules.
+Keep a short decision record after the commercial review. List the options considered, workload assumptions, source dates, rejected alternatives, and approval owners. Attach the final quotes and responsibility schedules.
 
-## 
 
-## The record should also explain any estimate. State which costs came from vendors and which came from internal models. Note missing inputs instead of filling gaps with broad assumptions.
+The record should also explain any estimate. State which costs came from vendors and which came from internal models. Note missing inputs instead of filling gaps with broad assumptions.
 
-## 
 
-## Set a review date before contract renewal or the next migration wave. Policy, product, and matter conditions can change. A dated record helps the team update the decision without repeating every research step.
+Set a review date before contract renewal or the next migration wave. Policy, product, and matter conditions can change. A dated record helps the team update the decision without repeating every research step.
 
-## 
-
-## Frequently Asked Questions
-
-These answers reflect public documentation checked in September 2026. Firms should confirm contract terms before acting.
-
-## Is Relativity Server Shutting Down in 2028?
-
-No. Relativity says existing Server matters may continue with maintenance updates and security patches. The policy mainly changes where new matters open.
-
-## Can a Firm Open New Server Matters During 2027?
-
-Relativity says licensed customers may open new Server matters through December 31, 2027. Limited customer and geographic exceptions may apply afterward.
-
-## Does Relativity eDiscovery Have Public Standard Pricing?
-
-Public pages do not provide one universal price for every deployment. Request matched quotes that include storage, processing, support, and migration.
-
-## Should Every Existing Matter Move to the Cloud?
-
-No single rule fits every matter. Consider lifespan, risk, dependencies, cost, and future workflow needs before choosing.
-
-## What Should a Partner Proposal Include?
-
-It should assign migration, validation, security, support, exports, and incident duties. It should also list exclusions and change fees.
 
 ## Make the Hosting Decision Defensible
 
@@ -236,10 +206,32 @@ A sound hosting plan separates policy facts from sales claims. It also separates
 
 Verdict Point helps legal teams compare technology choices using documented criteria. Use the decision matrix during vendor meetings, then keep written evidence behind each conclusion.
 
+## Frequently Asked Questions
+
+### Is Relativity Server Shutting Down in 2028?
+
+No. Relativity says existing Server matters will continue to be supported, with maintenance updates and security patches, and it has not announced an end-of-life date. The policy mainly changes where new matters open.
+
+### Can a Firm Open New Server Matters During 2027?
+
+Yes. Relativity says customers can continue to create new matters and workspaces in Server until December 31, 2027.
+
+### Does Relativity eDiscovery Have Public Standard Pricing?
+
+Public pages do not provide one universal price for every deployment. Request matched quotes that include storage, processing, support, and migration.
+
+### Should Every Existing Matter Move to the Cloud?
+
+No single rule fits every matter. Consider lifespan, risk, dependencies, cost, and future workflow needs before choosing.
+
+### What Should a Partner Proposal Include?
+
+It should assign migration, validation, security, support, exports, and incident duties. It should also list exclusions and change fees.
+
 ## Resources
 
 * [Relativity Server 2028 Policy](https://www.relativity.com/server-policy/)  
 * [Relativity Server 2026 System Requirements](https://help.relativity.com/Server2026/Content/Installing_and_Upgrading/System_requirements/System_requirements.htm)  
 * [Relativity Partner Directory](https://www.relativity.com/partners/)
 
-**Publication Note:** This guide uses public desk research, not hands-on testing. Recheck policy wording, product names, pricing, and availability within seven days of publication.
+*This guide uses public desk research, not hands-on testing. We checked every Relativity statement against the pages above on November 14, 2026. Policy wording and products can change, so confirm terms with Relativity or your partner before you act.*

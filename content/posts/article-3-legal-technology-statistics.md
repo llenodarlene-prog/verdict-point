@@ -12,14 +12,14 @@ secondary_keywords: legal software adoption; law firm technology spending
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Hub
-approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/filevine-legal-software-case-types/; /legal-tech/litify-legal-software-implementation/; /legal-tech/smokeball-legal-software-time-capture/; /legal/legal-industry-statistics-firm-size/; /legal-marketing/ai-search-visibility-law-firms/; /legal-business/contract-lifecycle-management/; /legal-tech/document-management-software-law-firms/; /legal-tech/legal-practice-management-software/; /legal-tech/legal-research-software/; /legal-tech/free-legal-ai/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/
+approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/filevine-legal-software-case-types/; /legal-tech/litify-legal-software-implementation/; /legal-tech/smokeball-legal-software-time-capture/; /legal/legal-industry-statistics-firm-size/; /legal-marketing/ai-search-visibility-law-firms/; /legal-business/contract-lifecycle-management/; /legal-tech/document-management-software-law-firms/; /legal-tech/legal-practice-management-software/; /legal-tech/legal-research-software/; /legal-tech/free-legal-ai/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/
 research_record: content/research/article-3.json
 source_document: https://docs.google.com/document/d/1otQmDyIbfbtN0HPsy1AMYJ-sZcNl2aUfLyyMdzWE-d8/edit?usp=drivesdk
 image: /assets/images/posts/legal-technology-statistics/lawyer-reviewing-legal-technology-data-1600.jpg
 image_alt: Lawyer in a navy blazer working on a laptop beside a tablet showing documents in a glass-walled office
 author: Darlene Aberin
 published: 2026-10-03
-modified: 2026-10-26
+modified: 2026-11-14
 ---
 
 # Legal Technology Statistics
@@ -137,7 +137,7 @@ Paid and free tools also serve different purposes. A lawyer may use a subscripti
 
 The 85% e-filing figure describes litigators. It should not be rewritten as 85% of all lawyers or 85% of law firms. Transactional lawyers and many in-house teams do not file court documents, so adding them to the base would change the question.
 
-E-filing is also a process, not a product. Courts differ in their systems, file rules, credentials, and outage procedures. A high use rate does not remove the need for jurisdiction-specific checks. The same is true of litigation tools further along the matter. A platform decision, such as choosing [Everlaw for document review](/legal-tech/everlaw-ediscovery-document-review/), should start with the workflow and not with an adoption rate.
+Courts differ in their systems, file rules, credentials, and outage procedures. The same is true of litigation tools further along the matter. A platform decision, such as choosing [Everlaw for document review](/legal-tech/everlaw-ediscovery-document-review/), should start with the workflow and not with an adoption rate. The same applies to [Relativity eDiscovery hosting](/legal-tech/relativity-ediscovery-hosting/).
 
 ## Generative AI Is the Fastest-Moving Category
 
@@ -158,7 +158,7 @@ Table: How to read the generative AI figures {.cost}
 | Corporate legal departments | 23% | 47% | Organizations reporting generative AI use |
 | Adopters reporting a return | Not reported | 53% | Self-reported view among organizations using AI |
 
-Because this category needs its own definitions, the detailed breakdown belongs in the dedicated [AI in law firms statistics](/legal-tech/ai-in-law-firms-statistics/). That is the place to separate approved use, personal use, training, and governance. Firms that are past the reading stage need a different kind of evidence: a scoped test with defined tasks and reviewers, such as a [Harvey legal AI pilot](/legal-tech/harvey-legal-ai-pilot/). Testing how AI tools describe a firm is a separate method, set out in [AI search visibility for law firms](/legal-marketing/ai-search-visibility-law-firms/).
+Because this category needs its own definitions, the detailed breakdown belongs in the dedicated [AI in law firms statistics](/legal-tech/ai-in-law-firms-statistics/). That is the place to separate approved use, personal use, training, and governance. Firms that are past the reading stage need a different kind of evidence: a scoped test with defined tasks and reviewers, such as a [Harvey legal AI pilot](/legal-tech/harvey-legal-ai-pilot/). Cited law needs [LexisNexis legal AI source checking](/legal-tech/lexisnexis-legal-ai-source-checking/). Testing how AI tools describe a firm is a separate method, set out in [AI search visibility for law firms](/legal-marketing/ai-search-visibility-law-firms/).
 
 ## Market-Size Forecasts Are Not Adoption Rates
 

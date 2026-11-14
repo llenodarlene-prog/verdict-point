@@ -5,7 +5,7 @@ description: Run a Harvey Legal AI pilot with fixed tasks, lawyer review, securi
 slug: /legal-tech/harvey-legal-ai-pilot/
 type: blog
 schema: Article
-draft: true
+draft: false
 tracker_id: Blog:9
 primary_keyword: harvey legal ai
 cluster: Legal Tech
@@ -15,10 +15,10 @@ approved_internal_links: /legal-tech/ai-in-law-firms-statistics/; /legal-tech/le
 research_record: content/research/blog-9.json
 image: /assets/images/posts/harvey-legal-ai-pilot/featured-ai-assistant-review-1600.jpg
 image_alt: A lawyer reading a printed document beside a monitor showing an AI assistant chat and a laptop with a draft
-source_document: https://docs.google.com/document/d/1U3d8b3dK0kwf0BAIubbOa1l9bsKAJXyMwoprNdCw9SM/edit?usp=drivesdk
-author: 
-published: 
-modified: 
+author: Darlene Aberin
+published: 2026-11-21
+publish_time: 17:20
+modified: 2026-11-14
 ---
 
 # How to Run a Harvey Legal AI Pilot That Produces a Clear Decision
@@ -28,8 +28,6 @@ A Harvey Legal AI pilot should answer one practical question. Can the product im
 Public research can inform the design, but it cannot predict a firm’s outcome. Harvey publishes benchmark and security information that helps buyers ask better questions. The firm must still test its workflow under approved conditions. This guide provides a 30-day structure for that work.
 
 ## Key Takeaways
-
-A credible pilot starts before anyone submits a prompt. Agree on the job, evidence, and decision rule first.
 
 * **Test one bounded workflow.** A broad trial produces opinions instead of comparable evidence.  
 * **Build a baseline.** Experienced lawyers should complete or score the same task set.  
@@ -41,6 +39,9 @@ A credible pilot starts before anyone submits a prompt. Agree on the job, eviden
 
 ## A Demo Is Not a Pilot
 
+![Harvey home page headed Build a Frontier Legal Organization, showing a product dashboard with usage charts](/assets/images/posts/harvey-legal-ai-pilot/harvey-home-screenshot-1600.jpg "Harvey home page, captured November 2026.")
+
+ A harvey legal ai demo shows what the tool can do on chosen examples.
 A demo shows selected capabilities under favorable conditions. A pilot tests repeatable work under agreed controls. That difference changes the evidence a buying team collects.
 
 A demo may use a clean document and a skilled presenter. A firm pilot should include realistic instructions, imperfect source files, and normal review steps. It should also record failures, retries, and manual corrections.
@@ -57,13 +58,12 @@ Use this comparison before the project starts.
 | **Is security tested?** | Explained at a high level | Checked against firm requirements |
 | **What does the result support?** | Product understanding | A scoped go, revise, or stop decision |
 
-⟧
 
-The distinction also helps teams discuss [AI adoption versus performance](https://verdictpoint.org/legal-tech/ai-in-law-firms-statistics/). Broader [legal technology statistics](https://verdictpoint.org/legal-tech/legal-technology-statistics/) can add market context. High use does not prove reliable performance on a specific task.
+The distinction also helps teams discuss [AI adoption versus performance](/legal-tech/ai-in-law-firms-statistics/). Broader [legal technology statistics](/legal-tech/legal-technology-statistics/) can add market context. High use does not prove reliable performance on a specific task.
 
 ## Select One Bounded Legal Workflow
 
-The first Harvey Legal AI test should focus on a recurring workflow with clear inputs and outputs. Avoid “general legal research” as the scope. It lacks a stable finish line.
+The first Harvey Legal AI test should focus on a recurring workflow with clear inputs and outputs. Avoid “general legal research” as the scope. It lacks a stable finish line. A focused harvey legal ai pilot is easier to score than a broad one.
 
 Good candidates have enough volume to justify testing. They also allow experienced lawyers to define acceptable work. Examples may include a first-pass contract issue list, a chronology from approved records, or a research memo with source requirements.
 
@@ -137,9 +137,8 @@ The scorecard below supports a clearer decision.
 | **Task completion** | Output meets every required element | Pass or fail against the task card |
 | **Workflow fit** | Users can repeat the process consistently | Observed sessions and error notes |
 
-⟧
 
-Source checking deserves its own procedure. Teams can use the same principle described in [verifying legal AI citations](https://verdictpoint.org/legal-tech/lexisnexis-legal-ai-source-checking/). Review teams should also test how findings move through [collaborative document review](https://verdictpoint.org/legal-tech/everlaw-ediscovery-document-review/). A citation can exist without supporting the generated sentence.
+Source checking deserves its own procedure. A citation can exist without supporting the generated sentence. The same discipline behind [source checking with LexisNexis legal AI](/legal-tech/lexisnexis-legal-ai-source-checking/), such as confirming that each cited case says what the output claims, applies here too. If the pilot touches large document sets, compare the workflow with [Everlaw document review](/legal-tech/everlaw-ediscovery-document-review/) before assuming one tool should do both jobs.
 
 ## Measure Net Review Time
 
@@ -169,9 +168,11 @@ Do not copy the benchmark’s percentage into an ROI model. Your task set, confi
 
 ## Set Security and Procurement Gates
 
-Security review should run beside quality testing. A good output cannot excuse an unacceptable data arrangement. The buyer needs product controls, contract terms, and internal operating rules.
+Security review should run beside quality testing. A good output cannot excuse an unacceptable data arrangement. The buyer needs product controls, contract terms, and internal operating rules. Security review for harvey legal ai should start before any client data enters the pilot.
 
 Harvey’s [security page](https://www.harvey.ai/security) describes model-provider zero-data-retention requirements. It also says customer inputs, outputs, and uploaded documents do not train underlying models. The page describes regional options and customer data controls. These are vendor statements that the contract should reflect.
+
+![Harvey security page headed For the Most Sensitive Matters, with cards for purpose-built security, data sovereignty and control, and no model training](/assets/images/posts/harvey-legal-ai-pilot/harvey-security-screenshot-1600.jpg "Harvey security page, captured November 2026.")
 
 ## Check the Proposed Arrangement
 
@@ -187,7 +188,7 @@ Review these items before uploading approved material:
 * **Incident process:** Confirm notice timing, investigation support, and evidence access.  
 * **Bespoke training:** Clarify whether any customer-specific training is requested or allowed.
 
-Harvey announced [ISO 42001 certification](https://www.harvey.ai/blog/governance-iso-42001) in June 2026. Treat that as one governance signal. It does not replace review of scope, certificate details, controls, and contract obligations.
+Treat any governance certification, such as ISO 42001, as one signal. It does not replace review of scope, certificate details, controls, and contract obligations.
 
 ## Run a Controlled 30-Day Pilot
 
@@ -204,7 +205,7 @@ Do not add unrelated workflows during week three. Put new ideas in a later-test 
 
 ## Make a Go, Revise, or Stop Decision
 
-The final meeting should answer whether one workflow can enter controlled use. It should not decide whether the product is “good” in general.
+The final meeting should answer whether one workflow can enter controlled use. It should not decide whether the product is “good” in general. The harvey legal ai decision should follow the pass criteria set at the start.
 
 Use three possible outcomes:
 
@@ -218,49 +219,43 @@ Name the approval owner and operating owner. Also set review dates for product c
 
 ## Preserve the Pilot Evidence
 
-## 
 
-## Store the approved task set, prompt versions, outputs, scores, and reviewer notes together. Include the product configuration and test dates. Future reviewers need that context to understand the result.
+Store the approved task set, prompt versions, outputs, scores, and reviewer notes together. Include the product configuration and test dates. Future reviewers need that context to understand the result.
 
-## 
 
-## Keep failed outputs as well as successful ones. They show where controls or instructions broke down. They also prevent later teams from repeating an unsafe test.
+Keep failed outputs as well as successful ones. They show where controls or instructions broke down. They also prevent later teams from repeating an unsafe test.
 
-## 
 
-## Schedule a retest when models, data sources, or major workflow features change. A prior pass supports one tested configuration. It should not become permanent approval for every future version.
+Schedule a retest when models, data sources, or major workflow features change. A prior pass supports one tested configuration. It should not become permanent approval for every future version.
 
-## 
-
-## Frequently Asked Questions
-
-These answers address common pilot questions. They do not replace legal, security, or procurement review.
-
-## How Many Tasks Should a Harvey Legal AI Pilot Include?
-
-Ten to 20 representative tasks can support a focused first pilot. Use enough variation to expose workflow risks without overwhelming reviewers.
-
-## Should the Pilot Use Real Client Files?
-
-Use synthetic, de-identified, or expressly authorized material. Follow firm policy, client terms, and approved security controls.
-
-## Does Harvey’s Benchmark Prove Product Accuracy?
-
-No. LAB is Harvey-published research with its own tasks and strict scoring. It does not report customer accuracy for every deployment.
-
-## What Is the Most Useful Pilot Metric?
-
-No single metric is enough. Track source validity, completeness, error severity, review time, and workflow fit separately.
-
-## How Should a Firm Evaluate Harvey Legal AI Pricing?
-
-Use a written quote and the firm’s own workload data. Include seats, services, implementation, review labor, and contract terms.
 
 ## Make the Pilot Evidence Worth Keeping
 
 A controlled pilot should leave an audit trail, not a stack of impressions. Keep task cards, prompts, outputs, reviewer notes, time logs, and decision records. That file supports procurement, governance, and later retesting.
 
 Verdict Point helps legal teams compare technology with repeatable methods. Use this scorecard to turn a product trial into a decision leaders can defend.
+
+## Frequently Asked Questions
+
+### How Many Tasks Should a Harvey Legal AI Pilot Include?
+
+Ten to 20 representative tasks can support a focused first pilot. Use enough variation to expose workflow risks without overwhelming reviewers.
+
+### Should the Pilot Use Real Client Files?
+
+Use synthetic, de-identified, or expressly authorized material. Follow firm policy, client terms, and approved security controls.
+
+### Does Harvey’s Benchmark Prove Product Accuracy?
+
+No. LAB is Harvey-published research with its own tasks and strict scoring. It does not report customer accuracy for every deployment.
+
+### What Is the Most Useful Pilot Metric?
+
+No single metric is enough. Track source validity, completeness, error severity, review time, and workflow fit separately.
+
+### How Should a Firm Evaluate Harvey Legal AI Pricing?
+
+Use a written quote and the firm’s own workload data. Include seats, services, implementation, review labor, and contract terms.
 
 ## Resources
 
@@ -269,4 +264,4 @@ Verdict Point helps legal teams compare technology with repeatable methods. Use 
 * [Harvey Security](https://www.harvey.ai/security)  
 * [Harvey ISO 42001 Announcement](https://www.harvey.ai/blog/governance-iso-42001)
 
-**Publication Note:** This guide uses public desk research, not a hands-on Harvey pilot. Recheck pricing, packaging, security claims, model support, and feature availability within seven days of publication.
+*This guide uses public desk research, not a hands-on Harvey pilot. We checked every Harvey statement against the pages above on November 14, 2026. Features, security terms, and pricing can change, so confirm them with Harvey before you sign.*
