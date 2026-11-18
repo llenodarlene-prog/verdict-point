@@ -86,5 +86,13 @@
     "category": "Fees and Settlements",
     "task": "Test a termination settlement",
     "description": "Add up back pay, a front pay scenario, and damages, with federal caps by employer size applied."
+  },
+  {
+    "name": "Car Accident Settlement Calculator",
+    "url": "/tools/car-accident-settlement-calculator/",
+    "icon": "scale",
+    "category": "Fees and Settlements",
+    "task": "Itemize a crash claim",
+    "description": "Add up medical bills, lost wages, and property damage, test a pain and suffering figure, and see the net after fault, fees, and liens."
   }
 ]

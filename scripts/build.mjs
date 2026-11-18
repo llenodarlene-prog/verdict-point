@@ -82,7 +82,7 @@ const iconTag = (name, className = 'ti') => { if (!iconPaths[name]) throw new Er
 const withIcons = html => html.replace(/\{\{icon:([a-z0-9-]+)\}\}/g, (_, name) => iconTag(name));
 const toolList = await readJson('data/tools.json');
 for (const item of toolList) if (!iconPaths[item.icon]) throw new Error(`data/tools.json: unknown icon ${item.icon}`);
-const toolCards = () => `<div class="tool-cards">${toolList.map(item => `<a class="tool-card" href="${escapeHtml(item.url)}"><span class="tool-card-icon">${iconTag(item.icon)}</span><span class="tool-card-cat">${escapeHtml(item.category)}</span><span class="tool-card-name">${escapeHtml(item.name)}</span><span class="tool-card-desc">${escapeHtml(item.description)}</span><span class="tool-card-go">${escapeHtml(item.task)} ${iconTag('arrow-right')}</span></a>`).join('')}</div>`;
+const toolCards = (text = 'all') => `<div class="tool-cards">${toolList.filter(item => String(text).trim() === 'all' || item.category === String(text).trim()).map(item => `<a class="tool-card" href="${escapeHtml(item.url)}"><span class="tool-card-icon">${iconTag(item.icon)}</span><span class="tool-card-cat">${escapeHtml(item.category)}</span><span class="tool-card-name">${escapeHtml(item.name)}</span><span class="tool-card-desc">${escapeHtml(item.description)}</span><span class="tool-card-go">${escapeHtml(item.task)} ${iconTag('arrow-right')}</span></a>`).join('')}</div>`;
 const toolCss = `/styles/tools.css?v=${await contentHash('src/styles/tools.css')}`;
 // Legal FAQ hub: answers come from data/legal-faq.json and render into the page HTML; the script only adds search and filters.
 const legalFaq = await readJson('data/legal-faq.json');
@@ -96,7 +96,8 @@ const toolSpecs = { 'billable-hours': { partial: 'billable-hours-calculator', ap
   'legal-software-cost': { partial: 'legal-software-cost-calculator', app: app('Legal Software Cost Calculator') }, 'payment-processing-fee': { partial: 'payment-processing-fee-calculator', app: app('Law Firm Payment Processing Fee Calculator') },
   'ediscovery-cost': { partial: 'ediscovery-cost-calculator', app: app('eDiscovery Cost Calculator') }, 'contingency-fee': { partial: 'contingency-fee-calculator', app: app('Contingency Fee Calculator') },
   'lsat-score': { partial: 'lsat-score-calculator', app: { ...app('LSAT Score Calculator'), applicationCategory: 'EducationalApplication' } },
-  'wrongful-termination': { partial: 'wrongful-termination-calculator', app: app('Wrongful Termination Settlement Calculator') } };
+  'wrongful-termination': { partial: 'wrongful-termination-calculator', app: app('Wrongful Termination Settlement Calculator') },
+  'car-accident': { partial: 'car-accident-calculator', app: app('Car Accident Settlement Calculator') } };
 const tools = {};
 for (const [id, spec] of Object.entries(toolSpecs)) {
   const coreVersion = await contentHash(`src/scripts/calculators/${id}-core.js`);
