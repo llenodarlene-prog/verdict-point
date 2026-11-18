@@ -78,5 +78,13 @@
     "category": "Law School and Careers",
     "task": "Find an LSAT percentile",
     "description": "Look up the percentile for any LSAT score from LSAC's 2023-2026 table, find the score for a target percentile, and convert a practice test raw score."
+  },
+  {
+    "name": "Wrongful Termination Settlement Calculator",
+    "url": "/tools/wrongful-termination-settlement-calculator/",
+    "icon": "scale",
+    "category": "Fees and Settlements",
+    "task": "Test a termination settlement",
+    "description": "Add up back pay, a front pay scenario, and damages, with federal caps by employer size applied."
   }
 ]
