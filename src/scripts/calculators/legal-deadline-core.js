@@ -112,6 +112,20 @@ export function calculateDeadline({ start, days, direction = 'forward', mode = '
   return { deadline: cur, lastCounted, rolled: rolled.length > 0, rolledDays: rolled.length, landsOnExcluded: landing, calendarSpan: Math.abs(cur - start), steps };
 }
 
+// Schedule mode: several periods counted from one trigger date with the same counting settings.
+// Each item is { label, days, direction }; labels are trimmed and capped, invalid rows are reported, not guessed.
+export const SCHEDULE_LIMIT = 12;
+export function calculateSchedule(base, items) {
+  return items.slice(0, SCHEDULE_LIMIT).map((item, index) => {
+    const label = String(item.label || '').trim().slice(0, 80) || `Deadline ${index + 1}`;
+    const days = Number(item.days);
+    const direction = item.direction === 'backward' ? 'backward' : 'forward';
+    if (!Number.isInteger(days) || days < LIMITS.days[0] || days > LIMITS.days[1]) return { label, error: `Enter a whole number of days from 0 to ${LIMITS.days[1]}.` };
+    const r = calculateDeadline({ ...base, days, direction });
+    return { label, days, direction, deadline: r.deadline, rolled: r.rolled, landsOnExcluded: r.landsOnExcluded };
+  }).sort((x, y) => (x.error ? 1 : 0) - (y.error ? 1 : 0) || (x.deadline ?? 0) - (y.deadline ?? 0));
+}
+
 // Shareable state: explicit allow list, each value validated.
 const PARAMS = {
   start: v => parseDate(v) === null ? undefined : v,
