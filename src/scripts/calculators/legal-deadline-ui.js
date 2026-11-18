@@ -1,6 +1,6 @@
 // Legal deadline calculator interface. Date rules live in legal-deadline-core.js; this file only reads inputs and writes results.
 // Nothing typed here leaves the browser: no storage, no network requests, and results are written with textContent only.
-import { LIMITS, parseDate, longDate, calculateDeadline, parseDeadlineState, serializeDeadlineState } from './legal-deadline-core.js';
+import { LIMITS, parseDate, longDate, calculateDeadline, calculateSchedule, SCHEDULE_LIMIT, parseDeadlineState, serializeDeadlineState } from './legal-deadline-core.js';
 
 const root = document.querySelector('[data-ldc]');
 if (root) init(root);
@@ -12,6 +12,8 @@ function init(root) {
   const stepsWrap = root.querySelector('[data-steps-wrap]');
   const stepsOut = root.querySelector('[data-steps]');
   const chips = root.querySelector('[data-excluded]');
+  const schedRows = root.querySelector('[data-sched-rows]');
+  let rowSeq = 0;
   const page = location.origin + location.pathname;
   const field = name => form.querySelector(`[name="${name}"]`);
   const radio = name => form.querySelector(`[name="${name}"]:checked`).value;
@@ -60,6 +62,42 @@ function init(root) {
     input.value = ''; renderChips(); run();
   }
 
+  function addRow(label = '', days = '', direction = 'forward') {
+    if (schedRows.children.length >= SCHEDULE_LIMIT) { live.textContent = `You can add up to ${SCHEDULE_LIMIT} deadlines.`; return; }
+    rowSeq += 1; const id = `ldc-s${rowSeq}`;
+    const row = el('div', { class: 'bhc-row ldc-srow' });
+    const lab = el('div', { class: 'bhc-field' }); lab.append(el('label', { for: `${id}-l` }, 'Deadline name'), Object.assign(el('input', { id: `${id}-l`, 'data-s': 'label', maxlength: '80' }), { value: label }));
+    const num = el('div', { class: 'bhc-field' }); num.append(el('label', { for: `${id}-d` }, 'Days'), Object.assign(el('input', { id: `${id}-d`, 'data-s': 'days', inputmode: 'numeric' }), { value: String(days) }));
+    const dir = el('div', { class: 'bhc-field' }); const sel = el('select', { id: `${id}-r`, 'data-s': 'direction' });
+    for (const [v, t] of [['forward', 'After the start date'], ['backward', 'Before the start date']]) { const o = el('option', { value: v }, t); if (v === direction) o.selected = true; sel.append(o); }
+    dir.append(el('label', { for: `${id}-r` }, 'Direction'), sel);
+    const rm = el('button', { type: 'button', class: 'bhc-add', 'aria-label': 'Remove this deadline' }, 'Remove');
+    rm.addEventListener('click', () => { row.remove(); run(); live.textContent = 'Deadline removed.'; });
+    row.append(lab, num, dir, rm); schedRows.append(row);
+  }
+  const schedItems = () => [...schedRows.children].map(r => ({ label: r.querySelector('[data-s="label"]').value, days: (r.querySelector('[data-s="days"]').value.trim().replace(/,/g, '') || 'x').match(/^\d+$/) ? Number(r.querySelector('[data-s="days"]').value.trim().replace(/,/g, '')) : NaN, direction: r.querySelector('[data-s="direction"]').value })).filter(i => i.label.trim() || Number.isFinite(i.days));
+  function scheduleTable(input) {
+    const items = schedItems();
+    if (!items.length) return null;
+    const base = { start: input.start, mode: input.mode, includeStart: input.includeStart, adjust: input.adjust, holidays: input.holidays, custom: input.custom };
+    const main = { label: 'Main deadline', days: input.days, direction: input.direction };
+    const rows = calculateSchedule(base, [main, ...items]);
+    const table = el('table', { class: 'bhc-table ldc-table' });
+    table.append(el('caption', {}, 'Court dates from this start date'));
+    const hr = el('tr'); for (const h of ['Deadline', 'Period', 'Date', 'Note']) hr.append(el('th', { scope: 'col' }, h));
+    const thead = el('thead'); thead.append(hr); const tbody = el('tbody');
+    for (const r of rows) {
+      const tr = el('tr');
+      if (r.error) tr.append(el('td', {}, r.label), el('td', { colspan: '3' }, r.error));
+      else tr.append(el('td', {}, r.label), el('td', {}, `${r.days} ${input.mode === 'business' ? 'business' : 'calendar'} day${r.days === 1 ? '' : 's'} ${r.direction === 'forward' ? 'after' : 'before'}`), el('td', {}, longDate(r.deadline)), el('td', {}, r.rolled ? 'Moved off a weekend or holiday' : r.landsOnExcluded ? `Lands on ${r.landsOnExcluded}` : ''));
+      tbody.append(tr);
+    }
+    table.append(thead, tbody);
+    summaryExtra = ['Court dates from this start date:', ...rows.map(r => r.error ? `- ${r.label}: ${r.error}` : `- ${r.label}: ${longDate(r.deadline)}`)];
+    return table;
+  }
+  let summaryExtra = [];
+
   function read() {
     form.querySelectorAll('[aria-invalid]').forEach(input => setError(input, ''));
     const startInput = field('start'), daysInput = field('days');
@@ -95,7 +133,9 @@ function init(root) {
     const ul = el('ul', { class: 'ldc-assume', 'aria-label': 'Assumptions used' });
     for (const a of assumptions) ul.append(el('li', {}, a));
     const cap = el('p', { class: 'viz-cap' }); cap.append(icon('info-circle'), document.createTextNode('Assumptions used'));
-    out.replaceChildren(head, tiles(list), calendar(input, r), cap, ul);
+    summaryExtra = [];
+    const sched = scheduleTable(input);
+    out.replaceChildren(head, tiles(list), ...(sched ? [sched] : []), calendar(input, r), cap, ul);
     flash(out);
     // Day-by-day count, capped for display; the calculation itself always covers the full period.
     const rows = r.steps.length > 420 ? [...r.steps.slice(0, 200), null, ...r.steps.slice(-200)] : r.steps;
@@ -114,7 +154,7 @@ function init(root) {
     table.append(thead, tbody);
     stepsOut.replaceChildren(table);
     stepsWrap.hidden = false;
-    summary = ['Verdict Point Legal Deadline Calculator', `Deadline: ${longDate(r.deadline)}`, `Start date: ${longDate(input.start)}`, `Period: ${input.days} ${plural} ${input.direction === 'forward' ? 'after' : 'before'} the start date`, ...(r.rolled ? [`Count ended ${longDate(r.lastCounted)}; moved to the next day that is not a weekend or holiday`] : []), ...(excluded.length ? [`Excluded dates: ${excluded.join(', ')}`] : []), `Assumptions: ${assumptions.join('; ')}`, `Holiday rules version: 2026-10-28`, `Calculated ${new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}`, page, 'Check the governing rule, order, and local rules before relying on this date.'].join('\n');
+    summary = ['Verdict Point Legal Deadline Calculator', `Deadline: ${longDate(r.deadline)}`, `Start date: ${longDate(input.start)}`, `Period: ${input.days} ${plural} ${input.direction === 'forward' ? 'after' : 'before'} the start date`, ...(r.rolled ? [`Count ended ${longDate(r.lastCounted)}; moved to the next day that is not a weekend or holiday`] : []), ...(excluded.length ? [`Excluded dates: ${excluded.join(', ')}`] : []), ...summaryExtra, `Assumptions: ${assumptions.join('; ')}`, `Holiday rules version: 2026-10-28`, `Calculated ${new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}`, page, 'Check the governing rule, order, and local rules before relying on this date.'].join('\n');
   }
 
   // Month grids from the start date to the deadline. Long periods show only the first and last month.
@@ -182,6 +222,7 @@ function init(root) {
     if (button.dataset.step) { const input = field('days'); const n = Number(input.value.replace(/,/g, '')); input.value = String(Math.min(LIMITS.days[1], Math.max(0, (Number.isFinite(n) ? Math.round(n) : 0) + Number(button.dataset.step)))); run(); return; }
     const action = button.dataset.action;
     if (action === 'add-date') addDate();
+    if (action === 'add-row') { addRow(); schedRows.lastElementChild?.querySelector('input')?.focus(); }
     if (action === 'example') {
       field('start').value = '2026-10-28'; field('days').value = '29';
       form.querySelector('[name="dir"][value="forward"]').checked = true; form.querySelector('[name="mode"][value="calendar"]').checked = true;

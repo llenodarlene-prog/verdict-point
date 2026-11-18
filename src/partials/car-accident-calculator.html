@@ -1,0 +1,36 @@
+<section class="bhc seo" id="calculator" aria-labelledby="car-accident-title" data-calc="car-accident">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="car-accident-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Every amount is your own input. The calculator adds and subtracts; it does not predict a settlement or give legal advice.</p>
+  <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formula and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:receipt-2}}Economic Losses</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="car-accident-medical">Medical bills to date ($)</label><input id="car-accident-medical" name="medical" inputmode="decimal" aria-describedby="car-accident-medical-err"><p class="bhc-err" id="car-accident-medical-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-futureMedical">Future medical care ($)</label><input id="car-accident-futureMedical" name="futureMedical" inputmode="decimal" aria-describedby="car-accident-futureMedical-help car-accident-futureMedical-err"><p class="bhc-note" id="car-accident-futureMedical-help">Only if a provider has estimated it.</p><p class="bhc-err" id="car-accident-futureMedical-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-lostWages">Lost wages to date ($)</label><input id="car-accident-lostWages" name="lostWages" inputmode="decimal" aria-describedby="car-accident-lostWages-err"><p class="bhc-err" id="car-accident-lostWages-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-futureWages">Future lost earnings ($)</label><input id="car-accident-futureWages" name="futureWages" inputmode="decimal" aria-describedby="car-accident-futureWages-err"><p class="bhc-err" id="car-accident-futureWages-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-property">Vehicle and property damage ($)</label><input id="car-accident-property" name="property" inputmode="decimal" aria-describedby="car-accident-property-err"><p class="bhc-err" id="car-accident-property-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-otherCosts">Other out-of-pocket costs ($)</label><input id="car-accident-otherCosts" name="otherCosts" inputmode="decimal" aria-describedby="car-accident-otherCosts-help car-accident-otherCosts-err"><p class="bhc-note" id="car-accident-otherCosts-help">Rental car, travel to treatment, and similar.</p><p class="bhc-err" id="car-accident-otherCosts-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:scale}}Pain, Fault, and Insurance</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="car-accident-nonEconomic">Pain and suffering figure to test ($)</label><input id="car-accident-nonEconomic" name="nonEconomic" inputmode="decimal" aria-describedby="car-accident-nonEconomic-help car-accident-nonEconomic-err"><p class="bhc-note" id="car-accident-nonEconomic-help">Any amount you want to test. The calculator does not apply a multiplier.</p><p class="bhc-err" id="car-accident-nonEconomic-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-faultPct">Your share of fault (%)</label><input id="car-accident-faultPct" name="faultPct" inputmode="decimal" aria-describedby="car-accident-faultPct-help car-accident-faultPct-err"><p class="bhc-note" id="car-accident-faultPct-help">Reduces the total by this share.</p><p class="bhc-err" id="car-accident-faultPct-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-policyLimit">At-fault driver policy limit ($, optional)</label><input id="car-accident-policyLimit" name="policyLimit" inputmode="decimal" aria-describedby="car-accident-policyLimit-help car-accident-policyLimit-err"><p class="bhc-note" id="car-accident-policyLimit-help">Caps what that policy pays in the scenario.</p><p class="bhc-err" id="car-accident-policyLimit-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:wallet}}Fees and Repayments</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="car-accident-feePct">Attorney fee (%)</label><input id="car-accident-feePct" name="feePct" inputmode="decimal" aria-describedby="car-accident-feePct-err"><p class="bhc-err" id="car-accident-feePct-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-caseCosts">Case costs ($)</label><input id="car-accident-caseCosts" name="caseCosts" inputmode="decimal" aria-describedby="car-accident-caseCosts-err"><p class="bhc-err" id="car-accident-caseCosts-err"></p></div>
+      <div class="bhc-field"><label for="car-accident-liens">Medical liens and repayments ($)</label><input id="car-accident-liens" name="liens" inputmode="decimal" aria-describedby="car-accident-liens-help car-accident-liens-err"><p class="bhc-note" id="car-accident-liens-help">Health insurer, Medicare, Medicaid, or provider claims.</p><p class="bhc-err" id="car-accident-liens-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="car-accident-result-h"><h3 id="car-accident-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>

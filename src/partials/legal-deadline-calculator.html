@@ -31,6 +31,12 @@
         <p class="bhc-note" id="ldc-exclude-help">Add court closures or state holidays. Excluded dates are skipped like weekends.</p><p class="bhc-err" id="ldc-exclude-err"></p>
         <ul class="ldc-chips" data-excluded aria-label="Excluded dates"></ul>
       </div>
+      <fieldset class="bhc-checks ldc-sched">
+        <legend>More court dates from the same start date (optional)</legend>
+        <p class="bhc-note" id="ldc-sched-help">Add other periods that run from the same trigger, such as a response, a reply, or a notice due before a hearing. Each uses the counting options above.</p>
+        <div data-sched-rows></div>
+        <button type="button" data-action="add-row" class="bhc-add">{{icon:calendar-plus}}Add another deadline</button>
+      </fieldset>
       <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="reset">{{icon:arrow-back-up}}Reset</button></div>
     </form>
     <div class="bhc-result" aria-labelledby="ldc-result-h"><h3 id="ldc-result-h" tabindex="-1">{{icon:sparkles}}Result</h3><div class="bhc-out" data-out></div>
