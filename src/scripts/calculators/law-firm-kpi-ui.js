@@ -50,7 +50,7 @@ function init(root) {
     for (const key of bad) delete f[key];
     return { f, bad };
   }
-  const KPI_ICONS = { utilization: 'hourglass', realization: 'receipt-2', collection: 'wallet', yield: 'percentage', effectiveRate: 'cash', margin: 'report-money', profit: 'moneybag', revenuePerLawyer: 'users', leadToConsult: 'user-plus', consultToClient: 'briefcase', costPerLead: 'coin', cac: 'target-arrow' };
+  const KPI_ICONS = { utilization: 'hourglass', realization: 'receipt-2', collection: 'wallet', yield: 'percentage', effectiveRate: 'cash', margin: 'report-money', profit: 'moneybag', revenuePerLawyer: 'users', leadToConsult: 'user-plus', consultToClient: 'briefcase', costPerLead: 'coin', cac: 'target-arrow', profitPerLawyer: 'users', leadToClient: 'percentage' };
   // Intake funnel: leads, consultations, and new matters as bars scaled to leads. The numbers stay in the text.
   function funnel(f) {
     const wrap = el('div', { class: 'viz' });

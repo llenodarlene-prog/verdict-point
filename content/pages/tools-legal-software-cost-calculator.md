@@ -10,7 +10,7 @@ breadcrumb: true
 parent: /tools/
 parent_label: Tools
 draft: false
-modified: 2026-11-07
+modified: 2026-11-18
 ---
 
 # Legal Software Cost Calculator for Law Firms
@@ -35,6 +35,16 @@ Every price is yours. Copy figures from the vendor's pricing page or, better, fr
 - **First-year cost:** monthly cost × 12, or fewer months if the period is shorter, plus one-time setup.
 - **Total cost:** monthly cost × months + one-time setup.
 - **Cost per user per month:** total cost ÷ months ÷ users.
+
+## Return on Investment From Time Saved
+
+If you have a defensible estimate of the time a product saves, ideally from a trial with your own staff, enter it as hours saved per user per month for that option, plus the value of one hour. The calculator then adds three columns:
+
+- **Value of time saved:** hours saved per user per month × users × months × value of an hour.
+- **Net return:** value of time saved − total cost over the period.
+- **Return on cost:** net return ÷ total cost.
+
+Example: Option A costs $7,020 over 36 months for 5 users. If each user saves 2 hours a month and an hour is worth $150, the time saved is worth $54,000, a net return of $46,980. Saved time only becomes revenue or savings if it is billed or used, so treat the result as an upper bound and test the estimate before you rely on it.
 
 ## Worked Example
 
