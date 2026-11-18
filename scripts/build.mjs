@@ -97,7 +97,8 @@ const toolSpecs = { 'billable-hours': { partial: 'billable-hours-calculator', ap
   'ediscovery-cost': { partial: 'ediscovery-cost-calculator', app: app('eDiscovery Cost Calculator') }, 'contingency-fee': { partial: 'contingency-fee-calculator', app: app('Contingency Fee Calculator') },
   'lsat-score': { partial: 'lsat-score-calculator', app: { ...app('LSAT Score Calculator'), applicationCategory: 'EducationalApplication' } },
   'wrongful-termination': { partial: 'wrongful-termination-calculator', app: app('Wrongful Termination Settlement Calculator') },
-  'car-accident': { partial: 'car-accident-calculator', app: app('Car Accident Settlement Calculator') } };
+  'car-accident': { partial: 'car-accident-calculator', app: app('Car Accident Settlement Calculator') },
+  'probate-fee': { partial: 'probate-fee-calculator', app: app('Probate Attorney Fee Calculator') } };
 const tools = {};
 for (const [id, spec] of Object.entries(toolSpecs)) {
   const coreVersion = await contentHash(`src/scripts/calculators/${id}-core.js`);

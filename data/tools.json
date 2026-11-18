@@ -94,5 +94,13 @@
     "category": "Fees and Settlements",
     "task": "Itemize a crash claim",
     "description": "Add up medical bills, lost wages, and property damage, test a pain and suffering figure, and see the net after fault, fees, and liens."
+  },
+  {
+    "name": "Probate Attorney Fee Calculator",
+    "url": "/tools/probate-attorney-fee-calculator/",
+    "icon": "scale",
+    "category": "Estates and Probate",
+    "task": "Apply a probate fee schedule",
+    "description": "Calculate the Florida probate attorney fee presumed reasonable from the estate's compensable value, with every bracket shown."
   }
 ]
