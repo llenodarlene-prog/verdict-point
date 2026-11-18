@@ -10,7 +10,7 @@ breadcrumb: true
 parent: /tools/
 parent_label: Tools
 draft: false
-modified: 2026-10-28
+modified: 2026-11-18
 ---
 
 # Legal Deadline Calculator for Court Dates and Business Days
@@ -40,6 +40,12 @@ Rule 6(a)(5) says the "next day" is found by counting forward for periods measur
 **Business days** skip Saturdays, Sundays, federal holidays, and any dates you add. Some court rules, contracts, and agency regulations count this way. Check the wording of the rule you are applying, because a business-day count usually ends later than a calendar-day count of the same number.
 
 The **Count the start date as day 1** option is off by default because Rule 6(a)(1)(A) excludes the trigger day. Turn it on only when your rule or agreement counts the first day.
+
+## Court Dates From One Trigger Event
+
+One event often starts several clocks. Service of a motion can set a response date, a reply date, and a hearing that needs notice a set number of days before it. Use the court dates section of the calculator to add each period with a name, a number of days, and a direction. The calculator counts each one from the same start date with the same counting options and lists them in date order.
+
+Every row uses the settings you chose above, so a mix of calendar-day and business-day rules needs separate runs. Check each period against the rule or order that sets it. Courts often set their own counting rules in local rules or standing orders.
 
 ## Federal Holidays Used
 
@@ -112,6 +118,10 @@ It skips the federal legal public holidays in 5 U.S.C. 6103, using their observe
 ### Can I Count Backward from a Hearing Date?
 
 Yes. Choose **Before the start date**. If the count lands on a weekend or holiday, the calculator moves the date earlier, following Rule 6(a)(5).
+
+### Can I Calculate Several Court Dates at Once?
+
+Yes. Add each period in the court dates section, such as a 14-day response and a 7-day reply. The calculator counts every period from the same start date and lists the dates in order. Copy or print the results to keep a record of the count.
 
 ### Does the Calculator Store My Dates?
 

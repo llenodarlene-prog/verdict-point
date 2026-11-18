@@ -72,3 +72,21 @@ test('share state is allow-listed', () => {
   assert.deepEqual(parseDeadlineState(new URLSearchParams('start=2026-02-30&days=99999&dir=up&exclude=<b>')), {});
   assert.equal(serializeDeadlineState({ start: '2026-10-28', days: 30, dir: 'forward', mode: 'calendar', first: false, adjust: 'roll', hol: true, note: 'x' }), 'start=2026-10-28&days=30&dir=forward&mode=calendar&adjust=roll');
 });
+
+import { calculateSchedule, SCHEDULE_LIMIT } from '../src/scripts/calculators/legal-deadline-core.js';
+test('schedule counts several periods from one trigger and sorts by date', () => {
+  const base = { start: d('2026-10-28'), mode: 'calendar', adjust: 'roll', holidays: true };
+  const rows = calculateSchedule(base, [{ label: 'Reply', days: 14 }, { label: 'Response', days: 7 }, { label: 'Hearing notice', days: 10, direction: 'backward' }, { label: 'Bad', days: 'x' }]);
+  assert.deepEqual(rows.slice(0, 3).map(r => [r.label, isoDate(r.deadline)]), [['Hearing notice', '2026-10-16'], ['Response', '2026-11-04'], ['Reply', '2026-11-12']]); // Nov 11 is Veterans Day, so the last day moves to Nov 12.
+  assert.equal(rows[3].label, 'Bad');
+  assert.ok(rows[3].error);
+  // Each row matches a single calculation with the same settings.
+  assert.equal(rows[2].deadline, calculateDeadline({ ...base, days: 14 }).deadline);
+});
+test('schedule caps rows and labels', () => {
+  const many = Array.from({ length: SCHEDULE_LIMIT + 5 }, (_, i) => ({ label: 'x'.repeat(200), days: i }));
+  const rows = calculateSchedule({ start: d('2026-01-05') }, many);
+  assert.equal(rows.length, SCHEDULE_LIMIT);
+  assert.equal(rows[0].label.length, 80);
+  assert.equal(calculateSchedule({ start: d('2026-01-05') }, [{ label: '  ', days: 1 }])[0].label, 'Deadline 1');
+});
