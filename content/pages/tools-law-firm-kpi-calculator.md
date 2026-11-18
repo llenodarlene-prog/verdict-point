@@ -10,7 +10,7 @@ breadcrumb: true
 parent: /tools/
 parent_label: Tools
 draft: false
-modified: 2026-10-28
+modified: 2026-11-18
 ---
 
 # Law Firm KPI Calculator for Utilization and Realization
@@ -47,11 +47,13 @@ Firms define some of these metrics differently. These are the definitions the ca
 - **Operating profit:** revenue − operating expenses.
 - **Operating profit margin:** operating profit ÷ revenue × 100.
 - **Revenue per lawyer or FTE:** revenue ÷ the headcount measure you choose. Use the same measure every time you compare.
+- **Operating profit per lawyer or FTE:** operating profit ÷ the same headcount measure.
 
 ### Marketing and Intake
 
 - **Lead-to-consultation rate:** consultations ÷ leads × 100.
 - **Consultation-to-client rate:** new matters ÷ consultations × 100.
+- **Lead-to-client conversion rate:** new matters ÷ leads × 100. This is the whole funnel in one number.
 - **Cost per lead:** marketing spend ÷ leads.
 - **Client acquisition cost:** marketing spend ÷ new matters.
 
@@ -64,7 +66,7 @@ A hypothetical four-lawyer firm records these totals for one year:
 - $1,200,000 revenue and $780,000 operating expenses.
 - 400 leads, 120 consultations, 48 new matters, and $36,000 of marketing spend.
 
-The results are 75% utilization, 92% realization, 95% collection, an 87.4% overall billing yield, and an effective collected rate of $305.90 per billable hour. Operating profit is $420,000, a 35% margin, and revenue is $300,000 per lawyer. On intake, 30% of leads become consultations, 40% of consultations become clients, each lead costs $90, and each new client costs $750 to acquire.
+The results are 75% utilization, 92% realization, 95% collection, an 87.4% overall billing yield, and an effective collected rate of $305.90 per billable hour. Operating profit is $420,000, a 35% margin, revenue is $300,000 per lawyer, and operating profit is $105,000 per lawyer. On intake, 30% of leads become consultations, 40% of consultations become clients, 12% of all leads become clients, each lead costs $90, and each new client costs $750 to acquire.
 
 These figures are invented to show the arithmetic. They are not benchmarks or typical results.
 

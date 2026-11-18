@@ -37,3 +37,13 @@ test('figures parse strictly', () => {
   assert.ok(Number.isNaN(parseFigure('-5')));
   assert.ok(Number.isNaN(parseFigure('1e20')));
 });
+
+import { calculateKpis as kpis2, EXAMPLE as EX2 } from '../src/scripts/calculators/law-firm-kpi-core.js';
+test('lead-to-client rate and profit per lawyer', () => {
+  const by = Object.fromEntries(kpis2(EX2).map(k => [k.key, k.value]));
+  assert.equal(by.leadToClient, 12);
+  assert.equal(by.profitPerLawyer, 105000);
+  const neg = Object.fromEntries(kpis2({ revenue: 100, expenses: 300, lawyers: 2 }).map(k => [k.key, k.value]));
+  assert.equal(neg.profitPerLawyer, -100);
+  assert.equal(Object.fromEntries(kpis2({ newMatters: 1 }).map(k => [k.key, k.value])).leadToClient, null);
+});
