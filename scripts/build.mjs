@@ -94,7 +94,8 @@ const toolSpecs = { 'billable-hours': { partial: 'billable-hours-calculator', ap
   'judgment-interest': { partial: 'judgment-interest-calculator', app: app('Post-Judgment Interest Calculator') }, 'law-firm-kpi': { partial: 'law-firm-kpi-calculator', app: app('Law Firm KPI Calculator') },
   'law-firm-seo-roi': { partial: 'law-firm-seo-roi-calculator', app: app('Law Firm SEO ROI Calculator') },
   'legal-software-cost': { partial: 'legal-software-cost-calculator', app: app('Legal Software Cost Calculator') }, 'payment-processing-fee': { partial: 'payment-processing-fee-calculator', app: app('Law Firm Payment Processing Fee Calculator') },
-  'ediscovery-cost': { partial: 'ediscovery-cost-calculator', app: app('eDiscovery Cost Calculator') }, 'contingency-fee': { partial: 'contingency-fee-calculator', app: app('Contingency Fee Calculator') } };
+  'ediscovery-cost': { partial: 'ediscovery-cost-calculator', app: app('eDiscovery Cost Calculator') }, 'contingency-fee': { partial: 'contingency-fee-calculator', app: app('Contingency Fee Calculator') },
+  'lsat-score': { partial: 'lsat-score-calculator', app: { ...app('LSAT Score Calculator'), applicationCategory: 'EducationalApplication' } } };
 const tools = {};
 for (const [id, spec] of Object.entries(toolSpecs)) {
   const coreVersion = await contentHash(`src/scripts/calculators/${id}-core.js`);
