@@ -26,6 +26,14 @@ if (!/^https:\/\//.test(siteUrl)) throw new Error('SITE_URL must be an absolute 
 if (buildEnv === 'production' && process.env.SITE_URL && process.env.SITE_URL.replace(/\/$/, '') !== siteUrl) throw new Error('SITE_URL differs from approved tracker domain');
 const indexable = buildEnv === 'production' && site.launch_status === 'ready';
 const robots = indexable ? 'index,follow' : 'noindex,nofollow,noarchive';
+// Google tag (GTM container) only on the production build, so staging and local previews never send analytics.
+const GOOGLE_TAG_ID = 'GTM-57FF8KHF';
+const googleTag = indexable ? `<script async src="https://www.googletagmanager.com/gtm.js?id=${GOOGLE_TAG_ID}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  </script>` : '';
 
 async function walk(dir) {
   const entries = await readdir(dir, { withFileTypes: true });
@@ -231,7 +239,7 @@ for (const page of parsed) {
   // An approved SEO title that already names the brand is used as written, without a repeated suffix.
   const fullTitle = title.includes(site.name) ? title : `${title} | ${site.name}`;
   const html = replace(base, {
-    LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
+    GOOGLE_TAG: googleTag, LANG: site.locale || 'en-US', TITLE: escapeHtml(fullTitle), DESCRIPTION: escapeHtml(metadata.description), ROBOTS: metadata.noindex === true ? 'noindex,nofollow' : robots,
     CANONICAL: url, OG_TYPE: article ? 'article' : 'website', SCHEMA: JSON.stringify(schema).replaceAll('<', '\\u003c'), FONT_LINKS: fontLinks, CSS_VERSION: assetVersion.css, JS_VERSION: assetVersion.js,
     PAGE_HEAD: tool ? `<link rel="stylesheet" href="${tool.css}"><link rel="modulepreload" href="${tool.core}">` : metadata.tools_hub === true ? `<link rel="stylesheet" href="${toolCss}">` : metadata.faq_hub === true ? faqHead : '', PAGE_SCRIPTS: (tool || metadata.tools_hub === true || metadata.faq_hub === true ? iconSprite : '') + (tool ? `<script type="module" src="${tool.js}"></script>` : metadata.faq_hub === true ? faqScript : ''),
     ARTICLE_META: headMeta({ metadata, site, siteUrl, image: featured || defaultShareImage, article }),
