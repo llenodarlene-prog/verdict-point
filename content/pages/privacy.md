@@ -1,7 +1,7 @@
 ---
 title: Privacy Policy
 seo_title: Privacy Policy
-description: How Verdict Point handles visitor information, including server logs, Google Fonts, email enquiries, and the choices available to readers.
+description: How Verdict Point handles visitor information, including server logs, Google Analytics, Google Fonts, email enquiries, and the choices available to readers.
 slug: /privacy/
 type: page
 schema: WebPage
@@ -10,13 +10,13 @@ draft: false
 
 # Privacy Policy
 
-**Effective date: September 1, 2026**
+**Effective date: November 19, 2026**
 
 Verdict Point is an independent publication about the business of law. This policy explains what information is handled when you read verdictpoint.org or contact us, why it is handled, and the choices you have. We keep it short because we collect very little.
 
 ## What We Do Not Collect
 
-The site has no user accounts, no comment system, no newsletter sign-up, and no contact forms. We do not run analytics tools, advertising networks, social media tracking pixels, or session recording. The site does not set cookies.
+The site has no user accounts, no comment system, no newsletter sign-up, and no contact forms. We do not run advertising networks, social media tracking pixels, or session recording. We use Google Analytics to measure how the site is used, as described below. Our calculators run in your browser, and the figures you type into them are not sent to us.
 
 ## Information Handled When You Visit
 
@@ -25,6 +25,12 @@ Like most websites, a few technical details are processed automatically when you
 ### Server Logs at Our Hosting Provider
 
 The site is hosted by Hostinger. Its servers record standard technical information for each request, such as your IP address, the date and time, the page requested, the referring page, and your browser type. These logs are used to deliver the site, keep it secure, and diagnose errors. We do not use them to build profiles of readers. Hostinger's handling of this data is described in its own privacy policy.
+
+### Analytics From Google
+
+We use Google Analytics, loaded through Google Tag Manager, to count visits and understand which pages and tools readers use. When a page loads, your browser connects to Google's servers, which receive your IP address, browser and device details, the page you are viewing, and the page that referred you. Google Analytics sets cookies in your browser to recognize repeat visits. We use these reports in aggregate to decide what to publish and improve. We do not use them to identify individual readers, and we do not combine them with email correspondence.
+
+You can block Google Analytics with browser settings or extensions that block third-party scripts or cookies, or with Google's opt-out browser add-on for Google Analytics. Google describes how it uses this information in its own privacy documentation.
 
 ### Fonts Loaded From Google
 
@@ -42,7 +48,7 @@ Our articles link to sources such as government data, vendor documentation, and 
 
 ## Your Choices and Rights
 
-Depending on where you live, you may have the right to ask what personal information we hold about you, to correct it, or to have it deleted. Because we hold very little, most requests concern email correspondence. Send any request to [verdictpoint@gmail.com](mailto:verdictpoint@gmail.com) and we will respond within a reasonable time. You can also limit what is shared by using browser settings or extensions that block third-party requests, such as font downloads.
+Depending on where you live, you may have the right to ask what personal information we hold about you, to correct it, or to have it deleted. Because we hold very little, most requests concern email correspondence. Send any request to [verdictpoint@gmail.com](mailto:verdictpoint@gmail.com) and we will respond within a reasonable time. You can also limit what is shared by using browser settings or extensions that block third-party requests, such as font downloads and analytics.
 
 ## Children's Privacy
 
@@ -58,7 +64,7 @@ Verdict Point publishes information and analysis for general informational purpo
 
 ## Changes to This Policy
 
-If the site begins to use new tools, such as analytics or a newsletter, we will update this policy before doing so and change the effective date above.
+If the site begins to use new tools, such as a newsletter or advertising, we will update this policy before doing so and change the effective date above.
 
 ## Contact
 
