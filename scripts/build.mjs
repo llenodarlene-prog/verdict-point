@@ -27,7 +27,7 @@ if (buildEnv === 'production' && process.env.SITE_URL && process.env.SITE_URL.re
 const indexable = buildEnv === 'production' && site.launch_status === 'ready';
 const robots = indexable ? 'index,follow' : 'noindex,nofollow,noarchive';
 // Google tag (GTM container) only on the production build, so staging and local previews never send analytics.
-const GOOGLE_TAG_ID = 'GTM-57FF8KHF';
+const GOOGLE_TAG_ID = 'GTM-TBHKHRXB';
 const googleTag = indexable ? `<script async src="https://www.googletagmanager.com/gtm.js?id=${GOOGLE_TAG_ID}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
