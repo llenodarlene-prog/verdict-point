@@ -28,11 +28,16 @@ const indexable = buildEnv === 'production' && site.launch_status === 'ready';
 const robots = indexable ? 'index,follow' : 'noindex,nofollow,noarchive';
 // Google tag (GTM container) only on the production build, so staging and local previews never send analytics.
 const GOOGLE_TAG_ID = 'GTM-TBHKHRXB';
+// GA4 measurement ID, configured directly with gtag.js so data flows without a GA4 tag inside the GTM container.
+// Do not also add a GA4 Google tag for this ID inside GTM, or page views are counted twice.
+const GA4_MEASUREMENT_ID = 'G-ZZ3NJFL8GE';
 const googleTag = indexable ? `<script async src="https://www.googletagmanager.com/gtm.js?id=${GOOGLE_TAG_ID}"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
+    gtag('config', '${GA4_MEASUREMENT_ID}');
   </script>` : '';
 
 async function walk(dir) {
