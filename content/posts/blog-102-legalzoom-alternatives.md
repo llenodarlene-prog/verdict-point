@@ -11,7 +11,7 @@ primary_keyword: legalzoom alternatives
 cluster: Legal Business
 launch_silo: Business Formation & Compliance
 silo_role: Supporting
-approved_internal_links: /legal-business/best-llc-formation-services/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/best-registered-agent-services/; /legal-business/trust-and-will-vs-legalzoom/
+approved_internal_links: /legal-business/best-llc-formation-services/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/best-registered-agent-services/; /legal-business/trust-and-will-vs-legalzoom/; /legal-business/legalzoom-vs-rocket-lawyer/
 research_record: content/research/blog-102.json
 image: /assets/images/posts/legalzoom-alternatives/featured-legal-tasks-document-hub-1600.jpg
 image_alt: Signed legal document on a desk linked by glowing lines to icons for a storefront, an attorney, a certificate, and a file drawer
@@ -66,7 +66,7 @@ All three plans include unlimited documents and e-signatures. The attorney limit
 
 The [Rocket Lawyer pricing page](https://www.rocketlawyer.com/pricing) also lists add-ons. Your first business registration is free, then $99 plus state fees. Registered agent service costs $125 a year on Plus and Pro.
 
-**Best fit:** Small business owners and households who expect several legal documents or questions each year.
+**Best fit:** Small business owners and households who expect several legal documents or questions each year. Our [LegalZoom vs Rocket Lawyer](/legal-business/legalzoom-vs-rocket-lawyer/) comparison prices both side by side.
 
 **Questions to ask:** How many attorney questions will you really use? Does your matter need a full legal advice session, which costs $149 for 30 minutes?
 

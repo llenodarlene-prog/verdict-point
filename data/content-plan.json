@@ -5202,7 +5202,7 @@
     "intent_rationale": "Ubersuggest marks llc formation services as commercial.",
     "no_data_publish_decision": "Publish: owner approved 2026-11-08.",
     "url_slug": "/legal-business/best-llc-formation-services/",
-    "internal_link_targets_launch_set": "/legal-business/best-registered-agent-services/; /legal-business/florida-llc-formation-services/; /legal-business/wyoming-llc-formation-services/; /legal-business/texas-llc-formation-services/; /legal-business/wyoming-registered-agent-services/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/trust-and-will-vs-legalzoom/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-review/; /legal-business/legalzoom-alternatives/",
+    "internal_link_targets_launch_set": "/legal-business/best-registered-agent-services/; /legal-business/florida-llc-formation-services/; /legal-business/wyoming-llc-formation-services/; /legal-business/texas-llc-formation-services/; /legal-business/wyoming-registered-agent-services/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/trust-and-will-vs-legalzoom/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-review/; /legal-business/legalzoom-alternatives/; /legal-business/legalzoom-vs-rocket-lawyer/",
     "seo_title": "Best LLC Formation Services for 2026: 7 Compared",
     "meta_description": "Compare LLC formation services by state fees, package price, registered agent renewals, EIN costs, processing, subscriptions, and best fit.",
     "launch_silo": "Business Formation & Compliance",
@@ -5220,7 +5220,8 @@
       "/legal-business/trust-and-will-vs-legalzoom/",
       "/legal-business/legalzoom-review/",
       "/legal-business/zenbusiness-review/",
-      "/legal-business/legalzoom-alternatives/"
+      "/legal-business/legalzoom-alternatives/",
+      "/legal-business/legalzoom-vs-rocket-lawyer/"
     ]
   },
   {
@@ -6127,7 +6128,7 @@
     "intent_rationale": "Ubersuggest marks legalzoom alternatives as commercial.",
     "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
     "url_slug": "/legal-business/legalzoom-alternatives/",
-    "internal_link_targets_launch_set": "/legal-business/best-llc-formation-services/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/best-registered-agent-services/; /legal-business/trust-and-will-vs-legalzoom/",
+    "internal_link_targets_launch_set": "/legal-business/best-llc-formation-services/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/best-registered-agent-services/; /legal-business/trust-and-will-vs-legalzoom/; /legal-business/legalzoom-vs-rocket-lawyer/",
     "seo_title": "8 Best LegalZoom Alternatives by Legal Task in 2026",
     "meta_description": "Compare eight LegalZoom alternatives for LLC formation, registered agents, wills, attorney access, compliance, and free legal aid, with prices checked November 2026.",
     "launch_silo": "Business Formation & Compliance",
@@ -6140,7 +6141,51 @@
       "/legal-business/legalzoom-review/",
       "/legal-business/zenbusiness-vs-legalzoom/",
       "/legal-business/best-registered-agent-services/",
-      "/legal-business/trust-and-will-vs-legalzoom/"
+      "/legal-business/trust-and-will-vs-legalzoom/",
+      "/legal-business/legalzoom-vs-rocket-lawyer/"
+    ]
+  },
+  {
+    "_source_row": null,
+    "type": "Blog",
+    "working_title": "\"LegalZoom vs Rocket Lawyer: Which Service Fits Your Legal Needs?\"",
+    "primary_keyword": "legalzoom vs rocket lawyer",
+    "secondary_keywords": "legalzoom vs rocket lawyer for wills; legalshield vs legalzoom vs rocket lawyer; legalzoom review",
+    "cluster": "Legal Business",
+    "intent": "Commercial",
+    "priority": "P2",
+    "geo_aeo": "Medium",
+    "linkable": "Medium",
+    "status": "Ready",
+    "ahrefs_volume": null,
+    "ahrefs_kd": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "ai_overview": "",
+    "research_status": "Owner-approved addition (2026-11-20). Ubersuggest 2026-11-20: 260 U.S. monthly volume, SEO difficulty 31.",
+    "data_source_plan": "Owner-supplied draft for legalzoom vs rocket lawyer; every cited source checked on 2026-11-20.",
+    "medium_variation": "",
+    "medium_angle": "",
+    "telegraph_variation": "",
+    "telegraph_angle": "",
+    "search_intent_value": "Owner-approved addition",
+    "intent_type": "Commercial",
+    "intent_rationale": "Ubersuggest marks legalzoom vs rocket lawyer as commercial.",
+    "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
+    "url_slug": "/legal-business/legalzoom-vs-rocket-lawyer/",
+    "internal_link_targets_launch_set": "/legal-business/best-llc-formation-services/; /legal-business/legalzoom-review/; /legal-business/legalzoom-alternatives/; /legal-business/best-registered-agent-services/",
+    "seo_title": "\"LegalZoom vs Rocket Lawyer: Prices and Fit in 2026\"",
+    "meta_description": "Compare LegalZoom vs Rocket Lawyer on LLC formation, wills, attorney plans, registered agents, and memberships, with prices checked on official pages in November 2026.",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "research_brief": null,
+    "deep_research_stage": null,
+    "content_number": "103",
+    "internal_link_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/legalzoom-review/",
+      "/legal-business/legalzoom-alternatives/",
+      "/legal-business/best-registered-agent-services/"
     ]
   }
 ]

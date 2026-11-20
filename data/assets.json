@@ -4618,5 +4618,65 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help, captured 2026-11-20",
     "alt_guidance": "Legal Services Corporation page titled I Need Legal Help with a search tool for local legal aid"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/featured-split-legal-services-desk-1600.jpg",
+    "title": "",
+    "use": "Blog 103 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Split scene with a signed document, law books, and a courthouse on one side and a checklist and online attorney chat on the other, joined by a scale of justice"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/featured-split-legal-services-desk-800.jpg",
+    "title": "",
+    "use": "Blog 103 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Split scene with a signed document, law books, and a courthouse on one side and a checklist and online attorney chat on the other, joined by a scale of justice"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/legalzoom-attorney-plan-screenshot-1600.jpg",
+    "title": "LegalZoom business attorney plan page",
+    "use": "Blog 103 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.legalzoom.com/attorneys/, captured 2026-11-20",
+    "alt_guidance": "LegalZoom business attorney plan page headed Affordable attorney help, whenever life or business calls"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/legalzoom-attorney-plan-screenshot-800.jpg",
+    "title": "LegalZoom business attorney plan page",
+    "use": "Blog 103 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.legalzoom.com/attorneys/, captured 2026-11-20",
+    "alt_guidance": "LegalZoom business attorney plan page headed Affordable attorney help, whenever life or business calls"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/legalzoom-estate-plans-screenshot-1600.jpg",
+    "title": "LegalZoom estate plan comparison page",
+    "use": "Blog 103 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.legalzoom.com/personal/estate-planning/compare.html, captured 2026-11-20",
+    "alt_guidance": "LegalZoom estate plan comparison page showing Pro Will, Premium Will, Basic Trust, and Premium Trust packages"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/legalzoom-estate-plans-screenshot-800.jpg",
+    "title": "LegalZoom estate plan comparison page",
+    "use": "Blog 103 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.legalzoom.com/personal/estate-planning/compare.html, captured 2026-11-20",
+    "alt_guidance": "LegalZoom estate plan comparison page showing Pro Will, Premium Will, Basic Trust, and Premium Trust packages"
   }
 ]
