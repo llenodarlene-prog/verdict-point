@@ -11,7 +11,7 @@ primary_keyword: docusign alternatives
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Supporting
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-legal-document-automation-software/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-legal-document-automation-software/; /legal-tech/docusign-vs-adobe-sign/
 research_record: content/research/blog-100.json
 image: /assets/images/posts/docusign-alternatives/featured-laptop-signature-icons-1600.jpg
 image_alt: Laptop showing a signed agreement with a gold approval seal, surrounded by icons for scales, people, buildings, a handshake, a lock, and documents
@@ -67,7 +67,7 @@ Adobe sells e-signatures inside its Acrobat team plans. Acrobat Standard for tea
 
 Pro adds bulk e-signature requests, password and security certification, and integrations with Microsoft and Box. Adobe also states that the Standard and Pro e-signatures do not offer the same level of compliance as Acrobat Sign Solutions, its enterprise product sold through sales.
 
-**Best fit:** Firms that already edit, redact, and assemble PDFs in Acrobat and want signing in the same tool.
+**Best fit:** PDF-heavy firms. Our [DocuSign vs Adobe Sign](/legal-tech/docusign-vs-adobe-sign/) comparison goes deeper.
 
 **Questions to ask:** Which signer authentication options are in your plan? Does the work need Acrobat Sign Solutions instead? What happens if you cancel mid-term? Adobe's monthly-billed plans charge half of the remaining annual commitment after 14 days.
 

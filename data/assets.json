@@ -4398,5 +4398,65 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onespan.com/products/esignature, captured 2026-11-20",
     "alt_guidance": "OneSpan Sign product page headed The safest way to complete agreements. Fast., describing an eSignature platform built for customer agreements"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/featured-two-laptops-signed-documents-1600.jpg",
+    "title": "",
+    "use": "Blog 101 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Two laptops with signed documents and approval ribbons on either side of a scales-of-justice icon, with a checklist and a gavel in front"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/featured-two-laptops-signed-documents-800.jpg",
+    "title": "",
+    "use": "Blog 101 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Two laptops with signed documents and approval ribbons on either side of a scales-of-justice icon, with a checklist and a gavel in front"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/docusign-esignature-screenshot-1600.jpg",
+    "title": "DocuSign eSignature page",
+    "use": "Blog 101 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.docusign.com/products/electronic-signature, captured 2026-11-20",
+    "alt_guidance": "DocuSign eSignature page headed Keep your business moving forward faster with the smarter AI-assisted eSignature"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/docusign-esignature-screenshot-800.jpg",
+    "title": "DocuSign eSignature page",
+    "use": "Blog 101 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.docusign.com/products/electronic-signature, captured 2026-11-20",
+    "alt_guidance": "DocuSign eSignature page headed Keep your business moving forward faster with the smarter AI-assisted eSignature"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/adobe-acrobat-sign-screenshot-1600.jpg",
+    "title": "Adobe Acrobat business pricing page",
+    "use": "Blog 101 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.adobe.com/acrobat/business/pricing-plans.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Adobe Acrobat business pricing page comparing Acrobat team plans with per-license monthly prices"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/adobe-acrobat-sign-screenshot-800.jpg",
+    "title": "Adobe Acrobat business pricing page",
+    "use": "Blog 101 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.adobe.com/acrobat/business/pricing-plans.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Adobe Acrobat business pricing page comparing Acrobat team plans with per-license monthly prices"
   }
 ]
