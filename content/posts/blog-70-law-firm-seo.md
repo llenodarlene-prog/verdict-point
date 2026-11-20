@@ -11,13 +11,13 @@ primary_keyword: law firm seo
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo-practice-area-pages/; /legal-marketing/law-firm-seo-metrics/
+approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo-practice-area-pages/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/law-firm-seo-companies/
 research_record: content/research/blog-70.json
 image: /assets/images/posts/law-firm-seo/marketing-strategy-review-law-office-1600.jpg
 image_alt: Lawyer presenting a search and location strategy board to a colleague in a law office
 author: Darlene Aberin
 published: 2026-10-31
-modified: 2026-10-31
+modified: 2026-11-20
 ---
 
 # Law Firm SEO: A Practical 90-Day Plan for Small Firms
@@ -334,7 +334,7 @@ claiming guaranteed rankings or case outcomes;
 
 using statistics without the study date or source.
 
-Google advises that a small local business can complete much SEO work internally. Hire outside help when the site, competition, or available time requires it. Ask any provider how work will be measured and whether it follows Google Search Essentials.
+Google advises that a small local business can complete much SEO work internally. Hire outside help when the site, competition, or available time requires it, and compare [law firm SEO companies](/legal-marketing/law-firm-seo-companies/) on contract terms first. Ask any provider how work will be measured and whether it follows Google Search Essentials.
 
 ## Frequently Asked Questions
 

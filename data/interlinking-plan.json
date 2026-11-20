@@ -25,7 +25,8 @@
       "/law-firms/law-firm-speed-to-lead/",
       "/legal-marketing/law-firm-reviews-process/",
       "/legal-marketing/law-firm-online-reviews-response/",
-      "/legal-marketing/law-firm-seo/"
+      "/legal-marketing/law-firm-seo/",
+      "/legal-marketing/law-firm-seo-companies/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2051,7 +2052,8 @@
     "approved_outbound_targets": [
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-marketing/law-firm-seo-practice-area-pages/",
-      "/legal-marketing/law-firm-seo-metrics/"
+      "/legal-marketing/law-firm-seo-metrics/",
+      "/legal-marketing/law-firm-seo-companies/"
     ],
     "natural_anchor_concepts": [
       {
@@ -3292,5 +3294,45 @@
     "placement_guidance": "Owner-approved additions (2026-11-20): links as placed in the edited draft.",
     "qa_status": "Added by owner approval 2026-11-20",
     "content_number": "105"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"10 Best Law Firm SEO Companies: An Evidence-Based Buyer Guide\"",
+    "url_slug": "/legal-marketing/law-firm-seo-companies/",
+    "cluster": "Legal Marketing",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 96,
+    "primary_silo_hub": "/legal-marketing/law-firm-marketing-statistics/",
+    "approved_outbound_targets": [
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-seo/",
+      "/legal-marketing/law-firm-seo-metrics/",
+      "/legal-marketing/law-firm-seo-statistics/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-marketing/law-firm-marketing-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-seo/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-seo-metrics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-marketing/law-firm-seo-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-20): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-20",
+    "content_number": "106"
   }
 ]

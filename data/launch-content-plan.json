@@ -27,7 +27,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Law Firm Marketing Statistics for Budget Planning\". Reader needs a defined dataset or measurement method. A prior or newly returned volume estimate exists; it does not establish rankability.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/legal-marketing/law-firm-marketing-statistics/",
-    "internal_link_targets_launch_set": "/legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-social-media-statistics/; /law-firms/law-firm-client-acquisition-statistics/",
+    "internal_link_targets_launch_set": "/legal-marketing/law-firm-website-statistics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-social-media-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-marketing/law-firm-seo-companies/",
     "seo_title": "Law Firm Marketing Statistics for 2026–2027",
     "meta_description": "Use current law firm marketing statistics to plan 2027 budgets, compare paid search costs, review intake gaps, and track signed work.",
     "launch_silo": "Legal Marketing Measurement",
@@ -39,7 +39,8 @@
       "/legal-marketing/law-firm-website-statistics/",
       "/legal-marketing/law-firm-seo-statistics/",
       "/legal-marketing/law-firm-social-media-statistics/",
-      "/law-firms/law-firm-client-acquisition-statistics/"
+      "/law-firms/law-firm-client-acquisition-statistics/",
+      "/legal-marketing/law-firm-seo-companies/"
     ]
   },
   {
@@ -2131,7 +2132,7 @@
     "intent_rationale": "Informational query; Ubersuggest marks law firm seo as informational.",
     "no_data_publish_decision": "Publish: owner approved 2026-10-26.",
     "url_slug": "/legal-marketing/law-firm-seo/",
-    "internal_link_targets_launch_set": "/legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo-practice-area-pages/; /legal-marketing/law-firm-seo-metrics/",
+    "internal_link_targets_launch_set": "/legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo-practice-area-pages/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/law-firm-seo-companies/",
     "seo_title": "Law Firm SEO: A 90-Day Plan for Small Firms",
     "meta_description": "A law firm SEO plan for small firms: 90 days of baseline checks, page architecture, evidence-based content, local trust signals, and inquiry tracking.",
     "launch_silo": "Legal Marketing Measurement",
@@ -2142,7 +2143,8 @@
     "internal_link_targets": [
       "/legal-marketing/law-firm-marketing-statistics/",
       "/legal-marketing/law-firm-seo-practice-area-pages/",
-      "/legal-marketing/law-firm-seo-metrics/"
+      "/legal-marketing/law-firm-seo-metrics/",
+      "/legal-marketing/law-firm-seo-companies/"
     ]
   },
   {
@@ -3617,6 +3619,49 @@
       "/legal-tech/legal-practice-management-software/",
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/mycase-legal-software/"
+    ]
+  },
+  {
+    "_source_row": null,
+    "type": "Blog",
+    "working_title": "\"10 Best Law Firm SEO Companies: An Evidence-Based Buyer Guide\"",
+    "primary_keyword": "law firm seo companies",
+    "secondary_keywords": "best law firm seo companies; top law firm seo companies; law firm marketing companies",
+    "cluster": "Legal Marketing",
+    "intent": "Navigational",
+    "priority": "P2",
+    "geo_aeo": "Medium",
+    "linkable": "Medium",
+    "status": "Ready",
+    "ahrefs_volume": null,
+    "ahrefs_kd": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "ai_overview": "",
+    "research_status": "Owner-approved addition (2026-11-20). Ubersuggest 2026-11-20: 880 U.S. monthly volume, SEO difficulty 24.",
+    "data_source_plan": "Owner-supplied draft for law firm seo companies; every cited source checked on 2026-11-20.",
+    "medium_variation": "",
+    "medium_angle": "",
+    "telegraph_variation": "",
+    "telegraph_angle": "",
+    "search_intent_value": "Owner-approved addition",
+    "intent_type": "Navigational",
+    "intent_rationale": "Ubersuggest marks law firm seo companies as navigational.",
+    "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
+    "url_slug": "/legal-marketing/law-firm-seo-companies/",
+    "internal_link_targets_launch_set": "/legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/law-firm-seo-statistics/",
+    "seo_title": "\"10 Best Law Firm SEO Companies Compared for 2026\"",
+    "meta_description": "Compare ten law firm SEO companies by services, practice focus, published pricing, and contract terms, using each agency's own site checked in November 2026.",
+    "launch_silo": "Legal Marketing Measurement",
+    "silo_role": "Supporting",
+    "research_brief": null,
+    "deep_research_stage": null,
+    "content_number": "106",
+    "internal_link_targets": [
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-seo/",
+      "/legal-marketing/law-firm-seo-metrics/",
+      "/legal-marketing/law-firm-seo-statistics/"
     ]
   }
 ]
