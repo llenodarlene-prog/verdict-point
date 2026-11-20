@@ -147,7 +147,8 @@
       "/legal-tech/best-legal-crm-software/",
       "/legal-tech/best-ediscovery-software/",
       "/legal-tech/relativity-ediscovery-hosting/",
-      "/legal-tech/lexisnexis-legal-ai-source-checking/"
+      "/legal-tech/lexisnexis-legal-ai-source-checking/",
+      "/legal-tech/docusign-alternatives/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2296,7 +2297,8 @@
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/best-law-firm-document-management-software/",
       "/legal-tech/best-legal-contract-management-software/",
-      "/legal-tech/best-legal-crm-software/"
+      "/legal-tech/best-legal-crm-software/",
+      "/legal-tech/docusign-alternatives/"
     ],
     "natural_anchor_concepts": [
       {
@@ -3050,5 +3052,35 @@
     "placement_guidance": "Owner-approved statistics batch (2026-11-10): links as placed in the edited draft.",
     "qa_status": "Added by owner approval 2026-11-10",
     "content_number": "98"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "9 Best DocuSign Alternatives for Legal and Business Teams",
+    "url_slug": "/legal-tech/docusign-alternatives/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 90,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-document-automation-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-20): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-20",
+    "content_number": "100"
   }
 ]

@@ -113,7 +113,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Legal Technology Statistics\". Reader needs a defined dataset or measurement method. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/legal-tech/legal-technology-statistics/",
-    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/",
+    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/docusign-alternatives/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Legal Technology Adoption",
@@ -137,7 +137,8 @@
       "/legal-tech/best-legal-crm-software/",
       "/legal-tech/best-ediscovery-software/",
       "/legal-tech/relativity-ediscovery-hosting/",
-      "/legal-tech/lexisnexis-legal-ai-source-checking/"
+      "/legal-tech/lexisnexis-legal-ai-source-checking/",
+      "/legal-tech/docusign-alternatives/"
     ]
   },
   {
@@ -5115,7 +5116,7 @@
     "intent_rationale": "Ubersuggest marks legal document automation software as commercial.",
     "no_data_publish_decision": "Publish: owner approved 2026-11-04.",
     "url_slug": "/legal-tech/best-legal-document-automation-software/",
-    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/",
+    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/docusign-alternatives/",
     "seo_title": "9 Best Legal Document Automation Software Tools for 2026",
     "meta_description": "Compare nine legal document automation software tools by templates, interviews, conditional logic, Word support, integrations, pricing, and setup effort.",
     "launch_silo": "Legal Technology Adoption",
@@ -5127,7 +5128,8 @@
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/best-law-firm-document-management-software/",
       "/legal-tech/best-legal-contract-management-software/",
-      "/legal-tech/best-legal-crm-software/"
+      "/legal-tech/best-legal-crm-software/",
+      "/legal-tech/docusign-alternatives/"
     ]
   },
   {
@@ -6009,6 +6011,47 @@
       "/legal/legal-industry-statistics-firm-size/",
       "/legal/us-bankruptcy-statistics/",
       "/legal/nursing-home-abuse-statistics/"
+    ]
+  },
+  {
+    "_source_row": null,
+    "type": "Blog",
+    "working_title": "9 Best DocuSign Alternatives for Legal and Business Teams",
+    "primary_keyword": "docusign alternatives",
+    "secondary_keywords": "free docusign alternatives; best docusign alternatives; cheaper docusign alternative",
+    "cluster": "Legal Tech",
+    "intent": "Commercial",
+    "priority": "P2",
+    "geo_aeo": "Medium",
+    "linkable": "Medium",
+    "status": "Ready",
+    "ahrefs_volume": null,
+    "ahrefs_kd": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "ai_overview": "",
+    "research_status": "Owner-approved addition (2026-11-20). Ubersuggest 2026-11-20: 1600 U.S. monthly volume, SEO difficulty 33.",
+    "data_source_plan": "Owner-supplied draft for docusign alternatives; every cited source checked on 2026-11-20.",
+    "medium_variation": "",
+    "medium_angle": "",
+    "telegraph_variation": "",
+    "telegraph_angle": "",
+    "search_intent_value": "Owner-approved addition",
+    "intent_type": "Commercial",
+    "intent_rationale": "Ubersuggest marks docusign alternatives as commercial.",
+    "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
+    "url_slug": "/legal-tech/docusign-alternatives/",
+    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/best-legal-document-automation-software/",
+    "seo_title": "9 Best DocuSign Alternatives for Legal Teams in 2026",
+    "meta_description": "Compare nine DocuSign alternatives by published price, envelope limits, audit trail, signer verification, and the legal or business workflow each one fits.",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "research_brief": null,
+    "deep_research_stage": null,
+    "content_number": "100",
+    "internal_link_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/"
     ]
   }
 ]

@@ -4198,5 +4198,205 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.everlaw.com/pricing-b/, captured 2026-11-14",
     "alt_guidance": "Everlaw pricing page headed Clear Pricing, Without Surprises, saying pricing is based on data managed and usage without limits on users or uploads"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/featured-laptop-signature-icons-1600.jpg",
+    "title": "",
+    "use": "Blog 100 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop showing a signed agreement with a gold approval seal, surrounded by icons for scales, people, buildings, a handshake, a lock, and documents"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/featured-laptop-signature-icons-800.jpg",
+    "title": "",
+    "use": "Blog 100 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop showing a signed agreement with a gold approval seal, surrounded by icons for scales, people, buildings, a handshake, a lock, and documents"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/adobe-acrobat-sign-screenshot-1600.jpg",
+    "title": "Adobe Acrobat business pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.adobe.com/acrobat/business/pricing-plans.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Adobe Acrobat business pricing page comparing Acrobat team plans with per-license monthly prices"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/adobe-acrobat-sign-screenshot-800.jpg",
+    "title": "Adobe Acrobat business pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.adobe.com/acrobat/business/pricing-plans.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Adobe Acrobat business pricing page comparing Acrobat team plans with per-license monthly prices"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/dropbox-sign-screenshot-1600.jpg",
+    "title": "Dropbox Sign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sign.dropbox.com/products/dropbox-sign/pricing, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Dropbox Sign pricing page with Essentials, Standard, and Premium plan cards"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/dropbox-sign-screenshot-800.jpg",
+    "title": "Dropbox Sign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sign.dropbox.com/products/dropbox-sign/pricing, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Dropbox Sign pricing page with Essentials, Standard, and Premium plan cards"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/pandadoc-screenshot-1600.jpg",
+    "title": "PandaDoc pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.pandadoc.com/pricing/, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "PandaDoc pricing page showing Free, Starter, Business, and Enterprise plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/pandadoc-screenshot-800.jpg",
+    "title": "PandaDoc pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.pandadoc.com/pricing/, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "PandaDoc pricing page showing Free, Starter, Business, and Enterprise plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/signnow-screenshot-1600.jpg",
+    "title": "signNow pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.signnow.com/pricing, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "signNow pricing page headed Free unlimited users with plans that scale, showing four plan cards"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/signnow-screenshot-800.jpg",
+    "title": "signNow pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.signnow.com/pricing, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "signNow pricing page headed Free unlimited users with plans that scale, showing four plan cards"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/boldsign-screenshot-1600.jpg",
+    "title": "BoldSign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://boldsign.com/pricing/, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "BoldSign pricing page with plan cards from Essential to Enterprise API"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/boldsign-screenshot-800.jpg",
+    "title": "BoldSign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://boldsign.com/pricing/, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "BoldSign pricing page with plan cards from Essential to Enterprise API"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/signeasy-screenshot-1600.jpg",
+    "title": "Signeasy pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://signeasy.com/pricing, captured 2026-11-20",
+    "alt_guidance": "Signeasy pricing page showing Personal, Business, Business Pro, and Custom plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/signeasy-screenshot-800.jpg",
+    "title": "Signeasy pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://signeasy.com/pricing, captured 2026-11-20",
+    "alt_guidance": "Signeasy pricing page showing Personal, Business, Business Pro, and Custom plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/zoho-sign-screenshot-1600.jpg",
+    "title": "Zoho Sign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.zoho.com/sign/pricing.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Zoho Sign pricing page headed Simple, straightforward pricing, with Free, Standard, Professional, Enterprise, and Custom plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/zoho-sign-screenshot-800.jpg",
+    "title": "Zoho Sign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.zoho.com/sign/pricing.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Zoho Sign pricing page headed Simple, straightforward pricing, with Free, Standard, Professional, Enterprise, and Custom plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/jotform-sign-screenshot-1600.jpg",
+    "title": "Jotform Sign product page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.jotform.com/products/sign/, captured 2026-11-20",
+    "alt_guidance": "Jotform Sign product page describing free electronic signature software"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/jotform-sign-screenshot-800.jpg",
+    "title": "Jotform Sign product page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.jotform.com/products/sign/, captured 2026-11-20",
+    "alt_guidance": "Jotform Sign product page describing free electronic signature software"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/onespan-sign-screenshot-1600.jpg",
+    "title": "OneSpan Sign product page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onespan.com/products/esignature, captured 2026-11-20",
+    "alt_guidance": "OneSpan Sign product page headed The safest way to complete agreements. Fast., describing an eSignature platform built for customer agreements"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/onespan-sign-screenshot-800.jpg",
+    "title": "OneSpan Sign product page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onespan.com/products/esignature, captured 2026-11-20",
+    "alt_guidance": "OneSpan Sign product page headed The safest way to complete agreements. Fast., describing an eSignature platform built for customer agreements"
   }
 ]
