@@ -2374,7 +2374,8 @@
       "/legal-business/zenbusiness-vs-legalzoom/",
       "/legal-business/trust-and-will-vs-legalzoom/",
       "/legal-business/legalzoom-review/",
-      "/legal-business/zenbusiness-review/"
+      "/legal-business/zenbusiness-review/",
+      "/legal-business/legalzoom-alternatives/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2642,7 +2643,8 @@
     "primary_silo_hub": "/legal-business/best-llc-formation-services/",
     "approved_outbound_targets": [
       "/legal-business/best-llc-formation-services/",
-      "/legal-business/zenbusiness-review/"
+      "/legal-business/zenbusiness-review/",
+      "/legal-business/legalzoom-alternatives/"
     ],
     "natural_anchor_concepts": [
       {
@@ -3114,5 +3116,50 @@
     "placement_guidance": "Owner-approved additions (2026-11-20): links as placed in the edited draft.",
     "qa_status": "Added by owner approval 2026-11-20",
     "content_number": "101"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "8 Best LegalZoom Alternatives by Legal Task and Service Type",
+    "url_slug": "/legal-business/legalzoom-alternatives/",
+    "cluster": "Legal Business",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 92,
+    "primary_silo_hub": "/legal-business/best-llc-formation-services/",
+    "approved_outbound_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/legalzoom-review/",
+      "/legal-business/zenbusiness-vs-legalzoom/",
+      "/legal-business/best-registered-agent-services/",
+      "/legal-business/trust-and-will-vs-legalzoom/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-business/best-llc-formation-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/legalzoom-review/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/zenbusiness-vs-legalzoom/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/best-registered-agent-services/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/trust-and-will-vs-legalzoom/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-20): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-20",
+    "content_number": "102"
   }
 ]

@@ -2542,7 +2542,7 @@
     "intent_rationale": "Ubersuggest marks llc formation services as commercial.",
     "no_data_publish_decision": "Publish: owner approved 2026-11-08.",
     "url_slug": "/legal-business/best-llc-formation-services/",
-    "internal_link_targets_launch_set": "/legal-business/best-registered-agent-services/; /legal-business/florida-llc-formation-services/; /legal-business/wyoming-llc-formation-services/; /legal-business/texas-llc-formation-services/; /legal-business/wyoming-registered-agent-services/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/trust-and-will-vs-legalzoom/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-review/",
+    "internal_link_targets_launch_set": "/legal-business/best-registered-agent-services/; /legal-business/florida-llc-formation-services/; /legal-business/wyoming-llc-formation-services/; /legal-business/texas-llc-formation-services/; /legal-business/wyoming-registered-agent-services/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/trust-and-will-vs-legalzoom/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-review/; /legal-business/legalzoom-alternatives/",
     "seo_title": "Best LLC Formation Services for 2026: 7 Compared",
     "meta_description": "Compare LLC formation services by state fees, package price, registered agent renewals, EIN costs, processing, subscriptions, and best fit.",
     "launch_silo": "Business Formation & Compliance",
@@ -2559,7 +2559,8 @@
       "/legal-business/zenbusiness-vs-legalzoom/",
       "/legal-business/trust-and-will-vs-legalzoom/",
       "/legal-business/legalzoom-review/",
-      "/legal-business/zenbusiness-review/"
+      "/legal-business/zenbusiness-review/",
+      "/legal-business/legalzoom-alternatives/"
     ]
   },
   {
@@ -2877,7 +2878,7 @@
     "intent_rationale": "Ubersuggest marks legalzoom review as commercial.",
     "no_data_publish_decision": "Publish: owner approved 2026-11-08.",
     "url_slug": "/legal-business/legalzoom-review/",
-    "internal_link_targets_launch_set": "/legal-business/best-llc-formation-services/; /legal-business/zenbusiness-review/",
+    "internal_link_targets_launch_set": "/legal-business/best-llc-formation-services/; /legal-business/zenbusiness-review/; /legal-business/legalzoom-alternatives/",
     "seo_title": "LegalZoom Review 2026: Prices, Renewals, Pros and Cons",
     "meta_description": "Our LegalZoom review checks LLC and estate plan prices, registered agent fees, renewals, attorney plans, limitations, and the best users.",
     "launch_silo": "Business Formation & Compliance",
@@ -2887,7 +2888,8 @@
     "content_number": "88",
     "internal_link_targets": [
       "/legal-business/best-llc-formation-services/",
-      "/legal-business/zenbusiness-review/"
+      "/legal-business/zenbusiness-review/",
+      "/legal-business/legalzoom-alternatives/"
     ]
   },
   {
@@ -3435,6 +3437,50 @@
     "internal_link_targets": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/docusign-alternatives/"
+    ]
+  },
+  {
+    "_source_row": null,
+    "type": "Blog",
+    "working_title": "8 Best LegalZoom Alternatives by Legal Task and Service Type",
+    "primary_keyword": "legalzoom alternatives",
+    "secondary_keywords": "legalzoom alternatives for llc formation; legalzoom alternatives for wills and trusts; zenbusiness vs legalzoom",
+    "cluster": "Legal Business",
+    "intent": "Commercial",
+    "priority": "P2",
+    "geo_aeo": "Medium",
+    "linkable": "Medium",
+    "status": "Ready",
+    "ahrefs_volume": null,
+    "ahrefs_kd": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "ai_overview": "",
+    "research_status": "Owner-approved addition (2026-11-20). Ubersuggest 2026-11-20: 210 U.S. monthly volume, SEO difficulty 18.",
+    "data_source_plan": "Owner-supplied draft for legalzoom alternatives; every cited source checked on 2026-11-20.",
+    "medium_variation": "",
+    "medium_angle": "",
+    "telegraph_variation": "",
+    "telegraph_angle": "",
+    "search_intent_value": "Owner-approved addition",
+    "intent_type": "Commercial",
+    "intent_rationale": "Ubersuggest marks legalzoom alternatives as commercial.",
+    "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
+    "url_slug": "/legal-business/legalzoom-alternatives/",
+    "internal_link_targets_launch_set": "/legal-business/best-llc-formation-services/; /legal-business/legalzoom-review/; /legal-business/zenbusiness-vs-legalzoom/; /legal-business/best-registered-agent-services/; /legal-business/trust-and-will-vs-legalzoom/",
+    "seo_title": "8 Best LegalZoom Alternatives by Legal Task in 2026",
+    "meta_description": "Compare eight LegalZoom alternatives for LLC formation, registered agents, wills, attorney access, compliance, and free legal aid, with prices checked November 2026.",
+    "launch_silo": "Business Formation & Compliance",
+    "silo_role": "Supporting",
+    "research_brief": null,
+    "deep_research_stage": null,
+    "content_number": "102",
+    "internal_link_targets": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/legalzoom-review/",
+      "/legal-business/zenbusiness-vs-legalzoom/",
+      "/legal-business/best-registered-agent-services/",
+      "/legal-business/trust-and-will-vs-legalzoom/"
     ]
   }
 ]

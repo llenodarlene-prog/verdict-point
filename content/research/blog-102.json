@@ -1,0 +1,514 @@
+{
+  "tracker_id": "Blog:102",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 8 Best LegalZoom Alternatives by Legal Task and Service Type. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legalzoom alternatives, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-20",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft had unverified descriptions. Nolo removed because nolo.com returned 403 and a bot check; replaced with LSC legal aid. Rocket Lawyer screenshot blocked by a bot check; owner screenshot requested. Northwest and Bizee renewal prices not visible, so not stated."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legalzoom alternatives",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legalzoom alternatives",
+        "type": "short-tail",
+        "volume": 210,
+        "difficulty": 18,
+        "cpc": 68.47,
+        "intent": "Commercial",
+        "ranking_url": "http://www.forbes.com/advisor/business/software/legalzoom-competitors/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom alternatives for llc formation",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.forbes.com/advisor/business/software/legalzoom-competitors/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom alternatives for wills and trusts",
+        "type": "commercial",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.forbes.com/advisor/business/software/legalzoom-competitors/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom alternatives for legal advice",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.forbes.com/advisor/business/software/legalzoom-competitors/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "zenbusiness vs legalzoom",
+        "type": "question",
+        "volume": 390,
+        "difficulty": 28,
+        "cpc": 36.85,
+        "intent": "Commercial",
+        "ranking_url": "http://www.forbes.com/advisor/business/software/legalzoom-competitors/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://bizee.com/",
+      "title": "Bizee",
+      "publisher": "bizee.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Bizee",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://trustandwill.com/pricing",
+      "title": "Trust & Will pricing",
+      "publisher": "trustandwill.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Trust & Will pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.harborcompliance.com/registered-agent-service",
+      "title": "Harbor Compliance registered agent service",
+      "publisher": "harborcompliance.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Harbor Compliance registered agent service",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "title": "IRS: Get an employer identification number",
+      "publisher": "irs.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "IRS: Get an employer identification number",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-formation/llc-pricing.html",
+      "title": "LegalZoom LLC pricing",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "LegalZoom LLC pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help",
+      "title": "Legal Services Corporation: I Need Legal Help",
+      "publisher": "lsc.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Legal Services Corporation: I Need Legal Help",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.northwestregisteredagent.com/llc",
+      "title": "Northwest Registered Agent LLC",
+      "publisher": "northwestregisteredagent.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Northwest Registered Agent LLC",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketlawyer.com/pricing",
+      "title": "Rocket Lawyer pricing",
+      "publisher": "rocketlawyer.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Rocket Lawyer pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "title": "ZenBusiness formation plans",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "ZenBusiness formation plans",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zenbusiness.com/pricing/",
+      "title": "ZenBusiness pricing",
+      "publisher": "zenbusiness.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "ZenBusiness pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Rocket Lawyer Standard, Plus, and Pro cost $149, $249, and $349 per year; Standard includes 12 Ask an Attorney questions, Plus 36 plus 12 live consultations, Pro unlimited; registered agent $125 per year on Plus and Pro.",
+      "source_url": "https://www.rocketlawyer.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ZenBusiness Starter $0, Pro $199, Premium $299 plus state fees; Starter standard processing 7 to 10 business days with $79 rush; registered agent $199 per year separately.",
+      "source_url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "The IRS EIN application is free online and the IRS warns that you never have to pay a fee for an EIN; one EIN per responsible party per day; session expires after 15 minutes of inactivity.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Top LegalZoom Competitors & Alternatives Of 2026",
+      "url": "http://www.forbes.com/advisor/business/software/legalzoom-competitors/",
+      "publisher": "forbes.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom Alternative",
+      "url": "http://www.harborcompliance.com/legalzoom-alternative",
+      "publisher": "harborcompliance.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Top 5 LegalZoom Alternatives & Competitors in 2026",
+      "url": "http://www.llcuniversity.com/legalzoom-alternatives/",
+      "publisher": "llcuniversity.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "7 LegalZoom Alternatives and Competitors in 2026",
+      "url": "http://venturesmarter.com/legalzoom-alternatives/",
+      "publisher": "venturesmarter.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom Alternatives (2026): 10 Better Options by Use ...",
+      "url": "http://ailawyer.pro/blog/legalzoom-alternatives",
+      "publisher": "ailawyer.pro",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Task-by-task matching of eight options with same-day verified prices, a three-year registered agent cost calculation, and two free official routes (IRS EIN and LSC-funded legal aid) that paid lists omit.",
+  "plan": {
+    "reader_title": "8 Best LegalZoom Alternatives by Legal Task and Service Type",
+    "seo_title": "8 Best LegalZoom Alternatives by Legal Task in 2026",
+    "meta_description": "Compare eight LegalZoom alternatives for LLC formation, registered agents, wills, attorney access, compliance, and free legal aid, with prices checked November 2026.",
+    "slug": "/legal-business/legalzoom-alternatives/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "legalzoom alternatives for llc formation",
+      "legalzoom alternatives for wills and trusts",
+      "zenbusiness vs legalzoom"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Chose These LegalZoom Alternatives",
+      "1. Rocket Lawyer: Best for Repeat Legal Questions",
+      "2. ZenBusiness: Best for Guided Formation",
+      "3. Northwest Registered Agent: Best for Privacy",
+      "4. Bizee: Best Budget Formation",
+      "5. Trust & Will: Best for Estate Plans",
+      "6. Harbor Compliance: Best for Multistate Compliance",
+      "7. IRS Online EIN: Best Free Tax ID Route",
+      "8. LSC-Funded Legal Aid: Best Free Help for Low-Income Households",
+      "Match the Task to the Right Service",
+      "Three-Year Cost Check for One LLC",
+      "Before You Pick One of These LegalZoom Alternatives",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://bizee.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://trustandwill.com/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.harborcompliance.com/registered-agent-service"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/legalzoom-review/",
+      "/legal-business/zenbusiness-vs-legalzoom/",
+      "/legal-business/best-registered-agent-services/",
+      "/legal-business/trust-and-will-vs-legalzoom/"
+    ],
+    "external_link_opportunities": [
+      "https://bizee.com/",
+      "https://trustandwill.com/pricing",
+      "https://www.harborcompliance.com/registered-agent-service",
+      "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "https://www.legalzoom.com/business/business-formation/llc-pricing.html",
+      "https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help",
+      "https://www.northwestregisteredagent.com/llc",
+      "https://www.rocketlawyer.com/pricing",
+      "https://www.zenbusiness.com/pricing-formation-plans/",
+      "https://www.zenbusiness.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Rocket Lawyer Standard, Plus, and Pro cost $149, $249, and $349 per year; Standard includes 12 Ask an Attorney questions, Plus 36 plus 12 live consultations, Pro unlimited; registered agent $125 per year on Plus and Pro.",
+      "source_url": "https://www.rocketlawyer.com/pricing",
+      "verified": true
+    },
+    {
+      "statement": "ZenBusiness Starter $0, Pro $199, Premium $299 plus state fees; Starter standard processing 7 to 10 business days with $79 rush; registered agent $199 per year separately.",
+      "source_url": "https://www.zenbusiness.com/pricing-formation-plans/",
+      "verified": true
+    },
+    {
+      "statement": "The IRS EIN application is free online and the IRS warns that you never have to pay a fee for an EIN; one EIN per responsible party per day; session expires after 15 minutes of inactivity.",
+      "source_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  }
+}
