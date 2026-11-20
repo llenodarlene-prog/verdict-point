@@ -113,7 +113,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Legal Technology Statistics\". Reader needs a defined dataset or measurement method. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/legal-tech/legal-technology-statistics/",
-    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/docusign-alternatives/; /legal-tech/docusign-vs-adobe-sign/",
+    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/docusign-alternatives/; /legal-tech/docusign-vs-adobe-sign/; /legal-tech/ai-tools-for-lawyers/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Legal Technology Adoption",
@@ -139,7 +139,8 @@
       "/legal-tech/relativity-ediscovery-hosting/",
       "/legal-tech/lexisnexis-legal-ai-source-checking/",
       "/legal-tech/docusign-alternatives/",
-      "/legal-tech/docusign-vs-adobe-sign/"
+      "/legal-tech/docusign-vs-adobe-sign/",
+      "/legal-tech/ai-tools-for-lawyers/"
     ]
   },
   {
@@ -2043,7 +2044,7 @@
     "intent_rationale": "Informational query; Ubersuggest marks free legal ai as informational.",
     "no_data_publish_decision": "Publish: owner approved 2026-10-26.",
     "url_slug": "/legal-tech/free-legal-ai/",
-    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-research-software/",
+    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-research-software/; /legal-tech/ai-tools-for-lawyers/",
     "seo_title": "Free Legal AI: 7 Tools, Their Limits, and Free-Plan Rules",
     "meta_description": "Free legal AI tools compared: seven ongoing free plans, what each does, usage limits, adoption and accuracy research, and a five-step verification method.",
     "launch_silo": "Legal AI",
@@ -2054,7 +2055,8 @@
     "internal_link_targets": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/ai-in-law-firms-statistics/",
-      "/legal-tech/legal-research-software/"
+      "/legal-tech/legal-research-software/",
+      "/legal-tech/ai-tools-for-lawyers/"
     ]
   },
   {
@@ -3526,6 +3528,50 @@
       "/legal-business/legalzoom-review/",
       "/legal-business/legalzoom-alternatives/",
       "/legal-business/best-registered-agent-services/"
+    ]
+  },
+  {
+    "_source_row": null,
+    "type": "Blog",
+    "working_title": "10 Best AI Tools for Lawyers by Task, Risk, and Firm Size",
+    "primary_keyword": "ai tools for lawyers",
+    "secondary_keywords": "best ai tools for lawyers; legal ai tools for lawyers; free ai tools for lawyers",
+    "cluster": "Legal Tech",
+    "intent": "Commercial",
+    "priority": "P2",
+    "geo_aeo": "Medium",
+    "linkable": "Medium",
+    "status": "Ready",
+    "ahrefs_volume": null,
+    "ahrefs_kd": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "ai_overview": "",
+    "research_status": "Owner-approved addition (2026-11-20). Ubersuggest 2026-11-20: 260 U.S. monthly volume, SEO difficulty 27.",
+    "data_source_plan": "Owner-supplied draft for ai tools for lawyers; every cited source checked on 2026-11-20.",
+    "medium_variation": "",
+    "medium_angle": "",
+    "telegraph_variation": "",
+    "telegraph_angle": "",
+    "search_intent_value": "Owner-approved addition",
+    "intent_type": "Commercial",
+    "intent_rationale": "Ubersuggest marks ai tools for lawyers as commercial.",
+    "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
+    "url_slug": "/legal-tech/ai-tools-for-lawyers/",
+    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/legal-research-software/; /legal-tech/best-ediscovery-software/; /legal-tech/free-legal-ai/; /legal-tech/harvey-legal-ai-pilot/",
+    "seo_title": "10 Best AI Tools for Lawyers by Task and Risk in 2026",
+    "meta_description": "Compare ten AI tools for lawyers across legal research, contract drafting, eDiscovery, and general productivity, with security claims and prices checked November 2026.",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "research_brief": null,
+    "deep_research_stage": null,
+    "content_number": "104",
+    "internal_link_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-research-software/",
+      "/legal-tech/best-ediscovery-software/",
+      "/legal-tech/free-legal-ai/",
+      "/legal-tech/harvey-legal-ai-pilot/"
     ]
   }
 ]

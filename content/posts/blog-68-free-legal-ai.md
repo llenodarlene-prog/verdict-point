@@ -11,13 +11,13 @@ primary_keyword: free legal ai
 cluster: Legal Tech
 launch_silo: Legal AI
 silo_role: Supporting
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-research-software/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/ai-in-law-firms-statistics/; /legal-tech/legal-research-software/; /legal-tech/ai-tools-for-lawyers/
 research_record: content/research/blog-68.json
 image: /assets/images/posts/free-legal-ai/reviewing-ai-flagged-document-laptop-1600.jpg
 image_alt: Legal professional pointing to flagged passages in a document on a laptop beside annotated printouts
 author: Darlene Aberin
 published: 2026-10-30
-modified: 2026-11-02
+modified: 2026-11-20
 ---
 
 # 7 Free Legal AI Tools: Uses, Limits, and Free-Plan Rules
@@ -42,7 +42,7 @@ The comparison uses three labels. We counted free legal AI only when the free ac
 - **Free Function:** A named task can be completed without payment, although other tasks cost money.
 - **Free Preview:** The user can generate or inspect an output, but a usable download or another step requires payment.
 
-This distinction matters because "try free" can mean a time-limited trial. Paxton, for example, advertises a seven-day trial and a paid professional plan. It does not qualify for the list below.
+This distinction matters because "try free" can mean a time-limited trial. Paxton, for example, advertises a seven-day trial and a paid professional plan. It does not qualify for the list below, though paid [AI tools for lawyers](/legal-tech/ai-tools-for-lawyers/) are compared separately.
 
 ## Seven Tools at a Glance
 

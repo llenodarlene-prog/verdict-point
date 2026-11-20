@@ -149,7 +149,8 @@
       "/legal-tech/relativity-ediscovery-hosting/",
       "/legal-tech/lexisnexis-legal-ai-source-checking/",
       "/legal-tech/docusign-alternatives/",
-      "/legal-tech/docusign-vs-adobe-sign/"
+      "/legal-tech/docusign-vs-adobe-sign/",
+      "/legal-tech/ai-tools-for-lawyers/"
     ],
     "natural_anchor_concepts": [
       {
@@ -1977,7 +1978,8 @@
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/ai-in-law-firms-statistics/",
-      "/legal-tech/legal-research-software/"
+      "/legal-tech/legal-research-software/",
+      "/legal-tech/ai-tools-for-lawyers/"
     ],
     "natural_anchor_concepts": [
       {
@@ -3203,5 +3205,50 @@
     "placement_guidance": "Owner-approved additions (2026-11-20): links as placed in the edited draft.",
     "qa_status": "Added by owner approval 2026-11-20",
     "content_number": "103"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "10 Best AI Tools for Lawyers by Task, Risk, and Firm Size",
+    "url_slug": "/legal-tech/ai-tools-for-lawyers/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 94,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-research-software/",
+      "/legal-tech/best-ediscovery-software/",
+      "/legal-tech/free-legal-ai/",
+      "/legal-tech/harvey-legal-ai-pilot/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/legal-research-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-ediscovery-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/free-legal-ai/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/harvey-legal-ai-pilot/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-20): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-20",
+    "content_number": "104"
   }
 ]
