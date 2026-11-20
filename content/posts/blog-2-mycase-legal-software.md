@@ -12,14 +12,14 @@ secondary_keywords: MyCase client portal; MyCase pricing
 cluster: Legal Tech
 launch_silo: Practice Management Software
 silo_role: Commercial Support
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-marketing/law-firm-website-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/clio-legal-software-total-cost/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-marketing/law-firm-website-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/clio-vs-mycase/
 research_record: content/research/blog-2.json
 source_document: https://docs.google.com/document/d/1FWacFcCqVAy_vQti4bOloW2nPUit5xAKlJfHkMInEW0/edit?usp=drivesdk
 image: /assets/images/posts/mycase-legal-software/attorney-client-document-review-1600.jpg
 image_alt: Attorney walking a client through a document at a marble conference table
 author: Darlene Aberin
 published: 2026-10-02
-modified: 2026-10-02
+modified: 2026-11-20
 ---
 
 # MyCase Legal Software and Client Communication
@@ -88,7 +88,7 @@ For a 10-user firm on Pro, annual billing works out to $12,000 a year, while mon
 > **Pricing Calculation**
 > 10 Pro users billed annually: 10 × $100 × 12 = $12,000. Billed monthly: 10 × $120 × 12 = $14,400. These are calculations on published rates, not a contract quote.
 
-Use the same method for competing systems. The breakdown of [Clio's full cost structure](/legal-tech/clio-legal-software-total-cost/) separates the subscription from payments, integrations, migration, and staff time. Applying those categories to both products gives a fairer comparison than setting their lowest advertised rates side by side.
+Use the same method for competing systems. The breakdown of [Clio's full cost structure](/legal-tech/clio-legal-software-total-cost/) separates the subscription from payments, integrations, migration, and staff time. Applying those categories to both products gives a fairer comparison than setting their lowest advertised rates side by side. Our [Clio vs MyCase](/legal-tech/clio-vs-mycase/) comparison maps where each feature first appears by tier.
 
 ## Match the Plan to the Communication Workflow
 

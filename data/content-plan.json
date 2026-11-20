@@ -113,7 +113,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Legal Technology Statistics\". Reader needs a defined dataset or measurement method. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/legal-tech/legal-technology-statistics/",
-    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/docusign-alternatives/; /legal-tech/docusign-vs-adobe-sign/; /legal-tech/ai-tools-for-lawyers/",
+    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/docusign-alternatives/; /legal-tech/docusign-vs-adobe-sign/; /legal-tech/ai-tools-for-lawyers/; /legal-tech/clio-vs-mycase/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Legal Technology Adoption",
@@ -140,7 +140,8 @@
       "/legal-tech/lexisnexis-legal-ai-source-checking/",
       "/legal-tech/docusign-alternatives/",
       "/legal-tech/docusign-vs-adobe-sign/",
-      "/legal-tech/ai-tools-for-lawyers/"
+      "/legal-tech/ai-tools-for-lawyers/",
+      "/legal-tech/clio-vs-mycase/"
     ]
   },
   {
@@ -2038,7 +2039,7 @@
     "intent_rationale": "Commercial Investigation is an editorial classification for \"MyCase Legal Software and Client Communication\". Reader is evaluating a product, provider or purchase requirement. A prior or newly returned volume estimate exists; it does not establish rankability.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/legal-tech/mycase-legal-software/",
-    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-marketing/law-firm-website-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/clio-legal-software-total-cost/",
+    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-marketing/law-firm-website-statistics/; /law-firms/law-firm-client-acquisition-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/clio-vs-mycase/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Practice Management Software",
@@ -2050,7 +2051,8 @@
       "/legal-tech/legal-technology-statistics/",
       "/legal-marketing/law-firm-website-statistics/",
       "/law-firms/law-firm-client-acquisition-statistics/",
-      "/legal-tech/clio-legal-software-total-cost/"
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/clio-vs-mycase/"
     ]
   },
   {
@@ -6232,6 +6234,49 @@
       "/legal-tech/best-ediscovery-software/",
       "/legal-tech/free-legal-ai/",
       "/legal-tech/harvey-legal-ai-pilot/"
+    ]
+  },
+  {
+    "_source_row": null,
+    "type": "Blog",
+    "working_title": "\"Clio vs MyCase: Which Practice Management Platform Fits Your Firm?\"",
+    "primary_keyword": "clio vs mycase",
+    "secondary_keywords": "clio vs mycase vs smokeball; practice panther vs clio vs mycase; clio vs mycase reddit",
+    "cluster": "Legal Tech",
+    "intent": "Commercial",
+    "priority": "P2",
+    "geo_aeo": "Medium",
+    "linkable": "Medium",
+    "status": "Ready",
+    "ahrefs_volume": null,
+    "ahrefs_kd": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "ai_overview": "",
+    "research_status": "Owner-approved addition (2026-11-20). Ubersuggest 2026-11-20: 390 U.S. monthly volume, SEO difficulty 30.",
+    "data_source_plan": "Owner-supplied draft for clio vs mycase; every cited source checked on 2026-11-20.",
+    "medium_variation": "",
+    "medium_angle": "",
+    "telegraph_variation": "",
+    "telegraph_angle": "",
+    "search_intent_value": "Owner-approved addition",
+    "intent_type": "Commercial",
+    "intent_rationale": "Ubersuggest marks clio vs mycase as commercial.",
+    "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
+    "url_slug": "/legal-tech/clio-vs-mycase/",
+    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/legal-practice-management-software/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/",
+    "seo_title": "\"Clio vs MyCase: Pricing, Plans, and AI Compared (2026)\"",
+    "meta_description": "Compare Clio vs MyCase on published pricing, plan tiers, billing, client portals, document automation, and AI features, using official pages checked in November 2026.",
+    "launch_silo": "Practice Management Software",
+    "silo_role": "Commercial Support",
+    "research_brief": null,
+    "deep_research_stage": null,
+    "content_number": "105",
+    "internal_link_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-practice-management-software/",
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/mycase-legal-software/"
     ]
   }
 ]

@@ -4898,5 +4898,65 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://chatgpt.com/business/, captured 2026-11-20",
     "alt_guidance": "ChatGPT Business page headed Teams accomplish more with ChatGPT"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/featured-practice-management-dashboard-1600.jpg",
+    "title": "",
+    "use": "Blog 105 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop showing a law practice dashboard linked to icons for clients, calendar, invoices, documents, and reports, beside a scale of justice and law books"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/featured-practice-management-dashboard-800.jpg",
+    "title": "",
+    "use": "Blog 105 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop showing a law practice dashboard linked to icons for clients, calendar, invoices, documents, and reports, beside a scale of justice and law books"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/clio-pricing-screenshot-1600.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 105 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter from $49 per user and Core, Signature, and Elite each showing Get pricing"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/clio-pricing-screenshot-800.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 105 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter from $49 per user and Core, Signature, and Elite each showing Get pricing"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/mycase-pricing-screenshot-1600.jpg",
+    "title": "MyCase pricing page",
+    "use": "Blog 105 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.mycase.com/pricing/, captured 2026-11-20",
+    "alt_guidance": "MyCase pricing page showing Basic at $50, Pro at $100, and Advanced at $130 per user per month billed annually"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/mycase-pricing-screenshot-800.jpg",
+    "title": "MyCase pricing page",
+    "use": "Blog 105 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.mycase.com/pricing/, captured 2026-11-20",
+    "alt_guidance": "MyCase pricing page showing Basic at $50, Pro at $100, and Advanced at $130 per user per month billed annually"
   }
 ]
