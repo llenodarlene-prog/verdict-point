@@ -11,13 +11,13 @@ primary_keyword: legal document automation software
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Supporting
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/docusign-alternatives/
 research_record: content/research/blog-76.json
 image: /assets/images/posts/best-legal-document-automation-software/featured-document-set-assembly-1600.jpg
 image_alt: Lawyer at a laptop completing an online questionnaire while lines connect it to a stack of generated legal documents
 author: Darlene Aberin
 published: 2026-11-08
-modified: 2026-11-05
+modified: 2026-11-20
 ---
 
 # 9 Best Legal Document Automation Software Tools
@@ -92,7 +92,7 @@ Woodpecker works inside Microsoft Word, so firms keep familiar files and convert
 
 **Best fit:** Smaller firms that want to automate existing Word documents without a platform change.
 
-**Test:** Generate a document with headers, footers, tables, numbering, cross-references, optional clauses, and signature blocks.
+**Test:** Generate a document with headers, footers, tables, numbering, cross-references, optional clauses, and signature blocks. If clients sign the result electronically, compare [DocuSign alternatives](/legal-tech/docusign-alternatives/) as a separate purchase.
 
 ## 4. Clio Draft: Best for Court Forms and Clio Integration
 

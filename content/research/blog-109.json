@@ -1,0 +1,578 @@
+{
+  "tracker_id": "Blog:109",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 15 Best Legal Podcasts for Lawyers and Law Firm Leaders. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal podcasts, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-21",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; The Daily Beans removed (self-described progressive news podcast, not legal practice); replaced with Bloomberg Law. Above the Law site did not list Thinking Like a Lawyer and lawfaremedia.org returned 403, so both verified via Apple Podcasts. Legal Toolkit and In Dispute labeled as archives. Featured image pending from owner, so post kept as draft."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal podcasts",
+    "intent": "Informational",
+    "serp_checked_at": "2026-11-17",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-21"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal podcasts",
+        "type": "short-tail",
+        "volume": 880,
+        "difficulty": 35,
+        "cpc": 7.08,
+        "intent": "Informational",
+        "ranking_url": "http://www.esquiresolutions.com/a-dozen-great-litigation-podcasts/",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best legal podcasts",
+        "type": "long-tail",
+        "volume": 320,
+        "difficulty": 26,
+        "cpc": 1.3,
+        "intent": "Informational",
+        "ranking_url": "http://www.esquiresolutions.com/a-dozen-great-litigation-podcasts/",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "top legal podcasts",
+        "type": "commercial",
+        "volume": 40,
+        "difficulty": 31,
+        "cpc": 0.64,
+        "intent": "Informational",
+        "ranking_url": "http://www.esquiresolutions.com/a-dozen-great-litigation-podcasts/",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best legal podcasts for lawyers",
+        "type": "problem",
+        "volume": 20,
+        "difficulty": 13,
+        "cpc": 1.22,
+        "intent": "Informational",
+        "ranking_url": "http://www.esquiresolutions.com/a-dozen-great-litigation-podcasts/",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal podcasts for law students",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 1.16,
+        "intent": "Informational",
+        "ranking_url": "http://www.esquiresolutions.com/a-dozen-great-litigation-podcasts/",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://crooked.com/podcast-series/strict-scrutiny/",
+      "title": "Strict Scrutiny page on Crooked Media",
+      "publisher": "crooked.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Strict Scrutiny page on Crooked Media",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/in-dispute/",
+      "title": "In Dispute page",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "In Dispute page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/kennedy-mighell-report/",
+      "title": "Kennedy-Mighell Report page",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Kennedy-Mighell Report page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/lawyer-2-lawyer/",
+      "title": "Lawyer 2 Lawyer page",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Lawyer 2 Lawyer page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/lawyerist-podcast/",
+      "title": "Lawyerist Podcast page on Legal Talk Network",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Lawyerist Podcast page on Legal Talk Network",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/legal-toolkit/",
+      "title": "Legal Toolkit page",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Legal Toolkit page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/litigation-radio/",
+      "title": "Litigation Radio page",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Litigation Radio page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/lunch-hour-legal-marketing/",
+      "title": "Lunch Hour Legal Marketing page",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Lunch Hour Legal Marketing page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/modern-law-library/",
+      "title": "Modern Law Library page",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Modern Law Library page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legaltalknetwork.com/podcasts/un-billable-hour/",
+      "title": "Un-Billable Hour page",
+      "publisher": "legaltalknetwork.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Un-Billable Hour page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://podcasts.apple.com/us/podcast/above-the-law-thinking-like-a-lawyer/id976331027",
+      "title": "Above the Law Thinking Like a Lawyer on Apple Podcasts",
+      "publisher": "podcasts.apple.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Above the Law Thinking Like a Lawyer on Apple Podcasts",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://podcasts.apple.com/us/podcast/bloomberg-law/id277975394",
+      "title": "Bloomberg Law podcast on Apple Podcasts",
+      "publisher": "podcasts.apple.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Bloomberg Law podcast on Apple Podcasts",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://podcasts.apple.com/us/podcast/the-lawfare-podcast/id498897343",
+      "title": "The Lawfare Podcast on Apple Podcasts",
+      "publisher": "podcasts.apple.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "The Lawfare Podcast on Apple Podcasts",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://slate.com/podcasts/amicus",
+      "title": "Slate Amicus podcast page",
+      "publisher": "slate.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Slate Amicus podcast page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://thelegalgeeks.com/the-legal-geek-podcasts/",
+      "title": "The Legal Geek Podcasts page",
+      "publisher": "thelegalgeeks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "The Legal Geek Podcasts page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Lawyerist Podcast is a show about lawyering and law practice hosted by Stephanie Everett and Zack Glaser; latest episode seen October 29, 2026.",
+      "source_url": "https://legaltalknetwork.com/podcasts/lawyerist-podcast/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Amicus is a legal podcast with Slate's Dahlia Lithwick about the Supreme Court; episode Move Fast and Fix Things dated November 21, 2026.",
+      "source_url": "https://slate.com/podcasts/amicus",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Strict Scrutiny is a podcast about the U.S. Supreme Court hosted by Leah Litman, Kate Shaw, and Melissa Murray; episode dated November 16, 2026.",
+      "source_url": "https://crooked.com/podcast-series/strict-scrutiny/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "A Dozen Great Litigation Podcasts",
+      "url": "http://www.esquiresolutions.com/a-dozen-great-litigation-podcasts/",
+      "publisher": "esquiresolutions.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Non-Traditional Law Study & News Resources: Podcasts",
+      "url": "http://nyulaw.libguides.com/nontraditionalresources/podcasts",
+      "publisher": "nyulaw.libguides.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Talk Network Podcasts",
+      "url": "http://legaltalknetwork.com/podcasts/",
+      "publisher": "legaltalknetwork.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Podcasts by Areas of Law - Legal Podcasts - LibGuides",
+      "url": "http://libguides.law.ucla.edu/c.php?g=1241833&p=9087957",
+      "publisher": "libguides.law.ucla.edu",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "The Best Legal Podcasts of 2026",
+      "url": "http://lowerstreet.co/blog/legal-podcasts",
+      "publisher": "lowerstreet.co",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Fifteen shows grouped by the job they do for a firm, each with host and latest-episode date checked the same day, and archive shows clearly labeled so readers know which are still publishing.",
+  "plan": {
+    "reader_title": "15 Best Legal Podcasts for Lawyers and Law Firm Leaders",
+    "seo_title": "15 Best Legal Podcasts for Lawyers and Firm Leaders",
+    "meta_description": "Fifteen legal podcasts for lawyers and firm leaders, grouped by practice management, legal tech, marketing, litigation, and news, with episodes checked November 2026.",
+    "slug": "/law-firms/legal-podcasts/",
+    "search_intent": "Informational",
+    "secondary_keywords": [
+      "best legal podcasts",
+      "best legal podcasts for lawyers",
+      "legal podcasts for law students"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Guide to the 15 Legal Podcasts",
+      "How We Chose These Legal Podcasts",
+      "Practice Management Podcasts",
+      "Legal Technology Podcasts",
+      "Marketing and Litigation Podcasts",
+      "Legal News and Analysis Podcasts",
+      "Legal History Podcasts",
+      "How to Fit Legal Podcasts Into a Busy Week",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://crooked.com/podcast-series/strict-scrutiny/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://legaltalknetwork.com/podcasts/in-dispute/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://legaltalknetwork.com/podcasts/kennedy-mighell-report/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/law-firms/law-firm-profitability-statistics/",
+      "/law-firms/law-firm-billing-statistics/",
+      "/legal-tech/ai-tools-for-lawyers/",
+      "/legal-marketing/law-firm-marketing-companies/"
+    ],
+    "external_link_opportunities": [
+      "https://crooked.com/podcast-series/strict-scrutiny/",
+      "https://legaltalknetwork.com/podcasts/in-dispute/",
+      "https://legaltalknetwork.com/podcasts/kennedy-mighell-report/",
+      "https://legaltalknetwork.com/podcasts/lawyer-2-lawyer/",
+      "https://legaltalknetwork.com/podcasts/lawyerist-podcast/",
+      "https://legaltalknetwork.com/podcasts/legal-toolkit/",
+      "https://legaltalknetwork.com/podcasts/litigation-radio/",
+      "https://legaltalknetwork.com/podcasts/lunch-hour-legal-marketing/",
+      "https://legaltalknetwork.com/podcasts/modern-law-library/",
+      "https://legaltalknetwork.com/podcasts/un-billable-hour/",
+      "https://podcasts.apple.com/us/podcast/above-the-law-thinking-like-a-lawyer/id976331027",
+      "https://podcasts.apple.com/us/podcast/bloomberg-law/id277975394",
+      "https://podcasts.apple.com/us/podcast/the-lawfare-podcast/id498897343",
+      "https://slate.com/podcasts/amicus",
+      "https://thelegalgeeks.com/the-legal-geek-podcasts/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Lawyerist Podcast is a show about lawyering and law practice hosted by Stephanie Everett and Zack Glaser; latest episode seen October 29, 2026.",
+      "source_url": "https://legaltalknetwork.com/podcasts/lawyerist-podcast/",
+      "verified": true
+    },
+    {
+      "statement": "Amicus is a legal podcast with Slate's Dahlia Lithwick about the Supreme Court; episode Move Fast and Fix Things dated November 21, 2026.",
+      "source_url": "https://slate.com/podcasts/amicus",
+      "verified": true
+    },
+    {
+      "statement": "Strict Scrutiny is a podcast about the U.S. Supreme Court hosted by Leah Litman, Kate Shaw, and Melissa Murray; episode dated November 16, 2026.",
+      "source_url": "https://crooked.com/podcast-series/strict-scrutiny/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21"
+  }
+}

@@ -1,0 +1,445 @@
+{
+  "tracker_id": "Blog:103",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"LegalZoom vs Rocket Lawyer: Which Service Fits Your Legal Needs?\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legalzoom vs rocket lawyer, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-20",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft had generic positioning; added verified package, membership, attorney-plan, and renewal figures. LegalZoom estate page showed a temporary holiday discount, so list prices are used. Rocket Lawyer screenshot blocked by a bot check; owner screenshot requested."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legalzoom vs rocket lawyer",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-11",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legalzoom vs rocket lawyer",
+        "type": "short-tail",
+        "volume": 260,
+        "difficulty": 31,
+        "cpc": 16.81,
+        "intent": "Commercial",
+        "ranking_url": "http://www.nerdwallet.com/business/legal/learn/rocket-lawyer-vs-legalzoom",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalshield vs legalzoom vs rocket lawyer",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 23,
+        "cpc": 205.43,
+        "intent": "Commercial",
+        "ranking_url": "http://www.nerdwallet.com/business/legal/learn/rocket-lawyer-vs-legalzoom",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom vs rocket lawyer for wills",
+        "type": "commercial",
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.nerdwallet.com/business/legal/learn/rocket-lawyer-vs-legalzoom",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom review",
+        "type": "problem",
+        "volume": 1300,
+        "difficulty": 34,
+        "cpc": 25.83,
+        "intent": "Commercial",
+        "ranking_url": "http://www.nerdwallet.com/business/legal/learn/rocket-lawyer-vs-legalzoom",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legalzoom alternatives",
+        "type": "question",
+        "volume": 210,
+        "difficulty": 18,
+        "cpc": 68.47,
+        "intent": "Commercial",
+        "ranking_url": "http://www.nerdwallet.com/business/legal/learn/rocket-lawyer-vs-legalzoom",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "title": "IRS: Get an employer identification number",
+      "publisher": "irs.gov",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "IRS: Get an employer identification number",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/attorneys/",
+      "title": "LegalZoom business attorney plan",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "LegalZoom business attorney plan",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-formation/llc-pricing.html",
+      "title": "LegalZoom LLC pricing",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "LegalZoom LLC pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html",
+      "title": "LegalZoom registered agent service",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "LegalZoom registered agent service",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "title": "LegalZoom estate plan comparison",
+      "publisher": "legalzoom.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "LegalZoom estate plan comparison",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketlawyer.com/legal-advice",
+      "title": "Rocket Lawyer legal advice",
+      "publisher": "rocketlawyer.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Rocket Lawyer legal advice",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.rocketlawyer.com/pricing",
+      "title": "Rocket Lawyer pricing",
+      "publisher": "rocketlawyer.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Rocket Lawyer pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Rocket Lawyer Standard, Plus, and Pro cost $149, $249, and $349 per year or $34.99, $49.99, and $64.99 per month, with a 7-day free trial; first business registration free then $99; registered agent $125 per year on Plus and Pro.",
+      "source_url": "https://www.rocketlawyer.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LegalZoom LLC Basic $0, Pro $249, Premium $299 plus state filing fees; Pro includes 30 days of attorney consultations that renew at $49 per month.",
+      "source_url": "https://www.legalzoom.com/business/business-formation/llc-pricing.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Rocket Lawyer vs. LegalZoom: Which Is Right for Your ...",
+      "url": "http://www.nerdwallet.com/business/legal/learn/rocket-lawyer-vs-legalzoom",
+      "publisher": "nerdwallet.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Rocket Lawyer vs. LegalZoom (2026 Comparison)",
+      "url": "http://www.forbes.com/advisor/business/rocketlawyer-vs-legalzoom/",
+      "publisher": "forbes.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LegalZoom, Rocket Lawyer Make Inroads",
+      "url": "http://clp.law.harvard.edu/article/legalzoom-rocket-lawyer-make-inroads/",
+      "publisher": "clp.law.harvard.edu",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Rocket Lawyer vs LegalZoom 2026 - Who's worth it?",
+      "url": "http://www.llcuniversity.com/rocket-lawyer-vs-legalzoom/",
+      "publisher": "llcuniversity.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Rocket Lawyer vs LegalZoom (2026 Test - Which is Better?)",
+      "url": "http://venturesmarter.com/rocket-lawyer-vs-legalzoom/",
+      "publisher": "venturesmarter.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Same-day verified prices from both vendors across formation, registered agent, wills, and attorney plans, plus four year-one cost scenarios showing when packages beat a membership.",
+  "plan": {
+    "reader_title": "\"LegalZoom vs Rocket Lawyer: Which Service Fits Your Legal Needs?\"",
+    "seo_title": "\"LegalZoom vs Rocket Lawyer: Prices and Fit in 2026\"",
+    "meta_description": "Compare LegalZoom vs Rocket Lawyer on LLC formation, wills, attorney plans, registered agents, and memberships, with prices checked on official pages in November 2026.",
+    "slug": "/legal-business/legalzoom-vs-rocket-lawyer/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "legalzoom vs rocket lawyer for wills",
+      "legalshield vs legalzoom vs rocket lawyer",
+      "legalzoom review"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Side-by-Side Comparison",
+      "How We Compared LegalZoom vs Rocket Lawyer",
+      "Pricing Models Explained",
+      "LLC Formation and Registered Agent",
+      "Wills and Estate Plans",
+      "Attorney Access",
+      "Year-One Cost Scenarios",
+      "Which Service Fits Your Needs?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.legalzoom.com/attorneys/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.legalzoom.com/business/business-formation/llc-pricing.html"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-business/best-llc-formation-services/",
+      "/legal-business/legalzoom-review/",
+      "/legal-business/legalzoom-alternatives/",
+      "/legal-business/best-registered-agent-services/"
+    ],
+    "external_link_opportunities": [
+      "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+      "https://www.legalzoom.com/attorneys/",
+      "https://www.legalzoom.com/business/business-formation/llc-pricing.html",
+      "https://www.legalzoom.com/business/business-operations/registered-agent-overview.html",
+      "https://www.legalzoom.com/personal/estate-planning/compare.html",
+      "https://www.rocketlawyer.com/legal-advice",
+      "https://www.rocketlawyer.com/pricing"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Rocket Lawyer Standard, Plus, and Pro cost $149, $249, and $349 per year or $34.99, $49.99, and $64.99 per month, with a 7-day free trial; first business registration free then $99; registered agent $125 per year on Plus and Pro.",
+      "source_url": "https://www.rocketlawyer.com/pricing",
+      "verified": true
+    },
+    {
+      "statement": "LegalZoom LLC Basic $0, Pro $249, Premium $299 plus state filing fees; Pro includes 30 days of attorney consultations that renew at $49 per month.",
+      "source_url": "https://www.legalzoom.com/business/business-formation/llc-pricing.html",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  }
+}

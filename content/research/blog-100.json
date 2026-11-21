@@ -1,0 +1,527 @@
+{
+  "tracker_id": "Blog:100",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 9 Best DocuSign Alternatives for Legal and Business Teams. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for docusign alternatives, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-20",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft had no verified prices; all prices added from official pages on 2026-11-20. Zoho Sign dollar amounts not captured and stated as such; OneSpan 'coming soon' identity features not claimed; signNow facts taken from the owner's official screenshot because the page blocks automated fetches."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "docusign alternatives",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-12",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "docusign alternatives",
+        "type": "short-tail",
+        "volume": 1600,
+        "difficulty": 33,
+        "cpc": 64.22,
+        "intent": "Commercial",
+        "ranking_url": "http://esignatures.com/docs/docusign_alternatives",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free docusign alternatives",
+        "type": "long-tail",
+        "volume": 1900,
+        "difficulty": 15,
+        "cpc": 16.11,
+        "intent": "Commercial",
+        "ranking_url": "http://esignatures.com/docs/docusign_alternatives",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best docusign alternatives",
+        "type": "commercial",
+        "volume": 90,
+        "difficulty": 30,
+        "cpc": 66.87,
+        "intent": "Commercial",
+        "ranking_url": "http://esignatures.com/docs/docusign_alternatives",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cheaper docusign alternative",
+        "type": "problem",
+        "volume": 70,
+        "difficulty": 37,
+        "cpc": 44.29,
+        "intent": "Commercial",
+        "ranking_url": "http://esignatures.com/docs/docusign_alternatives",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "is there a free docusign alternative",
+        "type": "question",
+        "volume": 50,
+        "difficulty": 25,
+        "cpc": 11.75,
+        "intent": "Commercial",
+        "ranking_url": "http://esignatures.com/docs/docusign_alternatives",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://boldsign.com/pricing/",
+      "title": "BoldSign pricing",
+      "publisher": "boldsign.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "BoldSign pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sign.dropbox.com/products/dropbox-sign/pricing",
+      "title": "Dropbox Sign pricing",
+      "publisher": "sign.dropbox.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Dropbox Sign pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://signeasy.com/pricing",
+      "title": "Signeasy pricing",
+      "publisher": "signeasy.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Signeasy pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.adobe.com/acrobat/business/pricing-plans.html",
+      "title": "Adobe Acrobat business pricing",
+      "publisher": "adobe.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Adobe Acrobat business pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.docusign.com/products/electronic-signature",
+      "title": "DocuSign eSignature plans",
+      "publisher": "docusign.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "DocuSign eSignature plans",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.jotform.com/pricing/",
+      "title": "Jotform pricing",
+      "publisher": "jotform.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Jotform pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.jotform.com/products/sign/",
+      "title": "Jotform Sign",
+      "publisher": "jotform.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Jotform Sign",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onespan.com/products/esignature",
+      "title": "OneSpan Sign",
+      "publisher": "onespan.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "OneSpan Sign",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.pandadoc.com/pricing/",
+      "title": "PandaDoc pricing",
+      "publisher": "pandadoc.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "PandaDoc pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.signnow.com/pricing",
+      "title": "signNow pricing",
+      "publisher": "signnow.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "signNow pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zoho.com/sign/pricing.html",
+      "title": "Zoho Sign pricing",
+      "publisher": "zoho.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Zoho Sign pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "DocuSign Standard costs $25 per user per month and Business Pro $40 per user per month, each with 100 envelopes per user per year; Personal is $10 per month with 5 envelopes a month.",
+      "source_url": "https://www.docusign.com/products/electronic-signature",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Dropbox Sign Essentials costs $15 per month or $180 billed yearly; Standard costs $25 per user per month monthly or $17.50 per user per month billed yearly, with unlimited signature requests.",
+      "source_url": "https://sign.dropbox.com/products/dropbox-sign/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "BoldSign Business costs $15 per user per month and Premium $99 per month, billed yearly; ID verification is $2 per verification; Enterprise API is $0.75 per envelope starting at $30 a month.",
+      "source_url": "https://boldsign.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "DocuSign Alternatives in 2026",
+      "url": "http://esignatures.com/docs/docusign_alternatives",
+      "publisher": "esignatures.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Looking for reliable DocuSign alternatives for my small business",
+      "url": "http://www.reddit.com/r/SaaS/comments/1psr56p/looking_for_reliable_docusign_alternatives_for_my/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "DocuSign Alternative in 2026: Save Up to 66%",
+      "url": "http://boldsign.com/docusign-alternative/",
+      "publisher": "boldsign.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "8 Best Alternatives to Docusign for E-Signatures (2026)",
+      "url": "http://www.lexagle.com/blog-en-sg/best-docusign-alternatives-for-electronic-signatures",
+      "publisher": "lexagle.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "11 Best DocuSign Alternatives for 2026 (Free and Paid)",
+      "url": "http://wpforms.com/best-docusign-alternatives/",
+      "publisher": "wpforms.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day check of nine vendors' published prices, sending limits, audit trails, and identity checks, plus a worked year-one cost for a five-person team on three plans.",
+  "plan": {
+    "reader_title": "9 Best DocuSign Alternatives for Legal and Business Teams",
+    "seo_title": "9 Best DocuSign Alternatives for Legal Teams in 2026",
+    "meta_description": "Compare nine DocuSign alternatives by published price, envelope limits, audit trail, signer verification, and the legal or business workflow each one fits.",
+    "slug": "/legal-tech/docusign-alternatives/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "free docusign alternatives",
+      "best docusign alternatives",
+      "cheaper docusign alternative"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Chose These DocuSign Alternatives",
+      "1. Adobe Acrobat: Best for PDF-Heavy Firms",
+      "2. Dropbox Sign: Best for Small Teams",
+      "3. PandaDoc: Best for Proposals and Quotes",
+      "4. signNow: Best Low-Cost Team Plans",
+      "5. BoldSign: Best for Developers and APIs",
+      "6. Signeasy: Best for Mobile Signing",
+      "7. Zoho Sign: Best for Zoho Customers",
+      "8. Jotform Sign: Best for Forms That End in a Signature",
+      "9. OneSpan Sign: Best for High-Control Enterprise Signing",
+      "What 300 Envelopes a Year Costs on Three Plans",
+      "Choose by Workflow, Not Feature Count",
+      "A Practical Switching Checklist",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://boldsign.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://sign.dropbox.com/products/dropbox-sign/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://signeasy.com/pricing"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/",
+      "/legal-tech/docusign-vs-adobe-sign/"
+    ],
+    "external_link_opportunities": [
+      "https://boldsign.com/pricing/",
+      "https://sign.dropbox.com/products/dropbox-sign/pricing",
+      "https://signeasy.com/pricing",
+      "https://www.adobe.com/acrobat/business/pricing-plans.html",
+      "https://www.docusign.com/products/electronic-signature",
+      "https://www.jotform.com/pricing/",
+      "https://www.jotform.com/products/sign/",
+      "https://www.onespan.com/products/esignature",
+      "https://www.pandadoc.com/pricing/",
+      "https://www.signnow.com/pricing",
+      "https://www.zoho.com/sign/pricing.html"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "DocuSign Standard costs $25 per user per month and Business Pro $40 per user per month, each with 100 envelopes per user per year; Personal is $10 per month with 5 envelopes a month.",
+      "source_url": "https://www.docusign.com/products/electronic-signature",
+      "verified": true
+    },
+    {
+      "statement": "Dropbox Sign Essentials costs $15 per month or $180 billed yearly; Standard costs $25 per user per month monthly or $17.50 per user per month billed yearly, with unlimited signature requests.",
+      "source_url": "https://sign.dropbox.com/products/dropbox-sign/pricing",
+      "verified": true
+    },
+    {
+      "statement": "BoldSign Business costs $15 per user per month and Premium $99 per month, billed yearly; ID verification is $2 per verification; Enterprise API is $0.75 per envelope starting at $30 a month.",
+      "source_url": "https://boldsign.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  }
+}
