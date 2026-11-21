@@ -11,7 +11,7 @@ primary_keyword: law firm seo companies
 cluster: Legal Marketing
 launch_silo: Legal Marketing Measurement
 silo_role: Supporting
-approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/law-firm-seo-statistics/
+approved_internal_links: /legal-marketing/law-firm-marketing-statistics/; /legal-marketing/law-firm-seo/; /legal-marketing/law-firm-seo-metrics/; /legal-marketing/law-firm-seo-statistics/; /legal-marketing/law-firm-marketing-companies/
 research_record: content/research/blog-106.json
 image: /assets/images/posts/law-firm-seo/marketing-strategy-review-law-office-1600.jpg
 image_alt: Lawyer presenting a search and location strategy board to a colleague in a law office
@@ -203,7 +203,7 @@ Some warning signs show up again and again. Watch for these before you sign.
 * **No exit plan:** If you cannot take your content and accounts with you, you are locked in.
 * **Unverified case studies:** Ask to speak with a current client in a similar market.
 
-If an agency cannot answer these points clearly, keep looking. A firm that prefers to run the plan in house can start with our [90-day law firm SEO plan](/legal-marketing/law-firm-seo/).
+If an agency cannot answer these points clearly, keep looking. Firms weighing directories or website platforms can compare [law firm marketing companies](/legal-marketing/law-firm-marketing-companies/) by service model. A firm that prefers to run the plan in house can start with our [90-day law firm SEO plan](/legal-marketing/law-firm-seo/).
 
 ## Frequently Asked Questions
 

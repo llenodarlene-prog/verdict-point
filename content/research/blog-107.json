@@ -1,0 +1,486 @@
+{
+  "tracker_id": "Blog:107",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 10 Best Law Firm Marketing Companies by Service Model. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm marketing companies, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-20",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Scorpion removed: its site showed a bot check and refused the page reader on 2026-11-20; replaced with Grow Law (verified pricing). FindLaw verified at findlaw.com/lawyer-marketing. LawLytics Pro and Elite marked coming soon. Featured image temporarily reuses an existing marketing-report image pending owner image."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm marketing companies",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-14",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm marketing companies",
+        "type": "short-tail",
+        "volume": 590,
+        "difficulty": 29,
+        "cpc": 103.56,
+        "intent": "Commercial",
+        "ranking_url": "http://attorneyatlawmagazine.com/best-vendors/marketing-companies",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best law firm marketing companies",
+        "type": "long-tail",
+        "volume": 210,
+        "difficulty": 40,
+        "cpc": 41.94,
+        "intent": "Commercial",
+        "ranking_url": "http://attorneyatlawmagazine.com/best-vendors/marketing-companies",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm marketing companies for personal injury",
+        "type": "commercial",
+        "volume": 90,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://attorneyatlawmagazine.com/best-vendors/marketing-companies",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "top law firm marketing companies",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://attorneyatlawmagazine.com/best-vendors/marketing-companies",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm seo companies",
+        "type": "question",
+        "volume": 880,
+        "difficulty": 24,
+        "cpc": 61.89,
+        "intent": "Commercial",
+        "ranking_url": "http://attorneyatlawmagazine.com/best-vendors/marketing-companies",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://blusharkdigital.com/",
+      "title": "BluShark Digital",
+      "publisher": "blusharkdigital.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "BluShark Digital",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://growlaw.co/",
+      "title": "Grow Law",
+      "publisher": "growlaw.co",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Grow Law",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://jurisdigital.com/",
+      "title": "Juris Digital",
+      "publisher": "jurisdigital.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Juris Digital",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://lawrank.com/",
+      "title": "LawRank",
+      "publisher": "lawrank.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "LawRank",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consultwebs.com/",
+      "title": "Consultwebs",
+      "publisher": "consultwebs.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Consultwebs",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.findlaw.com/lawyer-marketing/",
+      "title": "FindLaw lawyer marketing page",
+      "publisher": "findlaw.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "FindLaw lawyer marketing page",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ilawyermarketing.com/",
+      "title": "iLawyerMarketing",
+      "publisher": "ilawyermarketing.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "iLawyerMarketing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawlytics.com/pricing",
+      "title": "LawLytics pricing page",
+      "publisher": "lawlytics.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "LawLytics pricing page",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onthemap.com/pricing/",
+      "title": "On The Map Marketing pricing guide",
+      "publisher": "onthemap.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "On The Map Marketing pricing guide",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.postali.com/",
+      "title": "Postali",
+      "publisher": "postali.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Postali",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "LawLytics Starter costs $99 per month month to month for up to 10 pages and Growth $249 per month billed annually for up to 100 pages; 14-day free trial; import from $449.",
+      "source_url": "https://www.lawlytics.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Juris Digital asks firms to commit to a 12-month campaign and states a guaranteed positive return on investment.",
+      "source_url": "https://jurisdigital.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Best Legal Marketing Companies in 2026",
+      "url": "http://attorneyatlawmagazine.com/best-vendors/marketing-companies",
+      "publisher": "attorneyatlawmagazine.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-14)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Legal Marketing Agencies for Lawyers & Law Firms (2026)",
+      "url": "http://www.clio.com/blog/best-legal-marketing-companies/",
+      "publisher": "clio.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-14)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Law Firm SEO Services & Marketing Agencies",
+      "url": "http://lawyerist.com/reviews/seo-marketing/",
+      "publisher": "lawyerist.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-14)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "22 Best Law Firm Marketing & PR Agencies",
+      "url": "http://www.rebuttalpr.com/legalpragencies/",
+      "publisher": "rebuttalpr.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-14)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "The Top 10 Law Firm SEO Agencies in the United States",
+      "url": "http://crisp.co/the-top-10-law-firm-seo-agencies-in-the-united-states/",
+      "publisher": "crisp.co",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-14)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Groups ten providers by service model (directory, DIY platform, full-service, search-focused), with the only published prices in the set and an annual cost comparison across models.",
+  "plan": {
+    "reader_title": "10 Best Law Firm Marketing Companies by Service Model",
+    "seo_title": "10 Best Law Firm Marketing Companies by Service Model",
+    "meta_description": "Compare ten law firm marketing companies by service model, from full-service agencies to directories and DIY website platforms, with prices and terms checked November 2026.",
+    "slug": "/legal-marketing/law-firm-marketing-companies/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best law firm marketing companies",
+      "law firm marketing companies for personal injury",
+      "top law firm marketing companies"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Service Models at a Glance",
+      "How We Chose These Law Firm Marketing Companies",
+      "Directory and Platform Models",
+      "Full-Service Agency Models",
+      "Search-Focused Models",
+      "Budget Ranges by Model",
+      "How to Choose Among Law Firm Marketing Companies",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://blusharkdigital.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://growlaw.co/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://jurisdigital.com/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-seo-companies/",
+      "/legal-marketing/law-firm-website-statistics/",
+      "/law-firms/law-firm-intake-process/"
+    ],
+    "external_link_opportunities": [
+      "https://blusharkdigital.com/",
+      "https://growlaw.co/",
+      "https://jurisdigital.com/",
+      "https://lawrank.com/",
+      "https://www.consultwebs.com/",
+      "https://www.findlaw.com/lawyer-marketing/",
+      "https://www.ilawyermarketing.com/",
+      "https://www.lawlytics.com/pricing",
+      "https://www.onthemap.com/pricing/",
+      "https://www.postali.com/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "LawLytics Starter costs $99 per month month to month for up to 10 pages and Growth $249 per month billed annually for up to 100 pages; 14-day free trial; import from $449.",
+      "source_url": "https://www.lawlytics.com/pricing",
+      "verified": true
+    },
+    {
+      "statement": "Juris Digital asks firms to commit to a 12-month campaign and states a guaranteed positive return on investment.",
+      "source_url": "https://jurisdigital.com/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  }
+}
