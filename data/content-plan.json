@@ -115,7 +115,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Legal Technology Statistics\". Reader needs a defined dataset or measurement method. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/legal-tech/legal-technology-statistics/",
-    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/docusign-alternatives/; /legal-tech/docusign-vs-adobe-sign/; /legal-tech/ai-tools-for-lawyers/; /legal-tech/clio-vs-mycase/",
+    "internal_link_targets_launch_set": "/legal-tech/ai-in-law-firms-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/everlaw-ediscovery-document-review/; /legal-tech/harvey-legal-ai-pilot/; /legal-tech/best-legal-calendaring-software/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/best-legal-billing-software/; /legal-tech/best-legal-accounting-software/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-document-automation-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/best-ediscovery-software/; /legal-tech/relativity-ediscovery-hosting/; /legal-tech/lexisnexis-legal-ai-source-checking/; /legal-tech/docusign-alternatives/; /legal-tech/docusign-vs-adobe-sign/; /legal-tech/ai-tools-for-lawyers/; /legal-tech/clio-vs-mycase/; /legal-tech/lexis-vs-westlaw/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Legal Technology Adoption",
@@ -143,7 +143,8 @@
       "/legal-tech/docusign-alternatives/",
       "/legal-tech/docusign-vs-adobe-sign/",
       "/legal-tech/ai-tools-for-lawyers/",
-      "/legal-tech/clio-vs-mycase/"
+      "/legal-tech/clio-vs-mycase/",
+      "/legal-tech/lexis-vs-westlaw/"
     ]
   },
   {
@@ -4751,7 +4752,7 @@
     "intent_rationale": "Informational query; Ubersuggest marks legal research software as informational.",
     "no_data_publish_decision": "Publish: owner approved 2026-10-26.",
     "url_slug": "/legal-tech/legal-research-software/",
-    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/free-legal-ai/; /legal-tech/legal-practice-management-software/",
+    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/free-legal-ai/; /legal-tech/legal-practice-management-software/; /legal-tech/lexis-vs-westlaw/",
     "seo_title": "Legal Research Software: 7 Options and Pricing Compared",
     "meta_description": "Legal research software compared: Westlaw, Lexis+, Bloomberg Law, vLex Fastcase, Decisis, HeinOnline, and Trellis on coverage, citators, AI, and cost.",
     "launch_silo": "Legal AI",
@@ -4762,7 +4763,8 @@
     "internal_link_targets": [
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/free-legal-ai/",
-      "/legal-tech/legal-practice-management-software/"
+      "/legal-tech/legal-practice-management-software/",
+      "/legal-tech/lexis-vs-westlaw/"
     ]
   },
   {
@@ -6367,6 +6369,49 @@
       "/legal-marketing/law-firm-seo-companies/",
       "/legal-marketing/law-firm-website-statistics/",
       "/law-firms/law-firm-intake-process/"
+    ]
+  },
+  {
+    "_source_row": null,
+    "type": "Blog",
+    "working_title": "\"Lexis vs Westlaw: Legal Research Platforms Compared\"",
+    "primary_keyword": "lexis vs westlaw",
+    "secondary_keywords": "westlaw advantage pricing; lexis+ with protege; legal research software",
+    "cluster": "Legal Tech",
+    "intent": "Commercial",
+    "priority": "P2",
+    "geo_aeo": "Medium",
+    "linkable": "Medium",
+    "status": "Ready",
+    "ahrefs_volume": null,
+    "ahrefs_kd": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "ai_overview": "",
+    "research_status": "Owner-approved addition (2026-11-20). Ubersuggest 2026-11-21: 170 U.S. monthly volume, SEO difficulty 18.",
+    "data_source_plan": "Owner-supplied draft for lexis vs westlaw; every cited source checked on 2026-11-21.",
+    "medium_variation": "",
+    "medium_angle": "",
+    "telegraph_variation": "",
+    "telegraph_angle": "",
+    "search_intent_value": "Owner-approved addition",
+    "intent_type": "Commercial",
+    "intent_rationale": "Ubersuggest marks lexis vs westlaw as commercial.",
+    "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
+    "url_slug": "/legal-tech/lexis-vs-westlaw/",
+    "internal_link_targets_launch_set": "/legal-tech/legal-technology-statistics/; /legal-tech/legal-research-software/; /legal-tech/ai-tools-for-lawyers/; /legal-tech/lexisnexis-legal-ai-source-checking/",
+    "seo_title": "\"Lexis vs Westlaw: AI, Citators, and Pricing (2026)\"",
+    "meta_description": "Compare Lexis vs Westlaw on AI research tools, citators, published pricing, content sources, and firm fit, using official vendor pages checked in November 2026.",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "research_brief": null,
+    "deep_research_stage": null,
+    "content_number": "108",
+    "internal_link_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-research-software/",
+      "/legal-tech/ai-tools-for-lawyers/",
+      "/legal-tech/lexisnexis-legal-ai-source-checking/"
     ]
   }
 ]

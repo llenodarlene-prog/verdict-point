@@ -5358,5 +5358,65 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://blusharkdigital.com/, captured 2026-11-20",
     "alt_guidance": "BluShark Digital homepage headed Your next case goes to the firm that shows up"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/westlaw-advantage-pricing-screenshot-1600.jpg",
+    "title": "Westlaw Advantage plans and pricing page",
+    "use": "Blog 108 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing, captured 2026-11-20",
+    "alt_guidance": "Westlaw Advantage plans and pricing page with a step-by-step plan builder and order summary"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/westlaw-advantage-pricing-screenshot-800.jpg",
+    "title": "Westlaw Advantage plans and pricing page",
+    "use": "Blog 108 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing, captured 2026-11-20",
+    "alt_guidance": "Westlaw Advantage plans and pricing page with a step-by-step plan builder and order summary"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/westlaw-versions-screenshot-1600.jpg",
+    "title": "Thomson Reuters Westlaw product page",
+    "use": "Blog 108 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legal.thomsonreuters.com/en/products/westlaw, captured 2026-11-20",
+    "alt_guidance": "Westlaw page listing Westlaw Edge, Westlaw Edge with AI-Assisted Research, and Westlaw Advantage"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/westlaw-versions-screenshot-800.jpg",
+    "title": "Thomson Reuters Westlaw product page",
+    "use": "Blog 108 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legal.thomsonreuters.com/en/products/westlaw, captured 2026-11-20",
+    "alt_guidance": "Westlaw page listing Westlaw Edge, Westlaw Edge with AI-Assisted Research, and Westlaw Advantage"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/lexis-protege-screenshot-1600.jpg",
+    "title": "Lexis+ with Protégé product page",
+    "use": "Blog 108 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page, captured 2026-11-20",
+    "alt_guidance": "Lexis+ with Protege product page headed Legal AI, built on authority, with a skills search box"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/lexis-protege-screenshot-800.jpg",
+    "title": "Lexis+ with Protégé product page",
+    "use": "Blog 108 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page, captured 2026-11-20",
+    "alt_guidance": "Lexis+ with Protege product page headed Legal AI, built on authority, with a skills search box"
   }
 ]

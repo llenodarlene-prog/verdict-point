@@ -1,0 +1,431 @@
+{
+  "tracker_id": "Blog:108",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Lexis vs Westlaw: Legal Research Platforms Compared\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for lexis vs westlaw, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-21",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; LexisNexis product, Shepard's, and store pages refused automated reads; Lexis facts come from the official free-trial page and the October 29, 2026 LexisNexis product announcement. Shepard's Verify quoted-language checks described as coming later, so not claimed as live. Featured image reuses the legal research software image pending owner image."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "lexis vs westlaw",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-12",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-21"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "lexis vs westlaw",
+        "type": "short-tail",
+        "volume": 170,
+        "difficulty": 18,
+        "cpc": 26.65,
+        "intent": "Commercial",
+        "ranking_url": "http://plaintiffmagazine.com/recent-issues/item/westlaw-versus-lexis-the-debate-rages-on",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal research software",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 0,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://plaintiffmagazine.com/recent-issues/item/westlaw-versus-lexis-the-debate-rages-on",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "westlaw advantage pricing",
+        "type": "commercial",
+        "volume": 0,
+        "difficulty": 0,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://plaintiffmagazine.com/recent-issues/item/westlaw-versus-lexis-the-debate-rages-on",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "lexis+ with protege",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 0,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://plaintiffmagazine.com/recent-issues/item/westlaw-versus-lexis-the-debate-rages-on",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai tools for lawyers",
+        "type": "question",
+        "volume": 260,
+        "difficulty": 27,
+        "cpc": 60.16,
+        "intent": "Commercial",
+        "ranking_url": "http://plaintiffmagazine.com/recent-issues/item/westlaw-versus-lexis-the-debate-rages-on",
+        "retrieved_at": "2026-11-21",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial",
+      "title": "Lexis+ with Protégé free trial",
+      "publisher": "law.lexisnexis.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Lexis+ with Protégé free trial",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.thomsonreuters.com/en/products/westlaw",
+      "title": "Thomson Reuters Westlaw",
+      "publisher": "legal.thomsonreuters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Thomson Reuters Westlaw",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.thomsonreuters.com/en/products/westlaw-advantage",
+      "title": "Westlaw Advantage product page",
+      "publisher": "legal.thomsonreuters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Westlaw Advantage product page",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.thomsonreuters.com/en/products/westlaw-advantage/features",
+      "title": "Westlaw Advantage features",
+      "publisher": "legal.thomsonreuters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Westlaw Advantage features",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "title": "Westlaw Advantage plans and pricing",
+      "publisher": "sales.legalsolutions.thomsonreuters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "Westlaw Advantage plans and pricing",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lexisnexis.com/blog/en-us/legal/product-announcement/integrated-legal-ai-platform",
+      "title": "What's New in Lexis+ with Protégé (October 29, 2026)",
+      "publisher": "lexisnexis.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-21",
+      "scope": "What's New in Lexis+ with Protégé (October 29, 2026)",
+      "method": "Opened and read the live page on 2026-11-21 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Westlaw Advantage pricing starts at $256.75 per month for single-circuit coverage and $399.75 for all states and federal; 12% savings on two-year and 18% on three-year subscriptions; online pricing for firms with up to 10 attorneys.",
+      "source_url": "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LexisNexis added Deep Legal Research, 92 legal skills, Shepard's Verify, Vault capacity from 500 to 10,000 documents, and sources including Lex Machina, Law360, CourtLink, and Intelligize to Lexis+ with Protégé (October 29, 2026).",
+      "source_url": "https://www.lexisnexis.com/blog/en-us/legal/product-announcement/integrated-legal-ai-platform",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Westlaw versus Lexis: The debate rages on",
+      "url": "http://plaintiffmagazine.com/recent-issues/item/westlaw-versus-lexis-the-debate-rages-on",
+      "publisher": "plaintiffmagazine.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "How much do y'all pay for tools like WestLaw, Lexis",
+      "url": "http://www.reddit.com/r/LawFirm/comments/14fh6ct/how_much_do_yall_pay_for_tools_like_westlaw_lexis/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Westlaw Advantage Plans",
+      "url": "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "publisher": "thomsonreuters.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Lexis+ with Protégé",
+      "url": "https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page",
+      "publisher": "lexisnexis.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Westlaw legal research tools",
+      "url": "https://legal.thomsonreuters.com/en/products/westlaw",
+      "publisher": "thomsonreuters.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Same-day comparison of both vendors' current AI agents, citator tools, and connected content, with Westlaw's published small-firm prices turned into an annual cost table and a clear note on what Lexis does not publish.",
+  "plan": {
+    "reader_title": "\"Lexis vs Westlaw: Legal Research Platforms Compared\"",
+    "seo_title": "\"Lexis vs Westlaw: AI, Citators, and Pricing (2026)\"",
+    "meta_description": "Compare Lexis vs Westlaw on AI research tools, citators, published pricing, content sources, and firm fit, using official vendor pages checked in November 2026.",
+    "slug": "/legal-tech/lexis-vs-westlaw/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "westlaw advantage pricing",
+      "lexis+ with protege",
+      "legal research software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Side-by-Side Comparison",
+      "How We Compared Lexis vs Westlaw",
+      "Pricing and Contract Terms",
+      "AI Research Tools",
+      "Citators: KeyCite vs Shepard's",
+      "Content Beyond Case Law",
+      "Firm Fit",
+      "Sample Annual Cost on Westlaw",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://legal.thomsonreuters.com/en/products/westlaw"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://legal.thomsonreuters.com/en/products/westlaw-advantage"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-research-software/",
+      "/legal-tech/ai-tools-for-lawyers/",
+      "/legal-tech/lexisnexis-legal-ai-source-checking/"
+    ],
+    "external_link_opportunities": [
+      "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial",
+      "https://legal.thomsonreuters.com/en/products/westlaw",
+      "https://legal.thomsonreuters.com/en/products/westlaw-advantage",
+      "https://legal.thomsonreuters.com/en/products/westlaw-advantage/features",
+      "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "https://www.lexisnexis.com/blog/en-us/legal/product-announcement/integrated-legal-ai-platform"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Westlaw Advantage pricing starts at $256.75 per month for single-circuit coverage and $399.75 for all states and federal; 12% savings on two-year and 18% on three-year subscriptions; online pricing for firms with up to 10 attorneys.",
+      "source_url": "https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing",
+      "verified": true
+    },
+    {
+      "statement": "LexisNexis added Deep Legal Research, 92 legal skills, Shepard's Verify, Vault capacity from 500 to 10,000 documents, and sources including Lex Machina, Law360, CourtLink, and Intelligize to Lexis+ with Protégé (October 29, 2026).",
+      "source_url": "https://www.lexisnexis.com/blog/en-us/legal/product-announcement/integrated-legal-ai-platform",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-21"
+  }
+}
