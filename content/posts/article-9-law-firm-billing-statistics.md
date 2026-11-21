@@ -11,7 +11,7 @@ primary_keyword: law firm billing statistics
 cluster: Law Firms
 launch_silo: Law Firm Economics
 silo_role: Supporting
-approved_internal_links: /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/lawpay-legal-payments-fees/
+approved_internal_links: /law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/legal-podcasts/
 research_record: content/research/article-9.json
 image: /assets/images/posts/law-firm-billing-statistics/featured-billing-report-timer-1600.jpg
 image_alt: A lawyer studying a printed billing report while a laptop shows a timer, an invoice icon, and charts
@@ -19,7 +19,7 @@ source_document: https://docs.google.com/document/d/1hfyjw7lw78_uGpmrVJgTSiPchYu
 author: Darlene Aberin
 published: 2026-11-23
 publish_time: 18:05
-modified: 2026-11-14
+modified: 2026-11-20
 ---
 
 # Law Firm Billing Statistics: From Recorded Time to Collected Cash
@@ -97,7 +97,7 @@ Payment technology can change the client experience, but firms still need polici
 
 For one firm, total lockup is the sum of its realization and collection lockup. The calculation connects both sides of the delay. Improving only collections may leave a large unbilled balance untouched.
 
-The same caution applies to broad [law firm profitability statistics](/law-firms/law-firm-profitability-statistics/). Faster billing can support cash flow, but profit also depends on pricing, demand, staffing, overhead, and partner compensation.
+The same caution applies to broad [law firm profitability statistics](/law-firms/law-firm-profitability-statistics/). Faster billing can support cash flow, but profit also depends on pricing, demand, staffing, overhead, and partner compensation. Practice management [legal podcasts](/law-firms/legal-podcasts/) such as Un-Billable Hour cover cash flow and pricing choices.
 
 ## A Worked Lockup Example
 

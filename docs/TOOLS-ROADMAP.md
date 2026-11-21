@@ -53,3 +53,19 @@ Per tool:
 ## Keyword caveat
 
 Rows 27 to 40 in the brief use generic proxy keywords. Their volumes are not forecasts for the law-specific tools and must not be summed.
+
+## Status (paused 2026-11-20, owner will resume)
+
+Live:
+- #2 court date upgrade (legal deadline calculator schedule mode)
+- #1 LSAT score calculator (LSAC 2023-2026 percentiles; raw scores only with the user's own conversion table)
+- #5 wrongful termination settlement calculator (42 U.S.C. 1981a caps)
+- #4 car accident settlement calculator and `/tools/settlement-calculators/` hub
+- #12 probate attorney fee calculator, Florida mode (s. 733.6171)
+- #29, #30, #31, #33 KPI calculator metrics; #36 software ROI; #25 covered by the existing contingency fee calculator
+
+Blocked on owner screenshots (sites block automated access):
+- #24 California probate mode: Probate Code s. 10810
+- #9 app privacy policy generator: Bus. & Prof. Code s. 22575 and s. 22577
+
+Next when resumed: state-based settlement tools (#21 PPD, #6 workers' comp, #23 MMI, #11 wrongful death, #8 dog bite, #10 EEOC, #7 personal injury with #22 knee mode), each starting with a check that the official state source can be read. Then #15 law firm name generator and #14 NDA generator.

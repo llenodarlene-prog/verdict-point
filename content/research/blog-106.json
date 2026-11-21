@@ -1,0 +1,515 @@
+{
+  "tracker_id": "Blog:106",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"10 Best Law Firm SEO Companies: An Evidence-Based Buyer Guide\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for law firm seo companies, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-20",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft had generic descriptions. growlawfirm.com redirects to growlaw.co (Grow Law); verified there. ABA Model Rule 7.1 page blocked (403), so not cited. Juris Digital FAQ contains both a 12-month commitment and a no-lock-in statement; article reports the 12-month term. Featured image pending from owner."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "law firm seo companies",
+    "intent": "Navigational",
+    "serp_checked_at": "2026-11-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "law firm seo companies",
+        "type": "short-tail",
+        "volume": 880,
+        "difficulty": 24,
+        "cpc": 61.89,
+        "intent": "Navigational",
+        "ranking_url": "https://thehoth.com/lp-law-firm-seo/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best law firm seo companies",
+        "type": "long-tail",
+        "volume": 880,
+        "difficulty": 34,
+        "cpc": 63.5,
+        "intent": "Navigational",
+        "ranking_url": "https://thehoth.com/lp-law-firm-seo/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "top law firm seo companies",
+        "type": "commercial",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Navigational",
+        "ranking_url": "https://thehoth.com/lp-law-firm-seo/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm marketing companies",
+        "type": "problem",
+        "volume": 590,
+        "difficulty": 29,
+        "cpc": 103.56,
+        "intent": "Navigational",
+        "ranking_url": "https://thehoth.com/lp-law-firm-seo/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best law firm marketing companies",
+        "type": "question",
+        "volume": 210,
+        "difficulty": 40,
+        "cpc": 41.94,
+        "intent": "Navigational",
+        "ranking_url": "https://thehoth.com/lp-law-firm-seo/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://blusharkdigital.com/",
+      "title": "BluShark Digital",
+      "publisher": "blusharkdigital.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "BluShark Digital",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://growlaw.co/",
+      "title": "Grow Law",
+      "publisher": "growlaw.co",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Grow Law",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://hennessey.com/",
+      "title": "Hennessey Digital",
+      "publisher": "hennessey.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Hennessey Digital",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://jurisdigital.com/",
+      "title": "Juris Digital",
+      "publisher": "jurisdigital.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Juris Digital",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://lawrank.com/",
+      "title": "LawRank",
+      "publisher": "lawrank.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "LawRank",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://rankings.io/",
+      "title": "Rankings.io",
+      "publisher": "rankings.io",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Rankings.io",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.consultwebs.com/",
+      "title": "Consultwebs",
+      "publisher": "consultwebs.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Consultwebs",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ilawyermarketing.com/",
+      "title": "iLawyerMarketing",
+      "publisher": "ilawyermarketing.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "iLawyerMarketing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.onthemap.com/pricing/",
+      "title": "On The Map Marketing pricing guide",
+      "publisher": "onthemap.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "On The Map Marketing pricing guide",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.postali.com/",
+      "title": "Postali",
+      "publisher": "postali.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Postali",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Hennessey Digital FAQ says entry-level programs often begin in the low-to-mid five figures a month and states month-to-month, no lock-ins.",
+      "source_url": "https://hennessey.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Grow Law FAQ says SEO and AI visibility plans start at $3,600 per month with a website included and PPC management starts at $1,150 per month plus ad budget; $0 setup, cancel anytime.",
+      "source_url": "https://growlaw.co/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Juris Digital asks firms to sign a basic agreement committing to a 12-month campaign and states a guaranteed positive return on investment.",
+      "source_url": "https://jurisdigital.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Law Firm SEO Services | Are Law Firms Outranking You? (paid result)",
+      "url": "https://thehoth.com/lp-law-firm-seo/",
+      "publisher": "thehoth.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Law Firm SEO Agency | Law Firm SEO Companies (paid result)",
+      "url": "https://landing.cosmoforge.io/legal/seo/precedent/",
+      "publisher": "landing.cosmoforge.io",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Law Firm SEO Services | Local SEO Specialists (paid result)",
+      "url": "https://niftymarketing.com/law-firm-seo/",
+      "publisher": "niftymarketing.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Law Firm SEO Company - Law Firm SEO Services (paid result)",
+      "url": "https://digitalsilk.com/digital-marketing/law-firm/seo/",
+      "publisher": "digitalsilk.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "10 Best SEO Companies for Lawyers & Law Firms in 2026",
+      "url": "https://sites.google.com/view/bestseocompaniesforlawyers/",
+      "publisher": "sites.google.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Side-by-side disclosure audit of ten agencies: which publish prices, which state contract length and asset ownership, with every result labeled as a self-claim and a red-flag checklist.",
+  "plan": {
+    "reader_title": "\"10 Best Law Firm SEO Companies: An Evidence-Based Buyer Guide\"",
+    "seo_title": "\"10 Best Law Firm SEO Companies Compared for 2026\"",
+    "meta_description": "Compare ten law firm SEO companies by services, practice focus, published pricing, and contract terms, using each agency's own site checked in November 2026.",
+    "slug": "/legal-marketing/law-firm-seo-companies/",
+    "search_intent": "Navigational",
+    "secondary_keywords": [
+      "best law firm seo companies",
+      "top law firm seo companies",
+      "law firm marketing companies"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Chose These Law Firm SEO Companies",
+      "1. Rankings.io: Best for Personal Injury Focus",
+      "2. Hennessey Digital: Best for Larger Budgets",
+      "3. Grow Law: Best for Published Pricing",
+      "4. Juris Digital: Best for Content-Led Programs",
+      "5. LawRank: Best for SEO With Web Design",
+      "6. Consultwebs: Best for Established Firms",
+      "7. iLawyerMarketing: Best for Market Exclusivity",
+      "8. BluShark Digital: Best for SEO-Only Focus",
+      "9. Postali: Best for Branding Plus SEO",
+      "10. On The Map Marketing: Best for Local Search",
+      "How to Compare Law Firm SEO Companies",
+      "Red Flags When Hiring an Agency",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://blusharkdigital.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://growlaw.co/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://hennessey.com/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-marketing/law-firm-marketing-statistics/",
+      "/legal-marketing/law-firm-seo/",
+      "/legal-marketing/law-firm-seo-metrics/",
+      "/legal-marketing/law-firm-seo-statistics/",
+      "/legal-marketing/law-firm-marketing-companies/"
+    ],
+    "external_link_opportunities": [
+      "https://blusharkdigital.com/",
+      "https://growlaw.co/",
+      "https://hennessey.com/",
+      "https://jurisdigital.com/",
+      "https://lawrank.com/",
+      "https://rankings.io/",
+      "https://www.consultwebs.com/",
+      "https://www.ilawyermarketing.com/",
+      "https://www.onthemap.com/pricing/",
+      "https://www.postali.com/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Hennessey Digital FAQ says entry-level programs often begin in the low-to-mid five figures a month and states month-to-month, no lock-ins.",
+      "source_url": "https://hennessey.com/",
+      "verified": true
+    },
+    {
+      "statement": "Grow Law FAQ says SEO and AI visibility plans start at $3,600 per month with a website included and PPC management starts at $1,150 per month plus ad budget; $0 setup, cancel anytime.",
+      "source_url": "https://growlaw.co/",
+      "verified": true
+    },
+    {
+      "statement": "Juris Digital asks firms to sign a basic agreement committing to a 12-month campaign and states a guaranteed positive return on investment.",
+      "source_url": "https://jurisdigital.com/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  }
+}

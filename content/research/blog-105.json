@@ -1,0 +1,390 @@
+{
+  "tracker_id": "Blog:105",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Clio vs MyCase: Which Practice Management Platform Fits Your Firm?\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for clio vs mycase, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-20",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Clio.com returned 403 and a bot check on 2026-11-20; Clio facts come only from the owner-supplied screenshot of the Clio pricing page dated 2026-11-03 and are labeled as such. MyCase verified live."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "clio vs mycase",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-10-18",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "clio vs mycase",
+        "type": "short-tail",
+        "volume": 390,
+        "difficulty": 30,
+        "cpc": 53.81,
+        "intent": "Commercial",
+        "ranking_url": "http://www.hona.com/post/clio-vs-filevine-vs-mycase-which-case-management-platform-fits-your-firm",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "clio vs mycase reddit",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.hona.com/post/clio-vs-filevine-vs-mycase-which-case-management-platform-fits-your-firm",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "practice panther vs clio vs mycase",
+        "type": "commercial",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.hona.com/post/clio-vs-filevine-vs-mycase-which-case-management-platform-fits-your-firm",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "clio vs mycase vs smokeball",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.hona.com/post/clio-vs-filevine-vs-mycase-which-case-management-platform-fits-your-firm",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal practice management software",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 0,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.hona.com/post/clio-vs-filevine-vs-mycase-which-case-management-platform-fits-your-firm",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.clio.com/pricing/",
+      "title": "Clio pricing (owner screenshot 2026-11-03)",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Clio pricing (owner screenshot 2026-11-03)",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/",
+      "title": "MyCase homepage",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "MyCase homepage",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "MyCase Basic, Pro, and Advanced cost $50, $100, and $130 per user per month billed annually, or $60, $120, and $150 monthly; 10-day free trial; 8am IQ Case Assistant is Advanced only.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Clio Starter starts at $49 per user; Core, Signature, and Elite show Get pricing; Elite bundles Clio Manage and Clio Grow.",
+      "source_url": "https://www.clio.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Clio vs Filevine vs MyCase: Which Case Management ...",
+      "url": "http://www.hona.com/post/clio-vs-filevine-vs-mycase-which-case-management-platform-fits-your-firm",
+      "publisher": "hona.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-18)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Clio vs MyCase (2026): Pricing, Features & Which to Pick",
+      "url": "http://layer3labs.io/comparisons/clio-vs-mycase",
+      "publisher": "layer3labs.io",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-18)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Clio vs. MyCase vs. MyLegalSoftware: Which is Better?",
+      "url": "http://mylegalsoftware.com/legal-case-management-software-comparison-top-3-affordable-options/",
+      "publisher": "mylegalsoftware.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-18)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Case Management Software Comparison",
+      "url": "http://www.simplelaw.com/blog/comparing-leading-legal-case-software-brands",
+      "publisher": "simplelaw.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-18)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Clio vs. 8am MyCase",
+      "url": "http://trustradius.com/compare-products/clio-vs-mycase",
+      "publisher": "trustradius.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-18)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Tier-by-tier mapping of where billing, client portal, document automation, e-signature, and AI features first appear on each platform, with all three MyCase prices verified same day and a five-seat annual cost example.",
+  "plan": {
+    "reader_title": "\"Clio vs MyCase: Which Practice Management Platform Fits Your Firm?\"",
+    "seo_title": "\"Clio vs MyCase: Pricing, Plans, and AI Compared (2026)\"",
+    "meta_description": "Compare Clio vs MyCase on published pricing, plan tiers, billing, client portals, document automation, and AI features, using official pages checked in November 2026.",
+    "slug": "/legal-tech/clio-vs-mycase/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "clio vs mycase vs smokeball",
+      "practice panther vs clio vs mycase",
+      "clio vs mycase reddit"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Side-by-Side Comparison",
+      "How We Compared Clio vs MyCase",
+      "Pricing and Plans",
+      "Billing, Payments, and Trust Accounting",
+      "Client Portal and Communication",
+      "Document Automation and E-Signatures",
+      "AI Features",
+      "Which Platform Fits Your Firm?",
+      "Questions to Ask Before You Sign",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.clio.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.mycase.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.mycase.com/pricing/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-practice-management-software/",
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/mycase-legal-software/"
+    ],
+    "external_link_opportunities": [
+      "https://www.clio.com/pricing/",
+      "https://www.mycase.com/",
+      "https://www.mycase.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "MyCase Basic, Pro, and Advanced cost $50, $100, and $130 per user per month billed annually, or $60, $120, and $150 monthly; 10-day free trial; 8am IQ Case Assistant is Advanced only.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Clio Starter starts at $49 per user; Core, Signature, and Elite show Get pricing; Elite bundles Clio Manage and Clio Grow.",
+      "source_url": "https://www.clio.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  }
+}

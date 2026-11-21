@@ -1,0 +1,529 @@
+{
+  "tracker_id": "Blog:104",
+  "status": "verified",
+  "research_question": "Owner-approved addition: 10 Best AI Tools for Lawyers by Task, Risk, and Firm Size. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for ai tools for lawyers, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-20",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft had unverified positioning. vLex now redirects to Clio branding (Vincent by Clio). CoCounsel URL in brief was 404; used legal.thomsonreuters.com page. Lexis product page blocked; used official free-trial page. Microsoft Copilot page returned 503; described only from owner screenshot, no price stated. OpenAI enterprise privacy page and ABA Formal Opinion 512 blocked, so not cited."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "ai tools for lawyers",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-13",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "ai tools for lawyers",
+        "type": "short-tail",
+        "volume": 260,
+        "difficulty": 27,
+        "cpc": 60.16,
+        "intent": "Commercial",
+        "ranking_url": "http://www.darrow.ai/resources/ai-tools-for-lawyers",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best ai tools for lawyers",
+        "type": "long-tail",
+        "volume": 140,
+        "difficulty": 32,
+        "cpc": 75.33,
+        "intent": "Commercial",
+        "ranking_url": "http://www.darrow.ai/resources/ai-tools-for-lawyers",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal ai tools for lawyers",
+        "type": "commercial",
+        "volume": 70,
+        "difficulty": 45,
+        "cpc": 71.39,
+        "intent": "Commercial",
+        "ranking_url": "http://www.darrow.ai/resources/ai-tools-for-lawyers",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free ai tools for lawyers",
+        "type": "problem",
+        "volume": 50,
+        "difficulty": 32,
+        "cpc": 12.11,
+        "intent": "Commercial",
+        "ranking_url": "http://www.darrow.ai/resources/ai-tools-for-lawyers",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best legal ai tools for lawyers",
+        "type": "question",
+        "volume": 30,
+        "difficulty": 52,
+        "cpc": 162.1,
+        "intent": "Commercial",
+        "ranking_url": "http://www.darrow.ai/resources/ai-tools-for-lawyers",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://chatgpt.com/business/",
+      "title": "ChatGPT Business",
+      "publisher": "chatgpt.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "ChatGPT Business",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://chatgpt.com/pricing",
+      "title": "ChatGPT pricing",
+      "publisher": "chatgpt.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "ChatGPT pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial",
+      "title": "Lexis+ with Protégé free trial",
+      "publisher": "law.lexisnexis.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Lexis+ with Protégé free trial",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "title": "Thomson Reuters CoCounsel Legal",
+      "publisher": "legal.thomsonreuters.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Thomson Reuters CoCounsel Legal",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://spellbook.com/",
+      "title": "Spellbook",
+      "publisher": "spellbook.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Spellbook",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://vlex.com/",
+      "title": "Vincent by Clio (vLex)",
+      "publisher": "vlex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Vincent by Clio (vLex)",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.everlaw.com/",
+      "title": "Everlaw",
+      "publisher": "everlaw.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Everlaw",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.harvey.ai/",
+      "title": "Harvey",
+      "publisher": "harvey.ai",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Harvey",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.litera.com/",
+      "title": "Litera",
+      "publisher": "litera.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Litera",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-365/copilot",
+      "title": "Microsoft Copilot",
+      "publisher": "microsoft.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Microsoft Copilot",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.relativity.com/data-solutions/air/",
+      "title": "Relativity aiR",
+      "publisher": "relativity.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Relativity aiR",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "CoCounsel Legal reasons from Westlaw content and Practical Law guidance across 100+ jurisdictions, is SOC 2 and ISO 42001 certified, and says customer data is never used to train underlying models.",
+      "source_url": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Relativity aiR lists ISO/IEC 27001:2022 and 27018 certification, SOC 2 Type II and SOC 3 audits, HIPAA compliance, and says 193 of the Am Law 200 rely on Relativity.",
+      "source_url": "https://www.relativity.com/data-solutions/air/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ChatGPT Business Standard seat costs $20 per seat per month and Premium $100, billed annually; OpenAI says business data isn't used to train its models by default.",
+      "source_url": "https://chatgpt.com/business/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "10 Best AI Tools for Lawyers in 2026",
+      "url": "http://www.darrow.ai/resources/ai-tools-for-lawyers",
+      "publisher": "darrow.ai",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "AI Tools for Lawyers: A Practical Guide",
+      "url": "http://pro.bloomberglaw.com/insights/technology/ai-in-legal-practice-explained/",
+      "publisher": "pro.bloomberglaw.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best AI Tools For Lawyers: 2026 Comparison",
+      "url": "http://www.xantrion.com/articles/best-ai-tools-for-lawyers-2026-comparison",
+      "publisher": "xantrion.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "AI Tools for Legal Work: Claude, Gemini, Copilot, and More",
+      "url": "http://www.americanbar.org/groups/law_practice/resources/law-technology-today/2024/ai-tools-for-legal-work-claude-gemini-copilot-and-more/",
+      "publisher": "americanbar.org",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "AI for Law Firms: A Comprehensive Guide - Clio",
+      "url": "http://www.clio.com/resources/ai-for-lawyers/",
+      "publisher": "clio.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-13)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Groups ten tools by task and risk tier, compares each vendor's own published security and data-training statements side by side, and gives a five-step pilot plan.",
+  "plan": {
+    "reader_title": "10 Best AI Tools for Lawyers by Task, Risk, and Firm Size",
+    "seo_title": "10 Best AI Tools for Lawyers by Task and Risk in 2026",
+    "meta_description": "Compare ten AI tools for lawyers across legal research, contract drafting, eDiscovery, and general productivity, with security claims and prices checked November 2026.",
+    "slug": "/legal-tech/ai-tools-for-lawyers/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best ai tools for lawyers",
+      "legal ai tools for lawyers",
+      "free ai tools for lawyers"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Chose These AI Tools for Lawyers",
+      "1. Lexis+ with Protégé: Best for Small-Firm Research and Drafting",
+      "2. CoCounsel Legal: Best for Westlaw-Grounded Research",
+      "3. Harvey: Best for Large-Firm AI Programs",
+      "4. Vincent by Clio: Best for Multi-Jurisdiction Research",
+      "5. Spellbook: Best for Contract Drafting and Review",
+      "6. Litera: Best for Drafting Workflow Inside Microsoft 365",
+      "7. Everlaw: Best for Litigation and eDiscovery",
+      "8. Relativity aiR: Best for Large-Scale Review",
+      "9. Microsoft 365 Copilot: Best for Microsoft-Based Firms",
+      "10. ChatGPT Business: Best for General Drafting",
+      "Choose by Task and Risk",
+      "How to Run a Safe Pilot",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://chatgpt.com/business/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://chatgpt.com/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-research-software/",
+      "/legal-tech/best-ediscovery-software/",
+      "/legal-tech/free-legal-ai/",
+      "/legal-tech/harvey-legal-ai-pilot/"
+    ],
+    "external_link_opportunities": [
+      "https://chatgpt.com/business/",
+      "https://chatgpt.com/pricing",
+      "https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial",
+      "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "https://spellbook.com/",
+      "https://vlex.com/",
+      "https://www.everlaw.com/",
+      "https://www.harvey.ai/",
+      "https://www.litera.com/",
+      "https://www.microsoft.com/en-us/microsoft-365/copilot",
+      "https://www.relativity.com/data-solutions/air/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "CoCounsel Legal reasons from Westlaw content and Practical Law guidance across 100+ jurisdictions, is SOC 2 and ISO 42001 certified, and says customer data is never used to train underlying models.",
+      "source_url": "https://legal.thomsonreuters.com/en/products/cocounsel-legal",
+      "verified": true
+    },
+    {
+      "statement": "Relativity aiR lists ISO/IEC 27001:2022 and 27018 certification, SOC 2 Type II and SOC 3 audits, HIPAA compliance, and says 193 of the Am Law 200 rely on Relativity.",
+      "source_url": "https://www.relativity.com/data-solutions/air/",
+      "verified": true
+    },
+    {
+      "statement": "ChatGPT Business Standard seat costs $20 per seat per month and Premium $100, billed annually; OpenAI says business data isn't used to train its models by default.",
+      "source_url": "https://chatgpt.com/business/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  }
+}

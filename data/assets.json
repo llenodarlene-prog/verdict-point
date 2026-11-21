@@ -4198,5 +4198,1525 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.everlaw.com/pricing-b/, captured 2026-11-14",
     "alt_guidance": "Everlaw pricing page headed Clear Pricing, Without Surprises, saying pricing is based on data managed and usage without limits on users or uploads"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/featured-laptop-signature-icons-1600.jpg",
+    "title": "",
+    "use": "Blog 100 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop showing a signed agreement with a gold approval seal, surrounded by icons for scales, people, buildings, a handshake, a lock, and documents"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/featured-laptop-signature-icons-800.jpg",
+    "title": "",
+    "use": "Blog 100 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop showing a signed agreement with a gold approval seal, surrounded by icons for scales, people, buildings, a handshake, a lock, and documents"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/adobe-acrobat-sign-screenshot-1600.jpg",
+    "title": "Adobe Acrobat business pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.adobe.com/acrobat/business/pricing-plans.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Adobe Acrobat business pricing page comparing Acrobat team plans with per-license monthly prices"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/adobe-acrobat-sign-screenshot-800.jpg",
+    "title": "Adobe Acrobat business pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.adobe.com/acrobat/business/pricing-plans.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Adobe Acrobat business pricing page comparing Acrobat team plans with per-license monthly prices"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/dropbox-sign-screenshot-1600.jpg",
+    "title": "Dropbox Sign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sign.dropbox.com/products/dropbox-sign/pricing, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Dropbox Sign pricing page with Essentials, Standard, and Premium plan cards"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/dropbox-sign-screenshot-800.jpg",
+    "title": "Dropbox Sign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sign.dropbox.com/products/dropbox-sign/pricing, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Dropbox Sign pricing page with Essentials, Standard, and Premium plan cards"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/pandadoc-screenshot-1600.jpg",
+    "title": "PandaDoc pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.pandadoc.com/pricing/, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "PandaDoc pricing page showing Free, Starter, Business, and Enterprise plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/pandadoc-screenshot-800.jpg",
+    "title": "PandaDoc pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.pandadoc.com/pricing/, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "PandaDoc pricing page showing Free, Starter, Business, and Enterprise plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/signnow-screenshot-1600.jpg",
+    "title": "signNow pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.signnow.com/pricing, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "signNow pricing page headed Free unlimited users with plans that scale, showing four plan cards"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/signnow-screenshot-800.jpg",
+    "title": "signNow pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.signnow.com/pricing, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "signNow pricing page headed Free unlimited users with plans that scale, showing four plan cards"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/boldsign-screenshot-1600.jpg",
+    "title": "BoldSign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://boldsign.com/pricing/, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "BoldSign pricing page with plan cards from Essential to Enterprise API"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/boldsign-screenshot-800.jpg",
+    "title": "BoldSign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://boldsign.com/pricing/, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "BoldSign pricing page with plan cards from Essential to Enterprise API"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/signeasy-screenshot-1600.jpg",
+    "title": "Signeasy pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://signeasy.com/pricing, captured 2026-11-20",
+    "alt_guidance": "Signeasy pricing page showing Personal, Business, Business Pro, and Custom plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/signeasy-screenshot-800.jpg",
+    "title": "Signeasy pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://signeasy.com/pricing, captured 2026-11-20",
+    "alt_guidance": "Signeasy pricing page showing Personal, Business, Business Pro, and Custom plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/zoho-sign-screenshot-1600.jpg",
+    "title": "Zoho Sign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.zoho.com/sign/pricing.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Zoho Sign pricing page headed Simple, straightforward pricing, with Free, Standard, Professional, Enterprise, and Custom plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/zoho-sign-screenshot-800.jpg",
+    "title": "Zoho Sign pricing page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.zoho.com/sign/pricing.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Zoho Sign pricing page headed Simple, straightforward pricing, with Free, Standard, Professional, Enterprise, and Custom plans"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/jotform-sign-screenshot-1600.jpg",
+    "title": "Jotform Sign product page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.jotform.com/products/sign/, captured 2026-11-20",
+    "alt_guidance": "Jotform Sign product page describing free electronic signature software"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/jotform-sign-screenshot-800.jpg",
+    "title": "Jotform Sign product page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.jotform.com/products/sign/, captured 2026-11-20",
+    "alt_guidance": "Jotform Sign product page describing free electronic signature software"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/onespan-sign-screenshot-1600.jpg",
+    "title": "OneSpan Sign product page",
+    "use": "Blog 100 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onespan.com/products/esignature, captured 2026-11-20",
+    "alt_guidance": "OneSpan Sign product page headed The safest way to complete agreements. Fast., describing an eSignature platform built for customer agreements"
+  },
+  {
+    "path": "/assets/images/posts/docusign-alternatives/onespan-sign-screenshot-800.jpg",
+    "title": "OneSpan Sign product page",
+    "use": "Blog 100 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onespan.com/products/esignature, captured 2026-11-20",
+    "alt_guidance": "OneSpan Sign product page headed The safest way to complete agreements. Fast., describing an eSignature platform built for customer agreements"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/featured-two-laptops-signed-documents-1600.jpg",
+    "title": "",
+    "use": "Blog 101 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Two laptops with signed documents and approval ribbons on either side of a scales-of-justice icon, with a checklist and a gavel in front"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/featured-two-laptops-signed-documents-800.jpg",
+    "title": "",
+    "use": "Blog 101 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Two laptops with signed documents and approval ribbons on either side of a scales-of-justice icon, with a checklist and a gavel in front"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/docusign-esignature-screenshot-1600.jpg",
+    "title": "DocuSign eSignature page",
+    "use": "Blog 101 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.docusign.com/products/electronic-signature, captured 2026-11-20",
+    "alt_guidance": "DocuSign eSignature page headed Keep your business moving forward faster with the smarter AI-assisted eSignature"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/docusign-esignature-screenshot-800.jpg",
+    "title": "DocuSign eSignature page",
+    "use": "Blog 101 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.docusign.com/products/electronic-signature, captured 2026-11-20",
+    "alt_guidance": "DocuSign eSignature page headed Keep your business moving forward faster with the smarter AI-assisted eSignature"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/adobe-acrobat-sign-screenshot-1600.jpg",
+    "title": "Adobe Acrobat business pricing page",
+    "use": "Blog 101 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.adobe.com/acrobat/business/pricing-plans.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Adobe Acrobat business pricing page comparing Acrobat team plans with per-license monthly prices"
+  },
+  {
+    "path": "/assets/images/posts/docusign-vs-adobe-sign/adobe-acrobat-sign-screenshot-800.jpg",
+    "title": "Adobe Acrobat business pricing page",
+    "use": "Blog 101 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.adobe.com/acrobat/business/pricing-plans.html, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Adobe Acrobat business pricing page comparing Acrobat team plans with per-license monthly prices"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/featured-legal-tasks-document-hub-1600.jpg",
+    "title": "",
+    "use": "Blog 102 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Signed legal document on a desk linked by glowing lines to icons for a storefront, an attorney, a certificate, and a file drawer"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/featured-legal-tasks-document-hub-800.jpg",
+    "title": "",
+    "use": "Blog 102 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Signed legal document on a desk linked by glowing lines to icons for a storefront, an attorney, a certificate, and a file drawer"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/zenbusiness-formation-plans-screenshot-1600.jpg",
+    "title": "ZenBusiness formation plans page",
+    "use": "Blog 102 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.zenbusiness.com/pricing-formation-plans/, captured 2026-11-20",
+    "alt_guidance": "ZenBusiness formation plans page headed Find the Package That Fits Your Business with Starter, Pro, and Premium options"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/zenbusiness-formation-plans-screenshot-800.jpg",
+    "title": "ZenBusiness formation plans page",
+    "use": "Blog 102 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.zenbusiness.com/pricing-formation-plans/, captured 2026-11-20",
+    "alt_guidance": "ZenBusiness formation plans page headed Find the Package That Fits Your Business with Starter, Pro, and Premium options"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/northwest-llc-screenshot-1600.jpg",
+    "title": "Northwest Registered Agent LLC page",
+    "use": "Blog 102 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.northwestregisteredagent.com/llc, captured 2026-11-20",
+    "alt_guidance": "Northwest LLC page showing The Northwest LLC at $39 plus state fees with included features"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/northwest-llc-screenshot-800.jpg",
+    "title": "Northwest Registered Agent LLC page",
+    "use": "Blog 102 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.northwestregisteredagent.com/llc, captured 2026-11-20",
+    "alt_guidance": "Northwest LLC page showing The Northwest LLC at $39 plus state fees with included features"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/bizee-homepage-screenshot-1600.jpg",
+    "title": "Bizee homepage",
+    "use": "Blog 102 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://bizee.com/, captured 2026-11-20",
+    "alt_guidance": "Bizee homepage headed Build your business. We handle the rest. with formation from $0 plus state fees"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/bizee-homepage-screenshot-800.jpg",
+    "title": "Bizee homepage",
+    "use": "Blog 102 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://bizee.com/, captured 2026-11-20",
+    "alt_guidance": "Bizee homepage headed Build your business. We handle the rest. with formation from $0 plus state fees"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/trust-will-pricing-screenshot-1600.jpg",
+    "title": "Trust & Will pricing page",
+    "use": "Blog 102 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://trustandwill.com/pricing, captured 2026-11-20",
+    "alt_guidance": "Trust and Will pricing page comparing the Will Plan at $199, the Trust Plan at $499, and attorney help for complex needs"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/trust-will-pricing-screenshot-800.jpg",
+    "title": "Trust & Will pricing page",
+    "use": "Blog 102 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://trustandwill.com/pricing, captured 2026-11-20",
+    "alt_guidance": "Trust and Will pricing page comparing the Will Plan at $199, the Trust Plan at $499, and attorney help for complex needs"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/harbor-compliance-registered-agent-screenshot-1600.jpg",
+    "title": "Harbor Compliance registered agent page",
+    "use": "Blog 102 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.harborcompliance.com/registered-agent-service, captured 2026-11-20",
+    "alt_guidance": "Harbor Compliance registered agent page showing $99 first year for new customers and $159 annual renewal"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/harbor-compliance-registered-agent-screenshot-800.jpg",
+    "title": "Harbor Compliance registered agent page",
+    "use": "Blog 102 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.harborcompliance.com/registered-agent-service, captured 2026-11-20",
+    "alt_guidance": "Harbor Compliance registered agent page showing $99 first year for new customers and $159 annual renewal"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/irs-ein-screenshot-1600.jpg",
+    "title": "IRS Get an Employer Identification Number page",
+    "use": "Blog 102 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number, captured 2026-11-20",
+    "alt_guidance": "IRS page titled Get an employer identification number explaining that the online tool is free"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/irs-ein-screenshot-800.jpg",
+    "title": "IRS Get an Employer Identification Number page",
+    "use": "Blog 102 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number, captured 2026-11-20",
+    "alt_guidance": "IRS page titled Get an employer identification number explaining that the online tool is free"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/lsc-get-legal-help-screenshot-1600.jpg",
+    "title": "Legal Services Corporation Get Legal Help page",
+    "use": "Blog 102 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help, captured 2026-11-20",
+    "alt_guidance": "Legal Services Corporation page titled I Need Legal Help with a search tool for local legal aid"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-alternatives/lsc-get-legal-help-screenshot-800.jpg",
+    "title": "Legal Services Corporation Get Legal Help page",
+    "use": "Blog 102 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lsc.gov/about-lsc/what-legal-aid/get-legal-help, captured 2026-11-20",
+    "alt_guidance": "Legal Services Corporation page titled I Need Legal Help with a search tool for local legal aid"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/featured-split-legal-services-desk-1600.jpg",
+    "title": "",
+    "use": "Blog 103 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Split scene with a signed document, law books, and a courthouse on one side and a checklist and online attorney chat on the other, joined by a scale of justice"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/featured-split-legal-services-desk-800.jpg",
+    "title": "",
+    "use": "Blog 103 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Split scene with a signed document, law books, and a courthouse on one side and a checklist and online attorney chat on the other, joined by a scale of justice"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/legalzoom-attorney-plan-screenshot-1600.jpg",
+    "title": "LegalZoom business attorney plan page",
+    "use": "Blog 103 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.legalzoom.com/attorneys/, captured 2026-11-20",
+    "alt_guidance": "LegalZoom business attorney plan page headed Affordable attorney help, whenever life or business calls"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/legalzoom-attorney-plan-screenshot-800.jpg",
+    "title": "LegalZoom business attorney plan page",
+    "use": "Blog 103 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.legalzoom.com/attorneys/, captured 2026-11-20",
+    "alt_guidance": "LegalZoom business attorney plan page headed Affordable attorney help, whenever life or business calls"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/legalzoom-estate-plans-screenshot-1600.jpg",
+    "title": "LegalZoom estate plan comparison page",
+    "use": "Blog 103 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.legalzoom.com/personal/estate-planning/compare.html, captured 2026-11-20",
+    "alt_guidance": "LegalZoom estate plan comparison page showing Pro Will, Premium Will, Basic Trust, and Premium Trust packages"
+  },
+  {
+    "path": "/assets/images/posts/legalzoom-vs-rocket-lawyer/legalzoom-estate-plans-screenshot-800.jpg",
+    "title": "LegalZoom estate plan comparison page",
+    "use": "Blog 103 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.legalzoom.com/personal/estate-planning/compare.html, captured 2026-11-20",
+    "alt_guidance": "LegalZoom estate plan comparison page showing Pro Will, Premium Will, Basic Trust, and Premium Trust packages"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/featured-ai-legal-workspace-1600.jpg",
+    "title": "",
+    "use": "Blog 104 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop with a scales-of-justice chip linked to icons for research, drafting, document review, and security, beside a Lady Justice statue"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/featured-ai-legal-workspace-800.jpg",
+    "title": "",
+    "use": "Blog 104 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop with a scales-of-justice chip linked to icons for research, drafting, document review, and security, beside a Lady Justice statue"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/lexis-protege-trial-screenshot-1600.jpg",
+    "title": "Lexis+ with Protégé free trial page",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial, captured 2026-11-20",
+    "alt_guidance": "Lexis+ with Protege free trial page headed AI You Can Trust with a trial sign-up form"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/lexis-protege-trial-screenshot-800.jpg",
+    "title": "Lexis+ with Protégé free trial page",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://law.lexisnexis.com/digital/bing-launch-PMAX/free-trial, captured 2026-11-20",
+    "alt_guidance": "Lexis+ with Protege free trial page headed AI You Can Trust with a trial sign-up form"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/cocounsel-legal-screenshot-1600.jpg",
+    "title": "Thomson Reuters CoCounsel Legal page",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legal.thomsonreuters.com/en/products/cocounsel-legal, captured 2026-11-20",
+    "alt_guidance": "CoCounsel Legal product page describing legal AI engineered to work at the level of a senior associate"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/cocounsel-legal-screenshot-800.jpg",
+    "title": "Thomson Reuters CoCounsel Legal page",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legal.thomsonreuters.com/en/products/cocounsel-legal, captured 2026-11-20",
+    "alt_guidance": "CoCounsel Legal product page describing legal AI engineered to work at the level of a senior associate"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/harvey-homepage-screenshot-1600.jpg",
+    "title": "Harvey homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.harvey.ai/, captured 2026-11-20",
+    "alt_guidance": "Harvey homepage headed Build a Frontier Legal Organization with a product dashboard"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/harvey-homepage-screenshot-800.jpg",
+    "title": "Harvey homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.harvey.ai/, captured 2026-11-20",
+    "alt_guidance": "Harvey homepage headed Build a Frontier Legal Organization with a product dashboard"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/vincent-clio-screenshot-1600.jpg",
+    "title": "Vincent by Clio page at vlex.com",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://vlex.com/, captured 2026-11-20",
+    "alt_guidance": "Clio page formerly vLex headed AI Engineered for Lawyers with demo and free trial buttons"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/vincent-clio-screenshot-800.jpg",
+    "title": "Vincent by Clio page at vlex.com",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://vlex.com/, captured 2026-11-20",
+    "alt_guidance": "Clio page formerly vLex headed AI Engineered for Lawyers with demo and free trial buttons"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/spellbook-homepage-screenshot-1600.jpg",
+    "title": "Spellbook homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://spellbook.com/, captured 2026-11-20",
+    "alt_guidance": "Spellbook homepage headed The complete contract AI suite with a Book a Demo button"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/spellbook-homepage-screenshot-800.jpg",
+    "title": "Spellbook homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://spellbook.com/, captured 2026-11-20",
+    "alt_guidance": "Spellbook homepage headed The complete contract AI suite with a Book a Demo button"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/litera-homepage-screenshot-1600.jpg",
+    "title": "Litera homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.litera.com/, captured 2026-11-20",
+    "alt_guidance": "Litera homepage headed Trusted Legal AI That Best Unifies the Practice and Business of Law"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/litera-homepage-screenshot-800.jpg",
+    "title": "Litera homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.litera.com/, captured 2026-11-20",
+    "alt_guidance": "Litera homepage headed Trusted Legal AI That Best Unifies the Practice and Business of Law"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/everlaw-homepage-screenshot-1600.jpg",
+    "title": "Everlaw homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.everlaw.com/, captured 2026-11-20",
+    "alt_guidance": "Everlaw homepage headed Do Evidence Justice with AI built for litigation and investigations"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/everlaw-homepage-screenshot-800.jpg",
+    "title": "Everlaw homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.everlaw.com/, captured 2026-11-20",
+    "alt_guidance": "Everlaw homepage headed Do Evidence Justice with AI built for litigation and investigations"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/relativity-air-screenshot-1600.jpg",
+    "title": "Relativity homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.relativity.com/, captured 2026-11-20",
+    "alt_guidance": "Relativity homepage headed We make legal AI simple with an Explore aiR button"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/relativity-air-screenshot-800.jpg",
+    "title": "Relativity homepage",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.relativity.com/, captured 2026-11-20",
+    "alt_guidance": "Relativity homepage headed We make legal AI simple with an Explore aiR button"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/microsoft-365-copilot-screenshot-1600.jpg",
+    "title": "Microsoft Copilot page",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.microsoft.com/en-us/microsoft-365/copilot, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Microsoft Copilot page headed AI built for work with Open Copilot and Download the app buttons"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/microsoft-365-copilot-screenshot-800.jpg",
+    "title": "Microsoft Copilot page",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.microsoft.com/en-us/microsoft-365/copilot, captured by the site owner and supplied 2026-11-20",
+    "alt_guidance": "Microsoft Copilot page headed AI built for work with Open Copilot and Download the app buttons"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/chatgpt-business-screenshot-1600.jpg",
+    "title": "ChatGPT Business page",
+    "use": "Blog 104 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://chatgpt.com/business/, captured 2026-11-20",
+    "alt_guidance": "ChatGPT Business page headed Teams accomplish more with ChatGPT"
+  },
+  {
+    "path": "/assets/images/posts/ai-tools-for-lawyers/chatgpt-business-screenshot-800.jpg",
+    "title": "ChatGPT Business page",
+    "use": "Blog 104 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://chatgpt.com/business/, captured 2026-11-20",
+    "alt_guidance": "ChatGPT Business page headed Teams accomplish more with ChatGPT"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/featured-practice-management-dashboard-1600.jpg",
+    "title": "",
+    "use": "Blog 105 featured image",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop showing a law practice dashboard linked to icons for clients, calendar, invoices, documents, and reports, beside a scale of justice and law books"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/featured-practice-management-dashboard-800.jpg",
+    "title": "",
+    "use": "Blog 105 featured image",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owned brand asset supplied by Verdict Point (owner upload, 2026-11-20)",
+    "alt_guidance": "Laptop showing a law practice dashboard linked to icons for clients, calendar, invoices, documents, and reports, beside a scale of justice and law books"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/clio-pricing-screenshot-1600.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 105 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter from $49 per user and Core, Signature, and Elite each showing Get pricing"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/clio-pricing-screenshot-800.jpg",
+    "title": "Clio pricing page",
+    "use": "Blog 105 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.clio.com/pricing/, captured by the site owner and supplied 2026-11-03",
+    "alt_guidance": "Clio Manage pricing page with Starter from $49 per user and Core, Signature, and Elite each showing Get pricing"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/mycase-pricing-screenshot-1600.jpg",
+    "title": "MyCase pricing page",
+    "use": "Blog 105 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.mycase.com/pricing/, captured 2026-11-20",
+    "alt_guidance": "MyCase pricing page showing Basic at $50, Pro at $100, and Advanced at $130 per user per month billed annually"
+  },
+  {
+    "path": "/assets/images/posts/clio-vs-mycase/mycase-pricing-screenshot-800.jpg",
+    "title": "MyCase pricing page",
+    "use": "Blog 105 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.mycase.com/pricing/, captured 2026-11-20",
+    "alt_guidance": "MyCase pricing page showing Basic at $50, Pro at $100, and Advanced at $130 per user per month billed annually"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/rankings-io-screenshot-1600.jpg",
+    "title": "Rankings.io homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://rankings.io/, captured 2026-11-20",
+    "alt_guidance": "Rankings.io homepage headed Own Legal Marketing. Win the Best Cases."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/rankings-io-screenshot-800.jpg",
+    "title": "Rankings.io homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://rankings.io/, captured 2026-11-20",
+    "alt_guidance": "Rankings.io homepage headed Own Legal Marketing. Win the Best Cases."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/hennessey-digital-screenshot-1600.jpg",
+    "title": "Hennessey Digital homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://hennessey.com/, captured 2026-11-20",
+    "alt_guidance": "Hennessey Digital homepage headed The Digital Marketing Agency You Wish You'd Hired First"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/hennessey-digital-screenshot-800.jpg",
+    "title": "Hennessey Digital homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://hennessey.com/, captured 2026-11-20",
+    "alt_guidance": "Hennessey Digital homepage headed The Digital Marketing Agency You Wish You'd Hired First"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/grow-law-screenshot-1600.jpg",
+    "title": "Grow Law homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://growlaw.co/, captured 2026-11-20",
+    "alt_guidance": "Grow Law homepage headed Get Found. Sign More Cases."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/grow-law-screenshot-800.jpg",
+    "title": "Grow Law homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://growlaw.co/, captured 2026-11-20",
+    "alt_guidance": "Grow Law homepage headed Get Found. Sign More Cases."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/juris-digital-screenshot-1600.jpg",
+    "title": "Juris Digital homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://jurisdigital.com/, captured 2026-11-20",
+    "alt_guidance": "Juris Digital homepage headed More of the value you want"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/juris-digital-screenshot-800.jpg",
+    "title": "Juris Digital homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://jurisdigital.com/, captured 2026-11-20",
+    "alt_guidance": "Juris Digital homepage headed More of the value you want"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/lawrank-screenshot-1600.jpg",
+    "title": "LawRank homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawrank.com/, captured 2026-11-20",
+    "alt_guidance": "LawRank homepage headed Law Firm Marketing That Wins You Cases"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/lawrank-screenshot-800.jpg",
+    "title": "LawRank homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawrank.com/, captured 2026-11-20",
+    "alt_guidance": "LawRank homepage headed Law Firm Marketing That Wins You Cases"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/consultwebs-screenshot-1600.jpg",
+    "title": "Consultwebs homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.consultwebs.com/, captured 2026-11-20",
+    "alt_guidance": "Consultwebs homepage headed Signed Cases. That's the Only Metric That Matters."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/consultwebs-screenshot-800.jpg",
+    "title": "Consultwebs homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.consultwebs.com/, captured 2026-11-20",
+    "alt_guidance": "Consultwebs homepage headed Signed Cases. That's the Only Metric That Matters."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/ilawyermarketing-screenshot-1600.jpg",
+    "title": "iLawyerMarketing homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.ilawyermarketing.com/, captured 2026-11-20",
+    "alt_guidance": "iLawyerMarketing homepage headed Get more signed cases for your law firm with smarter law firm marketing"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/ilawyermarketing-screenshot-800.jpg",
+    "title": "iLawyerMarketing homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.ilawyermarketing.com/, captured 2026-11-20",
+    "alt_guidance": "iLawyerMarketing homepage headed Get more signed cases for your law firm with smarter law firm marketing"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/blushark-digital-screenshot-1600.jpg",
+    "title": "BluShark Digital homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://blusharkdigital.com/, captured 2026-11-20",
+    "alt_guidance": "BluShark Digital homepage headed Your next case goes to the firm that shows up"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/blushark-digital-screenshot-800.jpg",
+    "title": "BluShark Digital homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://blusharkdigital.com/, captured 2026-11-20",
+    "alt_guidance": "BluShark Digital homepage headed Your next case goes to the firm that shows up"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/postali-screenshot-1600.jpg",
+    "title": "Postali homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.postali.com/, captured 2026-11-20",
+    "alt_guidance": "Postali homepage headed Finally. The Whole Package."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/postali-screenshot-800.jpg",
+    "title": "Postali homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.postali.com/, captured 2026-11-20",
+    "alt_guidance": "Postali homepage headed Finally. The Whole Package."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/on-the-map-marketing-screenshot-1600.jpg",
+    "title": "On The Map Marketing homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onthemap.com/, captured 2026-11-20",
+    "alt_guidance": "On The Map Marketing homepage headed Local Search Marketing Powerhouse"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-seo-companies/on-the-map-marketing-screenshot-800.jpg",
+    "title": "On The Map Marketing homepage",
+    "use": "Blog 106 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onthemap.com/, captured 2026-11-20",
+    "alt_guidance": "On The Map Marketing homepage headed Local Search Marketing Powerhouse"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/findlaw-screenshot-1600.jpg",
+    "title": "FindLaw lawyer marketing page",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.findlaw.com/lawyer-marketing/, captured 2026-11-20",
+    "alt_guidance": "FindLaw lawyer marketing page headed We help grow your firm with a consultation button"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/findlaw-screenshot-800.jpg",
+    "title": "FindLaw lawyer marketing page",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.findlaw.com/lawyer-marketing/, captured 2026-11-20",
+    "alt_guidance": "FindLaw lawyer marketing page headed We help grow your firm with a consultation button"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/lawlytics-pricing-screenshot-1600.jpg",
+    "title": "LawLytics pricing page",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lawlytics.com/pricing, captured 2026-11-20",
+    "alt_guidance": "LawLytics pricing page headed Plans for your practice, starting at $99 a month"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/lawlytics-pricing-screenshot-800.jpg",
+    "title": "LawLytics pricing page",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lawlytics.com/pricing, captured 2026-11-20",
+    "alt_guidance": "LawLytics pricing page headed Plans for your practice, starting at $99 a month"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/grow-law-screenshot-1600.jpg",
+    "title": "Grow Law homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://growlaw.co/, captured 2026-11-20",
+    "alt_guidance": "Grow Law homepage headed Get Found. Sign More Cases."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/grow-law-screenshot-800.jpg",
+    "title": "Grow Law homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://growlaw.co/, captured 2026-11-20",
+    "alt_guidance": "Grow Law homepage headed Get Found. Sign More Cases."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/consultwebs-screenshot-1600.jpg",
+    "title": "Consultwebs homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.consultwebs.com/, captured 2026-11-20",
+    "alt_guidance": "Consultwebs homepage headed Signed Cases. That's the Only Metric That Matters."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/consultwebs-screenshot-800.jpg",
+    "title": "Consultwebs homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.consultwebs.com/, captured 2026-11-20",
+    "alt_guidance": "Consultwebs homepage headed Signed Cases. That's the Only Metric That Matters."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/postali-screenshot-1600.jpg",
+    "title": "Postali homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.postali.com/, captured 2026-11-20",
+    "alt_guidance": "Postali homepage headed Finally. The Whole Package."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/postali-screenshot-800.jpg",
+    "title": "Postali homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.postali.com/, captured 2026-11-20",
+    "alt_guidance": "Postali homepage headed Finally. The Whole Package."
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/juris-digital-screenshot-1600.jpg",
+    "title": "Juris Digital homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://jurisdigital.com/, captured 2026-11-20",
+    "alt_guidance": "Juris Digital homepage headed More of the value you want"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/juris-digital-screenshot-800.jpg",
+    "title": "Juris Digital homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://jurisdigital.com/, captured 2026-11-20",
+    "alt_guidance": "Juris Digital homepage headed More of the value you want"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/ilawyermarketing-screenshot-1600.jpg",
+    "title": "iLawyerMarketing homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.ilawyermarketing.com/, captured 2026-11-20",
+    "alt_guidance": "iLawyerMarketing homepage headed Get more signed cases for your law firm with smarter law firm marketing"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/ilawyermarketing-screenshot-800.jpg",
+    "title": "iLawyerMarketing homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.ilawyermarketing.com/, captured 2026-11-20",
+    "alt_guidance": "iLawyerMarketing homepage headed Get more signed cases for your law firm with smarter law firm marketing"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/lawrank-screenshot-1600.jpg",
+    "title": "LawRank homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawrank.com/, captured 2026-11-20",
+    "alt_guidance": "LawRank homepage headed Law Firm Marketing That Wins You Cases"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/lawrank-screenshot-800.jpg",
+    "title": "LawRank homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://lawrank.com/, captured 2026-11-20",
+    "alt_guidance": "LawRank homepage headed Law Firm Marketing That Wins You Cases"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/on-the-map-marketing-screenshot-1600.jpg",
+    "title": "On The Map Marketing homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onthemap.com/, captured 2026-11-20",
+    "alt_guidance": "On The Map Marketing homepage headed Local Search Marketing Powerhouse"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/on-the-map-marketing-screenshot-800.jpg",
+    "title": "On The Map Marketing homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.onthemap.com/, captured 2026-11-20",
+    "alt_guidance": "On The Map Marketing homepage headed Local Search Marketing Powerhouse"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/blushark-digital-screenshot-1600.jpg",
+    "title": "BluShark Digital homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://blusharkdigital.com/, captured 2026-11-20",
+    "alt_guidance": "BluShark Digital homepage headed Your next case goes to the firm that shows up"
+  },
+  {
+    "path": "/assets/images/posts/law-firm-marketing-companies/blushark-digital-screenshot-800.jpg",
+    "title": "BluShark Digital homepage",
+    "use": "Blog 107 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://blusharkdigital.com/, captured 2026-11-20",
+    "alt_guidance": "BluShark Digital homepage headed Your next case goes to the firm that shows up"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/westlaw-advantage-pricing-screenshot-1600.jpg",
+    "title": "Westlaw Advantage plans and pricing page",
+    "use": "Blog 108 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing, captured 2026-11-20",
+    "alt_guidance": "Westlaw Advantage plans and pricing page with a step-by-step plan builder and order summary"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/westlaw-advantage-pricing-screenshot-800.jpg",
+    "title": "Westlaw Advantage plans and pricing page",
+    "use": "Blog 108 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://sales.legalsolutions.thomsonreuters.com/en-us/products/westlaw-advantage/plans-pricing, captured 2026-11-20",
+    "alt_guidance": "Westlaw Advantage plans and pricing page with a step-by-step plan builder and order summary"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/westlaw-versions-screenshot-1600.jpg",
+    "title": "Thomson Reuters Westlaw product page",
+    "use": "Blog 108 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legal.thomsonreuters.com/en/products/westlaw, captured 2026-11-20",
+    "alt_guidance": "Westlaw page listing Westlaw Edge, Westlaw Edge with AI-Assisted Research, and Westlaw Advantage"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/westlaw-versions-screenshot-800.jpg",
+    "title": "Thomson Reuters Westlaw product page",
+    "use": "Blog 108 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legal.thomsonreuters.com/en/products/westlaw, captured 2026-11-20",
+    "alt_guidance": "Westlaw page listing Westlaw Edge, Westlaw Edge with AI-Assisted Research, and Westlaw Advantage"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/lexis-protege-screenshot-1600.jpg",
+    "title": "Lexis+ with Protégé product page",
+    "use": "Blog 108 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page, captured 2026-11-20",
+    "alt_guidance": "Lexis+ with Protege product page headed Legal AI, built on authority, with a skills search box"
+  },
+  {
+    "path": "/assets/images/posts/lexis-vs-westlaw/lexis-protege-screenshot-800.jpg",
+    "title": "Lexis+ with Protégé product page",
+    "use": "Blog 108 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page, captured 2026-11-20",
+    "alt_guidance": "Lexis+ with Protege product page headed Legal AI, built on authority, with a skills search box"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawyerist-podcast-screenshot-1600.jpg",
+    "title": "Lawyerist Podcast page on Legal Talk Network",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lawyerist-podcast/, captured 2026-11-21",
+    "alt_guidance": "Lawyerist Podcast page on Legal Talk Network with hosts and recent episodes"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawyerist-podcast-screenshot-800.jpg",
+    "title": "Lawyerist Podcast page on Legal Talk Network",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lawyerist-podcast/, captured 2026-11-21",
+    "alt_guidance": "Lawyerist Podcast page on Legal Talk Network with hosts and recent episodes"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/un-billable-hour-screenshot-1600.jpg",
+    "title": "Un-Billable Hour page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/un-billable-hour/, captured 2026-11-21",
+    "alt_guidance": "Un-Billable Hour podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/un-billable-hour-screenshot-800.jpg",
+    "title": "Un-Billable Hour page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/un-billable-hour/, captured 2026-11-21",
+    "alt_guidance": "Un-Billable Hour podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/legal-toolkit-screenshot-1600.jpg",
+    "title": "Legal Toolkit page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/legal-toolkit/, captured 2026-11-21",
+    "alt_guidance": "Legal Toolkit podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/legal-toolkit-screenshot-800.jpg",
+    "title": "Legal Toolkit page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/legal-toolkit/, captured 2026-11-21",
+    "alt_guidance": "Legal Toolkit podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/kennedy-mighell-report-screenshot-1600.jpg",
+    "title": "Kennedy-Mighell Report page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/kennedy-mighell-report/, captured 2026-11-21",
+    "alt_guidance": "Kennedy-Mighell Report podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/kennedy-mighell-report-screenshot-800.jpg",
+    "title": "Kennedy-Mighell Report page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/kennedy-mighell-report/, captured 2026-11-21",
+    "alt_guidance": "Kennedy-Mighell Report podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/legal-geeks-screenshot-1600.jpg",
+    "title": "The Legal Geek Podcasts page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://thelegalgeeks.com/the-legal-geek-podcasts/, captured 2026-11-21",
+    "alt_guidance": "The Legal Geek Podcasts page with an embedded player and episode list"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/legal-geeks-screenshot-800.jpg",
+    "title": "The Legal Geek Podcasts page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://thelegalgeeks.com/the-legal-geek-podcasts/, captured 2026-11-21",
+    "alt_guidance": "The Legal Geek Podcasts page with an embedded player and episode list"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lunch-hour-legal-marketing-screenshot-1600.jpg",
+    "title": "Lunch Hour Legal Marketing page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lunch-hour-legal-marketing/, captured 2026-11-21",
+    "alt_guidance": "Lunch Hour Legal Marketing podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lunch-hour-legal-marketing-screenshot-800.jpg",
+    "title": "Lunch Hour Legal Marketing page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lunch-hour-legal-marketing/, captured 2026-11-21",
+    "alt_guidance": "Lunch Hour Legal Marketing podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/litigation-radio-screenshot-1600.jpg",
+    "title": "Litigation Radio page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/litigation-radio/, captured 2026-11-21",
+    "alt_guidance": "Litigation Radio podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/litigation-radio-screenshot-800.jpg",
+    "title": "Litigation Radio page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/litigation-radio/, captured 2026-11-21",
+    "alt_guidance": "Litigation Radio podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawyer-2-lawyer-screenshot-1600.jpg",
+    "title": "Lawyer 2 Lawyer page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lawyer-2-lawyer/, captured 2026-11-21",
+    "alt_guidance": "Lawyer 2 Lawyer podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawyer-2-lawyer-screenshot-800.jpg",
+    "title": "Lawyer 2 Lawyer page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lawyer-2-lawyer/, captured 2026-11-21",
+    "alt_guidance": "Lawyer 2 Lawyer podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/thinking-like-a-lawyer-screenshot-1600.jpg",
+    "title": "Above the Law Thinking Like a Lawyer on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/above-the-law-thinking-like-a-lawyer/id976331027, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for Above the Law Thinking Like a Lawyer with recent episodes"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/thinking-like-a-lawyer-screenshot-800.jpg",
+    "title": "Above the Law Thinking Like a Lawyer on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/above-the-law-thinking-like-a-lawyer/id976331027, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for Above the Law Thinking Like a Lawyer with recent episodes"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/amicus-screenshot-1600.jpg",
+    "title": "Slate Amicus podcast page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://slate.com/podcasts/amicus, captured 2026-11-21",
+    "alt_guidance": "Slate Amicus podcast page with host Dahlia Lithwick"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/amicus-screenshot-800.jpg",
+    "title": "Slate Amicus podcast page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://slate.com/podcasts/amicus, captured 2026-11-21",
+    "alt_guidance": "Slate Amicus podcast page with host Dahlia Lithwick"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/strict-scrutiny-screenshot-1600.jpg",
+    "title": "Strict Scrutiny page on Crooked Media",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://crooked.com/podcast-series/strict-scrutiny/, captured 2026-11-21",
+    "alt_guidance": "Strict Scrutiny podcast page on Crooked Media"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/strict-scrutiny-screenshot-800.jpg",
+    "title": "Strict Scrutiny page on Crooked Media",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://crooked.com/podcast-series/strict-scrutiny/, captured 2026-11-21",
+    "alt_guidance": "Strict Scrutiny podcast page on Crooked Media"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/bloomberg-law-screenshot-1600.jpg",
+    "title": "Bloomberg Law podcast on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/bloomberg-law/id277975394, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for Bloomberg Law hosted by June Grasso"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/bloomberg-law-screenshot-800.jpg",
+    "title": "Bloomberg Law podcast on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/bloomberg-law/id277975394, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for Bloomberg Law hosted by June Grasso"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawfare-podcast-screenshot-1600.jpg",
+    "title": "The Lawfare Podcast on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/the-lawfare-podcast/id498897343, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for The Lawfare Podcast from The Lawfare Institute"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawfare-podcast-screenshot-800.jpg",
+    "title": "The Lawfare Podcast on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/the-lawfare-podcast/id498897343, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for The Lawfare Podcast from The Lawfare Institute"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/modern-law-library-screenshot-1600.jpg",
+    "title": "Modern Law Library page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/modern-law-library/, captured 2026-11-21",
+    "alt_guidance": "Modern Law Library podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/modern-law-library-screenshot-800.jpg",
+    "title": "Modern Law Library page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/modern-law-library/, captured 2026-11-21",
+    "alt_guidance": "Modern Law Library podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/in-dispute-screenshot-1600.jpg",
+    "title": "In Dispute page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/in-dispute/, captured 2026-11-21",
+    "alt_guidance": "In Dispute podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/in-dispute-screenshot-800.jpg",
+    "title": "In Dispute page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/in-dispute/, captured 2026-11-21",
+    "alt_guidance": "In Dispute podcast page on Legal Talk Network"
   }
 ]

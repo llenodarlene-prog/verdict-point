@@ -11,13 +11,13 @@ primary_keyword: legal research software
 cluster: Legal Tech
 launch_silo: Legal AI
 silo_role: Supporting
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/free-legal-ai/; /legal-tech/legal-practice-management-software/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/free-legal-ai/; /legal-tech/legal-practice-management-software/; /legal-tech/lexis-vs-westlaw/
 research_record: content/research/blog-69.json
 image: /assets/images/posts/legal-research-software/lawyer-researching-case-law-dual-monitors-1600.jpg
 image_alt: Lawyer reading a case book while research results fill two monitors and a tablet in a law library office
 author: Darlene Aberin
 published: 2026-10-31
-modified: 2026-10-31
+modified: 2026-11-20
 ---
 
 # 7 Legal Research Software Options Compared
@@ -243,7 +243,7 @@ Free sources can support primary-law research, but coverage, citators, alerts, a
 
 ### What Is the Difference Between Westlaw and Lexis+?
 
-Both offer broad legal research and citation checking. Westlaw uses KeyCite, while Lexis+ uses Shepard's, and each package includes different content and workflow tools.
+Both offer broad legal research and citation checking. Westlaw uses KeyCite, while Lexis+ uses Shepard's, and each package includes different content and workflow tools. Our [Lexis vs Westlaw](/legal-tech/lexis-vs-westlaw/) comparison covers their AI agents and pricing.
 
 ### Does Legal Research AI Eliminate Hallucinations?
 

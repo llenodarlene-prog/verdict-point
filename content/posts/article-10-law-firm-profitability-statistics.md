@@ -11,7 +11,7 @@ primary_keyword: law firm profitability statistics
 cluster: Law Firms
 launch_silo: Law Firm Economics
 silo_role: Hub
-approved_internal_links: /law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/retainer-fee/; /law-firms/legal-billing-chart/
+approved_internal_links: /law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/retainer-fee/; /law-firms/legal-billing-chart/; /law-firms/legal-podcasts/
 research_record: content/research/article-10.json
 image: /assets/images/posts/law-firm-profitability-statistics/featured-partners-reviewing-charts-1600.jpg
 image_alt: Four lawyers around a conference table as one points to bar and donut charts on a laptop
@@ -19,7 +19,7 @@ source_document: https://docs.google.com/document/d/18r6jRfZn1tEbDf53Rwrl5cOW4tY
 author: Darlene Aberin
 published: 2026-11-24
 publish_time: 10:15
-modified: 2026-11-14
+modified: 2026-11-20
 ---
 
 # Law Firm Profitability Statistics: Growth, Margin, and Cost Pressure
@@ -110,7 +110,7 @@ A firm should code the reason for each reduction. That makes it possible to sepa
 
 A high collection rate supports cash flow, yet timing still matters. Invoices that remain unpaid for months can strain payroll and distributions. Review collection rates beside accounts-receivable aging and lockup days. Payment terms matter here too: [LawPay fees and legal payments](/legal-tech/lawpay-legal-payments-fees/) affect net cash, a clear [retainer fee](/law-firms/retainer-fee/) arrangement can reduce unpaid balances, and a [legal billing chart](/law-firms/legal-billing-chart/) helps timekeepers record time consistently.
 
-The related [law firm billing statistics](/law-firms/law-firm-billing-statistics/) explain how utilization, realization, collection, and lockup fit together. Profit reviews should include those operating signals without confusing them with margin.
+The related [law firm billing statistics](/law-firms/law-firm-billing-statistics/) explain how utilization, realization, collection, and lockup fit together. Profit reviews should include those operating signals without confusing them with margin. Several [legal podcasts](/law-firms/legal-podcasts/) for firm owners discuss these measures in practical terms.
 
 ## Build a Profit Bridge From Revenue to Distributable Profit
 

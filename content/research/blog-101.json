@@ -1,0 +1,422 @@
+{
+  "tracker_id": "Blog:101",
+  "status": "verified",
+  "research_question": "Owner-approved addition: DocuSign vs Adobe Sign for Legal and Business Teams. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for docusign vs adobe sign, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-20",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft had generic positioning only; added verified tier features and both DocuSign price views (annual and annual-billed-monthly). Acrobat Sign Solutions page returned an error, so it is described only through Adobe's pricing page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "docusign vs adobe sign",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-12",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-20"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "docusign vs adobe sign",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 28,
+        "cpc": 38.8,
+        "intent": "Commercial",
+        "ranking_url": "http://betterproposals.io/blog/adobe-sign-vs-docusign/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "adobe sign vs docusign",
+        "type": "long-tail",
+        "volume": 1300,
+        "difficulty": 26,
+        "cpc": 25.36,
+        "intent": "Commercial",
+        "ranking_url": "http://betterproposals.io/blog/adobe-sign-vs-docusign/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "docusign vs adobe sign pricing",
+        "type": "commercial",
+        "volume": 50,
+        "difficulty": 33,
+        "cpc": 39.88,
+        "intent": "Commercial",
+        "ranking_url": "http://betterproposals.io/blog/adobe-sign-vs-docusign/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "cost of docusign vs adobe sign",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 20,
+        "cpc": 20.82,
+        "intent": "Commercial",
+        "ranking_url": "http://betterproposals.io/blog/adobe-sign-vs-docusign/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "docusign vs adobe sign comparison",
+        "type": "question",
+        "volume": 30,
+        "difficulty": 27,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://betterproposals.io/blog/adobe-sign-vs-docusign/",
+        "retrieved_at": "2026-11-20",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+      "title": "DocuSign eSignature plans and pricing",
+      "publisher": "ecom.docusign.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "DocuSign eSignature plans and pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.adobe.com/acrobat/business/pricing-plans.html",
+      "title": "Adobe Acrobat business pricing",
+      "publisher": "adobe.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "Adobe Acrobat business pricing",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.docusign.com/products/electronic-signature",
+      "title": "DocuSign eSignature product page",
+      "publisher": "docusign.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "DocuSign eSignature product page",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.law.cornell.edu/uscode/text/15/7001",
+      "title": "15 U.S.C. 7001 (Legal Information Institute)",
+      "publisher": "law.cornell.edu",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-20",
+      "scope": "15 U.S.C. 7001 (Legal Information Institute)",
+      "method": "Opened and read the live page on 2026-11-20 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-20; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "DocuSign Standard and Business Pro include up to 100 envelopes per user per year; Business Pro adds bulk send, payment collection, signer attachments, and PowerForms; HIPAA BAA, FedRAMP, and 21 CFR Part 11 are contact-sales items.",
+      "source_url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Acrobat Standard for teams costs US$16.99 per license per month and Acrobat Pro US$23.99; Adobe says Standard and Pro e-signatures do not offer the same compliance level as Acrobat Sign Solutions.",
+      "source_url": "https://www.adobe.com/acrobat/business/pricing-plans.html",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Under 15 U.S.C. 7001(a)(1), a signature or contract may not be denied legal effect solely because it is in electronic form; 7001(c) requires affirmative consumer consent for electronic records that replace required writings.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/7001",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Adobe Sign vs. DocuSign - Which is the Better Signature Tool",
+      "url": "http://betterproposals.io/blog/adobe-sign-vs-docusign/",
+      "publisher": "betterproposals.io",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Adobe Sign vs Docusign: Which is the Right Tool for You?",
+      "url": "http://qwilr.com/blog/adobe-sign-vs-docusign/",
+      "publisher": "qwilr.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Adobe Sign vs DocuSign in 2026: Honest Comparison",
+      "url": "http://zignt.com/blog/adobe-sign-vs-docusign",
+      "publisher": "zignt.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "DocuSign Alternatives in 2026",
+      "url": "http://esignatures.com/docs/docusign_alternatives",
+      "publisher": "esignatures.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "8 Best Alternatives to Docusign for E-Signatures (2026)",
+      "url": "http://www.lexagle.com/blog-en-sg/best-docusign-alternatives-for-electronic-signatures",
+      "publisher": "lexagle.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-12)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A same-day plan-by-plan check of both vendors' published prices, envelope limits, and tier features, a five-user annual cost table, and the ESIGN Act consent rule law firms must build into either product.",
+  "plan": {
+    "reader_title": "DocuSign vs Adobe Sign for Legal and Business Teams",
+    "seo_title": "DocuSign vs Adobe Sign: Pricing and Legal-Team Fit 2026",
+    "meta_description": "Compare DocuSign vs Adobe Sign on published 2026 prices, envelope limits, plan features, and fit for law firms that live in PDFs or in signing workflows.",
+    "slug": "/legal-tech/docusign-vs-adobe-sign/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "adobe sign vs docusign",
+      "docusign vs adobe sign pricing",
+      "cost of docusign vs adobe sign"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "DocuSign vs Adobe Sign at a Glance",
+      "How We Compared DocuSign and Adobe Sign",
+      "DocuSign eSignature: Plans and Features",
+      "Adobe Acrobat: Plans and Features",
+      "Price Comparison for a Five-Lawyer Team",
+      "Which One Fits Your Workflow?",
+      "Are Electronic Signatures Legally Binding?",
+      "Questions to Ask Before You Sign",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://ecom.docusign.com/plans-and-pricing/esignature"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.adobe.com/acrobat/business/pricing-plans.html"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.docusign.com/products/electronic-signature"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/docusign-alternatives/"
+    ],
+    "external_link_opportunities": [
+      "https://ecom.docusign.com/plans-and-pricing/esignature",
+      "https://www.adobe.com/acrobat/business/pricing-plans.html",
+      "https://www.docusign.com/products/electronic-signature",
+      "https://www.law.cornell.edu/uscode/text/15/7001"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "DocuSign Standard and Business Pro include up to 100 envelopes per user per year; Business Pro adds bulk send, payment collection, signer attachments, and PowerForms; HIPAA BAA, FedRAMP, and 21 CFR Part 11 are contact-sales items.",
+      "source_url": "https://ecom.docusign.com/plans-and-pricing/esignature",
+      "verified": true
+    },
+    {
+      "statement": "Acrobat Standard for teams costs US$16.99 per license per month and Acrobat Pro US$23.99; Adobe says Standard and Pro e-signatures do not offer the same compliance level as Acrobat Sign Solutions.",
+      "source_url": "https://www.adobe.com/acrobat/business/pricing-plans.html",
+      "verified": true
+    },
+    {
+      "statement": "Under 15 U.S.C. 7001(a)(1), a signature or contract may not be denied legal effect solely because it is in electronic form; 7001(c) requires affirmative consumer consent for electronic records that replace required writings.",
+      "source_url": "https://www.law.cornell.edu/uscode/text/15/7001",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-20"
+  }
+}
