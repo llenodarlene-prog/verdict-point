@@ -5418,5 +5418,305 @@
     "rights_status": "approved",
     "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://www.lexisnexis.com/en-us/products/lexis-plus-protege.page, captured 2026-11-20",
     "alt_guidance": "Lexis+ with Protege product page headed Legal AI, built on authority, with a skills search box"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawyerist-podcast-screenshot-1600.jpg",
+    "title": "Lawyerist Podcast page on Legal Talk Network",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lawyerist-podcast/, captured 2026-11-21",
+    "alt_guidance": "Lawyerist Podcast page on Legal Talk Network with hosts and recent episodes"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawyerist-podcast-screenshot-800.jpg",
+    "title": "Lawyerist Podcast page on Legal Talk Network",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lawyerist-podcast/, captured 2026-11-21",
+    "alt_guidance": "Lawyerist Podcast page on Legal Talk Network with hosts and recent episodes"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/un-billable-hour-screenshot-1600.jpg",
+    "title": "Un-Billable Hour page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/un-billable-hour/, captured 2026-11-21",
+    "alt_guidance": "Un-Billable Hour podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/un-billable-hour-screenshot-800.jpg",
+    "title": "Un-Billable Hour page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/un-billable-hour/, captured 2026-11-21",
+    "alt_guidance": "Un-Billable Hour podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/legal-toolkit-screenshot-1600.jpg",
+    "title": "Legal Toolkit page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/legal-toolkit/, captured 2026-11-21",
+    "alt_guidance": "Legal Toolkit podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/legal-toolkit-screenshot-800.jpg",
+    "title": "Legal Toolkit page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/legal-toolkit/, captured 2026-11-21",
+    "alt_guidance": "Legal Toolkit podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/kennedy-mighell-report-screenshot-1600.jpg",
+    "title": "Kennedy-Mighell Report page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/kennedy-mighell-report/, captured 2026-11-21",
+    "alt_guidance": "Kennedy-Mighell Report podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/kennedy-mighell-report-screenshot-800.jpg",
+    "title": "Kennedy-Mighell Report page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/kennedy-mighell-report/, captured 2026-11-21",
+    "alt_guidance": "Kennedy-Mighell Report podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/legal-geeks-screenshot-1600.jpg",
+    "title": "The Legal Geek Podcasts page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://thelegalgeeks.com/the-legal-geek-podcasts/, captured 2026-11-21",
+    "alt_guidance": "The Legal Geek Podcasts page with an embedded player and episode list"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/legal-geeks-screenshot-800.jpg",
+    "title": "The Legal Geek Podcasts page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://thelegalgeeks.com/the-legal-geek-podcasts/, captured 2026-11-21",
+    "alt_guidance": "The Legal Geek Podcasts page with an embedded player and episode list"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lunch-hour-legal-marketing-screenshot-1600.jpg",
+    "title": "Lunch Hour Legal Marketing page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lunch-hour-legal-marketing/, captured 2026-11-21",
+    "alt_guidance": "Lunch Hour Legal Marketing podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lunch-hour-legal-marketing-screenshot-800.jpg",
+    "title": "Lunch Hour Legal Marketing page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lunch-hour-legal-marketing/, captured 2026-11-21",
+    "alt_guidance": "Lunch Hour Legal Marketing podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/litigation-radio-screenshot-1600.jpg",
+    "title": "Litigation Radio page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/litigation-radio/, captured 2026-11-21",
+    "alt_guidance": "Litigation Radio podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/litigation-radio-screenshot-800.jpg",
+    "title": "Litigation Radio page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/litigation-radio/, captured 2026-11-21",
+    "alt_guidance": "Litigation Radio podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawyer-2-lawyer-screenshot-1600.jpg",
+    "title": "Lawyer 2 Lawyer page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lawyer-2-lawyer/, captured 2026-11-21",
+    "alt_guidance": "Lawyer 2 Lawyer podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawyer-2-lawyer-screenshot-800.jpg",
+    "title": "Lawyer 2 Lawyer page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/lawyer-2-lawyer/, captured 2026-11-21",
+    "alt_guidance": "Lawyer 2 Lawyer podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/thinking-like-a-lawyer-screenshot-1600.jpg",
+    "title": "Above the Law Thinking Like a Lawyer on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/above-the-law-thinking-like-a-lawyer/id976331027, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for Above the Law Thinking Like a Lawyer with recent episodes"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/thinking-like-a-lawyer-screenshot-800.jpg",
+    "title": "Above the Law Thinking Like a Lawyer on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/above-the-law-thinking-like-a-lawyer/id976331027, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for Above the Law Thinking Like a Lawyer with recent episodes"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/amicus-screenshot-1600.jpg",
+    "title": "Slate Amicus podcast page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://slate.com/podcasts/amicus, captured 2026-11-21",
+    "alt_guidance": "Slate Amicus podcast page with host Dahlia Lithwick"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/amicus-screenshot-800.jpg",
+    "title": "Slate Amicus podcast page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://slate.com/podcasts/amicus, captured 2026-11-21",
+    "alt_guidance": "Slate Amicus podcast page with host Dahlia Lithwick"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/strict-scrutiny-screenshot-1600.jpg",
+    "title": "Strict Scrutiny page on Crooked Media",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://crooked.com/podcast-series/strict-scrutiny/, captured 2026-11-21",
+    "alt_guidance": "Strict Scrutiny podcast page on Crooked Media"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/strict-scrutiny-screenshot-800.jpg",
+    "title": "Strict Scrutiny page on Crooked Media",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://crooked.com/podcast-series/strict-scrutiny/, captured 2026-11-21",
+    "alt_guidance": "Strict Scrutiny podcast page on Crooked Media"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/bloomberg-law-screenshot-1600.jpg",
+    "title": "Bloomberg Law podcast on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/bloomberg-law/id277975394, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for Bloomberg Law hosted by June Grasso"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/bloomberg-law-screenshot-800.jpg",
+    "title": "Bloomberg Law podcast on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/bloomberg-law/id277975394, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for Bloomberg Law hosted by June Grasso"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawfare-podcast-screenshot-1600.jpg",
+    "title": "The Lawfare Podcast on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/the-lawfare-podcast/id498897343, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for The Lawfare Podcast from The Lawfare Institute"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/lawfare-podcast-screenshot-800.jpg",
+    "title": "The Lawfare Podcast on Apple Podcasts",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://podcasts.apple.com/us/podcast/the-lawfare-podcast/id498897343, captured 2026-11-21",
+    "alt_guidance": "Apple Podcasts page for The Lawfare Podcast from The Lawfare Institute"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/modern-law-library-screenshot-1600.jpg",
+    "title": "Modern Law Library page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/modern-law-library/, captured 2026-11-21",
+    "alt_guidance": "Modern Law Library podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/modern-law-library-screenshot-800.jpg",
+    "title": "Modern Law Library page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/modern-law-library/, captured 2026-11-21",
+    "alt_guidance": "Modern Law Library podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/in-dispute-screenshot-1600.jpg",
+    "title": "In Dispute page",
+    "use": "Blog 109 tool screenshot",
+    "width": 1600,
+    "height": 900,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/in-dispute/, captured 2026-11-21",
+    "alt_guidance": "In Dispute podcast page on Legal Talk Network"
+  },
+  {
+    "path": "/assets/images/posts/legal-podcasts/in-dispute-screenshot-800.jpg",
+    "title": "In Dispute page",
+    "use": "Blog 109 tool screenshot",
+    "width": 800,
+    "height": 450,
+    "rights_status": "approved",
+    "rights_source": "Owner-approved editorial screenshot of a public vendor page, https://legaltalknetwork.com/podcasts/in-dispute/, captured 2026-11-21",
+    "alt_guidance": "In Dispute podcast page on Legal Talk Network"
   }
 ]

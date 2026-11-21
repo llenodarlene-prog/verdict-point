@@ -389,7 +389,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Law Firm Billing Statistics and Uncollected Work\". Reader needs a defined dataset or measurement method. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/law-firms/law-firm-billing-statistics/",
-    "internal_link_targets_launch_set": "/law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/lawpay-legal-payments-fees/",
+    "internal_link_targets_launch_set": "/law-firms/law-firm-profitability-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/smokeball-legal-software-time-capture/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/legal-podcasts/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Law Firm Economics",
@@ -401,7 +401,8 @@
       "/law-firms/law-firm-profitability-statistics/",
       "/legal-tech/clio-legal-software-total-cost/",
       "/legal-tech/smokeball-legal-software-time-capture/",
-      "/legal-tech/lawpay-legal-payments-fees/"
+      "/legal-tech/lawpay-legal-payments-fees/",
+      "/law-firms/legal-podcasts/"
     ]
   },
   {
@@ -432,7 +433,7 @@
     "intent_rationale": "Informational is an editorial classification for \"Law Firm Profitability Statistics by Practice Size\". Reader needs a defined dataset or measurement method. Intent is inferred from the query; no positive volume estimate is available.",
     "no_data_publish_decision": "Editorial brief prepared; verify sources and search-result fit before publication.",
     "url_slug": "/law-firms/law-firm-profitability-statistics/",
-    "internal_link_targets_launch_set": "/law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/retainer-fee/; /law-firms/legal-billing-chart/",
+    "internal_link_targets_launch_set": "/law-firms/law-firm-billing-statistics/; /legal-marketing/law-firm-marketing-statistics/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/litify-legal-software-implementation/; /legal-tech/lawpay-legal-payments-fees/; /law-firms/retainer-fee/; /law-firms/legal-billing-chart/; /law-firms/legal-podcasts/",
     "seo_title": null,
     "meta_description": null,
     "launch_silo": "Law Firm Economics",
@@ -447,7 +448,8 @@
       "/legal-tech/litify-legal-software-implementation/",
       "/legal-tech/lawpay-legal-payments-fees/",
       "/law-firms/retainer-fee/",
-      "/law-firms/legal-billing-chart/"
+      "/law-firms/legal-billing-chart/",
+      "/law-firms/legal-podcasts/"
     ]
   },
   {
@@ -3752,6 +3754,49 @@
       "/legal-tech/legal-research-software/",
       "/legal-tech/ai-tools-for-lawyers/",
       "/legal-tech/lexisnexis-legal-ai-source-checking/"
+    ]
+  },
+  {
+    "_source_row": null,
+    "type": "Blog",
+    "working_title": "15 Best Legal Podcasts for Lawyers and Law Firm Leaders",
+    "primary_keyword": "legal podcasts",
+    "secondary_keywords": "best legal podcasts; best legal podcasts for lawyers; legal podcasts for law students",
+    "cluster": "Law Firms",
+    "intent": "Informational",
+    "priority": "P2",
+    "geo_aeo": "Medium",
+    "linkable": "Medium",
+    "status": "Ready",
+    "ahrefs_volume": null,
+    "ahrefs_kd": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "ai_overview": "",
+    "research_status": "Owner-approved addition (2026-11-20). Ubersuggest 2026-11-21: 880 U.S. monthly volume, SEO difficulty 35.",
+    "data_source_plan": "Owner-supplied draft for legal podcasts; every cited source checked on 2026-11-21.",
+    "medium_variation": "",
+    "medium_angle": "",
+    "telegraph_variation": "",
+    "telegraph_angle": "",
+    "search_intent_value": "Owner-approved addition",
+    "intent_type": "Informational",
+    "intent_rationale": "Ubersuggest marks legal podcasts as informational.",
+    "no_data_publish_decision": "Publish: owner approved 2026-11-20.",
+    "url_slug": "/law-firms/legal-podcasts/",
+    "internal_link_targets_launch_set": "/law-firms/law-firm-profitability-statistics/; /law-firms/law-firm-billing-statistics/; /legal-tech/ai-tools-for-lawyers/; /legal-marketing/law-firm-marketing-companies/",
+    "seo_title": "15 Best Legal Podcasts for Lawyers and Firm Leaders",
+    "meta_description": "Fifteen legal podcasts for lawyers and firm leaders, grouped by practice management, legal tech, marketing, litigation, and news, with episodes checked November 2026.",
+    "launch_silo": "Law Firm Economics",
+    "silo_role": "Supporting",
+    "research_brief": null,
+    "deep_research_stage": null,
+    "content_number": "109",
+    "internal_link_targets": [
+      "/law-firms/law-firm-profitability-statistics/",
+      "/law-firms/law-firm-billing-statistics/",
+      "/legal-tech/ai-tools-for-lawyers/",
+      "/legal-marketing/law-firm-marketing-companies/"
     ]
   }
 ]

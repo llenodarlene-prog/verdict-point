@@ -5,7 +5,7 @@ description: Compare LegalZoom vs Rocket Lawyer on LLC formation, wills, attorne
 slug: /legal-business/legalzoom-vs-rocket-lawyer/
 type: blog
 schema: BlogPosting
-draft: false
+draft: true
 tracker_id: Blog:103
 primary_keyword: legalzoom vs rocket lawyer
 cluster: Legal Business

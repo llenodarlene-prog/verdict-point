@@ -5,7 +5,7 @@ description: Compare eight LegalZoom alternatives for LLC formation, registered 
 slug: /legal-business/legalzoom-alternatives/
 type: blog
 schema: BlogPosting
-draft: false
+draft: true
 tracker_id: Blog:102
 primary_keyword: legalzoom alternatives
 cluster: Legal Business
