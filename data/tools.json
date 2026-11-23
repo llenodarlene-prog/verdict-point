@@ -102,5 +102,13 @@
     "category": "Estates and Probate",
     "task": "Apply a probate fee schedule",
     "description": "Calculate the Florida probate attorney fee presumed reasonable from the estate's compensable value, with every bracket shown."
+  },
+  {
+    "name": "Impairment Rating Payout Calculator",
+    "url": "/tools/impairment-rating-payout-calculator/",
+    "icon": "scale",
+    "category": "Fees and Settlements",
+    "task": "Estimate impairment benefits",
+    "description": "Estimate Florida workers' compensation impairment income benefits from the average weekly wage and impairment rating, with each step shown."
   }
 ]
