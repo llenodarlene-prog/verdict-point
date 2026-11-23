@@ -110,5 +110,13 @@
     "category": "Fees and Settlements",
     "task": "Estimate impairment benefits",
     "description": "Estimate Florida workers' compensation impairment income benefits from the average weekly wage and impairment rating, with each step shown."
+  },
+  {
+    "name": "Workers Comp Calculator",
+    "url": "/tools/workers-comp-calculator/",
+    "icon": "scale",
+    "category": "Fees and Settlements",
+    "task": "Estimate weekly comp checks",
+    "description": "Estimate Florida workers' compensation temporary total and partial disability checks from the average weekly wage, with the waiting period and 104-week limit applied."
   }
 ]
