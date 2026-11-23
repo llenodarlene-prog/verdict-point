@@ -1,0 +1,22 @@
+<section class="bhc seo" id="calculator" aria-labelledby="ppd-title" data-calc="ppd">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="ppd-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Florida rules: 2026 Florida Statutes, sections 440.15 and 440.12, and the Florida Division of Workers' Compensation maximum rate table, reviewed November 23, 2026. For accidents on or after October 1, 2003.</p>
+  <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The benefit schedule and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:scale}}Florida Claim Details</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="ppd-aww">Average weekly wage ($)</label><input id="ppd-aww" name="aww" inputmode="decimal" aria-describedby="ppd-aww-help ppd-aww-err"><p class="bhc-note" id="ppd-aww-help">Usually from the 13 weeks before the injury.</p><p class="bhc-err" id="ppd-aww-err"></p></div>
+      <div class="bhc-field"><label for="ppd-rating">Impairment rating (%)</label><input id="ppd-rating" name="rating" inputmode="decimal" aria-describedby="ppd-rating-help ppd-rating-err"><p class="bhc-note" id="ppd-rating-help">Whole-body rating from the authorized doctor.</p><p class="bhc-err" id="ppd-rating-err"></p></div>
+      <div class="bhc-field"><label for="ppd-year">Year of injury</label><select id="ppd-year" name="year" aria-describedby="ppd-year-help"><option value="2026">2026 (maximum $1,358)</option><option value="2025">2025 (maximum $1,295)</option></select><p class="bhc-note" id="ppd-year-help">Sets the weekly maximum.</p></div>
+      <div class="bhc-field"><label for="ppd-workWeeks">Weeks earning your full wage or more (optional)</label><input id="ppd-workWeeks" name="workWeeks" inputmode="numeric" aria-describedby="ppd-workWeeks-help ppd-workWeeks-err"><p class="bhc-note" id="ppd-workWeeks-help">Those weeks are paid at half.</p><p class="bhc-err" id="ppd-workWeeks-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="ppd-result-h"><h3 id="ppd-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
