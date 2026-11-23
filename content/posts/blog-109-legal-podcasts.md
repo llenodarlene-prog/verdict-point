@@ -5,7 +5,7 @@ description: Fifteen legal podcasts for lawyers and firm leaders, grouped by pra
 slug: /law-firms/legal-podcasts/
 type: blog
 schema: BlogPosting
-draft: true
+draft: false
 tracker_id: Blog:109
 primary_keyword: legal podcasts
 cluster: Law Firms
@@ -13,10 +13,12 @@ launch_silo: Law Firm Economics
 silo_role: Supporting
 approved_internal_links: /law-firms/law-firm-profitability-statistics/; /law-firms/law-firm-billing-statistics/; /legal-tech/ai-tools-for-lawyers/; /legal-marketing/law-firm-marketing-companies/
 research_record: content/research/blog-109.json
+image: /assets/images/posts/legal-podcasts/featured-podcast-microphone-law-desk-1600.jpg
+image_alt: Podcast microphone and headphones on a law office desk beside a laptop playing audio, a Lady Justice statue, law books, and a coffee mug
 author: Darlene Aberin
 published: 2026-11-29
 publish_time: 10:20
-modified: 2026-11-21
+modified: 2026-11-23
 ---
 
 # 15 Best Legal Podcasts for Lawyers and Law Firm Leaders
