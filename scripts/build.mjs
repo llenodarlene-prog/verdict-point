@@ -111,7 +111,7 @@ const toolSpecs = { 'billable-hours': { partial: 'billable-hours-calculator', ap
   'lsat-score': { partial: 'lsat-score-calculator', app: { ...app('LSAT Score Calculator'), applicationCategory: 'EducationalApplication' } },
   'wrongful-termination': { partial: 'wrongful-termination-calculator', app: app('Wrongful Termination Settlement Calculator') },
   'car-accident': { partial: 'car-accident-calculator', app: app('Car Accident Settlement Calculator') },
-  'probate-fee': { partial: 'probate-fee-calculator', app: app('Probate Attorney Fee Calculator') } };
+  'probate-fee': { partial: 'probate-fee-calculator', app: app('Probate Attorney Fee Calculator') }, 'ppd': { partial: 'ppd-calculator', app: app('Impairment Rating Payout Calculator') } };
 const tools = {};
 for (const [id, spec] of Object.entries(toolSpecs)) {
   const coreVersion = await contentHash(`src/scripts/calculators/${id}-core.js`);
