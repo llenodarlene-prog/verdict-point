@@ -1,0 +1,23 @@
+<section class="bhc seo" id="calculator" aria-labelledby="firm-name-title" data-calc="firm-name">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="firm-name-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Checks: California Rule of Professional Conduct 7.5 and Rule 4-7.21 of the Rules Regulating The Florida Bar, reviewed November 24, 2026. Your state may differ.</p>
+  <noscript><p class="bhc-noscript">The generator needs JavaScript. The naming rules and examples below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:sparkles}}About Your Firm</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="firm-name-surnames">Lawyer surnames</label><input id="firm-name-surnames" name="surnames" maxlength="200" autocomplete="off" aria-describedby="firm-name-surnames-help firm-name-surnames-err"><p class="bhc-note" id="firm-name-surnames-help">Up to three, separated by commas.</p><p class="bhc-err" id="firm-name-surnames-err"></p></div>
+      <div class="bhc-field"><label for="firm-name-practice">Practice area</label><select id="firm-name-practice" name="practice" aria-describedby="firm-name-practice-help"><option value="general">General practice</option><option value="personal-injury">Personal injury</option><option value="family">Family law</option><option value="criminal">Criminal defense</option><option value="estate">Estate planning</option><option value="immigration">Immigration</option><option value="business">Business law</option><option value="employment">Employment law</option><option value="bankruptcy">Bankruptcy</option><option value="real-estate">Real estate</option></select><p class="bhc-note" id="firm-name-practice-help">Adds the area to some ideas.</p><p class="bhc-err" id="firm-name-practice-err"></p></div>
+      <div class="bhc-field"><label for="firm-name-place">City or region (optional)</label><input id="firm-name-place" name="place" maxlength="200" autocomplete="off" aria-describedby="firm-name-place-help firm-name-place-err"><p class="bhc-note" id="firm-name-place-help">Used for trade name ideas.</p><p class="bhc-err" id="firm-name-place-err"></p></div>
+      <div class="bhc-field"><label for="firm-name-lawyers">Lawyers in the firm</label><select id="firm-name-lawyers" name="lawyers" aria-describedby="firm-name-lawyers-help"><option value="solo">Just me</option><option value="multiple">Two or more</option></select><p class="bhc-note" id="firm-name-lawyers-help">Changes the cautions.</p><p class="bhc-err" id="firm-name-lawyers-err"></p></div>
+      <div class="bhc-field"><label for="firm-name-entity">Business entity ending</label><select id="firm-name-entity" name="entity" aria-describedby="firm-name-entity-help"><option value="none">None</option><option value="pllc">PLLC</option><option value="pa">P.A.</option><option value="llp">LLP</option><option value="pc">P.C.</option></select><p class="bhc-note" id="firm-name-entity-help">Must match how you register.</p><p class="bhc-err" id="firm-name-entity-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:sparkles}}Generate names</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="firm-name-result-h"><h3 id="firm-name-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Your name ideas</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
