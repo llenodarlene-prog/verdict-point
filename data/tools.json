@@ -126,5 +126,13 @@
     "category": "Fees and Settlements",
     "task": "Check an EEOC deadline and damages limit",
     "description": "Find your EEOC charge filing deadline and build a discrimination settlement scenario with back pay and the federal damages caps by employer size."
+  },
+  {
+    "name": "Law Firm Name Generator",
+    "url": "/tools/law-firm-name-generator/",
+    "icon": "sparkles",
+    "category": "Practice Management",
+    "task": "Brainstorm a compliant firm name",
+    "description": "Generate law firm name ideas from your surnames, practice area, and city, with each idea checked against bar rules on trade names and misleading names."
   }
 ]
