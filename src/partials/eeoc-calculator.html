@@ -1,0 +1,41 @@
+<section class="bhc seo" id="calculator" aria-labelledby="eeoc-title" data-calc="eeoc">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="eeoc-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Sources: EEOC time limits, remedies, and lawsuit pages and 42 U.S.C. 1981a(b), reviewed November 24, 2026. Every other amount is your own input. This is an illustration, not a prediction or legal advice.</p>
+  <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formulas and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:calendar-event}}EEOC Charge Deadline</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="eeoc-incident">Date of the discrimination</label><input id="eeoc-incident" name="incident" type="date" aria-describedby="eeoc-incident-help eeoc-incident-err"><p class="bhc-note" id="eeoc-incident-help">For harassment, use the last incident.</p><p class="bhc-err" id="eeoc-incident-err"></p></div>
+      <div class="bhc-field"><label for="eeoc-agency">State or local fair employment agency</label><select id="eeoc-agency" name="agency" aria-describedby="eeoc-agency-help"><option value="none">None enforces a similar law</option><option value="state">A state agency enforces a similar law</option><option value="local">Only a local agency</option></select><p class="bhc-note" id="eeoc-agency-help">Most states have one. It extends the deadline to 300 days.</p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:receipt-2}}Lost Pay</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="eeoc-annualPay">Annual pay before you left ($)</label><input id="eeoc-annualPay" name="annualPay" inputmode="decimal" aria-describedby="eeoc-annualPay-err"><p class="bhc-err" id="eeoc-annualPay-err"></p></div>
+      <div class="bhc-field"><label for="eeoc-annualBenefits">Yearly value of benefits ($, optional)</label><input id="eeoc-annualBenefits" name="annualBenefits" inputmode="decimal" aria-describedby="eeoc-annualBenefits-help eeoc-annualBenefits-err"><p class="bhc-note" id="eeoc-annualBenefits-help">Health cover, retirement match, and similar.</p><p class="bhc-err" id="eeoc-annualBenefits-err"></p></div>
+      <div class="bhc-field"><label for="eeoc-monthsOut">Months since your job ended</label><input id="eeoc-monthsOut" name="monthsOut" inputmode="decimal" aria-describedby="eeoc-monthsOut-err"><p class="bhc-err" id="eeoc-monthsOut-err"></p></div>
+      <div class="bhc-field"><label for="eeoc-interimEarnings">Earnings from other work since ($)</label><input id="eeoc-interimEarnings" name="interimEarnings" inputmode="decimal" aria-describedby="eeoc-interimEarnings-help eeoc-interimEarnings-err"><p class="bhc-note" id="eeoc-interimEarnings-help">Pay from a new job reduces back pay.</p><p class="bhc-err" id="eeoc-interimEarnings-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:trending-up}}Front Pay Scenario (optional)</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="eeoc-frontMonths">Months of future lost pay to test</label><input id="eeoc-frontMonths" name="frontMonths" inputmode="decimal" aria-describedby="eeoc-frontMonths-help eeoc-frontMonths-err"><p class="bhc-note" id="eeoc-frontMonths-help">A scenario only. Courts decide whether front pay applies.</p><p class="bhc-err" id="eeoc-frontMonths-err"></p></div>
+      <div class="bhc-field"><label for="eeoc-futureEarnings">Expected monthly pay from other work ($)</label><input id="eeoc-futureEarnings" name="futureEarnings" inputmode="decimal" aria-describedby="eeoc-futureEarnings-err"><p class="bhc-err" id="eeoc-futureEarnings-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:scale}}Claim and Limits</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="eeoc-claim">Type of claim</label><select id="eeoc-claim" name="claim"><option value="title-vii">Title VII or ADA (federal)</option><option value="adea-epa">Age (ADEA) or Equal Pay Act (federal)</option><option value="other">State law, contract, or other</option></select></div>
+      <div class="bhc-field"><label for="eeoc-employerSize">Employer size (for the federal limit)</label><select id="eeoc-employerSize" name="employerSize"><option value="15-100">15 to 100 employees</option><option value="101-200">101 to 200 employees</option><option value="201-500">201 to 500 employees</option><option value="501+">More than 500 employees</option></select></div>
+      <div class="bhc-field"><label for="eeoc-otherDamages">Emotional distress and punitive amount to test ($)</label><input id="eeoc-otherDamages" name="otherDamages" inputmode="decimal" aria-describedby="eeoc-otherDamages-help eeoc-otherDamages-err"><p class="bhc-note" id="eeoc-otherDamages-help">For Title VII or ADA claims this is capped by employer size.</p><p class="bhc-err" id="eeoc-otherDamages-err"></p></div>
+      <div class="bhc-field"><label for="eeoc-feePct">Attorney fee (%, optional)</label><input id="eeoc-feePct" name="feePct" inputmode="decimal" aria-describedby="eeoc-feePct-err"><p class="bhc-err" id="eeoc-feePct-err"></p></div>
+      </div>
+      <label class="bhc-check"><input type="checkbox" name="willful"> Intentional (willful) violation, for age or Equal Pay Act liquidated damages</label>
+      </fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="eeoc-result-h"><h3 id="eeoc-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
