@@ -41,7 +41,7 @@ export function compute(v = {}) {
   rows.push(['Estimated total impairment income benefits', '', money(total)]);
   return {
     headline: { icon: 'scale', label: 'Estimated Florida impairment income benefits', value: money(total) },
-    tiles: [['receipt-2', 'Weekly benefit', money(weekly), '75% of the TTD rate'], ['calendar', 'Benefit weeks', `${weeks}`, `For a ${Math.floor(v.rating)}% rating`], ['report-money', 'TTD rate used', money(ttd), `${year} maximum ${money(FL_MAX[year])}`]],
+    tiles: [['receipt-2', 'Weekly benefit', money(weekly), '75% of the TTD rate'], ['calendar-event', 'Benefit weeks', `${weeks}`, `For a ${Math.floor(v.rating)}% rating`], ['report-money', 'TTD rate used', money(ttd), `${year} maximum ${money(FL_MAX[year])}`]],
     notes: ['Florida pays these benefits every two weeks, starting the day after maximum medical improvement or the end of temporary benefits, whichever is earlier. The impairment rating must come from an authorized physician using Florida\'s uniform schedule. This estimate leaves out settlements, attorney fees, offsets, and permanent total disability.'],
     formula: 'Florida s. 440.15(3): weekly benefit = 75% × (66.67% × average weekly wage, capped at the yearly maximum). Weeks: 2 per point for 1-10%, 3 per point for 11-15%, 4 per point for 16-20%, 6 per point above 20%. Weeks with earnings at or above the average weekly wage are paid at half.',
     table: { caption: 'How the Florida estimate adds up', head: ['Step', 'Basis', 'Amount'], rows },
