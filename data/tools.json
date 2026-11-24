@@ -118,5 +118,13 @@
     "category": "Fees and Settlements",
     "task": "Estimate weekly comp checks",
     "description": "Estimate Florida workers' compensation temporary total and partial disability checks from the average weekly wage, with the waiting period and 104-week limit applied."
+  },
+  {
+    "name": "EEOC Settlement Calculator",
+    "url": "/tools/eeoc-settlement-calculator/",
+    "icon": "scale",
+    "category": "Fees and Settlements",
+    "task": "Check an EEOC deadline and damages limit",
+    "description": "Find your EEOC charge filing deadline and build a discrimination settlement scenario with back pay and the federal damages caps by employer size."
   }
 ]

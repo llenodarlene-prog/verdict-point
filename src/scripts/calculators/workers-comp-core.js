@@ -39,7 +39,7 @@ export function compute(v = {}) {
   if (days > 21) notes.push('Because the disability lasts more than 21 days, the first 7 days are paid too.');
   return {
     headline: { icon: 'scale', label: 'Estimated Florida temporary disability benefits', value: money(total) },
-    tiles: [['receipt-2', 'Weekly total disability rate', money(ttd), `${year} maximum ${money(FL_MAX[year])}`], ...(tpdWeeks ? [['receipt-2', 'Weekly partial disability rate', money(tpd), 'Based on post-injury earnings']] : []), ['calendar', 'Weeks counted', `${ttdWeeks + tpdWeeks}`, `Up to ${MAX_WEEKS} combined`]],
+    tiles: [['receipt-2', 'Weekly total disability rate', money(ttd), `${year} maximum ${money(FL_MAX[year])}`], ...(tpdWeeks ? [['receipt-2', 'Weekly partial disability rate', money(tpd), 'Based on post-injury earnings']] : []), ['calendar-event', 'Weeks counted', `${ttdWeeks + tpdWeeks}`, `Up to ${MAX_WEEKS} combined`]],
     notes,
     formula: `Florida s. 440.15: total disability pays 66.67% of the average weekly wage, up to the yearly maximum (minimum ${money(FL_MIN)}). Partial disability pays 80% of the gap between 80% of the wage and post-injury earnings, up to 66.67% of the wage. Both share a 104-week limit.`,
     table: { caption: 'How the Florida estimate adds up', head: ['Step', 'Basis', 'Amount'], rows },
