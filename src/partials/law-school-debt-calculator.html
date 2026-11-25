@@ -1,0 +1,26 @@
+<section class="bhc seo" id="calculator" aria-labelledby="law-school-debt-title" data-calc="law-school-debt">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="law-school-debt-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Loan math on the rate you enter, November 24, 2026. Check current federal rates and limits on studentaid.gov.</p>
+  <noscript><p class="bhc-noscript">The interactive tool needs JavaScript. The explanation and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:cash}}Borrowing</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="law-school-debt-perYear">Borrowed per year ($)</label><input id="law-school-debt-perYear" name="perYear" inputmode="decimal" aria-describedby="law-school-debt-perYear-help law-school-debt-perYear-err"><p class="bhc-note" id="law-school-debt-perYear-help"></p><p class="bhc-err" id="law-school-debt-perYear-err"></p></div>
+      <div class="bhc-field"><label for="law-school-debt-schoolYears">Years of law school</label><input id="law-school-debt-schoolYears" name="schoolYears" inputmode="numeric" aria-describedby="law-school-debt-schoolYears-help law-school-debt-schoolYears-err"><p class="bhc-note" id="law-school-debt-schoolYears-help">Usually 3.</p><p class="bhc-err" id="law-school-debt-schoolYears-err"></p></div>
+      <div class="bhc-field"><label for="law-school-debt-rate">Interest rate (%)</label><input id="law-school-debt-rate" name="rate" inputmode="decimal" aria-describedby="law-school-debt-rate-help law-school-debt-rate-err"><p class="bhc-note" id="law-school-debt-rate-help">Your loan's rate.</p><p class="bhc-err" id="law-school-debt-rate-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:calendar-event}}Repayment</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="law-school-debt-term">Repayment term (years)</label><input id="law-school-debt-term" name="term" inputmode="numeric" aria-describedby="law-school-debt-term-help law-school-debt-term-err"><p class="bhc-note" id="law-school-debt-term-help">10 is the standard plan.</p><p class="bhc-err" id="law-school-debt-term-err"></p></div>
+      <div class="bhc-field"><label for="law-school-debt-salary">Expected starting salary ($, optional)</label><input id="law-school-debt-salary" name="salary" inputmode="decimal" aria-describedby="law-school-debt-salary-help law-school-debt-salary-err"><p class="bhc-note" id="law-school-debt-salary-help"></p><p class="bhc-err" id="law-school-debt-salary-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="law-school-debt-result-h"><h3 id="law-school-debt-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>

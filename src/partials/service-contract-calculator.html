@@ -1,0 +1,31 @@
+<section class="bhc seo" id="calculator" aria-labelledby="service-contract-title" data-calc="service-contract">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="service-contract-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">A plain-English independent contractor services agreement built from your choices, November 24, 2026.</p>
+  <noscript><p class="bhc-noscript">The interactive tool needs JavaScript. The explanation and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:file-description}}Parties and Services</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="service-contract-client">Client</label><input id="service-contract-client" name="client" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="service-contract-client-help service-contract-client-err"><p class="bhc-note" id="service-contract-client-help"></p><p class="bhc-err" id="service-contract-client-err"></p></div>
+      <div class="bhc-field"><label for="service-contract-provider">Service provider</label><input id="service-contract-provider" name="provider" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="service-contract-provider-help service-contract-provider-err"><p class="bhc-note" id="service-contract-provider-help"></p><p class="bhc-err" id="service-contract-provider-err"></p></div>
+      <div class="bhc-field"><label for="service-contract-services">Services</label><input id="service-contract-services" name="services" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="service-contract-services-help service-contract-services-err"><p class="bhc-note" id="service-contract-services-help">A short description.</p><p class="bhc-err" id="service-contract-services-err"></p></div>
+      <div class="bhc-field"><label for="service-contract-date">Agreement date</label><input id="service-contract-date" name="date" type="date" aria-describedby="service-contract-date-help service-contract-date-err"><p class="bhc-note" id="service-contract-date-help"></p><p class="bhc-err" id="service-contract-date-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:cash}}Money and Terms</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="service-contract-feeType">Fee type</label><select id="service-contract-feeType" name="feeType" aria-describedby="service-contract-feeType-help"><option value="fixed">Fixed fee</option><option value="hourly">Hourly</option><option value="monthly">Monthly retainer</option></select><p class="bhc-note" id="service-contract-feeType-help"></p><p class="bhc-err" id="service-contract-feeType-err"></p></div>
+      <div class="bhc-field"><label for="service-contract-amount">Amount ($)</label><input id="service-contract-amount" name="amount" inputmode="decimal" aria-describedby="service-contract-amount-help service-contract-amount-err"><p class="bhc-note" id="service-contract-amount-help"></p><p class="bhc-err" id="service-contract-amount-err"></p></div>
+      <div class="bhc-field"><label for="service-contract-netDays">Days to pay invoices</label><input id="service-contract-netDays" name="netDays" inputmode="numeric" aria-describedby="service-contract-netDays-help service-contract-netDays-err"><p class="bhc-note" id="service-contract-netDays-help"></p><p class="bhc-err" id="service-contract-netDays-err"></p></div>
+      <div class="bhc-field"><label for="service-contract-notice">Days of notice to end</label><input id="service-contract-notice" name="notice" inputmode="numeric" aria-describedby="service-contract-notice-help service-contract-notice-err"><p class="bhc-note" id="service-contract-notice-help"></p><p class="bhc-err" id="service-contract-notice-err"></p></div>
+      <div class="bhc-field"><label for="service-contract-ip">Who owns the work</label><select id="service-contract-ip" name="ip" aria-describedby="service-contract-ip-help"><option value="client">Client, once paid</option><option value="provider">Provider, with a license to the client</option></select><p class="bhc-note" id="service-contract-ip-help"></p><p class="bhc-err" id="service-contract-ip-err"></p></div>
+      <div class="bhc-field"><label for="service-contract-law">Governing state</label><input id="service-contract-law" name="law" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="service-contract-law-help service-contract-law-err"><p class="bhc-note" id="service-contract-law-help"></p><p class="bhc-err" id="service-contract-law-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:file-description}}Draft contract</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="service-contract-result-h"><h3 id="service-contract-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Your contract draft</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>

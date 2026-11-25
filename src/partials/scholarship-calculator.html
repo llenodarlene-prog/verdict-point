@@ -1,0 +1,30 @@
+<section class="bhc seo" id="calculator" aria-labelledby="scholarship-title" data-calc="scholarship">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="scholarship-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Net cost comparison on your own figures, November 24, 2026.</p>
+  <noscript><p class="bhc-noscript">The interactive tool needs JavaScript. The explanation and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:scale}}School A</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="scholarship-years">Years of law school</label><input id="scholarship-years" name="years" inputmode="numeric" aria-describedby="scholarship-years-help scholarship-years-err"><p class="bhc-note" id="scholarship-years-help"></p><p class="bhc-err" id="scholarship-years-err"></p></div>
+      <div class="bhc-field"><label for="scholarship-tuitionA">Tuition per year ($)</label><input id="scholarship-tuitionA" name="tuitionA" inputmode="decimal" aria-describedby="scholarship-tuitionA-help scholarship-tuitionA-err"><p class="bhc-note" id="scholarship-tuitionA-help"></p><p class="bhc-err" id="scholarship-tuitionA-err"></p></div>
+      <div class="bhc-field"><label for="scholarship-scholarA">Scholarship per year ($)</label><input id="scholarship-scholarA" name="scholarA" inputmode="decimal" aria-describedby="scholarship-scholarA-help scholarship-scholarA-err"><p class="bhc-note" id="scholarship-scholarA-help"></p><p class="bhc-err" id="scholarship-scholarA-err"></p></div>
+      <div class="bhc-field"><label for="scholarship-livingA">Living costs per year ($)</label><input id="scholarship-livingA" name="livingA" inputmode="decimal" aria-describedby="scholarship-livingA-help scholarship-livingA-err"><p class="bhc-note" id="scholarship-livingA-help"></p><p class="bhc-err" id="scholarship-livingA-err"></p></div>
+      <div class="bhc-field"><label for="scholarship-condA">Scholarship has conditions</label><input id="scholarship-condA" name="condA" type="checkbox" aria-describedby="scholarship-condA-help"><p class="bhc-note" id="scholarship-condA-help">Such as a minimum GPA.</p><p class="bhc-err" id="scholarship-condA-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:scale}}School B</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="scholarship-tuitionB">Tuition per year ($)</label><input id="scholarship-tuitionB" name="tuitionB" inputmode="decimal" aria-describedby="scholarship-tuitionB-help scholarship-tuitionB-err"><p class="bhc-note" id="scholarship-tuitionB-help"></p><p class="bhc-err" id="scholarship-tuitionB-err"></p></div>
+      <div class="bhc-field"><label for="scholarship-scholarB">Scholarship per year ($)</label><input id="scholarship-scholarB" name="scholarB" inputmode="decimal" aria-describedby="scholarship-scholarB-help scholarship-scholarB-err"><p class="bhc-note" id="scholarship-scholarB-help"></p><p class="bhc-err" id="scholarship-scholarB-err"></p></div>
+      <div class="bhc-field"><label for="scholarship-livingB">Living costs per year ($)</label><input id="scholarship-livingB" name="livingB" inputmode="decimal" aria-describedby="scholarship-livingB-help scholarship-livingB-err"><p class="bhc-note" id="scholarship-livingB-help"></p><p class="bhc-err" id="scholarship-livingB-err"></p></div>
+      <div class="bhc-field"><label for="scholarship-condB">Scholarship has conditions</label><input id="scholarship-condB" name="condB" type="checkbox" aria-describedby="scholarship-condB-help"><p class="bhc-note" id="scholarship-condB-help"></p><p class="bhc-err" id="scholarship-condB-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="scholarship-result-h"><h3 id="scholarship-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>

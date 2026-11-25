@@ -1,0 +1,39 @@
+<section class="bhc seo" id="calculator" aria-labelledby="dog-bite-title" data-calc="dog-bite">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="dog-bite-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Florida rules: 2026 Florida Statutes s. 767.04 and s. 95.11, reviewed November 24, 2026. Every other amount is your own input.</p>
+  <noscript><p class="bhc-noscript">The interactive tool needs JavaScript. The explanation and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:scale}}Florida Dog Bite Rule</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="dog-bite-state">State rules</label><select id="dog-bite-state" name="state" aria-describedby="dog-bite-state-help"><option value="florida">Florida</option><option value="other">Another state</option></select><p class="bhc-note" id="dog-bite-state-help"></p><p class="bhc-err" id="dog-bite-state-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-sign">A "Bad Dog" sign was posted</label><input id="dog-bite-sign" name="sign" type="checkbox" aria-describedby="dog-bite-sign-help"><p class="bhc-note" id="dog-bite-sign-help">Florida s. 767.04 exception.</p><p class="bhc-err" id="dog-bite-sign-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-under6">The person bitten was under 6</label><input id="dog-bite-under6" name="under6" type="checkbox" aria-describedby="dog-bite-under6-help"><p class="bhc-note" id="dog-bite-under6-help">The sign exception does not apply.</p><p class="bhc-err" id="dog-bite-under6-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-ownerNeg">The owner was negligent</label><input id="dog-bite-ownerNeg" name="ownerNeg" type="checkbox" aria-describedby="dog-bite-ownerNeg-help"><p class="bhc-note" id="dog-bite-ownerNeg-help">For example, leaving a gate open.</p><p class="bhc-err" id="dog-bite-ownerNeg-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:receipt-2}}Losses</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="dog-bite-medical">Medical bills to date ($)</label><input id="dog-bite-medical" name="medical" inputmode="decimal" aria-describedby="dog-bite-medical-help dog-bite-medical-err"><p class="bhc-note" id="dog-bite-medical-help">Bills already incurred.</p><p class="bhc-err" id="dog-bite-medical-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-futureMedical">Future medical care ($)</label><input id="dog-bite-futureMedical" name="futureMedical" inputmode="decimal" aria-describedby="dog-bite-futureMedical-help dog-bite-futureMedical-err"><p class="bhc-note" id="dog-bite-futureMedical-help">Only costs a doctor has estimated.</p><p class="bhc-err" id="dog-bite-futureMedical-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-lostWages">Lost wages to date ($)</label><input id="dog-bite-lostWages" name="lostWages" inputmode="decimal" aria-describedby="dog-bite-lostWages-help dog-bite-lostWages-err"><p class="bhc-note" id="dog-bite-lostWages-help"></p><p class="bhc-err" id="dog-bite-lostWages-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-futureWages">Future lost earnings ($)</label><input id="dog-bite-futureWages" name="futureWages" inputmode="decimal" aria-describedby="dog-bite-futureWages-help dog-bite-futureWages-err"><p class="bhc-note" id="dog-bite-futureWages-help"></p><p class="bhc-err" id="dog-bite-futureWages-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-otherCosts">Other out-of-pocket costs ($)</label><input id="dog-bite-otherCosts" name="otherCosts" inputmode="decimal" aria-describedby="dog-bite-otherCosts-help dog-bite-otherCosts-err"><p class="bhc-note" id="dog-bite-otherCosts-help"></p><p class="bhc-err" id="dog-bite-otherCosts-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-nonEconomic">Pain and suffering figure to test ($)</label><input id="dog-bite-nonEconomic" name="nonEconomic" inputmode="decimal" aria-describedby="dog-bite-nonEconomic-help dog-bite-nonEconomic-err"><p class="bhc-note" id="dog-bite-nonEconomic-help">Your own figure. No multiplier is applied.</p><p class="bhc-err" id="dog-bite-nonEconomic-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:chart-bar}}Fault, Fees, and Liens</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="dog-bite-faultPct">Your share of fault (%)</label><input id="dog-bite-faultPct" name="faultPct" inputmode="decimal" aria-describedby="dog-bite-faultPct-help dog-bite-faultPct-err"><p class="bhc-note" id="dog-bite-faultPct-help">Leave blank if none.</p><p class="bhc-err" id="dog-bite-faultPct-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-policyLimit">Insurance policy limit ($, optional)</label><input id="dog-bite-policyLimit" name="policyLimit" inputmode="decimal" aria-describedby="dog-bite-policyLimit-help dog-bite-policyLimit-err"><p class="bhc-note" id="dog-bite-policyLimit-help"></p><p class="bhc-err" id="dog-bite-policyLimit-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-feePct">Attorney fee (%)</label><input id="dog-bite-feePct" name="feePct" inputmode="decimal" aria-describedby="dog-bite-feePct-help dog-bite-feePct-err"><p class="bhc-note" id="dog-bite-feePct-help">Often a third.</p><p class="bhc-err" id="dog-bite-feePct-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-caseCosts">Case costs ($)</label><input id="dog-bite-caseCosts" name="caseCosts" inputmode="decimal" aria-describedby="dog-bite-caseCosts-help dog-bite-caseCosts-err"><p class="bhc-note" id="dog-bite-caseCosts-help"></p><p class="bhc-err" id="dog-bite-caseCosts-err"></p></div>
+      <div class="bhc-field"><label for="dog-bite-liens">Medical liens ($)</label><input id="dog-bite-liens" name="liens" inputmode="decimal" aria-describedby="dog-bite-liens-help dog-bite-liens-err"><p class="bhc-note" id="dog-bite-liens-help"></p><p class="bhc-err" id="dog-bite-liens-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="dog-bite-result-h"><h3 id="dog-bite-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Show the full breakdown</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
