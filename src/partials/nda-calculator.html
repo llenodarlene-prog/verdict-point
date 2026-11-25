@@ -1,0 +1,26 @@
+<section class="bhc seo" id="calculator" aria-labelledby="nda-title" data-calc="nda">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="nda-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">Includes the whistleblower immunity notice required by 18 U.S.C. 1833(b)(3) when an employee or contractor signs, reviewed November 24, 2026.</p>
+  <noscript><p class="bhc-noscript">The interactive tool needs JavaScript. The explanation and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:file-description}}Agreement Details</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="nda-partyA">First party</label><input id="nda-partyA" name="partyA" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="nda-partyA-help nda-partyA-err"><p class="bhc-note" id="nda-partyA-help">Person or company name.</p><p class="bhc-err" id="nda-partyA-err"></p></div>
+      <div class="bhc-field"><label for="nda-partyB">Second party</label><input id="nda-partyB" name="partyB" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="nda-partyB-help nda-partyB-err"><p class="bhc-note" id="nda-partyB-help"></p><p class="bhc-err" id="nda-partyB-err"></p></div>
+      <div class="bhc-field"><label for="nda-type">Type</label><select id="nda-type" name="type" aria-describedby="nda-type-help"><option value="mutual">Mutual (both share)</option><option value="one-way">One-way (first party shares)</option></select><p class="bhc-note" id="nda-type-help"></p><p class="bhc-err" id="nda-type-err"></p></div>
+      <div class="bhc-field"><label for="nda-purpose">Purpose</label><input id="nda-purpose" name="purpose" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="nda-purpose-help nda-purpose-err"><p class="bhc-note" id="nda-purpose-help">What the information is shared for.</p><p class="bhc-err" id="nda-purpose-err"></p></div>
+      <div class="bhc-field"><label for="nda-years">Years the duties last</label><input id="nda-years" name="years" inputmode="numeric" aria-describedby="nda-years-help nda-years-err"><p class="bhc-note" id="nda-years-help">1 to 10.</p><p class="bhc-err" id="nda-years-err"></p></div>
+      <div class="bhc-field"><label for="nda-law">Governing state</label><input id="nda-law" name="law" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="nda-law-help nda-law-err"><p class="bhc-note" id="nda-law-help"></p><p class="bhc-err" id="nda-law-err"></p></div>
+      <div class="bhc-field"><label for="nda-date">Agreement date</label><input id="nda-date" name="date" type="date" aria-describedby="nda-date-help nda-date-err"><p class="bhc-note" id="nda-date-help"></p><p class="bhc-err" id="nda-date-err"></p></div>
+      <div class="bhc-field"><label for="nda-employee">An employee or contractor is signing</label><input id="nda-employee" name="employee" type="checkbox" aria-describedby="nda-employee-help"><p class="bhc-note" id="nda-employee-help">Adds the federal whistleblower notice.</p><p class="bhc-err" id="nda-employee-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:file-description}}Draft NDA</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="nda-result-h"><h3 id="nda-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Your NDA draft</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>

@@ -66,6 +66,8 @@ Live:
 - #21 impairment rating payout calculator (PPD), Florida s. 440.15(3), 2025-2026 maximums
 - #6 workers comp calculator, Florida TTD/TPD, s. 440.15 and s. 440.12
 - #10 EEOC settlement calculator: charge deadline (180/300 days) plus 1981a caps scenario
+- #15 law firm name generator (CA RPC 7.5, FL 4-7.21 checks)
+- Set of 10 (2026-11-25): #7 personal injury with #22 knee mode (FL 768.81), #8 dog bite (FL 767.04), #11 wrongful death (FL 768.21 damage types, present value), #14 NDA generator (18 U.S.C. 1833(b) notice), #16 service contract generator, #18 demand letter generator, #32 break-even, #27/#28 client acquisition cost and budget, #38 law school debt, #39 scholarship comparison
 
 Blocked on owner screenshots (sites block automated access):
 - #24 California probate mode: Probate Code s. 10810
@@ -73,4 +75,4 @@ Blocked on owner screenshots (sites block automated access):
 
 Blocked on owner screenshots for more states: Texas Labor Code 408.121/408.126 and TDI rate table; Georgia O.C.G.A. 34-9-263 and SBWC maximum.
 
-Next: #11 wrongful death, #8 dog bite, #7 personal injury with #22 knee mode, #23 MMI (as an explainer inside the PPD tool), then #15 law firm name generator and #14 NDA generator.
+Remaining: #3 alimony (states with published formulas), #13 AI legal document generator, #17 bar exam score, #19 statute of limitations, #20 case brief generator, #23 MMI explainer, #26 PFAS tracker, #34 legal AI savings, #35 document review estimator, #37 contract review cost, #40 salary comparison; #9 privacy policy generator and #24 CA probate await screenshots.

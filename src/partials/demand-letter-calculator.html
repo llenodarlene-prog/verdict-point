@@ -1,0 +1,30 @@
+<section class="bhc seo" id="calculator" aria-labelledby="demand-letter-title" data-calc="demand-letter">
+  <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="demand-letter-title" class="bhc-title">Calculator</h2>
+  <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
+  <p class="bhc-version">A plain-English demand for payment built from your facts, November 24, 2026.</p>
+  <noscript><p class="bhc-noscript">The interactive tool needs JavaScript. The explanation and worked example below work without it.</p></noscript>
+  <div class="bhc-panel">
+    <form class="bhc-form" novalidate>
+      <fieldset class="seo-group"><legend>{{icon:file-description}}Who and How Much</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="demand-letter-sender">Your name</label><input id="demand-letter-sender" name="sender" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="demand-letter-sender-help demand-letter-sender-err"><p class="bhc-note" id="demand-letter-sender-help"></p><p class="bhc-err" id="demand-letter-sender-err"></p></div>
+      <div class="bhc-field"><label for="demand-letter-recipient">Recipient name and address</label><input id="demand-letter-recipient" name="recipient" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="demand-letter-recipient-help demand-letter-recipient-err"><p class="bhc-note" id="demand-letter-recipient-help"></p><p class="bhc-err" id="demand-letter-recipient-err"></p></div>
+      <div class="bhc-field"><label for="demand-letter-amount">Amount owed ($)</label><input id="demand-letter-amount" name="amount" inputmode="decimal" aria-describedby="demand-letter-amount-help demand-letter-amount-err"><p class="bhc-note" id="demand-letter-amount-help"></p><p class="bhc-err" id="demand-letter-amount-err"></p></div>
+      <div class="bhc-field"><label for="demand-letter-facts">What happened</label><input id="demand-letter-facts" name="facts" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="demand-letter-facts-help demand-letter-facts-err"><p class="bhc-note" id="demand-letter-facts-help">Dates, what was promised, and what is owed.</p><p class="bhc-err" id="demand-letter-facts-err"></p></div>
+      </div></fieldset>
+      <fieldset class="seo-group"><legend>{{icon:calendar-event}}Deadline and Next Step</legend>
+      <div class="bhc-row">
+      <div class="bhc-field"><label for="demand-letter-date">Letter date</label><input id="demand-letter-date" name="date" type="date" aria-describedby="demand-letter-date-help demand-letter-date-err"><p class="bhc-note" id="demand-letter-date-help"></p><p class="bhc-err" id="demand-letter-date-err"></p></div>
+      <div class="bhc-field"><label for="demand-letter-days">Days to pay</label><input id="demand-letter-days" name="days" inputmode="numeric" aria-describedby="demand-letter-days-help demand-letter-days-err"><p class="bhc-note" id="demand-letter-days-help">7 to 60.</p><p class="bhc-err" id="demand-letter-days-err"></p></div>
+      <div class="bhc-field"><label for="demand-letter-method">How to pay</label><input id="demand-letter-method" name="method" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="demand-letter-method-help demand-letter-method-err"><p class="bhc-note" id="demand-letter-method-help"></p><p class="bhc-err" id="demand-letter-method-err"></p></div>
+      <div class="bhc-field"><label for="demand-letter-next">What you will do next</label><select id="demand-letter-next" name="next" aria-describedby="demand-letter-next-help"><option value="small-claims">File in small claims court</option><option value="lawyer">Refer to an attorney</option><option value="other">Pursue available remedies</option></select><p class="bhc-note" id="demand-letter-next-help"></p><p class="bhc-err" id="demand-letter-next-err"></p></div>
+      <div class="bhc-field"><label for="demand-letter-contact">Your contact details</label><input id="demand-letter-contact" name="contact" inputmode="text" maxlength="300" autocomplete="off" aria-describedby="demand-letter-contact-help demand-letter-contact-err"><p class="bhc-note" id="demand-letter-contact-help"></p><p class="bhc-err" id="demand-letter-contact-err"></p></div>
+      </div></fieldset>
+      <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:file-description}}Draft letter</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
+    </form>
+    <div class="bhc-result" aria-labelledby="demand-letter-result-h"><h3 id="demand-letter-result-h" data-result-h tabindex="-1">{{icon:sparkles}}Results</h3><div class="bhc-out" data-out></div>
+      <div class="bhc-actions bhc-share"><button type="button" data-action="copy">{{icon:copy}}Copy summary</button><button type="button" data-action="print">{{icon:printer}}Print / Save as PDF</button></div></div>
+  </div>
+  <details class="ldc-steps" data-steps-wrap hidden><summary>{{icon:list-details}}Your letter draft</summary><div data-steps></div></details>
+  <p class="bhc-live" aria-live="polite" data-live></p>
+</section>
