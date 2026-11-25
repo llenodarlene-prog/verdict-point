@@ -134,5 +134,85 @@
     "category": "Practice Management",
     "task": "Brainstorm a compliant firm name",
     "description": "Generate law firm name ideas from your surnames, practice area, and city, with each idea checked against bar rules on trade names and misleading names."
+  },
+  {
+    "name": "Law Firm Break-Even Calculator",
+    "url": "/tools/law-firm-break-even-calculator/",
+    "icon": "chart-bar",
+    "category": "Firm Performance",
+    "task": "Find your break-even hours",
+    "description": "Find how many billable hours a month your firm needs to cover overhead and owner pay, after realization and collection."
+  },
+  {
+    "name": "Demand Letter Generator",
+    "url": "/tools/demand-letter-generator/",
+    "icon": "file-description",
+    "category": "Contracts and Documents",
+    "task": "Draft a demand for payment",
+    "description": "Draft a clear, factual demand letter for money owed, with a firm payment deadline and the next step you plan to take."
+  },
+  {
+    "name": "Dog Bite Settlement Calculator",
+    "url": "/tools/dog-bite-settlement-calculator/",
+    "icon": "scale",
+    "category": "Fees and Settlements",
+    "task": "Itemize a dog bite claim",
+    "description": "Add up dog bite medical bills and other losses, test a pain and suffering figure, and apply Florida's dog owner liability rule."
+  },
+  {
+    "name": "Law School Debt Calculator",
+    "url": "/tools/law-school-debt-calculator/",
+    "icon": "cash",
+    "category": "Law School and Careers",
+    "task": "Estimate loan payments",
+    "description": "Estimate the balance, monthly payment, and total interest on law school loans, including interest that builds while you are in school."
+  },
+  {
+    "name": "Law Firm Client Acquisition Cost Calculator",
+    "url": "/tools/law-firm-client-acquisition-cost-calculator/",
+    "icon": "chart-bar",
+    "category": "Marketing and Growth",
+    "task": "Find your cost per client",
+    "description": "Find your cost per lead and client acquisition cost, and plan the marketing budget for a target number of new clients."
+  },
+  {
+    "name": "NDA Generator",
+    "url": "/tools/nda-generator/",
+    "icon": "file-description",
+    "category": "Contracts and Documents",
+    "task": "Draft a nondisclosure agreement",
+    "description": "Draft a plain-English mutual or one-way NDA, with the federal whistleblower notice added when an employee or contractor signs."
+  },
+  {
+    "name": "Personal Injury Settlement Calculator",
+    "url": "/tools/personal-injury-settlement-calculator/",
+    "icon": "scale",
+    "category": "Fees and Settlements",
+    "task": "Itemize an injury claim",
+    "description": "Add up medical bills, lost wages, and other losses, test a pain and suffering figure, and see the net after fault, fees, and liens, with a knee injury mode."
+  },
+  {
+    "name": "Law School Scholarship Calculator",
+    "url": "/tools/law-school-scholarship-calculator/",
+    "icon": "scale",
+    "category": "Law School and Careers",
+    "task": "Compare scholarship offers",
+    "description": "Compare the net cost of two law school offers and stress-test a conditional scholarship you might lose after the first year."
+  },
+  {
+    "name": "Service Contract Generator",
+    "url": "/tools/service-contract-generator/",
+    "icon": "file-description",
+    "category": "Contracts and Documents",
+    "task": "Draft a services agreement",
+    "description": "Draft a plain-English independent contractor services agreement with scope, fees, payment terms, termination, and ownership of work."
+  },
+  {
+    "name": "Wrongful Death Settlement Calculator",
+    "url": "/tools/wrongful-death-settlement-calculator/",
+    "icon": "scale",
+    "category": "Fees and Settlements",
+    "task": "Value lost support in today's dollars",
+    "description": "Turn years of lost family support into a present value and add the other damage types Florida law lists for wrongful death claims."
   }
 ]
