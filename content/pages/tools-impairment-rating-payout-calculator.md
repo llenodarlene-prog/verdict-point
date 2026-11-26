@@ -1,7 +1,7 @@
 ---
 title: Impairment Rating Payout Calculator
-seo_title: "Impairment Rating Payout Calculator: Florida Workers' Comp"
-description: Estimate Florida workers' comp impairment income benefits, also called permanent partial disability, from your average weekly wage and impairment rating.
+seo_title: "Impairment Rating Payout Calculator: FL, TX, and GA"
+description: Estimate workers' comp impairment benefits, also called permanent partial disability, in Florida, Texas, or Georgia from your wage and impairment rating.
 slug: /tools/impairment-rating-payout-calculator/
 type: page
 schema: WebPage
@@ -10,12 +10,12 @@ breadcrumb: true
 parent: /tools/
 parent_label: Tools
 draft: false
-modified: 2026-11-23
+modified: 2026-11-26
 ---
 
 # Impairment Rating Payout Calculator
 
-When a workplace injury leaves a lasting impairment, workers' compensation pays a benefit based on the impairment rating. Florida calls it impairment income benefits. Many people know it as permanent partial disability. This calculator applies Florida's statute to your average weekly wage and rating, and shows each step.
+When a workplace injury leaves a lasting impairment, workers' compensation pays a benefit based on the impairment rating. Florida calls it impairment income benefits. Many people know it as permanent partial disability. This calculator applies the Florida, Texas, or Georgia statute to your average weekly wage and rating, and shows each step.
 
 ```tool
 ppd
@@ -38,7 +38,38 @@ ppd
 
 The weeks add up by band. A 12% rating earns 20 weeks for the first 10 points and 6 weeks for the next 2, for 26 weeks in total.
 
-## Maximum Weekly Rate
+## How Texas Calculates Impairment Income Benefits
+
+Texas Labor Code chapter 408 sets three rules:
+
+- **Weekly amount:** Section 408.126 sets the impairment income benefit at 70 percent of the employee's average weekly wage.
+- **Number of weeks:** Section 408.121 pays three weeks for each percentage point of impairment, starting the day after maximum medical improvement.
+- **Caps:** Section 408.061(b) caps the weekly benefit at 70 percent of the state average weekly wage, and section 408.062 sets the minimum at 15 percent of it. The dollar amounts change each state fiscal year and are fixed by the date of injury. Enter them from the Texas Department of Insurance rate table.
+
+For example, with a $1,000 average weekly wage and a 10% rating, the weekly benefit is $700 for 30 weeks, or $21,000, if the maximum for your injury date is at least $700.
+
+## How Georgia Calculates Permanent Partial Disability
+
+O.C.G.A. section 34-9-263(c) pays two-thirds of the average weekly wage for a number of weeks equal to the disability rating times the maximum weeks for the body part.
+
+| Body part | Maximum weeks |
+| --- | --- |
+| Body as a whole | 300 |
+| Arm or leg | 225 |
+| Hand | 160 |
+| Foot | 135 |
+| Vision, one eye, or hearing, both ears | 150 |
+| Hearing, one ear | 75 |
+| Thumb | 60 |
+| Index finger | 40 |
+| Middle finger | 35 |
+| Ring finger or great toe | 30 |
+| Little finger | 25 |
+| Other toe | 20 |
+
+Section 34-9-261 limits the weekly benefit to between $50 and $800. Ratings must use the AMA Guides, fifth edition. A 10% arm rating at a $900 weekly wage pays $600 a week for 22.5 weeks, or $13,500.
+
+## Florida Maximum Weekly Rate
 
 Section 440.12(2) caps weekly compensation at 100 percent of the statewide average weekly wage for the year of injury. The [Florida Division of Workers' Compensation rate table](https://www.myfloridacfo.com/division/wc/insurer/awwrate/maximum-compensation-rate-table) lists a maximum of $1,358 for 2026 injuries and $1,295 for 2025 injuries. The minimum is $20 a week.
 
@@ -54,7 +85,8 @@ If the worker earned their full wage for 10 of those weeks, those weeks pay $300
 
 ## Limits of the Calculator
 
-- **Florida only, for now.** We add a state only after reading its statute and official rate table directly.
+- **Three states.** Florida, Texas, and Georgia only. We add a state only after reading its statute directly.
+- **Texas caps are entered by you.** The statute sets them as percentages of a yearly wage figure.
 - **Accidents on or after October 1, 2003.** Older accidents use a different schedule.
 - **Rating comes from a doctor.** Florida requires an authorized physician to rate the impairment using the state's uniform schedule. This tool does not convert body-part ratings.
 - **Not a settlement value.** The estimate leaves out lump-sum settlements, attorney fees, offsets, and permanent total disability.
@@ -81,6 +113,9 @@ An authorized physician, using the uniform permanent impairment rating schedule 
 In Florida, impairment income benefits are the benefit paid for a permanent partial impairment. Other states use the term permanent partial disability and different formulas.
 
 ## Sources and Methodology
+
+- Texas Labor Code chapter 408, sections 408.061, 408.062, 408.121, and 408.126, official copy supplied by the site owner, reviewed November 26, 2026
+- Georgia Code sections 34-9-261 and 34-9-263 (2025), copies supplied by the site owner, reviewed November 26, 2026
 
 - [2026 Florida Statutes, section 440.15](https://www.flsenate.gov/Laws/Statutes/2026/440.15), reviewed November 23, 2026
 - [Florida Statutes, section 440.12](https://www.flsenate.gov/Laws/Statutes/2025/440.12), reviewed November 23, 2026

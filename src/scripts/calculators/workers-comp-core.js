@@ -3,8 +3,10 @@
 // disability at 80 percent of the difference between 80 percent of the average weekly wage and post-injury earnings, capped at
 // 66.67 percent of the average weekly wage, sharing the 104 weeks), and s. 440.12(1)-(2) (7-day waiting period, paid back when
 // disability lasts more than 21 days; weekly maximum and $20 minimum). Maximum rates come from the CFO rate table.
-import { FL_MAX, FL_MIN, floridaTtdRate } from './ppd-core.js';
-export const RULES_VERSION = 'Florida Statutes 2026, s. 440.15 and s. 440.12; CFO maximum rate table; reviewed 2026-11-23';
+import { FL_MAX, FL_MIN, floridaTtdRate, georgiaWeekly, GA_MAX, GA_MIN } from './ppd-core.js';
+// Georgia: O.C.G.A. 34-9-261 (two-thirds of the average weekly wage, $50 to $800 a week, up to 400 weeks), owner-supplied
+// official copy, reviewed 2026-11-26. Georgia partial disability (34-9-262) and the waiting period are not modeled.
+export const RULES_VERSION = 'Florida Statutes 2026, s. 440.15 and s. 440.12; CFO maximum rate table; O.C.G.A. 34-9-261 (2025); reviewed 2026-11-26';
 const money = n => n.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 });
 const round2 = n => Math.round(n * 100) / 100;
 export const MAX_WEEKS = 104;
@@ -16,7 +18,18 @@ export function floridaTpdRate(aww, post, year) {
   return round2(Math.max(0, Math.min(raw, aww * 0.6667, max)));
 }
 
+function georgiaCompute(v) {
+  if (!(v.aww > 0) || !(v.ttdWeeks > 0)) return { empty: 'Enter the average weekly wage and the weeks you could not work.' };
+  const weeks = Math.min(v.ttdWeeks, 400), weekly = georgiaWeekly(v.aww), total = round2(weekly * weeks);
+  const rows = [['Temporary total disability rate', `Two-thirds of ${money(v.aww)}, between ${money(GA_MIN)} and ${money(GA_MAX)}`, money(weekly)], [`Total disability, ${weeks} weeks`, `${weeks} × ${money(weekly)}`, money(total)], ['Estimated temporary total disability benefits', '', money(total)]];
+  const notes = ['Georgia pays temporary total disability for up to 400 weeks from the date of injury, longer for a catastrophic injury (34-9-261). The $800 maximum applies to injuries on or after July 1, 2023.', 'This Georgia estimate covers total disability only. Partial disability and the waiting period are not included.'];
+  if (v.ttdWeeks > 400) notes.unshift('Only 400 weeks are counted, the Georgia limit for non-catastrophic injuries.');
+  return { headline: { icon: 'scale', label: 'Estimated Georgia temporary total disability benefits', value: money(total) }, tiles: [['receipt-2', 'Weekly rate', money(weekly), 'Two-thirds of the wage'], ['calendar-event', 'Weeks counted', String(weeks), 'Up to 400']], notes,
+    formula: 'Georgia O.C.G.A. 34-9-261: two-thirds of the average weekly wage, at least $50 and at most $800 a week, for up to 400 weeks.', table: { caption: 'How the Georgia estimate adds up', head: ['Step', 'Basis', 'Amount'], rows }, summary: rows.map(r => `${r[0]}: ${r[2]}`) };
+}
+
 export function compute(v = {}) {
+  if (v.state === 'georgia') return georgiaCompute(v);
   const year = Number(v.year) || 2026;
   if (!(v.aww > 0)) return { empty: 'Enter the average weekly wage and the weeks of disability.' };
   const ttdWeeksIn = v.ttdWeeks ?? 0, tpdWeeksIn = v.tpdWeeks ?? 0;

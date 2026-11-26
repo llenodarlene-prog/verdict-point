@@ -214,5 +214,13 @@
     "category": "Fees and Settlements",
     "task": "Value lost support in today's dollars",
     "description": "Turn years of lost family support into a present value and add the other damage types Florida law lists for wrongful death claims."
+  },
+  {
+    "name": "App Privacy Policy Generator",
+    "url": "/tools/app-privacy-policy-generator/",
+    "icon": "file-description",
+    "category": "Contracts and Documents",
+    "task": "Draft a privacy policy",
+    "description": "Draft a plain-English privacy policy for an app or website that covers each item California's online privacy law requires."
   }
 ]

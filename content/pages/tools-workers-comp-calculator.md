@@ -1,7 +1,7 @@
 ---
 title: Workers Comp Calculator
-seo_title: "Workers Comp Calculator: Florida Weekly Benefits"
-description: Estimate Florida workers' comp temporary total and partial disability checks from your average weekly wage, with the waiting period and 104-week limit applied.
+seo_title: "Workers Comp Calculator: Florida and Georgia Weekly Benefits"
+description: Estimate workers' comp temporary disability checks in Florida or Georgia from your average weekly wage, with each state's weekly limits and week caps applied.
 slug: /tools/workers-comp-calculator/
 type: page
 schema: WebPage
@@ -10,12 +10,12 @@ breadcrumb: true
 parent: /tools/
 parent_label: Tools
 draft: false
-modified: 2026-11-23
+modified: 2026-11-26
 ---
 
 # Workers Comp Calculator
 
-After a work injury, workers' compensation replaces part of your lost wages while you recover. This calculator applies Florida's statute to estimate those weekly checks. It covers temporary total disability, when you cannot work at all, and temporary partial disability, when you work light duty or fewer hours.
+After a work injury, workers' compensation replaces part of your lost wages while you recover. This calculator applies Florida's or Georgia's statute to estimate those weekly checks. It covers temporary total disability, when you cannot work at all, and temporary partial disability, when you work light duty or fewer hours.
 
 ```tool
 workers-comp
@@ -38,7 +38,13 @@ Both benefits share one limit. They stop after 104 weeks combined or when you re
 
 The weekly maximum equals the statewide average weekly wage for the year of injury. The [Florida Division of Workers' Compensation rate table](https://www.myfloridacfo.com/division/wc/insurer/awwrate/maximum-compensation-rate-table) lists $1,358 for 2026 injuries and $1,295 for 2025 injuries. The minimum is $20 a week.
 
-## Worked Example
+## How Georgia Calculates Temporary Total Disability
+
+O.C.G.A. section 34-9-261 pays two-thirds of the average weekly wage while the disability is temporarily total, but not more than $800 or less than $50 a week. If the weekly wage is below $50, the benefit equals the wage. Benefits last up to 400 weeks from the date of injury, or longer for a catastrophic injury. The $800 maximum took effect July 1, 2023.
+
+At a $1,500 weekly wage, two-thirds is $1,000, so the $800 maximum applies. Ten weeks pays $8,000. The Georgia mode covers total disability only, not partial disability or the waiting period.
+
+## Florida Worked Example
 
 A worker injured in 2026 earned an average weekly wage of $1,000. They could not work for 8 weeks, then worked light duty for 12 weeks at $400 a week.
 
@@ -49,7 +55,7 @@ A worker injured in 2026 earned an average weekly wage of $1,000. They could not
 
 ## Limits of the Calculator
 
-- **Florida only, for now.** We add a state only after reading its statute and official rate table directly.
+- **Florida and Georgia only.** We add a state only after reading its statute directly. Georgia covers total disability only.
 - **Temporary benefits only.** Permanent impairment is paid separately. Use the [impairment rating payout calculator](/tools/impairment-rating-payout-calculator/) for that part.
 - **Week-by-week changes.** Partial benefits are compared weekly. If your earnings change from week to week, run the calculator for each stretch.
 - **Not a settlement value.** The estimate leaves out medical benefits, settlements, attorney fees, and offsets.
@@ -76,6 +82,8 @@ Not if the disability lasts 21 days or less. If it lasts longer, Florida pays th
 You may qualify for temporary partial disability. It pays 80% of the difference between 80% of your average weekly wage and what you now earn, up to 66.67% of your wage.
 
 ## Sources and Methodology
+
+- Georgia Code section 34-9-261 (2025), copy supplied by the site owner, reviewed November 26, 2026
 
 - [2026 Florida Statutes, section 440.15](https://www.flsenate.gov/Laws/Statutes/2026/440.15), reviewed November 23, 2026
 - [2026 Florida Statutes, section 440.12](https://www.flsenate.gov/Laws/Statutes/2026/440.12), reviewed November 23, 2026

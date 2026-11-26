@@ -1,12 +1,13 @@
 <section class="bhc seo" id="calculator" aria-labelledby="workers-comp-title" data-calc="workers-comp">
   <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="workers-comp-title" class="bhc-title">Calculator</h2>
   <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
-  <p class="bhc-version">Florida rules: 2026 Florida Statutes, sections 440.15 and 440.12, and the Florida Division of Workers' Compensation maximum rate table, reviewed November 23, 2026.</p>
+  <p class="bhc-version">Florida rules: 2026 Florida Statutes, sections 440.15 and 440.12, and the Florida Division of Workers' Compensation maximum rate table, reviewed November 23, 2026. Georgia: O.C.G.A. 34-9-261 (2025), reviewed November 26, 2026.</p>
   <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The formulas and worked example below work without it.</p></noscript>
   <div class="bhc-panel">
     <form class="bhc-form" novalidate>
       <fieldset class="seo-group"><legend>{{icon:scale}}Florida Claim Details</legend>
       <div class="bhc-row">
+      <div class="bhc-field"><label for="workers-comp-state">State</label><select id="workers-comp-state" name="state" aria-describedby="workers-comp-state-help"><option value="florida">Florida</option><option value="georgia">Georgia</option></select><p class="bhc-note" id="workers-comp-state-help">Georgia covers total disability only.</p></div>
       <div class="bhc-field"><label for="workers-comp-aww">Average weekly wage ($)</label><input id="workers-comp-aww" name="aww" inputmode="decimal" aria-describedby="workers-comp-aww-help workers-comp-aww-err"><p class="bhc-note" id="workers-comp-aww-help">Usually from the 13 weeks before the injury.</p><p class="bhc-err" id="workers-comp-aww-err"></p></div>
       <div class="bhc-field"><label for="workers-comp-year">Year of injury</label><select id="workers-comp-year" name="year" aria-describedby="workers-comp-year-help"><option value="2026">2026 (maximum $1,358)</option><option value="2025">2025 (maximum $1,295)</option></select><p class="bhc-note" id="workers-comp-year-help">Sets the weekly maximum.</p></div>
       <div class="bhc-field"><label for="workers-comp-ttdWeeks">Weeks unable to work at all</label><input id="workers-comp-ttdWeeks" name="ttdWeeks" inputmode="numeric" aria-describedby="workers-comp-ttdWeeks-help workers-comp-ttdWeeks-err"><p class="bhc-note" id="workers-comp-ttdWeeks-help">Temporary total disability.</p><p class="bhc-err" id="workers-comp-ttdWeeks-err"></p></div>
