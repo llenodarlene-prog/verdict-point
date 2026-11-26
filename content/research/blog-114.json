@@ -1,0 +1,440 @@
+{
+  "tracker_id": "Blog:114",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Legal Docketing Software: How Rules-Based Deadline Tools Work\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal docketing software, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal docketing software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-20",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal docketing software",
+        "type": "short-tail",
+        "volume": 110,
+        "difficulty": 37,
+        "cpc": 87.39,
+        "intent": "Commercial",
+        "ranking_url": "http://www.altlegal.com/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "docketing software for law firms",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 28,
+        "cpc": 26.71,
+        "intent": "Commercial",
+        "ranking_url": "http://www.altlegal.com/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "litigation docketing software",
+        "type": "commercial",
+        "volume": 20,
+        "difficulty": 22,
+        "cpc": 73.09,
+        "intent": "Commercial",
+        "ranking_url": "http://www.altlegal.com/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free legal docketing software",
+        "type": "problem",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.altlegal.com/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to audit docketing software",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.altlegal.com/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://lawtoolbox.com/",
+      "title": "LawToolBox",
+      "publisher": "lawtoolbox.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "LawToolBox",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://lawtoolbox.com/pricing/",
+      "title": "LawToolBox pricing",
+      "publisher": "lawtoolbox.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "LawToolBox pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.aderant.com/compulaw/",
+      "title": "Aderant CompuLaw",
+      "publisher": "aderant.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Aderant CompuLaw",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.calendarrules.com/",
+      "title": "CalendarRules",
+      "publisher": "calendarrules.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "CalendarRules",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.compulaw.com/",
+      "title": "CompuLaw",
+      "publisher": "compulaw.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "CompuLaw",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "LawToolBox requires a minimum one-year commitment and says attorneys monitor court rule changes daily.",
+      "source_url": "https://lawtoolbox.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "CalendarRules says it offers more than 2,500 rule sets and is available in all 50 states.",
+      "source_url": "https://www.calendarrules.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "CompuLaw's site states that calendar and deadline errors are the leading cause of malpractice actions against lawyers.",
+      "source_url": "https://www.compulaw.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Alt Legal: Trademark Docketing Software",
+      "url": "http://www.altlegal.com/",
+      "publisher": "altlegal.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "What is legal docketing",
+      "url": "http://www.clio.com/blog/legal-docketing-for-law-firms/",
+      "publisher": "clio.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Docketing and E-Filing Software for Lawyers 2026",
+      "url": "http://directory.lawnext.com/categories/docketing-and-e-filing/",
+      "publisher": "directory.lawnext.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Why is Legal Docketing Important?",
+      "url": "http://www.mycase.com/blog/legal-case-management/docketing/",
+      "publisher": "mycase.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Docketing Software 2026",
+      "url": "http://www.capterra.com/docketing-software/",
+      "publisher": "capterra.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-20)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Explains rules-based deadline calculation step by step and compares two dedicated tools on coverage, sync, rule updates, and commitment terms, with a demo checklist.",
+  "plan": {
+    "reader_title": "\"Legal Docketing Software: How Rules-Based Deadline Tools Work\"",
+    "seo_title": "\"Legal Docketing Software: Court Rules Deadline Tools\"",
+    "meta_description": "Learn how legal docketing software calculates court deadlines from rules, and compare LawToolBox and CalendarRules by coverage, calendar sync, rule updates, and pricing terms.",
+    "slug": "/legal-tech/legal-docketing-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "free legal docketing software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "Who Needs Dedicated Docketing Software",
+      "What Docketing Software Does That a Calendar Cannot",
+      "How We Compared These Tools",
+      "1. LawToolBox: Best for Microsoft 365 Firms",
+      "2. CalendarRules: Best for Broad State Court Coverage",
+      "Why Rule Updates Matter Most",
+      "The Malpractice Risk of Missed Deadlines",
+      "A Worked Example: A Moving Trial Date",
+      "Questions to Ask in a Demo",
+      "Total Cost Beyond the License",
+      "Building a Docketing Process Around the Software",
+      "Try a Quick Calculation First",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://lawtoolbox.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://lawtoolbox.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.aderant.com/compulaw/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-calendaring-software/",
+      "/legal-tech/legal-practice-management-software/"
+    ],
+    "external_link_opportunities": [
+      "https://lawtoolbox.com/",
+      "https://lawtoolbox.com/pricing/",
+      "https://www.aderant.com/compulaw/",
+      "https://www.calendarrules.com/",
+      "https://www.compulaw.com/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "LawToolBox requires a minimum one-year commitment and says attorneys monitor court rule changes daily.",
+      "source_url": "https://lawtoolbox.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "CalendarRules says it offers more than 2,500 rule sets and is available in all 50 states.",
+      "source_url": "https://www.calendarrules.com/",
+      "verified": true
+    },
+    {
+      "statement": "CompuLaw's site states that calendar and deadline errors are the leading cause of malpractice actions against lawyers.",
+      "source_url": "https://www.compulaw.com/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}

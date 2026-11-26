@@ -11,13 +11,13 @@ primary_keyword: legal billing software
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Supporting
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-legal-accounting-software/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-legal-accounting-software/; /legal-tech/billing-software-for-small-law-firms/
 research_record: content/research/blog-73.json
 image: /assets/images/posts/best-legal-billing-software/featured-billing-review-1600.jpg
 image_alt: Attorney at an office desk viewing a four-step billing flow of time entry, approval, invoice, and paid check mark on a monitor
 author: Darlene Aberin
 published: 2026-11-07
-modified: 2026-11-05
+modified: 2026-11-26
 ---
 
 # 9 Best Legal Billing Software Options for Different Firm Workflows
@@ -57,6 +57,8 @@ The table lists each platform's best fit and the published US starting price we 
 Search results often treat every legal platform as the same. We grouped buyers into four needs instead: practice management with billing, specialist time and billing, accounting-led billing, and payment-led billing.
 
 We checked official pages for time capture, fee arrangements, invoice controls, LEDES or UTBMS support, trust workflows, payments, accounting links, and price. We left out generic invoice apps that don't document legal workflows.
+
+Solo and small firms can see which tiers include trust accounting and LEDES in this comparison of [billing software for small law firms](/legal-tech/billing-software-for-small-law-firms/).
 
 ## 1. Clio: Best Broad Practice Management Billing
 

@@ -11,13 +11,13 @@ primary_keyword: legal document automation software
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Supporting
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/docusign-alternatives/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-law-firm-document-management-software/; /legal-tech/best-legal-contract-management-software/; /legal-tech/best-legal-crm-software/; /legal-tech/docusign-alternatives/; /legal-tech/document-assembly-software/
 research_record: content/research/blog-76.json
 image: /assets/images/posts/best-legal-document-automation-software/featured-document-set-assembly-1600.jpg
 image_alt: Lawyer at a laptop completing an online questionnaire while lines connect it to a stack of generated legal documents
 author: Darlene Aberin
 published: 2026-11-08
-modified: 2026-11-20
+modified: 2026-11-26
 ---
 
 # 9 Best Legal Document Automation Software Tools
@@ -57,6 +57,8 @@ The table sorts the nine tools by automation model and the published US price we
 Lists of legal document automation software tend to mix four categories: questionnaire assembly, Word add-ins, court-form filling, and generative drafting. We focused on products that publicly document reusable templates, structured interviews, conditional logic, document sets, or legal forms.
 
 We checked official pages for output formats, authoring, data reuse, client interviews, integrations, deployment, and price. A simple mail-merge field doesn't count as full automation, and no tool's output is legally correct without review.
+
+For a closer look at questionnaire-driven drafting, compare [document assembly software](/legal-tech/document-assembly-software/) tools.
 
 ## 1. Gavel Workflows: Best Client-Facing No-Code Automation
 

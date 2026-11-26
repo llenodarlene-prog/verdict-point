@@ -11,13 +11,13 @@ primary_keyword: legal calendaring software
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Supporting
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-lawyer-time-tracking-software/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-lawyer-time-tracking-software/; /legal-tech/legal-docketing-software/
 research_record: content/research/blog-71.json
 image: /assets/images/posts/best-legal-calendaring-software/featured-team-deadline-timeline-1600.jpg
 image_alt: Two legal professionals in an office reviewing a color-coded deadline timeline on a large wall screen
 author: Darlene Aberin
 published: 2026-11-06
-modified: 2026-11-05
+modified: 2026-11-26
 ---
 
 # 7 Best Legal Calendaring Software Options for Law Firms
@@ -71,6 +71,8 @@ A rules engine links a trigger to maintained procedural rules. It generates rela
 A docketing system manages intake, documents, assignments, approvals, calendars, reminders, changes, and audits. It may include its own rules engine or connect to a specialist provider.
 
 Most firms need all three, from one platform or from two connected systems with a clear system of record.
+
+See also [legal docketing software](/legal-tech/legal-docketing-software/).
 
 ## 1. LawToolBox: Best for Microsoft 365 Firms
 

@@ -1,0 +1,444 @@
+{
+  "tracker_id": "Blog:111",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Document Assembly Software for Lawyers: From Questionnaire to Final Draft\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for document assembly software, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "document assembly software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "document assembly software",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 27,
+        "cpc": 43.73,
+        "intent": "Commercial",
+        "ranking_url": "http://pearllemonlegal.com/best-document-automation-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "document assembly software for lawyers",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 36,
+        "cpc": 102.78,
+        "intent": "Commercial",
+        "ranking_url": "http://pearllemonlegal.com/best-document-automation-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best document assembly software",
+        "type": "commercial",
+        "volume": 50,
+        "difficulty": 31,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://pearllemonlegal.com/best-document-automation-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free document assembly software",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 41,
+        "cpc": 23.93,
+        "intent": "Commercial",
+        "ranking_url": "http://pearllemonlegal.com/best-document-automation-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is document assembly",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://pearllemonlegal.com/best-document-automation-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://knackly.io/",
+      "title": "Knackly",
+      "publisher": "knackly.io",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Knackly",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://knackly.io/pricing",
+      "title": "Knackly pricing",
+      "publisher": "knackly.io",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Knackly pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://mitratech.com/products/hotdocs/",
+      "title": "Mitratech HotDocs",
+      "publisher": "mitratech.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Mitratech HotDocs",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.gavel.io/legal-document-assembly-software",
+      "title": "Gavel legal document assembly software",
+      "publisher": "gavel.io",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Gavel legal document assembly software",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.gavel.io/pricing",
+      "title": "Gavel pricing",
+      "publisher": "gavel.io",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Gavel pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Gavel lists Lite at $83, Pro at $290, and Scale from $417 billed annually; Standard showed $210 on its card and $165 in the table.",
+      "source_url": "https://www.gavel.io/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Knackly Starter costs $250 a month or $209 paid yearly and includes 4 users and client-facing questionnaires.",
+      "source_url": "https://knackly.io/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Mitratech lists HotDocs batch processing that generates 500,000+ documents.",
+      "source_url": "https://mitratech.com/products/hotdocs/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Best Document Automation Tools for Law Firms",
+      "url": "http://pearllemonlegal.com/best-document-automation-tools/",
+      "publisher": "pearllemonlegal.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "7 Best Legal Document Automation Software for Law Firms",
+      "url": "http://hassangul.com/blog/best-legal-document-automation-software/",
+      "publisher": "hassangul.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Document Automation Software of 2026",
+      "url": "http://sourceforge.net/software/document-automation/",
+      "publisher": "sourceforge.net",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Easy Document Assembly CLE",
+      "url": "http://youtube.com/watch?v=ZGWz0gUeasg",
+      "publisher": "youtube.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Document Automation for Law Firms",
+      "url": "http://www.legalgps.com/solo-attorney/document-automation-for-law-firms",
+      "publisher": "legalgps.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Explains the five steps of document assembly and compares three tools' published prices and limits, with a will-package example and a setup-cost calculation.",
+  "plan": {
+    "reader_title": "\"Document Assembly Software for Lawyers: From Questionnaire to Final Draft\"",
+    "seo_title": "\"Document Assembly Software for Law Firms: 2026 Guide\"",
+    "meta_description": "Compare document assembly software for law firms by price, questionnaires, Word templates, and conditional logic, with Gavel, Knackly, and HotDocs checked on official pages.",
+    "slug": "/legal-tech/document-assembly-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "document assembly software for lawyers",
+      "legal document assembly software",
+      "best document assembly software",
+      "free document assembly software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How Document Assembly Works",
+      "How We Compared These Tools",
+      "1. Gavel: Best for Client-Facing Intake",
+      "2. Knackly: Best for Complex Documents",
+      "3. HotDocs: Best for Enterprise Volume",
+      "Which Documents to Automate First",
+      "A Worked Example: Simple Will Package",
+      "Building Templates That Last",
+      "Questions to Ask Before You Buy",
+      "Common Mistakes to Avoid",
+      "What Setup Really Costs",
+      "Where Document Assembly Fits",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://knackly.io/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://knackly.io/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://mitratech.com/products/hotdocs/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/",
+      "/legal-tech/legal-intake-software/",
+      "/legal-tech/docusign-alternatives/"
+    ],
+    "external_link_opportunities": [
+      "https://knackly.io/",
+      "https://knackly.io/pricing",
+      "https://mitratech.com/products/hotdocs/",
+      "https://www.gavel.io/legal-document-assembly-software",
+      "https://www.gavel.io/pricing"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Gavel lists Lite at $83, Pro at $290, and Scale from $417 billed annually; Standard showed $210 on its card and $165 in the table.",
+      "source_url": "https://www.gavel.io/pricing",
+      "verified": true
+    },
+    {
+      "statement": "Knackly Starter costs $250 a month or $209 paid yearly and includes 4 users and client-facing questionnaires.",
+      "source_url": "https://knackly.io/pricing",
+      "verified": true
+    },
+    {
+      "statement": "Mitratech lists HotDocs batch processing that generates 500,000+ documents.",
+      "source_url": "https://mitratech.com/products/hotdocs/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}

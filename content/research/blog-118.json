@@ -1,0 +1,480 @@
+{
+  "tracker_id": "Blog:118",
+  "status": "verified",
+  "research_question": "Owner-approved addition: How to Choose a Remote Online Notarization Platform. Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for remote online notarization platform, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "remote online notarization platform",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-25",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "remote online notarization platform",
+        "type": "short-tail",
+        "volume": 1300,
+        "difficulty": 9,
+        "cpc": 7.26,
+        "intent": "Commercial",
+        "ranking_url": "http://www.facebook.com/groups/277170914339505/posts/1129623609094227/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "remote online notarization platform provider",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 14,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.facebook.com/groups/277170914339505/posts/1129623609094227/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "remote online notarization services",
+        "type": "commercial",
+        "volume": 1900,
+        "difficulty": 15,
+        "cpc": 4.87,
+        "intent": "Commercial",
+        "ranking_url": "http://www.facebook.com/groups/277170914339505/posts/1129623609094227/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "online notary cost",
+        "type": "problem",
+        "volume": 210,
+        "difficulty": 34,
+        "cpc": 5.92,
+        "intent": "Commercial",
+        "ranking_url": "http://www.facebook.com/groups/277170914339505/posts/1129623609094227/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how does remote online notarization work",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 15,
+        "cpc": 1.03,
+        "intent": "Commercial",
+        "ranking_url": "http://www.facebook.com/groups/277170914339505/posts/1129623609094227/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://bluenotary.us/",
+      "title": "BlueNotary",
+      "publisher": "bluenotary.us",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "BlueNotary",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://bluenotary.us/pricing",
+      "title": "BlueNotary pricing",
+      "publisher": "bluenotary.us",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "BlueNotary pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://onenotary.com/",
+      "title": "OneNotary",
+      "publisher": "onenotary.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "OneNotary",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://onenotary.com/pricing/",
+      "title": "OneNotary pricing",
+      "publisher": "onenotary.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "OneNotary pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.nass.org/initiatives/remote-electronic-notarization",
+      "title": "NASS: Remote electronic notarization",
+      "publisher": "nass.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "NASS: Remote electronic notarization",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.proof.com/product/notarize",
+      "title": "Proof Notarize product page",
+      "publisher": "proof.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Proof Notarize product page",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.snapdocs.com/solutions/remote-online-notarization",
+      "title": "Snapdocs remote online notarization",
+      "publisher": "snapdocs.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Snapdocs remote online notarization",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.snapdocs.com/solutions/remote-online-notarization/pricing",
+      "title": "Snapdocs RON pricing",
+      "publisher": "snapdocs.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Snapdocs RON pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "NASS says 47 states and the District of Columbia have a law that allows remote e-notarization.",
+      "source_url": "https://www.nass.org/initiatives/remote-electronic-notarization",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "OneNotary lists $25 per session for one stamp and one signer.",
+      "source_url": "https://onenotary.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Snapdocs lists RON at $15 per non-mortgage and $25 per mortgage transaction on a $20 per user monthly Notary plan.",
+      "source_url": "https://www.snapdocs.com/solutions/remote-online-notarization/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "REMOTE NOTARIES, what platform are you using?",
+      "url": "http://www.facebook.com/groups/277170914339505/posts/1129623609094227/",
+      "publisher": "facebook.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-25)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Top Remote Online Notary Services Compared",
+      "url": "http://leenotarypublic.com/top-3-remote-online-notary-services-of-2023/",
+      "publisher": "leenotarypublic.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-25)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Top 7 Remote Online Notary Platforms",
+      "url": "http://www.youtube.com/watch?v=GO5odDEbSqg",
+      "publisher": "youtube.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-25)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Remote Online Notarization Platforms",
+      "url": "http://www.nationalnotary.org/knowledge-center/remote-online-notary/remote-notarization-platforms",
+      "publisher": "nationalnotary.org",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-25)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Electronic Notarization System Providers Index",
+      "url": "http://apps.ilsos.gov/notary/esystemproviderlist",
+      "publisher": "apps.ilsos.gov",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-25)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Combines the NASS state count and identity standard with four vendors' published prices, retention terms, and closing support, plus a year-one cost example.",
+  "plan": {
+    "reader_title": "How to Choose a Remote Online Notarization Platform",
+    "seo_title": "Remote Online Notarization Platform Guide for 2026",
+    "meta_description": "Compare a remote online notarization platform by price per session, identity checks, document retention, and closing support, with four vendors checked on official pages.",
+    "slug": "/legal-business/remote-online-notarization-platform/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "remote online notarization platform provider"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How RON Works and What the Law Expects",
+      "How We Compared These Platforms",
+      "1. Proof (Notarize): Best for High-Volume Business Use",
+      "2. OneNotary: Best for Occasional Signers",
+      "3. Snapdocs: Best for Lenders and Settlement Teams",
+      "4. BlueNotary: Best for Independent Notaries",
+      "What a Year of Notarizations Costs",
+      "Questions to Ask Before You Sign Up",
+      "Common Mistakes When Choosing a Platform",
+      "Where RON Fits in Legal Technology",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://bluenotary.us/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://bluenotary.us/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://onenotary.com/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/docusign-alternatives/",
+      "/legal-business/contract-management-software-for-small-business/"
+    ],
+    "external_link_opportunities": [
+      "https://bluenotary.us/",
+      "https://bluenotary.us/pricing",
+      "https://onenotary.com/",
+      "https://onenotary.com/pricing/",
+      "https://www.nass.org/initiatives/remote-electronic-notarization",
+      "https://www.proof.com/product/notarize",
+      "https://www.snapdocs.com/solutions/remote-online-notarization",
+      "https://www.snapdocs.com/solutions/remote-online-notarization/pricing"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "NASS says 47 states and the District of Columbia have a law that allows remote e-notarization.",
+      "source_url": "https://www.nass.org/initiatives/remote-electronic-notarization",
+      "verified": true
+    },
+    {
+      "statement": "OneNotary lists $25 per session for one stamp and one signer.",
+      "source_url": "https://onenotary.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Snapdocs lists RON at $15 per non-mortgage and $25 per mortgage transaction on a $20 per user monthly Notary plan.",
+      "source_url": "https://www.snapdocs.com/solutions/remote-online-notarization/pricing",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}

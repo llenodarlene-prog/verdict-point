@@ -1,0 +1,483 @@
+{
+  "tracker_id": "Blog:119",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Contract Management Software for Small Business: Renewals First\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for contract management software for small business, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "contract management software for small business",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "contract management software for small business",
+        "type": "short-tail",
+        "volume": 170,
+        "difficulty": 35,
+        "cpc": 160.33,
+        "intent": "Commercial",
+        "ranking_url": "http://www.legesgpt.com/blog/contract-management-software-for-small-business",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free contract management software for small business",
+        "type": "long-tail",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.legesgpt.com/blog/contract-management-software-for-small-business",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best contract management software for small business",
+        "type": "commercial",
+        "volume": 50,
+        "difficulty": 53,
+        "cpc": 129.53,
+        "intent": "Commercial",
+        "ranking_url": "http://www.legesgpt.com/blog/contract-management-software-for-small-business",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "contract renewal tracking",
+        "type": "problem",
+        "volume": 0,
+        "difficulty": 12,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.legesgpt.com/blog/contract-management-software-for-small-business",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how to track contract renewals",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.legesgpt.com/blog/contract-management-software-for-small-business",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.concord.app/",
+      "title": "Concord",
+      "publisher": "concord.app",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Concord",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.concord.app/pricing",
+      "title": "Concord pricing",
+      "publisher": "concord.app",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Concord pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.contractsafe.com/pricing",
+      "title": "ContractSafe pricing",
+      "publisher": "contractsafe.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "ContractSafe pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.contractsafe.com/small-business-contract-management-software",
+      "title": "ContractSafe small business contract management",
+      "publisher": "contractsafe.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "ContractSafe small business contract management",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.pandadoc.com/",
+      "title": "PandaDoc",
+      "publisher": "pandadoc.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "PandaDoc",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.pandadoc.com/pricing/",
+      "title": "PandaDoc pricing",
+      "publisher": "pandadoc.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "PandaDoc pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zoho.com/contracts/contract-management-software-for-small-businesses.html",
+      "title": "Zoho Contracts for small businesses",
+      "publisher": "zoho.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Zoho Contracts for small businesses",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zoho.com/contracts/pricing.html",
+      "title": "Zoho Contracts pricing",
+      "publisher": "zoho.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Zoho Contracts pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "PandaDoc Starter is $25 per seat per month billed annually or $45 billed monthly.",
+      "source_url": "https://www.pandadoc.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Concord Essentials costs $499 a month paid annually and includes 5 users.",
+      "source_url": "https://www.concord.app/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ContractSafe pricing starts at $450 a month billed annually with unlimited users.",
+      "source_url": "https://www.contractsafe.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Contract management software for small business",
+      "url": "http://www.legesgpt.com/blog/contract-management-software-for-small-business",
+      "publisher": "legesgpt.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Small Business Contract Management",
+      "url": "http://www.cobblestonesoftware.com/blog/how-contract-management-can-benefit-your-small-business",
+      "publisher": "cobblestonesoftware.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Contract Management Software for Small Business",
+      "url": "http://zignt.com/blog/best-contract-management-software-small-business",
+      "publisher": "zignt.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Key features in contract management software for small business",
+      "url": "http://signtime.com/en/blog/contract-management-software-for-small-business/",
+      "publisher": "signtime.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "6 Best Contract Management Tools for Small Businesses",
+      "url": "http://fueler.io/blog/best-contract-management-tools-for-small-businesses",
+      "publisher": "fueler.io",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Ranks small-business needs with renewals first, compares four products' price models, and adds a five-person year-one cost table and a one-week setup plan.",
+  "plan": {
+    "reader_title": "\"Contract Management Software for Small Business: Renewals First\"",
+    "seo_title": "\"Contract Management Software for Small Business in 2026\"",
+    "meta_description": "Compare contract management software for small business by price, users, e-signature, and renewal reminders, with four vendors checked on official pages.",
+    "slug": "/legal-business/contract-management-software-for-small-business/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best contract management software for small business"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "What a Small Business Actually Needs",
+      "How We Compared These Products",
+      "1. Zoho Contracts: Best Free Starting Point",
+      "2. PandaDoc: Best When Contracts Start as Proposals",
+      "3. Concord: Best All-in-One Plan for a Small Team",
+      "4. ContractSafe: Best for Search and Unlimited Users",
+      "What Year One Costs for a Five-Person Team",
+      "How to Set Up Renewal Tracking in a Week",
+      "Signs You Have Outgrown a Spreadsheet",
+      "Questions to Ask Vendors",
+      "Related Tools",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.concord.app/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.concord.app/pricing"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.contractsafe.com/pricing"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/ai-contract-management-software/",
+      "/legal-business/contract-lifecycle-management/",
+      "/legal-tech/docusign-alternatives/",
+      "/legal-business/remote-online-notarization-platform/"
+    ],
+    "external_link_opportunities": [
+      "https://www.concord.app/",
+      "https://www.concord.app/pricing",
+      "https://www.contractsafe.com/pricing",
+      "https://www.contractsafe.com/small-business-contract-management-software",
+      "https://www.pandadoc.com/",
+      "https://www.pandadoc.com/pricing/",
+      "https://www.zoho.com/contracts/contract-management-software-for-small-businesses.html",
+      "https://www.zoho.com/contracts/pricing.html"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "PandaDoc Starter is $25 per seat per month billed annually or $45 billed monthly.",
+      "source_url": "https://www.pandadoc.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Concord Essentials costs $499 a month paid annually and includes 5 users.",
+      "source_url": "https://www.concord.app/pricing",
+      "verified": true
+    },
+    {
+      "statement": "ContractSafe pricing starts at $450 a month billed annually with unlimited users.",
+      "source_url": "https://www.contractsafe.com/pricing",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}

@@ -1,0 +1,470 @@
+{
+  "tracker_id": "Blog:112",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Legal Intake Software: Compare Lead Capture, Follow-Up, and Handoff\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for legal intake software, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "legal intake software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-17",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "legal intake software",
+        "type": "short-tail",
+        "volume": 140,
+        "difficulty": 25,
+        "cpc": 90.64,
+        "intent": "Commercial",
+        "ranking_url": "http://www.checkbox.ai/platform/legal-intake-and-triage",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal client intake software",
+        "type": "long-tail",
+        "volume": 30,
+        "difficulty": 14,
+        "cpc": 107.29,
+        "intent": "Commercial",
+        "ranking_url": "http://www.checkbox.ai/platform/legal-intake-and-triage",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "law firm intake software",
+        "type": "commercial",
+        "volume": 30,
+        "difficulty": 20,
+        "cpc": 363.67,
+        "intent": "Commercial",
+        "ranking_url": "http://www.checkbox.ai/platform/legal-intake-and-triage",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal client intake form",
+        "type": "problem",
+        "volume": 50,
+        "difficulty": 19,
+        "cpc": 29.41,
+        "intent": "Commercial",
+        "ranking_url": "http://www.checkbox.ai/platform/legal-intake-and-triage",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal client intake",
+        "type": "question",
+        "volume": 0,
+        "difficulty": 4,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.checkbox.ai/platform/legal-intake-and-triage",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.clio.com/grow/",
+      "title": "Clio Grow",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Clio Grow",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawmatics.com/",
+      "title": "Lawmatics",
+      "publisher": "lawmatics.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Lawmatics",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawmatics.com/pricing",
+      "title": "Lawmatics pricing",
+      "publisher": "lawmatics.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Lawmatics pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lawruler.com/client-intake-software/",
+      "title": "Law Ruler client intake software",
+      "publisher": "lawruler.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Law Ruler client intake software",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.leaddocket.com/",
+      "title": "Lead Docket",
+      "publisher": "leaddocket.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Lead Docket",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/",
+      "title": "MyCase",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "MyCase",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "MyCase Pro, which includes client intake forms and a legal CRM, costs $100 per user per month billed annually.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Lead Docket says AI assesses every lead the moment it opens and data natively transfers to Filevine.",
+      "source_url": "https://www.leaddocket.com/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Clio Grow screens inquiries for fit and conflicts, books consultations, and sends fee agreements for e-signature.",
+      "source_url": "https://www.clio.com/grow/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Automated Legal Intake & Triage Software",
+      "url": "http://www.checkbox.ai/platform/legal-intake-and-triage",
+      "publisher": "checkbox.ai",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "AI Legal Intake Forms & Client Intake for Law Firms",
+      "url": "http://www.clio.com/features/online-intake-forms/",
+      "publisher": "clio.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Intake Software in 2026: 9 Platforms Compared",
+      "url": "http://getperspective.ai/blog/legal-intake-software-2026-platforms-for-law-firms",
+      "publisher": "getperspective.ai",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best CRM software for automating law firm intake?",
+      "url": "http://www.reddit.com/r/CRM/comments/1lwuvw1/best_crm_softwares_for_automating_law_firm_intake/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Client Intake Software & Forms",
+      "url": "http://www.lawruler.com/client-intake-software/",
+      "publisher": "lawruler.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-17)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Maps intake into capture, follow-up, and handoff stages, and compares four tools by the stage each handles best, with a weekend-lead example and a trial checklist.",
+  "plan": {
+    "reader_title": "\"Legal Intake Software: Compare Lead Capture, Follow-Up, and Handoff\"",
+    "seo_title": "\"Legal Intake Software for Law Firms: 2026 Comparison\"",
+    "meta_description": "Compare legal intake software by intake forms, conflict checks, e-signature, AI lead screening, and price, with four tools checked on official pages.",
+    "slug": "/legal-tech/legal-intake-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "in house legal intake software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "The Three Stages of Legal Intake",
+      "How We Compared These Tools",
+      "1. Lawmatics: Best for Marketing-Led Intake",
+      "2. Clio Grow: Best for Firms Already on Clio",
+      "3. Lead Docket: Best for High-Volume Personal Injury Intake",
+      "4. MyCase: Best Intake Built Into Practice Management",
+      "Another Option to Consider: Law Ruler",
+      "Questions to Ask Every Vendor",
+      "A Worked Example: A Missed Weekend Lead",
+      "What to Test in a Trial",
+      "Phone Calls Still Matter",
+      "How Intake Fits Your Tech Stack",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.clio.com/grow/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.lawmatics.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.lawmatics.com/pricing"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-crm-software/",
+      "/legal-tech/virtual-receptionist-for-law-firms/",
+      "/legal-tech/document-assembly-software/",
+      "/legal-tech/clio-vs-mycase/"
+    ],
+    "external_link_opportunities": [
+      "https://www.clio.com/grow/",
+      "https://www.lawmatics.com/",
+      "https://www.lawmatics.com/pricing",
+      "https://www.lawruler.com/client-intake-software/",
+      "https://www.leaddocket.com/",
+      "https://www.mycase.com/",
+      "https://www.mycase.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "MyCase Pro, which includes client intake forms and a legal CRM, costs $100 per user per month billed annually.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Lead Docket says AI assesses every lead the moment it opens and data natively transfers to Filevine.",
+      "source_url": "https://www.leaddocket.com/",
+      "verified": true
+    },
+    {
+      "statement": "Clio Grow screens inquiries for fit and conflicts, books consultations, and sends fee agreements for e-signature.",
+      "source_url": "https://www.clio.com/grow/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}
