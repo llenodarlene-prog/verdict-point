@@ -10,6 +10,9 @@
 // minimum $50 a week). Both from owner-supplied official copies, reviewed 2026-11-26.
 export const RULES_VERSION = 'Florida Statutes 2026, s. 440.15 and s. 440.12; Texas Labor Code ch. 408; O.C.G.A. 34-9-261 and 34-9-263 (2025); reviewed 2026-11-26';
 export const GA_MAX = 800, GA_MIN = 50;
+// Texas Department of Insurance maximum and minimum weekly benefit table (page updated 9/14/2026, owner-supplied copy):
+// fiscal year by date of injury. IIB and TIB columns.
+export const TX_RATES = Object.freeze({ 2027: { label: 'Oct 1, 2026 to Sep 30, 2027', iibMax: 920, iibMin: 197, tibMax: 1314, tibMin: 197 }, 2026: { label: 'Oct 1, 2025 to Sep 30, 2026', iibMax: 890, iibMin: 191, tibMax: 1271, tibMin: 191 }, 2025: { label: 'Oct 1, 2024 to Sep 30, 2025', iibMax: 853, iibMin: 183, tibMax: 1219, tibMin: 183 } });
 export const GA_WEEKS = Object.freeze({ body: ['Body as a whole', 300], arm: ['Arm', 225], leg: ['Leg', 225], hand: ['Hand', 160], foot: ['Foot', 135], thumb: ['Thumb', 60], index: ['Index finger', 40], middle: ['Middle finger', 35], ring: ['Ring finger', 30], little: ['Little finger', 25], 'great-toe': ['Great toe', 30], toe: ['Other toe', 20], 'hearing-one': ['Hearing, one ear', 75], 'hearing-both': ['Hearing, both ears', 150], eye: ['Vision, one eye', 150] });
 export const FL_MAX = { 2025: 1295, 2026: 1358 };
 export const FL_MIN = 20;
@@ -68,10 +71,10 @@ function result(label, weekly, weeks, rows, notes, formula, tiles) {
 export function compute(v = {}) {
   if (v.state === 'texas') {
     if (!(v.aww > 0) || !(v.rating >= 1) || v.rating > 100) return { empty: 'Enter the average weekly wage and an impairment rating from 1 to 100.' };
-    const weekly = texasWeekly(v.aww, v.txMax, v.txMin), weeks = Math.floor(v.rating) * 3;
-    const rows = [['Weekly impairment income benefit', `70% of ${money(v.aww)}${v.txMax > 0 ? `, capped at ${money(v.txMax)}` : ''}`, money(weekly)], ['Weeks of benefits', `3 weeks × ${Math.floor(v.rating)}% (s. 408.121)`, `${weeks} weeks`]];
-    const notes = ['Texas pays impairment income benefits from the day after maximum medical improvement (s. 408.121). The weekly maximum is 70% of the state average weekly wage and the minimum is 15%, set each fiscal year and fixed by your date of injury (s. 408.061, 408.062). Enter both from the Texas Department of Insurance rate table.'];
-    if (!(v.txMax > 0)) notes.unshift('No weekly maximum was entered, so the estimate is not capped. Enter the maximum for your injury date to apply it.');
+    const fy = TX_RATES[v.txYear] || TX_RATES[2027]; const max = v.txMax > 0 ? v.txMax : fy.iibMax, min = v.txMin > 0 ? v.txMin : fy.iibMin;
+    const weekly = texasWeekly(v.aww, max, min), weeks = Math.floor(v.rating) * 3;
+    const rows = [['Weekly impairment income benefit', `70% of ${money(v.aww)}, between ${money(min)} and ${money(max)} (${v.txMax > 0 ? 'your figures' : `TDI, injuries ${fy.label}`})`, money(weekly)], ['Weeks of benefits', `3 weeks × ${Math.floor(v.rating)}% (s. 408.121)`, `${weeks} weeks`]];
+    const notes = ['Texas pays impairment income benefits from the day after maximum medical improvement (s. 408.121). The weekly maximum is 70% of the state average weekly wage and the minimum is 15%, set each fiscal year and fixed by your date of injury (s. 408.061, 408.062). The calculator uses the Texas Department of Insurance table for the fiscal year you choose.'];
     return result('Estimated Texas impairment income benefits', weekly, weeks, rows, notes, 'Texas: weekly benefit = 70% of the average weekly wage, within the yearly maximum and minimum. Weeks = 3 × impairment rating.', ['70% of the wage', `${Math.floor(v.rating)}% rating`]);
   }
   if (v.state === 'georgia') {
