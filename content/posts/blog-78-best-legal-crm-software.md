@@ -11,13 +11,13 @@ primary_keyword: legal crm software
 cluster: Legal Tech
 launch_silo: Legal Technology Adoption
 silo_role: Supporting
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-legal-document-automation-software/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/best-legal-document-automation-software/; /legal-tech/legal-intake-software/
 research_record: content/research/blog-78.json
 image: /assets/images/posts/best-legal-crm-software/featured-intake-pipeline-1600.jpg
 image_alt: Three lawyers at a laptop while a four-stage client intake pipeline and a network of contact profiles float above the desk
 author: Darlene Aberin
 published: 2026-11-09
-modified: 2026-11-05
+modified: 2026-11-26
 ---
 
 # 8 Best Legal CRM Software Platforms for Law Firms
@@ -68,6 +68,8 @@ An intake CRM captures inquiries from web forms, calls, chat, and texts, then mo
 ### Relationship CRM
 
 A relationship CRM pulls contact and activity data from across the firm to show who knows whom and where new work may come from. It suits larger firms with many partners and long client histories.
+
+If your main problem is turning new inquiries into signed clients, start with a comparison of [legal intake software](/legal-tech/legal-intake-software/).
 
 ## 1. Clio Grow: Best for Firms Using Clio
 

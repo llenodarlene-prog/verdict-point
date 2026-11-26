@@ -11,14 +11,14 @@ primary_keyword: clio vs mycase
 cluster: Legal Tech
 launch_silo: Practice Management Software
 silo_role: Commercial Support
-approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/legal-practice-management-software/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/
+approved_internal_links: /legal-tech/legal-technology-statistics/; /legal-tech/legal-practice-management-software/; /legal-tech/clio-legal-software-total-cost/; /legal-tech/mycase-legal-software/; /legal-tech/clio-vs-practicepanther/
 research_record: content/research/blog-105.json
 image: /assets/images/posts/clio-vs-mycase/featured-practice-management-dashboard-1600.jpg
 image_alt: Laptop showing a law practice dashboard linked to icons for clients, calendar, invoices, documents, and reports, beside a scale of justice and law books
 author: Darlene Aberin
 published: 2026-11-27
 publish_time: 10:10
-modified: 2026-11-20
+modified: 2026-11-26
 ---
 
 # Clio vs MyCase: Which Practice Management Platform Fits Your Firm?
@@ -142,6 +142,8 @@ Because MyCase publishes all three prices, you can model a full year before a de
 | Advanced | $7,800 | $9,000 | $1,200 |
 
 These are our calculations from published prices, not quotes. A matching Clio table is not possible from public data, because only Starter shows a price. Five Clio Starter seats would cost at least $2,940 a year at $49 per user per month.
+
+Firms that want every tier priced up front can also compare [Clio vs PracticePanther](/legal-tech/clio-vs-practicepanther/), since PracticePanther publishes all four plan prices.
 
 ## Contract and Cancellation Terms
 

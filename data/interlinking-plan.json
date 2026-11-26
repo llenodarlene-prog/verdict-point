@@ -154,7 +154,16 @@
       "/legal-tech/docusign-vs-adobe-sign/",
       "/legal-tech/ai-tools-for-lawyers/",
       "/legal-tech/clio-vs-mycase/",
-      "/legal-tech/lexis-vs-westlaw/"
+      "/legal-tech/lexis-vs-westlaw/",
+      "/legal-tech/ai-contract-management-software/",
+      "/legal-tech/document-assembly-software/",
+      "/legal-tech/legal-intake-software/",
+      "/legal-tech/billing-software-for-small-law-firms/",
+      "/legal-tech/legal-docketing-software/",
+      "/legal-tech/clio-vs-practicepanther/",
+      "/legal-tech/virtual-receptionist-for-law-firms/",
+      "/legal-business/remote-online-notarization-platform/",
+      "/legal-business/contract-management-software-for-small-business/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2092,7 +2101,8 @@
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
-      "/legal-tech/best-lawyer-time-tracking-software/"
+      "/legal-tech/best-lawyer-time-tracking-software/",
+      "/legal-tech/legal-docketing-software/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2152,7 +2162,8 @@
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
-      "/legal-tech/best-legal-accounting-software/"
+      "/legal-tech/best-legal-accounting-software/",
+      "/legal-tech/billing-software-for-small-law-firms/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2247,7 +2258,8 @@
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
-      "/legal-tech/best-legal-document-automation-software/"
+      "/legal-tech/best-legal-document-automation-software/",
+      "/legal-tech/ai-contract-management-software/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2310,7 +2322,8 @@
       "/legal-tech/best-law-firm-document-management-software/",
       "/legal-tech/best-legal-contract-management-software/",
       "/legal-tech/best-legal-crm-software/",
-      "/legal-tech/docusign-alternatives/"
+      "/legal-tech/docusign-alternatives/",
+      "/legal-tech/document-assembly-software/"
     ],
     "natural_anchor_concepts": [
       {
@@ -2348,7 +2361,8 @@
     "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
     "approved_outbound_targets": [
       "/legal-tech/legal-technology-statistics/",
-      "/legal-tech/best-legal-document-automation-software/"
+      "/legal-tech/best-legal-document-automation-software/",
+      "/legal-tech/legal-intake-software/"
     ],
     "natural_anchor_concepts": [
       {
@@ -3275,7 +3289,8 @@
       "/legal-tech/legal-technology-statistics/",
       "/legal-tech/legal-practice-management-software/",
       "/legal-tech/clio-legal-software-total-cost/",
-      "/legal-tech/mycase-legal-software/"
+      "/legal-tech/mycase-legal-software/",
+      "/legal-tech/clio-vs-practicepanther/"
     ],
     "natural_anchor_concepts": [
       {
@@ -3460,5 +3475,415 @@
     "placement_guidance": "Owner-approved additions (2026-11-20): links as placed in the edited draft.",
     "qa_status": "Added by owner approval 2026-11-20",
     "content_number": "109"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"AI Contract Management Software: Contract Review vs Full CLM\"",
+    "url_slug": "/legal-tech/ai-contract-management-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 100,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-contract-management-software/",
+      "/legal-business/contract-lifecycle-management/",
+      "/legal-business/contract-management-software-for-small-business/",
+      "/legal-tech/ai-tools-for-lawyers/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-contract-management-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/contract-lifecycle-management/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/contract-management-software-for-small-business/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/ai-tools-for-lawyers/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "110"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"Document Assembly Software for Lawyers: From Questionnaire to Final Draft\"",
+    "url_slug": "/legal-tech/document-assembly-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 101,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-document-automation-software/",
+      "/legal-tech/legal-intake-software/",
+      "/legal-tech/docusign-alternatives/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-document-automation-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/legal-intake-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/docusign-alternatives/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "111"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"Legal Intake Software: Compare Lead Capture, Follow-Up, and Handoff\"",
+    "url_slug": "/legal-tech/legal-intake-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 102,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-crm-software/",
+      "/legal-tech/virtual-receptionist-for-law-firms/",
+      "/legal-tech/document-assembly-software/",
+      "/legal-tech/clio-vs-mycase/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-crm-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/virtual-receptionist-for-law-firms/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/document-assembly-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/clio-vs-mycase/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "112"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"Legal Docketing Software: How Rules-Based Deadline Tools Work\"",
+    "url_slug": "/legal-tech/legal-docketing-software/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 104,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-calendaring-software/",
+      "/legal-tech/legal-practice-management-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-calendaring-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/legal-practice-management-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "114"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"Clio vs PracticePanther: Which Fits Your Law Firm Workflow?\"",
+    "url_slug": "/legal-tech/clio-vs-practicepanther/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 105,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/clio-vs-mycase/",
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/billing-software-for-small-law-firms/",
+      "/legal-tech/legal-practice-management-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/clio-vs-mycase/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/clio-legal-software-total-cost/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/billing-software-for-small-law-firms/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/legal-practice-management-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "115"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"Virtual Receptionist for Law Firms: Intake Quality Matters More Than a Greeting\"",
+    "url_slug": "/legal-tech/virtual-receptionist-for-law-firms/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 106,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-intake-software/",
+      "/legal-tech/best-legal-crm-software/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/legal-intake-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-crm-software/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "116"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"Trust Accounting Software for Lawyers: Trust Ledgers vs Full Bookkeeping\"",
+    "url_slug": "/legal-tech/trust-accounting-software-for-lawyers/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 107,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-accounting-software/",
+      "/legal-tech/billing-software-for-small-law-firms/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-accounting-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/billing-software-for-small-law-firms/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "117"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "How to Choose a Remote Online Notarization Platform",
+    "url_slug": "/legal-business/remote-online-notarization-platform/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 108,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/docusign-alternatives/",
+      "/legal-business/contract-management-software-for-small-business/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/docusign-alternatives/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/contract-management-software-for-small-business/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "118"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"Contract Management Software for Small Business: Renewals First\"",
+    "url_slug": "/legal-business/contract-management-software-for-small-business/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 109,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/ai-contract-management-software/",
+      "/legal-business/contract-lifecycle-management/",
+      "/legal-tech/docusign-alternatives/",
+      "/legal-business/remote-online-notarization-platform/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/ai-contract-management-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/contract-lifecycle-management/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/docusign-alternatives/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-business/remote-online-notarization-platform/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "119"
+  },
+  {
+    "site": "VerdictPoint",
+    "type": "Blog",
+    "working_title": "\"Billing Software for Small Law Firms: Compare the Work, Not Just the Seat Price\"",
+    "url_slug": "/legal-tech/billing-software-for-small-law-firms/",
+    "cluster": "Legal Tech",
+    "launch_silo": "Legal Technology Adoption",
+    "silo_role": "Supporting",
+    "publish_phase": 8,
+    "publish_order": 103,
+    "primary_silo_hub": "/legal-tech/legal-technology-statistics/",
+    "approved_outbound_targets": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-billing-software/",
+      "/legal-tech/clio-vs-practicepanther/",
+      "/legal-tech/best-lawyer-time-tracking-software/",
+      "/legal-tech/clio-vs-mycase/",
+      "/legal-tech/trust-accounting-software-for-lawyers/"
+    ],
+    "natural_anchor_concepts": [
+      {
+        "target": "/legal-tech/legal-technology-statistics/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-legal-billing-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/clio-vs-practicepanther/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/best-lawyer-time-tracking-software/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/clio-vs-mycase/",
+        "concept": "phrase placed in the edited owner draft"
+      },
+      {
+        "target": "/legal-tech/trust-accounting-software-for-lawyers/",
+        "concept": "phrase placed in the edited owner draft"
+      }
+    ],
+    "reciprocal_inbound_from": [],
+    "placement_guidance": "Owner-approved additions (2026-11-26): links as placed in the edited draft.",
+    "qa_status": "Added by owner approval 2026-11-26",
+    "content_number": "113"
   }
 ]
