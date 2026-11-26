@@ -28,3 +28,13 @@ test('privacy policy covers each s. 22575(b) item', () => {
   for (const h of ['Effective Date', 'Information We Collect', 'Who We Share It With', 'Reviewing and Changing Your Information', 'Do Not Track', 'Tracking by Other Parties', 'Changes to This Policy']) assert.ok(heads.includes(h), h);
   assert.ok(privacy({ company: 'A' }).empty);
 });
+test('Texas TDI table, Georgia partial disability and waiting period, Texas TIBs', () => {
+  assert.equal(ppd({ state: 'texas', aww: 2000, rating: 10, txYear: '2027' }).headline.value, '$27,600.00');
+  assert.equal(ppd({ state: 'texas', aww: 2000, rating: 10, txYear: '2025' }).headline.value, '$25,590.00');
+  assert.equal(ppd({ state: 'texas', aww: 100, rating: 1, txYear: '2026' }).headline.value, '$573.00');
+  assert.equal(wc({ state: 'georgia', aww: 900, ttdWeeks: 2, tpdWeeks: 4, post: 300 }).headline.value, '$2,800.00');
+  assert.equal(wc({ state: 'georgia', aww: 900, ttdWeeks: 2 }).headline.value, '$600.00');
+  assert.equal(wc({ state: 'georgia', aww: 2000, tpdWeeks: 1, post: 0 }).headline.value, '$533.00');
+  assert.equal(wc({ state: 'texas', aww: 1000, ttdWeeks: 4, tpdWeeks: 2, post: 600, txYear: '2027' }).headline.value, '$3,360.00');
+  assert.equal(wc({ state: 'texas', aww: 3000, ttdWeeks: 1, txYear: '2026' }).headline.value, '$1,271.00');
+});

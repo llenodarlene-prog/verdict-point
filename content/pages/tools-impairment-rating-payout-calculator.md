@@ -44,9 +44,15 @@ Texas Labor Code chapter 408 sets three rules:
 
 - **Weekly amount:** Section 408.126 sets the impairment income benefit at 70 percent of the employee's average weekly wage.
 - **Number of weeks:** Section 408.121 pays three weeks for each percentage point of impairment, starting the day after maximum medical improvement.
-- **Caps:** Section 408.061(b) caps the weekly benefit at 70 percent of the state average weekly wage, and section 408.062 sets the minimum at 15 percent of it. The dollar amounts change each state fiscal year and are fixed by the date of injury. Enter them from the Texas Department of Insurance rate table.
+- **Caps:** Section 408.061(b) caps the weekly benefit at 70 percent of the state average weekly wage, and section 408.062 sets the minimum at 15 percent of it. The dollar amounts change each state fiscal year and are fixed by the date of injury. The calculator uses the Texas Department of Insurance table:
 
-For example, with a $1,000 average weekly wage and a 10% rating, the weekly benefit is $700 for 30 weeks, or $21,000, if the maximum for your injury date is at least $700.
+| Date of injury | Weekly maximum | Weekly minimum |
+| --- | --- | --- |
+| Oct 1, 2026 to Sep 30, 2027 | $920 | $197 |
+| Oct 1, 2025 to Sep 30, 2026 | $890 | $191 |
+| Oct 1, 2024 to Sep 30, 2025 | $853 | $183 |
+
+For example, with a $1,000 average weekly wage and a 10% rating, the weekly benefit is $700 for 30 weeks, or $21,000, since $700 is within the limits for each year above. At a $2,000 weekly wage, 70% is $1,400, so the $920 maximum applies for a 2026-27 injury, or $27,600 over 30 weeks.
 
 ## How Georgia Calculates Permanent Partial Disability
 
@@ -86,7 +92,7 @@ If the worker earned their full wage for 10 of those weeks, those weeks pay $300
 ## Limits of the Calculator
 
 - **Three states.** Florida, Texas, and Georgia only. We add a state only after reading its statute directly.
-- **Texas caps are entered by you.** The statute sets them as percentages of a yearly wage figure.
+- **Texas years.** The built-in Texas limits cover injuries from October 1, 2024 through September 30, 2027. You can enter other limits by hand.
 - **Accidents on or after October 1, 2003.** Older accidents use a different schedule.
 - **Rating comes from a doctor.** Florida requires an authorized physician to rate the impairment using the state's uniform schedule. This tool does not convert body-part ratings.
 - **Not a settlement value.** The estimate leaves out lump-sum settlements, attorney fees, offsets, and permanent total disability.
@@ -115,6 +121,7 @@ In Florida, impairment income benefits are the benefit paid for a permanent part
 ## Sources and Methodology
 
 - Texas Labor Code chapter 408, sections 408.061, 408.062, 408.121, and 408.126, official copy supplied by the site owner, reviewed November 26, 2026
+- Texas Department of Insurance, State average weekly wage (SAWW) / maximum and minimum weekly benefits (page updated September 14, 2026), copy supplied by the site owner, reviewed November 26, 2026
 - Georgia Code sections 34-9-261 and 34-9-263 (2025), copies supplied by the site owner, reviewed November 26, 2026
 
 - [2026 Florida Statutes, section 440.15](https://www.flsenate.gov/Laws/Statutes/2026/440.15), reviewed November 23, 2026
