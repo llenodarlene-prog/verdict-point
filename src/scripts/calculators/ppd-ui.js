@@ -11,7 +11,7 @@ function init(root) {
   const live = root.querySelector('[data-live]');
   const stepsWrap = root.querySelector('[data-steps-wrap]');
   const stepsOut = root.querySelector('[data-steps]');
-  const fields = [{ key: 'state', type: 'select' }, { key: 'aww' }, { key: 'rating', type: 'pct' }, { key: 'year', type: 'select' }, { key: 'workWeeks', type: 'int', min: 0, max: 1000 }, { key: 'bodyPart', type: 'select' }, { key: 'txMax' }, { key: 'txMin' }];
+  const fields = [{ key: 'state', type: 'select' }, { key: 'aww' }, { key: 'rating', type: 'pct' }, { key: 'year', type: 'select' }, { key: 'workWeeks', type: 'int', min: 0, max: 1000 }, { key: 'bodyPart', type: 'select' }, { key: 'txYear', type: 'select' }, { key: 'txMax' }, { key: 'txMin' }];
   const el = (tag, attrs = {}, text) => { const node = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v); if (text !== undefined) node.textContent = text; return node; };
   const SVGNS = 'http://www.w3.org/2000/svg';
   const icon = name => { const svg = document.createElementNS(SVGNS, 'svg'); svg.setAttribute('class', 'ti'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false'); const use = document.createElementNS(SVGNS, 'use'); use.setAttribute('href', `#ti-${name}`); svg.append(use); return svg; };

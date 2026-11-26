@@ -11,7 +11,7 @@ function init(root) {
   const live = root.querySelector('[data-live]');
   const stepsWrap = root.querySelector('[data-steps-wrap]');
   const stepsOut = root.querySelector('[data-steps]');
-  const fields = [{ key: 'state', type: 'select' }, { key: 'aww' }, { key: 'year', type: 'select' }, { key: 'ttdWeeks', type: 'int', min: 0, max: 520 }, { key: 'tpdWeeks', type: 'int', min: 0, max: 520 }, { key: 'post' }];
+  const fields = [{ key: 'state', type: 'select' }, { key: 'txYear', type: 'select' }, { key: 'aww' }, { key: 'year', type: 'select' }, { key: 'ttdWeeks', type: 'int', min: 0, max: 520 }, { key: 'tpdWeeks', type: 'int', min: 0, max: 520 }, { key: 'post' }];
   const el = (tag, attrs = {}, text) => { const node = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v); if (text !== undefined) node.textContent = text; return node; };
   const SVGNS = 'http://www.w3.org/2000/svg';
   const icon = name => { const svg = document.createElementNS(SVGNS, 'svg'); svg.setAttribute('class', 'ti'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false'); const use = document.createElementNS(SVGNS, 'use'); use.setAttribute('href', `#ti-${name}`); svg.append(use); return svg; };
@@ -71,7 +71,7 @@ function init(root) {
     for (const row of r.table.rows) { const tr = el('tr'); row.forEach((c, i) => tr.append(el(i === 0 ? 'th' : 'td', i === 0 ? { scope: 'row' } : {}, c))); tbody.append(tr); }
     table.append(thead, tbody);
     stepsOut.replaceChildren(table); stepsWrap.hidden = false;
-    summary = ['Verdict Point Workers Comp Calculator', `${r.headline.label}: ${r.headline.value}`, ...r.summary, '', (input('state').value === 'georgia' ? 'Georgia O.C.G.A. 34-9-261 temporary total disability estimate.' : 'Florida s. 440.15 temporary disability estimate.') + ' Not legal advice.', `Calculated ${new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}`, location.origin + location.pathname].join('\n');
+    summary = ['Verdict Point Workers Comp Calculator', `${r.headline.label}: ${r.headline.value}`, ...r.summary, '', ({ georgia: 'Georgia O.C.G.A. 34-9-261, 34-9-262, and 34-9-220 estimate.', texas: 'Texas Labor Code s. 408.103 estimate with TDI maximums.' }[input('state').value] || 'Florida s. 440.15 temporary disability estimate.') + ' Not legal advice.', `Calculated ${new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}`, location.origin + location.pathname].join('\n');
     if (announce) live.textContent = `${r.headline.label}: ${r.headline.value}.`;
     if (focus && window.matchMedia('(max-width: 767px)').matches) root.querySelector('[data-result-h]').focus();
   }
