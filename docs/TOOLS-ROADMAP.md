@@ -73,6 +73,6 @@ Blocked on owner screenshots (sites block automated access):
 - #24 California probate mode: Probate Code s. 10810
 - #9 app privacy policy generator: Bus. & Prof. Code s. 22575 and s. 22577
 
-Blocked on owner screenshots for more states: Texas Labor Code 408.121/408.126 and TDI rate table; Georgia O.C.G.A. 34-9-263 and SBWC maximum.
+Owner-supplied sources added 2026-11-26: #24 California probate mode (Prob. Code 10810), #9 app privacy policy generator (BPC 22575, 22577), Texas impairment benefits (Labor Code 408.061, 408.062, 408.121, 408.126; dollar caps entered by the user until the TDI rate table is supplied), Georgia PPD (34-9-263) and TTD (34-9-261).
 
-Remaining: #3 alimony (states with published formulas), #13 AI legal document generator, #17 bar exam score, #19 statute of limitations, #20 case brief generator, #23 MMI explainer, #26 PFAS tracker, #34 legal AI savings, #35 document review estimator, #37 contract review cost, #40 salary comparison; #9 privacy policy generator and #24 CA probate await screenshots.
+Remaining: #3 alimony (states with published formulas), #13 AI legal document generator, #17 bar exam score, #19 statute of limitations, #20 case brief generator, #23 MMI explainer, #26 PFAS tracker, #34 legal AI savings, #35 document review estimator, #37 contract review cost, #40 salary comparison.

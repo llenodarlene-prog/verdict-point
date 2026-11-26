@@ -1,7 +1,7 @@
 ---
 title: Probate Attorney Fee Calculator
-seo_title: Probate Attorney Fee Calculator: Florida Statutory Schedule
-description: Calculate the probate attorney fee presumed reasonable under Florida's 2026 statute from the estate's compensable value, with every bracket shown.
+seo_title: "Probate Attorney Fee Calculator: Florida and California"
+description: Calculate the statutory probate attorney fee under Florida's 2026 schedule or California Probate Code section 10810, with every bracket shown.
 slug: /tools/probate-attorney-fee-calculator/
 type: page
 schema: WebPage
@@ -10,12 +10,12 @@ breadcrumb: true
 parent: /tools/
 parent_label: Tools
 draft: false
-modified: 2026-11-18
+modified: 2026-11-26
 ---
 
 # Probate Attorney Fee Calculator
 
-Some states set a schedule for probate attorney fees in their statutes. This calculator applies Florida's schedule for ordinary services in a formal estate administration. Enter the inventory value of the probate assets and the income the estate earned, and it shows the fee presumed reasonable, bracket by bracket.
+Some states set a schedule for probate attorney fees in their statutes. This calculator applies Florida's schedule for ordinary services in a formal estate administration and California's statutory fee under Probate Code section 10810. Choose a state, enter the estate value, and it shows the fee bracket by bracket.
 
 ```tool
 probate-fee
@@ -38,7 +38,22 @@ Under [section 733.6171 of the 2026 Florida Statutes](http://www.leg.state.fl.us
 
 If the attorney prepares the federal estate tax return, the statute separately presumes reasonable a fee of 0.5% of the gross estate up to $10 million and 0.25% above that. Enter the gross estate in the optional field to include it.
 
-## The Schedule Is Not Mandatory
+## How California Calculates a Probate Attorney Fee
+
+California Probate Code section 10810 sets the attorney's compensation for ordinary services based on the value of the estate accounted for by the personal representative.
+
+| Estate value | Fee |
+| --- | --- |
+| First $100,000 | 4% |
+| Next $100,000 | 3% |
+| Next $800,000 | 2% |
+| Next $9 million | 1% |
+| Next $15 million | 0.5% |
+| Above $25 million | A reasonable amount set by the court |
+
+Under section 10810(b), the value is the inventory appraisal, plus gains over appraisal value on sales, plus receipts, less losses on sales. Mortgages and other debts on estate property are not subtracted. For a $500,000 estate, the fee is $4,000 + $3,000 + $6,000 = $13,000.
+
+## Florida's Schedule Is Not Mandatory
 
 The statute requires the attorney to tell the personal representative, before using the schedule, that there is no mandatory statutory attorney fee and that the fee can be negotiated. The parties can agree to a different method, such as hourly billing. The court can also raise or lower the fee on petition, and extraordinary services, such as will contests, tax audits, or real estate sales, are paid on top of the ordinary fee.
 
@@ -48,7 +63,7 @@ An estate has $850,000 in probate assets and earned $25,000 in income during adm
 
 ## Limits of the Calculator
 
-- **Florida only, for now.** Other states use different schedules or none at all. We add a state only after checking its statute directly. A California mode is planned.
+- **Florida and California only.** Other states use different schedules or none at all. We add a state only after checking its statute directly.
 - **Probate assets only.** The statute counts probate estate assets. Assets that pass outside probate, such as jointly owned property, are not part of the value you enter.
 - **Ordinary services only.** Extraordinary services are compensated separately and are not included.
 - **Not legal advice.** Confirm the fee arrangement in writing with the attorney.
@@ -80,5 +95,6 @@ No. Everything runs in your browser. Nothing is sent to Verdict Point.
 ## Sources and Methodology
 
 - [2026 Florida Statutes, section 733.6171](http://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0700-0799/0733/Sections/0733.6171.html): fee schedule, compensable value, disclosure requirements, extraordinary services, and the estate tax return fee, reviewed November 18, 2026.
+- California Probate Code section 10810, as amended by Stats. 2001, Ch. 699, official copy from leginfo.legislature.ca.gov supplied by the site owner, reviewed November 26, 2026
 
-The calculator adds the flat amounts and then applies each percentage only to the part of the value inside its bracket. Amounts round to whole dollars.
+For Florida, the calculator adds the flat amounts and then applies each percentage only to the part of the value inside its bracket. Amounts round to whole dollars.

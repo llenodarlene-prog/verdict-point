@@ -88,7 +88,7 @@ function init(root) {
     const button = e.target.closest('button[data-action]');
     if (!button) return;
     const action = button.dataset.action;
-    if (action === 'example') { for (const [k, v] of Object.entries(EXAMPLE)) input(k).value = String(v); run({ focus: true }); live.textContent = 'Example figures loaded.'; }
+    if (action === 'example') { for (const [k, v] of Object.entries(EXAMPLE)) { const node = input(k); if (!node) continue; if (node.type === "checkbox") node.checked = !!v; else node.value = String(v); } run({ focus: true }); live.textContent = 'Example figures loaded.'; }
     if (action === 'clear') { for (const f of fields) { const node = input(f.key); if (f.type === 'select') node.selectedIndex = 0; else if (f.type === 'check') node.checked = false; else node.value = ''; } run({ announce: false }); live.textContent = 'Calculator cleared.'; }
     if (action === 'copy') copyText(button, summary || 'No result to copy yet.');
     if (action === 'print') { stepsWrap.open = true; document.body.dataset.bhcPrint = 'calc'; window.print(); }
