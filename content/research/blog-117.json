@@ -1,0 +1,484 @@
+{
+  "tracker_id": "Blog:117",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Trust Accounting Software for Lawyers: Trust Ledgers vs Full Bookkeeping\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for trust accounting software for lawyers, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "trust accounting software for lawyers",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-10-03",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "trust accounting software for lawyers",
+        "type": "short-tail",
+        "volume": 40,
+        "difficulty": 11,
+        "cpc": 111.09,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/RampPlatform/comments/1vzzicy/law_firm_accounting_software_8_best_picks_for_2026/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "attorney trust accounting software",
+        "type": "long-tail",
+        "volume": 90,
+        "difficulty": 36,
+        "cpc": 100.18,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/RampPlatform/comments/1vzzicy/law_firm_accounting_software_8_best_picks_for_2026/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal trust accounting software",
+        "type": "commercial",
+        "volume": 390,
+        "difficulty": 20,
+        "cpc": 79.43,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/RampPlatform/comments/1vzzicy/law_firm_accounting_software_8_best_picks_for_2026/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "three way reconciliation iolta",
+        "type": "problem",
+        "volume": 20,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/RampPlatform/comments/1vzzicy/law_firm_accounting_software_8_best_picks_for_2026/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is trust accounting software",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 13,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/RampPlatform/comments/1vzzicy/law_firm_accounting_software_8_best_picks_for_2026/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://trustbooks.com/pricing/",
+      "title": "TrustBooks pricing",
+      "publisher": "trustbooks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "TrustBooks pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://trustbooks.com/three-way-reconciliation/",
+      "title": "TrustBooks three-way reconciliation",
+      "publisher": "trustbooks.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "TrustBooks three-way reconciliation",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cosmolex.com/",
+      "title": "CosmoLex",
+      "publisher": "cosmolex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "CosmoLex",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.cosmolex.com/pricing/",
+      "title": "CosmoLex pricing",
+      "publisher": "cosmolex.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "CosmoLex pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.leanlaw.co/",
+      "title": "LeanLaw",
+      "publisher": "leanlaw.co",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "LeanLaw",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.leanlaw.co/pricing/",
+      "title": "LeanLaw pricing",
+      "publisher": "leanlaw.co",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "LeanLaw pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.tabs3.com/",
+      "title": "Tabs3",
+      "publisher": "tabs3.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Tabs3",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.tabs3.com/pricing",
+      "title": "Tabs3 pricing",
+      "publisher": "tabs3.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Tabs3 pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "TrustBooks Trust Only costs $59 a month for one user plus $10 per additional user.",
+      "source_url": "https://trustbooks.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "CosmoLex lists Launch $49, Core $99, and Pro $129 per user per month.",
+      "source_url": "https://www.cosmolex.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "LeanLaw lists Core $55 and Pro $75 per user per month with trust accounting and IOLTA compliance on every plan.",
+      "source_url": "https://www.leanlaw.co/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Law Firm Accounting Software: 8 Best Picks",
+      "url": "http://www.reddit.com/r/RampPlatform/comments/1vzzicy/law_firm_accounting_software_8_best_picks_for_2026/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-03)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Bookkeeping with AI for Trust Accounting",
+      "url": "http://www.accountantslawlab.com/blog/revolutionize-legal-bookkeeping-with-ai-for-trust-accounting",
+      "publisher": "accountantslawlab.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-03)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Small Law Firm Management Software",
+      "url": "http://www.bookkeeper.law/blog/small-law-firm-management-software",
+      "publisher": "bookkeeper.law",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-03)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "6 Best Accounting Software for Law Firms",
+      "url": "http://cpaccounting.io/accounting-software-for-law-firms/",
+      "publisher": "cpaccounting.io",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-03)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Legal Accounting and Bookkeeping Software with IOLTA",
+      "url": "http://www.pagelightprime.com/blogs/legal-accounting-bookkeeping-iolta-software-2025/",
+      "publisher": "pagelightprime.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-10-03)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Separates trust-only tools from full suites and compares four tools' prices and QuickBooks fit, with a year-one cost table and a monthly three-way reconciliation process.",
+  "plan": {
+    "reader_title": "\"Trust Accounting Software for Lawyers: Trust Ledgers vs Full Bookkeeping\"",
+    "seo_title": "\"Trust Accounting Software for Lawyers: 2026 Guide\"",
+    "meta_description": "Compare trust accounting software for lawyers by price, three-way reconciliation, IOLTA, and QuickBooks fit, with four tools checked on official pages.",
+    "slug": "/legal-tech/trust-accounting-software-for-lawyers/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "trust accounting software",
+      "iolta accounting software"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "What Trust Accounting Software Must Do",
+      "Who Needs Dedicated Trust Software",
+      "How We Compared These Tools",
+      "1. TrustBooks: Best for Trust-Only Needs",
+      "2. CosmoLex: Best All-in-One Option",
+      "3. LeanLaw: Best for QuickBooks Online Firms",
+      "4. Tabs3: Best for Established Firms Wanting a Full Suite",
+      "What Year One Costs for a Three-Lawyer Firm",
+      "Running a Monthly Three-Way Reconciliation",
+      "Common Trust Accounting Mistakes",
+      "Trust-Only Tool or Full Suite?",
+      "Questions to Ask Every Vendor",
+      "How It Fits With Billing",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://trustbooks.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://trustbooks.com/three-way-reconciliation/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.cosmolex.com/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-accounting-software/",
+      "/legal-tech/billing-software-for-small-law-firms/"
+    ],
+    "external_link_opportunities": [
+      "https://trustbooks.com/pricing/",
+      "https://trustbooks.com/three-way-reconciliation/",
+      "https://www.cosmolex.com/",
+      "https://www.cosmolex.com/pricing/",
+      "https://www.leanlaw.co/",
+      "https://www.leanlaw.co/pricing/",
+      "https://www.tabs3.com/",
+      "https://www.tabs3.com/pricing"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "TrustBooks Trust Only costs $59 a month for one user plus $10 per additional user.",
+      "source_url": "https://trustbooks.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "CosmoLex lists Launch $49, Core $99, and Pro $129 per user per month.",
+      "source_url": "https://www.cosmolex.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "LeanLaw lists Core $55 and Pro $75 per user per month with trust accounting and IOLTA compliance on every plan.",
+      "source_url": "https://www.leanlaw.co/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}

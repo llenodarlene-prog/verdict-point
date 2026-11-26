@@ -1,0 +1,445 @@
+{
+  "tracker_id": "Blog:113",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Billing Software for Small Law Firms: Compare the Work, Not Just the Seat Price\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for billing software for small law firms, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "billing software for small law firms",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-26",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "billing software for small law firms",
+        "type": "short-tail",
+        "volume": 170,
+        "difficulty": 27,
+        "cpc": 141.69,
+        "intent": "Commercial",
+        "ranking_url": "http://www.zintego.com/blog/best-legal-billing-software-7-tools-every-law-firm-should-know/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "time and billing software for small law firms",
+        "type": "long-tail",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.zintego.com/blog/best-legal-billing-software-7-tools-every-law-firm-should-know/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best billing software for small law firms",
+        "type": "commercial",
+        "volume": 40,
+        "difficulty": 48,
+        "cpc": 89.99,
+        "intent": "Commercial",
+        "ranking_url": "http://www.zintego.com/blog/best-legal-billing-software-7-tools-every-law-firm-should-know/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "free legal billing software",
+        "type": "problem",
+        "volume": 40,
+        "difficulty": 30,
+        "cpc": 70.9,
+        "intent": "Commercial",
+        "ranking_url": "http://www.zintego.com/blog/best-legal-billing-software-7-tools-every-law-firm-should-know/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is legal billing software",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 36,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.zintego.com/blog/best-legal-billing-software-7-tools-every-law-firm-should-know/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.mycase.com/pricing/",
+      "title": "MyCase pricing",
+      "publisher": "mycase.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "MyCase pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/",
+      "title": "PracticePanther",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "PracticePanther",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/pricing/",
+      "title": "PracticePanther pricing",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "PracticePanther pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.timesolv.com/",
+      "title": "TimeSolv",
+      "publisher": "timesolv.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "TimeSolv",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.timesolv.com/pricing/",
+      "title": "TimeSolv pricing",
+      "publisher": "timesolv.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "TimeSolv pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "PracticePanther lists Solo $49, Essential $69, Business $89, and Business Pro $114 per user per month billed annually.",
+      "source_url": "https://www.practicepanther.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "MyCase Basic costs $50 per user per month billed annually and includes a trust ledger and reconciliation.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "TimeSolv's FAQ says you pay per active user, monthly or annually.",
+      "source_url": "https://www.timesolv.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Best Legal Billing Software: 7 Tools",
+      "url": "http://www.zintego.com/blog/best-legal-billing-software-7-tools-every-law-firm-should-know/",
+      "publisher": "zintego.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "12 Best Invoicing Software for Legal Professionals",
+      "url": "http://agiled.app/blog/best-invoicing-software-for-legal-professionals",
+      "publisher": "agiled.app",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "List of Top Legal Billing Software",
+      "url": "http://softwareworld.co/legal-billing-software/",
+      "publisher": "softwareworld.co",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Top Legal Billing Software for Small Businesses",
+      "url": "http://www.softwareworld.co/legal-billing-software-for-small-businesses/",
+      "publisher": "softwareworld.co",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "11 of the best legal billing software solutions for 2026",
+      "url": "http://www.lawpay.com/about/blog/best-legal-billing-software-small-firms/",
+      "publisher": "lawpay.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-26)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Shows which plan tier actually includes trust accounting and LEDES for four tools, with a year-one cost table for a two-lawyer firm.",
+  "plan": {
+    "reader_title": "\"Billing Software for Small Law Firms: Compare the Work, Not Just the Seat Price\"",
+    "seo_title": "\"Billing Software for Small Law Firms: 2026 Prices\"",
+    "meta_description": "Compare billing software for small law firms by price, trust accounting, LEDES, and payments, with Clio, PracticePanther, MyCase, and TimeSolv checked.",
+    "slug": "/legal-tech/billing-software-for-small-law-firms/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best billing software for small law firms",
+      "time and billing software for small law firms"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "What a Small Firm Needs From Billing Software",
+      "How We Compared These Tools",
+      "1. Clio: Best for Firms That Want a Large Ecosystem",
+      "2. PracticePanther: Best for Clear Tier-by-Tier Pricing",
+      "3. MyCase: Best for Trust Accounting on the Entry Plan",
+      "4. TimeSolv: Best for Billing-First Firms",
+      "What Year One Costs for a Two-Lawyer Firm",
+      "Trust Accounting Is Not Optional",
+      "Payment Processing Fees Add Up",
+      "How to Run a Billing Trial",
+      "Signs Your Current Setup Is Costing You Money",
+      "Choosing Between Suites and Billing-Only Tools",
+      "Related Guides",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.mycase.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.practicepanther.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.practicepanther.com/pricing/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-billing-software/",
+      "/legal-tech/clio-vs-practicepanther/",
+      "/legal-tech/best-lawyer-time-tracking-software/",
+      "/legal-tech/clio-vs-mycase/",
+      "/legal-tech/trust-accounting-software-for-lawyers/"
+    ],
+    "external_link_opportunities": [
+      "https://www.mycase.com/pricing/",
+      "https://www.practicepanther.com/",
+      "https://www.practicepanther.com/pricing/",
+      "https://www.timesolv.com/",
+      "https://www.timesolv.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "PracticePanther lists Solo $49, Essential $69, Business $89, and Business Pro $114 per user per month billed annually.",
+      "source_url": "https://www.practicepanther.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "MyCase Basic costs $50 per user per month billed annually and includes a trust ledger and reconciliation.",
+      "source_url": "https://www.mycase.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "TimeSolv's FAQ says you pay per active user, monthly or annually.",
+      "source_url": "https://www.timesolv.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "tracker_id": "Blog:115",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Clio vs PracticePanther: Which Fits Your Law Firm Workflow?\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for clio vs practicepanther, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "clio vs practicepanther",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-27",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "clio vs practicepanther",
+        "type": "short-tail",
+        "volume": 70,
+        "difficulty": 14,
+        "cpc": 93.5,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/135elrf/practice_panther_or_clio/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "mycase vs clio vs practicepanther",
+        "type": "long-tail",
+        "volume": 5400,
+        "difficulty": 17,
+        "cpc": 60.47,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/135elrf/practice_panther_or_clio/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "practicepanther pricing",
+        "type": "commercial",
+        "volume": 140,
+        "difficulty": 21,
+        "cpc": 85.97,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/135elrf/practice_panther_or_clio/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "practicepanther cost",
+        "type": "problem",
+        "volume": 170,
+        "difficulty": 19,
+        "cpc": 38.83,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/135elrf/practice_panther_or_clio/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is practicepanther",
+        "type": "question",
+        "volume": 20,
+        "difficulty": 30,
+        "cpc": 53.86,
+        "intent": "Commercial",
+        "ranking_url": "http://www.reddit.com/r/LawFirm/comments/135elrf/practice_panther_or_clio/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://www.clio.com/grow/",
+      "title": "Clio Grow",
+      "publisher": "clio.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Clio Grow",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/",
+      "title": "PracticePanther",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "PracticePanther",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/comparison/clio/",
+      "title": "PracticePanther: Clio vs. PracticePanther",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "PracticePanther: Clio vs. PracticePanther",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/features/",
+      "title": "PracticePanther features",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "PracticePanther features",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.practicepanther.com/pricing/",
+      "title": "PracticePanther pricing",
+      "publisher": "practicepanther.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "PracticePanther pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "PracticePanther lists Solo $49, Essential $69, Business $89, and Business Pro $114 per user per month billed annually, or $59 to $124 monthly.",
+      "source_url": "https://www.practicepanther.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "PracticePanther's comparison page lists PantherPayments at 2.95% for card transactions and 1% per eCheck.",
+      "source_url": "https://www.practicepanther.com/comparison/clio/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Clio Grow screens inquiries for fit and conflicts and books consultations.",
+      "source_url": "https://www.clio.com/grow/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Practice Panther or Clio?",
+      "url": "http://www.reddit.com/r/LawFirm/comments/135elrf/practice_panther_or_clio/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-27)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "PracticePanther vs Clio for Law Firms",
+      "url": "http://ustechautomations.com/resources/blog/automate-practicepanther-vs-clio-for-law-firms-2026",
+      "publisher": "ustechautomations.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-27)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Clio vs. PracticePanther Detailed Comparison",
+      "url": "http://www.practicepanther.com/comparison/clio/",
+      "publisher": "practicepanther.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-27)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Clio vs. PracticePanther: a review",
+      "url": "http://www.canadianlawyermag.com/resources/legal-technology/clio-vs-practicepanther-a-review/384250",
+      "publisher": "canadianlawyermag.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-27)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Clio vs PracticePanther",
+      "url": "http://www.clio.com/compare/clio-vs-practice-panther/",
+      "publisher": "clio.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-27)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Side-by-side tier and price comparison with PracticePanther claims about Clio labeled as such, firm profiles, and a two-hour trial script.",
+  "plan": {
+    "reader_title": "\"Clio vs PracticePanther: Which Fits Your Law Firm Workflow?\"",
+    "seo_title": "\"Clio vs PracticePanther: Pricing and Features Compared\"",
+    "meta_description": "Clio vs PracticePanther compared on published pricing, trust accounting, intake, e-signature, payments, and support, with sources checked November 2026.",
+    "slug": "/legal-tech/clio-vs-practicepanther/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "mycase vs clio vs practicepanther"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "How We Compared Clio and PracticePanther",
+      "Pricing: Open Price List vs Quote",
+      "Billing and Payments",
+      "Trust Accounting",
+      "Intake and CRM",
+      "Documents and E-Signature",
+      "Support, Migration, and Exit",
+      "A Two-Hour Test Script",
+      "Firm Profiles: Which Fits Whom",
+      "Questions to Settle Before Signing",
+      "Which Should You Choose?",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.clio.com/grow/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.practicepanther.com/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.practicepanther.com/comparison/clio/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/clio-vs-mycase/",
+      "/legal-tech/clio-legal-software-total-cost/",
+      "/legal-tech/billing-software-for-small-law-firms/",
+      "/legal-tech/legal-practice-management-software/"
+    ],
+    "external_link_opportunities": [
+      "https://www.clio.com/grow/",
+      "https://www.practicepanther.com/",
+      "https://www.practicepanther.com/comparison/clio/",
+      "https://www.practicepanther.com/features/",
+      "https://www.practicepanther.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "PracticePanther lists Solo $49, Essential $69, Business $89, and Business Pro $114 per user per month billed annually, or $59 to $124 monthly.",
+      "source_url": "https://www.practicepanther.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "PracticePanther's comparison page lists PantherPayments at 2.95% for card transactions and 1% per eCheck.",
+      "source_url": "https://www.practicepanther.com/comparison/clio/",
+      "verified": true
+    },
+    {
+      "statement": "Clio Grow screens inquiries for fit and conflicts and books consultations.",
+      "source_url": "https://www.clio.com/grow/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}

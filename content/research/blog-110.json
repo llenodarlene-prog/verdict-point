@@ -1,0 +1,470 @@
+{
+  "tracker_id": "Blog:110",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"AI Contract Management Software: Contract Review vs Full CLM\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for ai contract management software, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft had no verified prices or features; all facts added from vendor pages checked 2026-11-26. Re-aimed from the owner's draft keyword to avoid overlap with the existing legal contract management post."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "ai contract management software",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-11-11",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "ai contract management software",
+        "type": "short-tail",
+        "volume": 1900,
+        "difficulty": 15,
+        "cpc": 108.67,
+        "intent": "Commercial",
+        "ranking_url": "http://oneflow.com/blog/top-ai-contract-software-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "ai contract review software",
+        "type": "long-tail",
+        "volume": 720,
+        "difficulty": 49,
+        "cpc": 49.77,
+        "intent": "Commercial",
+        "ranking_url": "http://oneflow.com/blog/top-ai-contract-software-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best ai contract review software",
+        "type": "commercial",
+        "volume": 110,
+        "difficulty": 46,
+        "cpc": 365.26,
+        "intent": "Commercial",
+        "ranking_url": "http://oneflow.com/blog/top-ai-contract-software-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "contract review ai",
+        "type": "problem",
+        "volume": 880,
+        "difficulty": 49,
+        "cpc": 99.46,
+        "intent": "Commercial",
+        "ranking_url": "http://oneflow.com/blog/top-ai-contract-software-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "what is document assembly",
+        "type": "question",
+        "volume": 10,
+        "difficulty": 5,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://oneflow.com/blog/top-ai-contract-software-tools/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://ironcladapp.com/pricing/",
+      "title": "Ironclad pricing",
+      "publisher": "ironcladapp.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Ironclad pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://ironcladapp.com/product/ironclad-ai",
+      "title": "Ironclad AI",
+      "publisher": "ironcladapp.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Ironclad AI",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.contractsafe.com/pricing",
+      "title": "ContractSafe pricing",
+      "publisher": "contractsafe.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "ContractSafe pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.contractsafe.com/small-business-contract-management-software",
+      "title": "ContractSafe small business contract management",
+      "publisher": "contractsafe.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "ContractSafe small business contract management",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.gavel.io/",
+      "title": "Gavel",
+      "publisher": "gavel.io",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Gavel",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zoho.com/contracts/",
+      "title": "Zoho Contracts",
+      "publisher": "zoho.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Zoho Contracts",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.zoho.com/contracts/pricing.html",
+      "title": "Zoho Contracts pricing",
+      "publisher": "zoho.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Zoho Contracts pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Gavel Exec offers 1,000 completions for $160 per month per user and suggested redlines directly in Word.",
+      "source_url": "https://www.gavel.io/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Ironclad lists AI-assisted drafting, editing, summarization, and redlining, plus clause and metadata extraction and a Renewal Agent.",
+      "source_url": "https://ironcladapp.com/product/ironclad-ai",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "ContractSafe pricing starts at $450 a month billed annually ($540 month-to-month).",
+      "source_url": "https://www.contractsafe.com/pricing",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Top AI contracting software tools",
+      "url": "http://oneflow.com/blog/top-ai-contract-software-tools/",
+      "publisher": "oneflow.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best AI Contract Management Software & CLM Tools in 2026",
+      "url": "http://revavenues.ai/blogs/best-ai-contract-management-software-in-2026-top-ai-clm-tools-for-legal-teams-businesses",
+      "publisher": "revavenues.ai",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Contract Software for Global Privacy and AI Policies",
+      "url": "http://www.sirion.ai/library/contract-insights/best-contract-software-global-privacy-ai-policies/",
+      "publisher": "sirion.ai",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "5 Best AI Tools for Contract Review in 2026",
+      "url": "http://www.streamline.ai/tips/best-ai-tools-contract-review",
+      "publisher": "streamline.ai",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "5 Enterprise AI Contract Management Solutions Compared",
+      "url": "http://jinba.io/blog/enterprise-ai-contract-management-solutions",
+      "publisher": "jinba.io",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-11-11)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "A dated, same-day check of four vendors that separates Word-based contract review from full lifecycle platforms, with a worked NDA example and a five-step test plan.",
+  "plan": {
+    "reader_title": "\"AI Contract Management Software: Contract Review vs Full CLM\"",
+    "seo_title": "\"AI Contract Management Software: Review Tools vs CLM\"",
+    "meta_description": "Compare AI contract management software by job, from Word-based redlining to full lifecycle platforms, with prices and AI features checked on vendor pages.",
+    "slug": "/legal-tech/ai-contract-management-software/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "ai contract review software",
+      "best ai contract review software",
+      "ai contract management software pricing"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "Contract Review or Full CLM: Which Do You Need?",
+      "How We Compared These Tools",
+      "1. Gavel Exec: Best for Redlining in Word",
+      "2. Ironclad: Best for Enterprise Contract Lifecycles",
+      "3. Zoho Contracts: Best Value for Small and Midsize Teams",
+      "4. ContractSafe: Best for Finding Contracts and Tracking Dates",
+      "A Worked Example: One NDA, Two Approaches",
+      "How to Test AI Contract Management Software",
+      "Common Buying Mistakes",
+      "Where AI Fits in Legal Contract Work",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://ironcladapp.com/pricing/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://ironcladapp.com/product/ironclad-ai"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.contractsafe.com/pricing"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/best-legal-contract-management-software/",
+      "/legal-business/contract-lifecycle-management/",
+      "/legal-business/contract-management-software-for-small-business/",
+      "/legal-tech/ai-tools-for-lawyers/"
+    ],
+    "external_link_opportunities": [
+      "https://ironcladapp.com/pricing/",
+      "https://ironcladapp.com/product/ironclad-ai",
+      "https://www.contractsafe.com/pricing",
+      "https://www.contractsafe.com/small-business-contract-management-software",
+      "https://www.gavel.io/",
+      "https://www.zoho.com/contracts/",
+      "https://www.zoho.com/contracts/pricing.html"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Gavel Exec offers 1,000 completions for $160 per month per user and suggested redlines directly in Word.",
+      "source_url": "https://www.gavel.io/",
+      "verified": true
+    },
+    {
+      "statement": "Ironclad lists AI-assisted drafting, editing, summarization, and redlining, plus clause and metadata extraction and a Renewal Agent.",
+      "source_url": "https://ironcladapp.com/product/ironclad-ai",
+      "verified": true
+    },
+    {
+      "statement": "ContractSafe pricing starts at $450 a month billed annually ($540 month-to-month).",
+      "source_url": "https://www.contractsafe.com/pricing",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}

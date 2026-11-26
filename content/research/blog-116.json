@@ -1,0 +1,497 @@
+{
+  "tracker_id": "Blog:116",
+  "status": "verified",
+  "research_question": "Owner-approved addition: \"Virtual Receptionist for Law Firms: Intake Quality Matters More Than a Greeting\". Verify every product fact and price in the owner draft against official vendor pages.",
+  "research_brief": {
+    "purpose": "Owner-supplied editorial draft for virtual receptionist for law firms, fact-checked and fitted to house rules.",
+    "audience": "Lawyers, law firm managers, and business teams in the United States.",
+    "publication_year": "2026",
+    "data_period": "Vendor pages as displayed on 2026-11-26",
+    "scope_limitations": "Claims the vendor pages did not support were corrected or cut; Owner draft was a research outline without verified prices; rewritten from vendor pages checked 2026-11-26. Keyword re-aimed (owner decision 2026-11-26) to avoid overlap with existing posts where needed. Clio pages block automated reads, so Clio facts come only from the owner's November 25, 2026 screenshots or Clio Grow's page."
+  },
+  "keyword_research": {
+    "approved_primary_keyword": "virtual receptionist for law firms",
+    "intent": "Commercial",
+    "serp_checked_at": "2026-09-19",
+    "tools": [
+      {
+        "name": "Ubersuggest",
+        "status": "verified",
+        "retrieved_at": "2026-11-26"
+      }
+    ],
+    "queries": [
+      {
+        "keyword": "virtual receptionist for law firms",
+        "type": "short-tail",
+        "volume": 110,
+        "difficulty": 29,
+        "cpc": 470.36,
+        "intent": "Commercial",
+        "ranking_url": "http://www.floridabar.org/member/benefits/practice-resources/virtual-reception/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "after hours answering service for lawyers",
+        "type": "long-tail",
+        "volume": 40,
+        "difficulty": 34,
+        "cpc": 0,
+        "intent": "Commercial",
+        "ranking_url": "http://www.floridabar.org/member/benefits/practice-resources/virtual-reception/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "best virtual receptionist for law firms",
+        "type": "commercial",
+        "volume": 50,
+        "difficulty": 30,
+        "cpc": 798.1,
+        "intent": "Commercial",
+        "ranking_url": "http://www.floridabar.org/member/benefits/practice-resources/virtual-reception/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "legal answering service cost",
+        "type": "problem",
+        "volume": 50,
+        "difficulty": 31,
+        "cpc": 73.9,
+        "intent": "Commercial",
+        "ranking_url": "http://www.floridabar.org/member/benefits/practice-resources/virtual-reception/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      },
+      {
+        "keyword": "how much does a virtual receptionist cost",
+        "type": "question",
+        "volume": 50,
+        "difficulty": 14,
+        "cpc": 35.25,
+        "intent": "Commercial",
+        "ranking_url": "http://www.floridabar.org/member/benefits/practice-resources/virtual-reception/",
+        "retrieved_at": "2026-11-26",
+        "tool": "Ubersuggest"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "url": "https://smith.ai/",
+      "title": "Smith.ai",
+      "publisher": "smith.ai",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Smith.ai",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://smith.ai/pricing/receptionists",
+      "title": "Smith.ai receptionist pricing",
+      "publisher": "smith.ai",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Smith.ai receptionist pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.abby.com/",
+      "title": "Abby Connect",
+      "publisher": "abby.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Abby Connect",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.abby.com/pricing/",
+      "title": "Abby Connect pricing",
+      "publisher": "abby.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Abby Connect pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.answeringlegal.com/",
+      "title": "Answering Legal",
+      "publisher": "answeringlegal.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Answering Legal",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.floridabar.org/member/benefits/practice-resources/virtual-reception/",
+      "title": "The Florida Bar: Virtual Receptionists",
+      "publisher": "floridabar.org",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "The Florida Bar: Virtual Receptionists",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.lexreception.com/",
+      "title": "LEX Reception",
+      "publisher": "lexreception.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "LEX Reception",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ruby.com/",
+      "title": "Ruby",
+      "publisher": "ruby.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Ruby",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    },
+    {
+      "url": "https://www.ruby.com/pricing/",
+      "title": "Ruby pricing",
+      "publisher": "ruby.com",
+      "source_type": "Primary or official page",
+      "year": "2026",
+      "published_at": "Not stated",
+      "accessed_at": "2026-11-26",
+      "scope": "Ruby pricing",
+      "method": "Opened and read the live page on 2026-11-26 (Claude fact-check); pages that block automated clients were checked against screenshots of the live page supplied by the site owner on 2026-11-25; fact-check sign-off by Darlene Aberin.",
+      "limitations": "Vendor page; prices and features can change without notice. Not legal advice.",
+      "verified": true
+    }
+  ],
+  "statistics": [
+    {
+      "claim": "Smith.ai Starter costs $300 a month for 30 calls with $11.50 overage per call.",
+      "source_url": "https://smith.ai/pricing/receptionists",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Ruby lists 50 minutes for $250 a month up to 500 minutes for $1,725.",
+      "source_url": "https://www.ruby.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    },
+    {
+      "claim": "Abby Connect Starter costs $164 a month for 50 Abby Minutes.",
+      "source_url": "https://www.abby.com/pricing/",
+      "data_year": "2026",
+      "geography": "United States",
+      "population": "Published vendor page",
+      "sample": "Not applicable",
+      "denominator": "Not applicable",
+      "unit": "US dollars or count as stated",
+      "method": "Published statement",
+      "limitations": "Vendor-published figure; can change.",
+      "sponsored": false,
+      "partial_year": false,
+      "estimate": false,
+      "verified": true
+    }
+  ],
+  "competitors": [
+    {
+      "title": "Virtual Receptionists",
+      "url": "http://www.floridabar.org/member/benefits/practice-resources/virtual-reception/",
+      "publisher": "floridabar.org",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-19)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Virtual Receptionist",
+      "url": "http://www.reddit.com/r/LawFirm/comments/190sf6s/virtual_receptionist/",
+      "publisher": "reddit.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-19)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "4 Best Law Firm Answering Services",
+      "url": "http://www.mycase.com/blog/client-management/law-firm-answering-service/",
+      "publisher": "mycase.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-19)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "LEX Reception",
+      "url": "http://www.lexreception.com/",
+      "publisher": "lexreception.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-19)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    },
+    {
+      "title": "Best Virtual Receptionists for Law Firms",
+      "url": "http://attorneyatlawmagazine.com/legal-vendors/virtual-receptionist/best-virtual-receptionists-for-law-firms",
+      "publisher": "attorneyatlawmagazine.com",
+      "format": "Ranking page",
+      "updated_at": "Not stated",
+      "headings": [
+        "Not reviewed in full"
+      ],
+      "coverage": [
+        "Product overview or vendor page"
+      ],
+      "sources": [
+        "Not reviewed in full"
+      ],
+      "data_assets": [
+        "Not reviewed in full"
+      ],
+      "link_patterns": [
+        "Not reviewed in full"
+      ],
+      "trust_signals": [
+        "SERP position from Ubersuggest (collected 2026-09-19)"
+      ],
+      "covered_well": "Ranks for the primary keyword.",
+      "gaps": "Single-vendor or undated view; no dated cross-vendor price check."
+    }
+  ],
+  "content_gaps": [
+    "Top results are mostly single-vendor pages that do not compare published prices on one date.",
+    "Few ranking pages show the arithmetic behind a total monthly cost."
+  ],
+  "value_add": "Compares five services by pricing unit, intake, Spanish, and AI options, with a 60-call monthly cost example and an intake script checklist.",
+  "plan": {
+    "reader_title": "\"Virtual Receptionist for Law Firms: Intake Quality Matters More Than a Greeting\"",
+    "seo_title": "\"Virtual Receptionist for Law Firms: 2026 Price Guide\"",
+    "meta_description": "Compare a virtual receptionist for law firms by price, calls or minutes, legal intake, Spanish, AI options, and CRM links, with five services checked.",
+    "slug": "/legal-tech/virtual-receptionist-for-law-firms/",
+    "search_intent": "Commercial",
+    "secondary_keywords": [
+      "best virtual receptionist for law firms"
+    ],
+    "outline": [
+      "Introduction",
+      "Key Takeaways",
+      "Quick Comparison",
+      "Calls or Minutes: Why the Unit Matters",
+      "How We Compared These Services",
+      "1. Smith.ai: Best for Predictable Per-Call Pricing",
+      "2. Ruby: Best for Live Human Answering",
+      "3. Abby Connect: Best Low Entry Price",
+      "4. Answering Legal: Best for Law-Only Focus",
+      "5. LEX Reception: Best for Firms That Want No AI",
+      "What 60 New-Client Calls Cost",
+      "What Good Legal Intake on a Call Looks Like",
+      "Questions to Ask Before You Sign",
+      "Signs You Need a Virtual Receptionist",
+      "Ethics and Confidentiality",
+      "Connect Calls to Your Intake System",
+      "Frequently Asked Questions",
+      "Resources"
+    ],
+    "evidence_map": [
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://smith.ai/"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://smith.ai/pricing/receptionists"
+        ]
+      },
+      {
+        "section": "See body citation",
+        "sources": [
+          "https://www.abby.com/"
+        ]
+      }
+    ],
+    "visuals": [
+      "Featured image",
+      "Vendor screenshots",
+      "Comparison and cost tables"
+    ],
+    "internal_links": [
+      "/legal-tech/legal-technology-statistics/",
+      "/legal-tech/legal-intake-software/",
+      "/legal-tech/best-legal-crm-software/"
+    ],
+    "external_link_opportunities": [
+      "https://smith.ai/",
+      "https://smith.ai/pricing/receptionists",
+      "https://www.abby.com/",
+      "https://www.abby.com/pricing/",
+      "https://www.answeringlegal.com/",
+      "https://www.floridabar.org/member/benefits/practice-resources/virtual-reception/",
+      "https://www.lexreception.com/",
+      "https://www.ruby.com/",
+      "https://www.ruby.com/pricing/"
+    ],
+    "excluded_claims": [
+      "Unverifiable or blocked sources cut: ACC CLO survey figures, ABA Formal Opinions 08-451 and 512, ABA Business Law Section page, Clio pricing page, Reuters coverage of the ALSP report"
+    ],
+    "drafting_cautions": [
+      "Label vendor prices with the check date",
+      "No legal advice"
+    ]
+  },
+  "claims": [
+    {
+      "statement": "Smith.ai Starter costs $300 a month for 30 calls with $11.50 overage per call.",
+      "source_url": "https://smith.ai/pricing/receptionists",
+      "verified": true
+    },
+    {
+      "statement": "Ruby lists 50 minutes for $250 a month up to 500 minutes for $1,725.",
+      "source_url": "https://www.ruby.com/pricing/",
+      "verified": true
+    },
+    {
+      "statement": "Abby Connect Starter costs $164 a month for 50 Abby Minutes.",
+      "source_url": "https://www.abby.com/pricing/",
+      "verified": true
+    }
+  ],
+  "fact_check": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  },
+  "qa": {
+    "completed": true,
+    "reviewer": "Darlene Aberin",
+    "reviewed_at": "2026-11-26"
+  }
+}
