@@ -1,15 +1,16 @@
 <section class="bhc seo" id="calculator" aria-labelledby="probate-fee-title" data-calc="probate-fee">
   <div class="bhc-head"><span class="bhc-badge">{{icon:scale}}</span><div><h2 id="probate-fee-title" class="bhc-title">Calculator</h2>
   <p class="bhc-privacy">{{icon:shield-lock}}Your figures stay in your browser and are not sent to Verdict Point.</p></div></div>
-  <p class="bhc-version">Florida schedule: 2026 Florida Statutes, section 733.6171, reviewed November 18, 2026. The schedule is presumed reasonable, not mandatory.</p>
+  <p class="bhc-version">Florida: 2026 Florida Statutes, section 733.6171, reviewed November 18, 2026. California: Probate Code section 10810, reviewed November 26, 2026.</p>
   <noscript><p class="bhc-noscript">The interactive calculator needs JavaScript. The fee schedule and worked example below work without it.</p></noscript>
   <div class="bhc-panel">
     <form class="bhc-form" novalidate>
-      <fieldset class="seo-group"><legend>{{icon:scale}}Florida Estate Values</legend>
+      <fieldset class="seo-group"><legend>{{icon:scale}}Estate Values</legend>
       <div class="bhc-row">
+      <div class="bhc-field"><label for="probate-fee-state">State</label><select id="probate-fee-state" name="state" aria-describedby="probate-fee-state-help"><option value="florida">Florida</option><option value="california">California</option></select><p class="bhc-note" id="probate-fee-state-help">Each state uses its own schedule.</p></div>
       <div class="bhc-field"><label for="probate-fee-inventory">Inventory value of probate estate assets ($)</label><input id="probate-fee-inventory" name="inventory" inputmode="decimal" aria-describedby="probate-fee-inventory-help probate-fee-inventory-err"><p class="bhc-note" id="probate-fee-inventory-help">From the estate inventory.</p><p class="bhc-err" id="probate-fee-inventory-err"></p></div>
-      <div class="bhc-field"><label for="probate-fee-income">Income earned during administration ($)</label><input id="probate-fee-income" name="income" inputmode="decimal" aria-describedby="probate-fee-income-help probate-fee-income-err"><p class="bhc-note" id="probate-fee-income-help">Interest, rent, dividends, and similar. Enter 0 if none.</p><p class="bhc-err" id="probate-fee-income-err"></p></div>
-      <div class="bhc-field"><label for="probate-fee-grossEstate">Gross estate for a federal estate tax return ($, optional)</label><input id="probate-fee-grossEstate" name="grossEstate" inputmode="decimal" aria-describedby="probate-fee-grossEstate-help probate-fee-grossEstate-err"><p class="bhc-note" id="probate-fee-grossEstate-help">Only if the attorney prepares the return.</p><p class="bhc-err" id="probate-fee-grossEstate-err"></p></div>
+      <div class="bhc-field"><label for="probate-fee-income">Income, or gains and receipts ($)</label><input id="probate-fee-income" name="income" inputmode="decimal" aria-describedby="probate-fee-income-help probate-fee-income-err"><p class="bhc-note" id="probate-fee-income-help">Florida: income earned. California: gains and receipts, less losses.</p><p class="bhc-err" id="probate-fee-income-err"></p></div>
+      <div class="bhc-field"><label for="probate-fee-grossEstate">Gross estate for a federal estate tax return ($, optional)</label><input id="probate-fee-grossEstate" name="grossEstate" inputmode="decimal" aria-describedby="probate-fee-grossEstate-help probate-fee-grossEstate-err"><p class="bhc-note" id="probate-fee-grossEstate-help">Florida only, if the attorney prepares the return.</p><p class="bhc-err" id="probate-fee-grossEstate-err"></p></div>
       </div></fieldset>
       <div class="bhc-actions"><button type="submit" class="bhc-primary">{{icon:calculator}}Calculate</button><button type="button" data-action="example">{{icon:sparkles}}Use example</button><button type="button" data-action="clear">{{icon:x}}Clear</button></div>
     </form>

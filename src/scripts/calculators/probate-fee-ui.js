@@ -11,7 +11,7 @@ function init(root) {
   const live = root.querySelector('[data-live]');
   const stepsWrap = root.querySelector('[data-steps-wrap]');
   const stepsOut = root.querySelector('[data-steps]');
-  const fields = ['inventory', 'income', 'grossEstate'].map(key => ({ key }));
+  const fields = [{ key: 'state', type: 'select' }, { key: 'inventory' }, { key: 'income' }, { key: 'grossEstate' }];
   const el = (tag, attrs = {}, text) => { const node = document.createElement(tag); for (const [k, v] of Object.entries(attrs)) node.setAttribute(k, v); if (text !== undefined) node.textContent = text; return node; };
   const SVGNS = 'http://www.w3.org/2000/svg';
   const icon = name => { const svg = document.createElementNS(SVGNS, 'svg'); svg.setAttribute('class', 'ti'); svg.setAttribute('aria-hidden', 'true'); svg.setAttribute('focusable', 'false'); const use = document.createElementNS(SVGNS, 'use'); use.setAttribute('href', `#ti-${name}`); svg.append(use); return svg; };
@@ -71,7 +71,7 @@ function init(root) {
     for (const row of r.table.rows) { const tr = el('tr'); row.forEach((c, i) => tr.append(el(i === 0 ? 'th' : 'td', i === 0 ? { scope: 'row' } : {}, c))); tbody.append(tr); }
     table.append(thead, tbody);
     stepsOut.replaceChildren(table); stepsWrap.hidden = false;
-    summary = ['Verdict Point Probate Attorney Fee Calculator', `${r.headline.label}: ${r.headline.value}`, ...r.summary, '', 'Florida s. 733.6171 schedule, presumed reasonable, not mandatory. Not legal advice.', `Calculated ${new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}`, location.origin + location.pathname].join('\n');
+    summary = ['Verdict Point Probate Attorney Fee Calculator', `${r.headline.label}: ${r.headline.value}`, ...r.summary, '', (input('state').value === 'california' ? 'California Probate Code s. 10810 statutory fee schedule. Not legal advice.' : 'Florida s. 733.6171 schedule, presumed reasonable, not mandatory. Not legal advice.'), `Calculated ${new Date().toLocaleDateString('en-US', { dateStyle: 'long' })}`, location.origin + location.pathname].join('\n');
     if (announce) live.textContent = `${r.headline.label}: ${r.headline.value}.`;
     if (focus && window.matchMedia('(max-width: 767px)').matches) root.querySelector('[data-result-h]').focus();
   }
@@ -88,7 +88,7 @@ function init(root) {
     const button = e.target.closest('button[data-action]');
     if (!button) return;
     const action = button.dataset.action;
-    if (action === 'example') { for (const [k, v] of Object.entries(EXAMPLE)) input(k).value = String(v); run({ focus: true }); live.textContent = 'Example figures loaded.'; }
+    if (action === 'example') { for (const [k, v] of Object.entries(EXAMPLE)) { const node = input(k); if (!node) continue; if (node.type === "checkbox") node.checked = !!v; else node.value = String(v); } run({ focus: true }); live.textContent = 'Example figures loaded.'; }
     if (action === 'clear') { for (const f of fields) { const node = input(f.key); if (f.type === 'select') node.selectedIndex = 0; else if (f.type === 'check') node.checked = false; else node.value = ''; } run({ announce: false }); live.textContent = 'Calculator cleared.'; }
     if (action === 'copy') copyText(button, summary || 'No result to copy yet.');
     if (action === 'print') { stepsWrap.open = true; document.body.dataset.bhcPrint = 'calc'; window.print(); }

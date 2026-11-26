@@ -3,7 +3,14 @@
 // income benefits at 75 percent of the average weekly TTD benefit, not above the s. 440.12 maximum, reduced 50 percent for
 // weeks with earnings at or above the average weekly wage) and s. 440.15(3)(g) (weeks per impairment point for accidents
 // on or after October 1, 2003). Maximum rates: Florida CFO Division of Workers' Compensation maximum compensation rate table.
-export const RULES_VERSION = 'Florida Statutes 2026, s. 440.15 and s. 440.12; CFO maximum rate table; reviewed 2026-11-23';
+// Texas: Labor Code s. 408.121 (3 weeks per impairment point, from the day after maximum medical improvement), s. 408.126
+// (70 percent of the average weekly wage), s. 408.061(b) and 408.062 (maximum 70 percent and minimum 15 percent of the state
+// average weekly wage; the dollar amounts are set each fiscal year, so the user enters them). Georgia: O.C.G.A. 34-9-263(c)
+// (two-thirds of the average weekly wage for rating percent times the member's maximum weeks) and 34-9-261 (maximum $800 and
+// minimum $50 a week). Both from owner-supplied official copies, reviewed 2026-11-26.
+export const RULES_VERSION = 'Florida Statutes 2026, s. 440.15 and s. 440.12; Texas Labor Code ch. 408; O.C.G.A. 34-9-261 and 34-9-263 (2025); reviewed 2026-11-26';
+export const GA_MAX = 800, GA_MIN = 50;
+export const GA_WEEKS = Object.freeze({ body: ['Body as a whole', 300], arm: ['Arm', 225], leg: ['Leg', 225], hand: ['Hand', 160], foot: ['Foot', 135], thumb: ['Thumb', 60], index: ['Index finger', 40], middle: ['Middle finger', 35], ring: ['Ring finger', 30], little: ['Little finger', 25], 'great-toe': ['Great toe', 30], toe: ['Other toe', 20], 'hearing-one': ['Hearing, one ear', 75], 'hearing-both': ['Hearing, both ears', 150], eye: ['Vision, one eye', 150] });
 export const FL_MAX = { 2025: 1295, 2026: 1358 };
 export const FL_MIN = 20;
 const money = n => n.toLocaleString('en-US', { style: 'currency', currency: 'USD', minimumFractionDigits: 2, maximumFractionDigits: 2 });
@@ -26,7 +33,7 @@ export function floridaIib(aww, year) {
   return round2(Math.min(ttd * 0.75, FL_MAX[year]));
 }
 
-export function compute(v = {}) {
+function floridaCompute(v = {}) {
   const year = Number(v.year) || 2026;
   if (!(v.aww > 0)) return { empty: 'Enter the average weekly wage and the impairment rating.' };
   if (!(v.rating >= 1)) return { empty: 'Enter an impairment rating of 1% or more to the body as a whole.' };
@@ -49,3 +56,29 @@ export function compute(v = {}) {
   };
 }
 export const EXAMPLE = { aww: '1200', rating: '12', year: '2026', workWeeks: '' };
+
+export function georgiaWeekly(aww) { if (!(aww > 0)) return null; if (aww < GA_MIN) return round2(aww); return round2(Math.min(GA_MAX, Math.max(GA_MIN, aww * 2 / 3))); }
+export function georgiaWeeks(rating, part) { const p = GA_WEEKS[part] || GA_WEEKS.body; return round2(rating / 100 * p[1]); }
+export function texasWeekly(aww, max, min) { if (!(aww > 0)) return null; let w = aww * 0.7; if (max > 0) w = Math.min(w, max); if (min > 0) w = Math.max(w, min); return round2(w); }
+function result(label, weekly, weeks, rows, notes, formula, tiles) {
+  const total = round2(weekly * weeks);
+  rows.push(['Estimated total', '', money(total)]);
+  return { headline: { icon: 'scale', label, value: money(total) }, tiles: [['receipt-2', 'Weekly benefit', money(weekly), tiles[0]], ['calendar-event', 'Benefit weeks', String(weeks), tiles[1]]], notes, formula, table: { caption: 'How the estimate adds up', head: ['Step', 'Basis', 'Amount'], rows }, summary: rows.map(r => `${r[0]}: ${r[2]}`) };
+}
+export function compute(v = {}) {
+  if (v.state === 'texas') {
+    if (!(v.aww > 0) || !(v.rating >= 1) || v.rating > 100) return { empty: 'Enter the average weekly wage and an impairment rating from 1 to 100.' };
+    const weekly = texasWeekly(v.aww, v.txMax, v.txMin), weeks = Math.floor(v.rating) * 3;
+    const rows = [['Weekly impairment income benefit', `70% of ${money(v.aww)}${v.txMax > 0 ? `, capped at ${money(v.txMax)}` : ''}`, money(weekly)], ['Weeks of benefits', `3 weeks × ${Math.floor(v.rating)}% (s. 408.121)`, `${weeks} weeks`]];
+    const notes = ['Texas pays impairment income benefits from the day after maximum medical improvement (s. 408.121). The weekly maximum is 70% of the state average weekly wage and the minimum is 15%, set each fiscal year and fixed by your date of injury (s. 408.061, 408.062). Enter both from the Texas Department of Insurance rate table.'];
+    if (!(v.txMax > 0)) notes.unshift('No weekly maximum was entered, so the estimate is not capped. Enter the maximum for your injury date to apply it.');
+    return result('Estimated Texas impairment income benefits', weekly, weeks, rows, notes, 'Texas: weekly benefit = 70% of the average weekly wage, within the yearly maximum and minimum. Weeks = 3 × impairment rating.', ['70% of the wage', `${Math.floor(v.rating)}% rating`]);
+  }
+  if (v.state === 'georgia') {
+    if (!(v.aww > 0) || !(v.rating > 0) || v.rating > 100) return { empty: 'Enter the average weekly wage and a disability rating from 1 to 100.' };
+    const part = GA_WEEKS[v.bodyPart] || GA_WEEKS.body, weekly = georgiaWeekly(v.aww), weeks = georgiaWeeks(v.rating, v.bodyPart);
+    const rows = [['Weekly benefit', `Two-thirds of ${money(v.aww)}, between ${money(GA_MIN)} and ${money(GA_MAX)}`, money(weekly)], ['Weeks of benefits', `${v.rating}% × ${part[1]} maximum weeks for ${part[0].toLowerCase()} (34-9-263(c))`, `${weeks} weeks`]];
+    return result('Estimated Georgia permanent partial disability benefits', weekly, weeks, rows, ['Georgia pays these benefits only after temporary total or partial benefits end (34-9-263(b)). Ratings must use the AMA Guides, fifth edition (34-9-263(d)). The $800 maximum applies to injuries on or after July 1, 2023.'], 'Georgia: weekly benefit = two-thirds of the average weekly wage ($50 minimum, $800 maximum). Weeks = rating % × the maximum weeks for the body part.', ['Two-thirds of the wage', part[0]]);
+  }
+  return floridaCompute(v);
+}
